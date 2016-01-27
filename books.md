@@ -1,10 +1,11 @@
 # Books
 
-* [POODR: Practical Object-Oriented Design in Ruby](https://github.com/skmetz/poodr)
-* ReWork
-* Professional JavaScript for Web Developers
-* Thinking in Systems
-* Zen Mind, Beginners Mind
-* Design Patterns
-* The Pragmatic Programmer
-* Code Complete
+- [ ] Code Complete
+- [ ] Emerick et al., "Clojure Programming"
+- [ ] Gamma et al., "Design Patterns"
+- [ ] Hofstadter, "Gödel, Escher, Bach"
+- [ ] ReWork
+- [ ] The Pragmatic Programmer
+- [ ] Thinking in Systems
+- [ ] Zen Mind, Beginners Mind
+- [x] POODR: Practical Object-Oriented Design in Ruby
