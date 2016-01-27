@@ -19,3 +19,5 @@ Any time an object has `Mailer` injected as a dependency, the Container will inj
   $this->app->make(SomeClass::class) // alternate syntax
   $this->app->bind(Mailer::class, function ($app) {}
 ```
+
+- playing around with using gitbooks.io to publish this repo
