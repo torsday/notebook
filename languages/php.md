@@ -257,7 +257,9 @@ trait neatBehaviors {
 class User {
   use neatBehaviors;
 }
+```
 
+```php
 You can include multiple traits by separating them with commas:
 
 class User {
