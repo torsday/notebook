@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Learning Log](learning_log.md)
+* [Setup](setup/setup.md)
 * [Domain Driven Design](ddd/domain_driven_design.md)
    * [Architecture](ddd/architecture.md)
    * [Model](ddd/model.md)
