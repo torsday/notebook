@@ -4,6 +4,8 @@
 
 ## Week of 2016-01-25
 
+---
+
 2016-01-26
 
 - Playing around with GitBook. Not yet settled on how I want to store/publish my notes.
