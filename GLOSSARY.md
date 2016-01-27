@@ -8,6 +8,10 @@ https://github.com/GitbookIO/gitbook
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
 
+## Private
+
+Accessible only within the class itself.
+
 ## Protected
 
 Accessible within the class itself and subclasses.
@@ -28,6 +32,6 @@ A Service in Domain Driven Design is simply a stateless object that performs an 
 
 Sets of methods that are not inherited, but composed into classes.
 
-## Private
+## Currying
 
-Accessible only within the class itself.
+The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
