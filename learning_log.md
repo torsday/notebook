@@ -20,4 +20,4 @@ Any time an object has `Mailer` injected as a dependency, the Container will inj
   $this->app->bind(Mailer::class, function ($app) {}
 ```
 
-- playing around with using gitbooks.io to publish this repo
+- playing around with using gitbooks.io to publish this repo, you can find it here: https://torsday.gitbooks.io/notebook/content/learning_log.html
