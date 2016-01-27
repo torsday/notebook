@@ -259,9 +259,9 @@ class User {
 }
 ```
 
-```php
 You can include multiple traits by separating them with commas:
 
+```php
 class User {
   use neatBehaviors, badBehaviors, shenanagins;
 }
