@@ -251,7 +251,9 @@ A closure is a special kind of object that combines two things: a function, and 
   -  strict mode eliminates some JavaScript silent errors by changing them to throw errors.
   -  strict mode fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode strict mode prohibits some syntax likely to be defined in future versions of ECMAScript.
 
--  **Create a for loop that iterates up to `100` while outputting *fizz* at multiples of `3`, `"buzz"` at multiples of `5` and *fizzbuzz* at multiples of `3` and `5`**`js
+-  **Create a for loop that iterates up to `100` while outputting *fizz* at multiples of `3`, `"buzz"` at multiples of `5` and *fizzbuzz* at multiples of `3` and `5`**
+
+  ```js
   function fizzBuzz() {
       var response
       for(var i=1; i <= 100; i++) {
@@ -261,7 +263,7 @@ A closure is a special kind of object that combines two things: a function, and 
           console.log(i + ": " + response)
       }
   }
-  `
+  ```
 
 -  **Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?**
 
