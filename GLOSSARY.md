@@ -4,7 +4,7 @@
 
 https://github.com/GitbookIO/gitbook
 
-## Interfaces
+## Interface
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
 
