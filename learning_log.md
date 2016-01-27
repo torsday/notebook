@@ -5,7 +5,7 @@
 ## Week 1
 
 2016-01-26
-- Playing around with GitBook. Not yet settled on how I want to store/publish my notes.
+- Playing around with [GitBook](https://github.com/GitbookIO/gitbook). Not yet settled on how I want to store/publish my notes.
     - partly inspired by John's notes: [github.com/qsymmachus/notes](https://github.com/qsymmachus/notes), I think the most valuable element of that inspiration may very well be the [learning log](learning_log.md) concept.
 
 ```
