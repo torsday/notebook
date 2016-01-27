@@ -1,6 +1,6 @@
 # Front-End Interview Questions
 
-an answered and custom version of [h5bp's "Front-end-Developer-Interview-Questions"](https://github.com/h5bp/Front-end-Developer-Interview-Questions) repo...
+An answered and custom version of [h5bp's "Front-end-Developer-Interview-Questions"](https://github.com/h5bp/Front-end-Developer-Interview-Questions) repo...
 
 This file contains a number of front-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
