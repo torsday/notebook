@@ -246,7 +246,7 @@ class Spaniard implements Speech {
 
 Sets of methods that are not inherited, but composed into classes.
 
-There is precedence order for methods within a class. Methods defined in the current class override trait methods, while trait methods override inherited methods.
+There is precedence order for methods within a class. **Methods defined in the current class override trait methods**, while **trait methods override inherited methods**.
 
 ```php
 trait neatBehaviors {
