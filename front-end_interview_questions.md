@@ -201,9 +201,16 @@ A closure is a special kind of object that combines two things: a function, and 
 
   -  Attributes are defined by HTML. Properties are defined by DOM.
   -  An attribute is only ever a string, no other type
-  -  If an element has a default value, the attribute shows the default value even if the value has changed.\`\`\`<input type="text" name="username" value="user123">
+  -  If an element has a default value, the attribute shows the default value even if the value has changed.
 
-    $('input').prop('value', '456user'); $('input').prop('value'); // returns "456user" $('input').attr('value'); // returns "user123"\`\`\`
+  ```html
+  <input type="text" name="username" value="user123">
+  ```
+
+  ```js
+  $('input').prop('value', '456user'); $('input').prop('value'); // "456user"
+  $('input').attr('value'); // "user123"
+  ```
 
 -  **Why is extending built-in JavaScript objects not a good idea?**
 
