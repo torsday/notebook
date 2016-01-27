@@ -77,7 +77,9 @@ join(", ", $myArray);
 <=
 ==
 !=
+```
 
+```php
 if (condition) {
 
 }
@@ -87,7 +89,9 @@ elseif (condition) {
 else {
 
 }
+```
 
+```php
 switch(value) {
   case 0:
     echo "The value is 0";
@@ -112,17 +116,23 @@ switch(value) {
 for ($i=0; $i < 10; $i++) {
   echo $i;
 }
+```
 
+```php
 $fruits = array("apple", "banana", "orange");
 
 foreach ($fruits as $fruit) {
   echo $fruit;
 }
+```
 
+```php
 while (condition) {
   // do some stuff
 }
+```
 
+```php
 do {
   // This will run at once before testing the conditon
 } while (condition)
@@ -194,9 +204,7 @@ class Fireman extends Person {
 
 ## Class Abstraction
 
-Abstract classes and methods may not be instantiated, and serve only to define
-a set of properties and methods all subclasses share. All methods marked as
-"abstract" must be defined by subclasses.
+Abstract classes and methods may not be instantiated, and serve only to define a set of properties and methods all subclasses share. All methods marked as "abstract" must be defined by subclasses.
 
 ```php
 abstract class Animal {
