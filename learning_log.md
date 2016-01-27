@@ -2,13 +2,14 @@
 
 ---
 
-## Week 1
+## Week of 2016-01-25
 
 2016-01-26
+
 - Playing around with GitBook. Not yet settled on how I want to store/publish my notes.
     - partly inspired by John's notes: [github.com/qsymmachus/notes](https://github.com/qsymmachus/notes), I think the most valuable element of that inspiration may very well be the [learning log](learning_log.md) concept.
 
-– Laravel/Lumen Container: manages class dependencies and aids with dependency injection, by "binding" dependency interfaces to dependency implementations. These bindings are registered in Service Providers. An instance of Container is available in all Service Providers as `app`:
+- Laravel/Lumen Container: manages class dependencies and aids with dependency injection, by "binding" dependency interfaces to dependency implementations. These bindings are registered in Service Providers. An instance of Container is available in all Service Providers as `app`:
 
 ```php
 return new MailgunMailer($app[Credentials::class]) })
@@ -23,3 +24,8 @@ $this->app->bind(Mailer::class, function ($app) {}
 ```
 
 - playing around with using gitbooks.io to publish this repo, you can find it here: https://torsday.gitbooks.io/notebook/content/learning_log.html
+
+
+---
+
+2016-01-27
