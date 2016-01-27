@@ -230,9 +230,10 @@ A closure is a special kind of object that combines two things: a function, and 
 
   ```js
   duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
+  ```
+  Solution
 
-  // SOLUTION
-
+  ```js
   function duplicate(args) {
       return args.concat(args)
   }
