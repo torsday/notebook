@@ -13,7 +13,7 @@
 * [Languages](languages/languages.md)
    * [PHP](languages/php.md)
    * [Javascript](languages/javascript.md)
-   * Objective-C
+   * [Objective-C](languages/objective-c.md)
 * [Front-End Interview Questions](front-end_interview_questions.md)
 * [Tools](tools/tools.md)
    * [Vim](tools/vim.md)
