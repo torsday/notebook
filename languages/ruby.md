@@ -1,21 +1,21 @@
 # Ruby
 
-STRING METHODS
+## String Methods
 
+```ruby
 .length
 .reverse
 .upcase
 .downcase
-.capitalize		capitalizes the first letter
-.include? "x"		tests if string contains "x"
-.match			works like .include?
+.capitalize  # capitalizes the first letter
+.include? "x"   # tests if string contains "x"
+.match   # works like .include?
 .start_with?("x")
 .end_with?("x")
 
-“a”.next		=> “b”
+“a”.next  => “b”
 
-
-#{}			string interpolation - "My name is #{name}"
+"#{}"  string interpolation - "My name is #{name}"
 
 # Returns a copy of str with the all occurrences of pattern substituted.
 # Pattern is typically a regex.
@@ -24,43 +24,38 @@ STRING METHODS
 # Iterates through the string, returns an array of all results matching the pattern
 .scan(pattern)
 
-.insert(index, “something”)			
-
-
+.insert(index, “something”)
+```
 
 ___________________________________________________________________
 
 NUMBER METHODS
 
-.abs			absolute value
-.ceil			rounds float up
-.floor			rounds float down
-.eql?(n)		is the object equal to n?
+.abs   absolute value
+.ceil   rounds float up
+.floor   rounds float down
+.eql?(n)  is the object equal to n?
 
 ___________________________________________________________________
 
 
 MISC
 
-gets			raw input from user (get string)
-gets.chomp		raw input from user w/o extra line
-.is_a? Integer		tests whether == given data type
+gets   raw input from user (get string)
+gets.chomp  raw input from user w/o extra line
+.is_a? Integer  tests whether == given data type
 
-rand			generates random float between 0 and 1
-rand(n)			generates random integer between 0 and n, exclusive
+rand   generates random float between 0 and 1
+rand(n)   generates random integer between 0 and n, exclusive
 
-.sort			sorts numerically or alphabetically. For a reverse sort, include 			the following block as a parameter:
+.sort   sorts numerically or alphabetically. For a reverse sort, include    the following block as a parameter: array.sort! { |first, second| second <=> first }  # or  array.sort.reverse!
 
-			array.sort! { |first, second| second <=> first }
-			# or
-			array.sort.reverse!
+.to_s   converts a variable to a string
+.to_i   converts to integer
+.to_f   converts to float
+.to_sym #or .intern converts a string to a symbol
 
-.to_s			converts a variable to a string
-.to_i			converts to integer
-.to_f			converts to float
-.to_sym #or .intern	converts a string to a symbol
-
-object.replace(object.method)	replaces object with the output of method (liked .method!)
+object.replace(object.method) replaces object with the output of method (liked .method!)
 
 ___________________________________________________________________
 
@@ -76,8 +71,8 @@ COMPARISON OPERATORS
 BOOLEAN OPERATORS
 
 &&
-||			or
-!			not
+||   or
+!   not
 
 
 OPERATORS
@@ -87,12 +82,12 @@ OPERATORS
 *=
 /=
 
-||=			conditional assignment operator - only assigns a value to a 				variable if the current value of the variable is nil.
+||=   conditional assignment operator - only assigns a value to a     variable if the current value of the variable is nil.
 
 
 COMBINED COMPARISON OPERATOR
 
-<=>			Returns 0 if the first operand (item to be compared) equals the 			second, 1 if first operand is greater than the second, and -1 if 			the first operand is less than the second.
+<=>   Returns 0 if the first operand (item to be compared) equals the    second, 1 if first operand is greater than the second, and -1 if    the first operand is less than the second.
 
 ___________________________________________________________________
 
@@ -100,25 +95,25 @@ ___________________________________________________________________
 ARRAYS
 
 array = [1, 2, 3]
-array[0] 		fetch item at given index
-array[0][0]		fetch item at given index (2D array or beyond)
-array[0] = 1		set item at given index
-array << 23		add item to end of array ("concatenation operation")
+array[0]   fetch item at given index
+array[0][0]  fetch item at given index (2D array or beyond)
+array[0] = 1  set item at given index
+array << 23  add item to end of array ("concatenation operation")
 
-array.push(element)	<< is a shortcut for this
+array.push(element) << is a shortcut for this
 array.pop(element)
 
-array.unshift(element)	like push but it adds to beginning of array
-array.shift(element) 	like pop but it removes from beginning of array
+array.unshift(element) like push but it adds to beginning of array
+array.shift(element)  like pop but it removes from beginning of array
 
-array.first		returns first element
-array.length		returns # of elements
+array.first  returns first element
+array.length  returns # of elements
 array.empty?
 array.include?(x)
-array.index(x)	What index is the given element at?
+array.index(x) What index is the given element at?
 
-array.join(x)		returns elements as string separated by x
-string.split(x)		turns a string into an array with x as separator
+array.join(x)  returns elements as string separated by x
+string.split(x)  turns a string into an array with x as separator
 
 ___________________________________________________________________
 
@@ -126,14 +121,10 @@ ___________________________________________________________________
 LOOPS
 
 while
-until			opposite of while (stops when false)
-for x in 1...10		Up to 10, exclusive (9 times), e.g.:
+until   opposite of while (stops when false)
+for x in 1...10  Up to 10, exclusive (9 times), e.g.: for num in 1...10   puts num  end
 
-			for num in 1...10
-  			  puts num
-			end
-
-for x in 1..10		Up to 10, inclusive (10 times)
+for x in 1..10  Up to 10, inclusive (10 times)
 
 ___________________________________________________________________
 
@@ -172,14 +163,8 @@ METHODS THAT TAKE BLOCKS
 YIELD – You can make your own methods that take blocks with yield.
 
 def method(n)
-  yield n 		Passes "n" to the block. yield can also be standalone.
-end
-
-				def double(num)
-  				  yield num
-				end
-
-				double(3) { |x| x*2 }
+  yield n   Passes "n" to the block. yield can also be standalone.
+end  def double(num)    yield num   end  double(3) { |x| x*2 }
 
 
 
@@ -234,132 +219,142 @@ array.map(&:reverse)
 
 SELECT – returns values that matches the conditions defined in the block.
 
-array.select { |x| x > 3}		
+array.select { |x| x > 3}  
 
 
 
 .UPTO, .DOWNTO
 
-1.upto(5) { |number| puts number}		1 2 3 4 5
-"L".upto("O") { |letter| puts letter}		L M N O
-5.downto(1) { |number| puts number}		5 4 3 2 1
+1.upto(5) { |number| puts number}  1 2 3 4 5
+"L".upto("O") { |letter| puts letter}  L M N O
+5.downto(1) { |number| puts number}  5 4 3 2 1
 
 
-array.reduce(:+)	Returns sum of values in array. + is passed like a block.
-array.inject(:+)	Works similarly.
+array.reduce(:+) Returns sum of values in array. + is passed like a block.
+array.inject(:+) Works similarly.
 
 ___________________________________________________________________
 
 
-HASHES: LITERAL NOTATION
+## Hashes
 
+Literal Notation
+
+```ruby
 my_hash = {
   "name" => "Eric",
   "age" => 26,
   "hungry?" => true
 }
+```
 
 It's often faster to use symbols (:symbol) as keys. In Ruby 1.9 onward you can use this notation:
 
+```ruby
 my_hash = {
    name: "Eric",
    age: 26,
    hungry: true
 }
+```
 
-
-HASHES: .NEW NOTATION
+### ```.new``` notation
 
 my_hash = Hash.new
 
-my_hash["name"] = "Eric"		Adds (or changes) key-value pair.
-my_hash = Hash.new("derp")		creates a hash with "derp" as the default nil 						(that is, the value of an undefined key)
-my_hash.select { |k, v| v > 3}		returns values greater than 3 (an example).
+my_hash["name"] = "Eric"  Adds (or changes) key-value pair.
+my_hash = Hash.new("derp")  creates a hash with "derp" as the default nil       (that is, the value of an undefined key)
+my_hash.select { |k, v| v > 3}  returns values greater than 3 (an example).
 
 
 SOME HASH METHODS:
 
-.keys			returns list of keys as an array
-.values			returns list of keys as an array
+.keys   returns list of keys as an array
+.values   returns list of keys as an array
 .has_key?(key)
 .has_value?(value)
-.merge(another_hash)	combines 2 hashes, values of another_hash trump the other if there 			are matching keys
+.merge(another_hash) combines 2 hashes, values of another_hash trump the other if there    are matching keys
 
 ___________________________________________________________________
 
 METHODS
 
+```ruby
 def say_hello(parameter)
   puts "Hello there, #{parameter}!"
 end
+```
 
 ___________________________________________________________________
 
 
 SPLAT ARGUMENTS
 
-*parameter		a "splat argument" – can accept an indefinite # of arguments.
-			splat arguments are stored as an an array.
-
-			def what_up(greeting, *bros)
- 			 bros.each { |bro| puts "#{greeting}, #{bro}!" }
-			end
+*parameter  a "splat argument" – can accept an indefinite # of arguments.  splat arguments are stored as an an array. def what_up(greeting, *bros)  bros.each { |bro| puts "#{greeting}, #{bro}!" }  end
 
 ___________________________________________________________________
 
-PROCS – A closure or a "saved block”. Kind of like a method, but it can be used like a block and passed to methods that take blocks as parameters. & is used to convert a proc into a block.
+## Procs
 
+A closure or a "saved block”. Kind of like a method, but it can be used like a block and passed to methods that take blocks as parameters. & is used to convert a proc into a block.
+
+```ruby
 cube = Proc.new { |x| x ** 3 }
 
-[1, 2, 3].collect!(&cube)		& is used to convert a proc into a block.
+[1, 2, 3].collect!(&cube)  & is used to convert a proc into a block.
 
-cube.call(2)				.call calls procs directly.
+cube.call(2)    .call calls procs directly.
+```
 
-METHODS can be treated like blocks, too!:
+Methods can be treated like blocks, too!:
 
+```ruby
 strings_array = numbers_array.collect(&:to_s)
+```
 
-___________________________________________________________________
 
-LAMDAS – a closure. More or less identical to PROCS, with a key difference: when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without finishing the calling method.
+## Lamdas
 
+A closure. More or less identical to PROCS, with a key difference: when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without finishing the calling method.
+
+```ruby
 cube = lambda { |x| x ** 3 }
 
 [1, 2, 3].collect!(&cube)
 
 cube.call(2)
-
-___________________________________________________________________
-
-SCOPE PREFIXES – prefixed to variables to specify their scope.
-
-$			global variable (variables are global by default unless inside a 			method or class, use this prefix if you want to make an exception 			for a variable within a method or class).
-
-@			instance variable (specific to a single instance of a class).
-@@			class variable
+```
 
 
+## Scope Prefixes
 
-global variable		available everywhere
-local variable		available only within a method
-class variable		available to a common class (all instances share it)
-instance variable	available only to a particular instance of a class
+Prefixed to variables to specify their scope.
 
-___________________________________________________________________
+* **Global Variable**: available everywhere
+* **Local Variable**: available only within a method
+* **Class Variable**: available to a common class (all instances share it)
+* **Instance Variable**: available only to a particular instance of a class
 
-CLASSES
+```ruby
+$ # global variable (variables are global by default unless inside a    method or class, use this prefix if you want to make an exception    for a variable within a method or class).
 
+@ # instance variable (specific to a single instance of a class).
+@@ # class variable
+```
+
+
+## Classes
+
+```ruby
 class NameOfClass
   def initialize(x)
     @x = x
   end
 end
 
-
 class Class < SuperClass
   #this is the syntax for class inheritance.
 end
-
 
 class Name
   #public methods here
@@ -367,15 +362,17 @@ class Name
   #private methods here
 end
 
-attr_reader :variable		allows you to read "variable" without an extra method
-attr_writer :variable		allows you to edit "variable"
-attr_accessor :variable		allows you to both read and edit "variable"
-
-___________________________________________________________________
-
-MODULES – "Toolkits" for the interpreter; like a class but it doesn't have instances.
+attr_reader :variable  # allows you to read "variable" without an extra method
+attr_writer :variable  # allows you to edit "variable"
+attr_accessor :variable  # allows you to both read and edit "variable"
+```
 
 
+## Modules
+
+"Toolkits" for the interpreter; like a class but it doesn't have instances.
+
+```ruby
 module Circle
 
   #capitalized variables are "constants" and are not supposed to change.
@@ -392,11 +389,11 @@ module Circle
 end
 
 
-puts Circle::PI			scope resolution operator ("get this from the module")
+puts Circle::PI   scope resolution operator ("get this from the module")
 
-require 'circle'		imports a given module into the environment
+require 'circle'  imports a given module into the environment
 
-include Circle			when placed in a class, this allows an instance of the 					class to use the module's methods as if they were its own. 				This is called a "mixin," and allows Ruby to mimic 					multiple class inheritance, which it can't normally do – 				it CAN "inherit" multiple modules.
+include Circle   when placed in a class, this allows an instance of the      class to use the module's methods as if they were its own.     This is called a "mixin," and allows Ruby to mimic      multiple class inheritance, which it can't normally do –     it CAN "inherit" multiple modules.
 
-require_relative ‘something.rb’	allows you to access the data found in another file in the
-				same directory.			
+require_relative ‘something.rb’ allows you to access the data found in another file in the   same directory.  
+```
