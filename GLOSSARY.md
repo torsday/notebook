@@ -38,7 +38,7 @@ A set of methods that are not inherited, but composed into classes.
 
 ## Traits
 
-*see **Trait***
+*see Trait*
 
 ## Currying
 
