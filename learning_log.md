@@ -56,3 +56,7 @@ foreach (clone $this->accountStatusEvents as $e) {
     $serializedEvents[] = EventJsonSerializerFactory::create($e);
 }
 ```
+
+- ```$this->assertCount($expectedInt, $countableObj);```
+
+  How it works: ```EventCollection``` extends ```Collection``` which extends ```SplMaxHeap``` (http://php.net/manual/en/class.splmaxheap.php) which implements ```Countable``` (http://php.net/manual/en/class.countable.php).
