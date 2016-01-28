@@ -56,7 +56,6 @@ rand(n)   generates random integer between 0 and n, exclusive
 
 object.replace(object.method) replaces object with the output of method (liked .method!)
 
-___________________________________________________________________
 
 ## Comparison Operators
 
@@ -94,7 +93,6 @@ ___________________________________________________________________
 
 <=>   Returns 0 if the first operand (item to be compared) equals the    second, 1 if first operand is greater than the second, and -1 if    the first operand is less than the second.
 
-___________________________________________________________________
 
 
 ## Arrays
@@ -122,7 +120,6 @@ array.join(x)  returns elements as string separated by x
 string.split(x)  turns a string into an array with x as separator
 ```
 
-___________________________________________________________________
 
 
 LOOPS
@@ -133,7 +130,6 @@ for x in 1...10  Up to 10, exclusive (9 times), e.g.: for num in 1...10   puts n
 
 for x in 1..10  Up to 10, inclusive (10 times)
 
-___________________________________________________________________
 
 
 ONE LINE IFS & TERNARY CONDITIONAL EXPRESSIONS & CASE STATEMENTS
@@ -162,7 +158,6 @@ case which_is_greater
     puts "I am confused."
 end
 
-___________________________________________________________________
 
 METHODS THAT TAKE BLOCKS
 
@@ -198,60 +193,63 @@ Technically a method using the block ({}) as an argument.
 }
 ```
 
-
 ## Loop Iterator
 
+```ruby
 n = 1
 
 loop {
-  n += 1
-  print "Ruby!"
-  break if n > 30
+    n += 1
+    print "Ruby!"
+    break if n > 30
 }
+```
 
+## Each Iterator
 
+Technically a method that uses the block ({}) as an argument.
 
-EACH ITERATOR - technically a method that uses the block ({}) as an argument.
-
+```ruby
 array = [1, 2, 3]
 
 array.each { |x|
-  puts x
+    puts x
 }
 
 hash.each { |key, value| puts "#{key} is #{value}"}
 hash.each_key { |key| #do something}
 hash.each_value { |value| #do something}
+```
 
+## Map
 
+A lot like .each, except .map returns an array composed of the block results while each returns the original array. .map is a good choice if you actually want to change the elements in your array: array = array.map(some_block)
 
-MAP – a lot like .each, except .map returns an array composed of the block results while each returns the original array. .map is a good choice if you actually want to change the elements in your array: array = array.map(some_block)
-
+```ruby
 doubled_array = array.map { |num| num*2 }
 
 array.map(&:to_s)  #Converts all elements to a string. .to_s is passed like a block.
 array.map(&:reverse)
+```
 
+## Select
 
+Returns values that matches the conditions defined in the block.
 
-SELECT – returns values that matches the conditions defined in the block.
-
+```ruby
 array.select { |x| x > 3}  
+```
 
+## ```.upto```, ```.downto```
 
-
-.UPTO, .DOWNTO
-
+```ruby
 1.upto(5) { |number| puts number}  1 2 3 4 5
 "L".upto("O") { |letter| puts letter}  L M N O
 5.downto(1) { |number| puts number}  5 4 3 2 1
 
-
 array.reduce(:+) Returns sum of values in array. + is passed like a block.
 array.inject(:+) Works similarly.
-
-___________________________________________________________________
-
+```
 
 ## Hashes
 
@@ -305,10 +303,9 @@ def say_hello(parameter)
 end
 ```
 
-___________________________________________________________________
 
 
-SPLAT ARGUMENTS
+## Splat Arguments
 
 *parameter  a "splat argument" – can accept an indefinite # of arguments.  splat arguments are stored as an an array. def what_up(greeting, *bros)  bros.each { |bro| puts "#{greeting}, #{bro}!" }  end
 
