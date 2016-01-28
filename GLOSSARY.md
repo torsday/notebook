@@ -36,6 +36,10 @@ A Service in Domain Driven Design is simply a stateless object that performs an 
 
 A set of methods that are not inherited, but composed into classes.
 
+## Traits
+
+*see **Trait***
+
 ## Currying
 
 The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
