@@ -18,4 +18,5 @@
    * [Vim](tools/vim.md)
 * [Books](books.md)
 * [References](references.md)
+* Ops
 
