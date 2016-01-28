@@ -163,18 +163,18 @@ CONSTRUCTORS/“CLASSES” or PROTOTYPES
 
 var Thing = function(parameter1, parameter2) {
   // Without the ‘this’ prefix, this is not a public property but a local variable.
-  var exists = true; 
+  var exists = true;
 
   this.parameter1 = parameter1;
   this.parameter2 = parameter2;
   this.constant = "The same for all instances."
-  
+
   this.method = function() {
     do something;
   }
 
   // Writer for the local variable ‘exists’
-  this.exists = function(boolean) { 
+  this.exists = function(boolean) {
     fullName = boolean;
   };
 };
@@ -191,7 +191,7 @@ do some stuff;
 };
 
 
-// How to make a constructor inherit from another. This is PROTOTYPICAL inheritance, not 
+// How to make a constructor inherit from another. This is PROTOTYPICAL inheritance, not
 // CLASS inheritance.
 Child.prototype = new Parent();
 
@@ -270,7 +270,7 @@ HOISTING
 
 Can result in confusing scope issues. As a rule,
 
-"Function declarations and function variables are always moved ('hoisted') to the top of their javascript code by the interpreter." 
+"Function declarations and function variables are always moved ('hoisted') to the top of their javascript code by the interpreter."
 [http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html]
 
 NOTE that this means that while variable declarations are hoisted, their assignments are not!
@@ -304,3 +304,56 @@ function returnStuff() {
     return "blerg";
   }
 }
+
+
+
+
+# Callbacks
+
+1. Callbacks are functions that are executed asynchronously.
+
+2. Instead of executing top to bottom ('procedurally') like synchronous code, asynchronous code executes different functions are different times based on the order and speed that earlier functions are executed.
+
+3. This can lead to serious confusion if we think 'procedurally' when we write our code. For example, consider this bit of javascript that parses a number stored in a file using node:
+
+    var fs = require('fs');
+    var myNumber = undefined;
+
+    function addOne() {
+      fs.readFile('number.txt', function doneReading(err, fileContents) {
+        myNumber = parseInt(fileContents);
+      })
+    }
+
+    addOne();
+
+    console.log(myNumber); // logs out undefined
+
+4. When we run this code, 'myNumber' is undefined, because console.log() has executed before readfile() was done executing. It is NOT running procedurally, waiting for one line to finish before moving on to the next. We can solve this problem with a callback. The callback doesn't know WHEN it will execute, but it knows WHERE it will execute, i.e. in what order relative to other functions
+
+    var fs = require('fs');
+    var myNumber = undefined;
+
+    function addOne(callback) {
+      fs.readFile('number.txt', function doneReading(err, fileContents) {
+        myNumber = parseInt(fileContents);
+        callback(); // we know this callback will execute AFTER readFile()
+      })
+    }
+
+    function logMyNumber() { // defining the callback we'll use
+      console.log(myNumber);
+    }
+
+    addOne(logMyNumber); // logs out '1000', or whatever 'number.txt' contains
+
+5. Since the crux of node is asynchronous I/O, almost every node function takes a callback. Here is a typical example:
+
+    var fs = require('fs')
+
+    function finishedReading(error, fileData) {
+      if (error) throw error
+      // do something with the fileData
+    }
+
+    fs.readFile('movie.mp4', finishedReading)
