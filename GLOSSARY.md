@@ -1,5 +1,9 @@
 # Glossary
 
+## Countable
+
+http://php.net/manual/en/class.countable.php
+
 ## GitBook
 
 https://github.com/GitbookIO/gitbook
@@ -31,6 +35,10 @@ A Repository mediates between the domain and data mapping layers, acting like an
 ## Service
 
 A Service in Domain Driven Design is simply a stateless object that performs an action.
+
+## SplMaxHeap
+
+http://php.net/manual/en/class.splmaxheap.php
 
 ## Trait
 
