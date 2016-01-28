@@ -44,3 +44,15 @@ TODO: phing
   ```
 
   see [StackOverflow: 17683458](http://stackoverflow.com/questions/17683458/how-do-i-commit-case-sensitive-only-filename-changes-in-git)
+
+---
+
+2016-01-28
+
+- When you use ```EventCollection``` with an iteration operator such as ```foreach```, it pops each element off, destroying the data structure. You may need to use ```clone```:
+
+```php
+foreach (clone $this->accountStatusEvents as $e) {
+    $serializedEvents[] = EventJsonSerializerFactory::create($e);
+}
+```
