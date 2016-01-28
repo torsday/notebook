@@ -29,7 +29,7 @@
 
 ___________________________________________________________________
 
-NUMBER METHODS
+## Number Methods
 
 .abs   absolute value
 .ceil   rounds float up
@@ -39,7 +39,7 @@ NUMBER METHODS
 ___________________________________________________________________
 
 
-MISC
+## Misc
 
 gets   raw input from user (get string)
 gets.chomp  raw input from user w/o extra line
@@ -59,7 +59,7 @@ object.replace(object.method) replaces object with the output of method (liked .
 
 ___________________________________________________________________
 
-COMPARISON OPERATORS
+## Comparison Operators
 
 >
 <
@@ -68,15 +68,16 @@ COMPARISON OPERATORS
 !=
 
 
-BOOLEAN OPERATORS
+## Boolean Operators
 
 &&
 ||   or
 !   not
 
 
-OPERATORS
+## Operators
 
+```ruby
 +=
 -=
 *=
@@ -85,14 +86,15 @@ OPERATORS
 ||=   conditional assignment operator - only assigns a value to a     variable if the current value of the variable is nil.
 
 
-COMBINED COMPARISON OPERATOR
+## Combined Comparison Operator
 
 <=>   Returns 0 if the first operand (item to be compared) equals the    second, 1 if first operand is greater than the second, and -1 if    the first operand is less than the second.
+```
 
 ___________________________________________________________________
 
 
-ARRAYS
+## Arrays
 
 array = [1, 2, 3]
 array[0]   fetch item at given index
@@ -169,7 +171,9 @@ end  def double(num)    yield num   end  double(3) { |x| x*2 }
 
 
 
-TIMES ITERATOR - technically a method using the block ({}) as an argument.
+## Times Iterator
+
+Technically a method using the block ({}) as an argument.
 
 30.times {
   print "Ruby!"
@@ -182,7 +186,7 @@ TIMES ITERATOR - technically a method using the block ({}) as an argument.
 
 
 
-LOOP ITERATOR
+## Loop Iterator
 
 n = 1
 
