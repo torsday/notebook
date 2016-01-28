@@ -1,1 +1,7 @@
-{}
+{
+    "title": "notebook",
+    "description": "My notes",
+    "variables": {
+        "host": "https://www.gitbook.com/book/torsday/notebook"
+    }
+}
