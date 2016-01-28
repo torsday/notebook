@@ -19,5 +19,4 @@
 * [Books](books.md)
 * [References](references.md)
 * [Ops](ops.md)
-   * Docker
-
+   * [Docker](ops/docker.md)
