@@ -260,24 +260,27 @@ my_hash = {
 
 ### ```.new``` notation
 
+```ruby
 my_hash = Hash.new
 
 my_hash["name"] = "Eric"  Adds (or changes) key-value pair.
 my_hash = Hash.new("derp")  creates a hash with "derp" as the default nil       (that is, the value of an undefined key)
 my_hash.select { |k, v| v > 3}  returns values greater than 3 (an example).
+```
 
 
-SOME HASH METHODS:
+### Some Hash Methods
 
+```ruby
 .keys   returns list of keys as an array
 .values   returns list of keys as an array
 .has_key?(key)
 .has_value?(value)
 .merge(another_hash) combines 2 hashes, values of another_hash trump the other if there    are matching keys
+```
 
-___________________________________________________________________
 
-METHODS
+## Methods
 
 ```ruby
 def say_hello(parameter)
