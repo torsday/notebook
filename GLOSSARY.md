@@ -12,6 +12,10 @@ Specifies what methods a class must implement (an interface). An interface is sl
 
 Accessible only within the class itself.
 
+## Proc
+
+A closure or a "saved block”. Kind of like a method, but it can be used like a block and passed to methods that take blocks as parameters.
+
 ## Protected
 
 Accessible within the class itself and subclasses.
