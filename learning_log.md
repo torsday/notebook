@@ -59,4 +59,9 @@ foreach (clone $this->accountStatusEvents as $e) {
 
 - ```$this->assertCount($expectedInt, $countableObj);```
 
+  ```php
+  $eventCollection = new EventCollection();
+  $count           = count($eventCollection); // 0
+  ```
+
   How it works: ```EventCollection``` extends ```Collection``` which extends ```SplMaxHeap``` (http://php.net/manual/en/class.splmaxheap.php) which implements ```Countable``` (http://php.net/manual/en/class.countable.php).
