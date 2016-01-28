@@ -19,7 +19,7 @@
 * Service Provider (that uses mocks)
 
 
-## CPT
+## Application
 
 * Repository
     ```bash
