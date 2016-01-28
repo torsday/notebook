@@ -27,16 +27,15 @@
 .insert(index, “something”)
 ```
 
-___________________________________________________________________
 
 ## Number Methods
 
-.abs   absolute value
-.ceil   rounds float up
-.floor   rounds float down
+```ruby
+.abs      absolute value
+.ceil     rounds float up
+.floor    rounds float down
 .eql?(n)  is the object equal to n?
-
-___________________________________________________________________
+```
 
 
 ## Misc
@@ -61,18 +60,22 @@ ___________________________________________________________________
 
 ## Comparison Operators
 
+```ruby
 >
 <
 >=
 ==
 !=
+```
 
 
 ## Boolean Operators
 
+```ruby
 &&
 ||   or
 !   not
+```
 
 
 ## Operators
@@ -84,18 +87,19 @@ ___________________________________________________________________
 /=
 
 ||=   conditional assignment operator - only assigns a value to a     variable if the current value of the variable is nil.
+```
 
 
 ## Combined Comparison Operator
 
 <=>   Returns 0 if the first operand (item to be compared) equals the    second, 1 if first operand is greater than the second, and -1 if    the first operand is less than the second.
-```
 
 ___________________________________________________________________
 
 
 ## Arrays
 
+```ruby
 array = [1, 2, 3]
 array[0]   fetch item at given index
 array[0][0]  fetch item at given index (2D array or beyond)
@@ -116,6 +120,7 @@ array.index(x) What index is the given element at?
 
 array.join(x)  returns elements as string separated by x
 string.split(x)  turns a string into an array with x as separator
+```
 
 ___________________________________________________________________
 
@@ -164,10 +169,17 @@ METHODS THAT TAKE BLOCKS
 
 YIELD – You can make your own methods that take blocks with yield.
 
+```ruby
 def method(n)
   yield n   Passes "n" to the block. yield can also be standalone.
-end  def double(num)    yield num   end  double(3) { |x| x*2 }
+end  
 
+def double(num)    
+    yield num   
+end  
+
+double(3) { |x| x*2 }
+```
 
 
 
@@ -175,6 +187,7 @@ end  def double(num)    yield num   end  double(3) { |x| x*2 }
 
 Technically a method using the block ({}) as an argument.
 
+```ruby
 30.times {
   print "Ruby!"
 }
@@ -183,7 +196,7 @@ Technically a method using the block ({}) as an argument.
 30.times { |index|
   print index
 }
-
+```
 
 
 ## Loop Iterator
@@ -246,8 +259,8 @@ Literal Notation
 
 ```ruby
 my_hash = {
-  "name" => "Eric",
-  "age" => 26,
+  "name"    => "Eric",
+  "age"     => 26,
   "hungry?" => true
 }
 ```
@@ -299,7 +312,6 @@ SPLAT ARGUMENTS
 
 *parameter  a "splat argument" – can accept an indefinite # of arguments.  splat arguments are stored as an an array. def what_up(greeting, *bros)  bros.each { |bro| puts "#{greeting}, #{bro}!" }  end
 
-___________________________________________________________________
 
 ## Procs
 
