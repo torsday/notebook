@@ -94,7 +94,6 @@ object.replace(object.method) replaces object with the output of method (liked .
 <=>   Returns 0 if the first operand (item to be compared) equals the    second, 1 if first operand is greater than the second, and -1 if    the first operand is less than the second.
 
 
-
 ## Arrays
 
 ```ruby
@@ -122,7 +121,7 @@ string.split(x)  turns a string into an array with x as separator
 
 
 
-LOOPS
+## Loops
 
 while
 until   opposite of while (stops when false)
@@ -132,37 +131,43 @@ for x in 1..10  Up to 10, inclusive (10 times)
 
 
 
-ONE LINE IFS & TERNARY CONDITIONAL EXPRESSIONS & CASE STATEMENTS
+## One Line Ifs & Ternary Conditional Expressions & Case Statements
 
+```ruby
 puts "It's true" if true
 
 puts 0 < 1 ? "0 is less than one" : "0 is greater than 1"
 
 case which_is_greater
-  when x > y then puts "x is greater."
-  when x < y then  puts "y is greater."
-  when x == y then puts "x and y are equal."    
-  else puts "I am confused."
+when x > y then puts "x is greater."
+when x < y then  puts "y is greater."
+when x == y then puts "x and y are equal."    
+else puts "I am confused."
 end
+```
 
-[or]
+Or
 
+```ruby
 case which_is_greater
-  when x > y
+when x > y
     puts "x is greater."
-  when x < y
+when x < y
     puts "y is greater."
-  when x == y
+when x == y
     puts "x and y are equal."    
-  else
+else
     puts "I am confused."
 end
+```
 
 
-METHODS THAT TAKE BLOCKS
+## Methods that Take Blocks
 
 
-YIELD – You can make your own methods that take blocks with yield.
+### Yield
+
+You can make your own methods that take blocks with yield.
 
 ```ruby
 def method(n)
