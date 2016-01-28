@@ -8,4 +8,5 @@
 - [ ] The Pragmatic Programmer
 - [ ] Thinking in Systems
 - [ ] Zen Mind, Beginners Mind
-- [x] POODR: Practical Object-Oriented Design in Ruby
+- [x] Beck, "Test-Driven Development by Example"
+- [x] Metz, "Practical Object-Oriented Design in Ruby"
