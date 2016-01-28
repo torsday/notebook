@@ -40,6 +40,7 @@
 
 ## Misc
 
+```ruby
 gets   raw input from user (get string)
 gets.chomp  raw input from user w/o extra line
 .is_a? Integer  tests whether == given data type
@@ -55,6 +56,7 @@ rand(n)   generates random integer between 0 and n, exclusive
 .to_sym #or .intern converts a string to a symbol
 
 object.replace(object.method) replaces object with the output of method (liked .method!)
+```
 
 
 ## Comparison Operators
@@ -91,7 +93,11 @@ object.replace(object.method) replaces object with the output of method (liked .
 
 ## Combined Comparison Operator
 
-<=>   Returns 0 if the first operand (item to be compared) equals the    second, 1 if first operand is greater than the second, and -1 if    the first operand is less than the second.
+```
+<=>
+```
+
+Returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second.
 
 
 ## Arrays
