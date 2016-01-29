@@ -1,6 +1,28 @@
 # Javascript
 
-## INTERACTIVE
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Javascript](#javascript)
+	- [Interactive](#interactive)
+	- [Some String Methods](#some-string-methods)
+	- [Some Math Tools](#some-math-tools)
+	- [Comparison Operators](#comparison-operators)
+	- [Conditional Statements](#conditional-statements)
+	- [for, While, Do While Loops](#for-while-do-while-loops)
+	- [for / in Loop – Used for Iterating Through Hashes or Arrays (kind of Like Ruby's .each)](#for-in-loop-used-for-iterating-through-hashes-or-arrays-kind-of-like-rubys-each)
+	- [Switch](#switch)
+	- [Arrays](#arrays)
+	- [Objects](#objects)
+	- [Constructors/“classes” or Prototypes](#constructorsclasses-or-prototypes)
+	- [Prototypical Inheritance:](#prototypical-inheritance)
+	- [Functions & Methods – a Method Is a Function Associated with an Object.](#functions-methods-a-method-is-a-function-associated-with-an-object)
+	- [Module Design Pattern](#module-design-pattern)
+	- [Hoisting](#hoisting)
+- [Callbacks](#callbacks)
+
+<!-- /TOC -->
+
+## Interactive
 
 ```js
 confirm("Are you sure?")		throws a confirmation box at the user
@@ -9,7 +31,7 @@ prompt("Enter your name.")		prompts the user for input
 console.log(//some stuff)		logs content in the console
 ```
 
-## SOME STRING METHODS
+## Some String Methods
 
 ```js
 "String".length
@@ -25,7 +47,7 @@ console.log(//some stuff)		logs content in the console
 ```
 
 
-## SOME MATH TOOLS
+## Some Math Tools
 
 ```js
 Math.random()				generates a random float between 0 and 1
@@ -36,7 +58,7 @@ isNaN(n);    				checks if "n" is not a number
 num.toString();
 ```
 
-## COMPARISON OPERATORS
+## Comparison Operators
 
 ```js
 >
@@ -47,7 +69,7 @@ num.toString();
 ```
 
 
-## CONDITIONAL STATEMENTS
+## Conditional Statements
 
 ```js
 if (boolean)
@@ -64,7 +86,7 @@ else
 }
 ```
 
-## FOR, WHILE, DO WHILE LOOPS
+## for, While, Do While Loops
 
 ```js
 for (var i = 1; i < 11; i++) {
@@ -86,7 +108,7 @@ do {
 ```
 
 
-## FOR / IN LOOP – used for iterating through hashes or arrays (kind of like Ruby's .each)
+## for / in Loop – Used for Iterating Through Hashes or Arrays (kind of Like Ruby's .each)
 
 ```js
 for (var x in object) {
@@ -96,7 +118,7 @@ for (var x in object) {
 ```
 
 
-## SWITCH
+## Switch
 
 ```js
 switch (expression) {
@@ -114,7 +136,7 @@ switch (expression) {
 }
 ```
 
-## ARRAYS
+## Arrays
 
 ```js
 Array.length
@@ -138,7 +160,7 @@ array1.concat(array2)
 ```
 
 
-## OBJECTS
+## Objects
 
 ```js
 var myObject = {		literal notation.
@@ -168,7 +190,7 @@ object.hasOwnProperty(parameter)  	determines whether an object has a given prop
 ```
 
 
-## CONSTRUCTORS/“CLASSES” or PROTOTYPES
+## Constructors/“classes” or Prototypes
 
 ```js
 var Thing = function(parameter1, parameter2) {
@@ -226,7 +248,7 @@ Orchid.prototype = new Flower("Orchidaceae");
 ```
 
 
-## PROTOTYPICAL INHERITANCE:
+## Prototypical Inheritance:
 
 By assigning an instance of Flower to the prototype for Orchid, we have determined
 that any instances of Orchid will inherit the properties and methods of Flower.
@@ -234,7 +256,7 @@ that any instances of Orchid will inherit the properties and methods of Flower.
 When accessing a property or calling a method on an object, JavaScript looks up the prototype chain. In other words, if the property or method is not defined by the object itself, JavaScript looks for it within the object constructor. Then, if the property or method is not defined, JavaScript will look for it in the prototype object, and will keep looking all the way up the chain until it finds it. This, like classical inheritance, is a form of automatic message delegation.
 
 
-## FUNCTIONS & METHODS – a method is a function associated with an object.
+## Functions & Methods – a Method Is a Function Associated with an Object.
 
 ```js
 var functionName = function(parameter) {
@@ -286,7 +308,7 @@ Speaker.speak => “Hello my friend”
 In this sense Speaker is a closure, because it encapsulates the scope of whole function.
 
 
-## HOISTING
+## Hoisting
 
 Can result in confusing scope issues. As a rule,
 
