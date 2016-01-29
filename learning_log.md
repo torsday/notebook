@@ -123,3 +123,7 @@ TODO: phing
   ```bash
   find . -name "*.rb" -exec bash -c 'mv "$1" "$(sed "s/\.rb$/.md/" <<< "$1")"' - '{}' \;
   ```
+
+2016-01-29
+
+- `Shift+Esc` to clear all slack channel notifications
