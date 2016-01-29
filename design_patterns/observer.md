@@ -1,4 +1,4 @@
-OBSERVER (object behavioral)
+# OBSERVER (object behavioral)
 
 ## GoF definition (p. 293):
 
