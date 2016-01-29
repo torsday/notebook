@@ -20,6 +20,7 @@
 # Subject / Publisher
 # -------------------
 
+```ruby
 # Let's separate publisher behavior into a module so it can be composed:
 module Publisher
   def listeners
@@ -75,3 +76,4 @@ nasdaq = StockIndex.new("NASDAQ", 5000)
 nasdaq.subscribe(NewsWire.new)
 nasdaq.up(500)
 nasdaq.down(230)
+```

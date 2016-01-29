@@ -25,9 +25,10 @@
 #  * A remote proxy can hide the fact that an object is not stored locally.
 #  * A virtual proxy can create more complicated objects on demand.
 
-# Subject 
+# Subject
 # -------
 
+```ruby
 class BankAccount
   def initialize(balance)
     @balance = balance
@@ -35,7 +36,7 @@ class BankAccount
 
   def deposit(amount)
     @balance += amount
-  end 
+  end
 
   def withdraw(amount)
     @balance -= amount
@@ -58,7 +59,7 @@ class AccountProtectionProxy
   def deposit(amount)
     check_password
     @subject.deposit(amount)
-  end 
+  end
 
   def withdraw(amount)
     check_password
@@ -84,3 +85,4 @@ my_account = BankAccount.new(1000)
 proxy = AccountProtectionProxy.new(my_account, "supersecret")
 proxy.withdraw(100)
 puts proxy.balance
+```

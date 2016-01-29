@@ -6,7 +6,7 @@
 # "Decouple abstraction [interface] from its implementation so that the two
 # can vary independently."
 
-# This is very similar to the adapter pattern; the chief difference one of 
+# This is very similar to the adapter pattern; the chief difference one of
 # motivation: the adapter pattern is geared toward making unrelated classes
 # work together through a predictable interface, while the bridge pattern
 # is designed up front to separate implementation and interface into two
@@ -24,6 +24,7 @@
 # Abstraction [interface]:
 # ------------------------
 
+```ruby
 class RoboChat
   attr_accessor :robot
 
@@ -86,3 +87,4 @@ end
 # -----
 chat_room = RoboChat.new(DumbRobot.new)
 chat_room.chat
+```

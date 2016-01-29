@@ -26,6 +26,7 @@
 # Abstract Command [defines interface]
 # ------------------------------------
 
+```ruby
 class Command
   def execute
     raise NotImplementedError
@@ -90,3 +91,4 @@ create_some_files.unexecute
 puts "\nLOCAL DIRECTORY AFTER FILES DELETED:"
 puts "===================================="
 puts Dir.entries('.')
+```

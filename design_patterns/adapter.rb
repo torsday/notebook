@@ -4,10 +4,10 @@
 # GoF definition (p. 139):
 # -----------------------
 # "Convert the interface of a class into another interface clients expect.
-# Adapter lets classes work together that couldn't otherwise because of 
+# Adapter lets classes work together that couldn't otherwise because of
 # incompatible interfaces."
 
-# Can be implemented either using inheritance (class pattern) or compostion 
+# Can be implemented either using inheritance (class pattern) or compostion
 # (object pattern); but I think composition should always be the preferred
 # method.
 
@@ -28,6 +28,7 @@
 # We will use the `Cipher` module as the adaptee.
 # http://ruby-doc.org/stdlib-2.0/libdoc/openssl/rdoc/OpenSSL/Cipher.html
 
+```ruby
 require 'openssl'
 
 # Adapter:
@@ -75,3 +76,4 @@ puts "#{encrypted_msg}"
 puts "Decrypting #{encrypted_msg} =>"
 decrypted_msg = encrypter.encrypt(encrypted_msg)
 puts "#{decrypted_msg}"
+```

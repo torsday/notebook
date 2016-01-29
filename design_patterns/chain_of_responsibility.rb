@@ -3,16 +3,16 @@
 
 # GoF definition (p. 223):
 # ------------------------
-# "Avoid coupling the sender of a request to its receiver by giving more than # one object a chance to handle the request. Chain the receiving objects and 
+# "Avoid coupling the sender of a request to its receiver by giving more than # one object a chance to handle the request. Chain the receiving objects and
 # pass the request along the chain until the object handles it."
 
-# If a Handler cannot handle a given request, it automatically passes it on to 
+# If a Handler cannot handle a given request, it automatically passes it on to
 # its defined successor, until one of the handlers on the chain handles the
 # request.
 
 # Pros:
 # -----
-#  * Allows for an 'implicit receiver' – the client that sends the request has 
+#  * Allows for an 'implicit receiver' – the client that sends the request has
 #  no knowledge of what will ultimately handle it, nor does it need to.
 
 # Cons:
@@ -22,6 +22,7 @@
 # Module to make objects ('handlers') chainable:
 # ----------------------------------------------
 
+```ruby
 module Chainable
   def next_in_chain(successor)
     @successor = successor
@@ -71,3 +72,4 @@ biden.next_in_chain(obama)
 
 kerry.launch_nukes # => Passed up chain to 'obama'
 kerry.world_peace # => Raises 'End of Chain' error; no handler can do this :(
+```

@@ -30,6 +30,7 @@
 # Iterator
 # --------
 
+```ruby
 module InternalIterator
   def for_each
     list_copy = Array.new(@list)
@@ -56,3 +57,4 @@ end
 
 my_list = List.new([1,2,3,4,5])
 my_list.for_each { |item| puts item * 2 }
+```

@@ -32,6 +32,7 @@
 # Component [superclass to component subclasses and decorators]:
 # -------------------------------------------------------------
 
+```ruby
 class Numbers
   attr_accessor :component
 
@@ -86,3 +87,4 @@ p doubler.series(5) # => [2, 4, 6, 8, 10]
 inverter = Inverse.new(doubler)
 p inverter.series(5) # => [-2, -4, -6, -8, -10]
 p inverter.root_component # => <Integers>
+```

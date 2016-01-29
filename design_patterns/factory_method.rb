@@ -4,7 +4,7 @@
 # GoF definition (p. 107):
 # -----------------------
 # "Define an interface for creating an object, but let subclasses decide which
-# class to instantiate. Factory Method lets a class defer instantiation to 
+# class to instantiate. Factory Method lets a class defer instantiation to
 # subclasses."
 
 # Extra notes
@@ -12,7 +12,7 @@
 # Pros:
 # -----
 #  * Allows for more flexible, subclass-specific methods of object creation.
-#  * The abstract factory method defines a clear interface the enforces 
+#  * The abstract factory method defines a clear interface the enforces
 #    certain requirements on subclasses factory methods.
 
 # Cons:
@@ -23,6 +23,7 @@
 # Abstract class
 # --------------
 
+```ruby
 class Package
   class << self
     STANDARD_RATE = 1.50
@@ -39,7 +40,7 @@ class Package
     end
 
     # make 'new' private so Packages must be instantiated with factory methods
-    private :new 
+    private :new
   end
 
   attr_reader :postage
@@ -73,3 +74,4 @@ puts standard_ebola_sample.postage
 
 express_ebola_sample = HazardousPackage.prepare_express(5)
 puts express_ebola_sample.postage
+```

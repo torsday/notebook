@@ -35,6 +35,7 @@
 # Originator
 # ----------
 
+```ruby
 class Document
   attr_accessor :text
 
@@ -95,3 +96,4 @@ puts my_doc.text
 # restoring the old state from the memento:
 my_doc.restore_state(doc_history.pop)
 puts my_doc.text
+```

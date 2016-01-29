@@ -23,6 +23,8 @@
 * [Ops](ops/README.md)
    * [Docker](ops/docker.md)
    * [Vagrant](ops/vagrant.md)
+* [Design Patterns](design_patterns/README.md)
+   * [Abstract Factory](design_patterns/abstract_factory.rb)
 * [Front-End Interview Questions](front-end_interview_questions.md)
 * [Tools](tools/README.md)
    * [Vim](tools/vim.md)

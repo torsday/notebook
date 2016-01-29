@@ -12,7 +12,7 @@
 
 # The flyweight pattern aims to reduce the number of objects needed in a system
 # by moving all intrinsic state into a pool of 'flyweight' objects that can be
-# shared. 
+# shared.
 
 # In this example, rather than instantiate an object for every single character
 # in a sentence, the sentence relies on a pool of flyweight 'character' objects
@@ -40,6 +40,7 @@
 # Flyweight
 # ---------
 
+```ruby
 class Letter
   attr_accessor :char
 
@@ -120,4 +121,5 @@ my_doc.print # => 'Hello world'
 
 # Note that the pool has only one 'o' letter object, though it appears twice in
 # the document. This is the benefit of using flyweights:
-p latin_alphabet.letter_pool 
+p latin_alphabet.letter_pool
+```

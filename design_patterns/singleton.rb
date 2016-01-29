@@ -13,6 +13,7 @@
 # Singleton:
 # ----------
 
+```ruby
 require 'singleton'
 
 class Logger
@@ -31,9 +32,10 @@ end
 # -----
 
 # This would throw an error:
-# my_logger = Logger.new 
+# my_logger = Logger.new
 
 my_logger = Logger.instance # This returns the single instance
 
 my_logger.log("Hello, world")
 p my_logger.logs
+```

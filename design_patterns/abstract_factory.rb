@@ -7,7 +7,7 @@
 # without specifying their concrete classes."
 
 # "Factories" encapsulate the creation of an object, and families of objects
-# may have families factories with the same interface. This makes it easy to 
+# may have families factories with the same interface. This makes it easy to
 # change the type of object built by the client by swapping out the factory.
 
 # Pros:
@@ -17,6 +17,7 @@
 # Objects to be built:
 # --------------------
 
+```ruby
 class Vehicle
   attr_accessor :model
 
@@ -37,7 +38,7 @@ class Van < Vehicle
   end
 end
 
-# Factories: 
+# Factories:
 # ----------
 
 class AbstractFactory
@@ -88,3 +89,4 @@ ford_dealership.list_inventory
 ford_dealership.factory = VanFactory.new # Let's switch factories
 ford_dealership.order_vehicles(2, "E-350")
 ford_dealership.list_inventory
+```

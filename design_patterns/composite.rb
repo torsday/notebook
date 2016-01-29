@@ -8,7 +8,7 @@
 # uniformly."
 
 # The key to this pattern is that it allows clients to ignore the difference
-# between compositions of objects and individual objects. When a request is 
+# between compositions of objects and individual objects. When a request is
 # sent down the tree, if the recipient is a single object, the request is
 # handled directly. If the recipient is a composite object, it forwards the
 # request to its children. The client does not and should not know whether
@@ -27,6 +27,7 @@
 # Component (defines interface):
 # ------------------------------
 
+```ruby
 class AbstractNode
   def ping
     raise NotImplementedError
@@ -103,3 +104,4 @@ root.add(Node.new)
 root.add(NodeCluster.new)
 root.nodes.last.add(Node.new)
 root.ping # should print 'pong!' 3 times, one for each Node
+```

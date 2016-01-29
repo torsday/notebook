@@ -14,7 +14,7 @@
 # Pros:
 # -----
 #  * Promotes loose coupling between colleagues.
-#  * Abstracts how colleagues collaborate – encapsulating how objects interact #    in a separate object allows you to focus on how objects interact apart 
+#  * Abstracts how colleagues collaborate – encapsulating how objects interact #    in a separate object allows you to focus on how objects interact apart
 #    from their individual behavior.
 
 # Cons:
@@ -25,6 +25,7 @@
 # Colleagues
 # ----------
 
+```ruby
 class Tweeter
   attr_accessor :email
 
@@ -72,3 +73,4 @@ end
 # -----
 my_tweeter_account = Tweeter.new("me@example.com")
 my_tweeter_account.post_message("Hello, world")
+```
