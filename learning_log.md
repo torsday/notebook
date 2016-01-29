@@ -127,3 +127,5 @@ TODO: phing
 2016-01-29
 
 - `Shift+Esc` to clear all slack channel notifications
+
+TODO: outline likely CK files to create
