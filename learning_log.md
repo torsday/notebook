@@ -33,8 +33,6 @@
 
 2016-01-27
 
-TODO: factory
-
 TODO: phing
 
 - To commit case-sensitive only filename changes in Git:
