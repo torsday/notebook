@@ -1,16 +1,17 @@
 # Javascript
 
-INTERACTIVE
+## INTERACTIVE
 
+```js
 confirm("Are you sure?")		throws a confirmation box at the user
 prompt("Enter your name.")		prompts the user for input
 
 console.log(//some stuff)		logs content in the console
+```
 
-___________________________________________________________________
+## SOME STRING METHODS
 
-SOME STRING METHODS
-
+```js
 "String".length
 
 .substring(x, y)			chops string between x, y exclusively (0 is start)
@@ -21,31 +22,34 @@ SOME STRING METHODS
 "Hello there ".concat(name)		“Hello there John”
 
 "ruby is cool".match('cool')		["cool"]
+```
 
-___________________________________________________________________
 
-SOME MATH TOOLS
+## SOME MATH TOOLS
 
+```js
 Math.random()				generates a random float between 0 and 1
 Math.floor()          			rounds a float
 Math.floor(Math.random() * 5 + 1)       e.g. generates a random number between 1 and 5
 isNaN(n);    				checks if "n" is not a number
 
 num.toString();
-___________________________________________________________________
+```
 
+## COMPARISON OPERATORS
 
-COMPARISON OPERATORS
-
+```js
 >
 <
 >=
 ===
 !==
+```
 
 
-CONDITIONAL STATEMENTS
+## CONDITIONAL STATEMENTS
 
+```js
 if (boolean)
 {
 
@@ -58,11 +62,11 @@ else
 {
 
 }
+```
 
-___________________________________________________________________
+## FOR, WHILE, DO WHILE LOOPS
 
-FOR, WHILE, DO WHILE LOOPS
-
+```js
 for (var i = 1; i < 11; i++) {
 	console.log(i);
 }
@@ -77,23 +81,24 @@ while (condition) {
 }
 
 do {
-   Do something at least once before checking the condition;
- } while (condition)
+    // Do something at least once before checking the condition;
+} while (condition)
+```
 
-___________________________________________________________________
 
-FOR / IN LOOP – used for iterating through hashes or arrays (kind of like Ruby's .each)
+## FOR / IN LOOP – used for iterating through hashes or arrays (kind of like Ruby's .each)
 
+```js
 for (var x in object) {
    // do something to x, i.e. the property in the object
    console.log(object[x]) //prints the value of the property
 }
+```
 
 
-___________________________________________________________________
+## SWITCH
 
-SWITCH
-
+```js
 switch (expression) {
   case 'option1':
     since expression is option1 I'll do this;
@@ -107,10 +112,11 @@ switch (expression) {
   default:
     no match so I'll do this;
 }
-___________________________________________________________________
+```
 
-ARRAYS
+## ARRAYS
 
+```js
 Array.length
 e
 Array.push(item)		Adds item to the array.
@@ -129,11 +135,12 @@ Array.join()
 String.split()
 
 array1.concat(array2)
+```
 
-___________________________________________________________________
 
-OBJECTS
+## OBJECTS
 
+```js
 var myObject = {		literal notation.
     key: value,			in Javascript key-value pairs are called "properties"
     key: value,
@@ -142,9 +149,11 @@ var myObject = {		literal notation.
       do something;
     }
 };
+```
 
 or
 
+```js
 var myObject = new Object();		constructor notation
 myObject["key"] = "value";
 
@@ -156,11 +165,12 @@ delete myObject.key			delete a property
 
 typeof variable   			returns what type of object a variable is
 object.hasOwnProperty(parameter)  	determines whether an object has a given property
+```
 
-___________________________________________________________________
 
-CONSTRUCTORS/“CLASSES” or PROTOTYPES
+## CONSTRUCTORS/“CLASSES” or PROTOTYPES
 
+```js
 var Thing = function(parameter1, parameter2) {
   // Without the ‘this’ prefix, this is not a public property but a local variable.
   var exists = true;
@@ -179,9 +189,8 @@ var Thing = function(parameter1, parameter2) {
   };
 };
 
-
 var ball = new thing("round”, "red");
-OR
+// OR
 var ball = thing.new(“round”, “red”);
 
 
@@ -212,43 +221,50 @@ var Orchid = function(name, isEpiphyte) {
 };
 
 Orchid.prototype = new Flower("Orchidaceae");
+```
 
 
-PROTOTYPICAL INHERITANCE:
+## PROTOTYPICAL INHERITANCE:
 
 By assigning an instance of Flower to the prototype for Orchid, we have determined
 that any instances of Orchid will inherit the properties and methods of Flower.
 
 When accessing a property or calling a method on an object, JavaScript looks up the prototype chain. In other words, if the property or method is not defined by the object itself, JavaScript looks for it within the object constructor. Then, if the property or method is not defined, JavaScript will look for it in the prototype object, and will keep looking all the way up the chain until it finds it. This, like classical inheritance, is a form of automatic message delegation.
 
-___________________________________________________________________
 
-FUNCTIONS & METHODS – a method is a function associated with an object.
+## FUNCTIONS & METHODS – a method is a function associated with an object.
 
+```js
 var functionName = function(parameter) {
   some stuff to do;
   return something;
 };
+```
 
 or
 
+```js
 function functionName(parameter) {
   some stuff to do;
   return somethin;
 };
+```
+
 
 //"this" keyword allows a function to act like a method for any object, where "this" stands in for the object name. The function is then assigned to the object.
 
+```js
 var universalMethod = function(parameter) {
   this.key = parameter;
 };
 
 object.universalMethod = universalMethod;
+```
 
-___________________________________________________________________
 
-MODULE DESIGN PATTERN – useful for creating objects with public/private interfaces.
+## MODULE DESIGN PATTERN – useful for creating objects with public/private interfaces.
 
+```js
 var Speaker = (function() {
   var thisIsPrivate = “Hello my friend”;
 
@@ -261,12 +277,12 @@ var Speaker = (function() {
 
 Speaker.thisIsPrivate => undefined!
 Speaker.speak => “Hello my friend”
+```
 
 In this sense Speaker is a closure, because it encapsulates the scope of whole function.
 
-___________________________________________________________________
 
-HOISTING
+## HOISTING
 
 Can result in confusing scope issues. As a rule,
 
@@ -275,6 +291,7 @@ Can result in confusing scope issues. As a rule,
 
 NOTE that this means that while variable declarations are hoisted, their assignments are not!
 
+```js
 function hoistMe() {
   // logs 'undefined' – `variable` is hoisted, but has not assignment value.
   console.log(variable);
@@ -292,9 +309,11 @@ function returnStuff() {
     return "blerg";
   }
 }
+```
 
 By contrast, function _expressions_ hoist their variable declarations, but NOT their assignment expressions – i.e., their function bodies. Therefor the following example returns 'blah', because the second function body of stuff() is not hoisted, and is declared after the 'return' statement:
 
+```js
 function returnStuff() {
   var stuff = function() {
     return "blah";
@@ -304,6 +323,7 @@ function returnStuff() {
     return "blerg";
   }
 }
+```
 
 
 
@@ -316,21 +336,24 @@ function returnStuff() {
 
 3. This can lead to serious confusion if we think 'procedurally' when we write our code. For example, consider this bit of javascript that parses a number stored in a file using node:
 
-    var fs = require('fs');
-    var myNumber = undefined;
+```js
+var fs = require('fs');
+var myNumber = undefined;
 
-    function addOne() {
-      fs.readFile('number.txt', function doneReading(err, fileContents) {
-        myNumber = parseInt(fileContents);
-      })
-    }
+function addOne() {
+  fs.readFile('number.txt', function doneReading(err, fileContents) {
+    myNumber = parseInt(fileContents);
+  })
+}
 
-    addOne();
+addOne();
 
-    console.log(myNumber); // logs out undefined
+console.log(myNumber); // logs out undefined
+```
 
 4. When we run this code, 'myNumber' is undefined, because console.log() has executed before readfile() was done executing. It is NOT running procedurally, waiting for one line to finish before moving on to the next. We can solve this problem with a callback. The callback doesn't know WHEN it will execute, but it knows WHERE it will execute, i.e. in what order relative to other functions
 
+```js
     var fs = require('fs');
     var myNumber = undefined;
 
@@ -346,9 +369,11 @@ function returnStuff() {
     }
 
     addOne(logMyNumber); // logs out '1000', or whatever 'number.txt' contains
+    ```
 
 5. Since the crux of node is asynchronous I/O, almost every node function takes a callback. Here is a typical example:
 
+```js
     var fs = require('fs')
 
     function finishedReading(error, fileData) {
@@ -357,3 +382,4 @@ function returnStuff() {
     }
 
     fs.readFile('movie.mp4', finishedReading)
+    ```
