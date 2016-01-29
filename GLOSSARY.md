@@ -4,6 +4,10 @@
 
 http://php.net/manual/en/class.countable.php
 
+## Currying
+
+The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
+
 ## Docker
 
 Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
@@ -52,6 +56,6 @@ A set of methods that are not inherited, but composed into classes.
 
 *see Trait*
 
-## Currying
+## Callbacks
 
-The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
+Functions that are executed asynchronously.
