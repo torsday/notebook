@@ -68,6 +68,6 @@ foreach (clone $this->accountStatusEvents as $e) {
 
 - Private functions should be positioned below public ones in PHP.
 
-- ```npm outdated``` is great for seeing available updates
-    - https://docs.npmjs.com/cli/outdated
-    - ```npm update [-g] [package]``` is what you'll want after that.
+- upgrade npm packages
+
+  > Identify out of date packages (```npm outdated```). Update the versions in your ```package.json```. Run ```npm update``` to install the latest versions of each package.
