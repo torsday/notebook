@@ -79,3 +79,52 @@ TODO: phing
   ```markdown
   ![Local Image](./images/<image_file_name>)
   ```
+
+- CSS to use system fonts on mobile devices:
+
+  ```css
+  font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  ```
+
+- Sleep display
+
+  ```bash
+  pmset displaysleepnow
+  ```
+
+- empty directories
+
+  ```bash
+  # list
+  find . -type d -empty -print
+
+  # delete
+  find . -type d -empty -delete
+  ```
+
+- git branch authors
+
+  ```bash
+  git for-each-ref --format='%(committerdate)%09%(authorname)%09%(refname)' | sort -k5n -k2M -k3n -k4n | grep remotes | awk -F "\t" '{ printf "%-32s %-27s %s\n", $1, $2, $3 }'
+  ```
+
+- git merged remote branches
+
+  ```bash
+  for branch in `git branch -r --merged | grep -v HEAD`; do echo -e `git show --format="%ci %cr %an" $branch | head -n 1` \\t$branch; done | sort -r
+  ```
+
+- git un-merged remote branches
+
+  ```bash
+  for branch in `git branch -r --no-merged | grep -v HEAD`; do echo -e `git show --format="%ci %cr %an" $branch | head -n 1` \\t$branch; done | sort -r
+  ```
+
+- rename extensions of files in a dir
+
+  ```bash
+  for file in *.rb
+  do
+    mv "$file" "${file}.md"
+  done
+  ```
