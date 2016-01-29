@@ -177,7 +177,7 @@ var Thing = function(parameter1, parameter2) {
 
   this.parameter1 = parameter1;
   this.parameter2 = parameter2;
-  this.constant = "The same for all instances."
+  this.constant   = "The same for all instances."
 
   this.method = function() {
     do something;
@@ -189,8 +189,10 @@ var Thing = function(parameter1, parameter2) {
   };
 };
 
-var ball = new thing("round”, "red");
+var ball = new thing("round", "red");
+
 // OR
+
 var ball = thing.new(“round”, “red”);
 
 
@@ -251,7 +253,7 @@ function functionName(parameter) {
 ```
 
 
-//"this" keyword allows a function to act like a method for any object, where "this" stands in for the object name. The function is then assigned to the object.
+```this``` keyword allows a function to act like a method for any object, where "this" stands in for the object name. The function is then assigned to the object.
 
 ```js
 var universalMethod = function(parameter) {
@@ -262,7 +264,9 @@ object.universalMethod = universalMethod;
 ```
 
 
-## MODULE DESIGN PATTERN – useful for creating objects with public/private interfaces.
+## Module Design Pattern
+
+Useful for creating objects with public/private interfaces.
 
 ```js
 var Speaker = (function() {
@@ -332,28 +336,28 @@ function returnStuff() {
 
 1. Callbacks are functions that are executed asynchronously.
 
-2. Instead of executing top to bottom ('procedurally') like synchronous code, asynchronous code executes different functions are different times based on the order and speed that earlier functions are executed.
+1. Instead of executing top to bottom ('procedurally') like synchronous code, asynchronous code executes different functions are different times based on the order and speed that earlier functions are executed.
 
-3. This can lead to serious confusion if we think 'procedurally' when we write our code. For example, consider this bit of javascript that parses a number stored in a file using node:
+1. This can lead to serious confusion if we think 'procedurally' when we write our code. For example, consider this bit of javascript that parses a number stored in a file using node:
 
-```js
-var fs = require('fs');
-var myNumber = undefined;
+    ```js
+    var fs = require('fs');
+    var myNumber = undefined;
 
-function addOne() {
-  fs.readFile('number.txt', function doneReading(err, fileContents) {
-    myNumber = parseInt(fileContents);
-  })
-}
+    function addOne() {
+      fs.readFile('number.txt', function doneReading(err, fileContents) {
+        myNumber = parseInt(fileContents);
+      })
+    }
 
-addOne();
+    addOne();
 
-console.log(myNumber); // logs out undefined
-```
+    console.log(myNumber); // logs out undefined
+    ```
 
-4. When we run this code, 'myNumber' is undefined, because console.log() has executed before readfile() was done executing. It is NOT running procedurally, waiting for one line to finish before moving on to the next. We can solve this problem with a callback. The callback doesn't know WHEN it will execute, but it knows WHERE it will execute, i.e. in what order relative to other functions
+1. When we run this code, 'myNumber' is undefined, because console.log() has executed before readfile() was done executing. It is NOT running procedurally, waiting for one line to finish before moving on to the next. We can solve this problem with a callback. The callback doesn't know WHEN it will execute, but it knows WHERE it will execute, i.e. in what order relative to other functions
 
-```js
+    ```js
     var fs = require('fs');
     var myNumber = undefined;
 
@@ -371,9 +375,9 @@ console.log(myNumber); // logs out undefined
     addOne(logMyNumber); // logs out '1000', or whatever 'number.txt' contains
     ```
 
-5. Since the crux of node is asynchronous I/O, almost every node function takes a callback. Here is a typical example:
+1. Since the crux of node is asynchronous I/O, almost every node function takes a callback. Here is a typical example:
 
-```js
+    ```js
     var fs = require('fs')
 
     function finishedReading(error, fileData) {
