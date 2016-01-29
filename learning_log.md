@@ -129,3 +129,29 @@ TODO: phing
 - `Shift+Esc` to clear all slack channel notifications
 
 TODO: outline likely CK files to create
+
+- kamino/modal
+
+    ```js
+    // JSX
+    return (
+        <Modal
+            nox
+            ref="something"
+        >
+            content
+        </Modal>
+    );
+
+    // Javascript ES6
+    this.refs.something.show(); -> show modal
+    this.refs.something.hide(); -> hide modal
+    ```
+
+- git stage part of file
+
+    ```bash
+    git add -p
+    ```
+
+- TODO bind in Javascript
