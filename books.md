@@ -4,6 +4,7 @@
 - [ ] Emerick et al., "Clojure Programming"
 - [ ] Gamma et al., "Design Patterns"
 - [ ] Hofstadter, "Gödel, Escher, Bach"
+- [ ] Petzold, "Code"
 - [ ] ReWork
 - [ ] The Pragmatic Programmer
 - [ ] Thinking in Systems
