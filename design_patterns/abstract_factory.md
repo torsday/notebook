@@ -1,21 +1,16 @@
-# ABSTRACT FACTORY (object creational pattern)
-# ============================================
+# Abstract Factory (object Creational Pattern)
 
-# GoF definition (p. 87):
-# -----------------------
-# "Provide and interface for creating families of related or dependent objects
-# without specifying their concrete classes."
+## GoF definition (p. 87):
 
-# "Factories" encapsulate the creation of an object, and families of objects
-# may have families factories with the same interface. This makes it easy to
-# change the type of object built by the client by swapping out the factory.
+> "Provide and interface for creating families of related or dependent objects
+without specifying their concrete classes."
 
-# Pros:
-# -----
-#  * The creation of objects is encapsulated within interchangeable factories.
+"Factories" encapsulate the creation of an object, and families of objects may have families factories with the same interface. This makes it easy to change the type of object built by the client by swapping out the factory.
 
-# Objects to be built:
-# --------------------
+## Pros:
+ * The creation of objects is encapsulated within interchangeable factories.
+
+## Objects to be built:
 
 ```ruby
 class Vehicle

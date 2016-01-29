@@ -1,32 +1,25 @@
-# ADAPTER (class/object structural pattern)
-# =========================================
+# Adapter (class/object structural pattern)
 
-# GoF definition (p. 139):
-# -----------------------
-# "Convert the interface of a class into another interface clients expect.
-# Adapter lets classes work together that couldn't otherwise because of
-# incompatible interfaces."
+## GoF definition (p. 139):
 
-# Can be implemented either using inheritance (class pattern) or compostion
-# (object pattern); but I think composition should always be the preferred
-# method.
+> "Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces."
 
-# Also known as the 'wrapper' pattern.
+Can be implemented either using inheritance (class pattern) or compostion (object pattern); but I think composition should always be the preferred method.
 
-# Pros:
-# -----
-#  * Enforces a consistent interface between two disparate objects.
-#  * Separates interface from implementation.
+Also known as the 'wrapper' pattern.
 
-# Cons:
-# -----
-#  * The adapter must necessarily be highly coupled to the adaptee.
+## Pros:
+* Enforces a consistent interface between two disparate objects.
+* Separates interface from implementation.
 
-# Adaptee:
-# -------
+## Cons:
+* The adapter must necessarily be highly coupled to the adaptee.
 
-# We will use the `Cipher` module as the adaptee.
-# http://ruby-doc.org/stdlib-2.0/libdoc/openssl/rdoc/OpenSSL/Cipher.html
+## Adaptee:
+
+We will use the `Cipher` module as the adaptee.
+
+http://ruby-doc.org/stdlib-2.0/libdoc/openssl/rdoc/OpenSSL/Cipher.html
 
 ```ruby
 require 'openssl'

@@ -1,28 +1,27 @@
 # BRIDGE (object structural pattern)
-# ==================================
 
-# GoF definition (p. 151):
-# -----------------------
-# "Decouple abstraction [interface] from its implementation so that the two
-# can vary independently."
+## GoF definition (p. 151):
 
-# This is very similar to the adapter pattern; the chief difference one of
-# motivation: the adapter pattern is geared toward making unrelated classes
-# work together through a predictable interface, while the bridge pattern
-# is designed up front to separate implementation and interface into two
-# parallel class hierarchies.
+> "Decouple abstraction [interface] from its implementation so that the two
+can vary independently."
 
-# Pros:
-# -----
-#  * Separates interface from implementation
-#  * Implementations are interchangeable
+This is very similar to the adapter pattern; the chief difference one of
+motivation: the adapter pattern is geared toward making unrelated classes
+work together through a predictable interface, while the bridge pattern
+is designed up front to separate implementation and interface into two
+parallel class hierarchies.
 
-# Cons:
-# -----
-#  * The interface and implementation classes must be tightly coupled.
+## Pros:
 
-# Abstraction [interface]:
-# ------------------------
+* Separates interface from implementation
+* Implementations are interchangeable
+
+## Cons:
+
+* The interface and implementation classes must be tightly coupled.
+
+## Abstraction [interface]:
+
 
 ```ruby
 class RoboChat
