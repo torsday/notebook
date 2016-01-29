@@ -10,12 +10,12 @@ Table of Contents
 -----------------
 
 1.  [General Questions](#general-questions)
-2.  [HTML Questions](#html-questions)
-3.  [CSS Questions](#css-questions)
-4.  [JS Questions](#js-questions)
-5.  [Network Questions](#network-questions)
-6.  [Coding Questions](#coding-questions)
-7.  [Fun Questions](#fun-questions)
+1.  [HTML Questions](#html-questions)
+1.  [CSS Questions](#css-questions)
+1.  [JS Questions](#js-questions)
+1.  [Network Questions](#network-questions)
+1.  [Coding Questions](#coding-questions)
+1.  [Fun Questions](#fun-questions)
 
 #### GENERAL QUESTIONS:
 

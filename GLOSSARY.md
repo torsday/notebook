@@ -4,6 +4,10 @@
 
 http://php.net/manual/en/class.countable.php
 
+## Docker
+
+Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
+
 ## GitBook
 
 https://github.com/GitbookIO/gitbook
