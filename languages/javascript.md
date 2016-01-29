@@ -330,8 +330,6 @@ function returnStuff() {
 ```
 
 
-
-
 # Callbacks
 
 1. Callbacks are functions that are executed asynchronously.
