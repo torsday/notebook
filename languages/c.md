@@ -1,8 +1,9 @@
 # C
+---
 
+Hello World
 
-HELLO WORLD
-
+```c
 #include <stdio.h>
 
 int main()
@@ -10,13 +11,14 @@ int main()
   printf(“Hello, world!”);
   return 0;
 }
+```
 
-________________________________________________________________________________
 
-VARIABLE DECLARATION
+## Variable Declaration
 
-// note that C is statically typed.
+Note that C is statically typed.
 
+```c
 int days_in_week = 7;
 float cm_to_in = 2.54;
 char the_w = 'W';
@@ -24,73 +26,91 @@ char the_w = 'W';
 printf("%d days in a week.\n", days_in_week);
 printf("%f cm per in.\n", cm_to_in);
 printf("The %c is a cool hotel.\n", the_w);
+```
 
-________________________________________________________________________________
 
-ARRAYS
+## Arrays
 
-// note that the size of the array is declared at initialization.
+Note that the size of the array is declared at initialization.
 
+```c
 float numbers[3];
 numbers[0] = 3.1415;
 numbers[1] = 1.618;
 numbers[2] = 1.4142;
+```
 
-// leave the size blank for unlimited size
+Leave the size blank for unlimited size
 
+```c
 int lots_of_nums[];
+```
 
-// note that when initialized curly brackets are used, not square brackets!!
+Note that when initialized curly brackets are used, not square brackets!!
 
+```c
 int fibs[] = {1, 1, 2, 3, 5};
+```
 
-// strings are represented as an array of chars
+Strings are represented as an array of chars
 
+```c
 char word[] = “applesauce”;
-________________________________________________________________________________
+```
 
-OPERATORS & EXPRESSIONS
 
+## Operators & Expressions
+
+```c
 %        modulo
 
 +=        assignment operators
 -=
 *=
 /=
+```
 
-
+```c
 n++;        auto increment (if assigned, performed after assignment)
 n—-;        auto decrement (if assigned, performed after assignment)
 ++n;        auto increment (if assigned, performed before assignment)
 —n;         auto decrement (if assigned, performed before assignment)
+```
 
 e.g.
 
+```c
 int a = 3;
 int b = a++; // n == 3, a == 4
 int c = —-a; // c == 3, a == 3
+```
 
-________________________________________________________________________________
 
-LOOPS
+## Loops
 
+```c
 for (int i = 0; i < 10; i++) {
   printf(“%d”, i);
 }
+```
 
+```c
 while (done == false) {
   // do something
 }
+```
 
+```c
 do {
   // do-while, a reverse while.
   // useful if we want to evaluate the block before checking the conditional.
 } while (done == false);
+```
 
-________________________________________________________________________________
 
-CONDITIONALS & SWITCH STATEMENTS
+## Conditionals & Switch Statements
 
+```c
 if (conditional) {
 
 } else if (another) {
@@ -98,12 +118,18 @@ if (conditional) {
 } else {
 
 }
+```
 
-// one line conditional. Note that  you can add else-ifs as well, unlike in Ruby:
+One line conditional. Note that  you can add else-ifs as well, unlike in Ruby:
+
+```c
 if (1 == 1) printf(“1 is equal to 1”);
 else if (1 > 1) printf(“Boy is this strange”);
+```
 
-// Switch statement:
+Switch statement:
+
+```c
 switch (value) {
   case ‘a’:
     printf(“It’s ‘a’”);
@@ -117,55 +143,63 @@ switch (value) {
     printf(“It’s neither ‘a’ nor ‘b’”);
     break;
 }
+```
 
-________________________________________________________________________________
 
-FUNCTIONS
+## Functions
 
-// note that the return type is statically declared (here it is ‘int’).
+Note that the return type is statically declared (here it is ‘int’).
+
+```c
 int doubler(int n) {
   return n*2;
 }
+```
 
-// if a function has no return type, use ‘void’
+If a function has no return type, use ‘void’
+
+```c
 void hello() {
   printf(“Hello, I am a computer”);
 }
+```
 
-________________________________________________________________________________
 
-SCOPE
+## Scope
 
 Scope in C is lexical; that is, scope is defined by what is between a set of brackets {}. Similar in practice to Ruby’s block-level scope. Contrast this with Javascript, which has functional scope.
 
-________________________________________________________________________________
 
-POINTERS & MEMORY
+## Pointers & Memory
 
 1. Pointers point to the memory address of a variable.
 
-char *letter;  // * indicates that this is a pointer type
-char k = ‘k’;
-letter = &k;  // this points to the memory address of k, not the value of k.
-printf(“%c”, *letter);  => k
-k = ‘x’;
-printf(“%c”, *letter);  => x // the address is the same, but the value has changed.
+  ```c
+  char *letter;  // * indicates that this is a pointer type
+  char k = ‘k’;
+  letter = &k;  // this points to the memory address of k, not the value of k.
+  printf(“%c”, *letter);  => k
+  k = ‘x’;
+  printf(“%c”, *letter);  => x // the address is the same, but the value has changed.
+  ```
 
+1. Using pointers to traverse arrays
 
-2. Using pointers to traverse arrays
+  ```c
+  int nums[3] = {3, 5, 7};
+  num = &nums[0];
+  printf(“%d”, *num)  => 3
+  ++num; // increment the pointer to the next address in memory!
+  printf(“%d”, *num)  => 5
+  ```
 
-int nums[3] = {3, 5, 7};
-num = &nums[0];
-printf(“%d”, *num)  => 3
-++num; // increment the pointer to the next address in memory!
-printf(“%d”, *num)  => 5
+1. Calculating the length of an array using sizeof():
 
+  ```c
+  printf(“float size: %ld bytes\n”, sizeof(1.5));  =>  float size: 4 bytes
 
-3. Calculating the length of an array using sizeof():
-
-printf(“float size: %ld bytes\n”, sizeof(1.5));  =>  float size: 4 bytes
-
-long floatArrayLength(float array) {
-  long element_size = sizeof(array[0]);
-  return sizeof(array) / element_size;
-}
+  long floatArrayLength(float array) {
+    long element_size = sizeof(array[0]);
+    return sizeof(array) / element_size;
+  }
+  ```
