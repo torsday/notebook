@@ -51,11 +51,11 @@ TODO: phing
 
 - When you use ```EventCollection``` with an iteration operator such as ```foreach```, it pops each element off, destroying the data structure. You may need to use ```clone```:
 
-```php
-foreach (clone $this->accountStatusEvents as $e) {
-    $serializedEvents[] = EventJsonSerializerFactory::create($e);
-}
-```
+    ```php
+    foreach (clone $this->accountStatusEvents as $e) {
+        $serializedEvents[] = EventJsonSerializerFactory::create($e);
+    }
+    ```
 
 - ```$this->assertCount($expectedInt, $countableObj);```
 
