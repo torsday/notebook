@@ -70,3 +70,4 @@ foreach (clone $this->accountStatusEvents as $e) {
 
 - ```npm outdated``` is great for seeing available updates
     - https://docs.npmjs.com/cli/outdated
+    - ```npm update [-g] [package]``` is what you'll want after that.
