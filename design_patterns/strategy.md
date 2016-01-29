@@ -1,25 +1,17 @@
-# STRATEGY (object behavioral pattern)
-# ====================================
+# Strategy (object behavioral pattern)
 
-# GoF definition (p. 315):
-# ------------------------
-# "Define a family of algorithms, encapsulate each one, and make them
-# interchangeable. Strategy lets the algorithm vary independently
-# from clients that use it."
+## GoF definition (p. 315):
 
-# Like the 'template method' pattern, but rather than use subclassing
-# to change the target algorithm, we take the algorithm and place it
-# within a separate object ("strategy") that can be composed within
-# another object ("context"). These strategies have the same interface
-# and are, from the context's perspective, interchangeable.
+> "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
 
-# Pros:
-# ----
-#  * Algorithms are encapsulated within interchangeable 'strategies'.
-#  * "Context" is decoupled from the implementation of the algorithm.
+Like the 'template method' pattern, but rather than use subclassing to change the target algorithm, we take the algorithm and place it within a separate object ("strategy") that can be composed within another object ("context"). These strategies have the same interface and are, from the context's perspective, interchangeable.
 
-# Strategies:
-# ----------
+## Pros:
+
+* Algorithms are encapsulated within interchangeable 'strategies'.
+* "Context" is decoupled from the implementation of the algorithm.
+
+## Strategies:
 
 ```ruby
 class Food
