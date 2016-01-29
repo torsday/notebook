@@ -22,6 +22,7 @@
    * [SQL](databases/sql.md)
 * [Ops](ops/README.md)
    * [Docker](ops/docker.md)
+   * [Vagrant](ops/vagrant.md)
 * [Front-End Interview Questions](front-end_interview_questions.md)
 * [Tools](tools/README.md)
    * [Vim](tools/vim.md)
