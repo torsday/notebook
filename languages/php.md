@@ -1,5 +1,26 @@
 # PHP
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [PHP](#php)
+	- [Hello World](#hello-world)
+	- [Variables](#variables)
+	- [Strings](#strings)
+	- [Numbers](#numbers)
+	- [Arrays](#arrays)
+	- [Control Flow](#control-flow)
+	- [Loops](#loops)
+	- [Functions](#functions)
+	- [Classes & Objects](#classes-objects)
+	- [Method & Property Visibility](#method-property-visibility)
+	- [Inheritance](#inheritance)
+	- [Class Abstraction](#class-abstraction)
+	- [Interfaces](#interfaces)
+	- [Traits](#traits)
+
+<!-- /TOC -->
+
+## Hello World
 
 ```php
 echo "Prints to screen";

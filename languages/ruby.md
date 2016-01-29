@@ -1,5 +1,39 @@
 # Ruby
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Ruby](#ruby)
+	- [String Methods](#string-methods)
+	- [Number Methods](#number-methods)
+	- [Misc](#misc)
+	- [Comparison Operators](#comparison-operators)
+	- [Boolean Operators](#boolean-operators)
+	- [Operators](#operators)
+	- [Combined Comparison Operator](#combined-comparison-operator)
+	- [Arrays](#arrays)
+	- [Loops](#loops)
+	- [One Line Ifs & Ternary Conditional Expressions & Case Statements](#one-line-ifs-ternary-conditional-expressions-case-statements)
+	- [Methods that Take Blocks](#methods-that-take-blocks)
+		- [Yield](#yield)
+	- [Times Iterator](#times-iterator)
+	- [Loop Iterator](#loop-iterator)
+	- [Each Iterator](#each-iterator)
+	- [Map](#map)
+	- [Select](#select)
+	- [```.upto```, ```.downto```](#upto-downto)
+	- [Hashes](#hashes)
+		- [```.new``` notation](#new-notation)
+		- [Some Hash Methods](#some-hash-methods)
+	- [Methods](#methods)
+	- [Splat Arguments](#splat-arguments)
+	- [Procs](#procs)
+	- [Lamdas](#lamdas)
+	- [Scope Prefixes](#scope-prefixes)
+	- [Classes](#classes)
+	- [Modules](#modules)
+
+<!-- /TOC -->
+
 ## String Methods
 
 ```ruby
@@ -16,12 +50,18 @@
 “a”.next  => “b”
 
 "#{}"  string interpolation - "My name is #{name}"
+```
 
-# Returns a copy of str with the all occurrences of pattern substituted.
-# Pattern is typically a regex.
+Returns a copy of str with the all occurrences of pattern substituted.
+Pattern is typically a regex.
+
+```ruby
 .gsub(pattern, replacement)
+```
 
-# Iterates through the string, returns an array of all results matching the pattern
+Iterates through the string, returns an array of all results matching the pattern
+
+```ruby
 .scan(pattern)
 
 .insert(index, “something”)
@@ -147,7 +187,7 @@ puts 0 < 1 ? "0 is less than one" : "0 is greater than 1"
 case which_is_greater
 when x > y then puts "x is greater."
 when x < y then  puts "y is greater."
-when x == y then puts "x and y are equal."    
+when x == y then puts "x and y are equal."
 else puts "I am confused."
 end
 ```
@@ -161,7 +201,7 @@ when x > y
 when x < y
     puts "y is greater."
 when x == y
-    puts "x and y are equal."    
+    puts "x and y are equal."
 else
     puts "I am confused."
 end
@@ -178,11 +218,11 @@ You can make your own methods that take blocks with yield.
 ```ruby
 def method(n)
   yield n   Passes "n" to the block. yield can also be standalone.
-end  
+end
 
-def double(num)    
-    yield num   
-end  
+def double(num)
+    yield num
+end
 
 double(3) { |x| x*2 }
 ```
@@ -197,8 +237,11 @@ Technically a method using the block ({}) as an argument.
 30.times {
   print "Ruby!"
 }
+```
 
-# You can keep track of the index if you like.
+You can keep track of the index if you like.
+
+```ruby
 30.times { |index|
   print index
 }
@@ -248,7 +291,7 @@ array.map(&:reverse)
 Returns values that matches the conditions defined in the block.
 
 ```ruby
-array.select { |x| x > 3}  
+array.select { |x| x > 3}
 ```
 
 ## ```.upto```, ```.downto```
@@ -422,5 +465,5 @@ require 'circle'  imports a given module into the environment
 
 include Circle   when placed in a class, this allows an instance of the      class to use the module's methods as if they were its own.     This is called a "mixin," and allows Ruby to mimic      multiple class inheritance, which it can't normally do –     it CAN "inherit" multiple modules.
 
-require_relative ‘something.rb’ allows you to access the data found in another file in the   same directory.  
+require_relative ‘something.rb’ allows you to access the data found in another file in the   same directory.
 ```
