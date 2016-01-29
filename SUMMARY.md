@@ -23,6 +23,8 @@
 * [Ops](ops/README.md)
    * [Docker](ops/docker.md)
    * [Vagrant](ops/vagrant.md)
+   * [NPM](ops/npm.md)
+   * [Phing](ops/phing.md)
 * [Design Patterns](design_patterns/README.md)
    * [Abstract Factory](design_patterns/abstract_factory.md)
    * [Adapter](design_patterns/adapter.md)
