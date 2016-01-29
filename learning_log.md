@@ -123,8 +123,5 @@ TODO: phing
 - rename extensions of files in a dir
 
   ```bash
-  for file in *.rb
-  do
-    mv "$file" "${file}.md"
-  done
+  find . -name "*.rb" -exec bash -c 'mv "$1" "$(sed "s/\.rb$/.md/" <<< "$1")"' - '{}' \;
   ```
