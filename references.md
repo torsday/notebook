@@ -11,3 +11,7 @@
 
 * [github.com/qsymmachus/notes](https://github.com/qsymmachus/notes)
 * [github.com/h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+
+## Docs
+
+* [Redux Docs](http://rackt.org/redux/docs/introduction/index.html)
