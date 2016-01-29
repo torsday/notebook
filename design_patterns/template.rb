@@ -7,7 +7,7 @@
 # to subclasses. Template methods lets subclasses redefine certain steps of an
 # algorithm without changing the algorithm's structure."
 
-# More succinctly, "a template method defines an algorithm in terms of 
+# More succinctly, "a template method defines an algorithm in terms of
 # abstract operations that subclasses override to provide concrete behavior"
 # (GoF p. 326)
 
@@ -16,7 +16,7 @@
 
 # Pros:
 # -----
-#  * Fundamental technique for code reuse - factor the structure of algorithm 
+#  * Fundamental technique for code reuse - factor the structure of algorithm
 #    into an abstract superclass.
 
 # Cons:
@@ -27,6 +27,7 @@
 # Abstract class
 # --------------
 
+```ruby
 class Animal
   attr_accessor :name
 
@@ -74,7 +75,7 @@ end
 class Turtle < Animal
   def initialize
     @name = "turtle"
-  end 
+  end
   def eat
     puts "The #{@name} lazily chews some lettuce."
   end
@@ -93,3 +94,4 @@ george = Monkey.new
 george.survive
 slowpoke = Turtle.new
 slowpoke.survive
+```

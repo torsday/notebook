@@ -26,6 +26,7 @@
 # Context [parent object, maintains an instance of state object]
 # --------------------------------------------------------------
 
+```ruby
 class Car
   attr_accessor :state
 
@@ -44,7 +45,7 @@ class Car
   # We also delegate state transitions to the state object:
 
   def shift_up
-    @state.shift_up(self) 
+    @state.shift_up(self)
   end
 
   def shift_down
@@ -121,3 +122,4 @@ my_saab.shift_up
 my_saab.throttle
 my_saab.brake
 my_saab.shift_down
+```

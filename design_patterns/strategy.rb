@@ -1,15 +1,15 @@
 # STRATEGY (object behavioral pattern)
 # ====================================
 
-# GoF definition (p. 315): 
+# GoF definition (p. 315):
 # ------------------------
 # "Define a family of algorithms, encapsulate each one, and make them
 # interchangeable. Strategy lets the algorithm vary independently
 # from clients that use it."
 
 # Like the 'template method' pattern, but rather than use subclassing
-# to change the target algorithm, we take the algorithm and place it 
-# within a separate object ("strategy") that can be composed within 
+# to change the target algorithm, we take the algorithm and place it
+# within a separate object ("strategy") that can be composed within
 # another object ("context"). These strategies have the same interface
 # and are, from the context's perspective, interchangeable.
 
@@ -21,6 +21,7 @@
 # Strategies:
 # ----------
 
+```ruby
 class Food
   def grill
     raise NotImplementedError
@@ -60,3 +61,4 @@ my_grill = Grill.new(Burger.new)
 my_grill.grill_food
 my_grill.food = Hotdog.new # Strategies are interchangeable
 my_grill.grill_food # Same method call, now performed with a different strategy
+```
