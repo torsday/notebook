@@ -7,8 +7,6 @@
 class to instantiate. Factory Method lets a class defer instantiation to
 subclasses."
 
-## Extra notes
-
 ## Pros:
 
 * Allows for more flexible, subclass-specific methods of object creation.

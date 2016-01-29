@@ -1,17 +1,10 @@
-# SINGLETON (object creational pattern)
-# =====================================
+# Singleton (object creational pattern)
 
-# GoF definition (p. 127):
-# ------------------------
-# "Ensure a class only has one instance, and provide a global point of access
-# to it."
-#
-# Sometimes a design calls for only one instance of a class. Rather than
-# pollute the namespace with a globally scoped instance, use the singleton
-# pattern to enforce single instance requirement.
+## GoF definition (p. 127):
 
-# Singleton:
-# ----------
+> "Ensure a class only has one instance, and provide a global point of access to it."
+
+Sometimes a design calls for only one instance of a class. Rather than pollute the namespace with a globally scoped instance, use the singleton pattern to enforce single instance requirement.
 
 ```ruby
 require 'singleton'
