@@ -71,3 +71,11 @@ foreach (clone $this->accountStatusEvents as $e) {
 - upgrade npm packages
 
   > Identify out of date packages (```npm outdated```). Update the versions in your ```package.json```. Run ```npm update``` to install the latest versions of each package.
+
+- font awesome has a nice [history icon](http://fortawesome.github.io/Font-Awesome/icon/history/)
+
+- to make an image appear in markdown, make a link with an exclamation point prepended to it.
+
+  ```markdown
+  ![Local Image](./images/<image_file_name>)
+  ```
