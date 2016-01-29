@@ -166,14 +166,12 @@ ORDER BY yr
 
 
 ```sql
-AVG() - Returns the average value
-FIRST() - Returns the first value
-LAST() - Returns the last value
-MAX() - Returns the largest value
-MIN() - Returns the smallest value
+AVG()     /* Returns the average value  */
+FIRST()   /* Returns the first value    */
+LAST()    /* Returns the last value     */
+MAX()     /* Returns the largest value  */
+MIN()     /* Returns the smallest value */
 ```
-
-
 
 ## JOINING TABLES
 
