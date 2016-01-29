@@ -1,7 +1,6 @@
 # Security
 
-COMMON WEB SECURITY FLAWS (and how to deal with them)
-=====================================================
+## Common Web Security Flaws (and how to deal with them)
 
 1. Sessions
 -----------
@@ -85,7 +84,7 @@ In sum, do not use string-building for SQL, but use queries with bind parameters
 5. INSECURE CRYPTO
 ------------------
 
-Obviously, you should always salt and hash sensitive data. The trick deciding what data is "sensitive." There is such a thing as OVER-securing data, as this can slow your application down unecessarily.
+Obviously, you should always salt and hash sensitive data. The trick deciding what data is "sensitive." There is such a thing as OVER-securing data, as this can slow your application down unnecessarily.
 
 Use transport layer security (SSL/TLS) when you're transferring sensitive data.
 

@@ -1,8 +1,6 @@
 # Scala
 
-SCALA
-=====
-
+```scala
 object HelloWorld {
   /** 'main' is your entry point into your program.
     * The method signature indicates:
@@ -15,16 +13,16 @@ object HelloWorld {
   }
 }
 
-
 object HelloWorld extends App {
   // If you extend App, all statements within this object will be run:
   println("Hello, World")
 }
+```
 
 
-VARIABLES
----------
+## Variables
 
+```scala
 // variable:
 var x = 5
 
@@ -33,11 +31,11 @@ val y = 8
 
 // explicit type declaration:
 val x : Int = 5
+```
 
+## Functions
 
-FUNCTIONS
----------
-
+```scala
 def doubler(x : Int) : Int =
   x * 2 // implicit return
 
@@ -74,11 +72,11 @@ def curry[A, B](a : A, f: (A, B) => C) : B => C =
 // onTrue and onFalse are no evaluated until called explicitly ('thunks')
 def if2[A] (cond: Boolena, onTrue: => A, onFalse => A): A =
   if (cond) onTrue else onFalse
+```
 
+## Packages
 
-PACKAGES
---------
-
+```scala
 // wildcard import
 import scala.collection._
 
@@ -87,7 +85,6 @@ import scala.collection.{Vector, Sequence}
 
 // renaming import
 import scala.collection.{Vector => Vec}
+```
 
-
-DATA STRUCTURES
----------------
+## Data Structures

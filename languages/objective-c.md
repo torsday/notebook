@@ -1,12 +1,9 @@
 # Objective-C
 
-OBJECTIVE-C
-===========
 
+## Method calls ('messages')
 
-Method calls ('messages')
--------------------------
-
+```objective-c
 // This is pretty weird, but...
 
 [object method]
@@ -23,10 +20,11 @@ Method calls ('messages')
 
 [fullName stringByReplacingOccurrencesOfString:firstName withString:lastName]
 => returns @"Olmsted Olmsted"
+```
 
-Strings
--------
+## Strings
 
+```objective-c
 // Let's print something:
 
 NSLog(@"Hello, world");    => "Hello, World."
@@ -61,11 +59,12 @@ NSLog(@"City has %lu characters", cityLength);    => "City has 9 characters"
 [firstName stringByAppendingString:lastName]    => returns @"John Olmsted"
 
 [NSString stringWithFormat:@"%@ %@", firstName, lastName];
+```
 
 
-Numbers
--------
+## Numbers
 
+```objective-c
 NSNumber *myAge = @28;
 
 NSLog(@"%@", myAge);    => returns @28
@@ -100,34 +99,37 @@ NSUInteger four = @4;
 NSUInteger six = @6;
 
 NSUInteger twentyFour = four * six;
+```
 
 
-Arrays
-------
+## Arrays
 
+```objective-c
 NSArray *fruit = @[@"banana", @"apple", @"kiwi"];
 
 fruit[1];    => returns @"apple"
 
 // Arrays are immutable objects!
 fruit[3] = @"orange";    => This throws an error.
+```
 
 
-Dictionaries
-------------
+## Dictionaries
 
-NSDictionary *myInfo = @{ 
-  @"First Name": @"John", 
-  @"Last Name": @"Olmsted", 
-  @"Age": @28 
+```objective-c
+NSDictionary *myInfo = @{
+  @"First Name": @"John",
+  @"Last Name": @"Olmsted",
+  @"Age": @28
 };
 
 myInfo[@"First Name"];    => returns @"John"
+```
 
 
-Classes
--------
+## Classes
 
+```objective-c
 // Let's objects without object literal notation:
 
 NSString *emptyString = [NSString string];
@@ -142,22 +144,23 @@ NSString *emptyString = [[NSString alloc] initWithString:@"I'm aliiiiive!"]
 // Other handy ways to uses class methods ('messages') to create objects:
 
 NSString *fullName = [NSString stringWithFormat:@"%@ %@", firstName, lastName];
+```
 
 
-Control Flow
-------------
+## Control Flow
 
+```objective-c
 // This part is a little weird:
 
 BOOL thisIsTrue = YES;
 BOOL thisIsFalse = NO;
 
 if (condition) {
-  
+
 } else if (condition) {
-  
+
 } else {
-  
+
 }
 
 // Some conditionals:
@@ -166,17 +169,16 @@ myInt < 3
 myInt > 10
 [myString isEqualToString:@"applesauce"]
 
-
 // Switch statements:
 
-switch (animal) { 
+switch (animal) {
   case @"dog" : {
     NSLog(@"woof!");
     break;
   }
   case @"cat":
   case @"tiger":
-  case @"lion" : { 
+  case @"lion" : {
     NSLog(@"meow!");
     break;
   }
@@ -185,5 +187,4 @@ switch (animal) {
     break;
   }
 }
-
-
+```
