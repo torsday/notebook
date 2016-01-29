@@ -1,27 +1,25 @@
-# FACTORY METHOD (pattern type)
-# ============================================
+# Factory Method (pattern type)
 
-# GoF definition (p. 107):
-# -----------------------
-# "Define an interface for creating an object, but let subclasses decide which
-# class to instantiate. Factory Method lets a class defer instantiation to
-# subclasses."
 
-# Extra notes
+## GoF definition (p. 107):
 
-# Pros:
-# -----
-#  * Allows for more flexible, subclass-specific methods of object creation.
-#  * The abstract factory method defines a clear interface the enforces
-#    certain requirements on subclasses factory methods.
+> "Define an interface for creating an object, but let subclasses decide which
+class to instantiate. Factory Method lets a class defer instantiation to
+subclasses."
 
-# Cons:
-# -----
-#  * Can require creation of new subclasses to implement minor differences
-#    in object creation.
+## Extra notes
 
-# Abstract class
-# --------------
+## Pros:
+
+* Allows for more flexible, subclass-specific methods of object creation.
+* The abstract factory method defines a clear interface the enforces certain requirements on subclasses factory methods.
+
+## Cons:
+
+* Can require creation of new subclasses to implement minor differences in object creation.
+
+## Abstract class
+
 
 ```ruby
 class Package
