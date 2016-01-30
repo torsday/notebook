@@ -155,3 +155,5 @@ TODO: outline likely CK files to create
     ```
 
 - TODO bind in Javascript
+
+- Reminded about how useful inserting `debugger` into my JS code can be when combined with Chrome.
