@@ -12,3 +12,6 @@
     * Cabins 7/8 closest to water
     * > People go nuts for the cabins, but I personally love the campsites at Steep Ravine better. Great views, and good privacy due to the terrain. Sites 2 & 3 are the best to book for a big group, and are also protected from wind by awesome Cypress trees
     * [hipcamp link](https://www.hipcamp.com/ca/sf-bay-area/mount-tamalpais/steep-ravine-cabins-and-campground)
+- [ ] Wildcat Camp in Point Reyes
+    * [hipcamp link](https://www.hipcamp.com/ca/sf-bay-area/point-reyes/wildcat-camp)
+    * > Sites 5-7 are the small but offers the most seclusion
