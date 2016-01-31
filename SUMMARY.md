@@ -49,5 +49,5 @@
    * [Vim](tools/vim.md)
 * [Books](books.md)
 * [References](references.md)
-* [Ops](README.md)
-   * [Docker](ops/docker.md)
+* Campsite Wishlist
+
