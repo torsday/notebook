@@ -1,3 +1,7 @@
+
+
+- [http://readable.tastefulwords.com/](http://readable.tastefulwords.com/) Great tool to make a site readable.
+
 - Phing *(PHing Is Not GNU make)*
     > it's a PHP project build system or build tool based on ​Apache Ant. You can do anything with it that you could do with a traditional build system like GNU make, and its use of simple XML build files and extensible PHP "task" classes make it an easy-to-use and highly flexible build framework.
 
