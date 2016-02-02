@@ -167,3 +167,5 @@ TODO: outline likely CK files to create
 2016-02-01
 
 - Interetesting article (https://speakerdeck.com/vjeux/react-css-in-js) about inlining styles in React.
+
+- TODO process notes from https://stash.corp.creditkarma.com/projects/MAX/repos/admax-js/pull-requests/141/overview
