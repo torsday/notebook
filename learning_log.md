@@ -1,3 +1,39 @@
+- Phing
+    > PHing Is Not GNU make; it's a PHP project build system or build tool based on ​Apache Ant. You can do anything with it that you could do with a traditional build system like GNU make, and its use of simple XML build files and extensible PHP "task" classes make it an easy-to-use and highly flexible build framework.
+
+- To zero out a css transform, which you may want to do if it leaves junk pixels...
+
+    ```css
+        .modal-shadow .modal {
+        -webkit-transform: none;
+        transform: none;
+    }
+    ```
+
+2016-02-02
+
+
+---
+
+- Interetesting article (https://speakerdeck.com/vjeux/react-css-in-js) about inlining styles in React.
+
+- TODO process notes from https://stash.corp.creditkarma.com/projects/MAX/repos/admax-js/pull-requests/141/overview
+
+2016-02-01
+
+
+---
+
+## Week of 2016-02-01
+
+
+
+---
+
+# Switching to a Twitter-esque sorting
+
+---
+
 # Learning Log
 
 ---
@@ -32,8 +68,6 @@
 ---
 
 2016-01-27
-
-TODO: phing
 
 - To commit case-sensitive only filename changes in Git:
 
@@ -159,17 +193,3 @@ TODO: outline likely CK files to create
 - Reminded about how useful inserting `debugger` into my JS code can be when combined with Chrome.
 
 ---
-
-## Week of 2016-02-01
-
----
-
-2016-02-01
-
-- Interetesting article (https://speakerdeck.com/vjeux/react-css-in-js) about inlining styles in React.
-
-- TODO process notes from https://stash.corp.creditkarma.com/projects/MAX/repos/admax-js/pull-requests/141/overview
-
----
-
-2016-02-02
