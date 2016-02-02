@@ -157,3 +157,13 @@ TODO: outline likely CK files to create
 - TODO bind in Javascript
 
 - Reminded about how useful inserting `debugger` into my JS code can be when combined with Chrome.
+
+---
+
+## Week of 2016-02-01
+
+---
+
+2016-02-01
+
+- Interetesting article (https://speakerdeck.com/vjeux/react-css-in-js) about inlining styles in React.
