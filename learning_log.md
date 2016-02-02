@@ -1,5 +1,5 @@
-- Phing
-    > PHing Is Not GNU make; it's a PHP project build system or build tool based on ​Apache Ant. You can do anything with it that you could do with a traditional build system like GNU make, and its use of simple XML build files and extensible PHP "task" classes make it an easy-to-use and highly flexible build framework.
+- Phing *(PHing Is Not GNU make)*
+    > it's a PHP project build system or build tool based on ​Apache Ant. You can do anything with it that you could do with a traditional build system like GNU make, and its use of simple XML build files and extensible PHP "task" classes make it an easy-to-use and highly flexible build framework.
 
 - To zero out a css transform, which you may want to do if it leaves junk pixels...
 
