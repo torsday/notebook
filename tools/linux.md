@@ -1,10 +1,77 @@
 # Linux
 
 - [Linux](#linux)
-  - [rsync](#rsync)
   - [find](#find)
+  - [rsync](#rsync)
 
-## rsync
+---
+
+## ```find```
+
+```bash
+find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+```
+
+#### show empty directories
+
+```bash
+find . -type d -empty -print
+```
+
+#### delete empty directories
+
+```bash
+find . -type d -empty -delete
+```
+
+---
+
+## ```grep```
+
+search for string in a dir of files
+
+```bash
+grep -r '<string>' '<path_to_somewhere>'
+```
+
+
+#### Finding all files containing a text string on Linux
+
+```bash
+grep -rnw '/path/to/somewhere/' -e "pattern"
+
+# `-r` or `-R` is recursive
+# `-n` is line numbe
+# `-w` stands match the whole word
+# `-l` (lower-case L) can be added to just give the file name of matching files.
+```
+
+`--exclude` or `--include` parameter could be used for greater efficiency:
+
+```bash
+grep --include=\*.{c,h} -rnw '/path/to/somewhere/' -e "pattern"
+```
+
+`--exclude` does the opposite:
+
+```bash
+grep --exclude=*.o -rnw '/path/to/somewhere/' -e "pattern"
+```
+
+Just like exclude file it's possible to exclude/include directories through `--exclude-dir` and `--include-dir` parameter; for example, the following shows how to integrate `--exclude-dir`:
+
+```bash
+grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/somewhere/' -e "pattern"
+```
+
+### References
+
+* [man page](http://linux.die.net/man/1/grep0)
+
+
+---
+
+## ```rsync```
 
 A remote (and local) file-copying tool.
 
@@ -159,21 +226,3 @@ When not using `/` at the end of destination, rsync will create a folder with th
 
 * [man page](http://linux.die.net/man/1/rsync)
 * [To Slash or Not To Slash](http://qdosmsq.dunbar-it.co.uk/blog/2013/02/rsync-to-slash-or-not-to-slash/)
-
-## find
-
-```bash
-find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
-```
-
-#### show empty directories
-
-```bash
-find . -type d -empty -print
-```
-
-#### delete empty directories
-
-```bash
-find . -type d -empty -delete
-```
