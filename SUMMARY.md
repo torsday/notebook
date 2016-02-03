@@ -10,6 +10,7 @@
    * [Repository](ddd/repository.md)
    * [Classes](ddd/classes.md)
    * [Service](ddd/service.md)
+* Algorithms
 * [Languages](languages/README.md)
    * [C](languages/c.md)
    * [Javascript](languages/javascript.md)
@@ -54,5 +55,4 @@
 * [Books](books.md)
 * [References](references.md)
 * [Campsite Wishlist](campsite_wishlist.md)
-* Algorithms
 
