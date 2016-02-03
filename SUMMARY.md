@@ -54,3 +54,5 @@
 * [Books](books.md)
 * [References](references.md)
 * [Campsite Wishlist](campsite_wishlist.md)
+* Algorithms
+
