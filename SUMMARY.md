@@ -51,4 +51,4 @@
 * [References](references.md)
 * [Campsite Wishlist](campsite_wishlist.md)
 * [Linux](linux.md)
-
+* [Git](git.md)
