@@ -1,30 +1,29 @@
-# COMMAND (object behavioral pattern)
-# ===================================
+# Command (object behavioral pattern)
 
-# GoF definition (p. 233):
-# -----------------------
-# "Encapsulate a request as an object, thereby letting you parameterize
-# clients with different requests, queue or log requests, and support
-# undoable operations."
+## GoF definition (p. 233):
 
-# The key to this pattern is that it decouples the object that invokes an
-# operation (the 'invoker') from the object having the knowledge to perform
-# it (the 'command'). In this respect it is similar to the strategy pattern.
+> "Encapsulate a request as an object, thereby letting you parameterize
+clients with different requests, queue or log requests, and support
+undoable operations."
 
-# Famously, this pattern can allow for undoable operations. If a command
-# provides a means to reverse its operations (e.g. an 'unexecute' method
-# as well as 'execute'), command objects can be stored in a history list
-# and 'undone' and 'redone' with this methods.
+The key to this pattern is that it decouples the object that invokes an
+operation (the 'invoker') from the object having the knowledge to perform
+it (the 'command'). In this respect it is similar to the strategy pattern.
 
-# Pros:
-# -----
-#  * Decouples the object that invokes the operation from the one that knows
-#    how to perform it.
-#  * You can assemble commands into a composite command.
-#  * You can support undoable operations.
+Famously, this pattern can allow for undoable operations. If a command
+provides a means to reverse its operations (e.g. an 'unexecute' method
+as well as 'execute'), command objects can be stored in a history list
+and 'undone' and 'redone' with this methods.
 
-# Abstract Command [defines interface]
-# ------------------------------------
+## Pros:
+
+ * Decouples the object that invokes the operation from the one that knows
+   how to perform it.
+ * You can assemble commands into a composite command.
+ * You can support undoable operations.
+
+## Abstract Command [defines interface]
+
 
 ```ruby
 class Command
