@@ -15,9 +15,9 @@
    * [Javascript](languages/javascript.md)
    * [Objective-C](languages/objective-c.md)
    * [PHP](languages/php.md)
+   * [Rails](languages/rails.md)
    * [Ruby](languages/ruby.md)
    * [Scala](languages/scala.md)
-   * Rails
 * [Databases](databases/README.md)
    * [Postgres](databases/postgres.md)
    * [SQL](databases/sql.md)
@@ -54,4 +54,3 @@
 * [Books](books.md)
 * [References](references.md)
 * [Campsite Wishlist](campsite_wishlist.md)
-
