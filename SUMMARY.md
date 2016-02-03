@@ -17,6 +17,7 @@
    * [PHP](languages/php.md)
    * [Ruby](languages/ruby.md)
    * [Scala](languages/scala.md)
+   * Rails
 * [Databases](databases/README.md)
    * [Postgres](databases/postgres.md)
    * [SQL](databases/sql.md)
@@ -53,3 +54,4 @@
 * [Books](books.md)
 * [References](references.md)
 * [Campsite Wishlist](campsite_wishlist.md)
+
