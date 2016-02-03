@@ -2,7 +2,7 @@
 
 ## Setup
 
-using *postgres* instead of sqlite) without tests
+using ```postgres``` instead of ```sqlite``` without tests
 
 ```bash
 rails new <app_name> -d postgresql -T

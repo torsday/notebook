@@ -24,6 +24,14 @@ A tool which controls the generation of executables and other non-source files o
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
 
+## Postgres
+
+See PostgreSQL
+
+## PostgreSQL
+
+An object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.
+
 ## Private
 
 Accessible only within the class itself.
@@ -51,6 +59,10 @@ A Service in Domain Driven Design is simply a stateless object that performs an 
 ## SplMaxHeap
 
 http://php.net/manual/en/class.splmaxheap.php
+
+## SQLite
+
+ A software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
 
 ## Trait
 
