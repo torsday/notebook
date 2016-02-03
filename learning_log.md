@@ -8,7 +8,7 @@
 - To zero out a css transform, which you may want to do if it leaves junk pixels...
 
     ```css
-        .modal-shadow .modal {
+    .modal-shadow .modal {
         -webkit-transform: none;
         transform: none;
     }
