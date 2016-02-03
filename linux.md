@@ -1,7 +1,8 @@
 # Linux
 
 - [Linux](#linux)
-	- [rsync](#rsync)
+  - [rsync](#rsync)
+  - [find](#find)
 
 ## rsync
 
@@ -158,3 +159,21 @@ When not using `/` at the end of destination, rsync will create a folder with th
 
 * [man page](http://linux.die.net/man/1/rsync)
 * [To Slash or Not To Slash](http://qdosmsq.dunbar-it.co.uk/blog/2013/02/rsync-to-slash-or-not-to-slash/)
+
+## find
+
+```bash
+find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+```
+
+#### show empty directories
+
+```bash
+find . -type d -empty -print
+```
+
+#### delete empty directories
+
+```bash
+find . -type d -empty -delete
+```
