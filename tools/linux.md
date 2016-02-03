@@ -2,6 +2,7 @@
 
 - [Linux](#linux)
   - [find](#find)
+  - [grep](#grep)
   - [rsync](#rsync)
 
 ---
@@ -66,8 +67,8 @@ grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/somewhere/' -e "pattern"
 
 ### References
 
-* [man page](http://linux.die.net/man/1/grep0)
-
+* [Man Page](http://linux.die.net/man/1/grep0)
+* [StackOverflow: Finding all files containing a text string on Linux](https://stackoverflow.com/questions/16956810/finding-all-files-containing-a-text-string-on-linux)
 
 ---
 
