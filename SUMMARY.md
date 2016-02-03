@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [Learning Log](learning_log.md)
+* [Articles](articles/README.md)
+   * [Squash](articles/squash.md)
 * [Setup](setup/README.md)
 * [Domain Driven Design](ddd/README.md)
    * [Architecture](ddd/architecture.md)
@@ -10,7 +12,7 @@
    * [Repository](ddd/repository.md)
    * [Classes](ddd/classes.md)
    * [Service](ddd/service.md)
-* Algorithms
+* [Algorithms](algorithms/README.md)
 * [Languages](languages/README.md)
    * [C](languages/c.md)
    * [Javascript](languages/javascript.md)
@@ -55,4 +57,3 @@
 * [Books](books.md)
 * [References](references.md)
 * [Campsite Wishlist](campsite_wishlist.md)
-
