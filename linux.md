@@ -12,8 +12,9 @@ rsync [OPTION...] SRC... [DEST]
 ```
 
 ```bash
-rsync -ipumtzn --progress src/ dest
+rsync -ripumtz --progress src/ dest/
 
+# -r recurse into directories
 # -i turns on the itemized format, which shows more information than the default format
 # -p preserve permissions
 # -u makes rsync transfer skip files which are newer in dest than in src
@@ -26,7 +27,14 @@ rsync -ipumtzn --progress src/ dest
 # -n dry run
 ```
 
-### Options
+### Use of `/` at the end of path:
+
+- When using `/` at the end of source, rsync will copy the content of the last folder.
+When not using `/` at the end of source, rsync will copy the last folder and the content of the folder.
+- When using `/` at the end of destination, rsync will paste the data inside the last folder.
+When not using `/` at the end of destination, rsync will create a folder with the last destination folder name and paste the data inside that folder.
+
+### Complete Options
 
 ```
 -v, --verbose               increase verbosity
@@ -149,3 +157,4 @@ rsync -ipumtzn --progress src/ dest
 ### References
 
 * [man page](http://linux.die.net/man/1/rsync)
+* [To Slash or Not To Slash](http://qdosmsq.dunbar-it.co.uk/blog/2013/02/rsync-to-slash-or-not-to-slash/)
