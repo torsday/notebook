@@ -7,6 +7,12 @@
 npm outdated
 ```
 
+#### Update all global packages
+
+```bash
+npm update -g
+```
+
 #### package version
 
 ```bash

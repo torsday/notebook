@@ -7,10 +7,11 @@
 * [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services/)
 * [EmailChange w/i reach-php](https://stash.corp.CPT.com/projects/MAX/repos/reach-php/pull-requests/76/diff)
 
-## Repos
+## GitHub Repos
 
-* [github.com/qsymmachus/notes](https://github.com/qsymmachus/notes)
-* [github.com/h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+* [h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+* [qsymmachus/notes](https://github.com/qsymmachus/notes)
+* [thoughtbot/laptop](https://github.com/thoughtbot/laptop)
 
 ## Docs
 

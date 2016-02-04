@@ -1,24 +1,22 @@
 # Javascript
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Javascript](#javascript)
-	- [Interactive](#interactive)
-	- [Some String Methods](#some-string-methods)
-	- [Some Math Tools](#some-math-tools)
-	- [Comparison Operators](#comparison-operators)
-	- [Conditional Statements](#conditional-statements)
-	- [for, While, Do While Loops](#for-while-do-while-loops)
-	- [for / in Loop – Used for Iterating Through Hashes or Arrays (kind of Like Ruby's .each)](#for-in-loop-used-for-iterating-through-hashes-or-arrays-kind-of-like-rubys-each)
-	- [Switch](#switch)
-	- [Arrays](#arrays)
-	- [Objects](#objects)
-	- [Constructors/“classes” or Prototypes](#constructorsclasses-or-prototypes)
-	- [Prototypical Inheritance:](#prototypical-inheritance)
-	- [Functions & Methods – a Method Is a Function Associated with an Object.](#functions-methods-a-method-is-a-function-associated-with-an-object)
-	- [Module Design Pattern](#module-design-pattern)
-	- [Hoisting](#hoisting)
-- [Callbacks](#callbacks)
+- [Interactive](#interactive)
+- [Some String Methods](#some-string-methods)
+- [Some Math Tools](#some-math-tools)
+- [Comparison Operators](#comparison-operators)
+- [Conditional Statements](#conditional-statements)
+- [for, While, Do While Loops](#for-while-do-while-loops)
+- [for / in Loop – Used for Iterating Through Hashes or Arrays (kind of Like Ruby's .each)](#for-in-loop-used-for-iterating-through-hashes-or-arrays-kind-of-like-rubys-each)
+- [Switch](#switch)
+- [Arrays](#arrays)
+- [Objects](#objects)
+- [Constructors/“classes” or Prototypes](#constructorsclasses-or-prototypes)
+- [Prototypical Inheritance:](#prototypical-inheritance)
+- [Functions & Methods – a Method Is a Function Associated with an Object.](#functions-methods-a-method-is-a-function-associated-with-an-object)
+- [Module Design Pattern](#module-design-pattern)
+- [Hoisting](#hoisting)
 
 <!-- /TOC -->
 
