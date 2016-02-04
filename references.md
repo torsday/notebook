@@ -9,9 +9,9 @@
 
 ## GitHub Repos
 
-* [h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
-* [qsymmachus/notes](https://github.com/qsymmachus/notes)
-* [thoughtbot/laptop](https://github.com/thoughtbot/laptop)
+* [h5bp: **Front-end-Developer-Interview-Questions**](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+* [qsymmachus: **notes**](https://github.com/qsymmachus/notes)
+* [thoughtbot: **laptop**](https://github.com/thoughtbot/laptop)
 
 ## Docs
 
