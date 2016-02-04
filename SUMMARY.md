@@ -51,6 +51,7 @@
 * [Front-End Interview Questions](front-end_interview_questions.md)
 * [Tools](tools/README.md)
    * [Git](tools/git.md)
+   * [Homebrew](tools/homebrew.md)
    * [Linux](tools/linux.md)
    * [PSR Fixer](tools/psr-fixer.md)
    * [Vim](tools/vim.md)
