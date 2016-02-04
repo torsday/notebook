@@ -14,7 +14,7 @@ Docker, a tool for deploying and running applications. Docker provides a way to 
 
 ## GitBook
 
-[github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
+https://github.com/GitbookIO/gitbook
 
 ## GNU Make
 
