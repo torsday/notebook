@@ -2,7 +2,8 @@
 
 ---
 
-- 
+- Playing around with [Huginn](https://github.com/cantino/huginn/), an interesting agent tool. Touches Kitematic, which is a pretty great Docker tool.
+
 
 2016-02-03
 
