@@ -50,7 +50,7 @@ Create the repo:
 
 ```sh
 $ git init test6
-Initialized empty Git repository in /Users/mccm06/Documents/Temp/Scratch/test6/.git/
+Initialized empty Git repository in /Users/torsday/Documents/Temp/Scratch/test6/.git/
 [master (root-commit) 05e9c3e] First-commit
  0 files changed
  create mode 100644 README
