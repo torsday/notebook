@@ -2,7 +2,7 @@
 
 ## Countable
 
-http://php.net/manual/en/class.countable.php
+[PHP Doc](http://php.net/manual/en/class.countable.php)
 
 ## Currying
 
@@ -26,7 +26,7 @@ Specifies what methods a class must implement (an interface). An interface is sl
 
 ## Kitematic
 
-The Docker GUI, runs on Mac OS X and Windows operating systems. https://docs.docker.com/kitematic/
+The Docker GUI, runs on Mac OS X and Windows operating systems. [docs.docker.com/kitematic/](https://docs.docker.com/kitematic/)
 
 ## Postgres
 
@@ -62,7 +62,7 @@ A Service in Domain Driven Design is simply a stateless object that performs an 
 
 ## SplMaxHeap
 
-http://php.net/manual/en/class.splmaxheap.php
+[PHP Doc](http://php.net/manual/en/class.splmaxheap.php)
 
 ## SQLite
 
