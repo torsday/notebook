@@ -38,6 +38,10 @@ Cleanup unnecessary files and optimize the local repository.
 
 Usually git gc runs very quickly while providing good disk space utilization and performance. This option will cause git gc to more aggressively optimize the repository at the expense of taking much more time. **The effects of this optimization are persistent, so this option only needs to be used occasionally**; every few hundred changesets or so.
 
+### [`reflog`](https://git-scm.com/docs/git-reflog)
+
+Reference logs, or "reflogs", record when the tips of branches and other references were updated in the local repository.
+
 ### `repack`
 
 ```sh
