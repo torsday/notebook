@@ -1,6 +1,13 @@
 # Git
 
+## Basics
 
+```sh
+git init
+git clone <repo_url>
+git checkout <pre-existing-branch-name>
+git checkout -b <new_branch_name>
+```
 
 ## Commands
 
@@ -145,3 +152,8 @@ And here, you might well want to add the "-f" flag (which is the "drop all old d
 And then it's going to take forever and a day (ie a "do it overnight" thing). But the end result is that everybody downstream from that repository will get much better packs, without having to spend any effort on it themselves.
 
 ~ Linus
+
+
+## References
+
+* [Git Flow](https://github.com/nvie/gitflow)
