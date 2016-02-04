@@ -5,7 +5,9 @@
 
 * [h5bp: **Front-end-Developer-Interview-Questions**](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 * [**John Olmsted's Notes**](https://github.com/qsymmachus/notes)
-* [thoughtbot: **laptop**](https://github.com/thoughtbot/laptop)
+* [ThoughtBot](https://github.com/thoughtbot)
+  * [**Laptop**](https://github.com/thoughtbot/laptop)
+  * [**TIL**](https://github.com/thoughtbot/til)
 
 
 ## Docs
