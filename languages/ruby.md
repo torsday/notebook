@@ -332,7 +332,7 @@ my_hash = {
 my_hash = Hash.new
 
 my_hash["name"] = "Eric"  Adds (or changes) key-value pair.
-my_hash = Hash.new("derp")  creates a hash with "derp" as the default nil       (that is, the value of an undefined key)
+my_hash         = Hash.new("derp")  creates a hash with "derp" as the default nil (that is, the value of an undefined key)
 my_hash.select { |k, v| v > 3}  returns values greater than 3 (an example).
 ```
 
@@ -465,4 +465,427 @@ require 'circle'  imports a given module into the environment
 include Circle   when placed in a class, this allows an instance of the      class to use the module's methods as if they were its own.     This is called a "mixin," and allows Ruby to mimic      multiple class inheritance, which it can't normally do –     it CAN "inherit" multiple modules.
 
 require_relative ‘something.rb’ allows you to access the data found in another file in the   same directory.
+```
+
+
+
+
+---
+## Getting all but the first element from Ruby array
+
+When getting all but the first element from an array in Ruby, we have a few
+options.
+
+Given the following list:
+
+```ruby
+list = [1,2,3,4]
+```
+
+### Shift
+
+We could use [`shift`][shift docs], however it mutates the array. It also
+doesn't return the list so we need two lines to write this code:
+
+```ruby
+list.shift
+## => 1
+rest_of_list = list
+## => [2,3,4]
+```
+
+### Slice
+
+In the past I've used [`slice`][slice docs], but specifying indices or passing
+the length of an array is ugly and low-level:
+
+```ruby
+rest_of_list = list[1..-1]
+## => [2,3,4]
+rest_of_list = list.slice(1, list.length)
+## => [2,3,4]
+
+list # is not modified
+## => [1,2,3,4]
+```
+
+### Drop
+
+My new favorite is [`drop`][drop docs] which does not mutate and does not
+require ugly, low-level code:
+
+```ruby
+list.drop(1)
+## => [2,3,4]
+
+list # is not modified
+## => [1,2,3,4]
+```
+
+An added benefit of`drop` is that it will always return an array, while `slice`
+will sometimes return `nil`
+
+```ruby
+[].slice(1..-1)
+## => nil
+
+[].drop(1)
+## => []
+```
+
+[shift docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-shift
+[slice docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-slice
+[drop docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-drop
+
+
+---
+## Returning a fixed number of items from the tail of a list
+
+[`Array#last`][last docs] takes an argument to limit the number of items to return
+from the tail of a list.
+
+```ruby
+> [1,2,3,4,5].last(2)
+## = > [4, 5]
+```
+
+[last docs]: (http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-last)
+
+
+---
+## Basic Object
+
+Ruby has a `BasicObject` class which doesn't include Kernel methods and acts as
+the parent for all `Object`s. You can see the ancestry in practice via:
+
+```ruby
+Object.ancestors # => [Object, Kernel, BasicObject]
+BasicObject.ancestors # => [BasicObject]
+```
+
+`BasicObject` thus has very few instance methods which would be inherited by a
+subclass:
+
+```ruby
+BasicObject.instance_methods # => [:==, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+Object.instance_methods.length # => 55
+```
+
+This is useful for delegators which would otherwise not delegate methods such as
+\#to_s.
+
+Example:
+
+```ruby
+class ListDelegator
+  def initialize(*list)
+    @list = list
+  end
+
+  def method_missing(method, *args, &block)
+    @list.map do |item|
+      item.__send__(method, *args, &block)
+    end
+  end
+end
+
+class ListDelegatorBasic < BasicObject
+  def initialize(*list)
+    @list = list
+  end
+
+  def method_missing(method, *args, &block)
+    @list.map do |item|
+      item.__send__(method, *args, &block)
+    end
+  end
+end
+
+class Out
+  def to_s
+    "Out"
+  end
+end
+
+ListDelegator.new(Out.new).to_s # => "#<ListDelegator2:0x007fcab400d148>"
+ListDelegatorBasic.new(Out.new).to_s # => ["Out"]
+```
+
+
+---
+## Currying in Ruby
+
+Ruby defines `curry` for `Method` and `Proc`, allowing procs to return partially
+applied procs when they get called with fewer than the required number of
+arguments. For example:
+
+```ruby
+multiply = -> x,y { x * y }.curry
+##=> #<Proc:0x007fed33851510 (lambda)>
+multiply[2,3]
+##=> 6
+double = multiply[2]
+##=> #<Proc:0x007fed35892888 (lambda)>
+double[3]
+##=> 6
+```
+
+**Note:** While `Proc#curry` has been around since Ruby 1.9, `Method#curry` was
+only added in Ruby 2.2.0. For versions before 2.2.0, you will first need to
+convert your method object to a proc via `Method#to_proc`.
+
+Check out the [Ruby docs] for more details.
+
+[Ruby docs]: http://ruby-doc.org/core-2.2.0/Proc.html#method-i-curry
+
+
+---
+## Inject vs each_with_object
+
+### Inject
+
+Inject takes the value of the block and passes it along.
+This causes a lot of errors like.
+
+```ruby
+  inject_array = ['A', 'B', 'C', 'D']
+
+  inject_array.inject({}) do |accumulator, value|
+    accumulator[value] = value.downcase
+  end
+
+  Output: 'IndexError: string not matched'
+```
+
+The above code causes 'IndexError: string not matched' error.
+
+What you really wanted.
+
+```ruby
+  inject_array = ['A', 'B', 'C', 'D']
+
+  inject_array.inject({}) do |accumulator, value|
+    accumulator[value] = value.downcase
+    accumulator
+  end
+
+  Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
+  ```
+
+### each_with_object
+
+  each_with_object ignores the return value of the block and passes the initial object along.
+
+```ruby
+  array = ['A', 'B', 'C', 'D']
+
+  array.each_with_object({}) do |value, accumulator|
+    accumulator[value] = value.downcase
+  end
+
+  Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
+  ```
+One more thing which you can notice is the order of arguments to the block for each of the functions.
+
+Inject takes the result/accumulator and then the iteratable value, whereas 'each_with_object' takes the value followed by the result/accumulator.
+
+
+---
+## Using pry and ncurses together
+
+Because of ncurse's visual mode you will not be able to use pry normally.
+The easiest way to get pry working is to do the following:
+
+```ruby
+close_screen
+binding.pry
+refresh
+```
+
+[`close_screen`][close_screen docs] restores the non-visual mode which allows you to see the
+output of pry correctly. When you `exit` from pry, `refresh` will resume
+ncurse's visual mode.
+
+[close_screen docs]: http://ruby-doc.org/stdlib-2.0/libdoc/curses/rdoc/Curses.html#method-c-close_screen
+
+
+---
+## Parallel assignment
+
+Ruby allows us to assign multiple variables on the same line. This is also
+called parallel assignment.
+
+```ruby
+a, b = 1, 2
+##=> [1, 2]
+a
+##=> 1
+b
+##=> 2
+```
+
+We can also use parallel assignment and the splat operator in combination to
+split the array into the head and tail. This is in particular useful if we want
+to [get all but the first element from an array](all-but-the-first-element-from-array.md).
+
+```ruby
+list = [1,2,3,4]
+##=> [1,2,3,4]
+head, *tail = list
+##=> [1,2,3,4]
+head
+##=> 1
+tail
+##=> [2,3,4]
+
+list # is not modified
+##=> [1,2,3,4]
+```
+
+#### Empty arrays
+When using parallel assignment on an empty array, the tail will always return an
+array while the head will be `nil`.
+
+```ruby
+head, *tail = []
+##=> []
+head
+##=> nil
+tail
+##=> []
+```
+
+
+---
+## Regex Literals and URLs
+
+Regular expressions in Ruby are typically delineated by the `/` character.
+However, this forces you to escape `/` in your expression.
+
+I was recently using a regex to match certain URLs
+
+```ruby
+/http:\/\/sub\.domain\.com\/path/
+```
+
+A colleague pointed out that I could use the `%r{...}` notation and avoid
+escaping all those slashes.
+
+```ruby
+%r{http://sub\.domain\.com/path}
+```
+
+Much cleaner!
+
+
+---
+## Spliting a string into a maximum number of segments
+
+[`String#split`][split docs] takes an argument to limit the number of returned
+matches. Once the limit is reached, the rest of the string is returned as one
+match even if it contains more delimiters.
+
+For example, say we are parsing a string whose first two lines are always
+headers and the rest is the body:
+
+```ruby
+text = <<-TEXT
+header1 = value
+header2 = value
+the body
+keeps going
+on over
+multiple lines
+TEXT
+```
+
+A simple `split` on newlines would create an array with each line as an
+individual element:
+
+```ruby
+text.split("\n")
+## => ["header1 = value",
+##     "header2 = value",
+##     "the body",
+##     "keeps going",
+##     "on over",
+##     "multiple lines"]
+```
+
+Since we know there are two headers and a body, we can tell `split` to stop
+splitting once we have three segments:
+
+```ruby
+text.split("\n", 3)
+## => ["header1 = value",
+##     "header2 = value",
+##     "the body\nkeeps going\non over\nmultiple lines"]
+```
+
+[split docs]: http://www.ruby-doc.org/core-2.2.0/String.html#method-i-split
+
+
+---
+## The `DATA` constant
+
+The `DATA` constant in Ruby allows us to access the text at the end of our file
+listed after the `__END__` block. This can be surprisingly useful, for instance
+if we need to extract information from a rather large data blob.
+
+Imagine a scenario where we need to extract the user names from a SQL statement.
+
+```ruby
+puts DATA.read.gsub("ALTER USER ", "").gsub(/IDENTIFIED BY.+/, "")
+
+__END__
+ALTER USER Annette IDENTIFIED BY 'Annette';
+ALTER USER Warren IDENTIFIED BY 'Warren';
+ALTER USER Anthony IDENTIFIED BY 'Anthony ';
+ALTER USER Preston IDENTIFIED BY 'Preston';
+ALTER USER Kelly IDENTIFIED BY 'Kelly ';
+ALTER USER Taylor IDENTIFIED BY 'Taylor';
+ALTER USER Stiller IDENTIFIED BY 'Stiller';
+ALTER USER Dennis IDENTIFIED BY 'Dennis';
+ALTER USER Schwart IDENTIFIED BY 'Schwart';
+```
+
+Executing the file will print this:
+
+```
+Annette
+Warren
+Anthony
+Preston
+Kelly
+Taylor
+Stiller
+Dennis
+Schwart
+```
+
+Since `DATA` is simply just a virtual `File` object within our file, we can also
+pass the `DATA` variable (without `#read`) to methods that accept a `File`.
+
+```ruby
+require "json"
+
+puts JSON.load(DATA)
+
+__END__
+{
+  "records": [
+    {
+      "artist":"Iggy Pop",
+      "title":"Lust for Life"
+    },
+    {
+      "artist":"Television",
+      "title":"Marquee Moon"
+    },
+    {
+      "artist":"Talking Heads",
+      "title":"Talking Heads: 77"
+    }
+  ]
+}
 ```
