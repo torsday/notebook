@@ -1,4 +1,12 @@
+# Learning Log
 
+---
+
+- 
+
+2016-02-03
+
+---
 
 - [http://readable.tastefulwords.com/](http://readable.tastefulwords.com/) Great tool to make a site readable.
 
