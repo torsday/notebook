@@ -1,6 +1,6 @@
 # Learning Log
 
-
+- typing `f` while on a gitbook page brings up search.
 
 2016-02-04
 

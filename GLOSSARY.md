@@ -12,6 +12,14 @@ The process of transforming a function that takes multiple arguments into a func
 
 See: Currying.
 
+## Delta Compression
+
+See: Delta Encoding.
+
+## Delta Encoding
+
+A way of storing or transmitting data in the form of differences (deltas) between sequential data rather than complete files; more generally this is known as data differencing.
+
 ## Docker
 
 Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
