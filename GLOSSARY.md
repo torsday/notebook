@@ -8,6 +8,10 @@ http://php.net/manual/en/class.countable.php
 
 The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
 
+## Curry
+
+See: Currying.
+
 ## Docker
 
 Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
@@ -30,7 +34,7 @@ The Docker GUI, runs on Mac OS X and Windows operating systems. https://docs.doc
 
 ## Postgres
 
-See PostgreSQL
+See: PostgreSQL.
 
 ## PostgreSQL
 
