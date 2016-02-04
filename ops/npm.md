@@ -12,3 +12,10 @@ npm outdated
 ```bash
 npm view <package> version
 ```
+
+#### list packages
+
+```bash
+npm ls
+npm -g ls
+```
