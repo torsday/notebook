@@ -176,7 +176,9 @@ else
     let &t_SI = "\<Esc>]50;CursorShape=1\x7"
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
+```
 
+```sh
 augroup configgroup
     autocmd!
     autocmd VimEnter * highlight clear SignColumn
@@ -237,16 +239,15 @@ function! <SID>StripTrailingWhitespaces()
     let @/=_s
     call cursor(l, c)
 endfunction
-
-let g:netrw_liststyle=3
 ```
 
 ```sh
-" ---
-"  REFERENCES
-"  [A Good Vimrc](http://dougblack.io/words/a-good-vimrc.html)
+let g:netrw_liststyle=3
 ```
 
+### References
+
+* [A Good Vimrc](http://dougblack.io/words/a-good-vimrc.html)
 
 
 ---
