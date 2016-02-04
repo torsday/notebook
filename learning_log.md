@@ -1,8 +1,14 @@
 # Learning Log
 
+
+
+2016-02-04
+
 ---
 
-- Playing around with [Huginn](https://github.com/cantino/huginn/), an interesting agent tool, like IFTTT ([here's a nice video](https://vimeo.com/61976251)). Touches Kitematic, which is a pretty great Docker tool.
+- [Kitematic](https://kitematic.com/), a pretty slick tool to interact with your docker images.
+
+- Playing around with [Huginn](https://github.com/cantino/huginn/), an interesting agent tool, like IFTTT ([here's a nice video](https://vimeo.com/61976251)). ...pretty sure it's logo and name alude to one of my favorite authors, [Daniel Suarez](http://www.goodreads.com/author/show/1956402.Daniel_Suarez).
 
 
 2016-02-03
