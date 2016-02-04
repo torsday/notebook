@@ -1,6 +1,27 @@
 # Git
 
+
+
 ## Commands
+
+### [`count-objects`](https://git-scm.com/docs/git-count-objects)
+
+Count unpacked number of objects and their disk consumption
+
+```sh
+git count-objects -vH
+# -v  verbose
+# -H  human readable
+```
+
+* **count:** the number of loose objects
+* **size:** disk space consumed by loose objects, in KiB (unless -H is specified)
+* **in-pack:** the number of in-pack objects
+* **size-pack:** disk space consumed by the packs, in KiB (unless -H is specified)
+* **prune-packable:** the number of loose objects that are also present in the packs. These objects could be pruned using git prune-packed.
+* **garbage:** the number of files in object database that are neither valid loose objects nor valid packs
+* **size-garbage:** disk space consumed by garbage files, in KiB (unless -H is specified)
+
 
 ### [`gc`](https://git-scm.com/docs/git-gc)
 
