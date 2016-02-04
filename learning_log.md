@@ -2,7 +2,7 @@
 
 ---
 
-- Playing around with [Huginn](https://github.com/cantino/huginn/), an interesting agent tool. Touches Kitematic, which is a pretty great Docker tool.
+- Playing around with [Huginn](https://github.com/cantino/huginn/), an interesting agent tool, like IFTTT ([here's a nice video](https://vimeo.com/61976251)). Touches Kitematic, which is a pretty great Docker tool.
 
 
 2016-02-03
