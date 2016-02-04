@@ -24,10 +24,6 @@ A way of storing or transmitting data in the form of differences (deltas) betwee
 
 Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
 
-## du
-
-The du (i.e., disk usage) command reports the sizes of directory trees inclusive of all of their contents and the sizes of individual files. This makes it useful for tracking down space hogs, i.e., directories and files that consume large or excessive amounts of space on a hard disk drive (HDD) or other storage media.
-
 ## GitBook
 
 https://github.com/GitbookIO/gitbook
