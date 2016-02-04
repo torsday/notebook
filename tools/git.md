@@ -38,6 +38,24 @@ Cleanup unnecessary files and optimize the local repository.
 
 Usually git gc runs very quickly while providing good disk space utilization and performance. This option will cause git gc to more aggressively optimize the repository at the expense of taking much more time. **The effects of this optimization are persistent, so this option only needs to be used occasionally**; every few hundred changesets or so.
 
+### `repack`
+
+```sh
+git repack -a -d -f --depth=250 --window=250
+```
+
+**Object window**: when repacking git compares each object (every version of every file, every directory tree object, every commit message, every tag...) against a certain number of other similar-ish objects to find one that creates the smallest delta - roughly speaking, the smallest patch that can create this object from that base object.
+
+**Delta chain**: When, in order to re-create object A, you first have to check out object B and apply a delta to it, but in order to create B you need object C, which requires D...
+
+Up to a point, increasing both `depth` and `window` can give you smaller packs. However, there are tradeoffs. For `window`, a higher setting means that `git repack` will compare each object with more objects while it is running, resulting in (potentially significantly) longer running time for `git repack`. However, once the pack is generated, `window` has no effect on further operations (outside of other repacks, anyway). depth, on the other hand, has less impact on the run time of `git repack` itself (although it still affects it somewhat), but the deeper your delta trees get, the longer it takes to re-build an old object from the sequence of base objects required to create the file. That means longer times for things like `checkout` when you're referencing older commits, so it can have a significant impact on the perceived efficiency of git if you do a lot of digging through your history. And, since git doesn't create deltas only against older objects, you can on occasion find a recent object that is slow to extract because it's a number of levels down the tree - it's not as common as with older objects, but it does happen.
+
+> I personally use `window=1024` and `depth=256` on all my repos except for a couple of clones of very large projects (e.g. Linux kernel).
+
+#### References
+
+* [StackOverflow: How to use `git repack -a -d --depth=250 --window=250`](https://stackoverflow.com/questions/14842127/how-to-use-git-repack-a-d-depth-250-window-250)
+
 ## Actions
 
 #### Delete Branch
