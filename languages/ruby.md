@@ -376,7 +376,13 @@ end
 
 ## Splat Arguments
 
-*parameter  a "splat argument" – can accept an indefinite # of arguments.  splat arguments are stored as an an array. def what_up(greeting, *bros)  bros.each { |bro| puts "#{greeting}, #{bro}!" }  end
+A "splat argument" – can accept an indefinite # of arguments, stored as an an array. 
+
+```ruby
+def what_up(greeting, *bros)
+  bros.each { |bro| puts "#{greeting}, #{bro}!" }
+end
+```
 
 
 ## Procs
