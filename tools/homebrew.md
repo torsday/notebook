@@ -1,4 +1,5 @@
-# Homebrew
+# [Homebrew](http://brew.sh/)
+
 
 
 #### choose specific version of installed package
