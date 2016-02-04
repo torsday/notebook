@@ -1,49 +1,78 @@
 # Vim
 
-## `.vimrc`
+## [`.vimrc`](https://github.com/torsday/dotfiles/blob/master/.vimrc)
 
 ```sh
-
 " to setup neobundle (which this vimrc uses)
 " https://github.com/Shougo/neobundle.vim
 " $ mkdir -p ~/.vim/bundle
 " $ git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 " Launch vim, run :NeoBundleInstall
+```
 
-" Use Vim settings, rather than Vi settings
-" This must be first, because it changes other options as a side effect.
+Use Vim settings, rather than Vi settings. This must be first, because it changes other options as a side effect.
+
+```sh
 set nocompatible
+```
 
-" Make backspace behave in a sane manner.
+Make backspace behave in a sane manner.
+
+```sh
 set backspace=indent,eol,start
+```
 
+```sh
 syntax on
+```
 
-" Enable file type detection and do language-dependent indenting.
+Enable file type detection and do language-dependent indenting.
+
+```sh
 filetype plugin indent on
+```
 
-" show line numbers
+show line numbers
+
+```sh
 set number
+```
 
+```sh
 set softtabstop=2 shiftwidth=2 expandtab
+```
 
-"Enable filetypes
+Enable filetypes
+
+```sh
 filetype on
 filetype plugin on
 filetype indent on
+```
 
+```sh
 set wildmenu
 set showmatch
+```
 
+```sh
 inoremap kj <esc>
+```
 
-" autocomplete brackets
+autocomplete brackets
+
+```sh
 inoremap { {<CR><BS>}<Esc>ko
+```
 
-" FONT
+### Font
+
+```sh
 "set anti enc=utf-8
 set guifont=Source\ Code\ Pro:h14
+```
 
+```sh
 " NEOBUNDLE
 
 " Note: Skip initialization for vim-tiny or vim-small.
@@ -111,24 +140,34 @@ NeoBundle 'rking/ag.vim'
 NeoBundle 'kien/ctrlp.vim'
 
 call neobundle#end()
+```
 
+```sh
 colorscheme seti
 let g:airline_theme='luna'
 set laststatus=2
+```
 
+```sh
 " toggle gundo
 nnoremap <leader>u :GundoToggle<CR>
+```
 
+```sh
 " open ag.vim
 nnoremap <leader>a :Ag
+```
 
+```sh
 " CtrlP settings
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 "let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+```
 
+```sh
 " allows cursor change in tmux mode
 if exists('$TMUX')
     let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
@@ -170,10 +209,11 @@ filetype plugin indent on
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
 NeoBundleCheck
+```
 
-" ---
-" CUSTOM FUNCTIONS
+### Custom Functions
 
+```sh
 " toggle between number and relativenumber
 function! ToggleNumber()
     if(&relativenumber == 1)
@@ -183,7 +223,9 @@ function! ToggleNumber()
         set relativenumber
     endif
 endfunc
+```
 
+```sh
 " strips trailing whitespace at the end of files. this
 " is called on buffer write in the autogroup above.
 function! <SID>StripTrailingWhitespaces()
@@ -197,8 +239,9 @@ function! <SID>StripTrailingWhitespaces()
 endfunction
 
 let g:netrw_liststyle=3
+```
 
-
+```sh
 " ---
 "  REFERENCES
 "  [A Good Vimrc](http://dougblack.io/words/a-good-vimrc.html)
