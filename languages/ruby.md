@@ -30,6 +30,22 @@
 - [Scope Prefixes](#scope-prefixes)
 - [Classes](#classes)
 - [Modules](#modules)
+- [Getting all but the first element from Ruby array](#getting-all-but-the-first-element-from-ruby-array)
+	- [Shift](#shift)
+	- [Slice](#slice)
+	- [Drop](#drop)
+- [Returning a fixed number of items from the tail of a list](#returning-a-fixed-number-of-items-from-the-tail-of-a-list)
+- [Basic Object](#basic-object)
+- [Currying in Ruby](#currying-in-ruby)
+- [Inject vs each_with_object](#inject-vs-eachwithobject)
+	- [Inject](#inject)
+	- [each_with_object](#eachwithobject)
+- [Using pry and ncurses together](#using-pry-and-ncurses-together)
+- [Parallel assignment](#parallel-assignment)
+	- [Empty arrays](#empty-arrays)
+- [Regex Literals and URLs](#regex-literals-and-urls)
+- [Spliting a string into a maximum number of segments](#spliting-a-string-into-a-maximum-number-of-segments)
+- [The `DATA` constant](#the-data-constant)
 
 <!-- /TOC -->
 
@@ -488,10 +504,8 @@ We could use [`shift`][shift docs], however it mutates the array. It also
 doesn't return the list so we need two lines to write this code:
 
 ```ruby
-list.shift
-## => 1
-rest_of_list = list
-## => [2,3,4]
+list.shift # => 1
+rest_of_list = list # => [2,3,4]
 ```
 
 ### Slice
@@ -500,13 +514,10 @@ In the past I've used [`slice`][slice docs], but specifying indices or passing
 the length of an array is ugly and low-level:
 
 ```ruby
-rest_of_list = list[1..-1]
-## => [2,3,4]
-rest_of_list = list.slice(1, list.length)
-## => [2,3,4]
+rest_of_list = list[1..-1] # => [2,3,4]
+rest_of_list = list.slice(1, list.length) # => [2,3,4]
 
-list # is not modified
-## => [1,2,3,4]
+list # is not modified # => [1,2,3,4]
 ```
 
 ### Drop
@@ -515,22 +526,18 @@ My new favorite is [`drop`][drop docs] which does not mutate and does not
 require ugly, low-level code:
 
 ```ruby
-list.drop(1)
-## => [2,3,4]
+list.drop(1) # => [2,3,4]
 
-list # is not modified
-## => [1,2,3,4]
+list # is not modified # => [1,2,3,4]
 ```
 
 An added benefit of`drop` is that it will always return an array, while `slice`
 will sometimes return `nil`
 
 ```ruby
-[].slice(1..-1)
-## => nil
+[].slice(1..-1) # => nil
 
-[].drop(1)
-## => []
+[].drop(1) # => []
 ```
 
 [shift docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-shift
@@ -545,8 +552,7 @@ will sometimes return `nil`
 from the tail of a list.
 
 ```ruby
-> [1,2,3,4,5].last(2)
-## = > [4, 5]
+> [1,2,3,4,5].last(2) # => [4, 5]
 ```
 
 [last docs]: (http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-last)
@@ -620,14 +626,10 @@ applied procs when they get called with fewer than the required number of
 arguments. For example:
 
 ```ruby
-multiply = -> x,y { x * y }.curry
-##=> #<Proc:0x007fed33851510 (lambda)>
-multiply[2,3]
-##=> 6
-double = multiply[2]
-##=> #<Proc:0x007fed35892888 (lambda)>
-double[3]
-##=> 6
+multiply = -> x,y { x * y }.curry # => #<Proc:0x007fed33851510 (lambda)>
+multiply[2,3] # => 6
+double = multiply[2] # => #<Proc:0x007fed35892888 (lambda)>
+double[3] # => 6
 ```
 
 **Note:** While `Proc#curry` has been around since Ruby 1.9, `Method#curry` was
@@ -716,12 +718,9 @@ Ruby allows us to assign multiple variables on the same line. This is also
 called parallel assignment.
 
 ```ruby
-a, b = 1, 2
-##=> [1, 2]
-a
-##=> 1
-b
-##=> 2
+a, b = 1, 2 # => [1, 2]
+a # => 1
+b # => 2
 ```
 
 We can also use parallel assignment and the splat operator in combination to
@@ -729,30 +728,22 @@ split the array into the head and tail. This is in particular useful if we want
 to [get all but the first element from an array](all-but-the-first-element-from-array.md).
 
 ```ruby
-list = [1,2,3,4]
-##=> [1,2,3,4]
-head, *tail = list
-##=> [1,2,3,4]
-head
-##=> 1
-tail
-##=> [2,3,4]
+list = [1,2,3,4] # => [1,2,3,4]
+head, *tail = list # => [1,2,3,4]
+head # => 1
+tail # => [2,3,4]
 
-list # is not modified
-##=> [1,2,3,4]
+list # is not modified # => [1,2,3,4]
 ```
 
-#### Empty arrays
+### Empty arrays
 When using parallel assignment on an empty array, the tail will always return an
 array while the head will be `nil`.
 
 ```ruby
-head, *tail = []
-##=> []
-head
-##=> nil
-tail
-##=> []
+head, *tail = [] # => []
+head # => nil
+tail # => []
 ```
 
 
@@ -804,12 +795,12 @@ individual element:
 
 ```ruby
 text.split("\n")
-## => ["header1 = value",
-##     "header2 = value",
-##     "the body",
-##     "keeps going",
-##     "on over",
-##     "multiple lines"]
+# => ["header1 = value",
+#     "header2 = value",
+#     "the body",
+#     "keeps going",
+#     "on over",
+#     "multiple lines"]
 ```
 
 Since we know there are two headers and a body, we can tell `split` to stop
@@ -817,9 +808,9 @@ splitting once we have three segments:
 
 ```ruby
 text.split("\n", 3)
-## => ["header1 = value",
-##     "header2 = value",
-##     "the body\nkeeps going\non over\nmultiple lines"]
+# => ["header1 = value",
+#     "header2 = value",
+#     "the body\nkeeps going\non over\nmultiple lines"]
 ```
 
 [split docs]: http://www.ruby-doc.org/core-2.2.0/String.html#method-i-split
