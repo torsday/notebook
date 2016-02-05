@@ -6,6 +6,8 @@
     NullMyPropClass->getValue() # returns an empty string.
     ```
 
+    You could also return `null`, but there is value in always returning the same type.
+
 2016-02-05
 
 ---
