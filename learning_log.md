@@ -1,5 +1,7 @@
 # Learning Log
 
+- typing `f` using [vimium](https://vimium.github.io/) is a great way to navigate a web page.
+
 - typing `f` while on a gitbook page brings up search.
 
 2016-02-04
