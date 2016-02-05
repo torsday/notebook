@@ -69,6 +69,10 @@ Up to a point, increasing both `depth` and `window` can give you smaller packs. 
 
 ## Actions
 
+#### `git rebase -i <hash>`
+
+Rewrite history.
+
 #### Delete Branch
 
 ```bash
