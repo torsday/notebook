@@ -1,6 +1,6 @@
 # Learning Log
 
-- > With an optional property (which is a class itself) within a PHP class, It's a good idea to create a Null version of the class that is returned by default if the argument is null.
+- With an optional property (which is a class itself) within a PHP class, It's a good idea to create a Null version of the class that is returned by default if the argument is null.
 
     ```php
     NullMyPropClass->getValue() # returns an empty string.
