@@ -13,7 +13,7 @@
    * [Classes](ddd/classes.md)
    * [Service](ddd/service.md)
 * [Algorithms](algorithms/README.md)
-* [Languages](languages/README.md)
+* [Languages, Libraries, & Frameworks](languages/README.md)
    * [C](languages/c.md)
    * [Javascript](languages/javascript.md)
    * [Objective-C](languages/objective-c.md)
