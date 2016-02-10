@@ -6,6 +6,10 @@
 
 ---
 
+- a great way to get the size of a path: `$ du`
+    - `du -hs` gives just the dir it's run in
+    - [man page](http://linux.die.net/man/1/du)
+
 - git shallow commit
     - [`git clone --<depth>::`](https://github.com/git/git/blob/82fba2b9d39163a0c9b7a3a2f35964cbc039e1aa/Documentation/git-clone.txt#L182-L184) creates a *shallow* clone with a truncated history to a specifed depth.
     - Although not recommended, you can `push` and `pull` from it
