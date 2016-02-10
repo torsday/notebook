@@ -1,6 +1,8 @@
 # Learning Log
 
+- `attr_reader(*ATTR_READERS)` gets rid of never-ending arguments after `attr_reader`
 
+- [`{@inheritdoc}`](http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.inlineinheritdoc.pkg.html) within a PHPDoc inherits the long description from the parent class.
 
 2016-02-10
 
