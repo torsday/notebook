@@ -6,7 +6,7 @@
 
 ---
 
-- a great way to get the size of a path: `$ du`
+- to get the size of a path: `$ du`
     - `du -hs` gives just the dir it's run in
     - [man page](http://linux.die.net/man/1/du)
 
