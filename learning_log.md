@@ -1,5 +1,19 @@
 # Learning Log
 
+
+
+2016-02-10
+
+---
+
+- git shallow commit
+    - [`git clone --<depth>::`](https://github.com/git/git/blob/82fba2b9d39163a0c9b7a3a2f35964cbc039e1aa/Documentation/git-clone.txt#L182-L184) creates a *shallow* clone with a truncated history to a specifed depth.
+    - Although not recommended, you can `push` and `pull` from it
+
+2016-02-09
+
+---
+
 - With an optional property (which is a class itself) within a PHP class, It's a good idea to create a Null version of the class that is returned by default if the argument is null.
 
     ```php
