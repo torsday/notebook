@@ -5,6 +5,7 @@
 
 * [h5bp: **Front-end-Developer-Interview-Questions**](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 * [**John Olmsted's Notes**](https://github.com/qsymmachus/notes)
+* [lelylan: **betterspecs**](https://github.com/lelylan/betterspecs/)
 * [nvie: **gitflow**](https://github.com/nvie/gitflow)
 * [ThoughtBot](https://github.com/thoughtbot)
   * [**Laptop**](https://github.com/thoughtbot/laptop)
@@ -14,6 +15,11 @@
 ## Docs
 
 * [Redux Docs](http://rackt.org/redux/docs/introduction/index.html)
+
+
+## Tools
+
+* [Ruby Koans](http://rubykoans.com/)
 
 
 ## Articles
