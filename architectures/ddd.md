@@ -2,33 +2,25 @@
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [```README.md```](#readmemd)
-- [Domain Driven Design](#domain-driven-design)
-- [```architecture.md```](#architecturemd)
 - [Architecture](#architecture)
 	- [**Domain** layer](#domain-layer)
 	- [**Application** layer](#application-layer)
 	- [**Infrastructure** layer](#infrastructure-layer)
-- [```classes.md```](#classesmd)
 - [Classes](#classes)
 	- [Domain](#domain)
 	- [Platform](#platform)
 	- [Application](#application)
 - [or](#or)
 	- [URL to Path Tree mapping](#url-to-path-tree-mapping)
-- [```model.md```](#modelmd)
 - [Model](#model)
 	- [e.g. ```EmailChange.php```](#eg-emailchangephp)
-- [```repository.md```](#repositorymd)
 - [Repository](#repository)
 	- [e.g. ```EmailChangeRepository.php```](#eg-emailchangerepositoryphp)
 	- [Reference](#reference)
-- [```service.md```](#servicemd)
 - [Service](#service)
 	- [Types of Service](#types-of-service)
 	- [e.g. ```EmailHistoryService.php```](#eg-emailhistoryservicephp)
 	- [Reference](#reference)
-- [```service_providers.md```](#serviceprovidersmd)
 - [Service Providers](#service-providers)
 
 <!-- /TOC -->
@@ -37,12 +29,7 @@
 
 
 ---
-## ```README.md```
-## Domain Driven Design
 
-
----
-## ```architecture.md```
 ## Architecture
 
 ### **Domain** layer
@@ -60,7 +47,7 @@ e.g. persisting data to a database, queuing jobs, or sending email notifications
 
 
 ---
-## ```classes.md```
+
 ## Classes
 
 
@@ -109,7 +96,7 @@ docroot/application/modules/admin/controllers/UsersController#ViewAction
 
 
 ---
-## ```model.md```
+
 ## Model
 
 ### e.g. ```EmailChange.php```
@@ -192,7 +179,7 @@ class EmailChange implements Event
 
 
 ---
-## ```repository.md```
+
 ## Repository
 
 > A system with a complex domain model often benefits from a layer, such as the one provided by Data Mapper, that isolates domain objects from details of the database access code. In such systems it can be worthwhile to build another layer of abstraction over the mapping layer where query construction code is concentrated. This becomes more important when there are a large number of domain classes or heavy querying. In these cases particularly, adding this layer helps minimize duplicate query logic.
@@ -230,7 +217,7 @@ interface EmailChangeRepository
 
 
 ---
-## ```service.md```
+
 ## Service
 
 A Service in Domain Driven Design is simply a stateless object that performs an action.
@@ -289,5 +276,5 @@ class EmailHistoryService
 
 
 ---
-## ```service_providers.md```
+
 ## Service Providers
