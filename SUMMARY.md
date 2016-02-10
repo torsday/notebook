@@ -48,6 +48,7 @@
    * [State](design_patterns/state.md)
    * [Strategy](design_patterns/strategy.md)
    * [Template](design_patterns/template.md)
+* [Architectures](README.md)
 * [Front-End Interview Questions](front-end_interview_questions.md)
 * [Tools](tools/README.md)
    * [Git](tools/git.md)
@@ -58,5 +59,3 @@
 * [Books](books.md)
 * [References](references.md)
 * [Campsite Wishlist](campsite_wishlist.md)
-* Architectures
-
