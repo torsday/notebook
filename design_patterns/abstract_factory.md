@@ -36,7 +36,7 @@ class Van < Vehicle
 end
 ```
 
-Factories
+Factories:
 
 ```ruby
 class AbstractFactory
@@ -58,7 +58,7 @@ class VanFactory < AbstractFactory
 end
 ```
 
-Client
+Client:
 
 ```ruby
 class Dealership
@@ -80,7 +80,7 @@ class Dealership
 end
 ```
 
-
+Implementation:
 
 ```ruby
 ford_dealership = Dealership.new(SedanFactory.new)

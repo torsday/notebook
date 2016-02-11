@@ -48,6 +48,10 @@ Specifies what methods a class must implement (an interface). An interface is sl
 
 The Docker GUI, runs on Mac OS X and Windows operating systems. https://docs.docker.com/kitematic/
 
+## Lazy Loading
+
+A design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed. It can contribute to efficiency in the program's operation if properly and appropriately used. The opposite of lazy loading is eager loading.
+
 ## Postgres
 
 See: PostgreSQL.
