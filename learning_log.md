@@ -1,5 +1,10 @@
 # Learning Log
 
+- change author of last git commit
+    ```sh
+    git commit --amend --author="Chris Torstenson <chris.torstenson@gmail.com>"
+    ```
+
 - `attr_reader(*ATTR_READERS)` gets rid of never-ending arguments after `attr_reader`
 
 - [`{@inheritdoc}`](http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.inlineinheritdoc.pkg.html) within a PHPDoc inherits the long description from the parent class.

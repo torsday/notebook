@@ -2,6 +2,14 @@
 
 ## [`.vimrc`](https://github.com/torsday/dotfiles/blob/master/.vimrc)
 
+markdown fenced code block highlighting
+
+> Note: Not all languages. To see a list of lanugages you have installed on Mac (with Vim installed by Homebrew) run ls -l /usr/local/Cellar/vim/7.4.1190/share/vim/vim74/syntax
+
+```sh
+let g:markdown_fenced_languages = ['html', 'vim', 'ruby', 'python', 'bash=sh']
+```
+
 ```sh
 " to setup neobundle (which this vimrc uses)
 " https://github.com/Shougo/neobundle.vim
