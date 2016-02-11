@@ -66,6 +66,19 @@ num.toString();
 !==
 ```
 
+## Ternary Operator
+
+```js
+condition ? expr1 : expr2
+```
+
+*[Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)*
+
+
+```js
+var elvisLives = Math.PI > 4 ? "Yep" : "Nope";
+```
+
 
 ## Conditional Statements
 
