@@ -1,6 +1,6 @@
 # SQL
 
-## CRUD OPERATIONS
+## CRUD Operations
 
 ```sql
 INSERT INTO tasks ('title', 'status')
@@ -17,7 +17,7 @@ UPDATE tasks SET status='incomplete'
 WHERE title='Buy groceries'
 ```
 
-## SELECT BASICS
+## `SELECT` Basics
 
 ### `AND`		test two or more conditions.
 
@@ -56,7 +56,7 @@ WHERE area BETWEEN 207600 AND 244820
 
 
 
-## SELECT WITHIN SELECT (Subqueries)
+## `SELECT` Within `SELECT` (Subqueries)
 
 e.g. List each country where the population is larger than Russia’s:
 
@@ -80,7 +80,7 @@ ALL (SELECT gdp FROM world WHERE continent = 'Europe')
 
 ## Using `WITH`
 
-Provides a means to write subqueries for use in a larger SELECT query.
+Provides a means to write subqueries for use in a larger `SELECT` query.
 
 The subqueries, which are often referred to as Common Table Expressions or CTEs, can be thought of as defining temporary tables that exist just for this query.
 
@@ -111,7 +111,7 @@ GROUP BY region, product;
 
 
 
-## AGGREGATE FUNCTIONS
+## Aggregate Functions
 
 ### `SUM`		returns the sum of values!
 
