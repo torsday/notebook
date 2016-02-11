@@ -21,9 +21,11 @@ class Logger
     @logs[Time.now] = message
   end
 end
+```
 
-# -----
 
+
+```ruby
 my_logger = Logger.new # throws error
 
 my_logger = Logger.instance # This returns the single instance
