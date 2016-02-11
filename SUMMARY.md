@@ -15,6 +15,7 @@
     * [PHP the Right Way](languages/php-the-right-way.md)
     * [PHP](languages/php.md)
     * [Rails](languages/rails.md)
+    * [React](languages/react.md)
     * [Ruby](languages/ruby.md)
     * [Scala](languages/scala.md)
     * [Zend Frameworks](languages/zend.md)
