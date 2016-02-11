@@ -11,7 +11,7 @@ The server forks a new server process for each client connection. `postmaster` i
     database cluster => database => tables => rows & columns
 
 
-## Creating and removing a database
+## Creating & removing a database
 
 ```sh
 $ createdb dbname
@@ -45,17 +45,17 @@ $ psql [dbname]
 ```
 
 ```sql
-\q              quit psql
-\?              list psql commands
+\q              # quit psql
+\?              # list psql commands
 
-\i [file]       execute commmands found in a file
-\o [file]       send all query results to file or |pipe
+\i [file]       # execute commmands found in a file
+\o [file]       # send all query results to file or |pipe
 
-\d              list all tables in database
-\di             list all indices
+\d              # list all tables in database
+\di             # list all indices
 
-\cd             change current working directory
-\! [command]    execute command in shell or start interactive shell
+\cd             # change current working directory
+\! [command]    # execute command in shell or start interactive shell
 ```
 
 
