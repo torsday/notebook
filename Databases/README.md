@@ -7,3 +7,4 @@
 * MongoDB
 * MySQL
 * Redis
+* SQLite
