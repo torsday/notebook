@@ -1,6 +1,8 @@
 # Docker
 
-Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
+A tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic.
+
+[docs](https://docs.docker.com/)
 
 
 ## Boot2docker

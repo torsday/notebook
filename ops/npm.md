@@ -1,27 +1,34 @@
-# npm
+# Node Package Manager (NPM)
 
+The default package manager for the JavaScript runtime environment Node.js.
 
-#### outdated
+#### install npm's local dependencies
 
-```bash
+```sh
+npm i
+```
+
+#### list outdated packages
+
+```sh
 npm outdated
 ```
 
 #### Update all global packages
 
-```bash
+```sh
 npm update -g
 ```
 
 #### package version
 
-```bash
+```sh
 npm view <package> version
 ```
 
 #### list packages
 
-```bash
+```sh
 npm ls
 npm -g ls
 ```
