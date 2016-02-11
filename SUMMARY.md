@@ -19,6 +19,7 @@
     * [Postgres](databases/postgres.md)
     * [SQL](databases/sql.md)
 * [Ops](ops/README.md)
+    * [Composer](ops/composer.md)
     * [Docker](ops/docker.md)
     * [NPM](ops/npm.md)
     * [Phing](ops/phing.md)
