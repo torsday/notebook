@@ -11,6 +11,7 @@
     * [Javascript](languages/javascript.md)
     * [Objective-C](languages/objective-c.md)
     * [PHP](languages/php.md)
+    * [PHP the Right Way](languages/php-the-right-way.md)
     * [Rails](languages/rails.md)
     * [Ruby](languages/ruby.md)
     * [Scala](languages/scala.md)
