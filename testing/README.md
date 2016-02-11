@@ -2,6 +2,6 @@
 
 ## Interests
 
-* Selenium
 * Cucumber
 * Rspec
+* Selenium
