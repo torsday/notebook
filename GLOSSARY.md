@@ -4,6 +4,10 @@
 
 http://php.net/manual/en/class.countable.php
 
+## CRUD
+
+Create. Read. Update. Destroy.
+
 ## Currying
 
 The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.

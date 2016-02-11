@@ -15,7 +15,7 @@ WHERE title='Buy groceries'
 
 ## SELECT BASICS
 
-AND		test two or more conditions.
+### `AND`		test two or more conditions.
 
 ```sql
 SELECT name , continent FROM world
@@ -25,7 +25,7 @@ AND gdp > 5000000000
 
 
 
-IN 		check if item is in a list.
+### `IN` 		check if item is in a list.
 
 ```sql
 SELECT name, population FROM world
@@ -34,7 +34,7 @@ WHERE name IN ('Denmark', 'Finland', 'Norway', 'Sweden')
 
 
 
-LIKE		allows pattern matching. % is wildcard.
+### `LIKE`		allows pattern matching. `%` is wildcard.
 
 ```sql
 SELECT name FROM world
@@ -43,7 +43,7 @@ WHERE name LIKE 'G%'
 
 
 
-BETWEEN		allows range checking (always inclusive).
+### `BETWEEN`		allows range checking (always inclusive).
 
 ```sql
 SELECT name, area/1000 FROM world
@@ -64,7 +64,7 @@ WHERE population >
 
 
 
-ALL		check a condition over an entire list.
+### `ALL`		check a condition over an entire list.
 
 ```sql
 SELECT name FROM world
@@ -109,7 +109,7 @@ GROUP BY region, product;
 
 ## AGGREGATE FUNCTIONS
 
-SUM		returns the sum of values!
+### `SUM`		returns the sum of values!
 
 ```sql
 SELECT SUM(population)
@@ -118,7 +118,7 @@ FROM world
 
 
 
-COUNT		returns the total number of a given value
+### `COUNT`		returns the total number of a given value
 
 ```sql
 SELECT COUNT(name) FROM world
@@ -127,7 +127,7 @@ WHERE area >= 1000000
 
 
 
-DISTINCT	returns only one instance of each value
+### `DISTINCT`	returns only one instance of each value
 
 ```sql
 SELECT DISTINCT continent FROM world
@@ -135,7 +135,7 @@ SELECT DISTINCT continent FROM world
 
 
 
-GROUP BY 	applies SUM and COUNT to groups of values
+### `GROUP BY` 	applies SUM and COUNT to groups of values
 
 ```sql
 SELECT continent, SUM(population) FROM world
@@ -144,7 +144,7 @@ GROUP BY continent
 
 
 
-HAVING		allows you to filter groups displayed
+### `HAVING`		allows you to filter groups displayed
 
 ```sql
 SELECT continent FROM world
@@ -154,7 +154,7 @@ HAVING SUM(population)>500000000
 
 
 
-ORDER BY	sort results by a given value (lowest to highest)
+### `ORDER BY`	sort results by a given value (lowest to highest)
 
 ```sql
 SELECT id, title, yr
@@ -175,7 +175,7 @@ MIN()     /* Returns the smallest value */
 
 ## JOINING TABLES
 
-JOIN		combine databases by linking specific columns
+### `JOIN`		combine databases by linking specific columns
 
 ```sql
 SELECT player
@@ -190,7 +190,7 @@ RIGHT JOIN  include rows from the right table even when the linking value is nul
 
 ## MISCELLANEOUS
 
-NULL		null values. cannot use ‘=‘ or ‘!=‘, but rather IS and IS NOT.
+### `NULL`		null values. cannot use ‘=‘ or ‘!=‘, but rather IS and IS NOT.
 
 ```sql
 SELECT name
@@ -198,7 +198,7 @@ FROM teacher
 WHERE dept IS NULL
 ```
 
-COALESCE	takes any number of arguments and returns the first value that is not null.
+### `COALESCE`	takes any number of arguments and returns the first value that is not null.
 
 ```sql
 SELECT name, COALESCE(mobile, home, ‘no number’)
@@ -206,7 +206,7 @@ FROM addresses
 ```
 
 
-CASE		allows you to test conditions.
+### `CASE`		allows you to test conditions.
 
 ```sql
 SELECT name, population,
