@@ -139,7 +139,7 @@ SELECT DISTINCT continent FROM world
 
 
 
-### `GROUP BY` 	applies SUM and COUNT to groups of values
+### `GROUP BY` 	applies `SUM` and `COUNT` to groups of values
 
 ```sql
 SELECT continent, SUM(population) FROM world
@@ -177,7 +177,7 @@ MAX()     /* Returns the largest value  */
 MIN()     /* Returns the smallest value */
 ```
 
-## JOINING TABLES
+## Joining Tables
 
 ### `JOIN`		combine databases by linking specific columns
 
@@ -192,7 +192,7 @@ RIGHT JOIN  include rows from the right table even when the linking value is nul
 
 
 
-## MISCELLANEOUS
+## Miscellaneous
 
 ### `NULL`		null values. cannot use ‘=‘ or ‘!=‘, but rather IS and IS NOT.
 
