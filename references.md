@@ -21,6 +21,7 @@
 ## Tools
 
 * [Ruby Koans](http://rubykoans.com/)
+* [JS Fiddle](https://jsfiddle.net/)
 
 
 ## ScreenCasts
