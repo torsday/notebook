@@ -18,6 +18,7 @@
     * [React](languages/react.md)
     * [Ruby](languages/ruby.md)
     * [Scala](languages/scala.md)
+    * [Swift](languages/swift.md)
     * [Zend Frameworks](languages/zend.md)
 * [Testing](testing/README.md)
     * [Jasmine](testing/jasmine.md)
