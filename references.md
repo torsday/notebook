@@ -3,6 +3,7 @@
 
 ## GitHub Repos
 
+* [codeguy: **php-the-right-way**](https://github.com/codeguy/php-the-right-way)
 * [h5bp: **Front-end-Developer-Interview-Questions**](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 * [**John Olmsted's Notes**](https://github.com/qsymmachus/notes)
 * [lelylan: **betterspecs**](https://github.com/lelylan/betterspecs/)
