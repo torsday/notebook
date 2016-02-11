@@ -17,3 +17,10 @@
 ###
 
 * [ESLint](http://eslint.org/)m
+
+
+### npm global installs
+
+```sh
+npm i -g babel, eslint, babel-eslint, eslint-plugin-react, gitbook-cli
+```
