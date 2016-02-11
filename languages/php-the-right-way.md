@@ -532,7 +532,7 @@ will want to enable right away.
 
 Traditionally, you will modify your Apache VHost or .htaccess file with these values:
 
-{% highlight ini %}
+```ini
 php_value xdebug.remote_host=192.168.?.?
 php_value xdebug.remote_port=9000
 ```
@@ -757,7 +757,7 @@ installing. See the [Using channel docs][4] for more information on this topic.
 If you are already using [Composer][5] and you would like to install some PEAR code too, you can use Composer to
 handle your PEAR dependencies. This example will install code from `pear2.php.net`:
 
-{% highlight json %}
+```json
 {
     "repositories": [
         {
@@ -1742,7 +1742,7 @@ Earlier we mentioned there's no way in a stock PHP system to turn off the error 
 an `xdebug.scream` ini setting which will disable the error control operator. You can set this via your `php.ini` file
 with the following.
 
-{% highlight ini %}
+```ini
 xdebug.scream = On
 ```
 
@@ -2056,7 +2056,7 @@ production (live).
 
 To show every possible error during **development**, configure the following settings in your `php.ini`:
 
-{% highlight ini %}
+```ini
 display_errors = On
 display_startup_errors = On
 error_reporting = -1
@@ -2081,7 +2081,7 @@ use either `-1` or `E_ALL | E_STRICT`.
 
 To hide errors on your **production** environment, configure your `php.ini` as:
 
-{% highlight ini %}
+```ini
 display_errors = Off
 display_startup_errors = Off
 error_reporting = E_ALL
