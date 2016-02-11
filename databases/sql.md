@@ -78,7 +78,7 @@ ALL (SELECT gdp FROM world WHERE continent = 'Europe')
 
 
 
-## USING 'WITH'
+## Using `WITH`
 
 Provides a means to write subqueries for use in a larger SELECT query.
 
