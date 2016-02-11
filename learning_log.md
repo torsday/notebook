@@ -2,7 +2,7 @@
 
 - change author of last git commit
     ```sh
-    git commit --amend --author="Chris Torstenson <chris.torstenson@gmail.com>"
+    git commit --amend --author="Chris Torsten <c.torsday@gmail.com>"
     ```
 
 - `attr_reader(*ATTR_READERS)` gets rid of never-ending arguments after `attr_reader`
