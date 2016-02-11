@@ -2,8 +2,8 @@
 
 ## TODO
 
-* Redis
-* MySQL
+* Hadoop
 * MemCached
 * MongoDB
-* Hadoop
+* MySQL
+* Redis
