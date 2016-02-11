@@ -3,7 +3,7 @@
 A portable software testing framework for web applications.
 
 
-## Installation
+## Installation & Setup
 
 ```sh
 brew install selenium-server-standalone
