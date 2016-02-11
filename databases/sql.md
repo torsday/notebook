@@ -5,10 +5,14 @@
 ```sql
 INSERT INTO tasks ('title', 'status')
 VALUES ('Buy groceries', 'incomplete'), ('Gas car', 'incomplete')
+```
 
+```sql
 DELETE from tasks
 WHERE status='complete'
+```
 
+```sql
 UPDATE tasks SET status='incomplete'
 WHERE title='Buy groceries'
 ```
