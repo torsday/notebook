@@ -78,5 +78,3 @@
     * [Buddhism](lifestyle/buddhism.md)
     * [Campsite Wishlist](lifestyle/campsite_wishlist.md)
 * [References](references.md)
-* [Lifestyle](lifestyle/README.md)
-    * [Campsite Wishlist](lifestyle/campsite_wishlist.md)
