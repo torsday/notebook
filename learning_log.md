@@ -3,6 +3,10 @@
 
 
 - use [`sprintf()`](http://php.net/manual/en/function.sprintf.php) to create a template to construct a string. #PHP
+    ```php
+const FORMAT_MESSAGE = 'The screen name "%s" already exists.';
+sprintf(static::FORMAT_MESSAGE, $screenName->getValue()));
+    ```
 
 2016-02-12
 
