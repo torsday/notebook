@@ -73,4 +73,5 @@
 * [Front-End Interview Questions](front-end_interview_questions.md)
 * [Books](books.md)
 * [References](references.md)
-* [Campsite Wishlist](campsite_wishlist.md)
+* [Lifestyle](lifestyle/README.md)
+    * [Campsite Wishlist](lifestyle/campsite_wishlist.md)
