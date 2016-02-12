@@ -32,10 +32,6 @@ A way of storing or transmitting data in the form of differences (deltas) betwee
 
 Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
 
-## GitBook
-
-https://github.com/GitbookIO/gitbook
-
 ## GNU Make
 
 A tool which controls the generation of executables and other non-source files of a program from the program's source files.
@@ -75,6 +71,10 @@ Accessible within the class itself and subclasses.
 ## Public
 
 Accessible everywhere.
+
+## Redux
+
+Redux is a predictable state container for JavaScript apps.
 
 ## Repository
 
