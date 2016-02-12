@@ -1,7 +1,5 @@
 # Tree
 
-*[doc](http://mama.indstate.edu/users/ice/tree/tree.1.html)*
-
 Lists the contents of directories in a tree-like format.
 
 ## Installation
@@ -9,3 +7,22 @@ Lists the contents of directories in a tree-like format.
 ```sh
 brew install tree
 ```
+
+## Options
+
+directories only
+
+```sh
+tree -d
+```
+
+control depth
+
+```sh
+tree -L <int>
+```
+
+
+## References
+
+* *[man page](http://mama.indstate.edu/users/ice/tree/tree.1.html)*
