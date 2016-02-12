@@ -16,8 +16,10 @@ subclasses."
 
 * Can require creation of new subclasses to implement minor differences in object creation.
 
-## Abstract class
+## Example
 
+
+Abstract class
 
 ```ruby
 class Package
@@ -45,10 +47,11 @@ class Package
     @postage = postage
   end
 end
+```
 
-# Concrete class
-# --------------
+Concrete class
 
+```ruby
 class HazardousPackage < Package
   class << self
     STANDARD_RATE = 3.00
@@ -59,12 +62,12 @@ class HazardousPackage < Package
     # further modification.
   end
 end
+```
 
-# -----
+Since we made `new` private, this would throw an error
+`HazardousPackage.new(5)`
 
-# Since we made '.new' private, this would throw an error
-# HazardousPackage.new(5)
-
+```ruby
 standard_ebola_sample = HazardousPackage.prepare_standard(5)
 puts standard_ebola_sample.postage
 
