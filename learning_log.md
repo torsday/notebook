@@ -1,6 +1,6 @@
 # Learning Log
 
-
+- gitbook plugin to collapse chapters: [gitbook-plugin-collapsible-menu](https://www.npmjs.com/package/gitbook-plugin-collapsible-menu)
 
 - use [`sprintf()`](http://php.net/manual/en/function.sprintf.php) to create a template to construct a string. #PHP
     ```php
