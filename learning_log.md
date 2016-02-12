@@ -1,5 +1,13 @@
 # Learning Log
 
+
+
+- use [`sprintf()`](http://php.net/manual/en/function.sprintf.php) to create a template to construct a string. #PHP
+
+2016-02-12
+
+---
+
 - change author of last git commit
     ```sh
     git commit --amend --author="Chris Torsten <c.torsday@gmail.com>"
