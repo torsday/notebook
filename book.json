@@ -3,5 +3,6 @@
     "description": "My notes",
     "variables": {
         "host": "https://www.gitbook.com/book/torsday/notebook"
-    }
+    },
+    "plugins": ["collapsible-menu"]
 }
