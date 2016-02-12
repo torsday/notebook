@@ -59,6 +59,7 @@
     * [Domain Driven Design](architectures/ddd.md)
     * [MVC](architectures/mvc.md)
     * [Onion](architectures/onion.md)
+    * [Hexagonal](architectures/hexagonal.md)
 * [Tools](tools/README.md)
     * [Git](tools/git.md)
     * [Homebrew](tools/homebrew.md)
