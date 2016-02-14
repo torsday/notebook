@@ -11,6 +11,12 @@ git checkout -b <new_branch_name>
 
 ## Commands
 
+### adding a remote
+
+```sh
+git add remote <name> <url>
+```
+
 ### [`count-objects`](https://git-scm.com/docs/git-count-objects)
 
 Count unpacked number of objects and their disk consumption
