@@ -83,6 +83,8 @@
     * [Vim](tools/vim.md)
 * [Linux](linux/README.md)
     * [Tree](linux/tree.md)
+    * [Air Crack]()
+    * [Arp Scan]()
 * [Front-End Interview Questions](front-end_interview_questions.md)
 * [Lifestyle](lifestyle/README.md)
     * [Books](lifestyle/books.md)
