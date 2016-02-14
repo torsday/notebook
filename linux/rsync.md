@@ -1,90 +1,4 @@
-# Linux
-
-- [Linux](#linux)
-  - [du](#du)
-  - [find](#find)
-  - [grep](#grep)
-  - [rsync](#rsync)
-
----
-
-## `du`
-
-The du (i.e., disk usage) command reports the sizes of directory trees inclusive of all of their contents and the sizes of individual files. This makes it useful for tracking down space hogs, i.e., directories and files that consume large or excessive amounts of space on a hard disk drive (HDD) or other storage media.
-
-## Options
-
-```
--c, --total            produce a grand total
--h, --human-readable   print sizes in human readable format (e.g., 1K 234M 2G)
-```
-
-## ```find```
-
-```bash
-find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
-```
-
-#### show empty directories
-
-```bash
-find . -type d -empty -print
-```
-
-#### delete empty directories
-
-```bash
-find . -type d -empty -delete
-```
-
----
-
-## ```grep```
-
-search for string in a dir of files
-
-```bash
-grep -r '<string>' '<path_to_somewhere>'
-```
-
-
-#### Finding all files containing a text string on Linux
-
-```bash
-grep -rnw '/path/to/somewhere/' -e "pattern"
-
-# `-r` or `-R` is recursive
-# `-n` is line numbe
-# `-w` stands match the whole word
-# `-l` (lower-case L) can be added to just give the file name of matching files.
-```
-
-`--exclude` or `--include` parameter could be used for greater efficiency:
-
-```bash
-grep --include=\*.{c,h} -rnw '/path/to/somewhere/' -e "pattern"
-```
-
-`--exclude` does the opposite:
-
-```bash
-grep --exclude=*.o -rnw '/path/to/somewhere/' -e "pattern"
-```
-
-Just like exclude file it's possible to exclude/include directories through `--exclude-dir` and `--include-dir` parameter; for example, the following shows how to integrate `--exclude-dir`:
-
-```bash
-grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/somewhere/' -e "pattern"
-```
-
-### References
-
-* [Man Page](http://linux.die.net/man/1/grep0)
-* [StackOverflow: Finding all files containing a text string on Linux](https://stackoverflow.com/questions/16956810/finding-all-files-containing-a-text-string-on-linux)
-
----
-
-## ```rsync```
+# ```rsync```
 
 A remote (and local) file-copying tool.
 
@@ -108,14 +22,14 @@ rsync -ripumtz --progress src/ dest/
 # -n dry run
 ```
 
-### Use of `/` at the end of path:
+## Use of `/` at the end of path:
 
 - When using `/` at the end of source, rsync will copy the content of the last folder.
 When not using `/` at the end of source, rsync will copy the last folder and the content of the folder.
 - When using `/` at the end of destination, rsync will paste the data inside the last folder.
 When not using `/` at the end of destination, rsync will create a folder with the last destination folder name and paste the data inside that folder.
 
-### Complete Options
+## Complete Options
 
 ```
 -v, --verbose               increase verbosity
@@ -234,8 +148,3 @@ When not using `/` at the end of destination, rsync will create a folder with th
     --version               print version number
 (-h) --help                  show this help (see below for -h comment)
 ```
-
-### References
-
-* [man page](http://linux.die.net/man/1/rsync)
-* [To Slash or Not To Slash](http://qdosmsq.dunbar-it.co.uk/blog/2013/02/rsync-to-slash-or-not-to-slash/)
