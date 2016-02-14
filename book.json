@@ -1,7 +1,8 @@
 {
-    "title": "notebook",
-    "description": "My notes",
+    "title": "Notebook",
+    "description": "My Notes",
     "variables": {
         "host": "https://www.gitbook.com/book/torsday/notebook"
-    }
+    },
+    "plugins": ["collapsible-menu"]
 }

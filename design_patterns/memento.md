@@ -1,39 +1,40 @@
-# MEMENTO (object behavioral pattern)
-# ===================================
+# Memento (object behavioral pattern)
 
-# GoF definition (p. 283):
-# -----------------------
-# "Without violating encapsulation, capture and externalize an object's
-# internal state so that the object can be restored to this state later."
+## GoF definition (p. 283):
 
-# Originator
-#  * creates a memento storing a snapshot of its internal state.
-#  * uses a memento to restore its internal state.
+> "Without violating encapsulation, capture and externalize an object's
+internal state so that the object can be restored to this state later."
 
-# Memento
-#  * stores the internal state of an originator.
-#  * protects against access by objects other than the originator
-#    (How, exactly? Is this maintaing encapsulation in this way strictly
-#    necessary?)
+Originator
+ * creates a memento storing a snapshot of its internal state.
+ * uses a memento to restore its internal state.
 
-# Caretaker
-#  * Stores mementos
+Memento
+ * stores the internal state of an originator.
+ * protects against access by objects other than the originator
+   (How, exactly? Is this maintaing encapsulation in this way strictly
+   necessary?)
+
+Caretaker
+ * Stores mementos
 
 
-# Pros:
-# -----
-#  * Memento avoids exposing information that only an originator should manage,
-#    but must nevertheless be exposed outside the originator.
-#  * Allows you to easily restore the previous state of an originator.
-#  * Mementos can serve as a 'change log'.
+## Pros:
 
-# Cons:
-# -----
-#  * Can quickly become expensive, especially if storing the state of the
-#    originator requires a lot of memory.
+ * Memento avoids exposing information that only an originator should manage,
+   but must nevertheless be exposed outside the originator.
+ * Allows you to easily restore the previous state of an originator.
+ * Mementos can serve as a 'change log'.
 
-# Originator
-# ----------
+## Cons:
+
+ * Can quickly become expensive, especially if storing the state of the
+   originator requires a lot of memory.
+
+## Example
+
+Originator
+
 
 ```ruby
 class Document
@@ -51,10 +52,11 @@ class Document
     @text = memento.text
   end
 end
+```
 
-# Memento
-# -------
+Memento
 
+```ruby
 class TextMemento
   attr_reader :text
 
@@ -62,10 +64,11 @@ class TextMemento
     @text = text
   end
 end
+```
 
-# Caretaker
-# ---------
+Caretaker
 
+```ruby
 class DocumentHistory
   attr_accessor :history
 
@@ -81,9 +84,11 @@ class DocumentHistory
     @history.pop
   end
 end
+```
 
-# -----
+Implementation
 
+```ruby
 doc_history = DocumentHistory.new
 
 my_doc = Document.new("This is the old text!")

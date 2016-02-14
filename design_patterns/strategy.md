@@ -11,7 +11,9 @@ Like the 'template method' pattern, but rather than use subclassing to change th
 * Algorithms are encapsulated within interchangeable 'strategies'.
 * "Context" is decoupled from the implementation of the algorithm.
 
-## Strategies:
+## Example
+
+Strategies:
 
 ```ruby
 class Food
@@ -31,10 +33,11 @@ class Hotdog < Food
     puts "The hotdog turns golden brown."
   end
 end
+```
 
-# Context:
-# -------
+Context:
 
+```ruby
 class Grill
   attr_accessor :food
 
@@ -46,9 +49,11 @@ class Grill
     @food.grill
   end
 end
+```
 
-# -----
+Implementation
 
+```ruby
 my_grill = Grill.new(Burger.new)
 my_grill.grill_food
 my_grill.food = Hotdog.new # Strategies are interchangeable

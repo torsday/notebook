@@ -1,5 +1,9 @@
 # Glossary
 
+## Composer
+
+An application-level package manager for the PHP programming language that provides a standard format for managing dependencies of PHP software and required libraries.
+
 ## Countable
 
 http://php.net/manual/en/class.countable.php
@@ -28,10 +32,6 @@ A way of storing or transmitting data in the form of differences (deltas) betwee
 
 Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
 
-## GitBook
-
-https://github.com/GitbookIO/gitbook
-
 ## GNU Make
 
 A tool which controls the generation of executables and other non-source files of a program from the program's source files.
@@ -43,6 +43,10 @@ Specifies what methods a class must implement (an interface). An interface is sl
 ## Kitematic
 
 The Docker GUI, runs on Mac OS X and Windows operating systems. https://docs.docker.com/kitematic/
+
+## Lazy Loading
+
+A design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed. It can contribute to efficiency in the program's operation if properly and appropriately used. The opposite of lazy loading is eager loading.
 
 ## Postgres
 
@@ -67,6 +71,10 @@ Accessible within the class itself and subclasses.
 ## Public
 
 Accessible everywhere.
+
+## Redux
+
+Redux is a predictable state container for JavaScript apps.
 
 ## Repository
 

@@ -20,8 +20,9 @@ parallel class hierarchies.
 
 * The interface and implementation classes must be tightly coupled.
 
-## Abstraction [interface]:
+## Example
 
+Abstraction [interface]:
 
 ```ruby
 class RoboChat

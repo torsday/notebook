@@ -10,7 +10,9 @@ without specifying their concrete classes."
 ## Pros:
  * The creation of objects is encapsulated within interchangeable factories.
 
-## Objects to be built:
+## Example
+
+Objects to be built:
 
 ```ruby
 class Vehicle
@@ -32,10 +34,11 @@ class Van < Vehicle
     "This is a #{model}, a Van."
   end
 end
+```
 
-# Factories:
-# ----------
+Factories:
 
+```ruby
 class AbstractFactory
   def build(model)
     raise NotImplementedError
@@ -53,10 +56,11 @@ class VanFactory < AbstractFactory
     Van.new(model)
   end
 end
+```
 
-# Client:
-# -------
+Client:
 
+```ruby
 class Dealership
   attr_accessor :factory
   attr_reader :inventory
@@ -74,9 +78,11 @@ class Dealership
     @inventory.each { |vehicle| puts vehicle.description }
   end
 end
+```
 
-# -----
+Implementation:
 
+```ruby
 ford_dealership = Dealership.new(SedanFactory.new)
 ford_dealership.order_vehicles(3, "Focus")
 ford_dealership.list_inventory

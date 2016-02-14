@@ -21,6 +21,13 @@
 ## Tools
 
 * [Ruby Koans](http://rubykoans.com/)
+* [JS Fiddle](https://jsfiddle.net/)
+
+
+## ScreenCasts
+
+* [LaraCasts](https://laracasts.com)
+* [Plural Sight](https://www.pluralsight.com)
 
 
 ## Articles

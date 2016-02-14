@@ -15,7 +15,9 @@ Also known as the 'wrapper' pattern.
 ## Cons:
 * The adapter must necessarily be highly coupled to the adaptee.
 
-## Adaptee:
+## Example
+
+Adaptee:
 
 We will use the `Cipher` module as the adaptee.
 
@@ -57,9 +59,11 @@ class MessageEncrypter
     @cipher.update(message) + @cipher.final
   end
 end
+```
 
-# -----
+Implementation:
 
+```ruby
 cipher = OpenSSL::Cipher::AES256.new(:CFB)
 encrypter = MessageEncrypter.new(cipher)
 
