@@ -1,5 +1,14 @@
 # Learning Log
 
+- renaming a remote branch in git
+```sh
+git remote rename origin destination
+```
+
+2016-02-15
+
+---
+
 - gitbook plugin to collapse chapters: [gitbook-plugin-collapsible-menu](https://www.npmjs.com/package/gitbook-plugin-collapsible-menu). Can be found in the [GitBook Plugin Directory](https://plugins.gitbook.com/browse)
 
 - use [`sprintf()`](http://php.net/manual/en/function.sprintf.php) to create a template to construct a string. #PHP
