@@ -5,6 +5,11 @@
 git remote rename origin destination
 ```
 
+- push to all remotes in git
+```sh
+git remote | xargs -L1 git push --all
+```
+
 2016-02-15
 
 ---
