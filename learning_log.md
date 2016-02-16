@@ -1,5 +1,14 @@
 # Learning Log
 
+- copy the contents of id_rsa.pub to your clipboard
+```sh
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+2016-02-16
+
+---
+
 - renaming a remote branch in git
 ```sh
 git remote rename origin destination
