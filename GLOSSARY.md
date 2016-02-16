@@ -32,6 +32,10 @@ A way of storing or transmitting data in the form of differences (deltas) betwee
 
 Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
 
+## Functional Tests
+
+Functional tests check a particular feature for correctness by comparing the results for a given input against the specification. Functional tests don't concern themselves with intermediate results or side-effects, just the result (they don't care that after doing x, object y has state z). They are written to test part of the specification such as, "calling function Square(x) with the argument of 2 returns 4".
+
 ## GNU Make
 
 A tool which controls the generation of executables and other non-source files of a program from the program's source files.
