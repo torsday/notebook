@@ -57,3 +57,4 @@
 ## References
 
 * [StackOverflow: What's the difference between unit, functional, acceptance, and integration tests?](http://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test)
+* [Google Testing Blog: Test Sizes](http://googletesting.blogspot.com/2010/12/test-sizes.html)
