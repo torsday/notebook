@@ -40,6 +40,7 @@
 * [Databases](databases/README.md)
     * [Postgres](databases/postgres.md)
     * [SQL](databases/sql.md)
+    * [SQLite](databases/sqlite.md)
 * [Ops](ops/README.md)
     * [Babel](ops/babel.md)
     * [Composer](ops/composer.md)
