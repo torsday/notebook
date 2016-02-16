@@ -95,4 +95,5 @@
     * [Books](lifestyle/books.md)
     * [Buddhism](lifestyle/buddhism.md)
     * [Campsite Wishlist](lifestyle/campsite_wishlist.md)
+    * [Zen](lifestyle/zen.md)
 * [References](references.md)
