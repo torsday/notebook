@@ -52,6 +52,10 @@ The Docker GUI, runs on Mac OS X and Windows operating systems. https://docs.doc
 
 A design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed. It can contribute to efficiency in the program's operation if properly and appropriately used. The opposite of lazy loading is eager loading.
 
+## LDAP
+
+Lightweight Directory Access Protocol: An open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network.
+
 ## Postgres
 
 See: PostgreSQL.
