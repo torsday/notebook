@@ -1,5 +1,9 @@
 # Glossary
 
+## Callbacks
+
+Functions that are executed asynchronously.
+
 ## Composer
 
 An application-level package manager for the PHP programming language that provides a standard format for managing dependencies of PHP software and required libraries.
@@ -108,6 +112,6 @@ A set of methods that are not inherited, but composed into classes.
 
 *see Trait*
 
-## Callbacks
+## Zen
 
-Functions that are executed asynchronously.
+Zen emphasizes rigorous meditation-practice, insight into Buddha-nature, and the personal expression of this insight in daily life, especially for the benefit of others. As such, it de-emphasizes mere knowledge of sutras and doctrine and favors direct understanding through zazen and interaction with an accomplished teacher.
