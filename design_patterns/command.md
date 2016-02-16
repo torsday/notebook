@@ -22,8 +22,9 @@ and 'undone' and 'redone' with this methods.
  * You can assemble commands into a composite command.
  * You can support undoable operations.
 
-## Abstract Command [defines interface]
+## Example
 
+### Abstract Command [defines interface]
 
 ```ruby
 class Command
@@ -35,10 +36,11 @@ class Command
     raise NotImplementedError
   end
 end
+```
 
-# Concrete Commands
-# -----------------
+### Concrete Commands
 
+```ruby
 class CreateFile < Command
   def initialize(path, data)
     @path = path
@@ -55,7 +57,11 @@ class CreateFile < Command
     File.delete(@path)
   end
 end
+```
 
+### Composite Commands
+
+```ruby
 class CompositeCommand < Command
   def initialize(commands=[])
     @commands = commands
@@ -73,9 +79,11 @@ class CompositeCommand < Command
     @commands << command
   end
 end
+```
 
-# -----
+### Implementation
 
+```ruby
 create_some_files = CompositeCommand.new
 create_some_files.add_command(CreateFile.new('./EN.txt', 'hello'))
 create_some_files.add_command(CreateFile.new('./FR.txt', 'bonjour'))
