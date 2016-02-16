@@ -1,31 +1,32 @@
-# COMPOSITE (object structural pattern)
-# =====================================
+# Composite
 
-# GoF definition (p. 163):
-# -----------------------
-# "Compose objects into tree structures to represent part-whole hierarchies.
-# Composite lets clients treat individual objects and compositions of objects
-# uniformly."
+(object structural pattern)
 
-# The key to this pattern is that it allows clients to ignore the difference
-# between compositions of objects and individual objects. When a request is
-# sent down the tree, if the recipient is a single object, the request is
-# handled directly. If the recipient is a composite object, it forwards the
-# request to its children. The client does not and should not know whether
-# they are dealing with individual objects or composite objects.
+*From: [Gang of Four (p. 163)]()*
+> "Compose objects into tree structures to represent part-whole hierarchies.
+Composite lets clients treat individual objects and compositions of objects
+uniformly."
 
-# Pros:
-# -----
-#  * Clients can treat composite and individual objects uniformly.
-#  * It is easy to create new kinds of components.
+The key to this pattern is that it allows clients to ignore the difference
+between compositions of objects and individual objects. When a request is
+sent down the tree, if the recipient is a single object, the request is
+handled directly. If the recipient is a composite object, it forwards the
+request to its children. The client does not and should not know whether
+they are dealing with individual objects or composite objects.
 
-# Cons:
-# -----
-#  * Component design can be overly generalized, making it difficult to
-#    distinguish between different types of components
+## Pros:
 
-# Component (defines interface):
-# ------------------------------
+ * Clients can treat composite and individual objects uniformly.
+ * It is easy to create new kinds of components.
+
+## Cons:
+
+ * Component design can be overly generalized, making it difficult to
+   distinguish between different types of components
+
+## Example
+
+### Component (defines interface):
 
 ```ruby
 class AbstractNode
@@ -45,10 +46,11 @@ class AbstractNode
     raise NotImplementedError
   end
 end
+```
 
-# 'Leaf' (individual node):
-# -------------------------
+### 'Leaf' (individual node):
 
+```ruby
 class Node < AbstractNode
   def ping
     puts "pong!"
@@ -69,10 +71,11 @@ end
 
 class NodeError < StandardError
 end
+```
 
-# Composite (group of nodes):
-# ---------------------------
+### Composite (group of nodes):
 
+```ruby
 class NodeCluster < AbstractNode
   def initialize
     @nodes = []
@@ -95,9 +98,11 @@ class NodeCluster < AbstractNode
     @nodes
   end
 end
+```
 
-# -----
+### Implementation:
 
+```ruby
 root = NodeCluster.new
 root.add(Node.new)
 root.add(Node.new)
