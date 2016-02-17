@@ -32,7 +32,7 @@
     * [Zend Frameworks]()
 * [Testing](testing/README.md)
     * [Jasmine]()
-    * [Jest](
+    * [Jest]()
     * [Mocha]()
     * [PHPUnit]()
     * [Rspec](testing/rspec.md)
