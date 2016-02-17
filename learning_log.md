@@ -1,5 +1,12 @@
 # Learning Log
 
+
+
+
+2016-02-17
+
+---
+
 - remove a remote repo in git
   ```sh
   git remote rm <remote_name>
