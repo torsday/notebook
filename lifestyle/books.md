@@ -1,5 +1,9 @@
 # Books
 
+> A half-read book is a half-finished love affair.
+
+> ~Mitchell, David. Cloud Atlas.
+
 [GoodReads](goodreads.com/torsday)
 
 
