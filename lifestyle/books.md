@@ -1,5 +1,10 @@
 # Books
 
+[GoodReads](goodreads.com/torsday)
+
+
+## Notable Books
+
 - [ ] Code Complete
 - [ ] Emerick et al., "Clojure Programming"
 - [ ] Gamma et al., "Design Patterns"
