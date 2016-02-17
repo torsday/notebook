@@ -55,6 +55,7 @@
 	* Uniform access principle
 2. Classes
 3. Blocks (closures or anonymous functions)
+4. Hashes
 
 
 ## String Methods

@@ -1,5 +1,9 @@
 # Glossary
 
+## Blocks
+
+In Ruby, blocks are closures (anonymouse functions) that can be passed to many methods.
+
 ## Callbacks
 
 Functions that are executed asynchronously.
