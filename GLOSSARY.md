@@ -104,9 +104,6 @@ A Repository mediates between the domain and data mapping layers, acting like an
 
 A Service in Domain Driven Design is simply a stateless object that performs an action.
 
-## SplMaxHeap
-
-http://php.net/manual/en/class.splmaxheap.php
 
 ## SQLite
 
