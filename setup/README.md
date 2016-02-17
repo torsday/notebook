@@ -16,4 +16,4 @@
 
 ### Other
 
-* [ESLint](http://eslint.org/)m
+* [ESLint](http://eslint.org/)
