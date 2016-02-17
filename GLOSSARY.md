@@ -56,6 +56,10 @@ Specifies what methods a class must implement (an interface). An interface is sl
 
 The Docker GUI, runs on Mac OS X and Windows operating systems. https://docs.docker.com/kitematic/
 
+## Lambda
+
+A closure. More or less identical to PROCS, with a key difference: when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without finishing the calling method.
+
 ## Lazy Loading
 
 A design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed. It can contribute to efficiency in the program's operation if properly and appropriately used. The opposite of lazy loading is eager loading.
@@ -82,7 +86,7 @@ Accessible only within the class itself.
 
 ## Proc
 
-A closure or a "saved block”. Kind of like a method, but it can be used like a block and passed to methods that take blocks as parameters.
+A closure or a "saved block”. Kind of like a method, but it can be used like a block and passed to methods that take blocks as parameters. & is used to convert a proc into a block.
 
 ## Protected
 
@@ -119,7 +123,3 @@ A set of methods that are not inherited, but composed into classes.
 ## Zen
 
 Zen emphasizes rigorous meditation-practice, insight into Buddha-nature, and the personal expression of this insight in daily life, especially for the benefit of others. As such, it de-emphasizes mere knowledge of sutras and doctrine and favors direct understanding through zazen and interaction with an accomplished teacher.
-
-## Lambda
-
-A closure. More or less identical to PROCS, with a key difference: when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without finishing the calling method.
