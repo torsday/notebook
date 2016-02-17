@@ -16,13 +16,13 @@ An application-level package manager for the PHP programming language that provi
 
 Create. Read. Update. Destroy.
 
-## Currying
-
-The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
-
 ## Curry
 
 See: Currying.
+
+## Currying
+
+The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
 
 ## Delta Compression
 
@@ -104,7 +104,6 @@ A Repository mediates between the domain and data mapping layers, acting like an
 
 A Service in Domain Driven Design is simply a stateless object that performs an action.
 
-
 ## SQLite
 
  A software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
@@ -120,3 +119,7 @@ A set of methods that are not inherited, but composed into classes.
 ## Zen
 
 Zen emphasizes rigorous meditation-practice, insight into Buddha-nature, and the personal expression of this insight in daily life, especially for the benefit of others. As such, it de-emphasizes mere knowledge of sutras and doctrine and favors direct understanding through zazen and interaction with an accomplished teacher.
+
+## Lambda
+
+A closure. More or less identical to PROCS, with a key difference: when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without finishing the calling method.
