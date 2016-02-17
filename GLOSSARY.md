@@ -2,7 +2,7 @@
 
 ## Blocks
 
-In Ruby, blocks are closures (anonymouse functions) that can be passed to many methods.
+In Ruby, blocks are closures (anonymous functions) that can be passed to many methods.
 
 ## Callbacks
 
