@@ -1,5 +1,9 @@
 # Glossary
 
+## Behavior-Driven Development
+
+A software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer. 
+
 ## Blocks
 
 In Ruby, blocks are closures (anonymous functions) that can be passed to many methods.
