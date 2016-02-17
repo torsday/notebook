@@ -80,6 +80,7 @@
     * [Git](tools/git.md)
     * [Homebrew](tools/homebrew.md)
     * [Linux](tools/linux.md)
+    * [Pry]()
     * [PSR Fixer](tools/psr-fixer.md)
     * [Vim](tools/vim.md)
 * [Linux](linux/README.md)
