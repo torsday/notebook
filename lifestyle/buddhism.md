@@ -1,5 +1,9 @@
 # Buddhism
 
+> “No one in the world ever gets what they want and that is beautiful.”
+
+> ~ Cline, Ernest. Ready Player One.
+
 ## 4 Noble Truths
 
 1. Suffering is a part of life.
