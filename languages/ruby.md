@@ -49,6 +49,14 @@
 
 <!-- /TOC -->
 
+## Good to Know
+
+1. Everything is an object
+	* Uniform access principle
+2. Classes
+3. Blocks (closures or anonymous functions)
+
+
 ## String Methods
 
 ```ruby
