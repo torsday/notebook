@@ -38,7 +38,7 @@ Docker, a tool for deploying and running applications. Docker provides a way to 
 
 ## Domain-Specific Language
 
-A is a computer language specialized to a particular application domain.
+A computer language specialized to a particular application domain.
 
 ## Duck Typing
 
