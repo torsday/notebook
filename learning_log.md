@@ -1,6 +1,31 @@
 # Learning Log
 
-- copy the contents of id_rsa.pub to your clipboard
+- calling a parent method in ruby:
+
+  *From: [StackOverflow](https://stackoverflow.com/questions/18448831/calling-method-in-parent-class-from-subclass-methods-in-ruby)*
+  > If the method is the same name, i.e. you're overriding a method you can simply use super. Otherwise you can use an alias_method or a binding.
+
+  ```ruby
+  class Parent
+      def method
+      end
+  end
+
+  class Child < Parent
+      alias_method :parent_method, :method
+      def method
+          super
+      end
+
+      def other_method
+          parent_method
+          #OR
+          Parent.instance_method(:method).bind(self).call
+      end
+  end
+  ```
+
+- copy the contents of `id_rsa.pub` to your clipboard
 ```sh
 pbcopy < ~/.ssh/id_rsa.pub
 ```
