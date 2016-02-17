@@ -1,5 +1,7 @@
 # Learning Log
 
+- [Exercism.IO](http://exercism.io/dashboard), a tool to learn languages.
+
 - symbol in ruby: an immutable value that only uses one slot of memory.
 
 - get where two arrays match in ruby: use [Intersection, or `&`](http://ruby-doc.org/core-2.3.0/Array.html#method-i-26) in ruby
@@ -8,7 +10,7 @@
   y = [5, 2, 4]
   x & y # => [2, 4]
   ```
-  
+
 <!-- - `xdebug` error
     > Debug session was finished without being paused
 
