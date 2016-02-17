@@ -1,7 +1,10 @@
 # Learning Log
 
 
+<!-- - `xdebug` error
+    > Debug session was finished without being paused
 
+    > It may be caused by path mappings misconfiguration or not synchronized local and remote projects.  To figure out the problem check path mappings configuration for 'admax.creditkarma.com' server at PHP|Servers or enable Break at first line in PHP scripts option (from Run menu). -->
 
 2016-02-17
 
