@@ -1,5 +1,10 @@
 # Learning Log
 
+- remove a remote repo in git
+  ```sh
+  git remote rm <remote_name>
+  ```
+
 - calling a parent method in ruby:
 
   *From: [StackOverflow](https://stackoverflow.com/questions/18448831/calling-method-in-parent-class-from-subclass-methods-in-ruby)*
