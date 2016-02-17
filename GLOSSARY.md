@@ -34,7 +34,11 @@ A way of storing or transmitting data in the form of differences (deltas) betwee
 
 ## Docker
 
-Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com/
+Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com
+
+## Domain-Specific Language
+
+A is a computer language specialized to a particular application domain.
 
 ## Duck Typing
 
@@ -43,6 +47,10 @@ A way to write computer code that doesn't demand that you know what types you ar
 ## Functional Tests
 
 Functional tests check a particular feature for correctness by comparing the results for a given input against the specification. Functional tests don't concern themselves with intermediate results or side-effects, just the result (they don't care that after doing x, object y has state z). They are written to test part of the specification such as, "calling function Square(x) with the argument of 2 returns 4".
+
+## General-Purpose Language
+
+A computer language that is broadly applicable across application domains, and lacks specialized features for a particular domain.
 
 ## GNU Make
 
