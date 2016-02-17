@@ -19,7 +19,7 @@
 * [Languages, Libraries, Frameworks, et. al.](languages/README.md)
     * [C](languages/c.md)
     * [Javascript](languages/javascript.md)
-    * [Laravel](languages/laravel.md)
+    * [Laravel]()
     * [Lo-Dash]()
     * [Objective-C](languages/objective-c.md)
     * [PHP the Right Way](languages/php-the-right-way.md)
