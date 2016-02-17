@@ -60,6 +60,10 @@ A design pattern commonly used in computer programming to defer initialization o
 
 Lightweight Directory Access Protocol: An open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network.
 
+## Ncurses
+
+A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.
+
 ## Postgres
 
 See: PostgreSQL.
