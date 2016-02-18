@@ -89,6 +89,7 @@
     * [grep](linux/grep.md)
     * [rsync](linux/rsync.md)
 * [Security](security/README.md)
+    * [Common Web Flaws](security/common_web_security_flaws.md)
     * [SSH](security/ssh.md)
 * [Tools](tools/README.md)
     * [Git](tools/git.md)
