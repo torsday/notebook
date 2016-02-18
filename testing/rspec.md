@@ -30,3 +30,8 @@ end
 ## References
 
 * [Better Specs { rspec guidelines with ruby }](http://betterspecs.org/)
+
+
+## See Also
+
+* [Factory Girl](https://github.com/thoughtbot/factory_girl)
