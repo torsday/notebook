@@ -423,6 +423,7 @@ And that's it!
 
 
 ---
+
 ## Yanking text to register
 
 Yanking and deleting text will save the text to the same unnamed register. Every
@@ -450,3 +451,19 @@ You can view the contents of all registers via the `:registers` command.
 Even after deleting various words in your file, your yanked word will always be
 in register `a`.  The VIM wiki has more details on [Replacing a word with yanked
 text](http://vim.wikia.com/wiki/Replace_a_word_with_yanked_text).
+
+
+## Macros
+
+If you want to repeat a bunch of vim commands for running multiple times, record them in a macro.
+
+
+### To record a macro:
+
+1. type `q` followed by any char: **[a-z]**
+1. type your vim commands
+1. type `q` again to finish recording
+
+### To run the macro:
+
+`@` followed by the **same char** you chose to store the macro.

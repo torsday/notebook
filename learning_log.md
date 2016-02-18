@@ -2,7 +2,7 @@
 
 - vim macros
 
-    - If you want to repeat a bunch of vim commands for running multiple times, record them in a macro and run wherever you want.
+    - If you want to repeat a bunch of vim commands for running multiple times, record them in a macro.
 
         To record a macro:
 
