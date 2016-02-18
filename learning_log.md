@@ -15,17 +15,6 @@
 - symbol in ruby: an immutable value that only uses one slot of memory.
 
 - [Intersection / `&` in ruby](./languages/ruby.md#arrays)
-- get where two arrays match in ruby: use [Intersection, or `&`](http://ruby-doc.org/core-2.3.0/Array.html#method-i-26) in ruby
-  ```ruby
-  x = [1, 2, 4]
-  y = [5, 2, 4]
-  x & y # => [2, 4]
-  ```
-
-<!-- - `xdebug` error
-    > Debug session was finished without being paused
-
-    > It may be caused by path mappings misconfiguration or not synchronized local and remote projects.  To figure out the problem check path mappings configuration for 'admax.creditkarma.com' server at PHP|Servers or enable Break at first line in PHP scripts option (from Run menu). -->
 
 2016-02-17
 
