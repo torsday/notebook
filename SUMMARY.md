@@ -77,6 +77,7 @@
     * [Docker](ops/docker.md)
     * [Grunt]()
     * [Gulp](ops/gulp.md)
+    * [LDAP](ops/ldap.md)
     * [NPM](ops/npm.md)
     * [NVM](ops/nvm.md)
     * [Phing](ops/phing.md)
