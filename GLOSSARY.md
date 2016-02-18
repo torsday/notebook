@@ -112,6 +112,10 @@ Accessible everywhere.
 
 Redux is a predictable state container for JavaScript apps.
 
+## Reflection
+
+The ability of a computer program to examine (see type introspection) and modify its own structure and behavior (specifically the values, meta-data, properties and functions) at runtime.
+
 ## Repository
 
 A Repository mediates between the domain and data mapping layers, acting like an in-memory domain object collection
@@ -135,6 +139,10 @@ A set of methods that are not inherited, but composed into classes.
 ## Traits
 
 *see Trait*
+
+## Type introspection
+
+The ability of a program to examine the type or properties of an object at runtime.
 
 ## Zen
 
