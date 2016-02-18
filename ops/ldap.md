@@ -5,7 +5,7 @@
 
 * A directory service protocol.
 * Runs on a layer above the TCP/IP stack.
-* Provides a mechanism used CRUD Internet directories.
+* Provides a mechanism for CRUD operations on internet directories.
 * Based on a client-server model.
 
 ### Directory vs Database
