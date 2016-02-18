@@ -11,3 +11,4 @@ A place for ideas to sit while they are fleshed out and organized into the overa
 * gems
 * bundle
 * rbenv
+* TCP/IP
