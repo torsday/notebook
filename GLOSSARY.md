@@ -148,6 +148,10 @@ A set of methods that are not inherited, but composed into classes.
 
 The ability of a program to examine the type or properties of an object at runtime.
 
+# X.500
+
+A complex enterprise directory system.
+
 ## Zen
 
 Zen emphasizes rigorous meditation-practice, insight into Buddha-nature, and the personal expression of this insight in daily life, especially for the benefit of others. As such, it de-emphasizes mere knowledge of sutras and doctrine and favors direct understanding through zazen and interaction with an accomplished teacher.
