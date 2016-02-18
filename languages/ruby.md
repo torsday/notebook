@@ -189,7 +189,13 @@ array.join(x)  returns elements as string separated by x
 string.split(x)  turns a string into an array with x as separator
 ```
 
+get where two arrays match in ruby: use [Intersection, or `&`](http://ruby-doc.org/core-2.3.0/Array.html#method-i-26)
 
+```ruby
+x = [1, 2, 4]
+y = [5, 2, 4]
+x & y # => [2, 4]
+```
 
 ## Loops
 

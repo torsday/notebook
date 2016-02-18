@@ -14,6 +14,7 @@
 
 - symbol in ruby: an immutable value that only uses one slot of memory.
 
+- [Intersection / `&` in ruby](./languages/ruby.md#arrays)
 - get where two arrays match in ruby: use [Intersection, or `&`](http://ruby-doc.org/core-2.3.0/Array.html#method-i-26) in ruby
   ```ruby
   x = [1, 2, 4]
