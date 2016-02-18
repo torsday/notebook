@@ -1,14 +1,18 @@
 # Lightweight Directory Access Protocol (LDAP)
 
 
+## What is LDAP?
+
 *From: [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)*
 > A directory service protocol that runs on a layer above the TCP/IP stack. It provides a mechanism used to connect to, search, and modify Internet directories. The LDAP directory service is based on a client-server model.
 
 *From: [Gracion](http://www.gracion.com/server/whatldap.html)*
 > As a protocol, LDAP does not define how programs work on either the client or server side. It defines the "language" used for client programs to talk to servers (and servers to servers, too)
 
+### Directory?
+
 *From: [TLDP](http://www.tldp.org/HOWTO/LDAP-HOWTO/whatisldap.html)*
-> A **directory** is similar to a database, but tends to contain more descriptive, attribute-based information. The information in a directory is generally read much more often than it is written. Directories are tuned to give quick-response to high-volume lookup or search operations. They may have the ability to replicate information widely in order to increase availability and reliability, while reducing response time. When directory information is replicated, temporary inconsistencies between the replicas may be OK, as long as they get in sync eventually.
+> A **directory** is similar to a database, but tends to contain more descriptive, attribute-based information. The information in a directory is generally **read much more often than it is written**. Directories are tuned to give quick-response to high-volume lookup or search operations. They may have the ability to replicate information widely in order to increase availability and reliability, while reducing response time. When directory information is replicated, temporary inconsistencies between the replicas may be OK, as long as they get in sync eventually.
 
 
 ## LDAP defines Permissions & Schema
