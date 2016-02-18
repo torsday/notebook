@@ -68,7 +68,7 @@
     * [PHPUnit]()
     * [Rspec](testing/rspec.md)
     * [Selenium](testing/selenium.md)
-* [Debugging](debuggin/README.md)
+* [Debugging](debugging/README.md)
     * [Pry]()
     * [XDebug]()
 * [Ops](ops/README.md)
