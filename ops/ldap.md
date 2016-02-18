@@ -3,8 +3,10 @@
 
 ## What is LDAP?
 
-*From: [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)*
-> A directory service protocol that runs on a layer above the TCP/IP stack. It provides a mechanism used to connect to, search, and modify Internet directories. The LDAP directory service is based on a client-server model.
+* A directory service protocol.
+* Runs on a layer above the TCP/IP stack.
+* Provides a mechanism used CRUD Internet directories.
+* Based on a client-server model.
 
 ### Directory vs Database
 
@@ -32,5 +34,6 @@ A way to describe the format and attributes of data in the server. For example: 
 
 ## References
 
+* [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
