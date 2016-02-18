@@ -1,5 +1,8 @@
 # Learning Log
 
+- [vim macros](til/vim_macros.md)
+
+
 - [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
 
     > The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling. The guideline was proposed at Northeastern University towards the end of 1987, and can be succinctly summarized in each of the following ways:[1]
