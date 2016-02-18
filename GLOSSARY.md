@@ -2,7 +2,7 @@
 
 ## Behavior-Driven Development
 
-A software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer. 
+A software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.
 
 ## Blocks
 
@@ -115,6 +115,10 @@ Redux is a predictable state container for JavaScript apps.
 ## Repository
 
 A Repository mediates between the domain and data mapping layers, acting like an in-memory domain object collection
+
+## SEIT
+
+Software Engineer in Test
 
 ## Service
 
