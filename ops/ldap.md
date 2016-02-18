@@ -16,13 +16,11 @@ A **directory** is similar to a database, but
     - Temporary inconsistencies between the replicas may be OK, as long as they get in sync eventually.
 
 
-## LDAP defines Permissions & Schema
-
-### Permissions
+## Permissions
 
 Set by the administrator to allow only certain people to access the LDAP database, and optionally keep certain data private.
 
-### Schema
+## Schema
 
 A way to describe the format and attributes of data in the server. For example: a schema entered in an LDAP server might define a "groovyPerson" entry type, which has attributes of "instantMessageAddress", and "coffeeRoastPreference". The normal attributes of name, email address, etc., would be inherited from one of the standard schemas, which are rooted in X.500.
 
