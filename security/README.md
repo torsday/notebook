@@ -11,7 +11,7 @@ There are two ways to store the session hash: either the session id is stored in
 
 The client will include the session id in every request (this is why it's important to encrypt traffic!)
 
-When a user logs in, their user is stored in the session (either as session[:id] or session[:user_id]).
+When a user logs in, their user is stored in the session (either as `session[:id]` or `session[:user_id]`).
 
 --SESSION HIJACKING--
 
@@ -33,7 +33,9 @@ This attack method works by including malicious code or a link in a page that ac
 
 For example, a hacker might include an image tag in blog post like this:
 
-    <img src="http://www.webapp.com/project/1/destroy">
+```html
+<img src="http://www.webapp.com/project/1/destroy">
+```
 
 When an authenticated user views the post, it tries to load the "image", sending the session cookie along with the request. The request is authenticated, and it may succeed.
 
@@ -66,7 +68,9 @@ This is difficult to execute in a normally configured Rails application, but it'
 
 A hacker attempts to bypass authorization and access database information by passing input that alters a SQL query. For example, it's a pretty terrible idea to write something like this:
 
-  Project.where("name = '#{params[:name]}'")
+```ruby
+Project.where("name = '#{params[:name]}'")
+```
 
 That naively passes user input to a SQL query.
 
