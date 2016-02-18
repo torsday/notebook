@@ -108,6 +108,10 @@ A closure or a "saved block”. Kind of like a method, but it can be used like a
 
 Accessible within the class itself and subclasses.
 
+## Protocol
+
+A defined language machines talk in. Doesn't matter how their brains created or listen to the thoughts, just that the language is agreed upon.
+
 ## Public
 
 Accessible everywhere.

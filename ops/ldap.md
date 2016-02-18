@@ -6,9 +6,6 @@
 *From: [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)*
 > A directory service protocol that runs on a layer above the TCP/IP stack. It provides a mechanism used to connect to, search, and modify Internet directories. The LDAP directory service is based on a client-server model.
 
-*From: [Gracion](http://www.gracion.com/server/whatldap.html)*
-> As a protocol, LDAP does not define how programs work on either the client or server side. It defines the "language" used for client programs to talk to servers (and servers to servers, too)
-
 ### Directory?
 
 *From: [TLDP](http://www.tldp.org/HOWTO/LDAP-HOWTO/whatisldap.html)*
