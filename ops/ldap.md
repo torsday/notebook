@@ -8,6 +8,9 @@
 *From: [Gracion](http://www.gracion.com/server/whatldap.html)*
 > As a protocol, LDAP does not define how programs work on either the client or server side. It defines the "language" used for client programs to talk to servers (and servers to servers, too)
 
+*From: [TLDP](http://www.tldp.org/HOWTO/LDAP-HOWTO/whatisldap.html)*
+> A **directory** is similar to a database, but tends to contain more descriptive, attribute-based information. The information in a directory is generally read much more often than it is written. Directories are tuned to give quick-response to high-volume lookup or search operations. They may have the ability to replicate information widely in order to increase availability and reliability, while reducing response time. When directory information is replicated, temporary inconsistencies between the replicas may be OK, as long as they get in sync eventually.
+
 
 ## LDAP defines Permissions & Schema
 

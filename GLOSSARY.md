@@ -36,10 +36,6 @@ See: Delta Encoding.
 
 A way of storing or transmitting data in the form of differences (deltas) between sequential data rather than complete files; more generally this is known as data differencing.
 
-## Directory
-
-A directory is similar to a database, but tends to contain more descriptive, attribute-based information. The information in a directory is generally read much more often than it is written. Directories are tuned to give quick-response to high-volume lookup or search operations. They may have the ability to replicate information widely in order to increase availability and reliability, while reducing response time. When directory information is replicated, temporary inconsistencies between the replicas may be OK, as long as they get in sync eventually.
-
 ## Docker
 
 Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com
