@@ -2,8 +2,8 @@
 
 ## Common Web Security Flaws (and how to deal with them)
 
-1. Sessions
------------
+### Sessions
+
 
 Rails automatically automatically creates a session for each user. It's composed of a hash of values and a session id that identifies that hash.
 
@@ -26,8 +26,8 @@ If you store sensitive data in a session (like 'money balance') and use client-s
 COUNTERMEASURES: Don't store sensitive data in sessions, especially if you use client-side session storage! Sensitive data should always be stored server-side, e.g. in a database.
 
 
-2. Cross-Site Request Forgery (CSRF)
---------------------------------------
+### Cross-Site Request Forgery (CSRF)
+--
 
 This attack method works by including malicious code or a link in a page that accesses a web application that the user is believed to have authenticated.
 
@@ -45,8 +45,8 @@ COUNTERMEASURES:
   – Require re-authentication for sensitive requests.
 
 
-3. Cross-Site Scripting (XSS)
------------------------------
+### Cross-Site Scripting (XSS)
+
 
 A widespread attack that injects client-side executable code – whether in a blog post, project title, or anywhere where they can input data – that is later displayed to a victim (known as a 'stored' XSS attack). Alternatively, a script could even be passed as a query parameter in a link provided by an attacker ('reflected' XSS).
 
@@ -59,8 +59,8 @@ COUNTERMEASURES:
   – Use the HTTPOnly setting on cookies. This makes cookies accessbile via HTTP only, so they can't be accessed through javascript.
 
 
-4. SQL Injection
-----------------
+### SQL Injection
+
 
 This is difficult to execute in a normally configured Rails application, but it's important to understand the attack.
 
@@ -81,16 +81,16 @@ This is called using a "bind parameter", which separates user-passed data from t
 In sum, do not use string-building for SQL, but use queries with bind parameters.
 
 
-5. INSECURE CRYPTO
-------------------
+### INSECURE CRYPTO
+
 
 Obviously, you should always salt and hash sensitive data. The trick deciding what data is "sensitive." There is such a thing as OVER-securing data, as this can slow your application down unnecessarily.
 
 Use transport layer security (SSL/TLS) when you're transferring sensitive data.
 
 
-6. MIXED CONTENT
-----------------
+### MIXED CONTENT
+
 
 This vulnerability emerges when you load content insecurely (i.e. over http) on a page that is otherwise secure (https). For example, you might load a script via http on a login page using https. The form is loaded and posted over https, but your "mixed content" – the script loaded via http – is vulnerable to being tampered with. Someone might intercept the transfer and inject their own code into the script; code that might change the login form's `action` attribute, for example, sending your credentials somewhere else!
 

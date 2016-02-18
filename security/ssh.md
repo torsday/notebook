@@ -6,7 +6,7 @@
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
-## Checking for existing SSH keys
+## List existing SSH keys
 
 ```sh
 ls -al ~/.ssh
@@ -21,8 +21,6 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 ## Adding a new SSH key to the ssh-agent
-
-
 
 Ensure ssh-agent is enabled; start the ssh-agent in the background.
 
