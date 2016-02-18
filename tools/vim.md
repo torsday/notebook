@@ -1,5 +1,23 @@
 # Vim
 
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [[`.vimrc`](https://github.com/torsday/dotfiles/blob/master/.vimrc)](#vimrchttpsgithubcomtorsdaydotfilesblobmastervimrc)
+	- [Font](#font)
+	- [Custom Functions](#custom-functions)
+	- [References](#references)
+- [Custom commands](#custom-commands)
+- [Easy file diffing](#easy-file-diffing)
+- [or](#or)
+- [Vim Profiling](#vim-profiling)
+- [Search & Replace in multiple files](#search-replace-in-multiple-files)
+- [Yanking text to register](#yanking-text-to-register)
+- [Macros](#macros)
+	- [To record a macro:](#to-record-a-macro)
+	- [To run the macro:](#to-run-the-macro)
+
+<!-- /TOC -->
+
 ## [`.vimrc`](https://github.com/torsday/dotfiles/blob/master/.vimrc)
 
 markdown fenced code block highlighting

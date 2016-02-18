@@ -1,32 +1,14 @@
 # Learning Log
 
-- vim macros
+- I have a love/hate relationship with Xdebug and PhpStorm. When it works, I love debugging.
 
-    - If you want to repeat a bunch of vim commands for running multiple times, record them in a macro.
+2016-02-18
 
-        To record a macro:
+---
 
-        1. type `q` followed by any char: **[a-z]**
-        1. type your vim commands
-        1. type `q` again to finish recording
+- [vim macros](./tools/vim.md#macros)
 
-    - To run the macro:
-
-        `@` followed by the **same char** you chose to store the macro.
-
-
-
-- [Law of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
-
-    > The Law of Demeter (LoD) or principle of least knowledge is a design guideline for developing software, particularly object-oriented programs. In its general form, the LoD is a specific case of loose coupling. The guideline was proposed at Northeastern University towards the end of 1987, and can be succinctly summarized in each of the following ways:[1]
-
-    > * Each unit should have only limited knowledge about other units: only units "closely" related to the current unit.
-    > * Each unit should only talk to its friends; don't talk to strangers.
-    > * Only talk to your immediate friends.
-
-    > The fundamental notion is that a given object should assume as little as possible about the structure or properties of anything else (including its subcomponents), in accordance with the principle of "information hiding".
-
-
+- Law of Demeter
 
 - [Exercism.IO](http://exercism.io/dashboard), a tool to learn languages.
 

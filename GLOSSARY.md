@@ -72,6 +72,10 @@ The Docker GUI, runs on Mac OS X and Windows operating systems. https://docs.doc
 
 A closure. More or less identical to PROCS, with a key difference: when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without finishing the calling method.
 
+## Law of Demeter
+
+A given object should assume as little as possible about the structure or properties of anything else (including its subcomponents), in accordance with the principle of "information hiding".
+
 ## Lazy Loading
 
 A design pattern commonly used in computer programming to defer initialization of an object until the point at which it is needed. It can contribute to efficiency in the program's operation if properly and appropriately used. The opposite of lazy loading is eager loading.
