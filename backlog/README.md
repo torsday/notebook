@@ -12,3 +12,5 @@ A place for ideas to sit while they are fleshed out and organized into the overa
 * bundle
 * rbenv
 * TCP/IP
+* symbols in ruby
+* [PHP Mess Detector](http://phpmd.org/)
