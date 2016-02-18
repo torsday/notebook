@@ -82,7 +82,7 @@ A design pattern commonly used in computer programming to defer initialization o
 
 ## LDAP
 
-Lightweight Directory Access Protocol: An open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network.
+A directory service protocol that runs on a layer above the TCP/IP stack. It provides a mechanism used to connect to, search, and modify Internet directories. The LDAP directory service is based on a client-server model.
 
 ## Ncurses
 
