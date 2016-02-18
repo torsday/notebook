@@ -78,6 +78,7 @@
     * [Grunt]()
     * [Gulp](ops/gulp.md)
     * [NPM](ops/npm.md)
+    * [NVM](ops/nvm.md)
     * [Phing](ops/phing.md)
     * [Vagrant]()
 * [Linux](linux/README.md)

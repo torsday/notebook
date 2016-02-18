@@ -32,3 +32,19 @@ npm view <package> version
 npm ls
 npm -g ls
 ```
+
+
+## Favorite Global Packages
+
+### Install
+
+```sh
+npm install -g \
+eslint \
+babel-eslint \
+eslint-config-airbnb \
+gitbook-plugin-collapsible-menu \
+lodash \
+eslint-plugin-react \
+gitbook-cli
+```
