@@ -33,4 +33,4 @@ A way to describe the format and attributes of data in the server. For example: 
 ## References
 
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
-* [TLDP: What is LDAP?](http://www.tldp.org/HOWTO/LDAP-HOWTO/whatisldap.html)
+* [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
