@@ -84,6 +84,7 @@ A standard plain text data interchange format for representing LDAP directory CR
 
 - `dn`: **Distinguished Name**
     - This refers to the name that uniquely identifies an entry in the directory.
+    - DNs have a “most specific component first” ordering, like postal addresses.
 - `dc`: **Domain Component**
     - This refers to each component of the domain. For example `www.google.com` would be written as `DC=www,DC=google,DC=com`
 - `ou`: **Organizational Unit**
