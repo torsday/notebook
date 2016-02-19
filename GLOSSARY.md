@@ -86,7 +86,7 @@ A directory service protocol that runs on a layer above the TCP/IP stack. It pro
 
 ## LDIF
 
-A standard plain text data interchange format for representing LDAP directory content and update requests.
+A standard plain text data interchange format for representing LDAP directory CRUD requests.
 
 ## Ncurses
 
