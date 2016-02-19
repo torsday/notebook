@@ -50,6 +50,43 @@ A way to describe the format and attributes of data in the server. For example: 
     - This refers to the individual object (person's name; meeting room; recipe name; job title; etc.) for whom/which you are querying.
 
 
+### Examples
+
+Simple directory entry with several attributes, represented as a record
+
+```sh
+dn: cn=The Postmaster,dc=example,dc=com
+objectClass: organizationalRole
+cn: The Postmaster
+```
+
+An LDIF record that modifies multiple single-valued attributes for two different directory entries
+
+```sh
+dn: CN=John Smith,OU=Legal,DC=example,DC=com
+changetype: modify
+replace:employeeID
+employeeID: 1234
+-
+replace:employeeNumber
+employeeNumber: 98722
+-
+replace: extensionAttribute6
+extensionAttribute6: JSmith98
+-
+
+dn: CN=Jane Smith,OU=Accounting,DC=example,DC=com
+changetype: modify
+replace:employeeID
+employeeID: 5678
+-
+replace:employeeNumber
+employeeNumber: 76543
+-
+replace: extensionAttribute6
+extensionAttribute6: JSmith14
+-
+```
 
 
 ## References
@@ -57,3 +94,4 @@ A way to describe the format and attributes of data in the server. For example: 
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
+* [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
