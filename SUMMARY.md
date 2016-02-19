@@ -56,7 +56,7 @@
     * [React](languages/react.md)
     * [Ruby](languages/ruby.md)
     * [Scala](languages/scala.md)
-    * [Swift]()
+    * [Swift](languages/swift.md)
     * [Zend Frameworks]()
 * [Persistence](persistence/README.md)
     * [Hadoop]()
