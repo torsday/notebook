@@ -1,5 +1,19 @@
 # Lightweight Directory Access Protocol *(LDAP)*
 
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [What is LDAP?](#what-is-ldap)
+	- [Directory vs Database](#directory-vs-database)
+- [Permissions](#permissions)
+- [Schema](#schema)
+- [Setting up an LDAP Server](#setting-up-an-ldap-server)
+- [LDAP Data Interchange Format *(LDIF)*](#ldap-data-interchange-format-ldif)
+	- [Fields](#fields)
+	- [Examples](#examples)
+- [References](#references)
+
+<!-- /TOC -->
+
 ## What is LDAP?
 
 * A directory service protocol.
