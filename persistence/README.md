@@ -1,5 +1,7 @@
 # Persistence
 
+---
+
 ## Directory vs Database
 
 A **directory** is similar to a database, but

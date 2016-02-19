@@ -1,5 +1,9 @@
 # Lightweight Directory Access Protocol *(LDAP)*
 
+---
+
+Table of Contents
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [What is LDAP?](#what-is-ldap)
