@@ -3,14 +3,14 @@
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Good to Know](#good-to-know)
-- [String Methods](#string-methods)
+- [[Strings]((http://ruby-doc.org/core/String.html)](#stringshttpruby-docorgcorestringhtml)
 - [Number Methods](#number-methods)
 - [Misc](#misc)
 - [Comparison Operators](#comparison-operators)
 - [Boolean Operators](#boolean-operators)
 - [Operators](#operators)
 - [Combined Comparison Operator](#combined-comparison-operator)
-- [Arrays](#arrays)
+- [[Arrays](http://ruby-doc.org/core/Array.html)](#arrayshttpruby-docorgcorearrayhtml)
 - [Loops](#loops)
 - [One Line Ifs & Ternary Conditional Expressions & Case Statements](#one-line-ifs-ternary-conditional-expressions-case-statements)
 - [Methods that Take Blocks](#methods-that-take-blocks)
@@ -61,7 +61,7 @@
 4. Hashes
 
 
-## String Methods
+## [Strings]((http://ruby-doc.org/core/String.html)
 
 ```ruby
 .length
@@ -167,7 +167,7 @@ object.replace(object.method) replaces object with the output of method (liked .
 Returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second.
 
 
-## Arrays
+## [Arrays](http://ruby-doc.org/core/Array.html)
 
 ```ruby
 array = [1, 2, 3]
