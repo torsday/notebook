@@ -84,6 +84,7 @@
     * [Okta]()
     * [Phing](ops/phing.md)
     * [SAML]()
+    * [Splunk]()
     * [Vagrant]()
 * [Linux](linux/README.md)
     * [Tree](linux/tree.md)
