@@ -1,5 +1,19 @@
 # References
+---
 
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [GitHub Repos](#github-repos)
+- [Docs](#docs)
+- [Tools](#tools)
+- [Education](#education)
+	- [Screencasts](#screencasts)
+	- [Misc](#misc)
+- [Articles](#articles)
+
+<!-- /TOC -->
+
+---
 
 ## GitHub Repos
 
@@ -20,14 +34,21 @@
 
 ## Tools
 
-* [Ruby Koans](http://rubykoans.com/)
 * [JS Fiddle](https://jsfiddle.net/)
 
 
-## ScreenCasts
+## Education
+
+### Screencasts
 
 * [LaraCasts](https://laracasts.com)
 * [Plural Sight](https://www.pluralsight.com)
+
+
+### Misc
+
+* [exercism.io](http://exercism.io/)
+* [Ruby Koans](http://rubykoans.com/)
 
 
 ## Articles
