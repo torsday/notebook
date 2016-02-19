@@ -2,31 +2,60 @@
 
 The default package manager for the JavaScript runtime environment Node.js.
 
-#### install npm's local dependencies
+---
+
+Table of Contents
+
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Basics](#basics)
+	- [Updating NPM](#updating-npm)
+	- [install npm's local dependencies](#install-npms-local-dependencies)
+	- [list outdated packages](#list-outdated-packages)
+	- [Update all global packages](#update-all-global-packages)
+	- [package version](#package-version)
+	- [list packages](#list-packages)
+- [Favorite Global Packages](#favorite-global-packages)
+	- [Install](#install)
+
+<!-- /TOC -->
+
+---
+
+## Basics
+
+### Updating NPM
+
+```sh
+npm install npm -g
+```
+
+
+### install npm's local dependencies
 
 ```sh
 npm i
 ```
 
-#### list outdated packages
+### list outdated packages
 
 ```sh
 npm outdated
 ```
 
-#### Update all global packages
+### Update all global packages
 
 ```sh
 npm update -g
 ```
 
-#### package version
+### package version
 
 ```sh
 npm view <package> version
 ```
 
-#### list packages
+### list packages
 
 ```sh
 npm ls
@@ -40,11 +69,13 @@ npm -g ls
 
 ```sh
 npm install -g \
-eslint \
 babel-eslint \
+eslint \
 eslint-config-airbnb \
+eslint-plugin-react \
+gitbook-cli \
 gitbook-plugin-collapsible-menu \
 lodash \
-eslint-plugin-react \
-gitbook-cli
+react \
+redux \
 ```
