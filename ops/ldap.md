@@ -32,6 +32,7 @@
 ## Why?
 
 * System administrators have embraced LDAP because it offers them a way to centralize and make available all sorts of infrastructure information.
+* Industry standard for directory access.
 
 ## Permissions
 
