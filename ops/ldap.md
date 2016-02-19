@@ -1,6 +1,5 @@
 # Lightweight Directory Access Protocol (LDAP)
 
-
 ## What is LDAP?
 
 * A directory service protocol.
