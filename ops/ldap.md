@@ -1,6 +1,6 @@
 # Lightweight Directory Access Protocol *(LDAP)*
 
-*From: [zytrax](http://www.zytrax.com/books/ldap/ch2/index.html#history)*
+*From: [Zytrax](http://www.zytrax.com/books/ldap/ch2/index.html#history)*
 > A protocol that defines the method by which directory data is accessed. Necessarily, it also defines and describes how data is represented in the directory service (the Data (Information) Model). Finally, it defines how data is loaded (imported) into and saved (exported) from a directory service (using LDIF). LDAP does not define how data is stored or manipulated. Data storage and access methods are automagical processes as far as the standard is concerned and are generally handled by back-end modules (typically using some form of transaction database) within any specific LDAP implementation.
 
 * A directory service protocol.
@@ -49,7 +49,7 @@ A way to describe the format and attributes of data in the server. For example: 
 
 #### Example
 
-*source: [O'Reilly: 10-Minute LDAP Tutorial][oreilly-tutorial]*
+*source: [O'Reilly: LDAP Tutorial][oreilly-tutorial]*
 
 ```sh
 residentialPerson
@@ -164,12 +164,12 @@ telephonenumber: +1 415 555 0002
 ## References
 
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
-* [O'Reilly: 10-Minute LDAP Tutorial][oreilly-tutorial]
+* [O'Reilly: LDAP Tutorial][oreilly-tutorial]
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 * [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 * [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
-* [zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
+* [Zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
 
 
 [oreilly-tutorial]: http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html
