@@ -84,6 +84,7 @@
     * [Gulp](ops/gulp.md)
     * [JWT](ops/jwt.md)
     * [LDAP](ops/ldap.md)
+    * [Nginx]()
     * [NPM](ops/npm.md)
     * [NVM](ops/nvm.md)
     * [Okta]()
