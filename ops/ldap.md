@@ -16,6 +16,7 @@
 
 - [Permissions](#permissions)
 - [Schema](#schema)
+	- [Example](#example)
 - [Setting up an LDAP Server](#setting-up-an-ldap-server)
 - [LDAP Data Interchange Format *(LDIF)*](#ldap-data-interchange-format-ldif)
 	- [Fields](#fields)
@@ -35,6 +36,19 @@ Set by the administrator to allow only certain people to access the LDAP databas
 
 A way to describe the format and attributes of data in the server. For example: a schema entered in an LDAP server might define a `groovyPerson` entry type, which has attributes of `instantMessageAddress`, and `coffeeRoastPreference`. The normal attributes of `name`, `email` `address`, etc., would be inherited from one of the standard schemas, which are rooted in X.500.
 
+### Example
+
+```sh
+residentialPerson
+   ( 2.5.6.10 NAME 'residentialPerson' SUP person STRUCTURAL MUST l
+     MAY ( businessCategory $ x121Address $ registeredAddress $
+     destinationIndicator $ preferredDeliveryMethod $ telexNumber $
+     teletexTerminalIdentifier $ telephoneNumber $
+     internationaliSDNNumber $
+     facsimileTelephoneNumber $ preferredDeliveryMethod $ street $
+     postOfficeBox $ postalCode $ postalAddress $
+     physicalDeliveryOfficeName $ st $ l ) )
+```
 
 ## Setting up an LDAP Server
 
