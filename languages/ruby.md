@@ -926,3 +926,9 @@ __END__
   ]
 }
 ```
+
+## References
+
+* [Ruby Docs: Array](http://ruby-doc.org/core/Array.html)
+* [Ruby Docs: Enumerable](http://ruby-doc.org/core/Enumerable.html)
+* [Ruby Docs: String](http://ruby-doc.org/core/String.html)
