@@ -39,13 +39,13 @@ A standard plain text data interchange format for representing LDAP directory CR
 
 ### Fields
 
-- `dn`: distinguished name
+- `dn`: **Distinguished Name**
     - This refers to the name that uniquely identifies an entry in the directory.
-- `dc`: domain component
+- `dc`: **Domain Component**
     - This refers to each component of the domain. For example `www.google.com` would be written as `DC=www,DC=google,DC=com`
-- `ou`: organizational unit
+- `ou`: **Organizational Unit**
     - This refers to the organizational unit (or sometimes the user group) that the user is part of. If the user is part of more than one group, you may specify as such, e.g., `OU= Lawyer,OU= Judge`.
-- `cn`: common name
+- `cn`: **Common Name**
     - This refers to the individual object (person's name; meeting room; recipe name; job title; etc.) for whom/which you are querying.
 
 
