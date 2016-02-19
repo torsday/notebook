@@ -1,5 +1,10 @@
 # Lightweight Directory Access Protocol *(LDAP)*
 
+* A directory service protocol.
+* Runs on a layer above the TCP/IP stack.
+* Provides a mechanism for CRUD operations on internet directories.
+* Based on a client-server model.
+
 ---
 
 Table of Contents
@@ -18,13 +23,6 @@ Table of Contents
 <!-- /TOC -->
 
 ---
-
-## What is LDAP?
-
-* A directory service protocol.
-* Runs on a layer above the TCP/IP stack.
-* Provides a mechanism for CRUD operations on internet directories.
-* Based on a client-server model.
 
 ## Permissions
 
