@@ -14,6 +14,7 @@
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [Why?](#why)
 - [Permissions](#permissions)
 - [Schema](#schema)
 	- [Example](#example)
@@ -27,6 +28,10 @@
 <!-- /TOC -->
 
 ---
+
+## Why?
+
+* System administrators have embraced LDAP because it offers them a way to centralize and make available all sorts of infrastructure information.
 
 ## Permissions
 
