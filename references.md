@@ -29,7 +29,9 @@
 
 ## Docs
 
+* [Rails Guides](http://guides.rubyonrails.org/)
 * [Redux Docs](http://rackt.org/redux/docs/introduction/index.html)
+* [Ruby Docs](http://ruby-doc.org/)
 
 
 ## Tools
