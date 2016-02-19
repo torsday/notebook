@@ -156,6 +156,10 @@ A set of methods that are not inherited, but composed into classes.
 
 The ability of a program to examine the type or properties of an object at runtime.
 
+## UUID
+
+A universally unique identifier (UUID) is an identifier standard used in software construction. A UUID is simply a 128-bit value.
+
 # X.500
 
 A complex enterprise directory system.
