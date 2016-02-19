@@ -109,6 +109,8 @@
     * [Linux](tools/linux.md)
     * [PSR Fixer](tools/psr-fixer.md)
     * [Vim](tools/vim.md)
+* [Education](education/README.md)
+* [Exercism](education/exercism.md)
 * [Lifestyle](lifestyle/README.md)
     * [Books](lifestyle/books.md)
     * [Buddhism](lifestyle/buddhism.md)
