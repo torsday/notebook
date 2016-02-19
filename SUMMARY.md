@@ -103,7 +103,6 @@
     * [Linux](tools/linux.md)
     * [PSR Fixer](tools/psr-fixer.md)
     * [Vim](tools/vim.md)
-* [Front-End Interview Questions](front-end_interview_questions.md)
 * [Lifestyle](lifestyle/README.md)
     * [Books](lifestyle/books.md)
     * [Buddhism](lifestyle/buddhism.md)
