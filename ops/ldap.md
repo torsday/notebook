@@ -108,7 +108,7 @@ telephonenumber: +1 415 555 0002
 
 ## See Also
 
-* [self: directory](../databases/README.md#Directory-vs-Database)
+* [self: directory](../persistence/README.md#Directory-vs-Database)
 
 
 ## References
