@@ -1,4 +1,4 @@
-# Lightweight Directory Access Protocol (LDAP)
+# Lightweight Directory Access Protocol *(LDAP)*
 
 ## What is LDAP?
 
@@ -29,7 +29,7 @@ A way to describe the format and attributes of data in the server. For example: 
 ## Setting up an LDAP Server
 
 
-## LDAP Data Interchange Format (LDIF)
+## LDAP Data Interchange Format *(LDIF)*
 
 A standard plain text data interchange format for representing LDAP directory CRUD requests.
 
