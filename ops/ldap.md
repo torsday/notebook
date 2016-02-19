@@ -88,10 +88,21 @@ extensionAttribute6: JSmith14
 -
 ```
 
+*Note: the "-" character between each attribute change is required. Also note that each directory entry ends with a "-" followed by a blank line. The final "-" is required.*
+
+An LDIF file that adds a telephone number to an existing user
+
+```sh
+dn: cn=Peter Michaels, ou=Artists, l=San Francisco, c=US
+changetype: modify
+add: telephonenumber
+telephonenumber: +1 415 555 0002
+```
 
 ## References
 
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
+* [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 * [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
