@@ -115,6 +115,7 @@ telephonenumber: +1 415 555 0002
 
 ## References
 
+* [zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
