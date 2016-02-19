@@ -132,9 +132,10 @@ telephonenumber: +1 415 555 0002
 
 ## References
 
-* [zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
+* [O'Reilly: 10-Minute LDAP Tutorial](http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html)
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 * [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 * [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
+* [zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
