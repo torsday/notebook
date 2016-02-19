@@ -87,7 +87,10 @@ extensionAttribute6: JSmith14
 -
 ```
 
-*Note: the "-" character between each attribute change is required. Also note that each directory entry ends with a "-" followed by a blank line. The final "-" is required.*
+Note:
+- the `-` character between each attribute change is required.
+- each directory entry ends with a `-` followed by a blank line.
+- The final `-` is required.
 
 Add a telephone number to an existing user.
 
