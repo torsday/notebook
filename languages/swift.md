@@ -7,6 +7,8 @@
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Basics](#basics)
+	- [Declaration](#declaration)
+	- [Type Inference](#type-inference)
 	- [Data Types](#data-types)
 - [Topics](#topics)
 	- [Strong vs. Weak Reference](#strong-vs-weak-reference)
@@ -20,6 +22,8 @@
 
 ## Basics
 
+### Declaration
+
 Use `let` to make a constant and `var` to make a variable.
 
 ```swift
@@ -27,6 +31,9 @@ var myVariable = 42
 myVariable     = 50
 let myConstant = 42
 ```
+
+
+### Type Inference
 
 implicit and explicit
 
