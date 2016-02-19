@@ -51,7 +51,7 @@ A standard plain text data interchange format for representing LDAP directory CR
 
 ### Examples
 
-Simple directory entry with several attributes, represented as a record
+Directory entry with several attributes, represented as a record.
 
 ```sh
 dn: cn=The Postmaster,dc=example,dc=com
@@ -59,7 +59,7 @@ objectClass: organizationalRole
 cn: The Postmaster
 ```
 
-An LDIF record that modifies multiple single-valued attributes for two different directory entries
+Modify multiple single-valued attributes for two different directory entries.
 
 ```sh
 dn: CN=John Smith,OU=Legal,DC=example,DC=com
@@ -89,7 +89,7 @@ extensionAttribute6: JSmith14
 
 *Note: the "-" character between each attribute change is required. Also note that each directory entry ends with a "-" followed by a blank line. The final "-" is required.*
 
-An LDIF file that adds a telephone number to an existing user
+Add a telephone number to an existing user.
 
 ```sh
 dn: cn=Peter Michaels, ou=Artists, l=San Francisco, c=US
