@@ -34,7 +34,8 @@ A way to describe the format and attributes of data in the server. For example: 
 *From: [Wikipedia](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)*
 > A standard plain text data interchange format for representing LDAP directory content and update requests.
 
-> LDIF conveys directory content as a set of records, one record for each object (or entry). It also represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
+> 1. Conveys directory content as a set of records, one record for each object (or entry).
+> 1. Represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
 
 ## References
 
