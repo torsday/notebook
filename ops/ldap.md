@@ -13,6 +13,8 @@
 
 <!-- /TOC -->
 
+---
+
 ## What is LDAP?
 
 * A directory service protocol.
