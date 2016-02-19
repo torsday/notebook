@@ -10,6 +10,7 @@
 - [Topics](#topics)
 	- [Strong vs. Weak Reference](#strong-vs-weak-reference)
 	- [Struc vs. Class](#struc-vs-class)
+- [References](#references)
 
 <!-- /TOC -->
 
