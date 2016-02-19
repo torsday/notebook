@@ -72,3 +72,4 @@ let explicitDouble: Double = 70
 ## References
 
 * [iOS Dev Lib: A Swift Tour](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html)
+* [Tutorials Point: Swift](http://www.tutorialspoint.com/swift/)
