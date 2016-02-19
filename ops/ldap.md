@@ -15,9 +15,10 @@
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Why?](#why)
-- [Permissions](#permissions)
-- [Schema](#schema)
-	- [Example](#example)
+- [Basics](#basics)
+	- [Permissions](#permissions)
+	- [Schema](#schema)
+		- [Example](#example)
 - [Setting up an LDAP Server](#setting-up-an-ldap-server)
 - [LDAP Data Interchange Format *(LDIF)*](#ldap-data-interchange-format-ldif)
 	- [Fields](#fields)
@@ -34,15 +35,19 @@
 * System administrators have embraced LDAP because it offers them a way to centralize and make available all sorts of infrastructure information.
 * Industry standard for directory access.
 
-## Permissions
+## Basics
+
+* Connecting with authentication is the usual first step in any LDAP client/server transaction. In LDAP-speak this is known as “binding to the server.”
+
+### Permissions
 
 Set by the administrator to allow only certain people to access the LDAP database, and optionally keep certain data private.
 
-## Schema
+### Schema
 
 A way to describe the format and attributes of data in the server. For example: a schema entered in an LDAP server might define a `groovyPerson` entry type, which has attributes of `instantMessageAddress`, and `coffeeRoastPreference`. The normal attributes of `name`, `email` `address`, etc., would be inherited from one of the standard schemas, which are rooted in X.500.
 
-### Example
+#### Example
 
 *source: [O'Reilly: 10-Minute LDAP Tutorial][oreilly-tutorial]*
 
