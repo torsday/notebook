@@ -120,6 +120,10 @@ A defined language machines talk in. Doesn't matter how their brains created or 
 
 Accessible everywhere.
 
+## RDN
+
+Relative Distinguished Name.
+
 ## Redux
 
 Redux is a predictable state container for JavaScript apps.
