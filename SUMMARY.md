@@ -81,6 +81,7 @@
     * [LDAP](ops/ldap.md)
     * [NPM](ops/npm.md)
     * [NVM](ops/nvm.md)
+    * [Okta]()
     * [Phing](ops/phing.md)
     * [SAML]()
     * [Vagrant]()
