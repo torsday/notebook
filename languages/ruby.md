@@ -2,6 +2,7 @@
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+- [Good to Know](#good-to-know)
 - [String Methods](#string-methods)
 - [Number Methods](#number-methods)
 - [Misc](#misc)
@@ -29,6 +30,7 @@
 - [Lamdas](#lamdas)
 - [Scope Prefixes](#scope-prefixes)
 - [Classes](#classes)
+	- [calling a parent method in ruby:](#calling-a-parent-method-in-ruby)
 - [Modules](#modules)
 - [Getting all but the first element from Ruby array](#getting-all-but-the-first-element-from-ruby-array)
 	- [Shift](#shift)
@@ -46,6 +48,7 @@
 - [Regex Literals and URLs](#regex-literals-and-urls)
 - [Spliting a string into a maximum number of segments](#spliting-a-string-into-a-maximum-number-of-segments)
 - [The `DATA` constant](#the-data-constant)
+- [References](#references)
 
 <!-- /TOC -->
 
