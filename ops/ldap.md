@@ -50,6 +50,23 @@ residentialPerson
      physicalDeliveryOfficeName $ st $ l ) )
 ```
 
+This definition says that an entry of object class `residentialPerson` must have a `l` attribute (short for locality) and may have a whole other set of attributes (`registeredAddress`, `postOfficeBox`, etc.). The key part of the specification is the `SUP` person string. It says that the superior class (the one from which `residentialPerson` inherits its attributes) is the `person` object class. That class’s definition looks like this:
+
+```sh
+person
+   ( 2.5.6.6 NAME 'person' SUP top STRUCTURAL MUST ( sn $ cn )
+     MAY ( userPassword $ telephoneNumber $ seeAlso $ description ) )
+```
+
+So, an entry with object class of `residentialPerson` must have `sn` (surname), `cn` (common name), and `l` (locality) attributes and may have the other attributes listed in the `MAY` sections of these two RFC excerpts. We also know that person is the top of the object hierarchy for `residentialPerson`, since its superior class is the special abstract class top.
+
+In most cases, you can get away with using the predefined standard object classes. If you need to construct entries with attributes not found in an existing object class, it is usually good form to locate the closest existing object class and build upon it, like `residentialPerson` builds upon person.
+
+
+
+
+
+
 ## Setting up an LDAP Server
 
 
