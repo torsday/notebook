@@ -84,6 +84,10 @@ A design pattern commonly used in computer programming to defer initialization o
 
 A directory service protocol that runs on a layer above the TCP/IP stack. It provides a mechanism used to connect to, search, and modify Internet directories. The LDAP directory service is based on a client-server model.
 
+## LDIF
+
+A standard plain text data interchange format for representing LDAP directory content and update requests.
+
 ## Ncurses
 
 A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.
