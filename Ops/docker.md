@@ -145,13 +145,10 @@ docker attach [container id]
 To 'detach' the current container, type ^+P followed by ^+Q
 
 
-## Useful Resources
+## References
 
-* "Intro to Docker" - quick slideshow w/simple deployment example
-http://jdlm.info/ds-docker-demo/#15
-* "How To Install and Use Docker: Getting Started"
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started
-* "Docker Explained: How To Containerize and Use Nginx as a Proxy"
-https://www.digitalocean.com/community/tutorials/docker-explained-how-to-containerize-and-use-nginx-as-a-proxy
-* "Deploy Rails Application using Docker"
-http://steveltn.me/blog/2014/03/15/deploy-rails-applications-using-docker/
+* [Deploy Rails Application using Docker](http://steveltn.me/blog/2014/03/15/deploy-rails-applications-using-docker/)
+* [Docker Explained: How To Containerize and Use Nginx as a Proxy](https://www.digitalocean.com/community/tutorials/docker-explained-how-to-containerize-and-use-nginx-as-a-proxy)
+* [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
+* [hub.docker.com](https://hub.docker.com/)
+* [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)
