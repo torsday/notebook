@@ -1,6 +1,10 @@
 # [PHP the Right Way](https://github.com/codeguy/php-the-right-way)
 
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+---
+
+**Table of Contents**
+
+<!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Getting Started](#getting-started)
 	- [Use the Current Stable Version (7.0)](#use-the-current-stable-version-70)
@@ -148,9 +152,12 @@
 
 <!-- /TOC -->
 
+
+
+---
+
+
 ## Getting Started
-
-
 
 
 ### Use the Current Stable Version (7.0)
@@ -197,36 +204,6 @@ There are multiple ways to install PHP on OS X.
 At this point, you can install `php53`, `php54`, `php55`, `php56` or `php70` using the `brew install` command, and switch
 between them by modifying your `PATH` variable. Alternatively you can use [brew-php-switcher][brew-php-switcher] which will switch automatically for you.
 
-#### Install PHP via Macports
-
-The [MacPorts] Project is an open-source community initiative to design an
-easy-to-use system for compiling, installing, and upgrading either
-command-line, X11 or Aqua based open-source software on the OS X operating
-system.
-
-MacPorts supports pre-compiled binaries, so you don't need to recompile every
-dependencies from the source tarball files, it saves your life if you don't
-have any package installed on your system.
-
-At this point, you can install `php54`, `php55`, `php56` or `php70` using the `port install` command, for example:
-
-    sudo port install php56
-    sudo port install php70
-
-And you can run `select` command to switch your active php:
-
-    sudo port select --set php php70
-
-#### Install PHP via phpbrew
-
-[phpbrew] is a tool for installing and managing multiple PHP versions. This can be really useful if two different
-applications/projects require different versions of PHP, and you are not using virtual machines.
-
-#### Install PHP via Liip's binary installer
-
-Another popular option is [php-osx.liip.ch] which provides one liner installation methods for versions 5.3 through 7.0.
-It doesn't overwrite the php binaries installed by Apple, but installs everything in a separate location (/usr/local/php5).
-
 #### Compile from Source
 
 Another option that gives you control over the version of PHP you install, is to [compile it yourself][mac-compile].
@@ -251,34 +228,6 @@ you and tie them all together, but ease of setup comes with a trade-off of flexi
 [mamp-downloads]: http://www.mamp.info/en/downloads/
 [xampp]: http://www.apachefriends.org/en/xampp.html
 [brew-php-switcher]: https://github.com/philcook/brew-php-switcher
-
-
-
-### Windows Setup
-
-You can download the binaries from [windows.php.net/download][php-downloads]. After the extraction of PHP, it is recommended to set the [PATH][windows-path] to the root of your PHP folder (where php.exe is located) so you can execute PHP from anywhere.
-
-For learning and local development you can use the built in webserver with PHP 5.4+ so you don't need to worry about
-configuring it. If you would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such
-as the [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp] and [WAMP][wamp] will
-help get a Windows development environment up and running fast. That said, these tools will be a little different from
-production so be careful of environment differences if you are working on Windows and deploying to Linux.
-
-If you need to run your production system on Windows then IIS7 will give you the most stable and best performance. You
-can use [phpmanager][phpmanager] (a GUI plugin for IIS7) to make configuring and managing PHP simple. IIS7 comes with
-FastCGI built in and ready to go, you just need to configure PHP as a handler. For support and additional resources
-there is a [dedicated area on iis.net][php-iis] for PHP.
-
-
-[php-downloads]: http://windows.php.net/download/
-[windows-path]: http://www.windows-commandline.com/set-path-command-line/
-[wpi]: http://www.microsoft.com/web/downloads/platform.aspx
-[xampp]: http://www.apachefriends.org/en/xampp.html
-[easyphp]: http://www.easyphp.org/
-[wamp]: http://www.wampserver.com/en/
-[phpmanager]: http://phpmanager.codeplex.com/
-[php-iis]: http://php.iis.net/
-
 
 
 ## Code Style Guide
