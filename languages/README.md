@@ -12,7 +12,9 @@
 		- [Functional](#functional)
 	- [Structured (contrast: non-structured)](#structured-contrast-non-structured)
 		- [Object-oriented](#object-oriented)
+		- [Examples](#examples)
 	- [Dynamic](#dynamic)
+		- [Examples](#examples)
 	- [Metaprogramming](#metaprogramming)
 	- [Language-oriented](#language-oriented)
 		- [Domain-specific (DSL)](#domain-specific-dsl)
@@ -41,6 +43,9 @@ Many programming paradigms are as well known for what techniques they forbid as 
 
 ### Declarative (contrast: imperative)
 
+*From: [Wikipedia](https://en.wikipedia.org/wiki/Declarative_programming)*
+> A style of building the structure and elements of computer programs—that expresses the logic of a computation without describing its control flow.
+
 #### Functional
 
 * Scala
@@ -48,7 +53,12 @@ Many programming paradigms are as well known for what techniques they forbid as 
 
 ### Structured (contrast: non-structured)
 
+*From: [Wikipedia](https://en.wikipedia.org/wiki/Structured_programming)*
+> Aimed at improving the clarity, quality, and development time of a computer program by making extensive use of subroutines, block structures, for and while loops—in contrast to using simple tests and jumps such as the goto statement which could lead to "spaghetti code" which is difficult both to follow and to maintain.
+
 #### Object-oriented
+
+#### Examples
 
 * C++
 * Java
@@ -58,6 +68,8 @@ Many programming paradigms are as well known for what techniques they forbid as 
 
 *From: [Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming_language)*
 > a class of high-level programming languages which, at runtime, execute many common programming behaviors that static programming languages perform during compilation.
+
+#### Examples
 
 * Clojure
 * JavaScript
