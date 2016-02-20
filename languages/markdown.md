@@ -1,7 +1,7 @@
 # Markdown
 
 
-## links
+## Links
 
 ```markdown
 [Title](URL)
