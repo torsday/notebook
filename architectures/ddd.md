@@ -1,5 +1,12 @@
 # Domain Driven Design
 
+*From: [bob]()*
+> Domain Driven Design (DDD) places development focus primarily on the unique *business rules* which an application unique. This means codifying business rules in Domain Entities, Value Objects and Services, in a layer that is separate from other focuses such as infrastructure and persistence requirements. The structure of the Reach PHP package can serve as a good example of how to organize your code.
+
+---
+
+**Table of Contents**
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Architecture](#architecture)
@@ -81,7 +88,9 @@ CptTblEmailHistoryRepositoryTest
 * [Service Provider](service-providers.md) (that plugs into CPT)
     ```bash
 CptAppServiceProvider
-## or
+	```
+	or
+	```sh
 CptEmailHistoryServiceProvider
     register()
     ```
