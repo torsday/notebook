@@ -10,6 +10,7 @@
 	- [Declaration](#declaration)
 	- [Type Inference](#type-inference)
 	- [Data Types](#data-types)
+	- [Conditionals](#conditionals)
 - [Topics](#topics)
 	- [Strong vs. Weak Reference](#strong-vs-weak-reference)
 	- [Struc vs. Class](#struc-vs-class)
@@ -56,6 +57,29 @@ let explicitDouble: Double = 70
 * `Character`
 * `Optional`
 	* Can hold either a value or no value.
+
+
+### Conditionals
+
+```swift
+if onSaleInferred {
+  print("\(nameInferred) on sale for \(priceInferred)!")
+} else {
+  print("\(nameInferred) at regular price: \(priceInferred)!")
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
