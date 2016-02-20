@@ -1,5 +1,21 @@
 # Scala
 
+---
+
+**Table of Contents**
+
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Variables](#variables)
+- [Functions](#functions)
+- [Packages](#packages)
+- [Data Structures](#data-structures)
+
+<!-- /TOC -->
+
+---
+
+
 ```scala
 object HelloWorld {
   /** 'main' is your entry point into your program.
