@@ -52,7 +52,7 @@
     * [Objective-C](languages/objective-c.md)
     * [PHP the Right Way](languages/php-the-right-way.md)
     * [PHP](languages/php.md)
-    * [Rails](languages/rails.md
+    * [Rails](languages/rails.md)
     * [React](languages/react.md)
     * [Ruby](languages/ruby.md)
     * [Scala](languages/scala.md)
