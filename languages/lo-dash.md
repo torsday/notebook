@@ -19,4 +19,10 @@ _.difference([3, 2, 1], [4, 2]); // → [3, 1]
 
 _.flatten(array) // Flattens array a single level deep
 _.flatten([1, [2, [3, [4]], 5]]); // → [1, 2, [3, [4]], 5]
+
+_.join(array, [separator=',']) // Converts all elements in array into a string separated by separator.
+_.join(['a', 'b', 'c'], '~'); // → 'a~b~c'
+
+_.last(array) // Gets the last element of array.
+
 ```
