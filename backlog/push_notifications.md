@@ -41,6 +41,27 @@ There are three actors involved with delivering a push notification, along with 
 * [Google Cloud Messaging: Overview](https://developers.google.com/cloud-messaging/gcm)
 * [Windows Push Notification Service](https://msdn.microsoft.com/en-us/library/windows/apps/mt187203.aspx)
 
+
+
+
+## APNS → App
+
+### iOS
+
+### Android
+
+*From: [StackOverflow](http://stackoverflow.com/questions/11508613/how-does-push-notification-technology-work-on-android)*
+> There is a TCP socket waiting in accept mode on a cloud Google server. The TCP connection had been initiated by the Goggle Play application. That's why Google Play must be installed on the device for making Google Cloud Messaging (GCM) (formerly Android Cloud to Device Messaging Service - C2DM) work.
+
+> When this TCP client socket receives some message, the message contains information such as the package name of the application it should be addressed to, and of course - the data itself. This data is parsed and packed into an intent that is broadcast and eventually received by the application.
+
+> The TCP socket stays open even when the device's radio state turns into "idle" mode. Applications don't have to be running to receive the intents.
+
+
+
+
+---
+
 ## References
 
 * [Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)
@@ -48,3 +69,4 @@ There are three actors involved with delivering a push notification, along with 
 * [Understanding Amazon Device Messaging](https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/01-understanding-adm)
 * [Urban Airship: Push Notifications Explained](https://www.urbanairship.com/push-notifications-explained)
 * [Windows Push Notification Services (WNS) overview](https://msdn.microsoft.com/en-us/library/windows/apps/mt187203.aspx)
+* [StackOverflow: How does push notification technology work on Android?](http://stackoverflow.com/questions/11508613/how-does-push-notification-technology-work-on-android)

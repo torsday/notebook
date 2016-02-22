@@ -172,6 +172,10 @@ The ability of a program to examine the type or properties of an object at runti
 
 A universally unique identifier (UUID) is an identifier standard used in software construction. A UUID is simply a 128-bit value.
 
+## WebSockets
+
+An advanced technology that makes it possible to open an interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+
 # X.500
 
 A complex enterprise directory system.
