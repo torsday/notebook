@@ -39,7 +39,7 @@
 
 * Connecting with authentication is the usual first step in any LDAP client/server transaction. In LDAP-speak this is known as “binding to the server.”
 
-*From: [Efytimes](http://opensourceforu.efytimes.com/2010/05/openldap-part-3-understanding-ldap-schema/)*
+*From: [Efytimes][efytimes_openldap_series]*
 > Each schema file can be understood to be analogous to a spreadsheet file. Each schema file defines certain `ObjectClasses` and attributes.
 
 > Continuing with our analogy, `ObjectClasses` can be considered to be similar to each sheet within a spreadsheet file. Attributes are then analogous to each column within a sheet. In other words, multiple attributes are grouped together in an `ObjectClass`. Multiple `ObjectClasses` can be grouped to form a record.
@@ -184,11 +184,12 @@ telephonenumber: +1 415 555 0002
 * [CentOS: LDIF Update Statements](https://www.centos.org/docs/5/html/CDS/ag/8.0/Creating_Directory_Entries-LDIF_Update_Statements.html)
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 * [O'Reilly: LDAP Tutorial][oreilly-tutorial]
+* [OpenLDAP Series][efytimes_openldap_series]
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
-* [OpenLDAP, Part 3: Understanding the LDAP Schema](http://opensourceforu.efytimes.com/2010/05/openldap-part-3-understanding-ldap-schema/)
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 * [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 * [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
 * [Zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
 
 [oreilly-tutorial]: http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html
+[efytimes_openldap_series]: http://opensourceforu.efytimes.com/tag/openldap-series/
