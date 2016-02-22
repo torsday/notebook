@@ -163,6 +163,7 @@ telephonenumber: +1 415 555 0002
 
 ## References
 
+* [CentOS: LDIF Update Statements](https://www.centos.org/docs/5/html/CDS/ag/8.0/Creating_Directory_Entries-LDIF_Update_Statements.html)
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 * [O'Reilly: LDAP Tutorial][oreilly-tutorial]
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
@@ -170,6 +171,5 @@ telephonenumber: +1 415 555 0002
 * [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 * [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
 * [Zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
-
 
 [oreilly-tutorial]: http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html
