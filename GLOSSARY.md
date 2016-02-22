@@ -175,3 +175,11 @@ A universally unique identifier (UUID) is an identifier standard used in softwar
 # X.500
 
 A complex enterprise directory system.
+
+## XML
+
+Extensible Markup Language.
+
+## XMPP
+
+Extensible Messaging & Presence Protocol.

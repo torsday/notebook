@@ -34,7 +34,17 @@ There are three actors involved with delivering a push notification, along with 
 
 ![Push Flowchart](http://cdn3.raywenderlich.com/wp-content/uploads/2011/05/Push-Overview.jpg)
 
+### OS Push Services
+
+* [Amazon Device Messaging](https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/01-understanding-adm)
+* [Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)
+* [Google Cloud Messaging: Overview](https://developers.google.com/cloud-messaging/gcm)
+* [Windows Push Notification Service](https://msdn.microsoft.com/en-us/library/windows/apps/mt187203.aspx)
 
 ## References
 
+* [Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)
+* [Google Cloud Messaging: Overview](https://developers.google.com/cloud-messaging/gcm)
+* [Understanding Amazon Device Messaging](https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/01-understanding-adm)
 * [Urban Airship: Push Notifications Explained](https://www.urbanairship.com/push-notifications-explained)
+* [Windows Push Notification Services (WNS) overview](https://msdn.microsoft.com/en-us/library/windows/apps/mt187203.aspx)
