@@ -39,9 +39,27 @@
 
 * Connecting with authentication is the usual first step in any LDAP client/server transaction. In LDAP-speak this is known as “binding to the server.”
 
+*From: [Efytimes](http://opensourceforu.efytimes.com/2010/05/openldap-part-3-understanding-ldap-schema/)*
+> Each schema file can be understood to be analogous to a spreadsheet file. Each schema file defines certain `ObjectClasses` and attributes.
+
+> Continuing with our analogy, `ObjectClasses` can be considered to be similar to each sheet within a spreadsheet file. Attributes are then analogous to each column within a sheet. In other words, multiple attributes are grouped together in an `ObjectClass`. Multiple `ObjectClasses` can be grouped to form a record.
+
+### Comparison to spreadsheets
+
+LDAP            | Spreadsheet
+----------------|-----------------
+schema file     | spreadsheet file
+`ObjectClasses` | each sheet
+attributes      | columns
+
 ### Permissions
 
 Set by the administrator to allow only certain people to access the LDAP database, and optionally keep certain data private.
+
+### `ObjectClasses`
+
+
+### Attributes
 
 ### Schema
 
@@ -167,6 +185,7 @@ telephonenumber: +1 415 555 0002
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 * [O'Reilly: LDAP Tutorial][oreilly-tutorial]
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
+* [OpenLDAP, Part 3: Understanding the LDAP Schema](http://opensourceforu.efytimes.com/2010/05/openldap-part-3-understanding-ldap-schema/)
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 * [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 * [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
