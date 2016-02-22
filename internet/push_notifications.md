@@ -1,5 +1,12 @@
 # Push Notifications
 
+*From: [Wikipedia](https://en.wikipedia.org/wiki/Push_technology)*
+> A style of Internet-based communication where the request for a given transaction is initiated by the publisher or central server. It is contrasted with pull/get, where the request for the transmission of information is initiated by the receiver or client.
+
+> Push services are often based on information preferences expressed in advance. This is called a [publish/subscribe model](../design/pub_sub.md). A client "subscribes" to various information "channels" provided by a server; whenever new content is available on one of those channels, the server pushes that information out to the client.
+
+> Push is sometimes emulated with a polling technique, particularly under circumstances where a real push is not possible, such as sites with security policies that require rejection of incoming HTTP/S requests.
+
 ---
 
 **Table of Contents**
