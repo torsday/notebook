@@ -96,6 +96,10 @@ A standard plain text data interchange format for representing LDAP directory CR
 
 A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.
 
+## OSPNS
+
+Operating System Push Notification Service.
+
 ## Postgres
 
 See: PostgreSQL.
