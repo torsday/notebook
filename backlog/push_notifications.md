@@ -8,6 +8,10 @@
 
 - [History](#history)
 - [How do push notifications work?](#how-do-push-notifications-work)
+	- [OS Push Services](#os-push-services)
+- [APNS → App](#apns-app)
+	- [iOS](#ios)
+	- [Android](#android)
 - [References](#references)
 
 <!-- /TOC -->
