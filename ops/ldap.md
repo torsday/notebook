@@ -35,22 +35,31 @@
 * System administrators have embraced LDAP because it offers them a way to centralize and make available all sorts of infrastructure information.
 * Industry standard for directory access.
 
+
+## Vocabulary
+
+Term                 | Definition
+---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Base , or zero level | indicates a search of the base object only.
+base `dn`            | is the point from where a server will search for users. So I would try to simply use admin as a login name. If openca behaves like most ldap aware applications, this is what is going to happen : An ldap search for the user admin will be done by the server starting at the base `dn` ( `dc=example,dc=com` )
+filter               | allows certain entries in the subtree and excludes others.
+One level            | indicates a search of objects immediately subordinate to the base object, but does not include the base object itself.
+search base          | (the distinguished name of the search base object) defines the location in the directory from which the LDAP search begins.
+search scope         | defines how deep to search within the search base.
+selection            | indicates what attributes to return from objects that match the filter criteria.
+Subtree              | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.
+
+
 ## Basics
 
-* Connecting with authentication is the usual first step in any LDAP client/server transaction. In LDAP-speak this is known as “binding to the server.”
 
-*From: [Efytimes][efytimes_openldap_series]*
-> Each schema file can be understood to be analogous to a spreadsheet file. Each schema file defines certain `ObjectClasses` and attributes.
 
-> Continuing with our analogy, `ObjectClasses` can be considered to be similar to each sheet within a spreadsheet file. Attributes are then analogous to each column within a sheet. In other words, multiple attributes are grouped together in an `ObjectClass`. Multiple `ObjectClasses` can be grouped to form a record.
+### Binding
 
-### Comparison to spreadsheets
+Connecting with authentication is the usual first step in any LDAP client/server transaction. In LDAP-speak this is known as “binding to the server.”
 
-LDAP            | Spreadsheet
-----------------|-----------------
-schema file     | spreadsheet file
-`ObjectClasses` | each sheet
-attributes      | columns
+*From: [SuperUser](http://superuser.com/questions/592650/what-does-binding-to-a-ldap-server-mean)*
+> An LDAP client transmits a `BIND` request to a server in order to change the authorization state of the client connection. When a client first connects to an LDAP directory server, the server sets the authorization state of the connection to unauthenticated. When the server receives a `BIND` request, the server sets the authorization state of the connection to unauthenticated immediately. Should the `BIND` request be successful, the server **sets the authorization state of the connection to the state associated with the distinguished-name in the `BIND` request**. LDAPv3 allows a connection to change states any number of times, with the caveat that no requests be outstanding when the `BIND` request is received.
 
 ### Permissions
 
@@ -64,6 +73,20 @@ Set by the administrator to allow only certain people to access the LDAP databas
 ### Schema
 
 A way to describe the format and attributes of data in the server. For example: a schema entered in an LDAP server might define a `groovyPerson` entry type, which has attributes of `instantMessageAddress`, and `coffeeRoastPreference`. The normal attributes of `name`, `email` `address`, etc., would be inherited from one of the standard schemas, which are rooted in X.500.
+
+
+*From: [Efytimes][efytimes_openldap_series]*
+> Each schema file can be understood to be analogous to a spreadsheet file. Each schema file defines certain `ObjectClasses` and attributes.
+
+> Continuing with our analogy, `ObjectClasses` can be considered to be similar to each sheet within a spreadsheet file. Attributes are then analogous to each column within a sheet. In other words, multiple attributes are grouped together in an `ObjectClass`. Multiple `ObjectClasses` can be grouped to form a record.
+
+#### Comparison to spreadsheets
+
+LDAP            | Spreadsheet
+----------------|-----------------
+schema file     | spreadsheet file
+`ObjectClasses` | each sheet
+attributes      | columns
 
 #### Example
 
