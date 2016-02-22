@@ -32,6 +32,8 @@ There are three actors involved with delivering a push notification, along with 
 1. Client app. This is an OS-specific app, installed on a user's device. It receives incoming notifications.
 1. (Optional) SDK (OS client library Software Development Kit). This is code installed in an app that enables extended segmentation and analytics capabilities.
 
+![Push Flowchart](http://cdn3.raywenderlich.com/wp-content/uploads/2011/05/Push-Overview.jpg)
+
 
 ## References
 
