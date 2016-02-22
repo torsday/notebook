@@ -205,6 +205,7 @@ telephonenumber: +1 415 555 0002
 ## References
 
 * [CentOS: LDIF Update Statements](https://www.centos.org/docs/5/html/CDS/ag/8.0/Creating_Directory_Entries-LDIF_Update_Statements.html)
+* [LDAP Authentication Best Practices](http://web.archive.org/web/20130801091446/http://www.ldapguru.info/ldap/authentication-best-practices.html)
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 * [O'Reilly: LDAP Tutorial][oreilly-tutorial]
 * [OpenLDAP Series][efytimes_openldap_series]
