@@ -20,6 +20,15 @@ Pro & Con: Latest commit 0759f17  on Feb 3, 2013
 
 Pro: only dependency is PhpUnit
 
+### ldaptools/ldaptools
+
+[github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
+
+Pros:
+
+* popular (54 stars on github)
+* no issues
+* recent commits
 
 ---
 

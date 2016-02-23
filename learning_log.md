@@ -1,5 +1,6 @@
 # Learning Log
 
+- my focus has been on learning [LDAP](./internet/ldap.md) the past few days.
 
 - a gitbook plugin to handle checkmarks: [github.com/LingyuCoder/gitbook-plugin-todo](https://github.com/LingyuCoder/gitbook-plugin-todo)
 
