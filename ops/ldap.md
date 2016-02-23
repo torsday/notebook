@@ -54,17 +54,17 @@ Term | Definition
 Term                              | Definition
 ----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Attribute                         | The data in an entry is contained in attribute-value pairs. Each attribute has a name and belongs to (in contained in) one or more `objectClass`(es). Attributes may be categorised as either user (`userApplication`) or operational (`dSAOperation`).
-Base                              | The base/root/suffix entry describes the topmost entry in a DIT or naming-context. The Root DSE is the highest level in an LDAP enabled directory.
+Base                              | The base/root/suffix entry describes the topmost entry in a DIT or naming-context.
 bind                              | The first operation when connecting to an LDAP server; then authentication step.
 Common Name                       | `cn` (`commonName`). One of the most commonly used attributes, widely used as the attribute to name some "thing" or real-world entity.
-Distinguished Name (DN)           | An entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
 Directory Information Tree (DIT)  | The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.
+Distinguished Name (DN)           | An entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
 Domain Component                  | This refers to each component of the domain. For example `www.google.com` would be written as `DC=www,DC=google,DC=com`
-DSA                               | Directory System Agent. Any DAP or LDAP enabled directory service e.g. an LDAP server.
-DSE                               | DSA Specific Entry. A control entry in a local directory server.
+Directory System Agent (DSA)      | Any DAP or LDAP enabled directory service e.g. an LDAP server.
+DSA Specific Entry (DSE)          | A control entry in a local directory server.
 LDIF                              | LDAP Data Interchange Format. A plain text data interchange format for representing LDAP directory CRUD requests. *(see more below)*
 Object Classes                    | Collections of attributes. Each `objectClass` is uniquely identified by an OID
-Object IDentifier (OID)           | . A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition
+Object IDentifier (OID)           | A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition
 Organization Unit                 | a.k.a. user group. The group(s)/unit(s) that a user is part of e.g., `OU= Lawyer,OU= Judge`.
 Relative Distinguished Name (RDN) | Attributes *unique at their level in the hierarchy*. RDNs may be multi-valued, combining two or more attributes using `+` e.g. cn+uid.
 search base                       | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.
