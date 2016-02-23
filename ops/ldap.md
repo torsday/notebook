@@ -12,6 +12,41 @@
 
 **Table of Contents**
 
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Why?](#why)
+- [Vocabulary](#vocabulary)
+	- [Fields](#fields)
+	- [General](#general)
+- [Overview](#overview)
+	- [Timeline](#timeline)
+		- [The client may request the following operations:](#the-client-may-request-the-following-operations)
+	- [Directory Structure](#directory-structure)
+		- [Example of an entry when represented using LDIF](#example-of-an-entry-when-represented-using-ldif)
+- [Operations](#operations)
+	- [Add](#add)
+	- [Bind (authenticate)](#bind-authenticate)
+	- [Delete](#delete)
+	- [Search and Compare](#search-and-compare)
+	- [Modify](#modify)
+		- [Adding](#adding)
+		- [Modifying](#modifying)
+	- [Modify DN](#modify-dn)
+	- [Extended operations](#extended-operations)
+	- [StartTLS](#starttls)
+	- [Abandon](#abandon)
+- [Basics](#basics)
+	- [Binding](#binding)
+	- [Schema](#schema)
+		- [Comparison to spreadsheets](#comparison-to-spreadsheets)
+		- [Example](#example)
+- [Setting up an LDAP Server](#setting-up-an-ldap-server)
+- [LDAP Data Interchange Format *(LDIF)*](#ldap-data-interchange-format-ldif)
+	- [Examples](#examples)
+- [See Also](#see-also)
+- [References](#references)
+
+<!-- /TOC -->
 
 ---
 
