@@ -292,6 +292,21 @@ A standard plain text data interchange format for representing LDAP directory CR
 1. Represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
 
 
+## From the Command Line
+
+### `ldapadd`
+
+*[Man Page](http://linux.die.net/man/1/ldapadd)*
+
+### `ldapmodify`
+
+*[Man Page](http://linux.die.net/man/1/ldapmodify)*
+
+### `ldapsearch`
+
+*[Man Page](http://linux.die.net/man/1/ldapsearch)*
+
+
 
 ## Examples
 
@@ -451,6 +466,7 @@ if ($ds) {
 
 * [CentOS: LDIF Update Statements](https://www.centos.org/docs/5/html/CDS/ag/8.0/Creating_Directory_Entries-LDIF_Update_Statements.html)
 * [LDAP Authentication Best Practices](http://web.archive.org/web/20130801091446/http://www.ldapguru.info/ldap/authentication-best-practices.html)
+* [Linux.com: Managing LDAP from the Command Line on Linux](http://www.linux.com/learn/tutorials/376144-manage-ldap-from-the-command-line)
 * [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 * [O'Reilly: LDAP Tutorial][oreilly-tutorial]
 * [OpenLDAP Series][efytimes_openldap_series]
@@ -463,6 +479,10 @@ if ($ds) {
 * [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
 * [Zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
 * [Zytrax: LDAP Glossary](http://www.zytrax.com/books/ldap/apd/index.html)
+
+
+
+
 
 [oreilly-tutorial]: http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html
 [efytimes_openldap_series]: http://opensourceforu.efytimes.com/tag/openldap-series/

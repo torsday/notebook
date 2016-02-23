@@ -16,9 +16,9 @@
 
 [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
 
-Pro & Con
+Pro & Con: Latest commit 0759f17  on Feb 3, 2013
 
-> Latest commit 0759f17  on Feb 3, 2013
+Pro: only dependency is PhpUnit
 
 
 ---
