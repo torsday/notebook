@@ -1,5 +1,17 @@
 # Feedback
 
+---
+
+## Big Ideas
+
+* See them first
+* Focus on the bright spots
+* Share the same language: SBI
+* Work the gap
+* *"Shrink the Change"*
+
+---
+
 ## SBI *(Situation, Behavior, Impact)*
 
 ### Situation
@@ -25,5 +37,3 @@
 ---
 
 Traits vs. Behaviors
-
-Shrink the Change
