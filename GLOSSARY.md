@@ -4,6 +4,10 @@
 
 A software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.
 
+## Binary Protocol
+
+A protocol which is intended or expected to be read by a machine rather than a human being, as opposed to a plain text protocol such as IRC, SMTP, or HTTP. Binary protocols have the advantage of terseness, which translates into speed of transmission and interpretation.
+
 ## Blocks
 
 In Ruby, blocks are closures (anonymous functions) that can be passed to many methods.

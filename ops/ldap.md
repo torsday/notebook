@@ -3,8 +3,8 @@
 *From: [Zytrax](http://www.zytrax.com/books/ldap/ch2/index.html#history)*
 > A protocol that defines the method by which directory data is accessed. Necessarily, it also defines and describes how data is represented in the directory service (the Data (Information) Model). Finally, it defines how data is loaded (imported) into and saved (exported) from a directory service (using LDIF). LDAP does not define how data is stored or manipulated. Data storage and access methods are automagical processes as far as the standard is concerned and are generally handled by back-end modules (typically using some form of transaction database) within any specific LDAP implementation.
 
-* A directory service protocol.
-* Runs on a layer above the TCP/IP stack. *(port 389 for non-ssl, 636 for SSL)*
+* A directory service protocol and binary protocol.
+* Runs on a layer above the TCP/IP stack. *(port 389 for non-ssl, 636 for SSL via an SSL-Tunnel)*
 * Provides a mechanism for CRUD operations on internet directories.
 * Based on a client-server model.
 
@@ -12,21 +12,6 @@
 
 **Table of Contents**
 
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Why?](#why)
-- [Basics](#basics)
-	- [Permissions](#permissions)
-	- [Schema](#schema)
-		- [Example](#example)
-- [Setting up an LDAP Server](#setting-up-an-ldap-server)
-- [LDAP Data Interchange Format *(LDIF)*](#ldap-data-interchange-format-ldif)
-	- [Fields](#fields)
-	- [Examples](#examples)
-- [See Also](#see-also)
-- [References](#references)
-
-<!-- /TOC -->
 
 ---
 
@@ -72,6 +57,27 @@ search scope                      | defines how deep to search within the search
 selection                         | indicates what attributes to return from objects that match the filter criteria.
 Subtree                           | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.
 
+## Overview
+
+### Timeline
+
+1. A client starts an LDAP session by connecting to an LDAP server, called a Directory System Agent (DSA).
+1. The client then sends an operation request to the server, and the server sends responses in return.
+	* With some exceptions, the client does not need to wait for a response before sending the next request, and the server may send the responses in any order.
+
+#### The client may request the following operations:
+
+* StartTLS — use the LDAPv3 Transport Layer Security (TLS) extension for a secure connection
+* Bind — authenticate and specify LDAP protocol version
+* Search — search for and/or retrieve directory entries
+* Compare — test if a named entry contains a given attribute value
+* Add a new entry
+* Delete an entry
+* Modify an entry
+* Modify Distinguished Name (DN) — move or rename an entry
+* Abandon — abort a previous request
+* Extended Operation — generic operation used to define other operations
+* Unbind — close the connection (not the inverse of Bind)
 
 ## Basics
 
