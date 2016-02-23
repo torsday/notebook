@@ -4,7 +4,7 @@
 > A protocol that defines the method by which directory data is accessed. Necessarily, it also defines and describes how data is represented in the directory service (the Data (Information) Model). Finally, it defines how data is loaded (imported) into and saved (exported) from a directory service (using LDIF). LDAP does not define how data is stored or manipulated. Data storage and access methods are automagical processes as far as the standard is concerned and are generally handled by back-end modules (typically using some form of transaction database) within any specific LDAP implementation.
 
 * A directory service protocol.
-* Runs on a layer above the TCP/IP stack. *(connects to port 389 (ldap) for non-ssl access and 636 when using SSL (ldaps))*
+* Runs on a layer above the TCP/IP stack. *(port 389 for non-ssl, 636 for SSL)*
 * Provides a mechanism for CRUD operations on internet directories.
 * Based on a client-server model.
 
@@ -49,7 +49,7 @@ Term | Definition
 `ou` | *see Organization Unit.*
 `sn` | *see surname.*
 
-### General LDAP
+### General
 
 Term              | Definition
 ------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
