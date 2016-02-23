@@ -70,9 +70,7 @@ Set by the administrator to allow only certain people to access the LDAP databas
 
 *From: [ietf.org](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.4)*
 > An object class is "an identified family of objects (or conceivable
-   objects) that share certain characteristics" [X.501].
-
-> As defined in [X.501]:
+   objects) that share certain characteristics".
 
 > Object classes are used in the Directory for a number of purposes:
 
@@ -87,7 +85,7 @@ Set by the administrator to allow only certain people to access the LDAP databas
 > - identifying classes of entry that are to be associated with a particular policy by the appropriate administrative authority.
 
 
-> An object class (a subclass) may be derived from an object class (its direct superclass) which is itself derived from an even more generic object class.  For structural object classes, this process stops at the most generic object class, 'top' (defined in Section 2.4.1).  An ordered set of superclasses up to the most superior object class of an object class is its superclass chain.
+> An object class (a subclass) may be derived from an object class (its direct superclass) which is itself derived from an even more generic object class.  For structural object classes, this process stops at the most generic object class, 'top' (defined in [Section 2.4.1](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.4.1)).  An ordered set of superclasses up to the most superior object class of an object class is its superclass chain.
 
 
 
@@ -240,3 +238,4 @@ telephonenumber: +1 415 555 0002
 
 [oreilly-tutorial]: http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html
 [efytimes_openldap_series]: http://opensourceforu.efytimes.com/tag/openldap-series/
+[ietf_ldap_protocol]: http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512
