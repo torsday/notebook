@@ -66,7 +66,7 @@ LDIF              | LDAP Data Interchange Format. A plain text data interchange 
 Object Classes    | Collections of attributes. Each `objectClass` is uniquely identified by an OID
 OID               | Object IDentifier. A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition
 Organization Unit | a.k.a. user group. The group/unit that the user is part of. If the user is part of more than one group, you may specify as such, e.g., `OU= Lawyer,OU= Judge`.
-RDN               | Relative Distinguished Name (`rdn`).
+Relative Distinguished Name (RDN)               | The name given to an attribute(s) that is *unique at its level in the hierarchy*. RDNs may be single or multi-valued in which case two or more attributes are combined using '+' (plus) to create the RDN e.g. cn+uid. The term RDN is only meaningful when used as part of a DN to uniquely describe the attributes on the path UP the DIT from a selected entry (or search start location) to the directory root (or more correctly the Root DSE).
 search base       | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.
 search scope      | defines how deep to search within the search base.
 selection         | indicates what attributes to return from objects that match the filter criteria.
