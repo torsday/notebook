@@ -1,5 +1,12 @@
 # Learning Log
 
+
+- a gitbook plugin to handle checkmarks: [github.com/LingyuCoder/gitbook-plugin-todo](https://github.com/LingyuCoder/gitbook-plugin-todo)
+
+2016-02-23
+
+---
+
 - I have a love/hate relationship with Xdebug and PhpStorm. When it works, I love debugging.
 
 2016-02-18
