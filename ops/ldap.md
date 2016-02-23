@@ -59,7 +59,7 @@ bind              | When connection is made to an LDAP server the first operatio
 Common Name       | The individual object (person's name; meeting room; recipe name; job title; etc.) for whom/which you are querying.
 DIT               | Directory Information Tree. The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.
 Domain Component | This refers to each component of the domain. For example `www.google.com` would be written as `DC=www,DC=google,DC=com`
-DN                | Distinguished Name (`dn`), an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
+Distinguished Name (DN)                | Distinguished Name (`dn`), an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
 DSA               | Directory System Agent. Any DAP or LDAP enabled directory service e.g. an LDAP server.
 DSE               | DSA Specific Entry. A control entry in a local directory server.
 LDIF              | LDAP Data Interchange Format. A plain text data interchange format for representing LDAP directory CRUD requests. *(see more below)*
