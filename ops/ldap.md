@@ -58,6 +58,7 @@ Base              | The base entry (a.k.a root and suffix) is one of many terms 
 bind              | When connection is made to an LDAP server the first operation of the sequence is called a bind. The bind operation sends the `dn` of the entry that will be used for authentication and the password (usually contained in the `userPassword` attribute) to be used. In the case of an anonymous bind both values will be `NULL`. A Bind operation does not allow searching and therefore the DN used for authentication must be the same as the DN which initially created the entry.
 Common Name       | The individual object (person's name; meeting room; recipe name; job title; etc.) for whom/which you are querying.
 DIT               | Directory Information Tree. The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.
+Domain Component | This refers to each component of the domain. For example `www.google.com` would be written as `DC=www,DC=google,DC=com`
 DN                | Distinguished Name (`dn`), an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
 DSA               | Directory System Agent. Any DAP or LDAP enabled directory service e.g. an LDAP server.
 DSE               | DSA Specific Entry. A control entry in a local directory server.
@@ -143,18 +144,6 @@ A standard plain text data interchange format for representing LDAP directory CR
 1. Conveys directory content as a set of records, one record for each object (or entry).
 1. Represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
 
-
-### Fields
-
-- `dn`: **Distinguished Name**
-    - This refers to the name that uniquely identifies an entry in the directory.
-    - DNs have a “most specific component first” ordering, like postal addresses.
-- `dc`: **Domain Component**
-    - This refers to each component of the domain. For example `www.google.com` would be written as `DC=www,DC=google,DC=com`
-- `ou`: **Organizational Unit**
-    - This refers to the organizational unit (or sometimes the user group) that the user is part of. If the user is part of more than one group, you may specify as such, e.g., `OU= Lawyer,OU= Judge`.
-- `cn`: **Common Name**
-    - This refers to the individual object (person's name; meeting room; recipe name; job title; etc.) for whom/which you are querying.
 
 
 ### Examples
