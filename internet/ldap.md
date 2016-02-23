@@ -345,6 +345,103 @@ add: telephonenumber
 telephonenumber: +1 415 555 0002
 ```
 
+### Ruby
+
+[Ruby Docs: net/ldap][ruby_docs_net_ldap]
+
+#### User Auth
+```ruby
+require 'rubygems'
+require 'net/ldap'
+
+ldap = Net::LDAP.new
+ldap.host = your_server_ip_address
+ldap.port = 389
+ldap.auth "joe_user", "opensesame"
+if ldap.bind
+  # authentication succeeded
+else
+  # authentication failed
+end
+```
+
+#### Search
+
+```ruby
+require 'rubygems'
+require 'net/ldap'
+
+ldap = Net::LDAP.new :host => server_ip_address,
+     :port => 389,
+     :auth => {
+           :method => :simple,
+           :username => "cn=manager,dc=example,dc=com",
+           :password => "opensesame"
+     }
+
+filter = Net::LDAP::Filter.eq( "cn", "George*" )
+treebase = "dc=example,dc=com"
+
+ldap.search( :base => treebase, :filter => filter ) do |entry|
+  puts "DN: #{entry.dn}"
+  entry.each do |attribute, values|
+    puts "   #{attribute}:"
+    values.each do |value|
+      puts "      --->#{value}"
+    end
+  end
+end
+
+p ldap.get_operation_result
+```
+
+
+### PHP
+
+Baked-in PHP Functions ([php.net/manual/en/ref.ldap.php](http://php.net/manual/en/ref.ldap.php))
+
+```php
+<?php
+// basic sequence with LDAP is connect, bind, search, interpret search
+// result, close connection
+
+echo "<h3>LDAP query test</h3>";
+echo "Connecting ...";
+$ds=ldap_connect("localhost");  // must be a valid LDAP server!
+echo "connect result is " . $ds . "<br />";
+
+if ($ds) {
+    echo "Binding ...";
+    $r=ldap_bind($ds);     // this is an "anonymous" bind, typically
+                           // read-only access
+    echo "Bind result is " . $r . "<br />";
+
+    echo "Searching for (sn=S*) ...";
+    // Search surname entry
+    $sr=ldap_search($ds, "o=My Company, c=US", "sn=S*");
+    echo "Search result is " . $sr . "<br />";
+
+    echo "Number of entries returned is " . ldap_count_entries($ds, $sr) . "<br />";
+
+    echo "Getting entries ...<p>";
+    $info = ldap_get_entries($ds, $sr);
+    echo "Data for " . $info["count"] . " items returned:<p>";
+
+    for ($i=0; $i<$info["count"]; $i++) {
+        echo "dn is: " . $info[$i]["dn"] . "<br />";
+        echo "first cn entry is: " . $info[$i]["cn"][0] . "<br />";
+        echo "first email entry is: " . $info[$i]["mail"][0] . "<br /><hr />";
+    }
+
+    echo "Closing connection";
+    ldap_close($ds);
+
+} else {
+    echo "<h4>Unable to connect to LDAP server</h4>";
+}
+?>
+```
+
 ## See Also
 
 * [self: directory](../persistence/README.md#Directory-vs-Database)
@@ -359,7 +456,7 @@ telephonenumber: +1 415 555 0002
 * [OpenLDAP Series][efytimes_openldap_series]
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 * [PHP Docs: LDAP](http://php.net/manual/en/ref.ldap.php)
-* [RubyDocs: Net: LDAP](http://www.rubydoc.info/gems/ruby-net-ldap/Net/LDAP)
+* [RubyDocs: Net: LDAP][ruby_docs_net_ldap]
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 * [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 * [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
@@ -369,3 +466,4 @@ telephonenumber: +1 415 555 0002
 [oreilly-tutorial]: http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html
 [efytimes_openldap_series]: http://opensourceforu.efytimes.com/tag/openldap-series/
 [ietf_ldap_protocol]: http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512
+[ruby_docs_net_ldap]: http://www.rubydoc.info/gems/ruby-net-ldap/Net/LDAP
