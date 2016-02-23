@@ -33,6 +33,15 @@
 * Business Goals
 * Career Goals
 
+---
+
+## To Chew On
+
+* What behaviors are you reinforcing and modeling?
+* How will you model the behavior your are seeking for others?
+* We get the behavior we reinforce, not the behavior we want.
+
+
 
 ---
 
