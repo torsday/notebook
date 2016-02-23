@@ -52,7 +52,7 @@ Term | Definition
 ### General
 
 Term                              | Definition
-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Attribute                         | The data in an entry is contained in attribute-value pairs. Each attribute has a name and belongs to (in contained in) one or more `objectClass`(es). Attributes may be categorised as either user (`userApplication`) or operational (`dSAOperation`).
 Base                              | The base/root/suffix entry describes the topmost entry in a DIT or naming-context. The Root DSE is the highest level in an LDAP enabled directory.
 bind                              | The first operation when connecting to an LDAP server; then authentication step.
