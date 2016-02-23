@@ -126,6 +126,17 @@ LDAP rarely defines any ordering: The server may return the values of an attribu
 
 ### Add
 
+```sh
+dn: uid=user,ou=people,dc=example,dc=com
+changetype: add
+objectClass: top
+objectClass: person
+uid: user
+sn: last-name
+cn: common-name
+userPassword: password
+```
+
 
 ### Bind (authenticate)
 
@@ -138,6 +149,25 @@ LDAP rarely defines any ordering: The server may return the values of an attribu
 
 ### Modify
 
+#### Adding
+
+```sh
+dn: dc=example,dc=com
+changetype: modify
+add: cn
+cn: the-new-cn-value-to-be-added
+-
+```
+
+#### Modifying
+
+```sh
+dn: uid=user.0,ou=people,dc=example,dc=com
+changetype: modify
+increment: employeeNumber
+employeeNumber: 5
+-
+```
 
 ### Modify DN
 
