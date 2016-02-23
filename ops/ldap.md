@@ -32,7 +32,7 @@
 
 ## Why?
 
-* System administrators have embraced LDAP because it offers them a way to centralize and make available all sorts of infrastructure information.
+* Centralize and make available all sorts of infrastructure information.
 * Industry standard for directory access.
 
 
@@ -62,7 +62,6 @@ Domain Component | This refers to each component of the domain. For example `www
 DN                | Distinguished Name (`dn`), an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
 DSA               | Directory System Agent. Any DAP or LDAP enabled directory service e.g. an LDAP server.
 DSE               | DSA Specific Entry. A control entry in a local directory server.
-filter            | allows certain entries in the subtree and excludes others.
 LDIF              | LDAP Data Interchange Format. A plain text data interchange format for representing LDAP directory CRUD requests. *(see more below)*
 Object Classes    | Collections of attributes. Each `objectClass` is uniquely identified by an OID
 OID               | Object IDentifier. A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition
