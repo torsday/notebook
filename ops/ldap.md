@@ -40,16 +40,17 @@
 
 Term           | Definition
 ---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-`dn`           | Distinguished Name, an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
-`rdn`          | Relative Distinguished Name.
+Attribute | The data in an entry is contained in attribute-value pairs. Each attribute has a name and belongs to (in contained in) one or more `objectClass`(es). Attributes may be categorised as either user (`userApplication`) or operational (`dSAOperation`).
 Base           | The base entry (a.k.a root and suffix) is one of many terms commonly used to describe the topmost entry in a DIT or naming-context. The term base seems to be used because the search scope base in a LDAP URL or other search typically uses this value. The Root DSE is the highest level in an LDAP enabled directory.
-bind           | When connection is made to an LDAP server the first operation of the sequence is called a bind. The bind operation sends the `dn` of the entry that will be used for authentication and the password (usually contained in the userPassword attribute) to be used. In the case of an anonymous bind both values will be `NULL`. A Bind operation does not allow searching and therefore the DN used for authentication must be the same as the DN which initially created the entry.
+bind           | When connection is made to an LDAP server the first operation of the sequence is called a bind. The bind operation sends the `dn` of the entry that will be used for authentication and the password (usually contained in the `userPassword` attribute) to be used. In the case of an anonymous bind both values will be `NULL`. A Bind operation does not allow searching and therefore the DN used for authentication must be the same as the DN which initially created the entry.
 DIT            | Directory Information Tree. The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.
+DN           | Distinguished Name (`dn`), an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
 DSA            | Directory System Agent. Any DAP or LDAP enabled directory service e.g. an LDAP server.
 DSE            | DSA Specific Entry. A control entry in a local directory server.
 filter         | allows certain entries in the subtree and excludes others.
 Object Classes | Collections of attributes. Each `objectClass` is uniquely identified by an OID
 OID            | Object IDentifier. A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition
+RDN          | Relative Distinguished Name (`rdn`).
 search base    | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.
 search scope   | defines how deep to search within the search base.
 selection      | indicates what attributes to return from objects that match the filter criteria.
