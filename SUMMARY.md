@@ -121,6 +121,7 @@
     * [PSR Fixer](tools/psr-fixer.md)
     * [Vim](tools/vim.md)
 * [Education](education/README.md)
+    * [Feedback](education/feedback.md)
 * [Exercism](education/exercism.md)
 * [Lifestyle](lifestyle/README.md)
     * [Books](lifestyle/books.md)
