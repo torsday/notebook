@@ -22,5 +22,8 @@
 * Career Goals
 
 
+---
 
-### Traits vs. Behaviors
+Traits vs. Behaviors
+
+Shrink the Change
