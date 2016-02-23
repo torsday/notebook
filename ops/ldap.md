@@ -65,7 +65,7 @@ DSE                               | DSA Specific Entry. A control entry in a loc
 LDIF                              | LDAP Data Interchange Format. A plain text data interchange format for representing LDAP directory CRUD requests. *(see more below)*
 Object Classes                    | Collections of attributes. Each `objectClass` is uniquely identified by an OID
 OID                               | Object IDentifier. A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition
-Organization Unit                 | a.k.a. user group. The group(s)/unit(s) that a user is part of e.g., `ou= Lawyer,ou= Judge`.
+Organization Unit                 | a.k.a. user group. The group(s)/unit(s) that a user is part of e.g., `OU= Lawyer,OU= Judge`.
 Relative Distinguished Name (RDN) | The name given to an attribute(s) that is *unique at its level in the hierarchy*. RDNs may be single or multi-valued in which case two or more attributes are combined using '+' (plus) to create the RDN e.g. cn+uid. The term RDN is only meaningful when used as part of a DN to uniquely describe the attributes on the path UP the DIT from a selected entry (or search start location) to the directory root (or more correctly the Root DSE).
 search base                       | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.
 search scope                      | defines how deep to search within the search base.
