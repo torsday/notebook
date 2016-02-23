@@ -40,8 +40,7 @@
 
 Term                 | Definition
 ---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Base , or zero level | indicates a search of the base object only.
-base `dn`            | is the point from where a server will search for users. So I would try to simply use admin as a login name. If openca behaves like most ldap aware applications, this is what is going to happen : An ldap search for the user admin will be done by the server starting at the base `dn` ( `dc=example,dc=com` )
+base `dn`            | the point from where a server will search for users. e.g. An LDAP search for the user admin will be done by the server starting at the base `dn` ( `dc=example,dc=com` )
 filter               | allows certain entries in the subtree and excludes others.
 One level            | indicates a search of objects immediately subordinate to the base object, but does not include the base object itself.
 search base          | (the distinguished name of the search base object) defines the location in the directory from which the LDAP search begins.
@@ -73,13 +72,9 @@ An identified family of objects that share certain characteristics.
 Used in the Directory for a number of purposes:
 
 * describing and categorizing objects and the entries that correspond to these objects.
-
 * where appropriate, controlling the operation of the Directory.
-
 * regulating the position of entries in the DIT.
-
 * regulating the attributes that are contained in entries.
-
 * identifying classes of entry that are to be associated with a particular policy by the appropriate administrative authority.
 
 *From: [ietf.org](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.4)*
