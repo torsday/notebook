@@ -8,7 +8,7 @@
 * Focus on the bright spots
 * Share the same language: SBI
 * Work the gap
-* *"Shrink the Change"*
+* Shrink the Change
 
 ---
 
