@@ -1,6 +1,6 @@
 # Feedback
 
-## SBI (Situation, Behavior, Impact)
+## SBI *(Situation, Behavior, Impact)*
 
 ### Situation
 
@@ -20,3 +20,7 @@
 * Morale
 * Business Goals
 * Career Goals
+
+
+
+### Traits vs. Behaviors
