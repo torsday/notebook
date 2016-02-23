@@ -90,6 +90,7 @@
     * [Babel]()
     * [Composer](ops/composer.md)
     * [Docker](ops/docker.md)
+    * [Gearman](ops/gearman.md)
     * [Grunt]()
     * [Gulp](ops/gulp.md)
     * [JWT](ops/jwt.md)
