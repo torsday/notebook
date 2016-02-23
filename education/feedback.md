@@ -46,3 +46,14 @@
 ---
 
 Traits vs. Behaviors
+
+
+---
+
+
+## My Experience
+
+* Vulnerability. When giving feedback, approach from a place of vulnerability
+* Thank them when you receive it
+* Don't respond to feedback with feedback
+* If you can't find the flipside positive of a constructive criticism, pause before going forward, there may be a better place for you to come from within yourself before going to the other person.
