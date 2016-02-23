@@ -358,6 +358,7 @@ telephonenumber: +1 415 555 0002
 * [O'Reilly: LDAP Tutorial][oreilly-tutorial]
 * [OpenLDAP Series][efytimes_openldap_series]
 * [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
+* [PHP Docs: LDAP](http://php.net/manual/en/ref.ldap.php)
 * [RubyDocs: Net: LDAP](http://www.rubydoc.info/gems/ruby-net-ldap/Net/LDAP)
 * [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 * [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
