@@ -38,23 +38,39 @@
 
 ## Vocabulary
 
-Term           | Definition
----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Attribute | The data in an entry is contained in attribute-value pairs. Each attribute has a name and belongs to (in contained in) one or more `objectClass`(es). Attributes may be categorised as either user (`userApplication`) or operational (`dSAOperation`).
-Base           | The base entry (a.k.a root and suffix) is one of many terms commonly used to describe the topmost entry in a DIT or naming-context. The term base seems to be used because the search scope base in a LDAP URL or other search typically uses this value. The Root DSE is the highest level in an LDAP enabled directory.
-bind           | When connection is made to an LDAP server the first operation of the sequence is called a bind. The bind operation sends the `dn` of the entry that will be used for authentication and the password (usually contained in the `userPassword` attribute) to be used. In the case of an anonymous bind both values will be `NULL`. A Bind operation does not allow searching and therefore the DN used for authentication must be the same as the DN which initially created the entry.
-DIT            | Directory Information Tree. The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.
-DN           | Distinguished Name (`dn`), an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
-DSA            | Directory System Agent. Any DAP or LDAP enabled directory service e.g. an LDAP server.
-DSE            | DSA Specific Entry. A control entry in a local directory server.
-filter         | allows certain entries in the subtree and excludes others.
-Object Classes | Collections of attributes. Each `objectClass` is uniquely identified by an OID
-OID            | Object IDentifier. A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition
-RDN          | Relative Distinguished Name (`rdn`).
-search base    | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.
-search scope   | defines how deep to search within the search base.
-selection      | indicates what attributes to return from objects that match the filter criteria.
-Subtree        | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.
+### Fields
+
+Term | Definition
+-----|------------------------
+`cn` | see Common Name.
+`dc` | see Domain Component.
+`dn` | see Distinguished Name.
+`l`  | locality.
+`ou` | see Organization Unit.
+`sn` | surname.
+
+### General LDAP
+
+Term              | Definition
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Attribute         | The data in an entry is contained in attribute-value pairs. Each attribute has a name and belongs to (in contained in) one or more `objectClass`(es). Attributes may be categorised as either user (`userApplication`) or operational (`dSAOperation`).
+Base              | The base entry (a.k.a root and suffix) is one of many terms commonly used to describe the topmost entry in a DIT or naming-context. The term base seems to be used because the search scope base in a LDAP URL or other search typically uses this value. The Root DSE is the highest level in an LDAP enabled directory.
+bind              | When connection is made to an LDAP server the first operation of the sequence is called a bind. The bind operation sends the `dn` of the entry that will be used for authentication and the password (usually contained in the `userPassword` attribute) to be used. In the case of an anonymous bind both values will be `NULL`. A Bind operation does not allow searching and therefore the DN used for authentication must be the same as the DN which initially created the entry.
+Common Name       | The individual object (person's name; meeting room; recipe name; job title; etc.) for whom/which you are querying.
+DIT               | Directory Information Tree. The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.
+DN                | Distinguished Name (`dn`), an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
+DSA               | Directory System Agent. Any DAP or LDAP enabled directory service e.g. an LDAP server.
+DSE               | DSA Specific Entry. A control entry in a local directory server.
+filter            | allows certain entries in the subtree and excludes others.
+LDIF              | LDAP Data Interchange Format. A plain text data interchange format for representing LDAP directory CRUD requests. *(see more below)*
+Object Classes    | Collections of attributes. Each `objectClass` is uniquely identified by an OID
+OID               | Object IDentifier. A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition
+Organization Unit | a.k.a. user group. The group/unit that the user is part of. If the user is part of more than one group, you may specify as such, e.g., `OU= Lawyer,OU= Judge`.
+RDN               | Relative Distinguished Name (`rdn`).
+search base       | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.
+search scope      | defines how deep to search within the search base.
+selection         | indicates what attributes to return from objects that match the filter criteria.
+Subtree           | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.
 
 
 ## Basics
@@ -65,29 +81,6 @@ Connecting with authentication is the usual first step in any LDAP client/server
 
 *From: [SuperUser](http://superuser.com/questions/592650/what-does-binding-to-a-ldap-server-mean)*
 > An LDAP client transmits a `BIND` request to a server in order to change the authorization state of the client connection. When a client first connects to an LDAP directory server, the server sets the authorization state of the connection to unauthenticated. When the server receives a `BIND` request, the server sets the authorization state of the connection to unauthenticated immediately. Should the `BIND` request be successful, the server **sets the authorization state of the connection to the state associated with the distinguished-name in the `BIND` request**. LDAPv3 allows a connection to change states any number of times, with the caveat that no requests be outstanding when the `BIND` request is received.
-
-### Permissions
-
-Set by the administrator to allow only certain people to access the LDAP database, and optionally keep certain data private.
-
-### `ObjectClasses`
-
-An identified family of objects that share certain characteristics.
-
-Used in the Directory for a number of purposes:
-
-* describing and categorizing objects and the entries that correspond to these objects.
-* where appropriate, controlling the operation of the Directory.
-* regulating the position of entries in the DIT.
-* regulating the attributes that are contained in entries.
-* identifying classes of entry that are to be associated with a particular policy by the appropriate administrative authority.
-
-*From: [ietf.org](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.4)*
-> An object class (a subclass) may be derived from an object class (its direct superclass) which is itself derived from an even more generic object class.  For structural object classes, this process stops at the most generic object class, 'top' (defined in [Section 2.4.1](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.4.1)).  An ordered set of superclasses up to the most superior object class of an object class is its superclass chain.
-
-
-
-### Attributes
 
 ### Schema
 
