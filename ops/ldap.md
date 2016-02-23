@@ -41,13 +41,16 @@
 Term                 | Definition
 ---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 base `dn`            | the point from where a server will search for users. e.g. An LDAP search for the user admin will be done by the server starting at the base `dn` ( `dc=example,dc=com` )
+`dn` | Distinguished Name, an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
 filter               | allows certain entries in the subtree and excludes others.
 One level            | indicates a search of objects immediately subordinate to the base object, but does not include the base object itself.
 search base          | (the distinguished name of the search base object) defines the location in the directory from which the LDAP search begins.
 search scope         | defines how deep to search within the search base.
 selection            | indicates what attributes to return from objects that match the filter criteria.
 Subtree              | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.
-Distinguished Name | [An entry's fully qualified name, known as its Distinguished Name (DN) [X.501], is the concatenation of its RDN and its immediate superior's DN.  A Distinguished Name unambiguously refers to an entry in the tree.  The following are examples of string representations of DNs. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.3)
+`rdn` | Relative Distinguished Name.
+DIT | Directory Information Tree. The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.
+bind | When connection is made to an LDAP server the first operation of the sequence is called a bind. The bind operation sends the `dn` of the entry that will be used for authentication and the password (usually contained in the userPassword attribute) to be used. In the case of an anonymous bind both values will be `NULL`. A Bind operation does not allow searching and therefore the DN used for authentication must be the same as the DN which initially created the entry.
 
 
 ## Basics
@@ -228,6 +231,7 @@ telephonenumber: +1 415 555 0002
 * [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 * [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
 * [Zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
+* [Zytrax: LDAP Glossary](http://www.zytrax.com/books/ldap/apd/index.html)
 
 [oreilly-tutorial]: http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html
 [efytimes_openldap_series]: http://opensourceforu.efytimes.com/tag/openldap-series/
