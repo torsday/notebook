@@ -68,23 +68,21 @@ Set by the administrator to allow only certain people to access the LDAP databas
 
 ### `ObjectClasses`
 
+An identified family of objects that share certain characteristics.
+
+Used in the Directory for a number of purposes:
+
+* describing and categorizing objects and the entries that correspond to these objects.
+
+* where appropriate, controlling the operation of the Directory.
+
+* regulating the position of entries in the DIT.
+
+* regulating the attributes that are contained in entries.
+
+* identifying classes of entry that are to be associated with a particular policy by the appropriate administrative authority.
+
 *From: [ietf.org](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.4)*
-> An object class is "an identified family of objects (or conceivable
-   objects) that share certain characteristics".
-
-> Object classes are used in the Directory for a number of purposes:
-
-> - describing and categorizing objects and the entries that correspond to these objects;
-
-> - where appropriate, controlling the operation of the Directory;
-
-> - regulating, in conjunction with DIT structure rule specifications, the position of entries in the DIT;
-
-> - regulating, in conjunction with DIT content rule specifications, the attributes that are contained in entries;
-
-> - identifying classes of entry that are to be associated with a particular policy by the appropriate administrative authority.
-
-
 > An object class (a subclass) may be derived from an object class (its direct superclass) which is itself derived from an even more generic object class.  For structural object classes, this process stops at the most generic object class, 'top' (defined in [Section 2.4.1](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.4.1)).  An ordered set of superclasses up to the most superior object class of an object class is its superclass chain.
 
 
