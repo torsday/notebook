@@ -6,6 +6,7 @@
     * [Squash](articles/squash.md)
 * [My Setup](setup/README.md)
 * [Algorithms](algorithms/README.md)
+    * [Binary Search](algorithms/binary_search.md)
     * [Data Compression Algorithms]()
     * [Dijkstra’s Algorithm]()
     * [Fourier Transform & Fast Fourier Transform]()

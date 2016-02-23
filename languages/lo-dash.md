@@ -25,4 +25,7 @@ _.join(['a', 'b', 'c'], '~'); // → 'a~b~c'
 
 _.last(array) // Gets the last element of array.
 
+_.reverse() // This method mutates array and is based on Array#reverse.
+
+_.slice(array, [start=0], [end=array.length])
 ```
