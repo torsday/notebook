@@ -42,12 +42,12 @@
 
 Term | Definition
 -----|------------------------
-`cn` | see Common Name.
-`dc` | see Domain Component.
-`dn` | see Distinguished Name.
-`l`  | locality.
-`ou` | see Organization Unit.
-`sn` | surname.
+`cn` | *see Common Name.*
+`dc` | *see Domain Component.*
+`dn` | *see Distinguished Name.*
+`l`  | *see locality.*
+`ou` | *see Organization Unit.*
+`sn` | *see surname.*
 
 ### General LDAP
 
