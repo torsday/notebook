@@ -400,7 +400,7 @@ p ldap.get_operation_result
 
 Baked-in PHP Functions ([php.net/manual/en/ref.ldap.php](http://php.net/manual/en/ref.ldap.php))
 
-```php
+```php+html
 <?php
 // basic sequence with LDAP is connect, bind, search, interpret search
 // result, close connection
