@@ -79,6 +79,83 @@ Subtree                           | indicates a search of the base object and th
 * Extended Operation — generic operation used to define other operations
 * Unbind — close the connection (not the inverse of Bind)
 
+### Directory Structure
+
+The protocol provides an interface with directories that follow the 1993 edition of the X.500 model:
+
+* An entry consists of a set of attributes.
+* An attribute has a name (an attribute type or attribute description) and one or more values. The attributes are defined in a schema (see below).
+* Each entry has a unique identifier: its Distinguished Name (DN). This consists of its Relative Distinguished Name (RDN), constructed from some attribute(s) in the entry, followed by the parent entry's DN. Think of the DN as the full file path and the RDN as its relative filename in its parent folder (e.g. if /foo/bar/myfile.txt were the DN, then myfile.txt would be the RDN).
+
+A DN may change over the lifetime of the entry, for instance, when entries are moved within a tree. To reliably and unambiguously identify entries, a UUID might be provided in the set of the entry's operational attributes.
+
+#### Example of an entry when represented using LDIF
+
+```sh
+dn: cn=John Doe,dc=example,dc=com
+cn: John Doe
+givenName: John
+sn: Doe
+telephoneNumber: +1 888 555 6789
+telephoneNumber: +1 888 555 1232
+mail: john@example.com
+manager: cn=Barbara Doe,dc=example,dc=com
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+```
+
+* `dn` is the distinguished name of the entry; it is neither an attribute nor a part of the entry.
+* `cn=John Doe` is the entry's RDN (Relative Distinguished Name)
+* `dc=example,dc=com` is the DN of the parent entry, where `dc` denotes 'Domain Component'.
+
+* The other lines show the attributes in the entry. Attribute names are typically mnemonic strings, like
+	* `cn` for common name
+	* `dc` for domain component
+	* `mail` for e-mail address
+	* `sn` for surname
+
+A server holds a subtree starting from a specific entry, e.g. `dc=example,dc=com` and its children. Servers may also hold references to other servers, so an attempt to access `ou=department,dc=example,dc=com` could return a referral or continuation reference to a server that holds that part of the directory tree. The client can then contact the other server. Some servers also support chaining, which means the server contacts the other server and returns the results to the client.
+
+LDAP rarely defines any ordering: The server may return the values of an attribute, the attributes in an entry, and the entries found by a search operation in any order. This follows from the formal definitions - an entry is defined as a set of attributes, and an attribute is a set of values, and sets need not be ordered.
+
+
+
+## Operations
+
+### Add
+
+
+### Bind (authenticate)
+
+
+### Delete
+
+
+### Search and Compare
+
+
+### Modify
+
+
+### Modify DN
+
+
+### Extended operations
+
+
+### StartTLS
+
+
+### Abandon
+
+
+
+
+
+
+
 ## Basics
 
 ### Binding
