@@ -293,7 +293,7 @@ A standard plain text data interchange format for representing LDAP directory CR
 
 
 
-### Examples
+## Examples
 
 Directory entry with several attributes, represented as a record.
 
