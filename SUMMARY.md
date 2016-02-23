@@ -71,6 +71,7 @@
     * [Ruby](languages/ruby.md)
     * [Scala](languages/scala.md)
     * [Swift](languages/swift.md)
+    * [Symfony]()
     * [Zend Frameworks]()
 * [Lifestyle](lifestyle/README.md)
     * [Books](lifestyle/books.md)
