@@ -48,6 +48,7 @@ search base          | (the distinguished name of the search base object) define
 search scope         | defines how deep to search within the search base.
 selection            | indicates what attributes to return from objects that match the filter criteria.
 Subtree              | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.
+Distinguished Name | [An entry's fully qualified name, known as its Distinguished Name (DN) [X.501], is the concatenation of its RDN and its immediate superior's DN.  A Distinguished Name unambiguously refers to an entry in the tree.  The following are examples of string representations of DNs. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.3)
 
 
 ## Basics
@@ -66,6 +67,28 @@ Connecting with authentication is the usual first step in any LDAP client/server
 Set by the administrator to allow only certain people to access the LDAP database, and optionally keep certain data private.
 
 ### `ObjectClasses`
+
+*From: [ietf.org](http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512#section-2.4)*
+> An object class is "an identified family of objects (or conceivable
+   objects) that share certain characteristics" [X.501].
+
+> As defined in [X.501]:
+
+> Object classes are used in the Directory for a number of purposes:
+
+> - describing and categorizing objects and the entries that correspond to these objects;
+
+> - where appropriate, controlling the operation of the Directory;
+
+> - regulating, in conjunction with DIT structure rule specifications, the position of entries in the DIT;
+
+> - regulating, in conjunction with DIT content rule specifications, the attributes that are contained in entries;
+
+> - identifying classes of entry that are to be associated with a particular policy by the appropriate administrative authority.
+
+
+> An object class (a subclass) may be derived from an object class (its direct superclass) which is itself derived from an even more generic object class.  For structural object classes, this process stops at the most generic object class, 'top' (defined in Section 2.4.1).  An ordered set of superclasses up to the most superior object class of an object class is its superclass chain.
+
 
 
 ### Attributes
