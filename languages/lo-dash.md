@@ -28,4 +28,14 @@ _.last(array) // Gets the last element of array.
 _.reverse() // This method mutates array and is based on Array#reverse.
 
 _.slice(array, [start=0], [end=array.length])
+
+_.sortedUniq(array) // like _.uniq except that it’s designed and optimized for sorted arrays.
+
+_.union([arrays]) // Creates an array of unique values, in order, from all given arrays using SameValueZero for equality comparisons.
+_.union([2, 1], [4, 2], [1, 2]); // → [2, 1, 4]
+
+_.uniq(array) // Creates a duplicate-free version of an array, using SameValueZero for equality comparisons, in which only the first occurrence of each element is kept.
+
+_.zip([arrays]) // Creates an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
+_.zip(['fred', 'barney'], [30, 40], [true, false]); // → [['fred', 30, true], ['barney', 40, false]]
 ```
