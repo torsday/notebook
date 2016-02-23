@@ -52,6 +52,10 @@ Docker, a tool for deploying and running applications. Docker provides a way to 
 
 A computer language specialized to a particular application domain.
 
+## DSE
+
+DSA Specific Entry.
+
 ## Duck Typing
 
 A way to write computer code that doesn't demand that you know what types you are writing about. If it does what you thought it would do, it is good enough. The reason this is called "duck typing" is the duck test: "When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck."
@@ -99,6 +103,10 @@ A standard plain text data interchange format for representing LDAP directory CR
 ## Ncurses
 
 A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.
+
+## OID
+
+Object IDentifier.
 
 ## OSPNS
 

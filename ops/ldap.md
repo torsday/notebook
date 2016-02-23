@@ -4,7 +4,7 @@
 > A protocol that defines the method by which directory data is accessed. Necessarily, it also defines and describes how data is represented in the directory service (the Data (Information) Model). Finally, it defines how data is loaded (imported) into and saved (exported) from a directory service (using LDIF). LDAP does not define how data is stored or manipulated. Data storage and access methods are automagical processes as far as the standard is concerned and are generally handled by back-end modules (typically using some form of transaction database) within any specific LDAP implementation.
 
 * A directory service protocol.
-* Runs on a layer above the TCP/IP stack.
+* Runs on a layer above the TCP/IP stack. *(connects to port 389 (ldap) for non-ssl access and 636 when using SSL (ldaps))*
 * Provides a mechanism for CRUD operations on internet directories.
 * Based on a client-server model.
 
@@ -38,24 +38,25 @@
 
 ## Vocabulary
 
-Term                 | Definition
----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-base `dn`            | the point from where a server will search for users. e.g. An LDAP search for the user admin will be done by the server starting at the base `dn` ( `dc=example,dc=com` )
-`dn` | Distinguished Name, an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
-filter               | allows certain entries in the subtree and excludes others.
-One level            | indicates a search of objects immediately subordinate to the base object, but does not include the base object itself.
-search base          | (the distinguished name of the search base object) defines the location in the directory from which the LDAP search begins.
-search scope         | defines how deep to search within the search base.
-selection            | indicates what attributes to return from objects that match the filter criteria.
-Subtree              | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.
-`rdn` | Relative Distinguished Name.
-DIT | Directory Information Tree. The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.
-bind | When connection is made to an LDAP server the first operation of the sequence is called a bind. The bind operation sends the `dn` of the entry that will be used for authentication and the password (usually contained in the userPassword attribute) to be used. In the case of an anonymous bind both values will be `NULL`. A Bind operation does not allow searching and therefore the DN used for authentication must be the same as the DN which initially created the entry.
+Term           | Definition
+---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+`dn`           | Distinguished Name, an entry's fully qualified name, unambiguously refers to an entry in the tree. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US`
+`rdn`          | Relative Distinguished Name.
+Base           | The base entry (a.k.a root and suffix) is one of many terms commonly used to describe the topmost entry in a DIT or naming-context. The term base seems to be used because the search scope base in a LDAP URL or other search typically uses this value. The Root DSE is the highest level in an LDAP enabled directory.
+bind           | When connection is made to an LDAP server the first operation of the sequence is called a bind. The bind operation sends the `dn` of the entry that will be used for authentication and the password (usually contained in the userPassword attribute) to be used. In the case of an anonymous bind both values will be `NULL`. A Bind operation does not allow searching and therefore the DN used for authentication must be the same as the DN which initially created the entry.
+DIT            | Directory Information Tree. The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.
+DSA            | Directory System Agent. Any DAP or LDAP enabled directory service e.g. an LDAP server.
+DSE            | DSA Specific Entry. A control entry in a local directory server.
+filter         | allows certain entries in the subtree and excludes others.
+Object Classes | Collections of attributes. Each `objectClass` is uniquely identified by an OID
+OID            | Object IDentifier. A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition
+search base    | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.
+search scope   | defines how deep to search within the search base.
+selection      | indicates what attributes to return from objects that match the filter criteria.
+Subtree        | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.
 
 
 ## Basics
-
-
 
 ### Binding
 
