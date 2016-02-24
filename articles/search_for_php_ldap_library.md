@@ -17,6 +17,9 @@
     1. tiesa/ldap
     1. adldap2/adldap2
 
+1. Others of interest
+    1. [github.com/symfony/ldap](https://github.com/symfony/ldap)
+
 1. Removing duplicates leaves us:
 
     1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
@@ -34,6 +37,9 @@
     1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
         * Last commit was over 3 years ago.
         * Even then, it consists of only 3 commits total.
+    1. [github.com/symfony/ldap](https://github.com/symfony/ldap)
+        * > This component is currently marked as internal, as it still needs some work. Breaking changes will be introduced in the next minor version of Symfony.
+
 
 
 1. The Final Four:
@@ -48,21 +54,8 @@
 
 ---
 
-## LDAP Libraries
 
-### Symfony LDAP
 
-[github.com/symfony/ldap](https://github.com/symfony/ldap)
-
-> This component is currently marked as internal, as it still needs some work. Breaking changes will be introduced in the next minor version of Symfony.
-
-### tiesa/ldap
-
-[github.com/ccottet/ldap](https://github.com/ccottet/ldap)
-
-Pro & Con: Latest commit 0759f17  on Feb 3, 2013
-
-Pro: only dependency is PhpUnit
 
 ### ldaptools/ldaptools
 
