@@ -29,6 +29,7 @@ Pros:
 * popular (54 stars on github)
 * no issues
 * recent commits
+* nice docs: http://www.phpldaptools.com/
 
 ---
 
