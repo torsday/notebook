@@ -17,7 +17,7 @@
     1. tiesa/ldap
     1. adldap2/adldap2
 
-1. After removing duplicates, leaves us:
+1. Removing duplicates leaves us:
 
     1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
     1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
@@ -38,10 +38,10 @@
 
 1. The Final Four:
 
-    1. [ ] [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
-    1. [ ] [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
-    1. [ ] [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
-    1. [ ] [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+    1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
+    1. [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+    1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
+    1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 
 
