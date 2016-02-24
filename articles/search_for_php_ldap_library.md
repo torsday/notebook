@@ -2,32 +2,34 @@
 
 ---
 
-1. Well rated PHP LDAP libraries on GitHub
+1. Generate initial list
 
-    1. adldap/adLDAP
-    1. Adldap2/Adldap2
-    1. ldaptools/ldaptools
-    1. ccottet/ldap
+    - Well rated PHP LDAP libraries on GitHub
 
-1. Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
+        1. adldap/adLDAP
+        1. Adldap2/Adldap2
+        1. ldaptools/ldaptools
+        1. ccottet/ldap
 
-    1. zendframework/zend-ldap
-    1. imag/ldap-bundle
-    1. adldap/adldap
-    1. tiesa/ldap
-    1. adldap2/adldap2
+    - Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
-1. Others of interest
-    1. [github.com/symfony/ldap](https://github.com/symfony/ldap)
+        1. zendframework/zend-ldap
+        1. imag/ldap-bundle
+        1. adldap/adldap
+        1. tiesa/ldap
+        1. adldap2/adldap2
 
-1. Removing duplicates leaves us:
+    - Others of interest
+        1. [symfony/ldap](https://github.com/symfony/ldap)
 
-    1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
-    1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
-    1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
-    1. [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
-    1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
-    1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+    - Removing duplicates leaves us:
+
+        1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
+        1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
+        1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
+        1. [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+        1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
+        1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 1. Filter out dealbreakers
 
