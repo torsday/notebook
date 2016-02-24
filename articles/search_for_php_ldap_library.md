@@ -49,7 +49,7 @@
 1. The Shortlist:
 
     1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
-    1. [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+    1. [github.com/imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
     1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 
