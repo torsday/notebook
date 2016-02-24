@@ -27,7 +27,7 @@
         1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
         1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
         1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
-        1. [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+        1. [github.com/imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
         1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
         1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
