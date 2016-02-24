@@ -99,23 +99,14 @@ YAML config  | true
 
 x            | y
 -------------|-------------
-Last Commit  | > 1 year ago
-Contributors | 27 (1 primary)
-Issues       | 35
-Standing PRs | 21
-Forks        | 93
-Stars        | 104
+Last Commit  | 20 hours ago
+Contributors | 1
+Issues       | 0
+Standing PRs | 0
+Forks        | 1
+Stars        | 54
 YAML config  | true
-
-Pros:
-
-* no issues
-* recent commits
-* nice docs: http://www.phpldaptools.com/
-
-Cons:
-
-* YAML
+docs         | awesome
 
 
 
