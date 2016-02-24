@@ -60,6 +60,8 @@
 
 ### [adldap2/adldap2](https://github.com/adldap2/adldap2)
 
+> Working with Active Directory doesn't need to be hard. Adldap2 is a tested PHP package that provides LDAP authentication and Active Directory management tools using the Active Record pattern.
+
 #### Basic Characteristics
 
 x            | y
@@ -75,6 +77,8 @@ YAML config  | ?
 
 ### [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
 
+> LdapBundle provides LDAP authentication without using Apache's mod_ldap. The bundle instead relies on PHP's LDAP extension along with a form to authenticate users. LdapBundle can also be used for authorization by retrieving the user's roles defined in LDAP.
+
 #### Basic Characteristics
 
 x            | y
@@ -89,6 +93,8 @@ YAML config  | true
 
 
 ### [zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+
+> `Zend\Ldap\Ldap` is a class for performing LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory.
 
 #### Basic Characteristics
 
