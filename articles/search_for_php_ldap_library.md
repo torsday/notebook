@@ -8,41 +8,41 @@
 
     - Well rated PHP LDAP libraries on GitHub
 
-        * adldap/adLDAP
-        * [Adldap2/Adldap2][adldap2]
+        * adLDAP
+        * [Adldap2][adldap2]
         * ccottet/ldap
-        * [ldaptools/ldaptools][ldaptools]
+        * [ldaptools][ldaptools]
 
     - Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
-        * adldap/adldap
-        * [adldap2/adldap2][adldap2]
+        * adldap
+        * [adldap2][adldap2]
         * [imag/ldap-bundle][ldap-bundle]
         * tiesa/ldap
-        * [zendframework/zend-ldap][zend-ldap]
+        * [zend-ldap][zend-ldap]
 
     - Others of interest
         * [symfony/ldap](https://github.com/symfony/ldap)
 
     - Removing duplicates leaves us:
 
-        1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
-        1. [github.com/adldap2/adldap2][adldap2]
-        1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
-        1. [github.com/imag/ldap-bundle][ldap-bundle]
-        1. [github.com/ldaptools/ldaptools][ldaptools]
-        1. [github.com/symfony/ldap](https://github.com/symfony/ldap)
-        1. [github.com/zendframework/zend-ldap][zend-ldap]
+        1. [adldap](https://github.com/adldap/adldap)
+        1. [adldap2][adldap2]
+        1. [ccottet/ldap](https://github.com/ccottet/ldap)
+        1. [imag/ldap-bundle][ldap-bundle]
+        1. [ldaptools][ldaptools]
+        1. [symfony/ldap](https://github.com/symfony/ldap)
+        1. [zend-ldap][zend-ldap]
 
 1. Filter out dealbreakers
 
-    1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
+    1. [adldap](https://github.com/adldap/adldap)
         * > Version v5.0.0 is in heavy development, however it is close to completion. Use 'dev-master' at you're own risk.
         * ^ 8 months ago was the last commit
-    1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
+    1. [ccottet/ldap](https://github.com/ccottet/ldap)
         * Last commit was over 3 years ago.
         * Even then, it consists of only 3 commits total.
-    1. [github.com/symfony/ldap](https://github.com/symfony/ldap)
+    1. [symfony/ldap](https://github.com/symfony/ldap)
         * > This component is currently marked as internal, as it still needs some work. **Breaking changes will be introduced in the next minor version** of Symfony.
 
 
