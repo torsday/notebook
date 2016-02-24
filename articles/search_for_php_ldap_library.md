@@ -70,7 +70,7 @@ Issues       | 5
 Standing PRs | 0
 Forks        | 23
 Stars        | 74
-YAML         | ?
+YAML config  | ?
 
 
 ### [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
@@ -85,7 +85,7 @@ Issues       | 35
 Standing PRs | 21
 Forks        | 93
 Stars        | 104
-YAML         | ?
+YAML config  | true
 
 
 ### [zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
@@ -100,7 +100,7 @@ Issues       | 13
 Standing PRs | 8
 Forks        | 12
 Stars        | 8
-YAML         | ?
+YAML config  | ?
 
 
 

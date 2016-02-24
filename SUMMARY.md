@@ -27,6 +27,7 @@
     * [XDebug]()
 * [Design](design/README.md)
     * [Abstract Factory](design/abstract_factory.md)
+    * [Active Record Pattern](design/active_record_pattern.md)
     * [Adapter](design/adapter.md)
     * [Bridge](design/bridge.md)
     * [Chain of Responsibility](design/chain_of_responsibility.md)
