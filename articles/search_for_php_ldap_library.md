@@ -142,7 +142,7 @@ YAML config  | ?
 
 #### Cons
 
-* YAML
+* YAML config required
 
 
 
