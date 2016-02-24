@@ -22,7 +22,7 @@
         * [zend-ldap]
 
     - Others of interest
-        * [symfony/ldap](https://github.com/symfony/ldap)
+        * [symfony/ldap]
 
     - Removing duplicates leaves us:
 
@@ -31,7 +31,7 @@
         1. [ccottet/ldap](https://github.com/ccottet/ldap)
         1. [imag/ldap-bundle][ldap-bundle]
         1. [ldaptools]
-        1. [symfony/ldap](https://github.com/symfony/ldap)
+        1. [symfony/ldap]
         1. [zend-ldap]
 
 1. Filter out dealbreakers
@@ -42,7 +42,7 @@
     1. [ccottet/ldap](https://github.com/ccottet/ldap)
         * Last commit was over 3 years ago.
         * Even then, it consists of only 3 commits total.
-    1. [symfony/ldap](https://github.com/symfony/ldap)
+    1. [symfony/ldap]
         * > This component is currently marked as internal, as it still needs some work. **Breaking changes will be introduced in the next minor version** of Symfony.
 
 
@@ -151,3 +151,4 @@ YAML config  | ?
 [ldap-bundle]: https://github.com/BorisMorel/LdapBundle "LDAP Bundle"
 [ldaptools]: https://github.com/ldaptools/ldaptools     "LDAP Tools"
 [zend-ldap]: https://github.com/zendframework/zend-ldap "Zend LDAP"
+[symfony/ldap]: https://github.com/symfony/ldap         "Symphony LDAP"
