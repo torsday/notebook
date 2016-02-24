@@ -9,30 +9,30 @@
     - Well rated PHP LDAP libraries on GitHub
 
         * adLDAP
-        * [adldap2]
+        * [adldap2][]
         * ccottet/ldap
-        * [ldaptools]
+        * [ldaptools][]
 
     - Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
         * adldap
-        * [adldap2]
+        * [adldap2][]
         * [imag/ldap-bundle][ldap-bundle]
         * tiesa/ldap
-        * [zend-ldap]
+        * [zend-ldap][]
 
     - Others of interest
-        * [symfony/ldap]
+        * [symfony/ldap][]
 
     - Removing duplicates leaves us:
 
         1. [adldap](https://github.com/adldap/adldap)
-        1. [adldap2]
+        1. [adldap2][]
         1. [ccottet/ldap](https://github.com/ccottet/ldap)
         1. [imag/ldap-bundle][ldap-bundle]
-        1. [ldaptools]
-        1. [symfony/ldap]
-        1. [zend-ldap]
+        1. [ldaptools][]
+        1. [symfony/ldap][]
+        1. [zend-ldap][]
 
 1. Filter out dealbreakers
 
@@ -48,29 +48,29 @@
 
 1. The Shortlist:
 
-    1. [adldap2]
-    1. [ldap-bundle]
-    1. [ldaptools]
-    1. [zend-ldap]
+    1. [adldap2][]
+    1. [ldap-bundle][]
+    1. [ldaptools][]
+    1. [zend-ldap][]
 
 ---
 
 ## Comparison of the best
 
-### [adldap2]
+### [adldap2][]
 
 > Working with Active Directory doesn't need to be hard. Adldap2 is a tested PHP package that provides LDAP authentication and Active Directory management tools using the Active Record pattern.
 
 #### Basic Characteristics
 
-x            | y
--------------|------------
-Last Commit  | 14 days ago
-Contributors | 12 (1 primary)
-Issues       | 5
-Standing PRs | 0
-Forks        | 23
-Stars        | 74
+| x            | y              |
+|--------------|----------------|
+| Last Commit  | 14 days ago    |
+| Contributors | 12 (1 primary) |
+| Issues       | 5              |
+| Standing PRs | 0              |
+| Forks        | 23             |
+| Stars        | 74             |
 
 #### Cons
 
@@ -82,15 +82,15 @@ Stars        | 74
 
 #### Basic Characteristics
 
-x            | y
--------------|-------------
-Last Commit  | > 1 year ago
-Contributors | 27 (1 primary)
-Issues       | 35
-Standing PRs | 21
-Forks        | 93
-Stars        | 104
-YAML config  | true
+| x            | y              |
+|--------------|----------------|
+| Last Commit  | > 1 year ago   |
+| Contributors | 27 (1 primary) |
+| Issues       | 35             |
+| Standing PRs | 21             |
+| Forks        | 93             |
+| Stars        | 104            |
+| YAML config  | true           |
 
 
 
@@ -98,16 +98,16 @@ YAML config  | true
 
 > LdapTools is designed to be customizable for use with pretty much any directory service, but contains default attribute converters and schemas for Active Directory and OpenLDAP.
 
-x            | y
--------------|-------------
-Last Commit  | 20 hours ago
-Contributors | 1
-Issues       | 0
-Standing PRs | 0
-Forks        | 1
-Stars        | 54
-YAML config  | true
-docs         | excellent
+| x            | y            |
+|--------------|--------------|
+| Last Commit  | 20 hours ago |
+| Contributors | 1            |
+| Issues       | 0            |
+| Standing PRs | 0            |
+| Forks        | 1            |
+| Stars        | 54           |
+| YAML config  | true         |
+| docs         | excellent    |
 
 #### Pros
 
@@ -127,14 +127,14 @@ docs         | excellent
 
 #### Basic Characteristics
 
-x            | y
--------------|------------
-Last Commit  | 13 days ago
-Contributors | 100
-Issues       | 13
-Standing PRs | 8
-Forks        | 12
-Stars        | 8
+| x            | y           |
+|--------------|-------------|
+| Last Commit  | 13 days ago |
+| Contributors | 100         |
+| Issues       | 13          |
+| Standing PRs | 8           |
+| Forks        | 12          |
+| Stars        | 8           |
 
 #### Cons
 
