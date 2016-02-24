@@ -126,6 +126,25 @@ Stars        | 8
 YAML config  | ?
 
 
+---
+
+## Most Exciting
+
+
+### [ldaptools][ldaptools]
+
+#### Pros
+
+* Excellent documentation
+* Actively developed
+* Explicit support of OpenLDAP
+
+#### Cons
+
+* YAML
+
+
+
 
 [adldap2]: "https://github.com/adldap2/adldap2"
 [ldap-bundle]: "https://github.com/BorisMorel/LdapBundle"
