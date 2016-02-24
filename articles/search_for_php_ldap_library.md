@@ -111,7 +111,7 @@ YAML         | ?
 
 
 
-<!-- 
+
 ---
 
 ### ldaptools/ldaptools
@@ -126,4 +126,4 @@ Pros:
 
 Cons:
 
-* YAML -->
+* YAML
