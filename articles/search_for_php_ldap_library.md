@@ -11,7 +11,7 @@
         * adLDAP
         * [Adldap2][adldap2]
         * ccottet/ldap
-        * [ldaptools][ldaptools]
+        * [ldaptools]
 
     - Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
@@ -19,7 +19,7 @@
         * [adldap2][adldap2]
         * [imag/ldap-bundle][ldap-bundle]
         * tiesa/ldap
-        * [zend-ldap][zend-ldap]
+        * [zend-ldap]
 
     - Others of interest
         * [symfony/ldap](https://github.com/symfony/ldap)
@@ -30,9 +30,9 @@
         1. [adldap2][adldap2]
         1. [ccottet/ldap](https://github.com/ccottet/ldap)
         1. [imag/ldap-bundle][ldap-bundle]
-        1. [ldaptools][ldaptools]
+        1. [ldaptools]
         1. [symfony/ldap](https://github.com/symfony/ldap)
-        1. [zend-ldap][zend-ldap]
+        1. [zend-ldap]
 
 1. Filter out dealbreakers
 
@@ -50,8 +50,8 @@
 
     1. [adldap2][adldap2]
     1. [ldap-bundle][ldap-bundle]
-    1. [ldaptools][ldaptools]
-    1. [zend-ldap][zend-ldap]
+    1. [ldaptools]
+    1. [zend-ldap]
 
 ---
 
@@ -92,7 +92,7 @@ YAML config  | true
 
 
 
-### [ldaptools][ldaptools]
+### [ldaptools]
 
 > LdapTools is designed to be customizable for use with pretty much any directory service, but contains default attribute converters and schemas for Active Directory and OpenLDAP.
 
@@ -110,7 +110,7 @@ docs         | excellent
 
 
 
-### [zend-ldap][zend-ldap]
+### [zend-ldap]
 
 > `Zend\Ldap\Ldap` is a class for performing LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory.
 
