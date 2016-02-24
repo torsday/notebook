@@ -67,7 +67,7 @@
 x            | y
 -------------|------------
 Last Commit  | 14 days ago
-Contributors | 12
+Contributors | 12 (1 primary)
 Issues       | 5
 Standing PRs | 0
 Forks        | 23
@@ -84,7 +84,7 @@ YAML config  | ?
 x            | y
 -------------|-------------
 Last Commit  | > 1 year ago
-Contributors | 27
+Contributors | 27 (1 primary)
 Issues       | 35
 Standing PRs | 21
 Forks        | 93
