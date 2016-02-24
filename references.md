@@ -17,7 +17,6 @@
 
 ## GitHub Repos
 
-* [**John Olmsted's Notes**](https://github.com/qsymmachus/notes)
 * [h5bp: **Front-end-Developer-Interview-Questions**](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
 * [nvie: **gitflow**](https://github.com/nvie/gitflow)
 

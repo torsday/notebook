@@ -30,7 +30,7 @@
         1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
         1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
         1. [github.com/imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
-        1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
+        1. [github.com/ldaptools/ldaptools][ldaptools]
         1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 1. Filter out dealbreakers
@@ -43,16 +43,14 @@
         * Even then, it consists of only 3 commits total.
     1. [github.com/symfony/ldap](https://github.com/symfony/ldap)
         * > This component is currently marked as internal, as it still needs some work. **Breaking changes will be introduced in the next minor version** of Symfony.
-    1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
-        * Only 1 contributor.
-
 
 
 1. The Shortlist:
 
-    1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
-    1. [github.com/imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
-    1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+    1. [adldap2](https://github.com/adldap2/adldap2)
+    1. [ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+    1. [ldaptools][ldaptools]
+    1. [zend-ldap](https://github.com/zendframework/zend-ldap)
 
 ---
 
@@ -92,6 +90,36 @@ Stars        | 104
 YAML config  | true
 
 
+
+### [ldaptools][ldaptools]
+
+> LdapTools is designed to be customizable for use with pretty much any directory service, but contains default attribute converters and schemas for Active Directory and OpenLDAP.
+
+
+
+x            | y
+-------------|-------------
+Last Commit  | > 1 year ago
+Contributors | 27 (1 primary)
+Issues       | 35
+Standing PRs | 21
+Forks        | 93
+Stars        | 104
+YAML config  | true
+
+Pros:
+
+* no issues
+* recent commits
+* nice docs: http://www.phpldaptools.com/
+
+Cons:
+
+* YAML
+
+
+
+
 ### [zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 > `Zend\Ldap\Ldap` is a class for performing LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory.
@@ -110,28 +138,4 @@ YAML config  | ?
 
 
 
-
-
-
-
-
-
-
-
----
-
-## ---
-
-### ldaptools/ldaptools
-
-[github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
-
-Pros:
-
-* no issues
-* recent commits
-* nice docs: http://www.phpldaptools.com/
-
-Cons:
-
-* YAML
+[ldaptools]: "https://github.com/ldaptools/ldaptools"
