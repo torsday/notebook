@@ -46,7 +46,7 @@
 
 
 
-1. The Final Four:
+1. The Shortlist:
 
     1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
     1. [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
