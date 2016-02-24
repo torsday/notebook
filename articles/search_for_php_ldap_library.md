@@ -26,18 +26,17 @@
     1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
     1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
----
+1. Filter out dealbreakers
 
-## Look for dealbreakers
+    1. [ ] [github.com/adldap/adldap](https://github.com/adldap/adldap)
+        * > Version v5.0.0 is in heavy development, however it is close to completion. Use 'dev-master' at you're own risk.
+        * ^ 8 months ago was the last commit
+    1. [x] [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
+    1. [ ] [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
+    1. [ ] [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+    1. [x] [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
+    1. [ ] [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
-1. [ ] [github.com/adldap/adldap](https://github.com/adldap/adldap)
-    * > Version v5.0.0 is in heavy development, however it is close to completion. Use 'dev-master' at you're own risk.
-    * ^ 8 months ago was the last commit
-1. [x] [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
-1. [ ] [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
-1. [ ] [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
-1. [x] [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
-1. [ ] [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 
 
@@ -72,20 +71,3 @@ Pros:
 Cons:
 
 * YAML
-
-
----
-
-
-context: ldap
-
-```sh
-dn: cn=chris.torstenson@creditkarma.com
-dc=admax,dc=creditkarma,dc=com
-ou=ms1
-
-
-dn: cn=chris.torstenson@creditkarma.com
-dc=admax,dc=creditkarma,dc=com
-ou=ms1,ou=ms2
-```
