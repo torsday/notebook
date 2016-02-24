@@ -27,13 +27,13 @@
 
     - Removing duplicates leaves us:
 
-      1. [adldap](https://github.com/adldap/adldap)
-      1. [adldap2][]
-      1. [ccottet/ldap](https://github.com/ccottet/ldap)
-      1. [imag/ldap-bundle][ldap-bundle]
-      1. [ldaptools][]
-      1. [symfony/ldap][]
-      1. [zend-ldap][]
+      - [adldap](https://github.com/adldap/adldap)
+      - [adldap2][]
+      - [ccottet/ldap](https://github.com/ccottet/ldap)
+      - [imag/ldap-bundle][ldap-bundle]
+      - [ldaptools][]
+      - [symfony/ldap][]
+      - [zend-ldap][]
 
 1. Filter out dealbreakers
 
