@@ -6,21 +6,21 @@
 
     - Well rated PHP LDAP libraries on GitHub
 
-        1. adldap/adLDAP
-        1. Adldap2/Adldap2
-        1. ldaptools/ldaptools
-        1. ccottet/ldap
+        * adldap/adLDAP
+        * Adldap2/Adldap2
+        * ccottet/ldap
+        * ldaptools/ldaptools
 
     - Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
-        1. zendframework/zend-ldap
-        1. imag/ldap-bundle
-        1. adldap/adldap
-        1. tiesa/ldap
-        1. adldap2/adldap2
+        * adldap/adldap
+        * adldap2/adldap2
+        * imag/ldap-bundle
+        * tiesa/ldap
+        * zendframework/zend-ldap
 
     - Others of interest
-        1. [symfony/ldap](https://github.com/symfony/ldap)
+        * [symfony/ldap](https://github.com/symfony/ldap)
 
     - Removing duplicates leaves us:
 
@@ -40,7 +40,7 @@
         * Last commit was over 3 years ago.
         * Even then, it consists of only 3 commits total.
     1. [github.com/symfony/ldap](https://github.com/symfony/ldap)
-        * > This component is currently marked as internal, as it still needs some work. Breaking changes will be introduced in the next minor version of Symfony.
+        * > This component is currently marked as internal, as it still needs some work. **Breaking changes will be introduced in the next minor version** of Symfony.
 
 
 
