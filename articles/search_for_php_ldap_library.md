@@ -74,9 +74,9 @@ Stars        | 74
 
 #### Cons
 
-* Active Directory focus (looking for a heart of OpenLDAP)
+-   Active Directory focus (looking for a heart of OpenLDAP)
 
-### [ldap-bundle]
+### [ldap-bundle][]
 
 > LdapBundle provides LDAP authentication without using Apache's mod_ldap. The bundle instead **relies on [PHP's LDAP extension](http://php.net/manual/en/book.ldap.php) along with a form to authenticate users**. LdapBundle can also be used for authorization by retrieving the user's roles defined in LDAP.
 
@@ -111,17 +111,17 @@ docs         | excellent
 
 #### Pros
 
-* [Excellent documentation](http://www.phpldaptools.com/)
-* [Actively developed](https://github.com/ldaptools/ldaptools/commits/master)
-* Explicit support for OpenLDAP
+-   [Excellent documentation](http://www.phpldaptools.com/)
+-   [Actively developed](https://github.com/ldaptools/ldaptools/commits/master)
+-   Explicit support for OpenLDAP
 
 #### Cons
 
-* YAML config required
+-   YAML config required
 
 
 
-### [zend-ldap]
+### [zend-ldap][]
 
 > `Zend\Ldap\Ldap` is a class for performing LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory.
 
@@ -138,18 +138,15 @@ Stars        | 8
 
 #### Cons
 
-* Zend
+-   Zend
 
 ---
 
-## Most Exciting
+## My Choice: [ldaptools][]
 
-
-* [ldaptools]
-
-
-
-
+-   Actively developed
+-   Good documentation
+-   Code itself seems good (subjective)
 
 [adldap2]: https://github.com/adldap2/adldap2           "AdLDAP2"
 [ldap-bundle]: https://github.com/BorisMorel/LdapBundle "LDAP Bundle"
