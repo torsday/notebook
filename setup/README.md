@@ -14,6 +14,19 @@
 * Pocket
 * [Messenger](https://www.messenger.com)
 
+## Reference Directory (`code`)
+
+Repos I have in my `~/code` directory.
+
+```sh
+git clone git@github.com:torsday/notebook.git
+# git clone git@github.com:DrkSephy/es6-cheatsheet.git
+```
+
 ### Other
 
 * [ESLint](http://eslint.org/)
+
+## References
+
+* [ThoughtBot: Laptop](https://github.com/thoughtbot/laptop)

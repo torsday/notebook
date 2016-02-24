@@ -286,3 +286,8 @@ class User {
   use neatBehaviors, badBehaviors, shenanagins;
 }
 ```
+
+
+## References
+
+* [codeguy/php-the-right-way](https://github.com/codeguy/php-the-right-way)

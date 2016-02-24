@@ -18,13 +18,8 @@
 ## GitHub Repos
 
 * [**John Olmsted's Notes**](https://github.com/qsymmachus/notes)
-* [codeguy: **php-the-right-way**](https://github.com/codeguy/php-the-right-way)
-* [DrkSephy: **es6-cheatsheet**](https://github.com/DrkSephy/es6-cheatsheet)
 * [h5bp: **Front-end-Developer-Interview-Questions**](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
-* [lelylan: **betterspecs**](https://github.com/lelylan/betterspecs/)
 * [nvie: **gitflow**](https://github.com/nvie/gitflow)
-* [ThoughtBot: **Laptop**](https://github.com/thoughtbot/laptop)
-* [ThoughtBot: **TIL**](https://github.com/thoughtbot/til)
 
 
 ## Docs

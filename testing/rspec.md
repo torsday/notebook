@@ -30,6 +30,7 @@ end
 ## References
 
 * [Better Specs { rspec guidelines with ruby }](http://betterspecs.org/)
+* [lelylan/betterspecs](https://github.com/lelylan/betterspecs/)
 
 
 ## See Also
