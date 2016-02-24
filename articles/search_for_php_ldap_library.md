@@ -27,9 +27,9 @@
     - Removing duplicates leaves us:
 
         1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
-        1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
+        1. [github.com/adldap2/adldap2][adldap2]
         1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
-        1. [github.com/imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+        1. [github.com/imag/ldap-bundle][ldap-bundle]
         1. [github.com/ldaptools/ldaptools][ldaptools]
         1. [github.com/zendframework/zend-ldap][zend-ldap]
 
@@ -47,8 +47,8 @@
 
 1. The Shortlist:
 
-    1. [adldap2](https://github.com/adldap2/adldap2)
-    1. [ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+    1. [adldap2][adldap2]
+    1. [ldap-bundle][ldap-bundle]
     1. [ldaptools][ldaptools]
     1. [zend-ldap][zend-ldap]
 
@@ -56,7 +56,7 @@
 
 ## Comparison of the best
 
-### [adldap2/adldap2](https://github.com/adldap2/adldap2)
+### [adldap2/adldap2][adldap2]
 
 > Working with Active Directory doesn't need to be hard. Adldap2 is a tested PHP package that provides LDAP authentication and Active Directory management tools using the Active Record pattern.
 
@@ -73,7 +73,7 @@ Stars        | 74
 YAML config  | ?
 
 
-### [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+### [ldap-bundle][ldap-bundle]
 
 > LdapBundle provides LDAP authentication without using Apache's mod_ldap. The bundle instead **relies on [PHP's LDAP extension](http://php.net/manual/en/book.ldap.php) along with a form to authenticate users**. LdapBundle can also be used for authorization by retrieving the user's roles defined in LDAP.
 
@@ -95,8 +95,6 @@ YAML config  | true
 
 > LdapTools is designed to be customizable for use with pretty much any directory service, but contains default attribute converters and schemas for Active Directory and OpenLDAP.
 
-
-
 x            | y
 -------------|-------------
 Last Commit  | 20 hours ago
@@ -106,7 +104,7 @@ Standing PRs | 0
 Forks        | 1
 Stars        | 54
 YAML config  | true
-docs         | awesome
+docs         | excellent
 
 
 
@@ -129,5 +127,7 @@ YAML config  | ?
 
 
 
+[adldap2]: "https://github.com/adldap2/adldap2"
+[ldap-bundle]: "https://github.com/BorisMorel/LdapBundle"
 [ldaptools]: "https://github.com/ldaptools/ldaptools"
 [zend-ldap]: "https://github.com/zendframework/zend-ldap"
