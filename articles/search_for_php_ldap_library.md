@@ -31,6 +31,7 @@
         1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
         1. [github.com/imag/ldap-bundle][ldap-bundle]
         1. [github.com/ldaptools/ldaptools][ldaptools]
+        1. [github.com/symfony/ldap](https://github.com/symfony/ldap)
         1. [github.com/zendframework/zend-ldap][zend-ldap]
 
 1. Filter out dealbreakers
