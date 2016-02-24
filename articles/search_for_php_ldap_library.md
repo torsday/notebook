@@ -136,7 +136,7 @@ YAML config  | ?
 
 #### Pros
 
-* Excellent documentation
+* [Excellent documentation](http://www.phpldaptools.com/)
 * Actively developed
 * Explicit support for OpenLDAP
 
