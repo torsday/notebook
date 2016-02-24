@@ -8,41 +8,47 @@
 
     - Well rated PHP LDAP libraries on GitHub
 
-        - adLDAP
-        - [adldap2][]
-        - ccottet/ldap
-        - [ldaptools][]
+      - adLDAP
+      - [adldap2][]
+      - ccottet/ldap
+      - [ldaptools][]
 
     - Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
-        - adldap
-        - [adldap2][]
-        - [imag/ldap-bundle][ldap-bundle]
-        - tiesa/ldap
-        - [zend-ldap][]
+      - adldap
+      - [adldap2][]
+      - [imag/ldap-bundle][ldap-bundle]
+      - tiesa/ldap
+      - [zend-ldap][]
 
     - Others of interest
-        - [symfony/ldap][]
+
+      - [symfony/ldap][]
 
     - Removing duplicates leaves us:
 
-        1. [adldap](https://github.com/adldap/adldap)
-        1. [adldap2][]
-        1. [ccottet/ldap](https://github.com/ccottet/ldap)
-        1. [imag/ldap-bundle][ldap-bundle]
-        1. [ldaptools][]
-        1. [symfony/ldap][]
-        1. [zend-ldap][]
+      1. [adldap](https://github.com/adldap/adldap)
+      1. [adldap2][]
+      1. [ccottet/ldap](https://github.com/ccottet/ldap)
+      1. [imag/ldap-bundle][ldap-bundle]
+      1. [ldaptools][]
+      1. [symfony/ldap][]
+      1. [zend-ldap][]
 
 1. Filter out dealbreakers
 
     1. [adldap](https://github.com/adldap/adldap)
+
         - > Version v5.0.0 is in heavy development, however it is close to completion. Use 'dev-master' at you're own risk.
         - ^ 8 months ago was the last commit
+
     1. [ccottet/ldap](https://github.com/ccottet/ldap)
+
         - Last commit was over 3 years ago.
         - Even then, it consists of only 3 commits total.
-    1. [symfony/ldap]
+
+    1. [symfony/ldap][]
+
         - > This component is currently marked as internal, as it still needs some work. **Breaking changes will be introduced in the next minor version** of Symfony.
 
 
@@ -92,9 +98,7 @@
 | Stars        | 104            |
 | YAML config  | true           |
 
-
-
-### [ldaptools]
+### [ldaptools][]
 
 > LdapTools is designed to be customizable for use with pretty much any directory service, but contains default attribute converters and schemas for Active Directory and OpenLDAP.
 
@@ -119,8 +123,6 @@
 
 -   YAML config required
 
-
-
 ### [zend-ldap][]
 
 > `Zend\Ldap\Ldap` is a class for performing LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory.
@@ -144,7 +146,7 @@
 
 ## My Choice: [ldaptools][]
 
--   Actively developed
+-   Actively developed.
 -   Good documentation
 -   Code itself seems good (subjective)
 

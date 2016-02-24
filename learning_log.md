@@ -1,5 +1,29 @@
 # Learning Log
 
+
+- Looking into linting my markdown
+    - https://github.com/wooorm/remark-lint, built on https://github.com/wooorm/remark
+    - configure with `.remarkrc`
+        ```json
+        {
+          "plugins": {
+            "lint": {
+              "no-multiple-toplevel-headings": false,
+              "list-item-indent": false,
+              "maximum-line-length": false,
+              "ordered-list-marker-value": false
+            }
+          },
+          "settings": {
+            "commonmark": true
+          }
+        }
+        ```
+
+2016-02-24
+
+---
+
 - my focus has been on learning [LDAP](./internet/ldap.md) the past few days.
 
 - a gitbook plugin to handle checkmarks: [github.com/LingyuCoder/gitbook-plugin-todo](https://github.com/LingyuCoder/gitbook-plugin-todo)
