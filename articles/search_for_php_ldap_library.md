@@ -9,14 +9,14 @@
     - Well rated PHP LDAP libraries on GitHub
 
         * adLDAP
-        * [Adldap2][adldap2]
+        * [adldap2]
         * ccottet/ldap
         * [ldaptools]
 
     - Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
         * adldap
-        * [adldap2][adldap2]
+        * [adldap2]
         * [imag/ldap-bundle][ldap-bundle]
         * tiesa/ldap
         * [zend-ldap]
@@ -27,7 +27,7 @@
     - Removing duplicates leaves us:
 
         1. [adldap](https://github.com/adldap/adldap)
-        1. [adldap2][adldap2]
+        1. [adldap2]
         1. [ccottet/ldap](https://github.com/ccottet/ldap)
         1. [imag/ldap-bundle][ldap-bundle]
         1. [ldaptools]
@@ -48,8 +48,8 @@
 
 1. The Shortlist:
 
-    1. [adldap2][adldap2]
-    1. [ldap-bundle][ldap-bundle]
+    1. [adldap2]
+    1. [ldap-bundle]
     1. [ldaptools]
     1. [zend-ldap]
 
@@ -57,7 +57,7 @@
 
 ## Comparison of the best
 
-### [adldap2][adldap2]
+### [adldap2]
 
 > Working with Active Directory doesn't need to be hard. Adldap2 is a tested PHP package that provides LDAP authentication and Active Directory management tools using the Active Record pattern.
 
@@ -74,7 +74,7 @@ Stars        | 74
 YAML config  | ?
 
 
-### [ldap-bundle][ldap-bundle]
+### [ldap-bundle]
 
 > LdapBundle provides LDAP authentication without using Apache's mod_ldap. The bundle instead **relies on [PHP's LDAP extension](http://php.net/manual/en/book.ldap.php) along with a form to authenticate users**. LdapBundle can also be used for authorization by retrieving the user's roles defined in LDAP.
 
