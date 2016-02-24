@@ -138,7 +138,7 @@ YAML config  | ?
 
 * Excellent documentation
 * Actively developed
-* Explicit support of OpenLDAP
+* Explicit support for OpenLDAP
 
 #### Cons
 
