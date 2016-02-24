@@ -60,11 +60,38 @@
 
 ### [adldap2/adldap2](https://github.com/adldap2/adldap2)
 
+#### Basic Characteristics
+
+* Last Commit: 14 days ago
+* Contributors: 12
+* Issues: 5
+* Standing PRs: 0
+* Forks: 23
+* Stars: 74
+
 
 ### [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
 
+#### Basic Characteristics
+
+* Last Commit: > 1 year ago
+* Contributors: 27
+* Issues: 35
+* Standing PRs: 21
+* Forks: 93
+* Stars: 104
+
 
 ### [zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+
+#### Basic Characteristics
+
+* Last Commit: 13 days ago
+* Contributors: 100
+* Issues: 13
+* Standing PRs: 8
+* Forks: 12
+* Stars: 8
 
 
 
