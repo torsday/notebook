@@ -31,7 +31,7 @@
         1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
         1. [github.com/imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
         1. [github.com/ldaptools/ldaptools][ldaptools]
-        1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+        1. [github.com/zendframework/zend-ldap][zend-ldap]
 
 1. Filter out dealbreakers
 
@@ -50,7 +50,7 @@
     1. [adldap2](https://github.com/adldap2/adldap2)
     1. [ldap-bundle](https://github.com/BorisMorel/LdapBundle)
     1. [ldaptools][ldaptools]
-    1. [zend-ldap](https://github.com/zendframework/zend-ldap)
+    1. [zend-ldap][zend-ldap]
 
 ---
 
@@ -111,7 +111,7 @@ docs         | awesome
 
 
 
-### [zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+### [zend-ldap][zend-ldap]
 
 > `Zend\Ldap\Ldap` is a class for performing LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory.
 
@@ -130,3 +130,4 @@ YAML config  | ?
 
 
 [ldaptools]: "https://github.com/ldaptools/ldaptools"
+[zend-ldap]: "https://github.com/zendframework/zend-ldap"
