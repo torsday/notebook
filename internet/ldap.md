@@ -37,11 +37,9 @@
 	- [Extended operations](#extended-operations)
 	- [StartTLS](#starttls)
 	- [Abandon](#abandon)
-- [Basics](#basics)
-	- [Binding](#binding)
-	- [Schema](#schema)
-		- [Comparison to spreadsheets](#comparison-to-spreadsheets)
-		- [Example](#example)
+- [Schema](#schema)
+	- [Comparison to spreadsheets](#comparison-to-spreadsheets)
+	- [Example](#example)
 - [Setting up an LDAP Server](#setting-up-an-ldap-server)
 - [LDAP Data Interchange Format *(LDIF)*](#ldap-data-interchange-format-ldif)
 - [From the Command Line](#from-the-command-line)
@@ -185,6 +183,11 @@ userPassword: password
 
 ### Bind (authenticate)
 
+Connecting with authentication is the usual first step in any LDAP client/server transaction. In LDAP-speak this is known as “binding to the server.”
+
+*From: [SuperUser](http://superuser.com/questions/592650/what-does-binding-to-a-ldap-server-mean)*
+> An LDAP client transmits a `BIND` request to a server in order to change the authorization state of the client connection. When a client first connects to an LDAP directory server, the server sets the authorization state of the connection to unauthenticated. When the server receives a `BIND` request, the server sets the authorization state of the connection to unauthenticated immediately. Should the `BIND` request be successful, the server **sets the authorization state of the connection to the state associated with the distinguished-name in the `BIND` request**. LDAPv3 allows a connection to change states any number of times, with the caveat that no requests be outstanding when the `BIND` request is received.
+
 
 ### Delete
 
@@ -229,18 +232,7 @@ employeeNumber: 5
 
 
 
-
-
-## Basics
-
-### Binding
-
-Connecting with authentication is the usual first step in any LDAP client/server transaction. In LDAP-speak this is known as “binding to the server.”
-
-*From: [SuperUser](http://superuser.com/questions/592650/what-does-binding-to-a-ldap-server-mean)*
-> An LDAP client transmits a `BIND` request to a server in order to change the authorization state of the client connection. When a client first connects to an LDAP directory server, the server sets the authorization state of the connection to unauthenticated. When the server receives a `BIND` request, the server sets the authorization state of the connection to unauthenticated immediately. Should the `BIND` request be successful, the server **sets the authorization state of the connection to the state associated with the distinguished-name in the `BIND` request**. LDAPv3 allows a connection to change states any number of times, with the caveat that no requests be outstanding when the `BIND` request is received.
-
-### Schema
+## Schema
 
 A way to describe the format and attributes of data in the server. For example: a schema entered in an LDAP server might define a `groovyPerson` entry type, which has attributes of `instantMessageAddress`, and `coffeeRoastPreference`. The normal attributes of `name`, `email` `address`, etc., would be inherited from one of the standard schemas, which are rooted in X.500.
 
@@ -250,7 +242,7 @@ A way to describe the format and attributes of data in the server. For example: 
 
 > Continuing with our analogy, `ObjectClasses` can be considered to be similar to each sheet within a spreadsheet file. Attributes are then analogous to each column within a sheet. In other words, multiple attributes are grouped together in an `ObjectClass`. Multiple `ObjectClasses` can be grouped to form a record.
 
-#### Comparison to spreadsheets
+### Comparison to spreadsheets
 
 LDAP            | Spreadsheet
 ----------------|-----------------
@@ -258,7 +250,7 @@ schema file     | spreadsheet file
 `ObjectClasses` | each sheet
 attributes      | columns
 
-#### Example
+### Example
 
 *source: [O'Reilly: LDAP Tutorial][oreilly-tutorial]*
 
