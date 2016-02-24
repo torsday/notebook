@@ -4,20 +4,20 @@
 
 1. Well rated PHP LDAP libraries on GitHub
 
-    adldap/adLDAP
-    Adldap2/Adldap2
-    ldaptools/ldaptools
-    ccottet/ldap
+    1. adldap/adLDAP
+    1. Adldap2/Adldap2
+    1. ldaptools/ldaptools
+    1. ccottet/ldap
 
 1. Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
-    zendframework/zend-ldap
-    imag/ldap-bundle
-    adldap/adldap
-    tiesa/ldap
-    adldap2/adldap2
+    1. zendframework/zend-ldap
+    1. imag/ldap-bundle
+    1. adldap/adldap
+    1. tiesa/ldap
+    1. adldap2/adldap2
 
-1. Leaving...
+1. After removing duplicates, leaves us:
 
     1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
     1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
@@ -30,14 +30,14 @@
 
 ## Look for dealbreakers
 
-- [ ] [github.com/adldap/adldap](https://github.com/adldap/adldap)
+1. [ ] [github.com/adldap/adldap](https://github.com/adldap/adldap)
     * > Version v5.0.0 is in heavy development, however it is close to completion. Use 'dev-master' at you're own risk.
     * ^ 8 months ago was the last commit
-- [x] [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
-- [ ] [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
-- [ ] [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
-- [x] [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
-- [ ] [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+1. [x] [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
+1. [ ] [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
+1. [ ] [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+1. [x] [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
+1. [ ] [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 
 
