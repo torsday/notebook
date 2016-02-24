@@ -71,8 +71,10 @@ Issues       | 5
 Standing PRs | 0
 Forks        | 23
 Stars        | 74
-YAML config  | ?
 
+#### Cons
+
+* Active Directory focus (looking for a heart of OpenLDAP)
 
 ### [ldap-bundle]
 
@@ -107,6 +109,15 @@ Stars        | 54
 YAML config  | true
 docs         | excellent
 
+#### Pros
+
+* [Excellent documentation](http://www.phpldaptools.com/)
+* [Actively developed](https://github.com/ldaptools/ldaptools/commits/master)
+* Explicit support for OpenLDAP
+
+#### Cons
+
+* YAML config required
 
 
 
@@ -124,25 +135,18 @@ Issues       | 13
 Standing PRs | 8
 Forks        | 12
 Stars        | 8
-YAML config  | ?
 
+#### Cons
+
+* Zend
 
 ---
 
 ## Most Exciting
 
 
-### [ldaptools]
+* [ldaptools]
 
-#### Pros
-
-* [Excellent documentation](http://www.phpldaptools.com/)
-* [Actively developed](https://github.com/ldaptools/ldaptools/commits/master)
-* Explicit support for OpenLDAP
-
-#### Cons
-
-* YAML config required
 
 
 
