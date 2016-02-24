@@ -2,6 +2,8 @@
 
 ---
 
+## The Process
+
 1. Generate initial list
 
     - Well rated PHP LDAP libraries on GitHub
@@ -52,13 +54,29 @@
     1. [github.com/imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
     1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
+---
+
+## Comparison of the best
+
+### [adldap2/adldap2](https://github.com/adldap2/adldap2)
+
+
+### [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+
+
+### [zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+
+
+
+
+
+
+
+
 
 
 
 ---
-
-
-
 
 ### ldaptools/ldaptools
 
