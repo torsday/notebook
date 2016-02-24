@@ -62,36 +62,45 @@
 
 #### Basic Characteristics
 
-* Last Commit: 14 days ago
-* Contributors: 12
-* Issues: 5
-* Standing PRs: 0
-* Forks: 23
-* Stars: 74
+x            | y
+-------------|------------
+Last Commit  | 14 days ago
+Contributors | 12
+Issues       | 5
+Standing PRs | 0
+Forks        | 23
+Stars        | 74
+YAML         | ?
 
 
 ### [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
 
 #### Basic Characteristics
 
-* Last Commit: > 1 year ago
-* Contributors: 27
-* Issues: 35
-* Standing PRs: 21
-* Forks: 93
-* Stars: 104
+x            | y
+-------------|-------------
+Last Commit  | > 1 year ago
+Contributors | 27
+Issues       | 35
+Standing PRs | 21
+Forks        | 93
+Stars        | 104
+YAML         | ?
 
 
 ### [zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 #### Basic Characteristics
 
-* Last Commit: 13 days ago
-* Contributors: 100
-* Issues: 13
-* Standing PRs: 8
-* Forks: 12
-* Stars: 8
+x            | y
+-------------|------------
+Last Commit  | 13 days ago
+Contributors | 100
+Issues       | 13
+Standing PRs | 8
+Forks        | 12
+Stars        | 8
+YAML         | ?
 
 
 
