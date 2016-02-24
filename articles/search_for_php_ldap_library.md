@@ -1,4 +1,4 @@
-# TEMP
+# Search for the Right PHP LDAP Library
 
 ---
 
@@ -9,7 +9,7 @@
     ldaptools/ldaptools
     ccottet/ldap
 
-1. Well rated PHP LDAP Libraries on Packagist
+1. Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
     zendframework/zend-ldap
     imag/ldap-bundle
@@ -24,7 +24,6 @@
     1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
     1. [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
     1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
-    1. [tiesa/ldap](https://github.com/ccottet/ldap)
     1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 ---
@@ -37,8 +36,7 @@
 - [x] [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
 - [ ] [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
 - [ ] [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
-- [ ] [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
-- [ ] [tiesa/ldap](https://github.com/ccottet/ldap)
+- [x] [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
 - [ ] [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 
@@ -46,8 +44,6 @@
 ---
 
 ## LDAP Libraries
-
-[packagist.org: LDAP](https://packagist.org/search/?q=ldap)
 
 ### Symfony LDAP
 
