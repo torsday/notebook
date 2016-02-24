@@ -28,7 +28,7 @@
 
 1. Filter out dealbreakers
 
-    1.  [github.com/adldap/adldap](https://github.com/adldap/adldap)
+    1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
         * > Version v5.0.0 is in heavy development, however it is close to completion. Use 'dev-master' at you're own risk.
         * ^ 8 months ago was the last commit
     1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
