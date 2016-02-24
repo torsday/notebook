@@ -147,7 +147,7 @@ YAML config  | ?
 
 
 
-[adldap2]: https://github.com/adldap2/adldap2
-[ldap-bundle]: https://github.com/BorisMorel/LdapBundle
-[ldaptools]: https://github.com/ldaptools/ldaptools
-[zend-ldap]: https://github.com/zendframework/zend-ldap
+[adldap2]: https://github.com/adldap2/adldap2 "AdLDAP2"
+[ldap-bundle]: https://github.com/BorisMorel/LdapBundle "LDAP Bundle"
+[ldaptools]: https://github.com/ldaptools/ldaptools "LDAP Tools"
+[zend-ldap]: https://github.com/zendframework/zend-ldap "Zend LDAP"
