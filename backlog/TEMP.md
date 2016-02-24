@@ -2,6 +2,33 @@
 
 ---
 
+1. Well rated PHP LDAP libraries on GitHub
+
+    adldap/adLDAP
+    Adldap2/Adldap2
+    ldaptools/ldaptools
+    ccottet/ldap
+
+1. Well rated PHP LDAP Libraries on Packagist
+
+    zendframework/zend-ldap
+    imag/ldap-bundle
+    adldap/adldap
+    tiesa/ldap
+    adldap2/adldap2
+
+1. Leaving...
+
+    1. [github.com/adldap/adldap](https://github.com/adldap/adldap)
+    1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
+    1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
+    1. [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
+    1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
+    1. [tiesa/ldap](https://github.com/ccottet/ldap)
+    1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
+
+---
+
 ## LDAP Libraries
 
 [packagist.org: LDAP](https://packagist.org/search/?q=ldap)
@@ -26,10 +53,14 @@ Pro: only dependency is PhpUnit
 
 Pros:
 
-* popular (54 stars on github)
 * no issues
 * recent commits
 * nice docs: http://www.phpldaptools.com/
+
+Cons:
+
+* YAML
+
 
 ---
 
