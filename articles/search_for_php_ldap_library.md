@@ -28,13 +28,19 @@
 
 1. Filter out dealbreakers
 
-    1. [ ] [github.com/adldap/adldap](https://github.com/adldap/adldap)
+    1.  [github.com/adldap/adldap](https://github.com/adldap/adldap)
         * > Version v5.0.0 is in heavy development, however it is close to completion. Use 'dev-master' at you're own risk.
         * ^ 8 months ago was the last commit
-    1. [x] [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
-    1. [ ] [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
+    1. [github.com/ccottet/ldap](https://github.com/ccottet/ldap)
+        * Last commit was over 3 years ago.
+        * Even then, it consists of only 3 commits total.
+
+
+1. The Final Four:
+
+    1. [ ] [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
     1. [ ] [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
-    1. [x] [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
+    1. [ ] [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
     1. [ ] [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 
