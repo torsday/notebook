@@ -21,6 +21,7 @@
     * [Onion](architectures/onion.md)
 * [Articles](articles/README.md)
     * [Squash](articles/squash.md)
+    * [The Right PHP LDAP Library](articles/search_for_php_ldap_library.md)
 * [Debugging](debugging/README.md)
     * [Pry]()
     * [XDebug]()
