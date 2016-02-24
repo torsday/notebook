@@ -1,5 +1,6 @@
 # Learning Log
 
+- set configs for project: https://atom.io/packages/editorconfig
 
 - Looking into linting my markdown
     - https://github.com/wooorm/remark-lint, built on https://github.com/wooorm/remark
