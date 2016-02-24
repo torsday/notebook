@@ -41,6 +41,8 @@
         * Even then, it consists of only 3 commits total.
     1. [github.com/symfony/ldap](https://github.com/symfony/ldap)
         * > This component is currently marked as internal, as it still needs some work. **Breaking changes will be introduced in the next minor version** of Symfony.
+    1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
+        * Only 1 contributor.
 
 
 
@@ -48,7 +50,6 @@
 
     1. [github.com/adldap2/adldap2](https://github.com/adldap2/adldap2)
     1. [imag/ldap-bundle](https://github.com/BorisMorel/LdapBundle)
-    1. [github.com/ldaptools/ldaptools](https://github.com/ldaptools/ldaptools)
     1. [github.com/zendframework/zend-ldap](https://github.com/zendframework/zend-ldap)
 
 
