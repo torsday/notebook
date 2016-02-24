@@ -132,7 +132,7 @@ YAML config  | ?
 ## Most Exciting
 
 
-### [ldaptools][ldaptools]
+### [ldaptools]
 
 #### Pros
 
