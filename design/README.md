@@ -1,5 +1,27 @@
 # Design
 
+---
+
+**Table of Contents**
+
+<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Principles](#principles)
+- [Architecture](#architecture)
+- [Design Patterns](#design-patterns)
+	- [Creational](#creational)
+	- [Structural](#structural)
+	- [Behavioral](#behavioral)
+- [References](#references)
+
+<!-- /TOC -->
+
+<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+---
+
 ## Principles
 
 -   [SOLID Principles](./solid.md)
@@ -36,19 +58,19 @@
 -   [State](./state.md)
 -   [Strategy](./strategy.md)
 
-## Creational
+### Creational
 
 [Source Making][source_making]
 
 > These design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
 
-## Structural
+### Structural
 
 [Source Making][source_making]
 
 > These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
 
-## Behavioral
+### Behavioral
 
 [Source Making][source_making]
 
