@@ -8,7 +8,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
     -   How data is represented in the directory service.
     -   How data is loaded (imported) into and saved (exported) from a directory service (using LDIF).
 
-LDAP does not define how data is stored or manipulated. Data storage and access methods are automagical processes as far as the standard is concerned.
+*note: LDAP does not define how data is stored or manipulated.*
 
 ---
 
