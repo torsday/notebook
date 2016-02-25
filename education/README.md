@@ -6,7 +6,7 @@ Both for further understanding, as well as in building this book.
 
 -   [ ] sequence diagram of HTTP
 
--   [ ] Gang-of-Four design patterns
+-   [ ] Gang-of-Four design patterns. common patterns and their ideal usage.
 
 -   [ ] OOP concepts
 
@@ -24,8 +24,6 @@ Both for further understanding, as well as in building this book.
 -   [ ] Build and release processes
 
 -   [ ] RESTful API’s, knowledgeable of common practices and concerns
-
--   [ ] common patterns and their ideal usage
 
 -   [x] SOLID Principles
 
