@@ -1,6 +1,6 @@
 # SOLID Principles
 
-A mnemonic acronym that stands for five basic principles of object-oriented programming and design.
+A mnemonic acronym basic principles of object-oriented programming and design.
 
 -   **S**ingle Responsibility Principle
 -   **O**pen/closed Principle
