@@ -27,7 +27,9 @@ Both for further understanding, as well as in building this book.
 
 -   [ ] common patterns and their ideal usage
 
--   [ ] SOLID and DDD principles
+-   [x] SOLID Principles
+
+-   [ ] DDD principles
 
 ## References
 
