@@ -6,6 +6,10 @@
 
     -   [Remark Lint](https://github.com/wooorm/remark-lint), built on [Remark](https://github.com/wooorm/remark). Rules can be found [here](https://github.com/wooorm/remark-lint/blob/master/doc/rules.md)
 
+        ```sh
+        npm install --global remark remark-lint
+        ```
+
     -   configure with `.remarkrc`
 
         ```json
