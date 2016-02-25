@@ -19,6 +19,8 @@
 
 **Table of Contents**
 
+<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines-->
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Why?](#why)
@@ -60,6 +62,8 @@
 - [References](#references)
 
 <!-- /TOC -->
+
+<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines-->
 
 ---
 

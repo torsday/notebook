@@ -31,13 +31,11 @@ print "This prints, too";
 // This is a comment
 ```
 
-
 ## Variables
 
 ```php
 $myName = "Carleton John";
 ```
-
 
 ## Strings
 
@@ -57,7 +55,6 @@ strtolower("HI")  # =>  "hi"
 strpos("John", "o")  # =>  1
 ```
 
-
 ## Numbers
 
 ```php
@@ -67,7 +64,6 @@ round(3.145, 1)  # =>  3.1
 rand()  # =>  prints random number between 0 and 32767
 rand(1, 10)  # =>  prints a random number between 0 and 10
 ```
-
 
 ## Arrays
 
@@ -86,7 +82,6 @@ sort($myArray);
 
 join(", ", $myArray);
 ```
-
 
 ## Control Flow
 
@@ -129,7 +124,6 @@ switch(value) {
 }
 ```
 
-
 ## Loops
 
 ```php
@@ -158,7 +152,6 @@ do {
 } while (condition)
 ```
 
-
 ## Functions
 
 ```php
@@ -167,7 +160,6 @@ function name(parameters) {
   return something;
 }
 ```
-
 
 ## Classes & Objects
 
@@ -200,13 +192,11 @@ $me = new Person("John", "Olmsted", 28);
 echo $me->firstName  =>  "John"
 ```
 
-
 ## Method & Property Visibility
 
-* **Public** – accessible everywhere.
-* **Protected** – accessible within the class itself and subclasses.
-* **Private** – accessible only within the class itself.
-
+-   **Public** – accessible everywhere.
+-   **Protected** – accessible within the class itself and subclasses.
+-   **Private** – accessible only within the class itself.
 
 ## Inheritance
 
@@ -220,7 +210,6 @@ class Fireman extends Person {
 
 }
 ```
-
 
 ## Class Abstraction
 
@@ -287,7 +276,6 @@ class User {
 }
 ```
 
-
 ## References
 
-* [codeguy/php-the-right-way](https://github.com/codeguy/php-the-right-way)
+-   [codeguy/php-the-right-way](https://github.com/codeguy/php-the-right-way)
