@@ -8,48 +8,48 @@
 
     -   Well rated PHP LDAP libraries on GitHub
 
-      -  adLDAP
-      -  [adldap2][]
-      -  ccottet/ldap
-      -  [ldaptools][]
+        -   adLDAP
+        -   [adldap2][]
+        -   ccottet/ldap
+        -   [ldaptools][]
 
-    - Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
+    -   Well rated PHP LDAP Libraries on [Packagist](https://packagist.org/search/?q=ldap)
 
-      - adldap
-      - [adldap2][]
-      - [imag/ldap-bundle][ldap-bundle]
-      - tiesa/ldap
-      - [zend-ldap][]
+        -   adldap
+        -   [adldap2][]
+        -   [imag/ldap-bundle][ldap-bundle]
+        -   tiesa/ldap
+        -   [zend-ldap][]
 
-    - Others of interest
+    -   Others of interest
 
-      - [symfony/ldap][]
+        -   [symfony/ldap][]
 
-    - Removing duplicates leaves us:
+    -   Removing duplicates leaves us:
 
-      - [adldap](https://github.com/adldap/adldap)
-      - [adldap2][]
-      - [ccottet/ldap](https://github.com/ccottet/ldap)
-      - [imag/ldap-bundle][ldap-bundle]
-      - [ldaptools][]
-      - [symfony/ldap][]
-      - [zend-ldap][]
+        -   [adldap](https://github.com/adldap/adldap)
+        -   [adldap2][]
+        -   [ccottet/ldap](https://github.com/ccottet/ldap)
+        -   [imag/ldap-bundle][ldap-bundle]
+        -   [ldaptools][]
+        -   [symfony/ldap][]
+        -   [zend-ldap][]
 
 1.  Filter out dealbreakers
 
     1.  [adldap](https://github.com/adldap/adldap)
 
-        - > Version v5.0.0 is in heavy development, however it is close to completion. Use 'dev-master' at you're own risk.
-        - ^ 8 months ago was the last commit
+        -   > Version v5.0.0 is in heavy development, however it is close to completion. Use 'dev-master' at you're own risk.
+        -   ^ 8 months ago was the last commit
 
     1.  [ccottet/ldap](https://github.com/ccottet/ldap)
 
-        - Last commit was over 3 years ago.
-        - Even then, it consists of only 3 commits total.
+        -   Last commit was over 3 years ago.
+        -   Even then, it consists of only 3 commits total.
 
     1.  [symfony/ldap][]
 
-        - > This component is currently marked as internal, as it still needs some work. **Breaking changes will be introduced in the next minor version** of Symfony.
+        -   > This component is currently marked as internal, as it still needs some work. **Breaking changes will be introduced in the next minor version** of Symfony.
 
 
 1.  The Shortlist:
