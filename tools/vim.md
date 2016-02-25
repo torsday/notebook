@@ -1,5 +1,11 @@
 # Vim
 
+---
+
+**Table of Contents**
+
+<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [[`.vimrc`](https://github.com/torsday/dotfiles/blob/master/.vimrc)](#vimrchttpsgithubcomtorsdaydotfilesblobmastervimrc)
@@ -17,6 +23,10 @@
 	- [To run the macro:](#to-run-the-macro)
 
 <!-- /TOC -->
+
+<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+---
 
 ## [`.vimrc`](https://github.com/torsday/dotfiles/blob/master/.vimrc)
 
@@ -348,13 +358,10 @@ sequentially.
 
 To break it down:
 
-* `-c 'profile start vim.log'` starts the profiler, logging results to the
-  vim.log file.
-* `-c 'profile func *'` enables profiling of functions matching the given
-  pattern. All functions, in this case.
-* `-c 'e config/routes.rb'` opens the routes file. This was arbitrary for my
-  purposes, as opening any file in the Rails application was slow.
-* `-c 'q'` quits.
+-   `-c 'profile start vim.log'` starts the profiler, logging results to the vim.log file.
+-   `-c 'profile func *'` enables profiling of functions matching the given pattern. All functions, in this case.
+-   `-c 'e config/routes.rb'` opens the routes file. This was arbitrary for my purposes, as opening any file in the Rails application was slow.
+-   `-c 'q'` quits.
 
 The `vim.log` file has a lot of detail about the functions that were executed.
 Here's a short one that was near the top for me.
@@ -379,10 +386,8 @@ count  total (s)   self (s)  function
     1   2.203751   0.000457  rails#buffer_syntax()
 ```
 
-[official docs]: http://vimdoc.sourceforge.net/htmldoc/repeat.html#profiling
-
-
 ---
+
 ## Search & Replace in multiple files
 
 I recently had to replace static files path in multiple files from a project
@@ -439,7 +444,6 @@ Or you can pipe it on the first command:
 
 And that's it!
 
-
 ---
 
 ## Yanking text to register
@@ -485,3 +489,6 @@ If you want to repeat a bunch of vim commands for running multiple times, record
 ### To run the macro:
 
 `@` followed by the **same char** you chose to store the macro.
+
+
+[official docs]: http://vimdoc.sourceforge.net/htmldoc/repeat.html#profiling
