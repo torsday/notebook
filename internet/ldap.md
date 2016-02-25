@@ -65,8 +65,8 @@
 
 ## Why?
 
-- Centralize and make available all sorts of infrastructure information.
-- Industry standard for directory access.
+-   Centralize and make available all sorts of infrastructure information.
+-   Industry standard for directory access.
 
 ## Vocabulary
 
@@ -108,9 +108,11 @@
 
 ### Timeline
 
-1.   A client starts an LDAP session by connecting to an LDAP server, called a Directory System Agent (DSA).
-1.   The client then sends an operation request to the server, and the server sends responses in return.
-     -   With some exceptions, the client does not need to wait for a response before sending the next request, and the server may send the responses in any order.
+1.  A client starts an LDAP session by connecting to an LDAP server, called a Directory System Agent (DSA).
+
+1.  The client then sends an operation request to the server, and the server sends responses in return.
+
+    -   With some exceptions, the client does not need to wait for a response before sending the next request, and the server may send the responses in any order.
 
 #### The client may request the following operations:
 
@@ -130,9 +132,9 @@
 
 The protocol provides an interface with directories that follow the 1993 edition of the X.500 model:
 
-- An entry consists of a set of attributes.
-- An attribute has a name (an attribute type or attribute description) and one or more values. The attributes are defined in a schema (see below).
-- Each entry has a unique identifier: its Distinguished Name (DN). This consists of its Relative Distinguished Name (RDN), constructed from some attribute(s) in the entry, followed by the parent entry's DN. Think of the DN as the full file path and the RDN as its relative filename in its parent folder (e.g. if /foo/bar/myfile.txt were the DN, then myfile.txt would be the RDN).
+-   An entry consists of a set of attributes.
+-   An attribute has a name (an attribute type or attribute description) and one or more values. The attributes are defined in a schema (see below).
+-   Each entry has a unique identifier: its Distinguished Name (DN). This consists of its Relative Distinguished Name (RDN), constructed from some attribute(s) in the entry, followed by the parent entry's DN. Think of the DN as the full file path and the RDN as its relative filename in its parent folder (e.g. if /foo/bar/myfile.txt were the DN, then myfile.txt would be the RDN).
 
 A DN may change over the lifetime of the entry, for instance, when entries are moved within a tree. To reliably and unambiguously identify entries, a UUID might be provided in the set of the entry's operational attributes.
 
