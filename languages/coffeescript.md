@@ -1,8 +1,10 @@
 # CoffeeScript
 
-*From: [Wikipedia](https://en.wikipedia.org/wiki/CoffeeScript)*
+A programming language that transcompiles to JavaScript.
 
-> A programming language that transcompiles to JavaScript. It adds syntactic sugar inspired by Ruby, Python and Haskell in an effort to enhance JavaScript's brevity and readability. Specific additional features include list comprehension and pattern matching.
+Inspired by Ruby, Python and Haskell in the name of brevity and readability.
+
+Specific additional features include list comprehension and pattern matching.
 
 ## Installation
 
@@ -62,6 +64,34 @@ alert "I knew it!" if elvis?
 
 ```coffeescript
 cubes = (math.cube num for num in list)
+```
+
+## Functions
+
+```coffeescript
+square = (x) -> x * x
+cube   = (x) -> square(x) * x
+```
+
+vs JS
+
+```js
+var cube, square;
+
+square = function(x) {
+  return x * x;
+};
+
+cube = function(x) {
+  return square(x) * x;
+};
+```
+
+### Default Values
+
+```coffeescript
+fill = (container, liquid = "coffee") ->
+  "Filling the #{container} with #{liquid}..."
 ```
 
 ## Examples

@@ -16,6 +16,10 @@ A protocol which is intended or expected to be read by a machine rather than a h
 
 In Ruby, blocks are closures (anonymous functions) that can be passed to many methods.
 
+## Brevity
+
+Concise and exact use of words in writing or speech.
+
 ## Callbacks
 
 Functions that are executed asynchronously.
