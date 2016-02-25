@@ -71,6 +71,19 @@ There are three actors involved with delivering a push notification, along with 
 
 ---
 
+## iOS vs Android
+
+|                                 | iOS                          | Android     |
+|---------------------------------|------------------------------|-------------|
+| Opt-in require                  | true                         | false       |
+| Payload limit                   | 2kb                          | 4kb         |
+| Buttons                         | 2                            | 3           |
+| Feedback                        | Through APNs Feedback Server | From Device |
+| Direct app feedback on delivery | no                           | yes         |
+| Two way messaging support       | No                           | Yes (XMPP)  |
+| Multi-device Messaging          | No                           | Yes         |
+
+
 ## References
 
 -   [Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)
