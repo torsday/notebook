@@ -30,6 +30,7 @@ Repos I have in my `~/code` directory for reference and fun.
 
 ```sh
 git clone git@github.com:torsday/notebook.git
+git clone git@github.com:atom/docs.git
 # git clone git@github.com:DrkSephy/es6-cheatsheet.git
 ```
 

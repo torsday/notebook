@@ -81,3 +81,9 @@ lodash \
 react \
 redux \
 ```
+
+## Creating a module
+
+## References
+
+-   [npmjs: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)

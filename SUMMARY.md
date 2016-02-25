@@ -158,6 +158,7 @@
 
 -   [Tools](tools/README.md)
 
+    -   [Atom]()
     -   [Git](tools/git.md)
     -   [Homebrew](tools/homebrew.md)
     -   [Linux](tools/linux.md)
