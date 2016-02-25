@@ -168,6 +168,10 @@ Software Engineer in Test
 
 A Service in Domain Driven Design is simply a stateless object that performs an action.
 
+## Sorting Algorithm
+
+An algorithm that puts elements of a list in a certain order.
+
 ## SQLite
 
  A software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
