@@ -1,8 +1,40 @@
 # Design
 
+## Principles
+
+-   [SOLID Principles](./solid.md)
+
 ## Architecture
 
+-   [Domain Driven Design](./ddd.md)
+-   [Onion](./onion.md)
+
 ## Design Patterns
+
+-   [Abstract Factory](./abstract_factory.md)
+-   [Active Record Pattern](./active_record_pattern.md)
+-   [Adapter](./adapter.md)
+-   [Bridge](./bridge.md)
+-   [Chain of Responsibility](./chain_of_responsibility.md)
+-   [Command](./command.md)
+-   [Composite](./composite.md)
+-   [CQRS](./cqrs.md)
+-   [Decorator](./decorator.md)
+-   [Factory Method](./factory_method.md)
+-   [Flyweight](./flyweight.md)
+-   [Hexagonal](./hexagonal.md)
+-   [Iterator](./iterator.md)
+-   [Lazy Loading](./lazy_loading.md)
+-   [Mediator](./mediator.md)
+-   [Memento](./memento.md)
+-   [MVC](./mvc.md)
+-   [Observer](./observer.md)
+-   [Proxy](./proxy.md)
+-   [Pub-sub Pattern](./pub_sub.md)
+-   [Singleton](./singleton.md)
+-   [Specification Pattern](./specification_pattern.md)
+-   [State](./state.md)
+-   [Strategy](./strategy.md)
 
 ## Creational
 
