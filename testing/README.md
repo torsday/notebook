@@ -1,22 +1,8 @@
 # Testing
 
-## Interests
-
-* Cucumber
-* Rspec
-* Selenium
-
-
 ## Unit Tests
 
 > Tests the smallest unit of functionality, typically a method/function (e.g. given a class with a particular state, calling x method on the class should cause y to happen). Unit tests should be focussed on one particular feature (e.g., calling the pop method when the stack is empty should throw an InvalidOperationException). Everything it touches should be done in memory; this means that the test code and the code under test shouldn't:
-
-> Call out into (non-trivial) collaborators
-> * Access the network
-> * Hit a database
-> * Use the file system
-> * Spin up a thread
-> * etc.
 
 > Any kind of dependency that is slow / hard to understand / initialise / manipulate should be stubbed/mocked/whatevered using the appropriate techniques so you can focus on what the unit of code is doing, not what its dependencies do.
 
@@ -39,11 +25,13 @@
 ## Functional Tests
 
 *From: [StackOverflow](http://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test)*
+
 > Functional tests check a particular feature for correctness by comparing the results for a given input against the specification. Functional tests don't concern themselves with intermediate results or side-effects, just the result (they don't care that after doing x, object y has state z). They are written to test part of the specification such as, "calling function Square(x) with the argument of 2 returns 4".
 
 ## Acceptance Tests
 
 *From: [StackOverflow](http://stackoverflow.com/questions/4904096/whats-the-difference-between-unit-functional-acceptance-and-integration-test)*
+
 > Acceptance testing seems to be split into two types:
 
 > Standard acceptance testing involves performing tests on the full system (e.g. using your web page via a web browser) to see whether the application's functionality satisfies the specification. E.g. "clicking a zoom icon should enlarge the document view by 25%." There is no real continuum of results, just a pass or fail outcome.
