@@ -50,7 +50,7 @@ Directory Information Tree.
 
 ## Docker
 
-Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. https://docs.docker.com
+Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. <https://docs.docker.com>
 
 ## Domain-Specific Language
 
@@ -82,7 +82,7 @@ Specifies what methods a class must implement (an interface). An interface is sl
 
 ## Kitematic
 
-The Docker GUI, runs on Mac OS X and Windows operating systems. https://docs.docker.com/kitematic/
+The Docker GUI, runs on Mac OS X and Windows operating systems. <https://docs.docker.com/kitematic>
 
 ## Lambda
 
@@ -192,7 +192,7 @@ A universally unique identifier (UUID) is an identifier standard used in softwar
 
 An advanced technology that makes it possible to open an interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
 
-# X.500
+## X.500
 
 A complex enterprise directory system.
 
