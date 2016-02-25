@@ -4,19 +4,16 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 [docs](https://docs.docker.com/)
 
-
 ## Boot2docker
 
-The Docker Engine uses Linux-specific kernel features, so to run it on OS X we need to use a lightweight virtual machine. To make this process easier, there is a helper application called Boot2Docker that installs the virtual machine and runs the Docker daemon: https://docs.docker.com/installation/mac/
-
+The Docker Engine uses Linux-specific kernel features, so to run it on OS X we need to use a lightweight virtual machine. To make this process easier, there is a helper application called Boot2Docker that installs the virtual machine and runs the Docker daemon: <https://docs.docker.com/installation/mac>
 
 ## Docker Tools
 
-* Daemon: used to manage local docker containers.
-* CLI: used to command and communicate with the docker daemon.
-* Image Index: a repository (public or private) for docker images.
-* [Toolbox](https://www.docker.com/products/docker-toolbox): an installer to quickly and easily install and setup a Docker environment on your computer.
-
+-   Daemon: used to manage local docker containers.
+-   CLI: used to command and communicate with the docker daemon.
+-   Image Index: a repository (public or private) for docker images.
+-   [Toolbox](https://www.docker.com/products/docker-toolbox): an installer to quickly and easily install and setup a Docker environment on your computer.
 
 ## Docker Elements
 
@@ -24,30 +21,32 @@ The Docker Engine uses Linux-specific kernel features, so to run it on OS X we n
 
 A Linux Container, (sort of) like a directory, it holds everything needed for an app to run.
 
-  * Docker containers are essentially directories that can be packed (e.g. tar-archived), the shared and run on other hosts. The only dependency is having docker installed on the hosts.
-  * Docker containers allow:
-    * Application portability,
-    * Isolating processes,
-    * Preventing access beyond the container's own filesystem,
-    * All while being more much lightweight than a virtual machine.
-  * When everything is self-contained and the risk of system-level changes are eliminated, the container becomes immune to external exposures which could put it out of order (i.e. 'dependency hell').
-  * NB: docker depends on a single process to run. When that process stops, the container stops.
+-   Docker containers are essentially directories that can be packed (e.g. tar-archived), the shared and run on other hosts. The only dependency is having docker installed on the hosts.
 
+-   Docker containers allow:
+
+    -   Application portability,
+    -   Isolating processes,
+    -   Preventing access beyond the container's own filesystem,
+    -   All while being more much lightweight than a virtual machine.
+
+-   When everything is self-contained and the risk of system-level changes are eliminated, the container becomes immune to external exposures which could put it out of order (i.e. 'dependency hell').
+
+-   NB: docker depends on a single process to run. When that process stops, the container stops.
 
 ### IMAGE:
 
 read-only template for a docker container.
 
-  * Uses a union file system (UFS) to 'layer' file system branches on top of each other. Every time a change is made to a Docker image, a new layer is created.
-  * Docker images are built from a set a steps called instructions. These instructions can be built either by executing commands manually or automatically through Dockerfiles.
-  * As more layers (tools, applications, etc.) are added on top of the base, new images can be formed by committing these changes – like a version control system!
-
+-   Uses a union file system (UFS) to 'layer' file system branches on top of each other. Every time a change is made to a Docker image, a new layer is created.
+-   Docker images are built from a set a steps called instructions. These instructions can be built either by executing commands manually or automatically through Dockerfiles.
+-   As more layers (tools, applications, etc.) are added on top of the base, new images can be formed by committing these changes – like a version control system!
 
 ### REGISTRY:
 
 private or public stores for docker images. Docker Hub is a public registry.
-  * There are a bunch of free docker images for common services! https://registry.hub.docker.com/
 
+-   There are a bunch of free docker images for common services! <https://registry.hub.docker.com>
 
 ## Working with a Dockerfile
 
@@ -58,7 +57,6 @@ docker build -t [name for image] [directory where Dockerfile lives]
 ```
 
 This generates a docker image. You create the container from the image with:
-
 
 ## Working with Docker Images
 
@@ -89,8 +87,7 @@ docker ps -l
 
 COMMIT an image. As you work with a container and continue to perform actions on it (e.g. download and install software, configure files), to have it keep its state, commit:
 
-sudo docker commit [container ID] [image name]
-
+sudo docker commit [container ID][image name]
 
 ## Working with Docker Containers
 
@@ -123,7 +120,6 @@ If you want to forward a port on the host to a port on the container:
 docker run --publish 3000:3000 [image name] [command to run]
 ```
 
-
 ### STOPPING a container:
 
 ```bash
@@ -136,7 +132,9 @@ docker stop [container id]
 docker rm [container id]
 ```
 
-### ATTACHING yourself to a container, i.e. your console will run commands within the container itself:
+### ATTACHING yourself to a container
+
+i.e. your console will run commands within the container itself
 
 ```bash
 docker attach [container id]
@@ -144,11 +142,10 @@ docker attach [container id]
 
 To 'detach' the current container, type ^+P followed by ^+Q
 
-
 ## References
 
-* [Deploy Rails Application using Docker](http://steveltn.me/blog/2014/03/15/deploy-rails-applications-using-docker/)
-* [Docker Explained: How To Containerize and Use Nginx as a Proxy](https://www.digitalocean.com/community/tutorials/docker-explained-how-to-containerize-and-use-nginx-as-a-proxy)
-* [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
-* [hub.docker.com](https://hub.docker.com/)
-* [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)
+-   [Deploy Rails Application using Docker](http://steveltn.me/blog/2014/03/15/deploy-rails-applications-using-docker/)
+-   [Docker Explained: How To Containerize and Use Nginx as a Proxy](https://www.digitalocean.com/community/tutorials/docker-explained-how-to-containerize-and-use-nginx-as-a-proxy)
+-   [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
+-   [hub.docker.com](https://hub.docker.com/)
+-   [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)

@@ -6,6 +6,8 @@ The default package manager for the JavaScript runtime environment Node.js.
 
 **Table of Contents**
 
+<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Basics](#basics)
@@ -20,6 +22,8 @@ The default package manager for the JavaScript runtime environment Node.js.
 
 <!-- /TOC -->
 
+<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
 ---
 
 ## Basics
@@ -29,7 +33,6 @@ The default package manager for the JavaScript runtime environment Node.js.
 ```sh
 npm install npm -g
 ```
-
 
 ### install npm's local dependencies
 
@@ -61,7 +64,6 @@ npm view <package> version
 npm ls
 npm -g ls
 ```
-
 
 ## Favorite Global Packages
 
