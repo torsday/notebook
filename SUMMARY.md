@@ -56,7 +56,7 @@
     -   [Proxy](design/proxy.md)
     -   [Pub-sub Pattern](design/pub_sub.md)
     -   [Singleton](design/singleton.md)
-    -   [SOLID]()
+    -   [SOLID](design/solid.md)
     -   [Specification Pattern](design/specification_pattern.md)
     -   [State](design/state.md)
     -   [Strategy](design/strategy.md)
