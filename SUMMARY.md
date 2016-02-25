@@ -112,8 +112,6 @@
     -   [grep](linux/grep.md)
     -   [rsync](linux/rsync.md)
 
--   [My Setup](setup/README.md)
-
 -   [Ops](ops/README.md)
 
     -   [Babel]()
