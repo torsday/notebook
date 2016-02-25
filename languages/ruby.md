@@ -214,13 +214,21 @@ for x in 1...10  Up to 10, exclusive (9 times), e.g.: for num in 1...10   puts n
 
 for x in 1..10  Up to 10, inclusive (10 times)
 
-## One Line Ifs & Ternary Conditional Expressions & Case Statements
+## One Line Ifs
 
 ```ruby
 puts "It's true" if true
+```
 
+## Ternary Conditional Expressions
+
+```ruby
 puts 0 < 1 ? "0 is less than one" : "0 is greater than 1"
+```
 
+## Case Statements
+
+```ruby
 case which_is_greater
 when x > y then puts "x is greater."
 when x < y then  puts "y is greater."
@@ -443,6 +451,7 @@ $ # global variable (variables are global by default unless inside a    method o
 @ # instance variable (specific to a single instance of a class).
 @@ # class variable
 ```
+
 ## Classes
 
 ```ruby
@@ -470,6 +479,7 @@ attr_accessor :variable  # allows you to both read and edit "variable"
 ### calling a parent method in ruby:
 
 *From: [StackOverflow](https://stackoverflow.com/questions/18448831/calling-method-in-parent-class-from-subclass-methods-in-ruby)*
+
 > If the method is the same name, i.e. you're overriding a method you can simply use super. Otherwise you can use an alias_method or a binding.
 
 ```ruby
@@ -577,11 +587,8 @@ will sometimes return `nil`
 [].drop(1) # => []
 ```
 
-[shift docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-shift
-[slice docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-slice
-[drop docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-drop
-
 ---
+
 ## Returning a fixed number of items from the tail of a list
 
 [`Array#last`][last docs] takes an argument to limit the number of items to return
@@ -591,9 +598,8 @@ from the tail of a list.
 > [1,2,3,4,5].last(2) # => [4, 5]
 ```
 
-[last docs]: (http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-last)
-
 ---
+
 ## Basic Object
 
 Ruby has a `BasicObject` class which doesn't include Kernel methods and acts as
@@ -652,8 +658,8 @@ ListDelegator.new(Out.new).to_s # => "#<ListDelegator2:0x007fcab400d148>"
 ListDelegatorBasic.new(Out.new).to_s # => ["Out"]
 ```
 
-
 ---
+
 ## Currying in Ruby
 
 Ruby defines `curry` for `Method` and `Proc`, allowing procs to return partially
@@ -671,12 +677,10 @@ double[3] # => 6
 only added in Ruby 2.2.0. For versions before 2.2.0, you will first need to
 convert your method object to a proc via `Method#to_proc`.
 
-Check out the [Ruby docs] for more details.
-
-[Ruby docs]: http://ruby-doc.org/core-2.2.0/Proc.html#method-i-curry
-
+Check out the [ruby docs][] for more details.
 
 ---
+
 ## Inject vs each_with_object
 
 ### Inject
@@ -685,16 +689,16 @@ Inject takes the value of the block and passes it along.
 This causes a lot of errors like.
 
 ```ruby
-  inject_array = ['A', 'B', 'C', 'D']
+inject_array = ['A', 'B', 'C', 'D']
 
-  inject_array.inject({}) do |accumulator, value|
-    accumulator[value] = value.downcase
-  end
+inject_array.inject({}) do |accumulator, value|
+  accumulator[value] = value.downcase
+end
 
-  Output: 'IndexError: string not matched'
+# 'IndexError: string not matched'
 ```
 
-The above code causes 'IndexError: string not matched' error.
+The above code causes `IndexError: string not matched error`.
 
 What you really wanted.
 
@@ -711,23 +715,24 @@ What you really wanted.
 
 ### each_with_object
 
-  each_with_object ignores the return value of the block and passes the initial object along.
+`each_with_object` ignores the return value of the block and passes the initial object along.
 
 ```ruby
-  array = ['A', 'B', 'C', 'D']
+array = ['A', 'B', 'C', 'D']
 
-  array.each_with_object({}) do |value, accumulator|
-    accumulator[value] = value.downcase
-  end
+array.each_with_object({}) do |value, accumulator|
+  accumulator[value] = value.downcase
+end
 
-  Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
-  ```
+Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
+```
+
 One more thing which you can notice is the order of arguments to the block for each of the functions.
 
-Inject takes the result/accumulator and then the iteratable value, whereas 'each_with_object' takes the value followed by the result/accumulator.
-
+Inject takes the result/accumulator and then the iteratable value, whereas `each_with_object` takes the value followed by the result/accumulator.
 
 ---
+
 ## Using pry and ncurses together
 
 Because of ncurse's visual mode you will not be able to use pry normally.
@@ -743,10 +748,8 @@ refresh
 output of pry correctly. When you `exit` from pry, `refresh` will resume
 ncurse's visual mode.
 
-[close_screen docs]: http://ruby-doc.org/stdlib-2.0/libdoc/curses/rdoc/Curses.html#method-c-close_screen
-
-
 ---
+
 ## Parallel assignment
 
 Ruby allows us to assign multiple variables on the same line. This is also
@@ -772,6 +775,7 @@ list # is not modified # => [1,2,3,4]
 ```
 
 ### Empty arrays
+
 When using parallel assignment on an empty array, the tail will always return an
 array while the head will be `nil`.
 
@@ -781,8 +785,8 @@ head # => nil
 tail # => []
 ```
 
-
 ---
+
 ## Regex Literals and URLs
 
 Regular expressions in Ruby are typically delineated by the `/` character.
@@ -803,8 +807,8 @@ escaping all those slashes.
 
 Much cleaner!
 
-
 ---
+
 ## Spliting a string into a maximum number of segments
 
 [`String#split`][split docs] takes an argument to limit the number of returned
@@ -848,10 +852,8 @@ text.split("\n", 3)
 #     "the body\nkeeps going\non over\nmultiple lines"]
 ```
 
-[split docs]: http://www.ruby-doc.org/core-2.2.0/String.html#method-i-split
-
-
 ---
+
 ## The `DATA` constant
 
 The `DATA` constant in Ruby allows us to access the text at the end of our file
@@ -921,3 +923,11 @@ __END__
 -   [Ruby Docs: Array](http://ruby-doc.org/core/Array.html)
 -   [Ruby Docs: Enumerable](http://ruby-doc.org/core/Enumerable.html)
 -   [Ruby Docs: String](http://ruby-doc.org/core/String.html)
+
+[close_screen docs]: http://ruby-doc.org/stdlib-2.0/libdoc/curses/rdoc/Curses.html#method-c-close_screen
+[drop docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-drop
+[last docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-last
+[ruby docs]: http://ruby-doc.org/core-2.2.0/Proc.html#method-i-curry
+[shift docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-shift
+[slice docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-slice
+[split docs]: http://www.ruby-doc.org/core-2.2.0/String.html#method-i-split
