@@ -172,6 +172,10 @@ A Service in Domain Driven Design is simply a stateless object that performs an 
 
  A software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
 
+## Stable Sort
+
+The implementation preserves the input order of equal elements in the sorted output.
+
 ## Trait
 
 A set of methods that are not inherited, but composed into classes.
