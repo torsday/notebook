@@ -16,6 +16,10 @@ In Ruby, blocks are closures (anonymous functions) that can be passed to many me
 
 Functions that are executed asynchronously.
 
+## Comparison Sort
+
+A type of sorting algorithm that only reads the list elements through a single abstract comparison operation (often a "less than or equal to" operator or a three-way comparison) that determines which of two elements should occur first in the final sorted list.
+
 ## Composer
 
 An application-level package manager for the PHP programming language that provides a standard format for managing dependencies of PHP software and required libraries.
@@ -47,6 +51,10 @@ A way of storing or transmitting data in the form of differences (deltas) betwee
 ## DIT
 
 Directory Information Tree.
+
+## Divide & conquer algorithm
+
+An algorithm design paradigm based on multi-branched recursion. A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same (or related) type (divide), until these become simple enough to be solved directly (conquer). The solutions to the sub-problems are then combined to give a solution to the original problem.
 
 ## Docker
 
