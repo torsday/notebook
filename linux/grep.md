@@ -6,7 +6,6 @@ search for string in a dir of files
 grep -r '<string>' '<path_to_somewhere>'
 ```
 
-
 ## Finding all files containing a text string on Linux
 
 ```bash
@@ -38,5 +37,5 @@ grep --exclude-dir={dir1,dir2,*.dst} -rnw '/path/to/somewhere/' -e "pattern"
 
 ## References
 
-* [Man Page](http://linux.die.net/man/1/grep0)
-* [StackOverflow: Finding all files containing a text string on Linux](https://stackoverflow.com/questions/16956810/finding-all-files-containing-a-text-string-on-linux)
+*   [Man Page](http://linux.die.net/man/1/grep0)
+*   [StackOverflow: Finding all files containing a text string on Linux](https://stackoverflow.com/questions/16956810/finding-all-files-containing-a-text-string-on-linux)

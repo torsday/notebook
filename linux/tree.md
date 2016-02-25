@@ -22,7 +22,6 @@ control depth
 tree -L <int>
 ```
 
-
 ## References
 
-* *[man page](http://mama.indstate.edu/users/ice/tree/tree.1.html)*
+-   *[man page](http://mama.indstate.edu/users/ice/tree/tree.1.html)*

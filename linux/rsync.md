@@ -24,14 +24,15 @@ rsync -ripumtz --progress src/ dest/
 
 ## Use of `/` at the end of path:
 
-- When using `/` at the end of source, rsync will copy the content of the last folder.
+-   When using `/` at the end of source, rsync will copy the content of the last folder.
 When not using `/` at the end of source, rsync will copy the last folder and the content of the folder.
-- When using `/` at the end of destination, rsync will paste the data inside the last folder.
+
+-   When using `/` at the end of destination, rsync will paste the data inside the last folder.
 When not using `/` at the end of destination, rsync will create a folder with the last destination folder name and paste the data inside that folder.
 
 ## Complete Options
 
-```
+```sh
 -v, --verbose               increase verbosity
 -q, --quiet                 suppress non-error messages
     --no-motd               suppress daemon-mode MOTD (see caveat)
