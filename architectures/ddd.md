@@ -1,11 +1,14 @@
 # Domain Driven Design
 
 *From: [bob]()*
+
 > Domain Driven Design (DDD) places development focus primarily on the unique *business rules* which an application unique. This means codifying business rules in Domain Entities, Value Objects and Services, in a layer that is separate from other focuses such as infrastructure and persistence requirements. The structure of the Reach PHP package can serve as a good example of how to organize your code.
 
 ---
 
 **Table of Contents**
+
+<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -32,77 +35,84 @@
 
 <!-- /TOC -->
 
----
-
+<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
 
 ---
 
 ## Architecture
 
 ### **Domain** layer
+
 Where the business logic of the application resides. As we’ve seen over the last couple of weeks, this is where you have Domain Objects (i.e. models) such as your ```User``` Entity or ```Email``` and ```Username``` Value Objects.
 
 ### **Application** layer
+
 How the outside world communicates with the model.
 
 e.g. HTTP requests, an API or through an automated messaging service.
 
 ### **Infrastructure** layer
+
 How the actions of the model are executed.
 
 e.g. persisting data to a database, queuing jobs, or sending email notifications.
-
 
 ---
 
 ## Classes
 
-
 ### Domain
 
-* [Model](model.md)
-    * Collection
-* [Repository](repository.md)
-* [Service](service.md)
+-   [Model](model.md)
 
+
+    -   Collection
+
+-   [Repository](repository.md)
+
+
+-   [Service](service.md)
 
 ### Platform
 
-* RAML
-* Serializer
-* collectionSerializer
-* route
-* controller
-* Service Provider (that uses mocks)
-
+-   RAML
+-   Serializer
+-   collectionSerializer
+-   route
+-   controller
+-   Service Provider (that uses mocks)
 
 ### Application
 
-* Repository
+-   Repository
+
+      ```bash
+      EmailChangeTbl #(CPT original, taps DB)
+      CptTblEmailHistoryRepository
+      CptTblEmailHistoryRepositoryTest
+      ```
+
+-   Adapter
+
+-   [Service Provider](service-providers.md) (that plugs into CPT)
+
     ```bash
-EmailChangeTbl #(CPT original, taps DB)
-CptTblEmailHistoryRepository
-CptTblEmailHistoryRepositoryTest
+    CptAppServiceProvider
     ```
-* Adapter
-* [Service Provider](service-providers.md) (that plugs into CPT)
-    ```bash
-CptAppServiceProvider
-	```
-	or
-	```sh
-CptEmailHistoryServiceProvider
+
+    or
+
+    ```sh
+    CptEmailHistoryServiceProvider
     register()
     ```
 
-
 ### URL to Path Tree mapping
 
-```
+```sh
 CPT.com                    /admin/            users/          view/id/1234
 docroot/application/modules/admin/controllers/UsersController#ViewAction
 ```
-
 
 ---
 
@@ -186,7 +196,6 @@ class EmailChange implements Event
 }
 ```
 
-
 ---
 
 ## Repository
@@ -194,7 +203,6 @@ class EmailChange implements Event
 > A system with a complex domain model often benefits from a layer, such as the one provided by Data Mapper, that isolates domain objects from details of the database access code. In such systems it can be worthwhile to build another layer of abstraction over the mapping layer where query construction code is concentrated. This becomes more important when there are a large number of domain classes or heavy querying. In these cases particularly, adding this layer helps minimize duplicate query logic.
 
 > **A Repository mediates between the domain and data mapping layers, acting like an in-memory domain object collection.** Client objects construct query specifications declaratively and submit them to Repository for satisfaction. Objects can be added to and removed from the Repository, as they can from a simple collection of objects, and the mapping code encapsulated by the Repository will carry out the appropriate operations behind the scenes. Conceptually, a Repository encapsulates the set of objects persisted in a data store and the operations performed over them, providing a more object-oriented view of the persistence layer. Repository also supports the objective of achieving a clean separation and one-way dependency between the domain and data mapping layers.
-
 
 ### e.g. ```EmailChangeRepository.php```
 
@@ -219,11 +227,9 @@ interface EmailChangeRepository
 }
 ```
 
-
-
 ### Reference
-* http://martinfowler.com/eaaCatalog/repository.html
 
+-   <http://martinfowler.com/eaaCatalog/repository.html>
 
 ---
 
@@ -233,14 +239,14 @@ A Service in Domain Driven Design is simply a stateless object that performs an 
 
 ### Types of Service
 
-1. **Application Service** is typically used to orchestrate how the outside world interacts with your application. For example ```AuthenticationService``` would be an Application Service that co-ordinates how a user should be authenticated.
-1. **Infrastructure Service** is used for dealing with the technical details of the infrastructure. For example you might have a ```MailGunMessenger``` service that enables you to send email notifications using the MailGun API.
-1. **Domain Service** is used for encapsulating domain logic that does not naturally fit on any existing Domain Object. For example you might have a ```RegisterUserService``` that co-ordinates how a user is registered within your application.
+1.  **Application Service** is typically used to orchestrate how the outside world interacts with your application. For example ```AuthenticationService``` would be an Application Service that co-ordinates how a user should be authenticated.
+1.  **Infrastructure Service** is used for dealing with the technical details of the infrastructure. For example you might have a ```MailGunMessenger``` service that enables you to send email notifications using the MailGun API.
+1.  **Domain Service** is used for encapsulating domain logic that does not naturally fit on any existing Domain Object. For example you might have a ```RegisterUserService``` that co-ordinates how a user is registered within your application.
 
 ### e.g. ```EmailHistoryService.php```
 
-*reach-php/src/CPT/Reach/Application/Service/User/EmailHistoryService.php
-*
+*reach-php/src/CPT/Reach/Application/Service/User/EmailHistoryService.php*
+
 ```php
 namespace CPT\Reach\Application\Service\User;
 
@@ -278,11 +284,9 @@ class EmailHistoryService
 }
 ```
 
-
 ### Reference
 
-* [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services/)
-
+-   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services/)
 
 ---
 
