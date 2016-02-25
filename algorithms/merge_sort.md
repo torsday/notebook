@@ -16,11 +16,19 @@
 | Worst case space complexity | О(n) total, O(n) auxiliary               |
 
 
+<center>
+
+![Merge Sort Gif](https://upload.wikimedia.org/wikipedia/commons/c/c5/Merge_sort_animation2.gif)
+
+</center>
+
 ## Example
 
 
 An example of merge sort. First divide the list into the smallest unit, then compare each element with the adjacent list to sort and merge the two adjacent lists. Finally all the elements are sorted and merged.
 
+<center>
+
 ![Merge Sort Gif](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
 
-![Merge Sort Gif](https://upload.wikimedia.org/wikipedia/commons/c/c5/Merge_sort_animation2.gif)
+</center>
