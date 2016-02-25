@@ -1,32 +1,31 @@
-# PROXY (object structural pattern)
-# =================================
+# PROXY
 
-# GoF definition (p. 207):
-# -----------------------
-# "Provide a surrogate or placeholder for another object to control access to
-# it."
+(object structural pattern)
 
-# A Proxy must do the following:
-#   * maintain a reference that lets the proxy access the real subject
-#   * provide an interface identical to the subject's
-#   * control access to the real subject
+## GoF definition (p. 207):
 
-# The two most common types of proxies are:
-#
-# 1. Remote proxy - provides a local representative for an object in a
-#    address space.
-#
-# 2. Virtual proxy – serves as a placeholder for more expensive objects.
-#
-# 3. Protection proxy – controls access to the original object.
+> "Provide a surrogate or placeholder for another object to control access to it."
 
-# Pros:
-# -----
-#  * A remote proxy can hide the fact that an object is not stored locally.
-#  * A virtual proxy can create more complicated objects on demand.
+## A Proxy must
 
-# Subject
-# -------
+-   maintain a reference that lets the proxy access the real subject
+-   provide an interface identical to the subject's
+-   control access to the real subject
+
+## Most common types of proxies
+
+1.  Remote proxy: provides a local representative for an object in an address space.
+1.  Virtual proxy: serves as a placeholder for more expensive objects.
+1.  Protection proxy: controls access to the original object.
+
+## Pros:
+
+-   A remote proxy can hide the fact that an object is not stored locally.
+-   A virtual proxy can create more complicated objects on demand.
+
+## Examples
+
+### Subject
 
 ```ruby
 class BankAccount
@@ -46,9 +45,13 @@ class BankAccount
     @balance
   end
 end
+```
 
-# Proxy (in this example, a protection proxy)
-# -------------------------------------------
+### Proxy
+
+(in this example, a protection proxy)
+
+```ruby
 
 class AccountProtectionProxy
   def initialize(real_account, password)
@@ -79,8 +82,11 @@ class AccountProtectionProxy
     raise "Invalid password" unless password == @password
   end
 end
+```
 
-# -----
+### Implementation
+
+```ruby
 my_account = BankAccount.new(1000)
 proxy = AccountProtectionProxy.new(my_account, "supersecret")
 proxy.withdraw(100)
