@@ -4,7 +4,7 @@
 
 -   Looking into linting my markdown
 
-    -   <https://github.com/wooorm/remark-lint>, built on <https://github.com/wooorm/remark>. Rules can be found [here](https://github.com/wooorm/remark-lint/blob/master/doc/rules.md)
+    -   [Remark Lint](https://github.com/wooorm/remark-lint), built on [Remark](https://github.com/wooorm/remark). Rules can be found [here](https://github.com/wooorm/remark-lint/blob/master/doc/rules.md)
 
     -   configure with `.remarkrc`
 
