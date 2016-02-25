@@ -9,6 +9,7 @@
     * [Fourier Transform & Fast Fourier Transform]()
     * [Integer Factorization]()
     * [Link Analysis]()
+    * [Merge Sort](algorithms/merge_sort.md)
     * [Proportional Integral Derivative Algorithm]()
     * [Random Number Generation]()
     * [RSA Algorithm]()
