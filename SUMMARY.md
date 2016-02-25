@@ -162,6 +162,7 @@
     -   [Homebrew](tools/homebrew.md)
     -   [Linux](tools/linux.md)
     -   [PSR Fixer](tools/psr-fixer.md)
+    -   [UML](tools/uml.md)
     -   [Vim](tools/vim.md)
 
 -   [References](references.md)
