@@ -292,10 +292,10 @@ let g:netrw_liststyle=3
 
 ### References
 
-* [A Good Vimrc](http://dougblack.io/words/a-good-vimrc.html)
-
+-   [A Good Vimrc](http://dougblack.io/words/a-good-vimrc.html)
 
 ---
+
 ## Custom commands
 
 Custom commands in Vim are defined via the `command` command. As I learn new
@@ -309,14 +309,12 @@ command TIL tabe~/Document/TIL.md
 
 Now, whenever I want to write down something I've learned I can just run `:TIL`.
 
-User-defined commands _must_ start with a uppercase letter.
+User-defined commands *must* start with a uppercase letter.
 
-More details in `:help command`, or check out the [online vim docs].
-
-[online vim docs]: http://vimdoc.sourceforge.net/htmldoc/map.html#:command
-
+More details in `:help command`, or check out the [online vim docs][].
 
 ---
+
 ## Easy file diffing
 
 Vim comes with its own diff viewer. It can be launched from the command-line
@@ -331,19 +329,17 @@ vimdiff file1 file2
 You can also get a diff from within Vim by opening two files in
 splits and running `:diffthis`.
 
-More details in `:help vimdiff`, or check out the [online docs].
-
-[online docs]: http://vimdoc.sourceforge.net/htmldoc/diff.html#vimdiff
-
+More details in `:help vimdiff`, or check out the [online docs][].
 
 ---
+
 ## Vim Profiling
 
 I recently encountered a situation where Vim was taking an *excruciatingly* long
 time to launch. From some manual testing, I was able to isolate the problem to a
 particular directory, but I wasn't sure what was causing it. I then discovered
 Vim ships with profiling tools that would tell me how much time was spent in
-each of the functions that ran during startup. See the [official docs] for more
+each of the functions that ran during startup. See the [official docs][] for more
 info.
 
 I'll start with the shell command I ended up running:
@@ -403,9 +399,10 @@ vim *.html
 ```
 
 This will open all html files on the current directory as buffers.
-* You can list the buffers using `:ls`
-* You can add a buffer using `:badd <filename>`
-* You can close a buffer using `:bdelete <buffer_number>`
+
+-   You can list the buffers using `:ls`
+-   You can add a buffer using `:badd <filename>`
+-   You can close a buffer using `:bdelete <buffer_number>`
 
 Now you can run commands on all open buffers:
 
@@ -474,21 +471,20 @@ Even after deleting various words in your file, your yanked word will always be
 in register `a`.  The VIM wiki has more details on [Replacing a word with yanked
 text](http://vim.wikia.com/wiki/Replace_a_word_with_yanked_text).
 
-
 ## Macros
 
 If you want to repeat a bunch of vim commands for running multiple times, record them in a macro.
 
-
 ### To record a macro:
 
-1. type `q` followed by any char: **[a-z]**
-1. type your vim commands
-1. type `q` again to finish recording
+1.  type `q` followed by any char: **[a-z]**
+1.  type your vim commands
+1.  type `q` again to finish recording
 
 ### To run the macro:
 
 `@` followed by the **same char** you chose to store the macro.
 
-
 [official docs]: http://vimdoc.sourceforge.net/htmldoc/repeat.html#profiling
+[online vim docs]: http://vimdoc.sourceforge.net/htmldoc/map.html#:command
+[online docs]: http://vimdoc.sourceforge.net/htmldoc/diff.html#vimdiff
