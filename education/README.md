@@ -2,6 +2,8 @@
 
 ## Personal Mileposts
 
+Both for further understanding, as well as in building this book.
+
 -   [ ] sequence diagram of HTTP
 
 -   [ ] Gang-of-Four design patterns
