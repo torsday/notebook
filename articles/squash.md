@@ -8,16 +8,19 @@ I created squash to merge files of similar content into single ones, in the inte
 
 ## Installation
 
-1. Clone the repo wherever you like
-  ```bash
-  git clone git@github.com:torsday/squash.git
-  ```
-1. Append the repo directory to your path, making sure squash has executable permissions
-  ```bash
-  export PATH="$PATH:~/code/squash"
-  ```
-1. done
+1.  Clone the repo wherever you like
 
+    ```bash
+    git clone git@github.com:torsday/squash.git
+    ```
+
+1.  Append the repo directory to your path, making sure squash has executable permissions
+
+    ```bash
+    export PATH="$PATH:~/code/squash"
+    ```
+
+1.  done
 
 ## Use
 
@@ -28,7 +31,6 @@ squash term1 term2 term3
 ```
 
 This will collect files with the arguments, deleting them, but not before combining them in a single file titled after the first term. Within the file itself, it uses that same first term as the H1 header, creates an index of all squashed files, and adds an additional # onto any header declarations, downgrading their header status.
-
 
 ## Example
 
