@@ -81,15 +81,15 @@
 .reverse
 .upcase
 .downcase
-.capitalize  # capitalizes the first letter
-.include? "x"   # tests if string contains "x"
-.match   # works like .include?
+.capitalize    # capitalizes the first letter
+.include? "x"  # tests if string contains "x"
+.match         # works like .include?
 .start_with?("x")
 .end_with?("x")
 
 “a”.next  => “b”
 
-"#{}"  string interpolation - "My name is #{name}"
+"#{}"  # string interpolation - "My name is #{name}"
 ```
 
 Returns a copy of str with the all occurrences of pattern substituted.
@@ -110,28 +110,32 @@ Iterates through the string, returns an array of all results matching the patter
 ## Number Methods
 
 ```ruby
-.abs      absolute value
-.ceil     rounds float up
-.floor    rounds float down
-.eql?(n)  is the object equal to n?
+.abs      # absolute value
+.ceil     # rounds float up
+.floor    # rounds float down
+.eql?(n)  # is the object equal to n?
 ```
 
 ## Misc
 
 ```ruby
-gets   raw input from user (get string)
-gets.chomp  raw input from user w/o extra line
-.is_a? Integer  tests whether == given data type
+gets            # raw input from user (get string)
+gets.chomp      # raw input from user w/o extra line
+.is_a? Integer  # tests whether == given data type
 
-rand   generates random float between 0 and 1
-rand(n)   generates random integer between 0 and n, exclusive
+rand     # generates random float between 0 and 1
+rand(n)  # generates random integer between 0 and n, exclusive
 
-.sort   sorts numerically or alphabetically. For a reverse sort, include    the following block as a parameter: array.sort! { |first, second| second <=> first }  # or  array.sort.reverse!
+.sort    # sorts numerically or alphabetically.
+# For a reverse sort, include the following block as a parameter:
+array.sort! { |first, second| second <=> first }
+# or
+array.sort.reverse!
 
-.to_s   converts a variable to a string
-.to_i   converts to integer
-.to_f   converts to float
-.to_sym #or .intern converts a string to a symbol
+.to_s   # converts a variable to a string
+.to_i   # converts to integer
+.to_f   # converts to float
+.to_sym # or .intern converts a string to a symbol
 
 object.replace(object.method) replaces object with the output of method (liked .method!)
 ```
@@ -171,7 +175,7 @@ object.replace(object.method) replaces object with the output of method (liked .
 <=>
 ```
 
-Returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second.
+Returns `0` if the first operand (item to be compared) equals the second, `1` if first operand is greater than the second, and `-1` if the first operand is less than the second.
 
 ## [Arrays](http://ruby-doc.org/core/Array.html)
 
