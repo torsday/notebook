@@ -27,21 +27,19 @@ git count-objects -vH
 # -H  human readable
 ```
 
-* **count:** the number of loose objects
-* **size:** disk space consumed by loose objects, in KiB (unless -H is specified)
-* **in-pack:** the number of in-pack objects
-* **size-pack:** disk space consumed by the packs, in KiB (unless -H is specified)
-* **prune-packable:** the number of loose objects that are also present in the packs. These objects could be pruned using git prune-packed.
-* **garbage:** the number of files in object database that are neither valid loose objects nor valid packs
-* **size-garbage:** disk space consumed by garbage files, in KiB (unless -H is specified)
-
+-   **count:** the number of loose objects
+-   **size:** disk space consumed by loose objects, in KiB (unless -H is specified)
+-   **in-pack:** the number of in-pack objects
+-   **size-pack:** disk space consumed by the packs, in KiB (unless -H is specified)
+-   **prune-packable:** the number of loose objects that are also present in the packs. These objects could be pruned using git prune-packed.
+-   **garbage:** the number of files in object database that are neither valid loose objects nor valid packs
+-   **size-garbage:** disk space consumed by garbage files, in KiB (unless -H is specified)
 
 ### [`gc`](https://git-scm.com/docs/git-gc)
 
 Cleanup unnecessary files and optimize the local repository.
 
 > Users are encouraged to run this task on a regular basis within each repository to maintain good disk space utilization and good operating performance.
-
 
 #### options
 
@@ -71,39 +69,41 @@ Up to a point, increasing both `depth` and `window` can give you smaller packs. 
 
 #### References
 
-* [StackOverflow: How to use `git repack -a -d --depth=250 --window=250`](https://stackoverflow.com/questions/14842127/how-to-use-git-repack-a-d-depth-250-window-250)
+-   [StackOverflow: How to use `git repack -a -d --depth=250 --window=250`](https://stackoverflow.com/questions/14842127/how-to-use-git-repack-a-d-depth-250-window-250)
 
 ## Actions
 
-#### `git rebase -i <hash>`
+### `git rebase -i <hash>`
 
 Rewrite history.
 
-#### Delete Branch
+### Delete Branch
 
 ```bash
 git push origin --delete <branchName>
 ```
 
-#### Branch Authors
+### Branch Authors
 
 ```bash
 git for-each-ref --format='%(committerdate)%09%(authorname)%09%(refname)' | sort -k5n -k2M -k3n -k4n | grep remotes | awk -F "\t" '{ printf "%-32s %-27s %s\n", $1, $2, $3 }'
 ```
 
-#### Merged Remote Branches
+### Merged Remote Branches
 
 ```bash
 for branch in `git branch -r --merged | grep -v HEAD`; do echo -e `git show --format="%ci %cr %an" $branch | head -n 1` \\t$branch; done | sort -r
 ```
 
-#### Unmerged Remote Branches
+### Unmerged Remote Branches
 
 ```bash
 for branch in `git branch -r --no-merged | grep -v HEAD`; do echo -e `git show --format="%ci %cr %an" $branch | head -n 1` \\t$branch; done | sort -r
 ```
 
-### Alias: ```gpk```
+## Aliases
+
+### ```gpk```
 
 ```bash
 alias gpk='git count-objects -vH && echo "" && git repack -a -d -f --depth=250 --window=250 && echo "" && git count-objects -vH'
@@ -113,10 +113,11 @@ alias gpk='git count-objects -vH && echo "" && git repack -a -d -f --depth=250 -
 
 ### [Re: Git and GCC](https://gcc.gnu.org/ml/gcc/2007-12/msg00165.html)
 
-    From: Linus Torvalds <torvalds at linux-foundation dot org>
-    To: Daniel Berlin <dberlin at dberlin dot org>
-    Date: Wed, 5 Dec 2007 22:09:12 -0800 (PST)
-    Subject: Re: Git and GCC
+```txt
+From: Linus Torvalds <torvalds at linux-foundation dot org>
+To: Daniel Berlin <dberlin at dberlin dot org>
+Date: Wed, 5 Dec 2007 22:09:12 -0800 (PST)
+Subject: Re: Git and GCC
 
 
 On Thu, 6 Dec 2007, Daniel Berlin wrote:
@@ -153,7 +154,7 @@ On the other hand, it's definitely true that an "initial import of a long and in
 
 So the equivalent of `git gc --aggressive` - but done *properly* - is to do (overnight) something like
 
-	git repack -a -d --depth=250 --window=250
+  git repack -a -d --depth=250 --window=250
 
 where that depth thing is just about how deep the delta chains can be (make them longer for old history - it's worth the space overhead), and the window thing is about how big an object window we want each delta candidate to scan.
 
@@ -162,8 +163,8 @@ And here, you might well want to add the "-f" flag (which is the "drop all old d
 And then it's going to take forever and a day (ie a "do it overnight" thing). But the end result is that everybody downstream from that repository will get much better packs, without having to spend any effort on it themselves.
 
 ~ Linus
-
+```
 
 ## References
 
-* [Git Flow](https://github.com/nvie/gitflow)
+-   [Git Flow](https://github.com/nvie/gitflow)

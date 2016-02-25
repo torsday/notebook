@@ -1,8 +1,8 @@
 # [Homebrew](http://brew.sh/)
 
+## Basics
 
-
-#### choose specific version of installed package
+### choose specific version of installed package
 
 ```bash
 % brew info imagemagick
@@ -13,7 +13,7 @@ http://www.imagemagick.org
 /usr/local/Cellar/imagemagick/6.9.0-3 (1440 files, 22M) *
 ```
 
-set active version
+### set active version
 
 ```bash
 % brew switch imagemagick 6.8.9-9

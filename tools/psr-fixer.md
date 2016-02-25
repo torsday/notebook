@@ -4,14 +4,14 @@
 
 ### the composer way
 
-```
-$ composer global require fabpot/php-cs-fixer
+```sh
+composer global require fabpot/php-cs-fixer
 ```
 
 ### the homebrew way
 
-```
-$ brew install homebrew/php/php-cs-fixer
+```sh
+brew install homebrew/php/php-cs-fixer
 ```
 
 ## Setup
@@ -48,15 +48,15 @@ concat_with_spaces
 
 ### permissions
 
-```bash
-$ chmod -x psr-fixer.sh
+```sh
+chmod -x psr-fixer.sh
 ```
 
 make sure it's in your path
 
 ### alias
 
-```bash
+```sh
 psr='~/scripts/psr-fixer.sh'
 ```
 
@@ -64,8 +64,8 @@ or wherever you store it.
 
 ### usage
 
-```
-$ psr {dir/file}
+```sh
+psr {dir/file}
 ```
 
 ## atom integration
