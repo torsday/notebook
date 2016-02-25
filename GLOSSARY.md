@@ -1,5 +1,9 @@
 # Glossary
 
+## APNS
+
+Apple Push Notification Service.
+
 ## Behavior-Driven Development
 
 A software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.

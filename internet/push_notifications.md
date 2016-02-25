@@ -32,7 +32,7 @@
 
 ## History
 
--   **2009:** Apple launches Apple Push Notification Service (APNs), the first push service.
+-   **2009:** Apple launches Apple Push Notification Service (APNS), the first push service.
 -   **2010:** Google released its own service, Google Cloud to Device Messaging (C2DM).
 -   **2013:** Google introduces "rich notifications". Rich notifications can contain images, as well as action buttons. Action buttons let users take immediate action from a notification. For example, the user can play a song, open the app, or see more information.
 -   **2014:** Apple added interactive buttons. These buttons allow users to send a response right away to the app publisher. Shortly after, Apple extended push notifications to the Apple Watch.
@@ -73,15 +73,15 @@ There are three actors involved with delivering a push notification, along with 
 
 ## iOS vs Android
 
-|                                 | iOS                          | Android     |
-|---------------------------------|------------------------------|-------------|
-| Opt-in require                  | true                         | false       |
-| Payload limit                   | 2kb                          | 4kb         |
-| Buttons                         | 2                            | 3           |
-| Feedback                        | Through APNs Feedback Server | From Device |
-| Direct app feedback on delivery | no                           | yes         |
-| Two way messaging support       | No                           | Yes (XMPP)  |
-| Multi-device Messaging          | No                           | Yes         |
+|                                 | iOS                      | Android     |
+|---------------------------------|--------------------------|-------------|
+| Opt-in require                  | true                     | false       |
+| Payload limit                   | 2kb                      | 4kb         |
+| Buttons                         | 2                        | 3           |
+| Feedback                        | Via APNS Feedback Server | From Device |
+| Direct app feedback on delivery | no                       | yes         |
+| Two way messaging support       | No                       | Yes (XMPP)  |
+| Multi-device Messaging          | No                       | Yes         |
 
 ## References
 
