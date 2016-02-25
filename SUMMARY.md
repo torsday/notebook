@@ -50,11 +50,13 @@
     -   [Mediator](design/mediator.md)
     -   [Memento](design/memento.md)
     -   [MVC](design/mvc.md)
+    -   [Object-Oriented Programming](design/oop.md)
     -   [Observer](design/observer.md)
     -   [Onion](design/onion.md)
     -   [Proxy](design/proxy.md)
     -   [Pub-sub Pattern](design/pub_sub.md)
     -   [Singleton](design/singleton.md)
+    -   [SOLID]()
     -   [Specification Pattern](design/specification_pattern.md)
     -   [State](design/state.md)
     -   [Strategy](design/strategy.md)
@@ -67,7 +69,7 @@
 
 -   [Internet](internet/README.md)
 
-    -   [HTTP]()
+    -   [HTTP](internet/http.md)
     -   [LDAP](internet/ldap.md)
     -   [OAuth](internet/oauth.md)
     -   [Push Notifications](internet/push_notifications.md)

@@ -180,6 +180,10 @@ A Repository mediates between the domain and data mapping layers, acting like an
 
 Software Engineer in Test
 
+## Sequence Diagram
+
+An interaction diagram that shows how processes operate with one another and in what order.
+
 ## Service
 
 A Service in Domain Driven Design is simply a stateless object that performs an action.
