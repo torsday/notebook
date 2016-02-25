@@ -1,29 +1,25 @@
-# MEDIATOR (object behavioral pattern)
-# ====================================
+# Mediator
 
-# GoF definition (p. 273):
-# -----------------------
-# "Define an object that encapsulates how a set of objects interact. Mediator
-# promotoes loose coupling by keeping objects from referring to each other
-# explicitly, and it lets you vary their interaction independently."
+(object behavioral pattern)
 
-# The mediator serves as an intermediary that keeps objects the work together
-# from referring to each other explicitly – they only refer to the mediator,
-# which alone has knowledge of the group.
+## GoF definition (p. 273):
 
-# Pros:
-# -----
-#  * Promotes loose coupling between colleagues.
-#  * Abstracts how colleagues collaborate – encapsulating how objects interact #    in a separate object allows you to focus on how objects interact apart
-#    from their individual behavior.
+> "Define an object that encapsulates how a set of objects interact. Mediator promotoes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently."
 
-# Cons:
-# -----
-#  * As more behavior is delegated to the mediator, it can become unwieldy and
-#    difficult to maintain.
+The mediator serves as an intermediary that keeps objects the work together from referring to each other explicitly – they only refer to the mediator, which alone has knowledge of the group.
 
-# Colleagues
-# ----------
+## Pros
+
+-   Promotes loose coupling between colleagues.
+-   Abstracts how colleagues collaborate – encapsulating how objects interact in a separate object allows you to focus on how objects interact apart from their individual behavior.
+
+## Cons
+
+-   As more behavior is delegated to the mediator, it can become unwieldy and difficult to maintain.
+
+## Example
+
+### Colleagues
 
 ```ruby
 class Tweeter
@@ -50,10 +46,11 @@ class TweeterMailer
     puts "TO: #{args[:to]} MESSAGE: #{args[:message]}"
   end
 end
+```
 
-# Mediator
-# --------
+### Mediator
 
+```ruby
 class TweeterWatcher
   def initialize
     @mailer = TweeterMailer.new
@@ -69,8 +66,11 @@ class TweeterWatcher
     # colleagues can focus on their own focused behaviors.
   end
 end
+```
 
-# -----
+### Implimentation
+
+```ruby
 my_tweeter_account = Tweeter.new("me@example.com")
 my_tweeter_account.post_message("Hello, world")
 ```
