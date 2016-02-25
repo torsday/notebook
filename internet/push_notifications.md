@@ -83,12 +83,12 @@ There are three actors involved with delivering a push notification, along with 
 | Two way messaging support       | No                           | Yes (XMPP)  |
 | Multi-device Messaging          | No                           | Yes         |
 
-
 ## References
 
 -   [Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)
 -   [Google Cloud Messaging: Overview](https://developers.google.com/cloud-messaging/gcm)
+-   [StackOverflow: How does push notification technology work on Android?](http://stackoverflow.com/questions/11508613/how-does-push-notification-technology-work-on-android)
+-   [StackOverflow: Send push message to multiple devices](http://stackoverflow.com/questions/7913995/send-push-message-to-multiple-devices)
 -   [Understanding Amazon Device Messaging](https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/01-understanding-adm)
 -   [Urban Airship: Push Notifications Explained](https://www.urbanairship.com/push-notifications-explained)
 -   [Windows Push Notification Services (WNS) overview](https://msdn.microsoft.com/en-us/library/windows/apps/mt187203.aspx)
--   [StackOverflow: How does push notification technology work on Android?](http://stackoverflow.com/questions/11508613/how-does-push-notification-technology-work-on-android)
