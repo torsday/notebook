@@ -24,9 +24,9 @@
 
 -   [Messenger](https://www.messenger.com)
 
-## Reference Directory (`code`)
+## Favorite Projects
 
-Repos I have in my `~/code` directory.
+Repos I have in my `~/code` directory for reference and fun.
 
 ```sh
 git clone git@github.com:torsday/notebook.git

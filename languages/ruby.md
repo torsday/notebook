@@ -1,5 +1,11 @@
 # Ruby
 
+<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+---
+
+**Table of Contents**
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Good to Know](#good-to-know)
@@ -14,7 +20,7 @@
 - [Loops](#loops)
 - [One Line Ifs & Ternary Conditional Expressions & Case Statements](#one-line-ifs-ternary-conditional-expressions-case-statements)
 - [Methods that Take Blocks](#methods-that-take-blocks)
-	- [Yield](#yield)
+  - [Yield](#yield)
 - [Times Iterator](#times-iterator)
 - [Loop Iterator](#loop-iterator)
 - [Each Iterator](#each-iterator)
@@ -22,29 +28,29 @@
 - [Select](#select)
 - [```.upto```, ```.downto```](#upto-downto)
 - [Hashes](#hashes)
-	- [```.new``` notation](#new-notation)
-	- [Some Hash Methods](#some-hash-methods)
+  - [```.new``` notation](#new-notation)
+  - [Some Hash Methods](#some-hash-methods)
 - [Methods](#methods)
 - [Splat Arguments](#splat-arguments)
 - [Procs](#procs)
 - [Lamdas](#lamdas)
 - [Scope Prefixes](#scope-prefixes)
 - [Classes](#classes)
-	- [calling a parent method in ruby:](#calling-a-parent-method-in-ruby)
+  - [calling a parent method in ruby:](#calling-a-parent-method-in-ruby)
 - [Modules](#modules)
 - [Getting all but the first element from Ruby array](#getting-all-but-the-first-element-from-ruby-array)
-	- [Shift](#shift)
-	- [Slice](#slice)
-	- [Drop](#drop)
+  - [Shift](#shift)
+  - [Slice](#slice)
+  - [Drop](#drop)
 - [Returning a fixed number of items from the tail of a list](#returning-a-fixed-number-of-items-from-the-tail-of-a-list)
 - [Basic Object](#basic-object)
 - [Currying in Ruby](#currying-in-ruby)
 - [Inject vs each_with_object](#inject-vs-eachwithobject)
-	- [Inject](#inject)
-	- [each_with_object](#eachwithobject)
+  - [Inject](#inject)
+  - [each_with_object](#eachwithobject)
 - [Using pry and ncurses together](#using-pry-and-ncurses-together)
 - [Parallel assignment](#parallel-assignment)
-	- [Empty arrays](#empty-arrays)
+  - [Empty arrays](#empty-arrays)
 - [Regex Literals and URLs](#regex-literals-and-urls)
 - [Spliting a string into a maximum number of segments](#spliting-a-string-into-a-maximum-number-of-segments)
 - [The `DATA` constant](#the-data-constant)
@@ -52,16 +58,23 @@
 
 <!-- /TOC -->
 
+<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+---
+
 ## Good to Know
 
-1. Everything is an object
-	* Uniform access principle
-2. Classes
-3. Blocks (closures or anonymous functions)
-4. Hashes
+1.  Everything is an object
 
+    -   Uniform access principle
 
-## [Strings]((http://ruby-doc.org/core/String.html)
+1.  Classes
+
+1.  Blocks (closures or anonymous functions)
+
+1.  Hashes
+
+## [Strings](http://ruby-doc.org/core/String.html)
 
 ```ruby
 .length
@@ -94,7 +107,6 @@ Iterates through the string, returns an array of all results matching the patter
 .insert(index, “something”)
 ```
 
-
 ## Number Methods
 
 ```ruby
@@ -103,7 +115,6 @@ Iterates through the string, returns an array of all results matching the patter
 .floor    rounds float down
 .eql?(n)  is the object equal to n?
 ```
-
 
 ## Misc
 
@@ -125,7 +136,6 @@ rand(n)   generates random integer between 0 and n, exclusive
 object.replace(object.method) replaces object with the output of method (liked .method!)
 ```
 
-
 ## Comparison Operators
 
 ```ruby
@@ -136,7 +146,6 @@ object.replace(object.method) replaces object with the output of method (liked .
 !=
 ```
 
-
 ## Boolean Operators
 
 ```ruby
@@ -144,7 +153,6 @@ object.replace(object.method) replaces object with the output of method (liked .
 ||   or
 !   not
 ```
-
 
 ## Operators
 
@@ -157,15 +165,13 @@ object.replace(object.method) replaces object with the output of method (liked .
 ||=   conditional assignment operator - only assigns a value to a     variable if the current value of the variable is nil.
 ```
 
-
 ## Combined Comparison Operator
 
-```
+```sh
 <=>
 ```
 
 Returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second.
-
 
 ## [Arrays](http://ruby-doc.org/core/Array.html)
 
@@ -208,8 +214,6 @@ for x in 1...10  Up to 10, exclusive (9 times), e.g.: for num in 1...10   puts n
 
 for x in 1..10  Up to 10, inclusive (10 times)
 
-
-
 ## One Line Ifs & Ternary Conditional Expressions & Case Statements
 
 ```ruby
@@ -240,9 +244,7 @@ else
 end
 ```
 
-
 ## Methods that Take Blocks
-
 
 ### Yield
 
@@ -259,8 +261,6 @@ end
 
 double(3) { |x| x*2 }
 ```
-
-
 
 ## Times Iterator
 
@@ -370,7 +370,6 @@ my_hash         = Hash.new("derp")  creates a hash with "derp" as the default ni
 my_hash.select { |k, v| v > 3}  returns values greater than 3 (an example).
 ```
 
-
 ### Some Hash Methods
 
 ```ruby
@@ -381,7 +380,6 @@ my_hash.select { |k, v| v > 3}  returns values greater than 3 (an example).
 .merge(another_hash) combines 2 hashes, values of another_hash trump the other if there    are matching keys
 ```
 
-
 ## Methods
 
 ```ruby
@@ -389,8 +387,6 @@ def say_hello(parameter)
   puts "Hello there, #{parameter}!"
 end
 ```
-
-
 
 ## Splat Arguments
 
@@ -401,7 +397,6 @@ def what_up(greeting, *bros)
   bros.each { |bro| puts "#{greeting}, #{bro}!" }
 end
 ```
-
 
 ## Procs
 
@@ -421,7 +416,6 @@ Methods can be treated like blocks, too!:
 strings_array = numbers_array.collect(&:to_s)
 ```
 
-
 ## Lamdas
 
 A closure. More or less identical to PROCS, with a key difference: when a lambda returns, it passes control back to the calling method; when a proc returns, it does so immediately, without finishing the calling method.
@@ -434,15 +428,14 @@ cube = lambda { |x| x ** 3 }
 cube.call(2)
 ```
 
-
 ## Scope Prefixes
 
 Prefixed to variables to specify their scope.
 
-* **Global Variable**: available everywhere
-* **Local Variable**: available only within a method
-* **Class Variable**: available to a common class (all instances share it)
-* **Instance Variable**: available only to a particular instance of a class
+-   **Global Variable**: available everywhere
+-   **Local Variable**: available only within a method
+-   **Class Variable**: available to a common class (all instances share it)
+-   **Instance Variable**: available only to a particular instance of a class
 
 ```ruby
 $ # global variable (variables are global by default unless inside a    method or class, use this prefix if you want to make an exception    for a variable within a method or class).
@@ -450,8 +443,6 @@ $ # global variable (variables are global by default unless inside a    method o
 @ # instance variable (specific to a single instance of a class).
 @@ # class variable
 ```
-
-
 ## Classes
 
 ```ruby
@@ -501,7 +492,6 @@ class Child < Parent
 end
 ```
 
-
 ## Modules
 
 "Toolkits" for the interpreter; like a class but it doesn't have instances.
@@ -532,10 +522,8 @@ include Circle   when placed in a class, this allows an instance of the      cla
 require_relative ‘something.rb’ allows you to access the data found in another file in the   same directory.
 ```
 
-
-
-
 ---
+
 ## Getting all but the first element from Ruby array
 
 When getting all but the first element from an array in Ruby, we have a few
@@ -593,7 +581,6 @@ will sometimes return `nil`
 [slice docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-slice
 [drop docs]: http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-drop
 
-
 ---
 ## Returning a fixed number of items from the tail of a list
 
@@ -605,7 +592,6 @@ from the tail of a list.
 ```
 
 [last docs]: (http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-last)
-
 
 ---
 ## Basic Object
@@ -891,7 +877,7 @@ ALTER USER Schwart IDENTIFIED BY 'Schwart';
 
 Executing the file will print this:
 
-```
+```txt
 Annette
 Warren
 Anthony
@@ -932,6 +918,6 @@ __END__
 
 ## References
 
-* [Ruby Docs: Array](http://ruby-doc.org/core/Array.html)
-* [Ruby Docs: Enumerable](http://ruby-doc.org/core/Enumerable.html)
-* [Ruby Docs: String](http://ruby-doc.org/core/String.html)
+-   [Ruby Docs: Array](http://ruby-doc.org/core/Array.html)
+-   [Ruby Docs: Enumerable](http://ruby-doc.org/core/Enumerable.html)
+-   [Ruby Docs: String](http://ruby-doc.org/core/String.html)
