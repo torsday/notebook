@@ -12,10 +12,11 @@
         {
           "plugins": {
             "lint": {
-              "no-multiple-toplevel-headings": false,
-              "list-item-indent": false,
+              "no-multiple-toplevel-headings": true,
+              "list-item-indent": true,
               "maximum-line-length": false,
-              "ordered-list-marker-value": false
+              "ordered-list-marker-value": false,
+              "no-duplicate-headings": false
             }
           },
           "settings": {
