@@ -477,5 +477,4 @@ if ($ds) {
 
 [oreilly-tutorial]: http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html
 [efytimes_openldap_series]: http://opensourceforu.efytimes.com/tag/openldap-series/
-[ietf_ldap_protocol]: http://web.archive.org/web/20130812025333/http://tools.ietf.org/html/rfc4512
 [ruby_docs_net_ldap]: http://www.rubydoc.info/gems/ruby-net-ldap/Net/LDAP

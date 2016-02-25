@@ -1,25 +1,24 @@
 # The Internet
 
-
 ## Protocols
 
 ### Application Layer
 
-* DNS
-* FTP
-* HTTP
-* IMAP
-* LDAP
-* POP
-* SMTP
-* TLS/SSL
+-   DNS
+-   FTP
+-   HTTP
+-   IMAP
+-   LDAP
+-   POP
+-   SMTP
+-   TLS/SSL
 
 ### Transport Layer
 
-* TCP
+-   TCP
 
 ### Internet Layer
 
-* IP
+-   IP
 
 ### Link Layer

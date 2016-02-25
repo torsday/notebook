@@ -25,13 +25,13 @@ rails generate rspec:install
 
 ## Notable Gems
 
-* [activerecord]()
-* [activesupport]()
-* [bcrypt-ruby]()
-* [better_errors](https://github.com/charliesome/better_errors)
-* [devise](https://github.com/plataformatec/devise)
-* [haml]()
-* [pg]()
-* [rspec-rails]()
-* [sextant](https://github.com/schneems/sextant)
-* [xray-rails](https://github.com/brentd/xray-rails)
+-   [activerecord]()
+-   [activesupport]()
+-   [bcrypt-ruby]()
+-   [better_errors](https://github.com/charliesome/better_errors)
+-   [devise](https://github.com/plataformatec/devise)
+-   [haml]()
+-   [pg]()
+-   [rspec-rails]()
+-   [sextant](https://github.com/schneems/sextant)
+-   [xray-rails](https://github.com/brentd/xray-rails)
