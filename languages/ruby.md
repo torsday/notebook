@@ -149,9 +149,9 @@ object.replace(object.method) replaces object with the output of method (liked .
 ## Boolean Operators
 
 ```ruby
-&&
-||   or
-!   not
+&&  # and
+||  # or
+!   # not
 ```
 
 ## Operators
@@ -162,7 +162,7 @@ object.replace(object.method) replaces object with the output of method (liked .
 *=
 /=
 
-||=   conditional assignment operator - only assigns a value to a     variable if the current value of the variable is nil.
+||=  # conditional assignment operator - only assigns a value to a variable if the current value of the variable is nil.
 ```
 
 ## Combined Comparison Operator
@@ -703,15 +703,15 @@ The above code causes `IndexError: string not matched error`.
 What you really wanted.
 
 ```ruby
-  inject_array = ['A', 'B', 'C', 'D']
+inject_array = ['A', 'B', 'C', 'D']
 
-  inject_array.inject({}) do |accumulator, value|
-    accumulator[value] = value.downcase
-    accumulator
-  end
+inject_array.inject({}) do |accumulator, value|
+  accumulator[value] = value.downcase
+  accumulator
+end
 
-  Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
-  ```
+Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
+```
 
 ### each_with_object
 
