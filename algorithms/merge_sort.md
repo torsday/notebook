@@ -4,8 +4,6 @@
 
 > An efficient, general-purpose, comparison-based sorting algorithm. Most implementations produce a stable sort. Mergesort is a divide and conquer algorithm.
 
-
-
 | x                           | y                                        |
 |-----------------------------|------------------------------------------|
 | Class                       | Sorting algorithm                        |
