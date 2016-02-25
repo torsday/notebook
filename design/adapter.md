@@ -9,11 +9,13 @@ Can be implemented either using inheritance (class pattern) or compostion (objec
 Also known as the 'wrapper' pattern.
 
 ## Pros:
-* Enforces a consistent interface between two disparate objects.
-* Separates interface from implementation.
+
+-   Enforces a consistent interface between two disparate objects.
+-   Separates interface from implementation.
 
 ## Cons:
-* The adapter must necessarily be highly coupled to the adaptee.
+
+-   The adapter must necessarily be highly coupled to the adaptee.
 
 ## Example
 
@@ -21,7 +23,7 @@ Adaptee:
 
 We will use the `Cipher` module as the adaptee.
 
-http://ruby-doc.org/stdlib-2.0/libdoc/openssl/rdoc/OpenSSL/Cipher.html
+<http://ruby-doc.org/stdlib-2.0/libdoc/openssl/rdoc/OpenSSL/Cipher.html>
 
 ```ruby
 require 'openssl'

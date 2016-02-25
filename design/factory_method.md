@@ -1,23 +1,19 @@
 # Factory Method (pattern type)
 
-
 ## GoF definition (p. 107):
 
-> "Define an interface for creating an object, but let subclasses decide which
-class to instantiate. Factory Method lets a class defer instantiation to
-subclasses."
+> "Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses."
 
 ## Pros:
 
-* Allows for more flexible, subclass-specific methods of object creation.
-* The abstract factory method defines a clear interface the enforces certain requirements on subclasses factory methods.
+-   Allows for more flexible, subclass-specific methods of object creation.
+-   The abstract factory method defines a clear interface the enforces certain requirements on subclasses factory methods.
 
 ## Cons:
 
-* Can require creation of new subclasses to implement minor differences in object creation.
+-   Can require creation of new subclasses to implement minor differences in object creation.
 
 ## Example
-
 
 Abstract class
 

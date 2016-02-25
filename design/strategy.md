@@ -8,8 +8,8 @@ Like the 'template method' pattern, but rather than use subclassing to change th
 
 ## Pros:
 
-* Algorithms are encapsulated within interchangeable 'strategies'.
-* "Context" is decoupled from the implementation of the algorithm.
+-   Algorithms are encapsulated within interchangeable 'strategies'.
+-   "Context" is decoupled from the implementation of the algorithm.
 
 ## Example
 
