@@ -1,7 +1,5 @@
 # TODO
 
--   profiling, optimization
-
 -   sequence diagram of HTTP
 
 -   Gang-of-Four design patterns
@@ -26,3 +24,5 @@
 -   common patterns and their ideal usage
 
 -   SOLID and DDD principles
+
+-   profiling, optimization
