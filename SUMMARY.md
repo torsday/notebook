@@ -77,6 +77,7 @@
 -   [Languages, Libraries, Frameworks, et. al.](languages/README.md)
 
     -   [C](languages/c.md)
+    -   [CoffeeScript]()
     -   [Javascript](languages/javascript.md)
     -   [Laravel]()
     -   [Lo-Dash]()
