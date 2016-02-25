@@ -1,20 +1,14 @@
 # Lightweight Directory Access Protocol *(LDAP)*
 
-A protocol to perform CRUD operations on a directory across the TCP/IP layer.
+A protocol for CRUD operations on a directory across the TCP/IP layer.
 
-- defines & describes
+- defines & describes:
 
     -   The method by which directory data is accessed
     -   How data is represented in the directory service.
     -   How data is loaded (imported) into and saved (exported) from a directory service (using LDIF).
 
-    LDAP does not define how data is stored or manipulated. Data storage and access methods are automagical processes as far as the standard is concerned.
-
--   Runs on a layer above the TCP/IP stack.
-
-    -   port 389 for non-SSL
-    -   port 636 for SSL *(via an SSL-Tunnel)*
-
+LDAP does not define how data is stored or manipulated. Data storage and access methods are automagical processes as far as the standard is concerned.
 
 ---
 
