@@ -30,4 +30,4 @@ A mnemonic acronym that stands for five basic principles of object-oriented prog
 
 ## References
 
--   [Wikipedia: SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+-   <https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>
