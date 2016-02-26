@@ -4,6 +4,8 @@
 
 > These design patterns are all about Class's objects communication. Behavioral patterns are those patterns that are most specifically concerned with communication between objects.
 
+## Patterns
+
 |                                                         |                                                        |
 |---------------------------------------------------------|--------------------------------------------------------|
 | [Chain of Responsibility](./chain_of_responsibility.md) | A way of passing a request between a chain of objects. |
