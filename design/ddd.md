@@ -12,41 +12,6 @@ Premise:
 
 > ~ Robert Van Dell
 
----
-
-**Table of Contents**
-
-<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
-
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Architecture](#architecture)
-	- [**Domain** layer](#domain-layer)
-	- [**Application** layer](#application-layer)
-	- [**Infrastructure** layer](#infrastructure-layer)
-- [Classes](#classes)
-	- [Domain](#domain)
-	- [Platform](#platform)
-	- [Application](#application)
-- [or](#or)
-	- [URL to Path Tree mapping](#url-to-path-tree-mapping)
-- [Model](#model)
-	- [e.g. ```EmailChange.php```](#eg-emailchangephp)
-- [Repository](#repository)
-	- [e.g. ```EmailChangeRepository.php```](#eg-emailchangerepositoryphp)
-	- [Reference](#reference)
-- [Service](#service)
-	- [Types of Service](#types-of-service)
-	- [e.g. ```EmailHistoryService.php```](#eg-emailhistoryservicephp)
-	- [Reference](#reference)
-- [Service Providers](#service-providers)
-
-<!-- /TOC -->
-
-<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
-
----
-
 ## Concepts
 
 |                     |                                                                                                                                               |
