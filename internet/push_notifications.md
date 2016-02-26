@@ -19,7 +19,7 @@
 - [History](#history)
 - [How do push notifications work?](#how-do-push-notifications-work)
 	- [OS Push Services](#os-push-services)
-- [APNS → App](#apns-app)
+- [APNs → App](#apns-app)
 	- [iOS](#ios)
 	- [Android](#android)
 - [References](#references)
@@ -32,7 +32,7 @@
 
 ## History
 
--   **2009:** Apple launches Apple Push Notification Service (APNS), the first push service.
+-   **2009:** Apple launches Apple Push Notification Service (APNs), the first push service.
 -   **2010:** Google released its own service, Google Cloud to Device Messaging (C2DM).
 -   **2013:** Google introduces "rich notifications". Rich notifications can contain images, as well as action buttons. Action buttons let users take immediate action from a notification. For example, the user can play a song, open the app, or see more information.
 -   **2014:** Apple added interactive buttons. These buttons allow users to send a response right away to the app publisher. Shortly after, Apple extended push notifications to the Apple Watch.
@@ -55,7 +55,7 @@ There are three actors involved with delivering a push notification, along with 
 -   [Google Cloud Messaging: Overview](https://developers.google.com/cloud-messaging/gcm)
 -   [Windows Push Notification Service](https://msdn.microsoft.com/en-us/library/windows/apps/mt187203.aspx)
 
-## APNS → App
+## APNs → App
 
 ### iOS
 
@@ -78,7 +78,7 @@ There are three actors involved with delivering a push notification, along with 
 | Opt-in require                  | true                     | false       |
 | Payload limit                   | 2kb                      | 4kb         |
 | Buttons                         | 2                        | 3           |
-| Feedback                        | Via APNS Feedback Server | From Device |
+| Feedback                        | Via APNs Feedback Server | From Device |
 | Direct app feedback on delivery | no                       | yes         |
 | Two way messaging support       | No                       | Yes (XMPP)  |
 | Multi-device Messaging          | No                       | Yes         |
@@ -114,7 +114,7 @@ $ctx = stream_context_create();
 stream_context_set_option($ctx, 'ssl', 'local_cert', 'ck.pem');
 stream_context_set_option($ctx, 'ssl', 'passphrase', $passphrase);
 
-// Open a connection to the APNS server
+// Open a connection to the APNs server
 $fp = stream_socket_client(
     'ssl://gateway.sandbox.push.apple.com:2195', $err,
     $errstr, 60, STREAM_CLIENT_CONNECT|STREAM_CLIENT_PERSISTENT, $ctx);
@@ -122,7 +122,7 @@ $fp = stream_socket_client(
 if (!$fp)
     exit("Failed to connect: $err $errstr" . PHP_EOL);
 
-echo 'Connected to APNS' . PHP_EOL;
+echo 'Connected to APNs' . PHP_EOL;
 
 // Create the payload body
 $body['aps'] = array(

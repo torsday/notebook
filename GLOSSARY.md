@@ -1,8 +1,8 @@
 # Glossary
 
-## APNS
+## APNs
 
-Apple Push Notification Service.
+Apple Push Notification service.
 
 ## Behavior-Driven Development
 
