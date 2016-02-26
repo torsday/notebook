@@ -38,6 +38,7 @@
         -   [Creational](design/creational.md)
 
             -   [Abstract Factory](design/abstract_factory.md)
+            -   [Factory Method](design/factory_method.md)
             -   [Singleton](design/singleton.md)
 
         -   [Structural](design/structural.md)
@@ -69,7 +70,6 @@
 
     -   [Active Record Pattern](design/active_record_pattern.md)
     -   [CQRS](design/cqrs.md)
-    -   [Factory Method](design/factory_method.md)
     -   [Lazy Loading](design/lazy_loading.md)
     -   [MVC](design/mvc.md)
     -   [Object-Oriented Programming](design/oop.md)
