@@ -1,36 +1,35 @@
-# DECORATOR (object structural pattern)
-# ============================================
+# Decorator
 
-# GoF definition (p. 175):
-# -----------------------
-# "Attach additional responsibilities to an object dynamically. Decorators
-# provide a flexible alternative to subclassing for extending functionality."
+-   object structural pattern
 
-# OneDecorator
-# [component] ---------> TwoDecorator
-#                        [component] ---------> Component
+## GoF definition (p. 175):
 
-# Very similar to the Strategy Pattern, as you can alter the behavior of a
-# component by swapping out decorators or strategies. The key difference is
-# that a component maintains a reference to a strategy ('the guts'), while a
-# decorator maintains a reference to a component ('the skin').
+"Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality."
 
-# NB: Since components and decorators share the same interface, they are
-# interchangeable!
+```txt
+OneDecorator
+[component] ---------> TwoDecorator
+                       [component] ---------> Component
+```
 
-# Pros:
-# -----
-#  * A decorator's interface must conform to the interface of the component
-#    it decorates.
-#  * Features can be added incrementally to simple components.
+Very similar to the Strategy Pattern, as you can alter the behavior of a component by swapping out decorators or strategies. The key difference is that a component maintains a reference to a strategy ('the guts'), while a decorator maintains a reference to a component ('the skin').
 
-# Cons:
-# -----
-#  * Lots of little objects – behaviors are fragmented among different
-#    decorators, which can be difficult to follow.
+NB: Since components and decorators share the same interface, they are interchangeable!
 
-# Component [superclass to component subclasses and decorators]:
-# -------------------------------------------------------------
+## Pros:
+
+-   A decorator's interface must conform to the interface of the component it decorates.
+-   Features can be added incrementally to simple components.
+
+## Cons:
+
+-   Lots of little objects – behaviors are fragmented among different decorators, which can be difficult to follow.
+
+## Example
+
+### Component
+
+superclass to component subclasses and decorators
 
 ```ruby
 class Numbers
@@ -44,19 +43,21 @@ class Numbers
     @component ? @component.component : self
   end
 end
+```
 
-# Concrete Component:
-# -------------------
+### Concrete Component
 
+```ruby
 class Integers < Numbers
   def series(n)
     (1..n).to_a
   end
 end
+```
 
-# Decorators:
-# ----------
+### Decorators
 
+```ruby
 class Doubler < Numbers
   def initialize(component)
     @component = component # a reference to the component it decorates
@@ -77,9 +78,11 @@ class Inverse < Numbers
     @component.series(n).map { |n| n * -1 }
   end
 end
+```
 
-# -----
+### Implimentation
 
+```ruby
 integers = Integers.new
 p integers.series(5) # => [1, 2, 3, 4, 5]
 doubler = Doubler.new(integers)
