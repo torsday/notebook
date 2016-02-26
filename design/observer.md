@@ -1,4 +1,6 @@
-# OBSERVER (object behavioral)
+# Observer
+
+-   object behavioral
 
 ## GoF definition (p. 293):
 
@@ -12,7 +14,9 @@ Also known as the publish-subscribe pattern.
 -   Allows for broadcast communication – a subject doesn't care how many subscribers there are, and it doesn't need to target its message.
 -   When combined with the mediator pattern, can allow for very loose coupling between a family of related objects and behaviors.
 
-## Subject / Publisher
+## Example
+
+### Subject / Publisher
 
 ```ruby
 # Let's separate publisher behavior into a module so it can be composed:
@@ -50,10 +54,11 @@ class StockIndex
     publish(:index_down, self, amount)
   end
 end
+```
 
-# Observer / Subscriber / Listener
-# --------------------------------
+### Observer / Subscriber / Listener
 
+```ruby
 class NewsWire
   def index_up(index, amount)
     puts "#{index.name} is up #{amount} points!"
@@ -63,9 +68,11 @@ class NewsWire
     puts "#{index.name} is down #{amount} points!"
   end
 end
+```
 
-# -----
+### Implmentation
 
+```ruby
 nasdaq = StockIndex.new("NASDAQ", 5000)
 nasdaq.subscribe(NewsWire.new)
 nasdaq.up(500)

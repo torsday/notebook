@@ -1,28 +1,25 @@
-# BRIDGE (object structural pattern)
+# Bridge
+
+-   object structural pattern
 
 ## GoF definition (p. 151):
 
-> "Decouple abstraction [interface] from its implementation so that the two
-can vary independently."
+> "Decouple abstraction interface from its implementation so that the two can vary independently."
 
-This is very similar to the adapter pattern; the chief difference one of
-motivation: the adapter pattern is geared toward making unrelated classes
-work together through a predictable interface, while the bridge pattern
-is designed up front to separate implementation and interface into two
-parallel class hierarchies.
+This is very similar to the [adapter pattern](./adapter.md); the chief difference one of motivation: the adapter pattern is geared toward making unrelated classes work together through a predictable interface, while the bridge pattern is designed up front to separate implementation and interface into two parallel class hierarchies.
 
 ## Pros:
 
-* Separates interface from implementation
-* Implementations are interchangeable
+-   Separates interface from implementation
+-   Implementations are interchangeable
 
 ## Cons:
 
-* The interface and implementation classes must be tightly coupled.
+-   The interface and implementation classes must be tightly coupled.
 
 ## Example
 
-Abstraction [interface]:
+### Abstraction [interface]:
 
 ```ruby
 class RoboChat
@@ -45,11 +42,13 @@ class RoboChat
     end
   end
 end
+```
 
-# Implementor [implementation]:
-# -----------------------------
+### Implementor [implementation]:
 
-# Abstract superclass
+#### Abstract superclass
+
+```ruby
 class Robot
   def greeting
     "I am an abstract superclass."
@@ -59,8 +58,11 @@ class Robot
     raise NotImplementedError
   end
 end
+```
 
-# Concrete subclass
+#### Concrete subclass
+
+```ruby
 class DumbRobot < Robot
   RESPONSES = [
     "That's an interesting point. Could you explain further?",
@@ -83,8 +85,11 @@ class DumbRobot < Robot
     /^.*goodbye.*$/.match(message.downcase)
   end
 end
+```
 
-# -----
+### Implementation
+
+```ruby
 chat_room = RoboChat.new(DumbRobot.new)
 chat_room.chat
 ```
