@@ -33,12 +33,13 @@
 
 -   [Design](design/README.md)
 
-    -   [Design Patterns]()
-        -   [Creational]()
-        -   [Structural]()
-        -   [Behavioral]()
+    -   [Design Patterns](design/abstract_factory.md)
 
-    -   [Architectures]()
+        -   [Creational](design/abstract_factory.md)
+        -   [Structural](design/abstract_factory.md)
+        -   [Behavioral](design/abstract_factory.md)
+
+    -   [Architectures](design/abstract_factory.md)
 
     -   [Abstract Factory](design/abstract_factory.md)
     -   [Active Record Pattern](design/active_record_pattern.md)
