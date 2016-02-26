@@ -1,10 +1,8 @@
 # Structural Design Patterns
 
-
-> These design patterns are all about Class and Object composition.
+Pertains to composition of Classes and Objects.
 
 -   Structural class-creation patterns use inheritance to compose interfaces.
-
 -   Structural object-patterns define ways to compose objects to obtain new functionality.
 
 ## Patterns
