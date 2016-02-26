@@ -1,9 +1,9 @@
 # Rspec
 
+A behavior-driven development (BDD) framework for Ruby.
 
-
-*From: [Wikipedia](https://en.wikipedia.org/wiki/RSpec)*
-> A behavior-driven development (BDD) framework for the Ruby programming language, inspired by JBehave. It contains its own mocking framework that is fully integrated into the framework based upon JMock. The framework can be considered a domain-specific language (DSL) and resembles a natural language specification.
+-   Domain-specific language (DSL)
+-   Resembles a natural language specification
 
 ```ruby
 #Testing for our User class
@@ -26,13 +26,39 @@ describe User do
 end
 ```
 
+## Bites of Knowledge
 
-## References
+### Disable a tree of specs
 
-* [Better Specs { rspec guidelines with ruby }](http://betterspecs.org/)
-* [lelylan/betterspecs](https://github.com/lelylan/betterspecs/)
+Rspec 3
 
+```ruby
+before { skip }
+# or
+xdescribe
+```
+
+Rspec 2
+
+```ruby
+before { pending }
+
+# or
+
+context 'login as user' do
+  before do
+    pending "Skipped until CKVM is updated with necessary Vault data for this functionality to work."
+  end
+  # ...M
+end
+```
 
 ## See Also
 
-* [Factory Girl](https://github.com/thoughtbot/factory_girl)
+-   [Factory Girl](https://github.com/thoughtbot/factory_girl)
+
+## References
+
+-   [Better Specs { rspec guidelines with ruby }](http://betterspecs.org/)
+-   [lelylan/betterspecs](https://github.com/lelylan/betterspecs/)
+-   [Wikipedia: Rspec](https://en.wikipedia.org/wiki/RSpec)
