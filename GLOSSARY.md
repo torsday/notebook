@@ -72,6 +72,10 @@ Docker, a tool for deploying and running applications. Docker provides a way to 
 
 A computer language specialized to a particular application domain.
 
+## DRY
+
+Don’t Repeat Yourself, a software design principle. Explained in Pragmatic Programmers, it means that “Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.”
+
 ## DSE
 
 DSA Specific Entry.
