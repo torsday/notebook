@@ -1,12 +1,19 @@
 # Persistence
 
----
-
 ## Directory vs Database
 
 A **directory** is similar to a database, but
-- Tends to **contain more descriptive, attribute-based information**.
-- Generally **read from more often than written to**.
-- Tuned to give **quick-response to high-volume requests**.
-- They may have the **ability to replicate information widely** in order to increase availability and reliability, while reducing response time.
-    - Temporary inconsistencies between the replicas may be OK, as long as they get in sync eventually.
+
+-   Tends to **contain more descriptive, attribute-based information**.
+
+-   Generally **read from more often than written to**.
+
+-   Tuned to give **quick-response to high-volume requests**.
+
+-   They may have the **ability to replicate information widely** in order to increase availability and reliability, while reducing response time.
+
+    -   Temporary inconsistencies between the replicas may be OK, as long as they get in sync eventually.
+
+## References
+
+-   [Redmond, "Seven Databases in Seven Weeks"](http://www.amazon.com/Seven-Databases-Weeks-Modern-Movement/dp/1934356921)
