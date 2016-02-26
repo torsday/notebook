@@ -18,9 +18,3 @@ Pertains to communication between objects.
 | [Strategy](./strategy.md)                               | Encapsulates an algorithm inside a class.              |
 | [Template method](./template.md)                        | Defer the exact steps of an algorithm to a subclass.   |
 | [Visitor]()                                             | Defines a new operation to a class without change.     |
-
-## References
-
--   [Source Making: Design Patterns][source_making]
-
-[source_making]: https://sourcemaking.com/design_patterns "Source Making: Design Patterns"

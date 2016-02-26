@@ -17,9 +17,3 @@ Pertains to composition of Classes and Objects.
 | [**Flyweight**](./flyweight.md) | A fine-grained instance used for efficient sharing.      |
 | [**Private Class Data**]()      | Restricts accessor/mutator access.                       |
 | [**Proxy**](./proxy.md)         | An object representing another object.                   |
-
-## References
-
--   [Source Making: Design Patterns][source_making]
-
-[source_making]: https://sourcemaking.com/design_patterns "Source Making: Design Patterns"

@@ -17,9 +17,3 @@ Pertains to class instantiation.
 | [Object Pool]()                           | Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. |
 | [Prototype]()                             | A fully initialized instance to be copied or cloned.                                                 |
 | [Singleton](./singleton.md)               | A class of which only a single instance can exist.                                                   |
-
-## References
-
--   [Source Making: Design Patterns][source_making]
-
-[source_making]: https://sourcemaking.com/design_patterns "Source Making: Design Patterns"
