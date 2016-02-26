@@ -11,26 +11,9 @@
 -   Other features of Scala not present in Java include operator overloading, optional parameters, named parameters, raw strings, and no checked exceptions.
 -   The name Scala is a portmanteau of "scalable" and "language", signifying that it is designed to grow with the demands of its users.
 
-```scala
-object HelloWorld {
-  /** 'main' is your entry point into your program.
-    * The method signature indicates:
-    *   - argument ('args')
-    *   - argument type (Array[String])
-    *   - return type (Unit, like 'Void')
-    */
-  def main(args : Array[String]) : Unit {
-    println("Hello, world!")
-  }
-}
+## Basics
 
-object HelloWorld extends App {
-  // If you extend App, all statements within this object will be run:
-  println("Hello, World")
-}
-```
-
-## Variables
+### Variables
 
 ```scala
 var x = 5       // variable
@@ -38,7 +21,7 @@ val y = 8       // constant
 val x : Int = 5 // explicit type declaration
 ```
 
-## Functions
+### Functions
 
 ```scala
 def doubler(x : Int) : Int =
@@ -68,10 +51,8 @@ def higherOrder[A](a: A, f: (A) => Boolean)
 def compose[A](f: A => A, g: A => A) : A =
   (x : A) => f(g(a))
 
-
 def curry[A, B](a : A, f: (A, B) => C) : B => C =
   (b: B) => f(a, b)
-
 
 // Lazy (non-strict) evaluation of function arguments
 // onTrue and onFalse are no evaluated until called explicitly ('thunks')
@@ -94,10 +75,52 @@ import scala.collection.{Vector => Vec}
 
 ## Examples
 
+### Hello World
+
+Make file: `HelloWorld.scala`
+
+```scala
+object HelloWorld extends App {
+  println("Hello, World!")
+}
+```
+
+Compile
+
+```sh
+scalac HelloWorld.scala
+```
+
+Run
+
+```sh
+scala HelloWorld
+```
+
+### Hello World (OOP)
+
+```scala
+object HelloWorld {
+  /** 'main' is your entry point into your program.
+    * The method signature indicates:
+    *   - argument ('args')
+    *   - argument type (Array[String])
+    *   - return type (Unit, like 'Void')
+    */
+  def main(args : Array[String]) : Unit {
+    println("Hello, world!")
+  }
+}
+
+object HelloWorld extends App {
+  // If you extend App, all statements within this object will be run:
+  println("Hello, World")
+}
+```
+
 ### Classes
 
 ```scala
-// Scala
 class Point(
     val x: Double, val y: Double,
     addToGrid: Boolean = false
