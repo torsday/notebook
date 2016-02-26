@@ -4,16 +4,11 @@
 
 ## GoF definition (p. 325):
 
-> "Define the skeleton of an algorithm in an operation, defeering some steps
-to subclasses. Template methods lets subclasses redefine certain steps of an
-algorithm without changing the algorithm's structure."
+> "Define the skeleton of an algorithm in an operation, defeering some steps to subclasses. Template methods lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure."
 
-More succinctly, "a template method defines an algorithm in terms of
-abstract operations that subclasses override to provide concrete behavior"
-(GoF p. 326)
+More succinctly, "a template method defines an algorithm in terms of abstract operations that subclasses override to provide concrete behavior" (GoF p. 326)
 
-You should also draw a distinction between these abstract operations (which
-MUST be overriden) and "hook" operations (which MAY be overriden).
+You should also draw a distinction between these abstract operations (which MUST be overriden) and "hook" operations (which MAY be overriden).
 
 ## Pros:
 
