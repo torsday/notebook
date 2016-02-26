@@ -25,7 +25,6 @@
 
     -   [Squash](articles/squash.md)
     -   [The Right PHP LDAP Library](articles/search_for_php_ldap_library.md)
-        - [Test]()
 
 -   [Debugging](debugging/README.md)
 
@@ -34,43 +33,49 @@
 
 -   [Design](design/README.md)
 
-    -   [Design Patterns](design/abstract_factory.md)
+    -   [Design Patterns](design/design_patterns/README.md)
 
-        -   [Creational]()
-        -   [Structural]()
-        -   [Behavioral]()
+        -   [Creational](design/design_patterns/creational/README.md)
 
-    -   [Architectures]()
+            -   [Abstract Factory](design/abstract_factory.md)
+            -   [Singleton](design/singleton.md)
 
-    -   [Abstract Factory](design/abstract_factory.md)
+        -   [Structural](design/design_patterns/structural/README.md)
+
+            -   [Adapter](/design/adapter.md)
+            -   [Bridge](/design/bridge.md)
+            -   [Composite](/design/composite.md)
+            -   [Decorator](/design/decorator.md)
+            -   [Flyweight](/design/flyweight.md)
+            -   [Proxy](/design/proxy.md)
+
+        -   [Behavioral](design/design_patterns/behavioral/README.md)
+
+            -   [Chain of Responsibility](design/chain_of_responsibility.md)
+            -   [Command](design/command.md)
+            -   [Iterator](design/iterator.md)
+            -   [Mediator](design/mediator.md)
+            -   [Memento](design/memento.md)
+            -   [Observer](design/observer.md)
+            -   [State](design/state.md)
+            -   [Strategy](design/strategy.md)
+            -   [Template](design/template.md)
+
+    -   [Architecture](design/architecture)
+
+        -   [Domain Driven Design](design/ddd.md)
+        -   [Hexagonal](design/hexagonal.md)
+        -   [Onion](design/onion.md)
+
     -   [Active Record Pattern](design/active_record_pattern.md)
-    -   [Adapter](design/adapter.md)
-    -   [Bridge](design/bridge.md)
-    -   [Chain of Responsibility](design/chain_of_responsibility.md)
-    -   [Command](design/command.md)
-    -   [Composite](design/composite.md)
     -   [CQRS](design/cqrs.md)
-    -   [Decorator](design/decorator.md)
-    -   [Domain Driven Design](design/ddd.md)
     -   [Factory Method](design/factory_method.md)
-    -   [Flyweight](design/flyweight.md)
-    -   [Hexagonal](design/hexagonal.md)
-    -   [Iterator](design/iterator.md)
     -   [Lazy Loading](design/lazy_loading.md)
-    -   [Mediator](design/mediator.md)
-    -   [Memento](design/memento.md)
     -   [MVC](design/mvc.md)
     -   [Object-Oriented Programming](design/oop.md)
-    -   [Observer](design/observer.md)
-    -   [Onion](design/onion.md)
-    -   [Proxy](design/proxy.md)
     -   [Pub-sub Pattern](design/pub_sub.md)
-    -   [Singleton](design/singleton.md)
     -   [SOLID Principles](design/solid.md)
     -   [Specification Pattern](design/specification_pattern.md)
-    -   [State](design/state.md)
-    -   [Strategy](design/strategy.md)
-    -   [Template](design/template.md)
 
 -   [Education](education/README.md)
 
