@@ -22,6 +22,16 @@
 
 ---
 
+## Unsorted
+
+-   [Active Record Pattern](./active_record_pattern.md)
+-   [CQRS](./cqrs.md)
+-   [Factory Method](./factory_method.md)
+-   [Lazy Loading](./lazy_loading.md)
+-   [MVC](./mvc.md)
+-   [Pub-sub Pattern](./pub_sub.md)
+-   [Specification Pattern](./specification_pattern.md)
+
 ## Principles
 
 -   [SOLID Principles](./solid.md)
@@ -33,15 +43,6 @@
 -   [Onion](./onion.md)
 
 ## Design Patterns
-
--   [Active Record Pattern](./active_record_pattern.md)
--   [CQRS](./cqrs.md)
--   [Factory Method](./factory_method.md)
--   [Lazy Loading](./lazy_loading.md)
--   [MVC](./mvc.md)
--   [Observer](./observer.md)
--   [Pub-sub Pattern](./pub_sub.md)
--   [Specification Pattern](./specification_pattern.md)
 
 ### Creational
 
@@ -76,6 +77,7 @@
 -   [Iterator](./iterator.md)
 -   [Mediator](./mediator.md)
 -   [Memento](./memento.md)
+-   [Observer](./observer.md)
 -   [State](./state.md)
 -   [Strategy](./strategy.md)
 -   [Template](./template.md)

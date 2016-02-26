@@ -1,6 +1,6 @@
 # Observer
 
--   object behavioral
+-   object behavioral pattern
 
 ## GoF definition (p. 293):
 

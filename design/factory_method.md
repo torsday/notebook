@@ -1,4 +1,4 @@
-# Factory Method (pattern type)
+# Factory Method
 
 ## GoF definition (p. 107):
 
