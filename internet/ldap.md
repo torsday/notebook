@@ -460,6 +460,7 @@ if ($ds) {
 -   [CentOS: LDIF Update Statements](https://www.centos.org/docs/5/html/CDS/ag/8.0/Creating_Directory_Entries-LDIF_Update_Statements.html)
 -   [Georgia Tech: Public LDAP Server](http://drupal.gatech.edu/handbook/public-ldap-server)
 -   [LDAP Authentication Best Practices](http://web.archive.org/web/20130801091446/http://www.ldapguru.info/ldap/authentication-best-practices.html)
+-   [LDAP Guru: LDAP Programming Practices](https://web.archive.org/web/20130713161416/http://www.ldapguru.info/ldap/ldap-programming-practices.html)
 -   [Linux.com: Managing LDAP from the Command Line on Linux](http://www.linux.com/learn/tutorials/376144-manage-ldap-from-the-command-line)
 -   [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 -   [O'Reilly: LDAP Tutorial][oreilly-tutorial]
