@@ -1,30 +1,26 @@
-# STATE (object behavioral pattern)
-# =================================
+# State
 
-# GoF definition (p. 305):
-# -----------------------
-# "Allow an object to alter its behavior when its internal state changes. The
-# object will appear to change its class."
+-   object behavioral pattern
 
-# The crux of this pattern is to encapsulate the state and state-related
-# behaviors of an object within another object. This mitigates the need
-# for complicated control-flow based on state, and delegates state-specific
-# behaviors to the state object. Very similar to the Strategy pattern in
-# this respect.
+## GoF definition (p. 305):
 
-# Either the parent object or the state object can determine which state
-# succeeds another.
+> Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
-# Pros:
-# -----
-#  * Encapsulates state and state-specific behavior within an internal and
-#    interchangeable object.
-#  * Eliminates the need for complicated control-flow based on state.
-#  * Prevents inconsistent or contradictory states by delegating state to
-#    a single object instance (thereby making state 'atomic').
+The crux of this pattern is to encapsulate the state and state-related behaviors of an object within another object. This mitigates the need for complicated control-flow based on state, and delegates state-specific behaviors to the state object. Very similar to the Strategy pattern in this respect.
 
-# Context [parent object, maintains an instance of state object]
-# --------------------------------------------------------------
+Either the parent object or the state object can determine which state succeeds another.
+
+## Pros:
+
+-   Encapsulates state and state-specific behavior within an internal and interchangeable object.
+-   Eliminates the need for complicated control-flow based on state.
+-   Prevents inconsistent or contradictory states by delegating state to a single object instance (thereby making state 'atomic').
+
+## Example
+
+### Context
+
+-   parent object, maintains an instance of state object
 
 ```ruby
 class Car
@@ -52,10 +48,13 @@ class Car
     @state.shift_down(self)
   end
 end
+```
 
-# State [contains the context's state and state-related behaviors]
-# ----------------------------------------------------------------
+### State
 
+-   contains the context's state and state-related behaviors
+
+```ruby
 class CarState
   def throttle
     raise NotImplementedError
@@ -113,9 +112,11 @@ class Drive < CarState
     car.state = Neutral.new
   end
 end
+```
 
-# -----
+### Implimentation
 
+```ruby
 my_saab = Car.new
 my_saab.throttle
 my_saab.shift_up
