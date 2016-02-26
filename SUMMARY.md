@@ -39,7 +39,7 @@
         -   [Structural]()
         -   [Behavioral]()
 
-    -   [Architectures]
+    -   [Architectures]()
 
     -   [Abstract Factory](design/abstract_factory.md)
     -   [Active Record Pattern](design/active_record_pattern.md)
