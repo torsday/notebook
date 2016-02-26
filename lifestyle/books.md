@@ -8,14 +8,15 @@
 
 ## Notable Books
 
--   [ ] Code Complete
+-   [ ] Chiusano, "Functional Programming in Scala"
+-   [ ] Code Complete, "Code Complete"
 -   [ ] Emerick et al., "Clojure Programming"
+-   [ ] Fried, "ReWork"
 -   [ ] Gamma et al., "Design Patterns"
 -   [ ] Hofstadter, "Gödel, Escher, Bach"
+-   [ ] Hunt, "The Pragmatic Programmer"
+-   [ ] Meadows, "Thinking in Systems"
 -   [ ] Petzold, "Code"
--   [ ] ReWork
--   [ ] The Pragmatic Programmer
--   [ ] Thinking in Systems
--   [ ] Zen Mind, Beginners Mind
+-   [ ] Suzuki, "Zen Mind, Beginners Mind"
 -   [x] Beck, "Test-Driven Development by Example"
 -   [x] Metz, "Practical Object-Oriented Design in Ruby"
