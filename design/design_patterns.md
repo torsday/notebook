@@ -10,4 +10,5 @@ A general, repeatable solution to a common problems in software design.
 
 ## References
 
+-   [Gang of Four, "Design Patterns"](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented-ebook/dp/B000SEIBB8)
 -   [Source Making](https://sourcemaking.com/design_patterns)
