@@ -1,4 +1,6 @@
-# Strategy (object behavioral pattern)
+# Strategy
+
+-   Object Behavioral Pattern
 
 ## GoF definition (p. 315):
 
@@ -13,7 +15,7 @@ Like the 'template method' pattern, but rather than use subclassing to change th
 
 ## Example
 
-Strategies:
+### Strategies:
 
 ```ruby
 class Food
@@ -35,7 +37,7 @@ class Hotdog < Food
 end
 ```
 
-Context:
+### Context:
 
 ```ruby
 class Grill
@@ -51,7 +53,7 @@ class Grill
 end
 ```
 
-Implementation
+### Implementation
 
 ```ruby
 my_grill = Grill.new(Burger.new)
