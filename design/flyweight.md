@@ -1,44 +1,36 @@
-# FLYWEIGHT (object structural pattern)
-# =====================================
-
-# GoF definition (p. 195):
-# -----------------------
-# "Use sharing to support large numbers of fine-grained objects efficiently."
-
-# The key to grasping this pattern is to understand the distinction between intrinsic and extrinsic state:
-
-# 1. Intrinsic state is independent of an object's context,
-# 2. Extrinsic state depends on and varies with an object's context.
-
-# The flyweight pattern aims to reduce the number of objects needed in a system
-# by moving all intrinsic state into a pool of 'flyweight' objects that can be
-# shared.
-
-# In this example, rather than instantiate an object for every single character
-# in a sentence, the sentence relies on a pool of flyweight 'character' objects
-# that store the character's intrinsic state (i.e. what latter it represents).
-# This way there is only one character object for every letter in the
-# alphabet, rather than one object for every single character in the document.
-
-# While this pattern can reduce storage requirements in certain cases,
-# the pattern is only useful under the following conditions:
-
-#   * Storage costs are high because of sheer object quantity,
-#   * Many groups of objects may be replaced by relatively few shared objects
-#     once extrinsic state is removed.
-
-# Pros:
-# -----
-#  * Can greatly reduce storage requirements of an application
-
-# Cons:
-# -----
-#  * Requires the separation of intrinsic and extrinsic state, which
-#    can be a source of confusion when we are accustomed to encapsulated
-#    objects.
-
 # Flyweight
-# ---------
+
+-   object structural pattern
+
+## GoF definition (p. 195):
+
+> Use sharing to support large numbers of fine-grained objects efficiently.
+
+The key to grasping this pattern is to understand the distinction between intrinsic and extrinsic state:
+
+1.  Intrinsic state is independent of an object's context,
+1.  Extrinsic state depends on and varies with an object's context.
+
+The flyweight pattern aims to reduce the number of objects needed in a system by moving all intrinsic state into a pool of 'flyweight' objects that can be shared.
+
+In this example, rather than instantiate an object for every single character in a sentence, the sentence relies on a pool of flyweight 'character' objects that store the character's intrinsic state (i.e. what latter it represents). This way there is only one character object for every letter in the alphabet, rather than one object for every single character in the document.
+
+While this pattern can reduce storage requirements in certain cases, the pattern is only useful under the following conditions:
+
+-   Storage costs are high because of sheer object quantity,
+-   Many groups of objects may be replaced by relatively few shared objects once extrinsic state is removed.
+
+## Pros:
+
+-   Can greatly reduce storage requirements of an application
+
+## Cons:
+
+-   Requires the separation of intrinsic and extrinsic state, which can be a source of confusion when we are accustomed to encapsulated objects.
+
+## Example
+
+### Flyweight
 
 ```ruby
 class Letter
@@ -48,10 +40,13 @@ class Letter
     @char = char # This is intrinsic state, e.g. 'j' is always 'j'
   end
 end
+```
 
-# Flyweight factory (stores and creates flyweights)
-# -------------------------------------------------
+### Flyweight factory
 
+-   stores and creates flyweights
+
+```ruby
 class Alphabet
   attr_accessor :letter_pool
 
@@ -70,10 +65,11 @@ class Alphabet
     end
   end
 end
+```
 
-# Client object
-# -------------
+### Client object
 
+```ruby
 class Document
   def initialize(alphabet)
     @alphabet = alphabet
@@ -101,9 +97,11 @@ class Document
     puts printed_content
   end
 end
+```
 
-# -----
+### Implimentation
 
+```ruby
 latin_alphabet = Alphabet.new(Letter)
 my_doc = Document.new(latin_alphabet)
 my_doc.add_letter("H")
