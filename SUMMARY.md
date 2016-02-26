@@ -33,14 +33,14 @@
 
 -   [Design](design/README.md)
 
-    -   [Design Patterns](design/design_patterns/README.md)
+    -   [Design Patterns](design/design_patterns.md)
 
-        -   [Creational](design/design_patterns/creational/README.md)
+        -   [Creational](design/creational.md)
 
             -   [Abstract Factory](design/abstract_factory.md)
             -   [Singleton](design/singleton.md)
 
-        -   [Structural](design/design_patterns/structural/README.md)
+        -   [Structural](design/structural.md)
 
             -   [Adapter](/design/adapter.md)
             -   [Bridge](/design/bridge.md)
@@ -49,7 +49,7 @@
             -   [Flyweight](/design/flyweight.md)
             -   [Proxy](/design/proxy.md)
 
-        -   [Behavioral](design/design_patterns/behavioral/README.md)
+        -   [Behavioral](design/behavioral.md)
 
             -   [Chain of Responsibility](design/chain_of_responsibility.md)
             -   [Command](design/command.md)
@@ -61,7 +61,7 @@
             -   [Strategy](design/strategy.md)
             -   [Template](design/template.md)
 
-    -   [Architecture](design/architecture)
+    -   [Architecture](design/architecture.md)
 
         -   [Domain Driven Design](design/ddd.md)
         -   [Hexagonal](design/hexagonal.md)
