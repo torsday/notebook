@@ -1,5 +1,9 @@
 # Architecture
 
+> “Nothing is more dangerous than an idea if it’s the only one you have.”
+
+> ~ Emil-Auguste Chartier
+
 -   The **high level structures** of a software system.
 -   The **discipline** of creating such structures.
 -   The **documentation** of these structures.
