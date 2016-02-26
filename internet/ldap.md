@@ -2,7 +2,7 @@
 
 A protocol for CRUD operations on a directory across the TCP/IP layer.
 
-- defines & describes:
+-   defines & describes:
 
     -   The method by which directory data is accessed
     -   How data is represented in the directory service.
@@ -452,8 +452,6 @@ if ($ds) {
 -   Binary Protocol
 -   [Directory-vs-Database](../persistence/README.md#Directory-vs-Database)
 -   Directory Service Protocol
-
-
 
 ## References
 
