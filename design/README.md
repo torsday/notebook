@@ -1,27 +1,5 @@
 # Design
 
----
-
-**Table of Contents**
-
-<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
-
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Principles](#principles)
-- [Architecture](#architecture)
-- [Design Patterns](#design-patterns)
-	- [Creational](#creational)
-	- [Structural](#structural)
-	- [Behavioral](#behavioral)
-- [References](#references)
-
-<!-- /TOC -->
-
-<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
-
----
-
 ## Unsorted
 
 -   [Active Record Pattern](./active_record_pattern.md)
@@ -44,43 +22,6 @@
 
 ## Design Patterns
 
-### Creational
-
-[Source Making][source_making]
-
-> These design patterns are all about class instantiation. This pattern can be further divided into class-creation patterns and object-creational patterns. While class-creation patterns use inheritance effectively in the instantiation process, object-creation patterns use delegation effectively to get the job done.
-
--   [Abstract Factory](./abstract_factory.md)
--   [Singleton](./singleton.md)
-
-### Structural
-
-[Source Making][source_making]
-
-> These design patterns are all about Class and Object composition. Structural class-creation patterns use inheritance to compose interfaces. Structural object-patterns define ways to compose objects to obtain new functionality.
-
--   [Adapter](./adapter.md)
--   [Bridge](./bridge.md)
--   [Composite](./composite.md)
--   [Decorator](./decorator.md)
--   [Flyweight](./flyweight.md)
--   [Proxy](./proxy.md)
-
-### Behavioral
-
-[Source Making][source_making]
-
-> These design patterns are all about Class's objects communication. Behavioral patterns are those patterns that are most specifically concerned with communication between objects.
-
--   [Chain of Responsibility](./chain_of_responsibility.md)
--   [Command](./command.md)
--   [Iterator](./iterator.md)
--   [Mediator](./mediator.md)
--   [Memento](./memento.md)
--   [Observer](./observer.md)
--   [State](./state.md)
--   [Strategy](./strategy.md)
--   [Template](./template.md)
 
 ## References
 
