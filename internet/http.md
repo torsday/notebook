@@ -6,4 +6,4 @@
 
 ## References
 
--   [http2 explained](https://daniel.haxx.se/http2/)
+-   [http2 explained](https://bagder.gitbooks.io/http2-explained/content)
