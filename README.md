@@ -1,6 +1,6 @@
 # Notebook
 
-A living document of my engineering notes. As a work-in-progress, they're not always clean and organized; this will improve as the project evolves. Check it out, let me know your thoughts.
+A living document of my notes; largely engineering, but lifestyle as well. As a work-in-progress, they're not always clean and organized; this will improve as the project evolves. Check it out, let me know your thoughts.
 
 -   Download the ePub here: <https://www.gitbook.com/download/epub/book/torsday/notebook>
 
