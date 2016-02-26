@@ -1,31 +1,31 @@
-# TEMPLATE (class behavioral pattern)
-# ===================================
+# Template
 
-# GoF definition (p. 325):
-# -----------------------
-# "Define the skeleton of an algorithm in an operation, defeering some steps
-# to subclasses. Template methods lets subclasses redefine certain steps of an
-# algorithm without changing the algorithm's structure."
+-   class behavioral pattern
 
-# More succinctly, "a template method defines an algorithm in terms of
-# abstract operations that subclasses override to provide concrete behavior"
-# (GoF p. 326)
+## GoF definition (p. 325):
 
-# You should also draw a distinction between these abstract operations (which
-# MUST be overriden) and "hook" operations (which MAY be overriden).
+> "Define the skeleton of an algorithm in an operation, defeering some steps
+to subclasses. Template methods lets subclasses redefine certain steps of an
+algorithm without changing the algorithm's structure."
 
-# Pros:
-# -----
-#  * Fundamental technique for code reuse - factor the structure of algorithm
-#    into an abstract superclass.
+More succinctly, "a template method defines an algorithm in terms of
+abstract operations that subclasses override to provide concrete behavior"
+(GoF p. 326)
 
-# Cons:
-# -----
-#  * Subclass writers must remember which operations need to be overriden. This
-#    is its own kind of dependency!
+You should also draw a distinction between these abstract operations (which
+MUST be overriden) and "hook" operations (which MAY be overriden).
 
-# Abstract class
-# --------------
+## Pros:
+
+-   Fundamental technique for code reuse - factor the structure of algorithm into an abstract superclass.
+
+## Cons:
+
+-   Subclass writers must remember which operations need to be overriden. This is its own kind of dependency!
+
+## Example
+
+### Abstract class
 
 ```ruby
 class Animal
@@ -50,10 +50,11 @@ class Animal
     raise NotImplementedError
   end
 end
+```
 
-# Concrete classes
-# ----------------
+### Concrete classes
 
+```ruby
 class Monkey < Animal
   def initialize
     @name = "monkey"
@@ -88,8 +89,11 @@ class Turtle < Animal
     puts "The #{@name} stares intently at a female. She is far away."
   end
 end
+```
 
-# -----
+### Implementation
+
+```ruby
 george = Monkey.new
 george.survive
 slowpoke = Turtle.new

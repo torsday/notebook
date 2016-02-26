@@ -1,16 +1,19 @@
-# PATTERN (pattern type)
-# ============================================
+# Pattern
 
-# GoF definition (p. xxx):
-# -----------------------
-# 
+-   pattern type
 
-# Extra notes
+## GoF definition (p. xxx):
 
-# Pros:
-# -----
-#  *
+## Pros:
 
-# Cons:
-# -----
-#  *
+-
+
+## Cons:
+
+-
+
+## Example
+
+```ruby
+
+```
