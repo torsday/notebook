@@ -313,10 +313,7 @@ class EmailHistoryService
 }
 ```
 
-### Reference
+### References
 
 -   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services/)
-
----
-
-## Service Providers
+-   [Wikipedia: Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
