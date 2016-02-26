@@ -74,7 +74,7 @@ There are three actors involved with delivering a push notification, along with 
 ## iOS vs Android
 
 |                                 | iOS                      | Android     |
-|---------------------------------|--------------------------|-------------|
+|---------------------------------|:------------------------:|:-----------:|
 | Opt-in require                  | true                     | false       |
 | Payload limit                   | 2kb                      | 4kb         |
 | Buttons                         | 2                        | 3           |
