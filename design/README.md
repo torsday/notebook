@@ -57,6 +57,7 @@
 -   [Specification Pattern](./specification_pattern.md)
 -   [State](./state.md)
 -   [Strategy](./strategy.md)
+-   [Template](./template.md)
 
 ### Creational
 
