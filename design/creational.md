@@ -4,8 +4,8 @@ Pertains to class instantiation.
 
 ## Types
 
--   class-creation patterns (use inheritance in the instantiation process)
--   object-creational patterns (use delegation in the instantiation process)
+-   class-creation patterns: use **inheritance** in the instantiation process)
+-   object-creational patterns: use **delegation** in the instantiation process)
 
 ## Patterns
 
