@@ -26,6 +26,12 @@ I'm primarily focused on the first element: designing the high level structures.
 -   [ ] What are the facts and assumptions?
 -   [ ] Document rationale
 
+## Architectures
+
+-   [Domain Driven Design](./ddd.md)
+-   [Hexagonal](./hexagonal.md)
+-   [Onion](./onion.md)
+
 ## References
 
 -   [Software Architecture cheat sheet](http://gorban.org/post/32873465932/software-architecture-cheat-sheet)
