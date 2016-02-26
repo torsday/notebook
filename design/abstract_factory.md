@@ -93,3 +93,7 @@ ford_dealership.factory = VanFactory.new # Let's switch factories
 ford_dealership.order_vehicles(2, "E-350")
 ford_dealership.list_inventory
 ```
+
+## References
+
+-   [SourceMaking: AbstractFactory](https://sourcemaking.com/design_patterns/abstract_factory)
