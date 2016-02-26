@@ -1,5 +1,15 @@
 # Architecture
 
+-   The **high level structures** of a software system.
+-   The **discipline** of creating such structures.
+-   The **documentation** of these structures.
+
+Software architecture is about making fundamental structural choices which are costly to change once implemented.
+
+Documenting software architecture facilitates communication between stakeholders, captures early decisions about the high-level design, and allows reuse of design components between projects.
+
+I'm primarily focused on the first element: designing the high level structures.
+
 ## Questions to Ask
 
 -   [ ] Is this a “Good Idea”? Feature creep — kill it.
