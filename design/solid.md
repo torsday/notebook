@@ -2,11 +2,11 @@
 
 A mnemonic acronym basic principles of object-oriented programming and design.
 
--   **S**ingle Responsibility Principle
--   **O**pen/closed Principle
--   **L**iskov Substitution Principle
--   **I**nterface Segregation Principle
--   **D**ependency Inversion Principle
+-   **S**ingle Responsibility
+-   **O**pen/closed
+-   **L**iskov Substitution
+-   **I**nterface Segregation
+-   **D**ependency Inversion
 
 ## Single Responsibility Principle
 
