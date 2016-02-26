@@ -1,8 +1,6 @@
 # Behavioral Design Patterns
 
-[Source Making][source_making]
-
-> These design patterns are all about Class's objects communication. Behavioral patterns are those patterns that are most specifically concerned with communication between objects.
+Pertains to communication between objects.
 
 ## Patterns
 
@@ -20,5 +18,9 @@
 | [Strategy](./strategy.md)                               | Encapsulates an algorithm inside a class.              |
 | [Template method](./template.md)                        | Defer the exact steps of an algorithm to a subclass.   |
 | [Visitor]()                                             | Defines a new operation to a class without change.     |
+
+## References
+
+-   [Source Making: Design Patterns][source_making]
 
 [source_making]: https://sourcemaking.com/design_patterns "Source Making: Design Patterns"
