@@ -133,12 +133,16 @@
 
 -   [Persistence](persistence/README.md)
 
+    -   [CouchDB]()
     -   [Hadoop]()
+    -   [HBase]()
     -   [MemCached]()
     -   [MongoDB]()
     -   [MySQL]()
+    -   [Neo4J]()
     -   [Postgres](persistence/postgres.md)
     -   [Redis]()
+    -   [Riak]()
     -   [SQL](persistence/sql.md)
     -   [SQLite](persistence/sqlite.md)
 
