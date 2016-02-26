@@ -10,7 +10,7 @@
     -   [Data Compression Algorithms]()
     -   [Dijkstra’s Algorithm]()
     -   [Fourier Transform & Fast Fourier Transform]()
-    -   [Heap Sort]()
+    -   [Heapsort](algorithms/heapsort.md)
     -   [Integer Factorization]()
     -   [Link Analysis]()
     -   [Merge Sort](algorithms/merge_sort.md)
@@ -19,6 +19,7 @@
     -   [Random Number Generation]()
     -   [RSA Algorithm]()
     -   [Secure Hash Algorithm]()
+    -   [Selection Sort]()
 
 -   [Articles](articles/README.md)
 
