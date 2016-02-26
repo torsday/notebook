@@ -12,7 +12,7 @@ Software architecture is about making fundamental structural choices which are c
 
 Documenting software architecture facilitates communication between stakeholders, captures early decisions about the high-level design, and allows reuse of design components between projects.
 
-I'm primarily focused on the first element: designing the high level structures.
+For my notes, I'm primarily focused on the first element: designing the high level structures.
 
 ## Questions to Ask
 

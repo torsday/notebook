@@ -1,8 +1,16 @@
 # Domain Driven Design
 
-*From: [bob]()*
+Handles complexity by connecting the implementation to an evolving model.
 
-> Domain Driven Design (DDD) places development focus primarily on the unique *business rules* which an application unique. This means codifying business rules in Domain Entities, Value Objects and Services, in a layer that is separate from other focuses such as infrastructure and persistence requirements. The structure of the Reach PHP package can serve as a good example of how to organize your code.
+Premise:
+
+-   Placing the project's primary focus on the core domain and domain logic.
+-   Basing complex designs on a model of the domain.
+-   Initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.
+
+> Domain Driven Design places development focus primarily on the unique *business rules* which an application unique. This means codifying business rules in Domain Entities, Value Objects and Services, in a layer that is separate from other focuses such as infrastructure and persistence requirements. The structure of the Reach PHP package can serve as a good example of how to organize your code.
+
+> ~ Robert Van Dell
 
 ---
 
