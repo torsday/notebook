@@ -1,4 +1,6 @@
-# Adapter (class/object structural pattern)
+# Adapter
+
+-  class/object structural pattern
 
 ## GoF definition (p. 139):
 
