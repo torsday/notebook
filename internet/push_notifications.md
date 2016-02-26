@@ -73,19 +73,21 @@ There are three actors involved with delivering a push notification, along with 
 
 ## iOS vs Android
 
-|                                 | iOS                      | Android     |
+|                                 |           iOS            |   Android   |
 |---------------------------------|:------------------------:|:-----------:|
-| Opt-in require                  | true                     | false       |
-| Payload limit                   | 2kb                      | 4kb         |
-| Buttons                         | 2                        | 3           |
+| Opt-in require                  |           true           |    false    |
+| Payload limit                   |           2kb            |     4kb     |
+| Buttons                         |            2             |      3      |
 | Feedback                        | Via APNs Feedback Server | From Device |
-| Direct app feedback on delivery | no                       | yes         |
-| Two way messaging support       | No                       | Yes (XMPP)  |
-| Multi-device Messaging          | No                       | Yes         |
+| Direct app feedback on delivery |            no            |     yes     |
+| Two way messaging support       |            No            | Yes (XMPP)  |
+| Multi-device Messaging          |            No            |     Yes     |
 
 ## Token Generation and Dispersal
 
 > An app must register with the system to receive remote notifications, as described in [Registering for Remote Notifications](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/IPhoneOSClientImp.html#//apple_ref/doc/uid/TP40008194-CH103-SW2). Upon receiving a registration request, the system forwards the request to APNs, which generates a unique device token, for the app, using information contained in the device’s certificate. It then encrypts the token using a token key and returns it to the device, as shown in Figure 3-5. The system delivers the device token to your app as an NSData object. Upon receiving this token, your app must forward it to your provider in either binary or hexadecimal format. Your provider cannot send notifications to the device without this token.
+
+*Note: A **device token** is not a unique ID that you can use to identify a device. Device tokens can change after updating the operating system on a device. As a result, apps should send their device token.*
 
 ![APNs Token Generation & Dispersal](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/token_generation_2x.png)
 
