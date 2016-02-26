@@ -34,7 +34,6 @@
 -   [Design](design/README.md)
 
     -   [Design Patterns]()
-
         -   [Creational]()
         -   [Structural]()
         -   [Behavioral]()
