@@ -61,7 +61,7 @@
 
 -   [Adapter](./adapter.md)
 -   [Bridge](./bridge.md)
--   [Composite](./composite.md)\
+-   [Composite](./composite.md)
 -   [Decorator](./decorator.md)
 -   [Flyweight](./flyweight.md)
 -   [Proxy](./proxy.md)
