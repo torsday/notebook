@@ -4,7 +4,7 @@
 
 ## GoF definition (p. 87):
 
-> "Provides an interface for creating families of related or dependent objects without specifying their concrete classes."
+> Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 
 "Factories" encapsulate the creation of an object, and families of objects may have families factories with the same interface. This makes it easy to change the type of object built by the client by swapping out the factory.
 
