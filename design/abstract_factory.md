@@ -1,4 +1,6 @@
-# Abstract Factory (object Creational Pattern)
+# Abstract Factory
+
+-   Object Creational Pattern
 
 ## GoF definition (p. 87):
 
@@ -12,7 +14,7 @@ without specifying their concrete classes."
 
 ## Example
 
-Objects to be built:
+### Objects to be built:
 
 ```ruby
 class Vehicle
@@ -36,7 +38,7 @@ class Van < Vehicle
 end
 ```
 
-Factories:
+### Factories:
 
 ```ruby
 class AbstractFactory
@@ -58,7 +60,7 @@ class VanFactory < AbstractFactory
 end
 ```
 
-Client:
+### Client:
 
 ```ruby
 class Dealership
@@ -80,7 +82,7 @@ class Dealership
 end
 ```
 
-Implementation:
+### Implementation:
 
 ```ruby
 ford_dealership = Dealership.new(SedanFactory.new)
