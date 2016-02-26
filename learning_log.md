@@ -1,6 +1,6 @@
 # Learning Log
 
--   Set configs for project: <https://atom.io/packages/editorconfig>
+-   Set configs for an atom project across IDEs: <https://atom.io/packages/editorconfig>
 
 -   Looking into linting my markdown
 
