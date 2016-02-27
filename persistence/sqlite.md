@@ -1,9 +1,5 @@
 # SQLite
 
-## Methods
-
-### GROUP BY
-
 ## Ruby Config
 
 ### `results_as_hash`
@@ -34,7 +30,7 @@ SET Downloaded = 0
 WHERE UpdatedAt >= date('now','-10 day');
 ```
 
-### Group, count, and sort
+### `GROUP BY`, `count()`, and `ORDER BY`
 
 ```sqlite
 SELECT *, count(Url)
