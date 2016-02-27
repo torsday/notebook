@@ -112,3 +112,4 @@ Connection: close
 -   [http2 explained](https://bagder.gitbooks.io/http2-explained/content)
 -   [Wikipedia: HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 -   <https://github.com/for-GET/http-decision-diagram>
+-   [TCP/IP Guide: HTTP Messages, Message Formats, Methods and Status Codes](http://www.tcpipguide.com/free/t_HTTPMessagesMessageFormatsMethodsandStatusCodes.htm)

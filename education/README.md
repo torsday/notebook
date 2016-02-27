@@ -31,6 +31,10 @@ Both for further understanding, as well as in building this book.
 
 ## References
 
+### Courses
+
+-  [Harvard CS50](http://cs50.tv) or find it on [EdX](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
+
 ### Screencasts
 
 -   [LaraCasts](https://laracasts.com)
