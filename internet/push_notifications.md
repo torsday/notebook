@@ -101,7 +101,7 @@ There are three actors involved with delivering a push notification, along with 
 
 ## Examples
 
-### Pushing to a single device
+### Pushing to a single device from Provider in PHP
 
 ```php
 $deviceToken = 'de641706f194fa32169dcd8297309153bb6b4de838f9b7cb7cb83c0e24b6609b';
