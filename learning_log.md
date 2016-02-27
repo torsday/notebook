@@ -4,8 +4,6 @@
 
   ```js
   new_window=window.open();new_window.document.body.innerHTML = $('iframe').contents().find('iframe').contents().find('body').get(1).innerHTML;
-
-  javascript:new_window=window.open();new_window.document.body.innerHTML = $('iframe').contents().find('iframe').contents().find('body').get(1).innerHTML;
   ```
 
 2016-02-26
