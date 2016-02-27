@@ -55,11 +55,7 @@ There are three actors involved with delivering a push notification, along with 
 -   [Google Cloud Messaging: Overview](https://developers.google.com/cloud-messaging/gcm)
 -   [Windows Push Notification Service](https://msdn.microsoft.com/en-us/library/windows/apps/mt187203.aspx)
 
-## APNs → App
-
-### iOS
-
-### Android
+## Android
 
 *From: [StackOverflow](http://stackoverflow.com/questions/11508613/how-does-push-notification-technology-work-on-android)*
 
@@ -68,6 +64,24 @@ There are three actors involved with delivering a push notification, along with 
 > When this TCP client socket receives some message, the message contains information such as the package name of the application it should be addressed to, and of course - the data itself. This data is parsed and packed into an intent that is broadcast and eventually received by the application.
 
 > The TCP socket stays open even when the device's radio state turns into "idle" mode. Applications don't have to be running to receive the intents.
+
+---
+
+## iOS
+
+### Token Generation and Dispersal
+
+> An app must register with the system to receive remote notifications, as described in [Registering for Remote Notifications](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/IPhoneOSClientImp.html#//apple_ref/doc/uid/TP40008194-CH103-SW2). Upon receiving a registration request, the system forwards the request to APNs, which generates a unique device token, for the app, using information contained in the device’s certificate. It then encrypts the token using a token key and returns it to the device, as shown in Figure 3-5. The system delivers the device token to your app as an NSData object. Upon receiving this token, your app must forward it to your provider in either binary or hexadecimal format. Your provider cannot send notifications to the device without this token.
+
+*Note: A **device token** is not a unique ID that you can use to identify a device. Device tokens can change after updating the operating system on a device. As a result, apps should send their device token.*
+
+![APNs Token Generation & Dispersal](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/token_generation_2x.png)
+
+### Token Trust (Notification)
+
+> Every notification that your provider sends to APNs must be accompanied by the device token associated of the device for which the notification is intended. APNs decrypts the token using its token key to ensure the validity of the notification source—that is, your provider. APNs uses the device ID contained in the device token to determine the identity of the target device. It then sends the notification to that device
+
+![Notification Diagram](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/token_trust_2x.png)
 
 ---
 
@@ -83,19 +97,7 @@ There are three actors involved with delivering a push notification, along with 
 | Two way messaging support       |            No            | Yes (XMPP)  |
 | Multi-device Messaging          |            No            |     Yes     |
 
-## Token Generation and Dispersal
-
-> An app must register with the system to receive remote notifications, as described in [Registering for Remote Notifications](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/IPhoneOSClientImp.html#//apple_ref/doc/uid/TP40008194-CH103-SW2). Upon receiving a registration request, the system forwards the request to APNs, which generates a unique device token, for the app, using information contained in the device’s certificate. It then encrypts the token using a token key and returns it to the device, as shown in Figure 3-5. The system delivers the device token to your app as an NSData object. Upon receiving this token, your app must forward it to your provider in either binary or hexadecimal format. Your provider cannot send notifications to the device without this token.
-
-*Note: A **device token** is not a unique ID that you can use to identify a device. Device tokens can change after updating the operating system on a device. As a result, apps should send their device token.*
-
-![APNs Token Generation & Dispersal](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/token_generation_2x.png)
-
-## Token Trust (Notification)
-
-> Every notification that your provider sends to APNs must be accompanied by the device token associated of the device for which the notification is intended. APNs decrypts the token using its token key to ensure the validity of the notification source—that is, your provider. APNs uses the device ID contained in the device token to determine the identity of the target device. It then sends the notification to that device
-
-![Notification Diagram](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/token_trust_2x.png)
+---
 
 ## Examples
 
@@ -149,6 +151,8 @@ else
 // Close the connection to the server
 fclose($fp);
 ```
+
+---
 
 ## References
 
