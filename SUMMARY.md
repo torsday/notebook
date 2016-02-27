@@ -105,6 +105,7 @@
     -   [OAuth](internet/oauth.md)
     -   [Push Notifications](internet/push_notifications.md)
     -   [TCP/IP]()
+    -   [TLS/SSL](internet/tls_ssl.md)
     -   [XMPP](internet/xmpp.md)
 
 -   [Languages, Libraries, Frameworks, et. al.](languages/README.md)
@@ -183,7 +184,6 @@
     -   [Encryption](security/encryption.md)
     -   [RSA]()
     -   [SSH](security/ssh.md)
-    -   [TLS/SSL](security/tls_ssl.md)
 
 -   [Testing](testing/README.md)
 
