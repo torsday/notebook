@@ -88,6 +88,8 @@ Connection: close
 </html>
 ```
 
+![HTTP Response Message Format](http://www.tcpipguide.com/free/diagrams/httpresponse.png)
+
 ---
 
 ## Sequence Diagram
