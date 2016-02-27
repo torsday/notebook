@@ -18,6 +18,12 @@ shasum -a 1 <file>
 shasum -a 256 <file>
 ```
 
+#### Calculate SHA-512 checksum
+
+```sh
+sha512sum <file>
+```
+
 #### Calculate MD5 checksum
 
 ```sh

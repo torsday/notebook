@@ -928,6 +928,13 @@ File.rename "original_path", "new_path"
 
 ---
 
+## Favorite Gems
+
+-   [RuboCop](https://github.com/bbatsov/rubocop)
+-   [Ruby Lint](https://github.com/YorickPeterse/ruby-lint)
+
+---
+
 ## References
 
 -   [Ruby Docs: Array](http://ruby-doc.org/core/Array.html)
