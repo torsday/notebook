@@ -525,12 +525,11 @@ module Circle
 
 end
 
-
 puts Circle::PI  # scope resolution operator ("get this from the module")
 
 require 'circle' # imports a given module into the environment
 
-include Circle   # when placed in a class, this allows an instance of the class to use the module's methods as if they were its own.     This is called a "mixin," and allows Ruby to mimic multiple class inheritance, which it can't normally do – it CAN "inherit" multiple modules.
+include Circle   # when placed in a class, this allows an instance of the class to use the module's methods as if they were its own. This is called a "mixin," and allows Ruby to mimic multiple class inheritance, which it can't normally do – it CAN "inherit" multiple modules.
 
 require_relative ‘something.rb’ # allows you to access the data found in another file in the same directory.
 ```
@@ -886,6 +885,8 @@ __END__
 }
 ```
 
+---
+
 ## `Dir`
 
 ### Change directory
@@ -915,6 +916,8 @@ def dirs_in_dir(dir)
 end
 ```
 
+---
+
 ## `File`
 
 ### Rename file/directory
@@ -922,6 +925,8 @@ end
 ```ruby
 File.rename "original_path", "new_path"
 ```
+
+---
 
 ## References
 
