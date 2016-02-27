@@ -89,8 +89,14 @@
 
 -   [Education](education/README.md)
 
-    -   [Exercism](education/exercism.md)
-    -   [Feedback](education/feedback.md)
+    -   [Courses](education/courses.md)
+
+        -   [Harvard CS50](education/harvard_cs50.md)
+
+    -   [Other](education/other.md)
+
+        -   [Exercism](education/exercism.md)
+        -   [Feedback](education/feedback.md)
 
 -   [Internet](internet/README.md)
 
