@@ -19,9 +19,13 @@
 - [History](#history)
 - [How do push notifications work?](#how-do-push-notifications-work)
 	- [OS Push Services](#os-push-services)
-- [APNs → App](#apns-app)
-	- [iOS](#ios)
-	- [Android](#android)
+- [Android](#android)
+- [iOS](#ios)
+	- [Token Generation and Dispersal](#token-generation-and-dispersal)
+	- [Token Trust (Notification)](#token-trust-notification)
+- [iOS vs Android](#ios-vs-android)
+- [Examples](#examples)
+	- [Pushing to a single device from Provider in PHP](#pushing-to-a-single-device-from-provider-in-php)
 - [References](#references)
 
 <!-- /TOC -->
@@ -29,6 +33,7 @@
 <!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
 
 ---
+
 
 ## History
 
