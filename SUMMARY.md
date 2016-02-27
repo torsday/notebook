@@ -180,6 +180,7 @@
 -   [Security](security/README.md)
 
     -   [Common Web Flaws](security/common_web_security_flaws.md)
+    -   [Encryption](security/encryption.md)
     -   [RSA]()
     -   [SSH](security/ssh.md)
     -   [TLS/SSL]()
