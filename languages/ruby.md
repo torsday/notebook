@@ -888,13 +888,13 @@ __END__
 
 ## `Dir`
 
-### Change dir
+### Change directory
 
 ```ruby
 Dir.chdr(dir)
 ```
 
-### Elements in dir
+### Elements in directory
 
 ```ruby
 def elements_in_dir(dir)
@@ -903,7 +903,7 @@ def elements_in_dir(dir)
 end
 ```
 
-### Dirs in dir
+### Directories in a directory
 
 ```ruby
 def dirs_in_dir(dir)
@@ -917,7 +917,7 @@ end
 
 ## `File`
 
-### Rename file/dir
+### Rename file/directory
 
 ```ruby
 File.rename "original_path", "new_path"
