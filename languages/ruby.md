@@ -92,8 +92,7 @@
 "#{}"  # string interpolation - "My name is #{name}"
 ```
 
-Returns a copy of str with the all occurrences of pattern substituted.
-Pattern is typically a regex.
+Returns a copy of str with the all occurrences of pattern substituted. Pattern is typically a regex.
 
 ```ruby
 .gsub(pattern, replacement)
@@ -181,25 +180,25 @@ Returns `0` if the first operand (item to be compared) equals the second, `1` if
 
 ```ruby
 array = [1, 2, 3]
-array[0]   fetch item at given index
-array[0][0]  fetch item at given index (2D array or beyond)
-array[0] = 1  set item at given index
-array << 23  add item to end of array ("concatenation operation")
+array[0]      # fetch item at given index
+array[0][0]   # fetch item at given index (2D array or beyond)
+array[0] = 1  # set item at given index
+array << 23   # add item to end of array ("concatenation operation")
 
 array.push(element) << is a shortcut for this
 array.pop(element)
 
-array.unshift(element) like push but it adds to beginning of array
-array.shift(element)  like pop but it removes from beginning of array
+array.unshift(element) # like push but it adds to beginning of array
+array.shift(element)   # like pop but it removes from beginning of array
 
-array.first  returns first element
-array.length  returns # of elements
+array.first   # returns first element
+array.length  # returns # of elements
 array.empty?
 array.include?(x)
-array.index(x) What index is the given element at?
+array.index(x)  # What index is the given element at?
 
-array.join(x)  returns elements as string separated by x
-string.split(x)  turns a string into an array with x as separator
+array.join(x)    # returns elements as string separated by x
+string.split(x)  # turns a string into an array with x as separator
 ```
 
 get where two arrays match in ruby: use [Intersection, or `&`](http://ruby-doc.org/core-2.3.0/Array.html#method-i-26)
@@ -212,11 +211,12 @@ x & y # => [2, 4]
 
 ## Loops
 
+```ruby
 while
-until   opposite of while (stops when false)
-for x in 1...10  Up to 10, exclusive (9 times), e.g.: for num in 1...10   puts num  end
-
-for x in 1..10  Up to 10, inclusive (10 times)
+until            # opposite of while (stops when false)
+for x in 1...10  # Up to 10, exclusive (9 times), e.g.: for num in 1...10   puts num  end
+for x in 1..10   # Up to 10, inclusive (10 times)
+```
 
 ## One Line Ifs
 
@@ -264,7 +264,7 @@ You can make your own methods that take blocks with yield.
 
 ```ruby
 def method(n)
-  yield n   Passes "n" to the block. yield can also be standalone.
+  yield n   # Passes "n" to the block. yield can also be standalone.
 end
 
 def double(num)
@@ -346,8 +346,8 @@ array.select { |x| x > 3}
 "L".upto("O") { |letter| puts letter}  L M N O
 5.downto(1) { |number| puts number}  5 4 3 2 1
 
-array.reduce(:+) Returns sum of values in array. + is passed like a block.
-array.inject(:+) Works similarly.
+array.reduce(:+) # Returns sum of values in array. + is passed like a block.
+array.inject(:+) # Works similarly.
 ```
 
 ## Hashes
@@ -377,19 +377,19 @@ my_hash = {
 ```ruby
 my_hash = Hash.new
 
-my_hash["name"] = "Eric"  Adds (or changes) key-value pair.
-my_hash         = Hash.new("derp")  creates a hash with "derp" as the default nil (that is, the value of an undefined key)
-my_hash.select { |k, v| v > 3}  returns values greater than 3 (an example).
+my_hash["name"] = "Eric"             # Adds (or changes) key-value pair.
+my_hash         = Hash.new("derp")   # creates a hash with "derp" as the default nil (that is, the value of an undefined key)
+my_hash.select { |k, v| v > 3}       # returns values greater than 3 (an example).
 ```
 
 ### Some Hash Methods
 
 ```ruby
-.keys   returns list of keys as an array
-.values   returns list of keys as an array
+.keys     # returns list of keys as an array
+.values   # returns list of keys as an array
 .has_key?(key)
 .has_value?(value)
-.merge(another_hash) combines 2 hashes, values of another_hash trump the other if there    are matching keys
+.merge(another_hash) # combines 2 hashes, values of another_hash trump the other if there are matching keys
 ```
 
 ## Methods
@@ -417,9 +417,9 @@ A closure or a "saved block”. Kind of like a method, but it can be used like a
 ```ruby
 cube = Proc.new { |x| x ** 3 }
 
-[1, 2, 3].collect!(&cube)  & is used to convert a proc into a block.
+[1, 2, 3].collect!(&cube) # & is used to convert a proc into a block.
 
-cube.call(2)    .call calls procs directly.
+cube.call(2)    # .call calls procs directly.
 ```
 
 Methods can be treated like blocks, too!:
@@ -450,9 +450,8 @@ Prefixed to variables to specify their scope.
 -   **Instance Variable**: available only to a particular instance of a class
 
 ```ruby
-$ # global variable (variables are global by default unless inside a    method or class, use this prefix if you want to make an exception    for a variable within a method or class).
-
-@ # instance variable (specific to a single instance of a class).
+$  # global variable (variables are global by default unless inside a    method or class, use this prefix if you want to make an exception    for a variable within a method or class).
+@  # instance variable (specific to a single instance of a class).
 @@ # class variable
 ```
 
@@ -475,8 +474,8 @@ class Name
   #private methods here
 end
 
-attr_reader :variable  # allows you to read "variable" without an extra method
-attr_writer :variable  # allows you to edit "variable"
+attr_reader :variable    # allows you to read "variable" without an extra method
+attr_writer :variable    # allows you to edit "variable"
 attr_accessor :variable  # allows you to both read and edit "variable"
 ```
 
@@ -531,9 +530,9 @@ puts Circle::PI   scope resolution operator ("get this from the module")
 
 require 'circle'  imports a given module into the environment
 
-include Circle   when placed in a class, this allows an instance of the      class to use the module's methods as if they were its own.     This is called a "mixin," and allows Ruby to mimic      multiple class inheritance, which it can't normally do –     it CAN "inherit" multiple modules.
+include Circle   # when placed in a class, this allows an instance of the class to use the module's methods as if they were its own.     This is called a "mixin," and allows Ruby to mimic multiple class inheritance, which it can't normally do – it CAN "inherit" multiple modules.
 
-require_relative ‘something.rb’ allows you to access the data found in another file in the   same directory.
+require_relative ‘something.rb’ # allows you to access the data found in another file in the   same directory.
 ```
 
 ---
@@ -610,7 +609,7 @@ Ruby has a `BasicObject` class which doesn't include Kernel methods and acts as
 the parent for all `Object`s. You can see the ancestry in practice via:
 
 ```ruby
-Object.ancestors # => [Object, Kernel, BasicObject]
+Object.ancestors      # => [Object, Kernel, BasicObject]
 BasicObject.ancestors # => [BasicObject]
 ```
 
@@ -618,7 +617,7 @@ BasicObject.ancestors # => [BasicObject]
 subclass:
 
 ```ruby
-BasicObject.instance_methods # => [:==, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
+BasicObject.instance_methods   # => [:==, :equal?, :!, :!=, :instance_eval, :instance_exec, :__send__, :__id__]
 Object.instance_methods.length # => 55
 ```
 
@@ -658,7 +657,7 @@ class Out
   end
 end
 
-ListDelegator.new(Out.new).to_s # => "#<ListDelegator2:0x007fcab400d148>"
+ListDelegator.new(Out.new).to_s      # => "#<ListDelegator2:0x007fcab400d148>"
 ListDelegatorBasic.new(Out.new).to_s # => ["Out"]
 ```
 
@@ -714,7 +713,7 @@ inject_array.inject({}) do |accumulator, value|
   accumulator
 end
 
-Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
+# Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
 ```
 
 ### each_with_object
@@ -728,7 +727,7 @@ array.each_with_object({}) do |value, accumulator|
   accumulator[value] = value.downcase
 end
 
-Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
+# Output: => {"A"=>"a", "B"=>"b", "C"=>"c", "D"=>"d"}
 ```
 
 One more thing which you can notice is the order of arguments to the block for each of the functions.
@@ -761,8 +760,8 @@ called parallel assignment.
 
 ```ruby
 a, b = 1, 2 # => [1, 2]
-a # => 1
-b # => 2
+a           # => 1
+b           # => 2
 ```
 
 We can also use parallel assignment and the splat operator in combination to
@@ -770,10 +769,10 @@ split the array into the head and tail. This is in particular useful if we want
 to [get all but the first element from an array](all-but-the-first-element-from-array.md).
 
 ```ruby
-list = [1,2,3,4] # => [1,2,3,4]
+list = [1,2,3,4]   # => [1,2,3,4]
 head, *tail = list # => [1,2,3,4]
-head # => 1
-tail # => [2,3,4]
+head               # => 1
+tail               # => [2,3,4]
 
 list # is not modified # => [1,2,3,4]
 ```
@@ -785,8 +784,8 @@ array while the head will be `nil`.
 
 ```ruby
 head, *tail = [] # => []
-head # => nil
-tail # => []
+head             # => nil
+tail             # => []
 ```
 
 ---
@@ -846,8 +845,7 @@ text.split("\n")
 #     "multiple lines"]
 ```
 
-Since we know there are two headers and a body, we can tell `split` to stop
-splitting once we have three segments:
+Since we know there are two headers and a body, we can tell `split` to stop splitting once we have three segments:
 
 ```ruby
 text.split("\n", 3)
@@ -860,9 +858,7 @@ text.split("\n", 3)
 
 ## The `DATA` constant
 
-The `DATA` constant in Ruby allows us to access the text at the end of our file
-listed after the `__END__` block. This can be surprisingly useful, for instance
-if we need to extract information from a rather large data blob.
+ The `DATA` constant in Ruby allows us to access the text at the end of our file listed after the `__END__` block. This can be surprisingly useful, for instance if we need to extract information from a rather large data blob.
 
 Imagine a scenario where we need to extract the user names from a SQL statement.
 
@@ -895,8 +891,7 @@ Dennis
 Schwart
 ```
 
-Since `DATA` is simply just a virtual `File` object within our file, we can also
-pass the `DATA` variable (without `#read`) to methods that accept a `File`.
+Since `DATA` is simply just a virtual `File` object within our file, we can also pass the `DATA` variable (without `#read`) to methods that accept a `File`.
 
 ```ruby
 require "json"
