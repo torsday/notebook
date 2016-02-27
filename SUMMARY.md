@@ -76,21 +76,16 @@
         -   [Hexagonal](design/hexagonal.md)
         -   [Onion](design/onion.md)
 
-    -   [Active Record Pattern](design/active_record_pattern.md)
-    
-    -   [CQRS](design/cqrs.md)
+    -   [Other](design/other.md)
 
-    -   [Lazy Loading](design/lazy_loading.md)
-
-    -   [MVC](design/mvc.md)
-
-    -   [Object-Oriented Programming](design/oop.md)
-
-    -   [Pub-sub Pattern](design/pub_sub.md)
-
-    -   [SOLID Principles](design/solid.md)
-
-    -   [Specification Pattern](design/specification_pattern.md)
+        -   [Active Record Pattern](design/active_record_pattern.md)
+        -   [CQRS](design/cqrs.md)
+        -   [Lazy Loading](design/lazy_loading.md)
+        -   [MVC](design/mvc.md)
+        -   [Object-Oriented Programming](design/oop.md)
+        -   [Pub-sub Pattern](design/pub_sub.md)
+        -   [SOLID Principles](design/solid.md)
+        -   [Specification Pattern](design/specification_pattern.md)
 
 -   [Education](education/README.md)
 
