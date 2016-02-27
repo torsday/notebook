@@ -115,7 +115,7 @@
 
 #### Pros
 
--   [Excellent documentation](http://www.phpldaptools.com/)
+-   [Excellent documentation](http://www.phpldaptools.com)
 -   [Actively developed](https://github.com/ldaptools/ldaptools/commits/master)
 -   Explicit support for OpenLDAP
 

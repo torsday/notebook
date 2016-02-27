@@ -9,4 +9,4 @@ Given a version number `MAJOR.MINOR.PATCH`, increment the:
 
 ## References
 
--   [SemVer.org/](http://semver.org/)
+-   [SemVer.org/](http://semver.org)

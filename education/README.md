@@ -33,7 +33,7 @@ Both for further understanding, as well as in building this book.
 
 ### Courses
 
--  [Harvard CS50](http://cs50.tv) or find it on [EdX](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
+-   [Harvard CS50](./harvard_cs50.md)
 
 ### Screencasts
 
@@ -42,11 +42,11 @@ Both for further understanding, as well as in building this book.
 
 ### TILs
 
--   [Hashrocket TIL](https://til.hashrocket.com/)
+-   [Hashrocket TIL](https://til.hashrocket.com)
 -   [ThoughtBot TIL](https://github.com/thoughtbot/til)
 
 ### Misc
 
--   [exercism.io](http://exercism.io/)
--   [Ruby Koans](http://rubykoans.com/)
+-   [exercism.io](http://exercism.io)
+-   [Ruby Koans](http://rubykoans.com)
 -   [John Olmsted's Notes](https://github.com/qsymmachus/notes)

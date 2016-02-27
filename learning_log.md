@@ -176,21 +176,21 @@ sprintf(static::FORMAT_MESSAGE, $screenName->getValue()));
 
 ---
 
--   typing `f` using [vimium](https://vimium.github.io/) is a great way to navigate a web page.
+-   typing `f` using [vimium](https://vimium.github.io) is a great way to navigate a web page.
 -   typing `f` while on a gitbook page brings up search.
 
 2016-02-04
 
 ---
 
--   [Kitematic](https://kitematic.com/), a nice tool to interact with your docker images.
--   Playing around with [Huginn](https://github.com/cantino/huginn/), an interesting agent tool, like IFTTT ([here's a nice video](https://vimeo.com/61976251)). ...pretty sure it's logo and name alude to one of my favorite authors, [Daniel Suarez](http://www.goodreads.com/author/show/1956402.Daniel_Suarez).
+-   [Kitematic](https://kitematic.com), a nice tool to interact with your docker images.
+-   Playing around with [Huginn](https://github.com/cantino/huginn), an interesting agent tool, like IFTTT ([here's a nice video](https://vimeo.com/61976251)). ...pretty sure it's logo and name alude to one of my favorite authors, [Daniel Suarez](http://www.goodreads.com/author/show/1956402.Daniel_Suarez).
 
 2016-02-03
 
 ---
 
--   [http://readable.tastefulwords.com/](http://readable.tastefulwords.com/) Great tool to make a site readable.
+-   [http://readable.tastefulwords.com/](http://readable.tastefulwords.com) Great tool to make a site readable.
 
 -   Phing *(PHing Is Not GNU make)*
 
@@ -293,7 +293,7 @@ Learning Log
 
     > Identify out of date packages (```npm outdated```). Update the versions in your ```package.json```. Run ```npm update``` to install the latest versions of each package.
 
--   font awesome has a nice [history icon](http://fortawesome.github.io/Font-Awesome/icon/history/)
+-   font awesome has a nice [history icon](http://fortawesome.github.io/Font-Awesome/icon/history)
 
 -   to make an image appear in markdown, make a link with an exclamation point prepended to it.
 

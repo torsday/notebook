@@ -2,4 +2,4 @@
 
 ## References
 
--   [Rules](http://eslint.org/docs/rules/)
+-   [Rules](http://eslint.org/docs/rules)

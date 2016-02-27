@@ -125,7 +125,7 @@ This file contains a number of front-end interview questions that can be used wh
 
 -  **Explain how prototypal inheritance works**
 -  **[What do you think of AMD vs CommonJS?](https://stackoverflow.com/questions/16521471/relation-between-commonjs-amd-and-requirejs)**
--  **[Explain why the following doesn't work as an IIFE: `function foo(){}();`](http://benalman.com/news/2010/11/immediately-invoked-function-expression/).**
+-  **[Explain why the following doesn't work as an IIFE: `function foo(){}();`](http://benalman.com/news/2010/11/immediately-invoked-function-expression).**
   -  While parens placed after an expression indicate that the expression is a function to be invoked, parens placed after a statement are totally separate from the preceding statement, and are simply a grouping operator (used as a means to control precedence of evaluation).
   -  The most widely accepted way to tell the parser to expect a function expression is just to wrap it in parens, because in JavaScript, parens can’t contain statements. At this point, when the parser encounters the function keyword, it knows to parse it as a function expression and not a function declaration
   -  **What needs to be changed to properly make it an IIFE?**
@@ -305,7 +305,7 @@ A closure is a special kind of object that combines two things: a function, and 
 #### NETWORK QUESTIONS:
 
 -  **Traditionally, why has it been better to serve site assets from multiple domains?**
-  - [Serving assets from multiple domains can increase the number of assets a browser can download in parallel.](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/)
+  - [Serving assets from multiple domains can increase the number of assets a browser can download in parallel.](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers)
 -  **Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.**
 -  **[What are the differences between Long-Polling, Websockets and Server-Sent Events?](https://stackoverflow.com/questions/11077857/what-are-long-polling-websockets-server-sent-events-sse-and-comet)**
 -  **Explain the following request and response headers:**
@@ -478,6 +478,6 @@ foo.push(2);
 
 #### OTHER:
 
--  [perfectionkills.com/javascript-quiz/](http://perfectionkills.com/javascript-quiz/)
+-  [perfectionkills.com/javascript-quiz/](http://perfectionkills.com/javascript-quiz)
 -  [testdome.com/Programming-Tests/Html-Css-JavaScript/16](http://www.testdome.com/Programming-Tests/Html-Css-JavaScript/16)
-- [youmightnotneedjquery.com/](http://youmightnotneedjquery.com/)
+- [youmightnotneedjquery.com/](http://youmightnotneedjquery.com)

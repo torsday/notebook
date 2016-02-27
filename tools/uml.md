@@ -22,5 +22,5 @@
 
 -   [IBM: UML basics: The class diagram](http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell)
 -   [SourceMaking: UML](https://sourcemaking.com/uml)
--   [TraceModeler: A Quick Introduction to UML Sequence Diagrams](http://www.tracemodeler.com/articles/a_quick_introduction_to_uml_sequence_diagrams/)
+-   [TraceModeler: A Quick Introduction to UML Sequence Diagrams](http://www.tracemodeler.com/articles/a_quick_introduction_to_uml_sequence_diagrams)
 -   [Wikipedia: UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language)

@@ -280,5 +280,5 @@ class EmailHistoryService
 
 ### References
 
--   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services/)
+-   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services)
 -   [Wikipedia: Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)

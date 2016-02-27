@@ -467,11 +467,11 @@ if ($ds) {
 -   [OpenLDAP Setup Overview](https://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-ldap-quickstart.html)
 -   [PHP Docs: LDAP](http://php.net/manual/en/ref.ldap.php)
 -   [RubyDocs: Net: LDAP][ruby_docs_net_ldap]
--   [SitePoint: Essentials of LDAP with PHP](http://www.sitepoint.com/essentials-ldap-php/)
+-   [SitePoint: Essentials of LDAP with PHP](http://www.sitepoint.com/essentials-ldap-php)
 -   [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 -   [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 -   [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
--   [Zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap/)
+-   [Zytrax: LDAP for Rocket Scientists](http://www.zytrax.com/books/ldap)
 -   [Zytrax: LDAP Glossary](http://www.zytrax.com/books/ldap/apd/index.html)
 
 [oreilly-tutorial]: http://archive.oreilly.com/pub/a/perl/excerpts/system-admin-with-perl/ten-minute-ldap-utorial.html

@@ -780,7 +780,7 @@ then you have to find the patterns that best suit the type and size of applicati
 
 ### Working with UTF-8
 
-_This section was originally written by [Alex Cabal](https://alexcabal.com/) over at
+_This section was originally written by [Alex Cabal](https://alexcabal.com) over at
 [PHP Best Practices](https://phpbestpractices.org/#utf-8) and has been used as the basis for our own UTF-8 advice_.
 
 #### There's no one-liner. Be careful, detailed, and consistent.
@@ -922,7 +922,7 @@ header('Content-Type: text/html; charset=UTF-8');
 * [Stack Overflow: What factors make PHP Unicode-incompatible?](http://stackoverflow.com/questions/571694/what-factors-make-php-unicode-incompatible)
 * [Stack Overflow: Best practices in PHP and MySQL with international strings](http://stackoverflow.com/questions/140728/best-practices-in-php-and-mysql-with-international-strings)
 * [How to support full Unicode in MySQL databases](http://mathiasbynens.be/notes/mysql-utf8mb4)
-* [Bringing Unicode to PHP with Portable UTF-8](http://www.sitepoint.com/bringing-unicode-to-php-with-portable-utf8/)
+* [Bringing Unicode to PHP with Portable UTF-8](http://www.sitepoint.com/bringing-unicode-to-php-with-portable-utf8)
 * [Stack Overflow: DOMDocument loadHTML does not encode UTF-8 correctly](http://stackoverflow.com/questions/8218230/php-domdocument-loadhtml-not-encoding-utf-8-correctly)
 
 
@@ -1069,8 +1069,8 @@ coupled as the framework it is built on.
 * [Learning about Dependency Injection and PHP](http://ralphschindler.com/2011/05/18/learning-about-dependency-injection-and-php)
 * [What is Dependency Injection?](http://fabien.potencier.org/article/11/what-is-dependency-injection)
 * [Dependency Injection: An analogy](https://mwop.net/blog/260-Dependency-Injection-An-analogy.html)
-* [Dependency Injection: Huh?](http://net.tutsplus.com/tutorials/php/dependency-injection-huh/)
-* [Dependency Injection as a tool for testing](http://philipobenito.github.io/dependency-injection-as-a-tool-for-testing/)
+* [Dependency Injection: Huh?](http://net.tutsplus.com/tutorials/php/dependency-injection-huh)
+* [Dependency Injection as a tool for testing](http://philipobenito.github.io/dependency-injection-as-a-tool-for-testing)
 
 
 title:  Databases
@@ -1496,7 +1496,7 @@ Using the [Twig] library.
 
 * [Templating Engines in PHP](http://fabien.potencier.org/article/34/templating-engines-in-php)
 * [An Introduction to Views & Templating in CodeIgniter](http://code.tutsplus.com/tutorials/an-introduction-to-views-templating-in-codeigniter--net-25648)
-* [Getting Started With PHP Templating](http://www.smashingmagazine.com/2011/10/17/getting-started-with-php-templating/)
+* [Getting Started With PHP Templating](http://www.smashingmagazine.com/2011/10/17/getting-started-with-php-templating)
 * [Roll Your Own Templating System in PHP](http://code.tutsplus.com/tutorials/roll-your-own-templating-system-in-php--net-16596)
 * [Master Pages](https://laracasts.com/series/laravel-from-scratch/episodes/7)
 * [Working With Templates in Symfony 2](http://code.tutsplus.com/tutorials/working-with-templates-in-symfony-2--cms-21172)
@@ -1507,13 +1507,13 @@ Using the [Twig] library.
 * [Aura.View](https://github.com/auraphp/Aura.View) *(native)*
 * [Blade](http://laravel.com/docs/blade) *(compiled, framework specific)*
 * [Brainy](https://github.com/box/brainy) *(compiled)*
-* [Dwoo](http://dwoo.org/) *(compiled)*
+* [Dwoo](http://dwoo.org) *(compiled)*
 * [Latte](https://github.com/nette/latte) *(compiled)*
 * [Mustache](https://github.com/bobthecow/mustache.php) *(compiled)*
-* [PHPTAL](http://phptal.org/) *(compiled)*
-* [Plates](http://platesphp.com/) *(native)*
-* [Smarty](http://www.smarty.net/) *(compiled)*
-* [Twig](http://twig.sensiolabs.org/) *(compiled)*
+* [PHPTAL](http://phptal.org) *(compiled)*
+* [Plates](http://platesphp.com) *(native)*
+* [Smarty](http://www.smarty.net) *(compiled)*
+* [Twig](http://twig.sensiolabs.org) *(compiled)*
 * [Zend\View](http://framework.zend.com/manual/2.3/en/modules/zend.view.quick-start.html) *(native, framework specific)*
 
 
@@ -2023,7 +2023,7 @@ are several alternatives
 
 * [atoum](https://github.com/atoum/atoum)
 * [Kahlan](https://github.com/crysalead/kahlan)
-* [Peridot](http://peridot-php.github.io/)
+* [Peridot](http://peridot-php.github.io)
 * [SimpleTest](http://simpletest.org)
 
 #### Integration Testing
@@ -2450,8 +2450,8 @@ object cache to PHP 5.5+, since PHP now has a built-in bytecode cache (OPcache).
 
 * [APCu](https://github.com/krakjoe/apcu)
 * [APC Functions](http://php.net/ref.apc)
-* [Memcached](http://memcached.org/)
-* [Redis](http://redis.io/)
+* [Memcached](http://memcached.org)
+* [Redis](http://redis.io)
 * [XCache APIs](http://xcache.lighttpd.net/wiki/XcacheApi)
 * [WinCache Functions](http://php.net/ref.wincache)
 
@@ -2544,7 +2544,7 @@ difference between the second and third methods' doc block is the inclusion/excl
 
 ### From the Source
 
-* [PHP Website](http://php.net/)
+* [PHP Website](http://php.net)
 * [PHP Documentation](http://php.net/docs.php)
 
 
@@ -2562,24 +2562,24 @@ Twitter handles at:
 
 ### Mentoring
 
-* [phpmentoring.org](http://phpmentoring.org/) - Formal, peer to peer mentoring in the PHP community.
+* [phpmentoring.org](http://phpmentoring.org) - Formal, peer to peer mentoring in the PHP community.
 
 
 
 ### PHP PaaS Providers
 
-* [PagodaBox](https://pagodabox.com/)
-* [AppFog](https://www.ctl.io/appfog/)
+* [PagodaBox](https://pagodabox.com)
+* [AppFog](https://www.ctl.io/appfog)
 * [Heroku](https://devcenter.heroku.com/categories/php)
-* [fortrabbit](http://fortrabbit.com/)
+* [fortrabbit](http://fortrabbit.com)
 * [Engine Yard Cloud](https://www.engineyard.com/products/cloud)
 * [Red Hat OpenShift Platform](http://openshift.com)
 * [dotCloud](https://www.dotcloud.com/dev-center/platform-documentation)
-* [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk/)
-* [cloudControl](https://www.cloudcontrol.com/)
-* [Windows Azure](http://www.windowsazure.com/)
-* [Google App Engine](https://developers.google.com/appengine/docs/php/gettingstarted/)
-* [Jelastic](http://jelastic.com/)
+* [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk)
+* [cloudControl](https://www.cloudcontrol.com)
+* [Windows Azure](http://www.windowsazure.com)
+* [Google App Engine](https://developers.google.com/appengine/docs/php/gettingstarted)
+* [Jelastic](http://jelastic.com)
 
 
 
@@ -2660,18 +2660,18 @@ components best decoupled from the Laravel framework are listed above._
 
 #### Cheatsheets
 
-* [PHP Cheatsheets](http://phpcheatsheets.com/) - for variable comparisons, arithmetics and variable testing in various
+* [PHP Cheatsheets](http://phpcheatsheets.com) - for variable comparisons, arithmetics and variable testing in various
 PHP versions
 * [PHP Security Cheatsheet](https://www.owasp.org/index.php/PHP_Security_Cheat_Sheet)
 
 #### More best practices
 
-* [PHP Best Practices](https://phpbestpractices.org/)
+* [PHP Best Practices](https://phpbestpractices.org)
 * [Best practices for Modern PHP Development](https://www.airpair.com/php/posts/best-practices-for-modern-php-development)
 
 #### PHP universe
 
-* [PHP Developer blog](http://blog.phpdeveloper.org/)
+* [PHP Developer blog](http://blog.phpdeveloper.org)
 
 
 
@@ -2689,7 +2689,7 @@ PHP versions
 * [PHP Training on Pluralsight](http://www.pluralsight.com/search/?searchTerm=php)
 * [PHP Training on Lynda.com](http://www.lynda.com/search?q=php)
 * [PHP Training on Tutsplus](http://code.tutsplus.com/categories/php/courses)
-* [Laracasts](https://laracasts.com/)
+* [Laracasts](https://laracasts.com)
 
 
 
@@ -2704,8 +2704,8 @@ book to be added, send a PR and it will be reviewed for relevancy.
 
 #### Free Books
 
-* [PHP Pandas](http://daylerees.com/php-pandas/) - Aims to teach everyone how to be a web developer.
-* [PHP The Right Way](https://leanpub.com/phptherightway/) - This website is available as a book completely for free.
+* [PHP Pandas](http://daylerees.com/php-pandas) - Aims to teach everyone how to be a web developer.
+* [PHP The Right Way](https://leanpub.com/phptherightway) - This website is available as a book completely for free.
 * [Using Libsodium in PHP Projects](https://paragonie.com/book/pecl-libsodium) - Guide to using Libsodium PHP extension
 for modern, secure, and fast cryptography.
 

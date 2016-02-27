@@ -13,7 +13,7 @@ ls -al ~/.ssh
 # Lists the files in your .ssh directory, if they exist
 ```
 
-## [Generating a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key/)
+## [Generating a new SSH key](https://help.github.com/articles/generating-a-new-ssh-key)
 
 ```sh
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -38,4 +38,4 @@ ssh-add ~/.ssh/id_rsa
 
 ## References
 
-* [GitHub: Generating an SSH key](https://help.github.com/articles/generating-an-ssh-key/)
+* [GitHub: Generating an SSH key](https://help.github.com/articles/generating-an-ssh-key)

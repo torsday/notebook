@@ -1,4 +1,4 @@
-# [Exercism.io](http://exercism.io/)
+# [Exercism.io](http://exercism.io)
 
 ```sh
 brew install go

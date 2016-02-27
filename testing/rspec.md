@@ -59,6 +59,6 @@ end
 
 ## References
 
--   [Better Specs { rspec guidelines with ruby }](http://betterspecs.org/)
--   [Gem: Better Specs](https://github.com/lelylan/betterspecs/)
+-   [Better Specs { rspec guidelines with ruby }](http://betterspecs.org)
+-   [Gem: Better Specs](https://github.com/lelylan/betterspecs)
 -   [Wikipedia: Rspec](https://en.wikipedia.org/wiki/RSpec)

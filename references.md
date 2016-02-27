@@ -29,16 +29,16 @@
 
 ## Docs
 
--   [Rails Guides](http://guides.rubyonrails.org/)
+-   [Rails Guides](http://guides.rubyonrails.org)
 -   [Redux Docs](http://rackt.org/redux/docs/introduction/index.html)
--   [Ruby Docs](http://ruby-doc.org/)
+-   [Ruby Docs](http://ruby-doc.org)
 
 ## Tools
 
--   [JS Fiddle](https://jsfiddle.net/)
+-   [JS Fiddle](https://jsfiddle.net)
 
 ## Articles
 
--   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services/)
+-   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services)
 -   [EmailChange w/i reach-php](https://stash.corp.CPT.com/projects/MAX/repos/reach-php/pull-requests/76/diff)
 -   [How much sleep do we really need to work productively?](http://blog.bufferapp.com/how-much-sleep-do-we-really-need-to-work-productively)

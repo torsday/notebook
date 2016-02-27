@@ -6,5 +6,5 @@
 
 ## References
 
--   *[GitHub](https://facebook.github.io/react/)*
+-   *[GitHub](https://facebook.github.io/react)*
 -   *[Docs](https://facebook.github.io/react/docs/getting-started.html)*

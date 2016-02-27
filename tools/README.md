@@ -2,7 +2,7 @@
 
 ## Apps
 
--   [Atom](https://atom.io/)
+-   [Atom](https://atom.io)
 
     -   [Atom Packages](https://atom.io/packages/list)
 
@@ -14,7 +14,7 @@
 
 -   [my dotfiles](https://github.com/torsday/dotfiles)
 
--   [2Do](http://www.2doapp.com/)
+-   [2Do](http://www.2doapp.com)
 
 -   [Amphetamine, the app!](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12)
 
@@ -36,7 +36,7 @@ git clone git@github.com:atom/docs.git
 
 ### Other
 
--   [ESLint](http://eslint.org/)
+-   [ESLint](http://eslint.org)
 
 ## References
 

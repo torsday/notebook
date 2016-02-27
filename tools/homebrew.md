@@ -1,4 +1,4 @@
-# [Homebrew](http://brew.sh/)
+# [Homebrew](http://brew.sh)
 
 ## Basics
 

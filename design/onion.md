@@ -6,4 +6,4 @@
 
 ## References
 
-[The Onion Architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/)
+[The Onion Architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1)

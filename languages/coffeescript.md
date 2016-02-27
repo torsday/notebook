@@ -114,5 +114,5 @@ module.exports =
 
 ## References
 
--   [CoffeeScript.org](http://coffeescript.org/)
+-   [CoffeeScript.org](http://coffeescript.org)
 -   [Wikipedia: CoffeeScript](https://en.wikipedia.org/wiki/CoffeeScript)]
