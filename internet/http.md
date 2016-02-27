@@ -38,6 +38,24 @@ Indicates the desired action to be performed on the identified resource.
 | `CONNECT` | The `CONNECT` method converts the request connection to a transparent TCP/IP tunnel, usually to facilitate SSL-encrypted communication (HTTPS) through an unencrypted HTTP proxy. See [`HTTP CONNECT` tunneling](https://en.wikipedia.org/wiki/HTTP_tunnel#HTTP_CONNECT_tunneling).                                                                                                                                                                                                                          |
 |  `PATCH`  | The `PATCH` method applies partial modifications to a resource.                                                                                                                                                                                                                                                                                                                                                                        |
 
+### Request Message
+
+Consists of:
+
+-   A request line (e.g., `GET /images/logo.png HTTP/1.1`, which requests a resource called `/images/logo.png` from the server).
+-   Request header fields (e.g., `Accept-Language: en`).
+-   An empty line.
+-   An optional message body.
+
+### Response Message
+
+Consists of:
+
+-   A status line which includes the status code and reason message (e.g., `HTTP/1.1 200 OK`, which indicates that the client's request succeeded).
+-   Response header fields (e.g., `Content-Type: text/html`).
+-   An empty line.
+-   An optional message body.
+
 ### Resources
 
 ### Messages
