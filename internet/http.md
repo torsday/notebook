@@ -47,6 +47,13 @@ Consists of:
 -   An empty line.
 -   An optional message body.
 
+#### Example Client Request
+
+```http
+GET /index.html HTTP/1.1
+Host: www.example.com
+```
+
 ### Response Message
 
 Consists of:
@@ -56,16 +63,7 @@ Consists of:
 -   An empty line.
 -   An optional message body.
 
-### Example Session
-
-#### Client Request
-
-```http
-GET /index.html HTTP/1.1
-Host: www.example.com
-```
-
-#### Server Response
+#### Example Server Response
 
 ```http
 HTTP/1.1 200 OK
