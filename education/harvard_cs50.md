@@ -4,7 +4,7 @@
 
 1.  Binary
 1.  ASCII
-1.  Algorithms
+1.  [Algorithms](../algorithms/README.md)
 1.  Pseudocode
 1.  Source code
 1.  Compiler
@@ -19,8 +19,8 @@
 1.  Arrays
 1.  Threads
 1.  Events
-1.  Linux
-1.  C
+1.  [Linux](../linux/README.md)
+1.  [C](../languages/c.md)
 1.  Compiling
 1.  Libraries
 1.  Types
@@ -33,16 +33,16 @@
 1.  Arrays
 1.  Cryptography
 1.  Command-line arguments
-1.  Searching
-1.  Sorting
+1.  [Searching](../algorithms/search.md)
+1.  [Sorting](../algorithms/sorting.md)
 1.  Bubble sort
 1.  Selection sort
 1.  Insertion sort
 1.  O. Ω .Θ.
 1.  Recursion
-1.  Merge Sort
+1.  [Merge Sort](../algorithms/merge_sort.md)
 1.  Stack
-1.  Debugging
+1.  [Debugging](../debugging/README.md)
 1.  File I/O
 1.  Hexadecimal
 1.  Strings
@@ -59,9 +59,9 @@
 1.  Heap
 1.  Buffer overflow
 1.  Linked lists
-1.  MVC
-1.  SQL
-1.  JavaScript
+1.  [MVC](../design/mvc.md)
+1.  [SQL](../persistence/sql.md)
+1.  [JavaScript](../languages/javascript.md)
 1.  Ajax
 1.  Security
 1.  Artificial intelligence
