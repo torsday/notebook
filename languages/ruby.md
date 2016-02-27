@@ -450,7 +450,7 @@ Prefixed to variables to specify their scope.
 -   **Instance Variable**: available only to a particular instance of a class
 
 ```ruby
-$  # global variable (variables are global by default unless inside a    method or class, use this prefix if you want to make an exception    for a variable within a method or class).
+$  # global variable (variables are global by default unless inside a method or class, use this prefix if you want to make an exception for a variable within a method or class).
 @  # instance variable (specific to a single instance of a class).
 @@ # class variable
 ```
