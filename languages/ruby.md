@@ -526,9 +526,9 @@ module Circle
 end
 
 
-puts Circle::PI   scope resolution operator ("get this from the module")
+puts Circle::PI  # scope resolution operator ("get this from the module")
 
-require 'circle'  imports a given module into the environment
+require 'circle' # imports a given module into the environment
 
 include Circle   # when placed in a class, this allows an instance of the class to use the module's methods as if they were its own.     This is called a "mixin," and allows Ruby to mimic multiple class inheritance, which it can't normally do – it CAN "inherit" multiple modules.
 
@@ -539,8 +539,7 @@ require_relative ‘something.rb’ # allows you to access the data found in ano
 
 ## Getting all but the first element from Ruby array
 
-When getting all but the first element from an array in Ruby, we have a few
-options.
+When getting all but the first element from an array in Ruby, we have a few options.
 
 Given the following list:
 
@@ -550,8 +549,7 @@ list = [1,2,3,4]
 
 ### Shift
 
-We could use [`shift`][shift docs], however it mutates the array. It also
-doesn't return the list so we need two lines to write this code:
+We could use [`shift`][shift docs], however it mutates the array. It also doesn't return the list so we need two lines to write this code:
 
 ```ruby
 list.shift # => 1
@@ -560,8 +558,7 @@ rest_of_list = list # => [2,3,4]
 
 ### Slice
 
-In the past I've used [`slice`][slice docs], but specifying indices or passing
-the length of an array is ugly and low-level:
+In the past I've used [`slice`][slice docs], but specifying indices or passing the length of an array is ugly and low-level:
 
 ```ruby
 rest_of_list = list[1..-1] # => [2,3,4]
@@ -572,8 +569,7 @@ list # is not modified # => [1,2,3,4]
 
 ### Drop
 
-My new favorite is [`drop`][drop docs] which does not mutate and does not
-require ugly, low-level code:
+My new favorite is [`drop`][drop docs] which does not mutate and does not require ugly, low-level code:
 
 ```ruby
 list.drop(1) # => [2,3,4]
@@ -605,8 +601,7 @@ from the tail of a list.
 
 ## Basic Object
 
-Ruby has a `BasicObject` class which doesn't include Kernel methods and acts as
-the parent for all `Object`s. You can see the ancestry in practice via:
+Ruby has a `BasicObject` class which doesn't include Kernel methods and acts as the parent for all `Object`s. You can see the ancestry in practice via:
 
 ```ruby
 Object.ancestors      # => [Object, Kernel, BasicObject]
@@ -621,8 +616,7 @@ BasicObject.instance_methods   # => [:==, :equal?, :!, :!=, :instance_eval, :ins
 Object.instance_methods.length # => 55
 ```
 
-This is useful for delegators which would otherwise not delegate methods such as
-\#to_s.
+This is useful for delegators which would otherwise not delegate methods such as \#to_s.
 
 Example:
 
@@ -665,9 +659,7 @@ ListDelegatorBasic.new(Out.new).to_s # => ["Out"]
 
 ## Currying in Ruby
 
-Ruby defines `curry` for `Method` and `Proc`, allowing procs to return partially
-applied procs when they get called with fewer than the required number of
-arguments. For example:
+Ruby defines `curry` for `Method` and `Proc`, allowing procs to return partially applied procs when they get called with fewer than the required number of arguments. For example:
 
 ```ruby
 multiply = -> x,y { x * y }.curry # => #<Proc:0x007fed33851510 (lambda)>
@@ -676,9 +668,7 @@ double = multiply[2] # => #<Proc:0x007fed35892888 (lambda)>
 double[3] # => 6
 ```
 
-**Note:** While `Proc#curry` has been around since Ruby 1.9, `Method#curry` was
-only added in Ruby 2.2.0. For versions before 2.2.0, you will first need to
-convert your method object to a proc via `Method#to_proc`.
+**Note:** While `Proc#curry` has been around since Ruby 1.9, `Method#curry` was only added in Ruby 2.2.0. For versions before 2.2.0, you will first need to convert your method object to a proc via `Method#to_proc`.
 
 Check out the [ruby docs][] for more details.
 
@@ -688,8 +678,7 @@ Check out the [ruby docs][] for more details.
 
 ### Inject
 
-Inject takes the value of the block and passes it along.
-This causes a lot of errors like.
+Inject takes the value of the block and passes it along. This causes a lot of errors like.
 
 ```ruby
 inject_array = ['A', 'B', 'C', 'D']
@@ -738,8 +727,7 @@ Inject takes the result/accumulator and then the iteratable value, whereas `each
 
 ## Using pry and ncurses together
 
-Because of ncurse's visual mode you will not be able to use pry normally.
-The easiest way to get pry working is to do the following:
+Because of ncurse's visual mode you will not be able to use pry normally. The easiest way to get pry working is to do the following:
 
 ```ruby
 close_screen
@@ -747,16 +735,13 @@ binding.pry
 refresh
 ```
 
-[`close_screen`][close_screen docs] restores the non-visual mode which allows you to see the
-output of pry correctly. When you `exit` from pry, `refresh` will resume
-ncurse's visual mode.
+[`close_screen`][close_screen docs] restores the non-visual mode which allows you to see the output of pry correctly. When you `exit` from pry, `refresh` will resume ncurse's visual mode.
 
 ---
 
 ## Parallel assignment
 
-Ruby allows us to assign multiple variables on the same line. This is also
-called parallel assignment.
+Ruby allows us to assign multiple variables on the same line. This is also called parallel assignment.
 
 ```ruby
 a, b = 1, 2 # => [1, 2]
@@ -764,9 +749,7 @@ a           # => 1
 b           # => 2
 ```
 
-We can also use parallel assignment and the splat operator in combination to
-split the array into the head and tail. This is in particular useful if we want
-to [get all but the first element from an array](all-but-the-first-element-from-array.md).
+We can also use parallel assignment and the splat operator in combination to split the array into the head and tail. This is in particular useful if we want to [get all but the first element from an array](all-but-the-first-element-from-array.md).
 
 ```ruby
 list = [1,2,3,4]   # => [1,2,3,4]
@@ -779,8 +762,7 @@ list # is not modified # => [1,2,3,4]
 
 ### Empty arrays
 
-When using parallel assignment on an empty array, the tail will always return an
-array while the head will be `nil`.
+When using parallel assignment on an empty array, the tail will always return an array while the head will be `nil`.
 
 ```ruby
 head, *tail = [] # => []
@@ -792,34 +774,25 @@ tail             # => []
 
 ## Regex Literals and URLs
 
-Regular expressions in Ruby are typically delineated by the `/` character.
-However, this forces you to escape `/` in your expression.
-
-I was recently using a regex to match certain URLs
+Regular expressions in Ruby are typically delineated by the `/` character. However, this forces you to escape `/` in your expression.
 
 ```ruby
 /http:\/\/sub\.domain\.com\/path/
 ```
 
-A colleague pointed out that I could use the `%r{...}` notation and avoid
-escaping all those slashes.
+Use the `%r{...}` notation to avoid escaping all those slashes.
 
 ```ruby
 %r{http://sub\.domain\.com/path}
 ```
 
-Much cleaner!
-
 ---
 
 ## Spliting a string into a maximum number of segments
 
-[`String#split`][split docs] takes an argument to limit the number of returned
-matches. Once the limit is reached, the rest of the string is returned as one
-match even if it contains more delimiters.
+[`String#split`][split docs] takes an argument to limit the number of returned matches. Once the limit is reached, the rest of the string is returned as one match even if it contains more delimiters.
 
-For example, say we are parsing a string whose first two lines are always
-headers and the rest is the body:
+For example, say we are parsing a string whose first two lines are always headers and the rest is the body:
 
 ```ruby
 text = <<-TEXT
@@ -832,8 +805,7 @@ multiple lines
 TEXT
 ```
 
-A simple `split` on newlines would create an array with each line as an
-individual element:
+A simple `split` on newlines would create an array with each line as an individual element:
 
 ```ruby
 text.split("\n")
