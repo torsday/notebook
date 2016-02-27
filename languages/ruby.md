@@ -532,16 +532,14 @@ require 'circle' # imports a given module into the environment
 
 include Circle   # when placed in a class, this allows an instance of the class to use the module's methods as if they were its own.     This is called a "mixin," and allows Ruby to mimic multiple class inheritance, which it can't normally do – it CAN "inherit" multiple modules.
 
-require_relative ‘something.rb’ # allows you to access the data found in another file in the   same directory.
+require_relative ‘something.rb’ # allows you to access the data found in another file in the same directory.
 ```
 
 ---
 
 ## Getting all but the first element from Ruby array
 
-When getting all but the first element from an array in Ruby, we have a few options.
-
-Given the following list:
+When getting all but the first element from an array in Ruby, we have a few options. Given the following list:
 
 ```ruby
 list = [1,2,3,4]
@@ -577,8 +575,7 @@ list.drop(1) # => [2,3,4]
 list # is not modified # => [1,2,3,4]
 ```
 
-An added benefit of`drop` is that it will always return an array, while `slice`
-will sometimes return `nil`
+An added benefit of`drop` is that it will always return an array, while `slice` will sometimes return `nil`
 
 ```ruby
 [].slice(1..-1) # => nil
