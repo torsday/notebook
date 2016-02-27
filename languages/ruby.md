@@ -951,6 +951,14 @@ def dirs_in_dir(dir)
 end
 ```
 
+## `File`
+
+### Rename file/dir
+
+```ruby
+File.rename "original_path", "new_path"
+```
+
 ## References
 
 -   [Ruby Docs: Array](http://ruby-doc.org/core/Array.html)
