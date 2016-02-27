@@ -922,6 +922,35 @@ __END__
 }
 ```
 
+## `Dir`
+
+### Change dir
+
+```ruby
+Dir.chdr(dir)
+```
+
+### Elements in dir
+
+```ruby
+def elements_in_dir(dir)
+  Dir.chdir(dir)
+  Dir.glob('*')
+end
+```
+
+### Dirs in dir
+
+```ruby
+def dirs_in_dir(dir)
+  original_dir = Dir.pwd
+  Dir.chdir(dir)
+  dirs = Dir.glob('*').select {|f| File.directory? f}
+  Dir.chdir(original_dir)
+  dirs
+end
+```
+
 ## References
 
 -   [Ruby Docs: Array](http://ruby-doc.org/core/Array.html)
