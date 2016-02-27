@@ -930,8 +930,21 @@ File.rename "original_path", "new_path"
 
 ## Favorite Gems
 
--   [RuboCop](https://github.com/bbatsov/rubocop)
--   [Ruby Lint](https://github.com/YorickPeterse/ruby-lint)
+### [RuboCop](https://github.com/bbatsov/rubocop)
+
+#### Install
+
+```sh
+gem install rubocop
+```
+
+#### Autocorrect
+
+```sh
+rubocop --auto-correct <file>
+```
+
+### [Ruby Lint](https://github.com/YorickPeterse/ruby-lint)
 
 ---
 
