@@ -6,20 +6,28 @@
 
 -   [Algorithms](algorithms/README.md)
 
-    -   [Binary Search](algorithms/binary_search.md)
-    -   [Data Compression Algorithms]()
-    -   [Dijkstra’s Algorithm]()
-    -   [Fourier Transform & Fast Fourier Transform]()
-    -   [Heapsort](algorithms/heapsort.md)
-    -   [Integer Factorization]()
-    -   [Link Analysis]()
-    -   [Merge Sort](algorithms/merge_sort.md)
-    -   [Proportional Integral Derivative Algorithm]()
-    -   [Quicksort](algorithms/quicksort.md)
-    -   [Random Number Generation]()
-    -   [RSA Algorithm]()
-    -   [Secure Hash Algorithm]()
-    -   [Selection Sort]()
+    -   [Sorting Algorithms](algorithms/sorting.md)
+
+        -   [Heapsort](algorithms/heapsort.md)
+        -   [Merge Sort](algorithms/merge_sort.md)
+        -   [Quicksort](algorithms/quicksort.md)
+        -   [Selection Sort]()
+
+    -   [Search Algorithms](algorithms/search.md)
+
+        -   [Binary Search](algorithms/binary_search.md)
+
+    -   [Other](algorithms/other.md)
+
+        -   [Data Compression Algorithms]()
+        -   [Dijkstra’s Algorithm]()
+        -   [Fourier Transform & Fast Fourier Transform]()
+        -   [Integer Factorization]()
+        -   [Link Analysis]()
+        -   [Proportional Integral Derivative Algorithm]()
+        -   [Random Number Generation]()
+        -   [RSA Algorithm]()
+        -   [Secure Hash Algorithm]()
 
 -   [Articles](articles/README.md)
 
@@ -69,12 +77,19 @@
         -   [Onion](design/onion.md)
 
     -   [Active Record Pattern](design/active_record_pattern.md)
+    
     -   [CQRS](design/cqrs.md)
+
     -   [Lazy Loading](design/lazy_loading.md)
+
     -   [MVC](design/mvc.md)
+
     -   [Object-Oriented Programming](design/oop.md)
+
     -   [Pub-sub Pattern](design/pub_sub.md)
+
     -   [SOLID Principles](design/solid.md)
+
     -   [Specification Pattern](design/specification_pattern.md)
 
 -   [Education](education/README.md)
