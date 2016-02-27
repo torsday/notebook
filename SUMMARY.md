@@ -20,7 +20,7 @@
     -   [Other](algorithms/other.md)
 
         -   [Data Compression Algorithms]()
-        -   [Dijkstra’s Algorithm]()
+        -   [Dijkstra’s Algorithm](algorithms/dijkstras_algorithm.md)
         -   [Fourier Transform & Fast Fourier Transform]()
         -   [Integer Factorization]()
         -   [Link Analysis]()
