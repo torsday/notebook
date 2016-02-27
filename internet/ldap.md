@@ -71,7 +71,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 ### Fields
 
-| Term | Definition                |
+|      |                           |
 |:----:|---------------------------|
 | `cn` | *see Common Name.*        |
 | `dc` | *see Domain Component.*   |
@@ -82,9 +82,9 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 ### General
 
-|               Term                | Definition                                                                                                                                                                                                                                                         |
+|                                   |                                                                                                                                                                                                                                                                    |
 |:---------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|             Attribute             | The data in an entry is contained in attribute-value pairs. Each attribute has a name and belongs to one or more `objectClass`(es).          |
+|             Attribute             | The data in an entry is contained in attribute-value pairs. Each attribute has a name and belongs to one or more `objectClass`(es).                                                                                                                                |
 |               Base                | The base/root/suffix entry describes the topmost entry in a DIT or naming-context.                                                                                                                                                                                 |
 |               bind                | The first operation when connecting to an LDAP server; then authentication step.                                                                                                                                                                                   |
 |            Common Name            | `cn` (`commonName`). One of the most commonly used attributes, widely used as the attribute to name some "thing" or real-world entity.                                                                                                                             |
@@ -97,7 +97,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 |          Object Classes           | Collections of attributes. Each `objectClass` is uniquely identified by an OID                                                                                                                                                                                     |
 |      Object IDentifier (OID)      | A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition                                                                                                                                                    |
 |         Organization Unit         | a.k.a. user group. The group(s)/unit(s) that a user is part of e.g., `OU= Lawyer,OU= Judge`.                                                                                                                                                                       |
-| Relative Distinguished Name (RDN) | Attributes *unique at their level in the hierarchy*.                                                          |
+| Relative Distinguished Name (RDN) | Attributes *unique at their level in the hierarchy*.                                                                                                                                                                                                               |
 |            search base            | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.                                                                                                                                                        |
 |           search scope            | defines how deep to search within the search base.                                                                                                                                                                                                                 |
 |             selection             | indicates what attributes to return from objects that match the filter criteria.                                                                                                                                                                                   |
