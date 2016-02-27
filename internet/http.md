@@ -6,13 +6,19 @@
 
 ### Notable Status Codes
 
-|     |               |
-|:---:|---------------|
-| 1xx | Informational |
-| 2xx | Success       |
-| 3xx | Redirection   |
-| 4xx | Client Error  |
-| 5xx | Server Error  |
+|       |                   |
+|-------|-------------------|
+| `1--` | Informational     |
+| `2--` | Success           |
+| `200` | OK                |
+| `3--` | Redirection       |
+| `301` | Moved Permanently |
+| `4--` | Client Error      |
+| `400` | Bad Request       |
+| `401` | Unauthorized      |
+| `403` | Forbidden         |
+| `404` | Not Found         |
+| `5--` | Server Error      |
 
 ### Resources
 
