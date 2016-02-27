@@ -88,16 +88,6 @@ Connection: close
 </html>
 ```
 
-### Resources
-
-### Messages
-
-### Connections
-
-### Web Architecture
-
-### State & Security
-
 ---
 
 ## Sequence Diagram
