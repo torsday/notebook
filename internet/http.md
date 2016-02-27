@@ -54,6 +54,8 @@ GET /index.html HTTP/1.1
 Host: www.example.com
 ```
 
+![HTTP Request Message Format](http://www.tcpipguide.com/free/diagrams/httprequest.png)
+
 ### Response Message
 
 Consists of:
