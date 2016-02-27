@@ -1,6 +1,10 @@
 # SQLite
 
-## Misc
+## Methods
+
+### GROUP BY
+
+## Ruby Config
 
 ### `results_as_hash`
 
@@ -27,4 +31,13 @@ SELECT * FROM Urls WHERE UpdatedAt >= date('now','-10 day');
 UPDATE Urls
 SET Downloaded = 0
 WHERE UpdatedAt >= date('now','-10 day');
+```
+
+### Group, count, and sort
+
+```sqlite
+SELECT *, count(Url)
+FROM Urls
+GROUP BY HttpCode
+ORDER BY count(Url) DESC;
 ```
