@@ -4,30 +4,30 @@
 
 Both for further understanding, as well as in building this book.
 
--   [ ] Sequence diagram of HTTP
+-   Sequence diagram of HTTP
 
--   [ ] Gang-of-Four design patterns. common patterns and their ideal usage.
+-   Gang-of-Four design patterns. common patterns and their ideal usage.
 
--   [ ] [OOP concepts](../design/oop.md)
+-   [OOP concepts](../design/oop.md)
 
     -   [Encapsulation](../design/oop.md#encapsulation)
     -   [Inheritance](../design/oop.md#inheritance)
     -   [Objects/Classes](../design/oop.md#classes)
     -   [Polymorphism](../design/oop.md#polymorphism)
 
--   [ ] Strong testing practices
+-   Strong testing practices
 
     -   Unit Testing
     -   Integration Testing
     -   Client Testing
 
--   [ ] Build and release processes
+-   Build and release processes
 
--   [ ] RESTful API’s, knowledgeable of common practices and concerns
+-   RESTful API’s, knowledgeable of common practices and concerns
 
--   [x] SOLID Principles
+-   SOLID Principles
 
--   [ ] DDD principles
+-   DDD principles
 
 ---
 
