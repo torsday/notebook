@@ -8,12 +8,12 @@ Both for further understanding, as well as in building this book.
 
 -   [ ] Gang-of-Four design patterns. common patterns and their ideal usage.
 
--   [ ] OOP concepts
+-   [ ] [OOP concepts](../design/oop.md)
 
-    -   [ ] encapsulation
-    -   [ ] inheritance
-    -   [ ] objects/classes
-    -   [ ] polymorphism
+    -   [ ] [encapsulation](../design/oop.md#encapsulation)
+    -   [ ] [inheritance](../design/oop.md#inheritance)
+    -   [ ] [objects/classes](../design/oop.md#classes)
+    -   [ ] [polymorphism](../design/oop.md#polymorphism)
 
 -   [ ] Strong testing practices
 
@@ -28,6 +28,21 @@ Both for further understanding, as well as in building this book.
 -   [x] SOLID Principles
 
 -   [ ] DDD principles
+
+---
+
+## OKRs
+
+### Build & Release Processes
+
+-   Objective: Build solid working knowledge of build & release process
+
+-   Key Results:
+
+    -   Was responsible for configuration of repositories, Jenkins & test automation for build-release of new service.
+    -   New service successfully deployed to production.
+
+---
 
 ## References
 

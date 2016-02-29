@@ -132,6 +132,10 @@ A programming library providing an API that allows the programmer to write text-
 
 Object IDentifier.
 
+## OKR
+
+Objectives & Key Results.
+
 ## Ontology
 
 The philosophical study of the nature of being, becoming, existence, or reality, as well as the basic categories of being and their relations. It deals with questions about what things exist or can be said to exist, and how such entities can be grouped according to similarities and differences.
