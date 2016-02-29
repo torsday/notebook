@@ -4,7 +4,7 @@
 
 Both for further understanding, as well as in building this book.
 
--   [ ] sequence diagram of HTTP
+-   [ ] Sequence diagram of HTTP
 
 -   [ ] Gang-of-Four design patterns. common patterns and their ideal usage.
 
@@ -17,9 +17,9 @@ Both for further understanding, as well as in building this book.
 
 -   [ ] Strong testing practices
 
-    -   unit testing
-    -   integration testing
-    -   client testing
+    -   Unit Testing
+    -   Integration Testing
+    -   Client Testing
 
 -   [ ] Build and release processes
 
