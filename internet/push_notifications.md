@@ -161,14 +161,15 @@ fclose($fp);
 
 ## References
 
+-   [andrewchen.co:
+-   [andrewchen.co: Why 60% of your users opt-out of push notifications, and what to do about it](http://andrewchen.co/why-people-are-turning-off-push)
 -   [Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)
--   **[Apple: Local and Remote Notification Programming Guide](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html#//apple_ref/doc/uid/TP40008194-CH100-SW1)**
 -   [Google Cloud Messaging: Overview](https://developers.google.com/cloud-messaging/gcm)
+-   [Patent: Heartbeat period determination method and apparatus for push service in wireless network](http://www.google.com/patents/US20140066063)
 -   [StackOverflow: How does push notification technology work on Android?](http://stackoverflow.com/questions/11508613/how-does-push-notification-technology-work-on-android)
 -   [StackOverflow: Send push message to multiple devices](http://stackoverflow.com/questions/7913995/send-push-message-to-multiple-devices)
 -   [Understanding Amazon Device Messaging](https://developer.amazon.com/public/apis/engage/device-messaging/tech-docs/01-understanding-adm)
 -   [Urban Airship: Push Notifications Explained](https://www.urbanairship.com/push-notifications-explained)
 -   [Windows Push Notification Services (WNS) overview](https://msdn.microsoft.com/en-us/library/windows/apps/mt187203.aspx)
--   [andrewchen.co: Why 60% of your users opt-out of push notifications, and what to do about it](http://andrewchen.co/why-people-are-turning-off-push)
--   [andrewchen.co:
+-   **[Apple: Local and Remote Notification Programming Guide](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html#//apple_ref/doc/uid/TP40008194-CH100-SW1)**
 New data on push notifications show up to 40% CTRs, the best perform 4X better than the worst (Guest post)](http://andrewchen.co/new-data-on-push-notification-ctrs-shows-the-best-apps-perform-4x-better-than-the-worst-heres-why-guest-post)

@@ -84,6 +84,12 @@ redux \
 
 ## Creating a module
 
+## Notable Packages
+
+```sh
+npm install -g cleaver
+```
+
 ## References
 
 -   [npmjs: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
