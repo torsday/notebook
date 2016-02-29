@@ -133,6 +133,7 @@
     -   [Books](lifestyle/books.md)
     -   [Buddhism](lifestyle/buddhism.md)
     -   [Campsite Wishlist](lifestyle/campsite_wishlist.md)
+    -   [Tracking](lifestyle/tracking.md)
     -   [Zen](lifestyle/zen.md)
 
 -   [Linux](linux/README.md)
