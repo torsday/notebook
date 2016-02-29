@@ -10,16 +10,16 @@ Both for further understanding, as well as in building this book.
 
 -   [ ] [OOP concepts](../design/oop.md)
 
-    -   [ ] [encapsulation](../design/oop.md#encapsulation)
-    -   [ ] [inheritance](../design/oop.md#inheritance)
-    -   [ ] [objects/classes](../design/oop.md#classes)
-    -   [ ] [polymorphism](../design/oop.md#polymorphism)
+    -   [encapsulation](../design/oop.md#encapsulation)
+    -   [inheritance](../design/oop.md#inheritance)
+    -   [objects/classes](../design/oop.md#classes)
+    -   [polymorphism](../design/oop.md#polymorphism)
 
 -   [ ] Strong testing practices
 
-    -   [ ] unit testing
-    -   [ ] integration testing
-    -   [ ] client testing
+    -   unit testing
+    -   integration testing
+    -   client testing
 
 -   [ ] Build and release processes
 
