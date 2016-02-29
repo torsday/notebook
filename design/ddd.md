@@ -14,6 +14,8 @@ Premise:
 
 ## Concepts
 
+<!--lint disable table-cell-padding-->
+
 |                     |                                                                                                                                               |
 |:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------|
 |       Context       | The setting in which a word or statement appears that determines its meaning.                                                                 |
@@ -80,11 +82,11 @@ e.g. persisting data to a database, queuing jobs, or sending email notifications
 
 -   Repository
 
-      ```bash
-      EmailChangeTbl #(CPT original, taps DB)
-      CptTblEmailHistoryRepository
-      CptTblEmailHistoryRepositoryTest
-      ```
+    ```bash
+    EmailChangeTbl #(CPT original, taps DB)
+    CptTblEmailHistoryRepository
+    CptTblEmailHistoryRepositoryTest
+    ```
 
 -   Adapter
 
