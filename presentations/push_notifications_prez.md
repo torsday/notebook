@@ -30,14 +30,21 @@ output: push_notifications_prez.html
 ### Sockets
 
 -   There is a TCP socket waiting in accept mode on a cloud server.
--   When this TCP client socket receives some message (from the app's server), the data is parsed and packed into an intent that is broadcast and eventually received by the application.
+-   When this TCP client socket receives some message (from the provider), the data is parsed and packed into an intent that is broadcast and eventually received by the application.
 -   The TCP socket stays open even when the device's radio state turns into "idle" mode. Applications don't have to be running to receive the intents.
 
 ---
 
 ### Heartbeat
 
--   If the connection is dropped but the device doesn't know it, it'll wait until it does a heartbeat and realizes the connection is closed.
+If the connection is dropped but the device doesn't know it, it'll wait until it does a heartbeat and realizes the connection is closed.
+
+Intervals
+
+|       | Min |
+|:-----:|:---:|
+| Wi-Fi | 15  |
+| Cell  | 30  |
 
 ---
 
@@ -53,9 +60,11 @@ output: push_notifications_prez.html
 1.  An *app* must register with the system to receive remote notifications.
 2.  Upon receiving a registration request, the system forwards the request to the notifications server, which generates a *unique device token*, for the app, using information contained in the *device’s* certificate.
 3.  It then encrypts the token using a token key and returns it to the device.
-4.  Upon receiving this token, your app must forward it to the *app's server*.
+4.  Upon receiving this token, your app must forward it to the *provider*.
 
 ---
+
+### Token Generation and Dispersal
 
 *Note: A **device token** is not a unique ID that you can use to identify a device. Device tokens can change after updating the operating system on a device. As a result, apps should send their device token.*
 
@@ -70,7 +79,7 @@ output: push_notifications_prez.html
 
 ---
 
-### Flow Charts
+### Token Trust (Notification)
 
 -   [APNs Token Generation & Dispersal](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Art/token_generation_2x.png)
 
