@@ -161,7 +161,7 @@ fclose($fp);
 
 ## References
 
--   [andrewchen.co:
+-   [andrewchen.co: New data on push notifications show up to 40% CTRs](http://andrewchen.co/new-data-on-push-notification-ctrs-shows-the-best-apps-perform-4x-better-than-the-worst-heres-why-guest-post)
 -   [andrewchen.co: Why 60% of your users opt-out of push notifications, and what to do about it](http://andrewchen.co/why-people-are-turning-off-push)
 -   [Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)
 -   [Google Cloud Messaging: Overview](https://developers.google.com/cloud-messaging/gcm)
@@ -172,4 +172,3 @@ fclose($fp);
 -   [Urban Airship: Push Notifications Explained](https://www.urbanairship.com/push-notifications-explained)
 -   [Windows Push Notification Services (WNS) overview](https://msdn.microsoft.com/en-us/library/windows/apps/mt187203.aspx)
 -   **[Apple: Local and Remote Notification Programming Guide](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html#//apple_ref/doc/uid/TP40008194-CH100-SW1)**
-New data on push notifications show up to 40% CTRs, the best perform 4X better than the worst (Guest post)](http://andrewchen.co/new-data-on-push-notification-ctrs-shows-the-best-apps-perform-4x-better-than-the-worst-heres-why-guest-post)
