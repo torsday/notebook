@@ -10,10 +10,10 @@ Both for further understanding, as well as in building this book.
 
 -   [ ] [OOP concepts](../design/oop.md)
 
-    -   [encapsulation](../design/oop.md#encapsulation)
-    -   [inheritance](../design/oop.md#inheritance)
-    -   [objects/classes](../design/oop.md#classes)
-    -   [polymorphism](../design/oop.md#polymorphism)
+    -   [Encapsulation](../design/oop.md#encapsulation)
+    -   [Inheritance](../design/oop.md#inheritance)
+    -   [Objects/Classes](../design/oop.md#classes)
+    -   [Polymorphism](../design/oop.md#polymorphism)
 
 -   [ ] Strong testing practices
 
