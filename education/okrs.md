@@ -4,27 +4,74 @@ _**See one, Do one, Teach one**_
 
 ---
 
-**Table of Contents**
-
-<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
-
-<!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Overview of Personal Mileposts](#overview-of-personal-mileposts)
-- [[SOLID Principles](../design/solid.md)](#solid-principlesdesignsolidmd)
-- [[DDD principles](../design/ddd.md)](#ddd-principlesdesigndddmd)
-- [Build & Release Processes](#build-release-processes)
-- [Strong Testing Practices](#strong-testing-practices)
-
-<!-- /TOC -->
-
-<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
-
----
-
 ## Overview of Personal Mileposts
 
-Both for further understanding, as well as in building this repository.
+Both for further understanding, as well as in building out this notebook.
+
+### Hard Skills
+
+#### Programming Skills
+
+Programming Skill refers to an engineer’s ability to actually write code. This includes all of the key aspects of taking code from concept to release from understanding how to develop in different programming...
+
+-   Paradigms
+-   Data Structures
+-   Algorithms
+-   Systems Work
+-   Build Automation
+-   Testing
+-   Problem Solving
+-   Code Readability
+-   Error Handling
+-   Internet Technologies
+-   Common Frameworks
+-   Databases
+-   Scripting
+-   Common Tools
+
+#### Software Design
+
+Software design refers to an engineer’s ability to conceptualize higher level organization of code from components to systems. Software design includes everything from basic concepts of...
+
+-   Modularity
+-   Polymorphism
+-   Introductory Design Patterns
+-   Object-oriented Design
+
+...through more advanced
+
+-   Design Patterns
+-   Domain-driven Design
+-   SOLID Principles
+
+### Soft Skills
+
+#### Technical Leadership
+
+Technical leadership refers to an engineer’s ability to work with groups of other programmers to produce something great. Technical leadership involves **taking your knowledge, skills, and experience and influencing the rest of the team with it**. Being able to improve the output of a single engineer, a team of engineers, teams of teams, or even the whole engineering organization from a technical execution standpoint.
+
+#### Product Passion
+
+Product passion refers to an engineer’s ability to turn code into something that is valuable for a user. This involves being passionate about our products, understanding how they work, making product and technical trade-offs, and ultimately driving the teams they work with to produce things of huge value.  Product Passion is also about viewing our products through the eyes of a member, understanding their problems, and working to solve those problems.
+
+#### Karmanaut
+
+Our values are a key differentiator for CK Engineering. These are based on the sorts of things that make someone successful at CK in general.
+
+-   Challenge
+-   Empathy
+-   Action
+-   Sharing
+
+Engineers who are able to challenge the way we do things in order to make them better, are focused on taking action with ideas, those that know how to work together to bring better outcomes and engineers who can do all of this while still getting along great with their coworkers. Ultimately, this is the bucket where
+
+-   intellectual curiosity
+-   autonomy
+-   drive 
+
+are highlighted.
+
+### Checklist
 
 <!--lint disable list-item-indent table-cell-padding-->
 
@@ -117,6 +164,24 @@ Both for further understanding, as well as in building this repository.
 | ✓ |  Do   | Build Integration Tests                   |
 | ✓ |  Do   | Build Functional Tests                    |
 |   | Teach | Taught testing to another                 |
+
+<!--lint enable list-item-indent table-cell-padding-->
+
+---
+
+## Misc Ops
+
+-   Objective: Solic, working knowledge of DevOps tools (e.g. splunk)
+
+### Key Results:
+
+<!--lint disable list-item-indent table-cell-padding-->
+
+|   |       |     |
+|:--|:-----:|-----|
+|   |  See  | --- |
+|   |  Do   | --- |
+|   | Teach | --- |
 
 <!--lint enable list-item-indent table-cell-padding-->
 
