@@ -174,6 +174,26 @@ A server holds a subtree starting from a specific entry, e.g. `dc=example,dc=com
 
 LDAP rarely defines any ordering: The server may return the values of an attribute, the attributes in an entry, and the entries found by a search operation in any order. This follows from the formal definitions - an entry is defined as a set of attributes, and an attribute is a set of values, and sets need not be ordered.
 
+## Query
+
+Example Query
+
+`"CN=Dev-India,OU=Distribution Groups,DC=gp,DC=gl,DC=google,DC=com"`
+
+These are all parts of the X.500 Directory Specification, which defines nodes in a LDAP directory.
+
+You can also read up on LDAP data Interchange Format (LDIF), which is an alternate format.
+
+You read it from right to left, the right-most component is the root of the tree, and the left most component is the node (or leaf) you want to reach.
+
+Each `=` pair is a search criteria.
+
+In effect the example query is:
+
+From the `com` Domain Component, find the `google` Domain Component, and then inside it the `gl` Domain Component and then inside it the `gp` Domain Component.
+
+In the `gp` Domain Component, find the Organizational Unit called `Distribution Groups` and then find the the object that has a common name of `Dev-India`.
+
 ## Operations
 
 ### Add
