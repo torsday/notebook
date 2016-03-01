@@ -73,15 +73,15 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 |  String  | X.500 AttributeType    |
 |:--------:|------------------------|
+|   `c`    | countryName            |
 |   `cn`   | commonName             |
+|   `dc`   | domainComponent        |
 |   `l`    | localityName           |
-|   `st`   | stateOrProvinceName    |
 |   `o`    | organizationName       |
 |   `ou`   | organizationalUnitName |
-|   `c`    | countryName            |
-| `street` | streetAddress          |
-|   `dc`   | domainComponent        |
+|   `st`   | stateOrProvinceName    |
 |  `uid`   | userid                 |
+| `street` | streetAddress          |
 
 ### General
 
