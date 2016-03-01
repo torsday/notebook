@@ -1,5 +1,7 @@
 # Education
 
+**See one, Do one, Teach one**
+
 ## Personal Mileposts
 
 Both for further understanding, as well as in building this repository.
@@ -39,8 +41,9 @@ Both for further understanding, as well as in building this repository.
 
 -   Key Results:
 
-    -   Taught said principles to another (e.g. 1:1, lecture, article).
-    -   Built with said principle.
+    -   See One: observe implementation of this principle.
+    -   Do One: Built with said principle.
+    -   Teach One: Taught said principles to another (e.g. 1:1, lecture, article).
 
 ### [DDD principles](../design/ddd.md)
 
@@ -48,8 +51,9 @@ Both for further understanding, as well as in building this repository.
 
 -   Key Results:
 
-    -   Taught said principles to another (e.g. 1:1, lecture, article).
-    -   Built with said principle.
+    -   See One: observe implementation of this principle.
+    -   Do One: Built with said principle.
+    -   Teach One: Taught said principles to another (e.g. 1:1, lecture, article).
 
 ### Build & Release Processes
 
