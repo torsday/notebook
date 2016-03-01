@@ -71,14 +71,17 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 ### Fields
 
-|      |                           |
-|:----:|---------------------------|
-| `cn` | *see Common Name.*        |
-| `dc` | *see Domain Component.*   |
-| `dn` | *see Distinguished Name.* |
-| `l`  | *see locality.*           |
-| `ou` | *see Organization Unit.*  |
-| `sn` | *see surname.*            |
+|  String  | X.500 AttributeType    |
+|:--------:|------------------------|
+|   `cn`   | commonName             |
+|   `l`    | localityName           |
+|   `st`   | stateOrProvinceName    |
+|   `o`    | organizationName       |
+|   `ou`   | organizationalUnitName |
+|   `c`    | countryName            |
+| `street` | streetAddress          |
+|   `dc`   | domainComponent        |
+|  `uid`   | userid                 |
 
 ### General
 
@@ -468,7 +471,7 @@ if ($ds) {
 -   [PHP Docs: LDAP](http://php.net/manual/en/ref.ldap.php)
 -   [RubyDocs: Net: LDAP][ruby_docs_net_ldap]
 -   [SitePoint: Essentials of LDAP with PHP](http://www.sitepoint.com/essentials-ldap-php)
--   [StackOverflow: What are CN, OU, DC in an LDAP search?](http://stackoverflow.com/questions/18756688/what-are-cn-ou-dc-in-an-ldap-search)
+-   [StackOverflow: What are `CN`, `OU`, `DC` in an LDAP search?](http://stackoverflow.com/questions/18756688/what-are-cn-ou-dc-in-an-ldap-search)
 -   [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 -   [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 -   [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
