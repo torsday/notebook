@@ -39,32 +39,53 @@ Both for further understanding, as well as in building this repository.
 
 -   Objectives: Solic, working knowledge of SOLID Principles
 
--   Key Results:
+#### Key Results:
 
-    -   See One: observe implementation of this principle.
-    -   Do One: Built with said principle.
-    -   Teach One: Taught said principles to another (e.g. 1:1, lecture, article).
+<!--lint disable list-item-indent table-cell-padding-->
+
+|   |           |                                                               |
+|:--|:----------|---------------------------------------------------------------|
+| ✓ | See One   | Pair with someone doing this                                  |
+| ✓ | Do One    | Build with SOLID Design                                         |
+|   | Teach One | Taught said principles to another (e.g. 1:1, lecture, article |
+
+<!--lint enable list-item-indent table-cell-padding-->
 
 ### [DDD principles](../design/ddd.md)
 
 -   Objectives: Solic, working knowledge of DDD Principles
 
--   Key Results:
+#### Key Results:
 
-    -   See One: observe implementation of this principle.
-    -   Do One: Built with said principle.
-    -   Teach One: Taught said principles to another (e.g. 1:1, lecture, article).
+<!--lint disable list-item-indent table-cell-padding-->
+
+|   |           |                                                               |
+|:--|:----------|---------------------------------------------------------------|
+| ✓ | See One   | Pair with someone doing this                                  |
+| ✓ | Do One    | Build with DDD Design                                         |
+|   | Teach One | Taught said principles to another (e.g. 1:1, lecture, article |
+
+<!--lint enable list-item-indent table-cell-padding-->
+
+
+
 
 ### Build & Release Processes
 
 -   Objective: Build solid working knowledge of build & release process
 
--   Key Results:
+#### Key Results:
 
-    - [ ] See One: Pair with someone doing this.
-    - [ ] Do One: Was responsible for configuration of repositories, Jenkins & test automation for build-release of new service.
-    - [ ] Do One: New service successfully deployed to production.
-    - [ ] Teach One: Taught said principles to another (e.g. 1:1, lecture, article).
+<!--lint disable list-item-indent table-cell-padding-->
+
+|   |           |                                                                                                               |
+|:--|:----------|---------------------------------------------------------------------------------------------------------------|
+|   | See One   | Pair with someone doing this                                                                                  |
+|   | Do One    | Was responsible for configuration of repositories, Jenkins & test automation for build-release of new service |
+|   | Do One    | New service successfully deployed to production                                                               |
+|   | Teach One | Taught said principles to another (e.g. 1:1, lecture, article                                                 |
+
+<!--lint enable list-item-indent table-cell-padding-->
 
 ---
 
