@@ -171,39 +171,38 @@ alias gpk='git count-objects -vH && echo "" && git repack -a -d -f --depth=250 -
 
 -   At its core, a repository is a key-value store.
 
-   -   Each key is a SHA1 hash, and each value is an object of one of the following types:
+    -   Each key is a SHA1 hash, and each value is an object of one of the following types:
 
-     1. **Blobs**: a bunch of bytes, usually a file.
-     2. **Tree objects**: like directories; nodes are either blobs or other tree objects.
-     3. **Commit objects**: point to a tree object with some extra metadata.
-     4. **Tag objects**: point to a commit object with some extra metadata.
-     5. **References**: pointers to any other object (usually commit or tag objects).
+        1.  **Blobs**: a bunch of bytes, usually a file.
+        2.  **Tree objects**: like directories; nodes are either blobs or other tree objects.
+        3.  **Commit objects**: point to a tree object with some extra metadata.
+        4.  **Tag objects**: point to a commit object with some extra metadata.
+        5.  **References**: pointers to any other object (usually commit or tag objects).
 
-   -   `.git/objects` contains all the objects, and `.git/refs` contains all the references.
+    -  `.git/objects` contains all the objects, and `.git/refs` contains all the references.
 
-   -   Git represents your project directory as a tree object, with files as blobs and directories as trees.
+    -  Git represents your project directory as a tree object, with files as blobs and directories as trees.
 
-   -   A commit is just a pointer to a tree object that represents the state of your project at commit time.
+    -   A commit is just a pointer to a tree object that represents the state of your project at commit time.
 
-       -   Commit metadata also includes: a hash of its parent commit, author info, and the commit message.
+        -   Commit metadata also includes: a hash of its parent commit, author info, and the commit message.
 
-   -   References are just pointers to other objects.
+    -   References are just pointers to other objects.
 
-     -   A branch is a reference pointing to a commit.
-     -   HEAD is a reference that points to the tip of the current branch, but it may point directly to a commit
-   (so-called "detached" `HEAD`).
+        -   A branch is a reference pointing to a commit.
+        -   HEAD is a reference that points to the tip of the current branch, but it may point directly to a commit (so-called "detached" `HEAD`).
 
-   -   Tags are pointers to commits.
+    -   Tags are pointers to commits.
 
-     -   A lightweight tag just points to a commit and no more.
-     -   An annotated tag includes some metadata, with a tag message, author, and timestamp.
+        -   A lightweight tag just points to a commit and no more.
+        -   An annotated tag includes some metadata, with a tag message, author, and timestamp.
 
 -   When you merge, you move the branch pointer of the current branch ahead ('upstream') to tip of the branch
  you're merging.
 
 -   When you rebase, you copy your working commits over ('upstream') to the tip of the branch you've rebased on.
 
-   -   Note that these copied commits are true copies, and have new hashes.
+    -   Note that these copied commits are true copies, and have new hashes.
 
 ---
 
