@@ -132,9 +132,9 @@ A programming library providing an API that allows the programmer to write text-
 
 Object IDentifier.
 
-## OKR
+## OKRs
 
-Objectives & Key Results.
+Objectives and Key Results (OKRs) are a management methodology that connects work to a strategic plan.
 
 ## Ontology
 
