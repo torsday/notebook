@@ -31,14 +31,14 @@ Both for further understanding, as well as in building this repository.
 
 |   |                                                                                                                                                                                                                                   |
 |:-:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   | Gang-of-Four [design patterns](../design/design_patterns.md). common patterns and their ideal usage.                                                                                                                              |
-|   | Sequence diagram of [HTTP](../internet/http.md)                                                                                                                                                                                   |
-| ✓ | [OOP concepts](../design/oop.md): [Encapsulation](../design/oop.md#encapsulation), [Inheritance](../design/oop.md#inheritance), [Objects/Classes](../design/oop.md#objectsclasses), [Polymorphism](../design/oop.md#polymorphism) |
-|   | Strong [testing practices](../testing/README.md): [Unit Testing](../testing/README.md#unit-testing), [Integration Testing](../testing/README.md#integration-testing), Client Testing                                              |
-|   | Build and Release processes                                                                                                                                                                                                       |
-| ✓ | [RESTful API’s](../design/rest.md), knowledgeable of common practices and concerns                                                                                                                                                |
-|   | [SOLID Principles](../design/solid.md)                                                                                                                                                                                            |
-|   | [DDD principles](../design/ddd.md)                                                                                                                                                                                                |
+|   | **Build and Release processes**                                                                                                                                                                                                       |
+|   | **[DDD principles](../design/ddd.md)**                                                                                                                                                                                                |
+|   | **[Design Patterns](../design/design_patterns.md):** Gang-of-Four. Common patterns & their ideal usage.                                                                                                                              |
+|   | **[HTTP](../internet/http.md):** Sequence diagram                                                                                                                                                                                   |
+|   | **[SOLID Principles](../design/solid.md)**                                                                                                                                                                                            |
+|   | **[TESTING](../testing/README.md):** [Unit Testing](../testing/README.md#unit-testing), [Integration Testing](../testing/README.md#integration-testing), Client Testing                                              |
+| ✓ | **[OOP](../design/oop.md):** [Encapsulation](../design/oop.md#encapsulation), [Inheritance](../design/oop.md#inheritance), [Objects/Classes](../design/oop.md#objectsclasses), [Polymorphism](../design/oop.md#polymorphism) |
+| ✓ | **[REST](../design/rest.md):** RESTful API’s, knowledgeable of common practices and concerns                                                                                                                                                |
 
 <!--lint enable list-item-indent table-cell-padding-->
 
