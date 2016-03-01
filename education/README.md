@@ -74,6 +74,22 @@ Both for further understanding, as well as in building this repository.
 
 <!--lint enable list-item-indent table-cell-padding-->
 
+### Strong Testing Practices
+
+-   Objective: Build solid working knowledge of testing practices
+
+#### Key Results:
+
+<!--lint disable list-item-indent table-cell-padding-->
+
+|   |           |                                                                                                               |
+|:--|:----------|---------------------------------------------------------------------------------------------------------------|
+| ✓  | See One   | Pair with someone writing tests                                                                                  |
+| ✓  | Do One    | Was responsible for creating tests. |
+|   | Teach One | Taught testing to another                                              |
+
+<!--lint enable list-item-indent table-cell-padding-->
+
 ---
 
 ## References
