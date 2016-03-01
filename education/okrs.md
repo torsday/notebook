@@ -122,9 +122,9 @@ Both for further understanding, as well as in building this repository.
 
 ---
 
-## Ownership of _______
+## Ownership of `_______`
 
--   Objective: Own a context, product, or ___________
+-   Objective: Own a context, product, or `_______`
 
 ### Key Results:
 
@@ -134,6 +134,6 @@ Both for further understanding, as well as in building this repository.
 |:--|:-----:|----------------------------|
 |   |  See  | ---                        |
 |   |  Do   | ---                        |
-|   | Teach | Taught ________ to another |
+|   | Teach | Taught `_______` to another |
 
 <!--lint enable list-item-indent table-cell-padding-->
