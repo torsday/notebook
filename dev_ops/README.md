@@ -13,6 +13,8 @@
 -   **Build**: Version control tools, code merging, Build status
 
     -   [Babel]()
+    -   [Gulp](dev_ops/gulp.md): A streaming build system.
+    -   [Grunt](): Automation, performing repetitive tasks like minification, compilation, unit testing and linting; a JavaScript Task Runner.
     -   [Jenkins](./jenkins.md)
     -   [Phing](dev_ops/phing.md)
 
@@ -39,8 +41,6 @@
 -   [Composer](dev_ops/composer.md)
 -   [Docker](dev_ops/docker.md)
 -   [Gearman](dev_ops/gearman.md)
--   [Grunt]()
--   [Gulp](dev_ops/gulp.md)
 -   [JWT](dev_ops/jwt.md)
 -   [Nginx]()
 -   [NPM](dev_ops/npm.md)
