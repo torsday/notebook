@@ -12,7 +12,9 @@
 
 -   **Build**: Version control tools, code merging, Build status
 
+    -   [Babel]()
     -   [Jenkins](./jenkins.md)
+    -   [Phing](dev_ops/phing.md)
 
 -   **Test**: Test and results determine performance
 
@@ -22,28 +24,27 @@
 
 -   **Release**: Change management, Release approvals, release automation
 
+    -   [Jenkins](./jenkins.md): an open source automation server
+
 -   **Configure**: Infrastructure configuration and management, Infrastructure as Code tools
 
 -   **Monitor**: Applications performance monitoring, End user experience
 
     -   [New Relic]()
+    -   [Splunk]()
 
 ## TODO: sort
 
--   [Babel]()
 -   [Build & Release](dev_ops/build_and_release.md)
 -   [Composer](dev_ops/composer.md)
 -   [Docker](dev_ops/docker.md)
 -   [Gearman](dev_ops/gearman.md)
 -   [Grunt]()
 -   [Gulp](dev_ops/gulp.md)
--   [Jenkins](./jenkins.md)
 -   [JWT](dev_ops/jwt.md)
 -   [Nginx]()
 -   [NPM](dev_ops/npm.md)
 -   [NVM](dev_ops/nvm.md)
 -   [Okta]()
--   [Phing](dev_ops/phing.md)
 -   [SAML]()
--   [Splunk]()
 -   [Vagrant]()
