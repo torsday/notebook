@@ -67,7 +67,7 @@ Engineers who are able to challenge the way we do things in order to make them b
 
 -   intellectual curiosity
 -   autonomy
--   drive 
+-   drive
 
 are highlighted.
 
@@ -92,7 +92,7 @@ are highlighted.
 
 ## [SOLID Principles](../design/solid.md)
 
--   Objectives: Solic, working knowledge of SOLID Principles
+-   Objectives: Solid, working knowledge of SOLID Principles
 
 ### Key Results:
 
@@ -171,7 +171,7 @@ are highlighted.
 
 ## Misc Ops
 
--   Objective: Solic, working knowledge of DevOps tools (e.g. splunk)
+-   Objective: Solid, working knowledge of DevOps tools (e.g. splunk)
 
 ### Key Results:
 
