@@ -27,5 +27,5 @@ The process of using an operator or function in different ways for different dat
 ## References
 
 -   [Metz, 'Practical Object-Oriented Design in Ruby'](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330)
--   [ZetCode: Object-oriented programming in Ruby](http://zetcode.com/lang/rubytutorial/oop)
 -   [Thoughtbot: Back to Basics: Polymorphism and Ruby](https://robots.thoughtbot.com/back-to-basics-polymorphism-and-ruby)
+-   [ZetCode: Object-oriented programming in Ruby](http://zetcode.com/lang/rubytutorial/oop)
