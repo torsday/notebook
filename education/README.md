@@ -39,7 +39,8 @@ Both for further understanding, as well as in building this repository.
 
 -   Key Results:
 
-    -   Taught said principles to another.
+    -   Taught said principles to another (e.g. 1:1, lecture, article).
+    -   Built with said principle.
 
 ### [DDD principles](../design/ddd.md)
 
@@ -47,7 +48,8 @@ Both for further understanding, as well as in building this repository.
 
 -   Key Results:
 
-    -   Taught said principles to another.
+    -   Taught said principles to another (e.g. 1:1, lecture, article).
+    -   Built with said principle.
 
 ### Build & Release Processes
 

@@ -144,6 +144,10 @@ The philosophical study of the nature of being, becoming, existence, or reality,
 
 Operating System Push Notification Service.
 
+## Polymorphism
+
+The provision of a single interface to entities of different types.
+
 ## Postgres
 
 See: PostgreSQL.
