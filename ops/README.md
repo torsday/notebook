@@ -6,15 +6,15 @@
 
 ## Toolchain
 
-|           |                                                                           |
-|:---------:|---------------------------------------------------------------------------|
-|   Code    | Code Development and Review, continuous integration tools                 |
-|   Build   | Version control tools, code merging, Build status                         |
-|   Test    | Test and results determine performance                                    |
-|  Package  | Artifact repository, Application pre-deployment staging                   |
-|  Release  | Change management, Release approvals, release automation                  |
-| Configure | Infrastructure configuration and management, Infrastructure as Code tools |
-|  Monitor  | Applications performance monitoring, End user experience                  |
+|   |           |                                                                           |
+|:-:|:---------:|---------------------------------------------------------------------------|
+| 1 |   Code    | Code Development and Review, continuous integration tools                 |
+| 2 |   Build   | Version control tools, code merging, Build status                         |
+| 3 |   Test    | Test and results determine performance                                    |
+| 4 |  Package  | Artifact repository, Application pre-deployment staging                   |
+| 5 |  Release  | Change management, Release approvals, release automation                  |
+| 6 | Configure | Infrastructure configuration and management, Infrastructure as Code tools |
+| 7 |  Monitor  | Applications performance monitoring, End user experience                  |
 
 ## Stack
 
