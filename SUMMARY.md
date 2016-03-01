@@ -94,6 +94,8 @@
 
         -   [Harvard CS50](education/harvard_cs50.md)
 
+    -   [OKRs](education/okrs.md)
+
     -   [Other](education/other.md)
 
         -   [Exercism](education/exercism.md)
