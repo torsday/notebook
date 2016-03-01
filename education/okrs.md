@@ -141,4 +141,5 @@ Both for further understanding, as well as in building this repository.
 ### Candidates
 
 -   Knowledge sharing at CK
-    - TILs (e.g. Hashrocket's system)
+
+    -   TILs (e.g. Hashrocket's system)
