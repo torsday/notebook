@@ -2,7 +2,7 @@
 
 ## Personal Mileposts
 
-Both for further understanding, as well as in building this book.
+Both for further understanding, as well as in building this repository.
 
 -   Sequence diagram of [HTTP](../internet/http.md)
 
@@ -21,7 +21,7 @@ Both for further understanding, as well as in building this book.
     -   Integration Testing
     -   Client Testing
 
--   Build and release processes
+-   Build and Release processes
 
 -   RESTful API’s, knowledgeable of common practices and concerns
 
