@@ -6,18 +6,43 @@
 
 ## Toolchain
 
-|   |               |                                                                           |
-|:-:|:-------------:|---------------------------------------------------------------------------|
-| 1 |   **Code**    | Code Development and Review, continuous integration tools                 |
-| 2 |   **Build**   | Version control tools, code merging, Build status                         |
-| 3 |   **Test**    | Test and results determine performance                                    |
-| 4 |  **Package**  | Artifact repository, Application pre-deployment staging                   |
-| 5 |  **Release**  | Change management, Release approvals, release automation                  |
-| 6 | **Configure** | Infrastructure configuration and management, Infrastructure as Code tools |
-| 7 |  **Monitor**  | Applications performance monitoring, End user experience                  |
+-   **Code**: Code Development and Review, continuous integration tools
 
-## Stack
+-   **Build**: Version control tools, code merging, Build status
 
--   [Artifactory]()
+    -   [Jenkins](./jenkins.md)
+
+-   **Test**: Test and results determine performance
+
+-   **Package**: Artifact repository, Application pre-deployment staging
+
+    -   [Artifactory]()
+
+-   **Release**: Change management, Release approvals, release automation
+
+-   **Configure**: Infrastructure configuration and management, Infrastructure as Code tools
+
+-   **Monitor**: Applications performance monitoring, End user experience
+
+    -   [New Relic]()
+
+
+## TODO: sort
+
+-   [Babel]()
+-   [Build & Release](dev_ops/build_and_release.md)
+-   [Composer](dev_ops/composer.md)
+-   [Docker](dev_ops/docker.md)
+-   [Gearman](dev_ops/gearman.md)
+-   [Grunt]()
+-   [Gulp](dev_ops/gulp.md)
 -   [Jenkins](./jenkins.md)
+-   [JWT](dev_ops/jwt.md)
+-   [Nginx]()
+-   [NPM](dev_ops/npm.md)
+-   [NVM](dev_ops/nvm.md)
+-   [Okta]()
+-   [Phing](dev_ops/phing.md)
+-   [SAML]()
 -   [Splunk]()
+-   [Vagrant]()
