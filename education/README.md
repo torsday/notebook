@@ -9,6 +9,7 @@
 
 -   [LaraCasts](https://laracasts.com)
 -   [Plural Sight](https://www.pluralsight.com)
+-   [Safari Books Online: Learning Paths](https://www.safaribooksonline.com/learning-paths/)
 
 ### TILs
 
