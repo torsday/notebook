@@ -17,8 +17,8 @@ Both for further understanding, as well as in building this repository.
 
 -   Strong [testing practices](../testing/README.md)
 
-    -   Unit Testing
-    -   Integration Testing
+    -   [Unit Testing](../testing/README.md#unit-testing)
+    -   [Integration Testing](../testing/README.md#integration-testing)
     -   Client Testing
 
 -   Build and Release processes
