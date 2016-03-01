@@ -137,3 +137,8 @@ Both for further understanding, as well as in building this repository.
 |   | Teach | Taught `_______` to another |
 
 <!--lint enable list-item-indent table-cell-padding-->
+
+### Candidates
+
+-   Knowledge sharing at CK
+    - TILs (e.g. Hashrocket's system)
