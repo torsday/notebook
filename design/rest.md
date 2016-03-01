@@ -2,7 +2,9 @@
 
 *From: [Wikipedia](https://en.wikipedia.org/wiki/Representational_state_transfer)*
 
-> The software architectural style of the World Wide Web. More precisely, REST is an architectural style consisting of a coordinated set of architectural constraints applied to components, connectors, and data elements, within a distributed hypermedia system. REST ignores the details of component implementation and protocol syntax in order to focus on the roles of components, the constraints upon their interaction with other components, and their interpretation of significant data elements.
+> The software architectural style of the World Wide Web.
+
+> More precisely, an architectural style consisting of a coordinated set of architectural constraints applied to components, connectors, and data elements, within a distributed hypermedia system. REST ignores the details of component implementation and protocol syntax in order to focus on the roles of components, the constraints upon their interaction with other components, and their interpretation of significant data elements.
 
 > Through the application of REST architectural constraints certain architectural properties are induced:
 
