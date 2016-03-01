@@ -6,6 +6,6 @@ A programming language model organized around objects rather than "actions" and 
 
 ## Inheritance
 
-## Objects/classes
+## Objects/Classes
 
 ## Polymorphism
