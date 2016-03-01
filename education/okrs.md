@@ -143,3 +143,4 @@ Both for further understanding, as well as in building this repository.
 -   Knowledge sharing at CK
 
     -   TILs (e.g. Hashrocket's system)
+    -   To be _"the test guy"_
