@@ -1,12 +1,9 @@
 # Education
 
-_**See one, Do one, Teach one**_
+-   [Courses](./courses.md)
+-   [OKRs (plan)](./okrs.md)
 
 ## References
-
-### Courses
-
--   [Harvard CS50](./harvard_cs50.md)
 
 ### Screencasts
 
