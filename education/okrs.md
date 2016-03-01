@@ -87,13 +87,13 @@ Both for further understanding, as well as in building this repository.
 
 <!--lint disable list-item-indent table-cell-padding-->
 
-|   |       |                                                                                                               |
-|:--|:-----:|---------------------------------------------------------------------------------------------------------------|
-|   |  See  | Pair with someone doing this                                                                                  |
-|   |  Do   | Was responsible for configuration of repositories, Jenkins & test automation for build-release of new service |
-|   |  Do   | New service successfully deployed to production                                                               |
-| ✓ |  Do   | Tweak configuration for purposes of debugging                                                                 |
-|   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_                                              |
+|   |       |                                                                                                     |
+|:--|:-----:|-----------------------------------------------------------------------------------------------------|
+|   |  See  | Pair with someone doing this                                                                        |
+|   |  Do   | Responsible for config of repositories, Jenkins, & test automation for build-release of new service |
+|   |  Do   | New service successfully deployed to production                                                     |
+| ✓ |  Do   | Tweak configuration for purposes of debugging                                                       |
+|   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_                                    |
 
 <!--lint enable list-item-indent table-cell-padding-->
 
