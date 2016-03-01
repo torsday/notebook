@@ -152,6 +152,7 @@
 -   [Ops](ops/README.md)
 
     -   [Babel]()
+    -   [Build & Release](ops/build_and_release.md)
     -   [Composer](ops/composer.md)
     -   [Docker](ops/docker.md)
     -   [Gearman](ops/gearman.md)
