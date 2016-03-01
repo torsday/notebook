@@ -20,7 +20,13 @@ An object is a combination of data and methods. In a OOP program, we create obje
 
 ## Polymorphism
 
-The process of using an operator or function in different ways for different data input.
+Being able to send the same message to different objects and get different results
+
+Ways of achieving it:
+
+-   Inheritance ([see above](./oop.md#inheritance))
+-   Duck Typing
+-   [Decorator Pattern](../design/decorator.md)
 
 ---
 
