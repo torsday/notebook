@@ -15,7 +15,7 @@ Both for further understanding, as well as in building this book.
     -   [Objects/Classes](../design/oop.md#classes)
     -   [Polymorphism](../design/oop.md#polymorphism)
 
--   Strong testing practices
+-   Strong [testing practices](../testing/README.md)
 
     -   Unit Testing
     -   Integration Testing
