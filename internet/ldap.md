@@ -468,6 +468,7 @@ if ($ds) {
 -   [PHP Docs: LDAP](http://php.net/manual/en/ref.ldap.php)
 -   [RubyDocs: Net: LDAP][ruby_docs_net_ldap]
 -   [SitePoint: Essentials of LDAP with PHP](http://www.sitepoint.com/essentials-ldap-php)
+-   [StackOverflow: What are CN, OU, DC in an LDAP search?](http://stackoverflow.com/questions/18756688/what-are-cn-ou-dc-in-an-ldap-search)
 -   [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 -   [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 -   [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
