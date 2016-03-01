@@ -119,3 +119,21 @@ Both for further understanding, as well as in building this repository.
 |   | Teach | Taught testing to another                 |
 
 <!--lint enable list-item-indent table-cell-padding-->
+
+---
+
+## Ownership of _______
+
+-   Objective: Own a context, product, or ___________
+
+### Key Results:
+
+<!--lint disable list-item-indent table-cell-padding-->
+
+|   |       |                            |
+|:--|:-----:|----------------------------|
+|   |  See  | ---                        |
+|   |  Do   | ---                        |
+|   | Teach | Taught ________ to another |
+
+<!--lint enable list-item-indent table-cell-padding-->
