@@ -2,6 +2,27 @@
 
 _**See one, Do one, Teach one**_
 
+---
+
+**Table of Contents**
+
+<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+<!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Overview of Personal Mileposts](#overview-of-personal-mileposts)
+- [[SOLID Principles](../design/solid.md)](#solid-principlesdesignsolidmd)
+- [[DDD principles](../design/ddd.md)](#ddd-principlesdesigndddmd)
+- [Build & Release Processes](#build-release-processes)
+- [Strong Testing Practices](#strong-testing-practices)
+
+<!-- /TOC -->
+
+<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+---
+
+
 ## Overview of Personal Mileposts
 
 Both for further understanding, as well as in building this repository.
@@ -23,11 +44,11 @@ Both for further understanding, as well as in building this repository.
 
 ---
 
-### [SOLID Principles](../design/solid.md)
+## [SOLID Principles](../design/solid.md)
 
 -   Objectives: Solic, working knowledge of SOLID Principles
 
-#### Key Results:
+### Key Results:
 
 <!--lint disable list-item-indent table-cell-padding-->
 
@@ -39,11 +60,13 @@ Both for further understanding, as well as in building this repository.
 
 <!--lint enable list-item-indent table-cell-padding-->
 
-### [DDD principles](../design/ddd.md)
+---
+
+## [DDD principles](../design/ddd.md)
 
 -   Objectives: Solid, working knowledge of DDD Principles
 
-#### Key Results:
+### Key Results:
 
 <!--lint disable list-item-indent table-cell-padding-->
 
@@ -55,11 +78,13 @@ Both for further understanding, as well as in building this repository.
 
 <!--lint enable list-item-indent table-cell-padding-->
 
-### Build & Release Processes
+---
+
+## Build & Release Processes
 
 -   Objective: Build solid working knowledge of build & release process
 
-#### Key Results:
+### Key Results:
 
 <!--lint disable list-item-indent table-cell-padding-->
 
@@ -73,11 +98,13 @@ Both for further understanding, as well as in building this repository.
 
 <!--lint enable list-item-indent table-cell-padding-->
 
-### Strong Testing Practices
+---
+
+## Strong Testing Practices
 
 -   Objective: Build solid working knowledge of testing practices
 
-#### Key Results:
+### Key Results:
 
 <!--lint disable list-item-indent table-cell-padding-->
 
