@@ -4,9 +4,9 @@
 
 Both for further understanding, as well as in building this book.
 
--   Sequence diagram of HTTP
+-   Sequence diagram of [HTTP](../internet/http.md)
 
--   Gang-of-Four design patterns. common patterns and their ideal usage.
+-   Gang-of-Four [design patterns](../design/design_patterns.md). common patterns and their ideal usage.
 
 -   [OOP concepts](../design/oop.md)
 
@@ -25,9 +25,9 @@ Both for further understanding, as well as in building this book.
 
 -   RESTful API’s, knowledgeable of common practices and concerns
 
--   SOLID Principles
+-   [SOLID Principles](../design/solid.md)
 
--   DDD principles
+-   [DDD principles](../design/ddd.md)
 
 ---
 
