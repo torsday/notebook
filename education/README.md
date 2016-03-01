@@ -61,8 +61,10 @@ Both for further understanding, as well as in building this repository.
 
 -   Key Results:
 
-    -   Was responsible for configuration of repositories, Jenkins & test automation for build-release of new service.
-    -   New service successfully deployed to production.
+    - [ ] See One: Pair with someone doing this.
+    - [ ] Do One: Was responsible for configuration of repositories, Jenkins & test automation for build-release of new service.
+    - [ ] Do One: New service successfully deployed to production.
+    - [ ] Teach One: Taught said principles to another (e.g. 1:1, lecture, article).
 
 ---
 
