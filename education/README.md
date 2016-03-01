@@ -1,6 +1,6 @@
 # Education
 
-**See one, Do one, Teach one**
+_**See one, Do one, Teach one**_
 
 ## Personal Mileposts
 
