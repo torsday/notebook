@@ -130,10 +130,10 @@ Both for further understanding, as well as in building this repository.
 
 <!--lint disable list-item-indent table-cell-padding-->
 
-|   |       |                            |
-|:--|:-----:|----------------------------|
-|   |  See  | ---                        |
-|   |  Do   | ---                        |
+|   |       |                             |
+|:--|:-----:|-----------------------------|
+|   |  See  | ---                         |
+|   |  Do   | ---                         |
 |   | Teach | Taught `_______` to another |
 
 <!--lint enable list-item-indent table-cell-padding-->
