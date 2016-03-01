@@ -18,4 +18,4 @@
 
 > To the extent that systems conform to the constraints of REST they can be called RESTful.
 
-> RESTful systems typically, but not always, communicate over HTTP with the same HTTP verbs (`GET`, `POST`, `PUT`, `DELETE`, etc.). REST systems interface with external systems as web resources identified by Uniform Resource Identifiers (URIs), for example `/people/tom`, which can be operated upon using standard verbs such as `DELETE` `/people/tom`.
+> RESTful systems typically, but not always, communicate over HTTP with the same [HTTP verbs](../internet/http.md#verbs). REST systems interface with external systems as web resources identified by Uniform Resource Identifiers (URIs), for example `/people/tom`, which can be operated upon using standard verbs such as `DELETE` `/people/tom`.
