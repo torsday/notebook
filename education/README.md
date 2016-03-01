@@ -43,10 +43,10 @@ Both for further understanding, as well as in building this repository.
 
 <!--lint disable list-item-indent table-cell-padding-->
 
-|   |           |                                                               |
-|:--|:----------|---------------------------------------------------------------|
-| ✓ | See One   | Pair with someone doing this                                  |
-| ✓ | Do One    | Build with SOLID Design                                       |
+|   |           |                                                                  |
+|:--|:----------|------------------------------------------------------------------|
+| ✓ | See One   | Pair with someone doing this                                     |
+| ✓ | Do One    | Build with SOLID Design                                          |
 |   | Teach One | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
 
 <!--lint enable list-item-indent table-cell-padding-->
@@ -59,10 +59,10 @@ Both for further understanding, as well as in building this repository.
 
 <!--lint disable list-item-indent table-cell-padding-->
 
-|   |           |                                                               |
-|:--|:----------|---------------------------------------------------------------|
-| ✓ | See One   | Pair with someone doing this                                  |
-| ✓ | Do One    | Build with DDD Design                                         |
+|   |           |                                                                  |
+|:--|:----------|------------------------------------------------------------------|
+| ✓ | See One   | Pair with someone doing this                                     |
+| ✓ | Do One    | Build with DDD Design                                            |
 |   | Teach One | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
 
 <!--lint enable list-item-indent table-cell-padding-->
@@ -80,7 +80,7 @@ Both for further understanding, as well as in building this repository.
 |   | See One   | Pair with someone doing this                                                                                  |
 |   | Do One    | Was responsible for configuration of repositories, Jenkins & test automation for build-release of new service |
 |   | Do One    | New service successfully deployed to production                                                               |
-|   | Teach One | Taught said principles to another _(e.g. 1:1, lecture, article)_                                                 |
+|   | Teach One | Taught said principles to another _(e.g. 1:1, lecture, article)_                                              |
 
 <!--lint enable list-item-indent table-cell-padding-->
 
