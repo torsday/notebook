@@ -144,3 +144,11 @@ Both for further understanding, as well as in building this repository.
 
     -   TILs (e.g. Hashrocket's system)
     -   To be _"the test guy"_
+
+## Brainstorm food
+
+-   Think of ways our team can improve. Find areas we are experiencing pain or under delivering and try to come up with options on how to solve those problems.
+
+-   _"Seek to replace yourself."_
+
+    -   Participate in the interview process.
