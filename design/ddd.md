@@ -61,7 +61,6 @@ e.g. persisting data to a database, queuing jobs, or sending email notifications
 
 -   [Model](model.md)
 
-
     -   Collection
 
 -   [Repository](repository.md)
