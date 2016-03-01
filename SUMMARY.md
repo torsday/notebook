@@ -158,6 +158,7 @@
     -   [Gearman](ops/gearman.md)
     -   [Grunt]()
     -   [Gulp](ops/gulp.md)
+    -   [Jenkins]()
     -   [JWT](ops/jwt.md)
     -   [Nginx]()
     -   [NPM](ops/npm.md)
