@@ -30,9 +30,9 @@
 
 <!--lint enable table-cell-padding-->
 
-## Request methods *(verbs)*
+##  Verbs
 
-Indicates the desired action to be performed on the identified resource.
+*a.k.a Request methods", these indicate the desired action to be performed on the identified resource.
 
 <!--lint disable table-cell-padding-->
 
