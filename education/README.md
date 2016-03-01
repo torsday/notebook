@@ -6,6 +6,8 @@ _**See one, Do one, Teach one**_
 
 Both for further understanding, as well as in building this repository.
 
+<!--lint disable list-item-indent table-cell-padding-->
+
 |   |                                                                                                                                                                                                                                   |
 |:-:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   | Gang-of-Four [design patterns](../design/design_patterns.md). common patterns and their ideal usage.                                                                                                                              |
@@ -16,6 +18,8 @@ Both for further understanding, as well as in building this repository.
 |   | [RESTful API’s](../design/rest.md), knowledgeable of common practices and concerns                                                                                                                                                |
 |   | [SOLID Principles](../design/solid.md)                                                                                                                                                                                            |
 |   | [DDD principles](../design/ddd.md)                                                                                                                                                                                                |
+
+<!--lint enable list-item-indent table-cell-padding-->
 
 ---
 
