@@ -22,3 +22,7 @@
 -   IP
 
 ### Link Layer
+
+## URI, URL, & URN
+
+![Venn Diagram](http://bitpoetry.io/content/images/2015/03/uriurnurl.png)
