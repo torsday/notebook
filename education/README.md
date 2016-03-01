@@ -12,7 +12,7 @@ Both for further understanding, as well as in building this repository.
 
     -   [Encapsulation](../design/oop.md#encapsulation)
     -   [Inheritance](../design/oop.md#inheritance)
-    -   [Objects/Classes](../design/oop.md#classes)
+    -   [Objects/Classes](../design/oop.md#objectsclasses)
     -   [Polymorphism](../design/oop.md#polymorphism)
 
 -   Strong [testing practices](../testing/README.md)
