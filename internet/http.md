@@ -6,8 +6,6 @@
 
 ### Notable Status Codes
 
-<!--lint disable table-cell-padding-->
-
 |       |                       |
 |-------|-----------------------|
 | `1--` | Informational         |
@@ -28,13 +26,9 @@
 | `503` | Service Unavailable   |
 | `504` | Gateway Timeout       |
 
-<!--lint enable table-cell-padding-->
-
-##  Verbs
+## Verbs
 
 *a.k.a Request methods", these indicate the desired action to be performed on the identified resource.
-
-<!--lint disable table-cell-padding-->
 
 |           |                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:---------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,8 +41,6 @@
 | `OPTIONS` | The `OPTIONS` method returns the HTTP methods that the server supports for the specified URL. This can be used to check the functionality of a web server by requesting `*` instead of a specific resource.                                                                                                                                                                                                                            |
 | `CONNECT` | The `CONNECT` method converts the request connection to a transparent TCP/IP tunnel, usually to facilitate SSL-encrypted communication (HTTPS) through an unencrypted HTTP proxy. See [`HTTP CONNECT` tunneling](https://en.wikipedia.org/wiki/HTTP_tunnel#HTTP_CONNECT_tunneling).                                                                                                                                                    |
 |  `PATCH`  | The `PATCH` method applies partial modifications to a resource.                                                                                                                                                                                                                                                                                                                                                                        |
-
-<!--lint enable table-cell-padding-->
 
 ### Request Message
 

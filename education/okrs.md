@@ -73,7 +73,7 @@ are highlighted.
 
 ### Checklist
 
-<!--lint disable list-item-indent table-cell-padding-->
+<!--lint disable list-item-indent-->
 
 |   |                                                                                                                                                                                                                              |
 |:-:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@ are highlighted.
 | ✓ | **[OOP](../design/oop.md):** [Encapsulation](../design/oop.md#encapsulation), [Inheritance](../design/oop.md#inheritance), [Objects/Classes](../design/oop.md#objectsclasses), [Polymorphism](../design/oop.md#polymorphism) |
 | ✓ | **[REST](../design/rest.md):** RESTful API’s, knowledgeable of common practices and concerns                                                                                                                                 |
 
-<!--lint enable list-item-indent table-cell-padding-->
+<!--lint enable list-item-indent-->
 
 ---
 
@@ -96,7 +96,7 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent table-cell-padding-->
+<!--lint disable list-item-indent-->
 
 |   |       |                                                                  |
 |:--|:-----:|------------------------------------------------------------------|
@@ -104,7 +104,7 @@ are highlighted.
 | ✓ |  Do   | Build with SOLID Design                                          |
 |   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
 
-<!--lint enable list-item-indent table-cell-padding-->
+<!--lint enable list-item-indent-->
 
 ---
 
@@ -114,7 +114,7 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent table-cell-padding-->
+<!--lint disable list-item-indent-->
 
 |   |       |                                                                  |
 |:--|:-----:|------------------------------------------------------------------|
@@ -122,7 +122,7 @@ are highlighted.
 | ✓ |  Do   | Build with DDD Design                                            |
 |   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
 
-<!--lint enable list-item-indent table-cell-padding-->
+<!--lint enable list-item-indent-->
 
 ---
 
@@ -132,7 +132,7 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent table-cell-padding-->
+<!--lint disable list-item-indent-->
 
 |   |       |                                                                                                     |
 |:--|:-----:|-----------------------------------------------------------------------------------------------------|
@@ -142,7 +142,7 @@ are highlighted.
 | ✓ |  Do   | Tweak configuration for purposes of debugging                                                       |
 |   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_                                    |
 
-<!--lint enable list-item-indent table-cell-padding-->
+<!--lint enable list-item-indent-->
 
 ---
 
@@ -152,7 +152,7 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent table-cell-padding-->
+<!--lint disable list-item-indent-->
 
 |   |       |                                           |
 |:--|:-----:|-------------------------------------------|
@@ -165,7 +165,7 @@ are highlighted.
 | ✓ |  Do   | Build Functional Tests                    |
 |   | Teach | Taught testing to another                 |
 
-<!--lint enable list-item-indent table-cell-padding-->
+<!--lint enable list-item-indent-->
 
 ---
 
@@ -175,7 +175,7 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent table-cell-padding-->
+<!--lint disable list-item-indent-->
 
 |   |       |     |
 |:--|:-----:|-----|
@@ -183,7 +183,7 @@ are highlighted.
 |   |  Do   | --- |
 |   | Teach | --- |
 
-<!--lint enable list-item-indent table-cell-padding-->
+<!--lint enable list-item-indent-->
 
 ---
 
@@ -193,7 +193,7 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent table-cell-padding-->
+<!--lint disable list-item-indent-->
 
 |   |       |                             |
 |:--|:-----:|-----------------------------|
@@ -201,7 +201,7 @@ are highlighted.
 |   |  Do   | ---                         |
 |   | Teach | Taught `_______` to another |
 
-<!--lint enable list-item-indent table-cell-padding-->
+<!--lint enable list-item-indent-->
 
 ### Candidates
 
