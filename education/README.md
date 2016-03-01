@@ -33,6 +33,22 @@ Both for further understanding, as well as in building this repository.
 
 ## OKRs
 
+### [SOLID Principles](../design/solid.md)
+
+-   Objectives: Solic, working knowledge of SOLID Principles
+
+-   Key Results:
+
+    -   Taught said principles to another.
+
+### [DDD principles](../design/ddd.md)
+
+-   Objectives: Solic, working knowledge of DDD Principles
+
+-   Key Results:
+
+    -   Taught said principles to another.
+
 ### Build & Release Processes
 
 -   Objective: Build solid working knowledge of build & release process

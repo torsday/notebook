@@ -75,6 +75,7 @@
         -   [Domain Driven Design](design/ddd.md)
         -   [Hexagonal](design/hexagonal.md)
         -   [Onion](design/onion.md)
+        -   [REST](design/rest.md)
 
     -   [Other](design/other.md)
 
