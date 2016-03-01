@@ -23,7 +23,7 @@ Both for further understanding, as well as in building this repository.
 
 -   Build and Release processes
 
--   RESTful API’s, knowledgeable of common practices and concerns
+-   [RESTful API’s](../design/rest.md), knowledgeable of common practices and concerns
 
 -   [SOLID Principles](../design/solid.md)
 
