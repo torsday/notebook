@@ -16,4 +16,6 @@
 > -   Portability
 > -   Reliability
 
-> To the extent that systems conform to the constraints of REST they can be called RESTful. RESTful systems typically, but not always, communicate over Hypertext Transfer Protocol (HTTP) with the same HTTP verbs (`GET`, `POST`, `PUT`, `DELETE`, etc.) that web browsers use to retrieve web pages and to send data to remote servers. REST systems interface with external systems as web resources identified by Uniform Resource Identifiers (URIs), for example `/people/tom`, which can be operated upon using standard verbs such as `DELETE` `/people/tom`.
+> To the extent that systems conform to the constraints of REST they can be called RESTful.
+
+> RESTful systems typically, but not always, communicate over HTTP with the same HTTP verbs (`GET`, `POST`, `PUT`, `DELETE`, etc.). REST systems interface with external systems as web resources identified by Uniform Resource Identifiers (URIs), for example `/people/tom`, which can be operated upon using standard verbs such as `DELETE` `/people/tom`.
