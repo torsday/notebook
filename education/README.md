@@ -46,14 +46,14 @@ Both for further understanding, as well as in building this repository.
 |   |           |                                                               |
 |:--|:----------|---------------------------------------------------------------|
 | ✓ | See One   | Pair with someone doing this                                  |
-| ✓ | Do One    | Build with SOLID Design                                         |
+| ✓ | Do One    | Build with SOLID Design                                       |
 |   | Teach One | Taught said principles to another (e.g. 1:1, lecture, article |
 
 <!--lint enable list-item-indent table-cell-padding-->
 
 ### [DDD principles](../design/ddd.md)
 
--   Objectives: Solic, working knowledge of DDD Principles
+-   Objectives: Solid, working knowledge of DDD Principles
 
 #### Key Results:
 
@@ -66,9 +66,6 @@ Both for further understanding, as well as in building this repository.
 |   | Teach One | Taught said principles to another (e.g. 1:1, lecture, article |
 
 <!--lint enable list-item-indent table-cell-padding-->
-
-
-
 
 ### Build & Release Processes
 
