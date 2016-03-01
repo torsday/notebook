@@ -22,23 +22,22 @@ _**See one, Do one, Teach one**_
 
 ---
 
-
 ## Overview of Personal Mileposts
 
 Both for further understanding, as well as in building this repository.
 
 <!--lint disable list-item-indent table-cell-padding-->
 
-|   |                                                                                                                                                                                                                                   |
-|:-:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   | **Build and Release processes**                                                                                                                                                                                                       |
-|   | **[DDD principles](../design/ddd.md)**                                                                                                                                                                                                |
-|   | **[Design Patterns](../design/design_patterns.md):** Gang-of-Four. Common patterns & their ideal usage.                                                                                                                              |
-|   | **[HTTP](../internet/http.md):** Sequence diagram                                                                                                                                                                                   |
-|   | **[SOLID Principles](../design/solid.md)**                                                                                                                                                                                            |
-|   | **[TESTING](../testing/README.md):** [Unit Testing](../testing/README.md#unit-testing), [Integration Testing](../testing/README.md#integration-testing), Client Testing                                              |
+|   |                                                                                                                                                                                                                              |
+|:-:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   | **Build and Release processes**                                                                                                                                                                                              |
+|   | **[DDD principles](../design/ddd.md)**                                                                                                                                                                                       |
+|   | **[Design Patterns](../design/design_patterns.md):** Gang-of-Four. Common patterns & their ideal usage.                                                                                                                      |
+|   | **[HTTP](../internet/http.md):** Sequence diagram                                                                                                                                                                            |
+|   | **[SOLID Principles](../design/solid.md)**                                                                                                                                                                                   |
+|   | **[TESTING](../testing/README.md):** [Unit Testing](../testing/README.md#unit-testing), [Integration Testing](../testing/README.md#integration-testing), Client Testing                                                      |
 | ✓ | **[OOP](../design/oop.md):** [Encapsulation](../design/oop.md#encapsulation), [Inheritance](../design/oop.md#inheritance), [Objects/Classes](../design/oop.md#objectsclasses), [Polymorphism](../design/oop.md#polymorphism) |
-| ✓ | **[REST](../design/rest.md):** RESTful API’s, knowledgeable of common practices and concerns                                                                                                                                                |
+| ✓ | **[REST](../design/rest.md):** RESTful API’s, knowledgeable of common practices and concerns                                                                                                                                 |
 
 <!--lint enable list-item-indent table-cell-padding-->
 
