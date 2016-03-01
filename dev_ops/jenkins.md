@@ -1,5 +1,9 @@
 # Jenkins
 
+An open source application written in Java.
+
+It is one of the most popular continuous integration tools used to build and test different kinds of projects.
+
 Used to automate development workflow, commonly:
 
 -   Building projects
