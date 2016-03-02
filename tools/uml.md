@@ -22,5 +22,6 @@
 
 -   [IBM: UML basics: The class diagram](http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell)
 -   [SourceMaking: UML](https://sourcemaking.com/uml)
+-   [StackOverflow: What's the best UML diagramming tool?](http://stackoverflow.com/questions/15376/whats-the-best-uml-diagramming-tool)
 -   [TraceModeler: A Quick Introduction to UML Sequence Diagrams](http://www.tracemodeler.com/articles/a_quick_introduction_to_uml_sequence_diagrams)
 -   [Wikipedia: UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
