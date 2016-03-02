@@ -164,10 +164,6 @@ See: PostgreSQL.
 
 An object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.
 
-## Private
-
-Accessible only within the class itself.
-
 ## Proc
 
 A closure or a "saved block”. Kind of like a method, but it can be used like a block and passed to methods that take blocks as parameters. & is used to convert a proc into a block.
@@ -179,10 +175,6 @@ Accessible within the class itself and subclasses.
 ## Protocol
 
 A defined language machines talk in. Doesn't matter how their brains created or listen to the thoughts, just that the language is agreed upon.
-
-## Public
-
-Accessible everywhere.
 
 ## RDN
 
