@@ -200,6 +200,10 @@ A Repository mediates between the domain and data mapping layers, acting like an
 
 A cryptosystem for public-key encryption.
 
+## SAML
+
+Security Assertion Markup Language Tokens.
+
 ## SEIT
 
 Software Engineer in Test
