@@ -4,8 +4,8 @@ An open standard ([RFC 7519](https://tools.ietf.org/html/rfc7519)) that defines 
 
 The information is digitally signed using a secret (with HMAC algorithm) or a public/private key pair using RSA.
 
--   Compact: Because of its size, it can be sent through an URL, POST parameter, or inside an HTTP header. Additionally, due to its size its transmission is fast.
--   Self-contained: The payload contains all the required information about the user, to avoid querying the database more than once.
+-   **Compact**: Because of its size, it can be sent through an URL, POST parameter, or inside an HTTP header. Additionally, due to its size its transmission is fast.
+-   **Self-contained**: The payload contains all the required information about the user, to avoid querying the database more than once.
 
 ## Uses
 
