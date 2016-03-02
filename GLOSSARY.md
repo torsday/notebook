@@ -96,6 +96,10 @@ A computer language that is broadly applicable across application domains, and l
 
 A tool which controls the generation of executables and other non-source files of a program from the program's source files.
 
+## Headless
+
+A headless browser is a web browser without a graphical user interface.
+
 ## Interface
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.

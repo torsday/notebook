@@ -49,11 +49,12 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 -   [NPM](dev_ops/npm.md)
 -   [NVM](dev_ops/nvm.md)
 -   [Okta]()
--   [PhantomJS]()
+-   [PhantomJS](): A headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG.
 -   [SAML]()
 -   [Vagrant]()
 
 ## References
 
+-   [PhantomJS](http://phantomjs.org)
 -   [Wikipedia: Comparison of continuous integration software](https://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software)
 -   [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
