@@ -1,5 +1,13 @@
 # Redux
 
+*From: [Websters](http://www.merriam-webster.com/dictionary/redux)*
+
+> *brought back; revived.*
+
+*From: [Urban Dictionary](http://www.urbandictionary.com/define.php?term=redux)*
+
+> *(n.)a person who has done too much acid, and is subsequently constantly paranoid, edgey, violent, and/or upset. convinced they're playing a transcended "game" where they are rated for their every action 24-7.*
+
 *From: [redux.js.org](http://redux.js.org/)*
 
 > Redux is a predictable state container for JavaScript apps.
