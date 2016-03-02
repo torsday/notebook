@@ -1,6 +1,5 @@
 # React
 
-
 *From: [Wikipedia]()*
 
 > React is an open-source JavaScript library providing a view for data rendered as HTML. React views are typically rendered using components that contain additional components specified as custom HTML tags. React promises programmers a model in which subcomponents cannot directly affect enclosing components ("data flows down"); efficient updating of the HTML document when data changes; and a clean separation between components on a modern single-page application.
@@ -14,6 +13,28 @@
 > 2.  HTML-like syntax embedded in Javascript (JSX). I didn't like this at first until I configured Sublime Text to highlight embedded HTML correctly. Embedded HTML has pros and cons, but I think it's a net positive.
 
 > React projects also typically include new tech like ES2015, webpack, hot code reloading, and Redux with its time-traveling debugger. You can build your own stack that uses a virtual DOM library, embedded HTML, ES2015, and so on, but it's helpful to start with a common stack that many people understand. That's why React is interesting.
+
+## Structures
+
+### Basic
+
+```sh
+- actions
+- components
+- images
+- reducers
+- services
+- utils
+- app.js
+```
+
+
+|               |                                                                                                                                                                                                                                                                                              |
+|:-------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  `/actions`   | Flux action creators                                                                                                                                                                                                                                                                         |
+| `/components` | These are all the JSX React components (the presentation layer) - so there are subfolders like "pages", "controls", etc.                                                                                                                                                                     |
+|  `/reducers`  | These are Redux reducers - they're the logic that handles all of the application state                                                                                                                                                                                                       |
+|  `/services`  | We use basic ES6 modules for services, with methods like "fetchUser(id)" which use the new JS Fetch API behind the scenes. We then have redux-thunk and redux-promise middleware so we can easily offload state manipulation to these services without actually putting state logic in them. |
 
 ## References
 
