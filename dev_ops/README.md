@@ -46,10 +46,12 @@
 -   [Docker](dev_ops/docker.md)
 -   [Gearman](dev_ops/gearman.md)
 -   [JWT](dev_ops/jwt.md)
+-   [Karma]()
 -   [Nginx]()
 -   [NPM](dev_ops/npm.md)
 -   [NVM](dev_ops/nvm.md)
 -   [Okta]()
+-   [PhantomJS]()
 -   [SAML]()
 -   [Vagrant]()
 
