@@ -11,7 +11,21 @@ Used to automate development workflow, commonly:
 -   Static code analysis
 -   Deployment
 
+## Installation
+
+You have a number of ways to go about this.
+
+-   Docker
+
+-   Homebrew
+
+    ```sh
+    brew install jenkins
+    jenkins # starts a server at localhost:8080
+    ```
+
 ## References
 
 -   [Github: jenkinsci/jenkins](https://github.com/jenkinsci/jenkins)
 -   [Jenkins-CI.org/](https://jenkins-ci.org)
+-   [TutsPlus: Introduction to Jenkins](http://code.tutsplus.com/tutorials/introduction-to-jenkins-an-open-source-continuous-integration-server--cms-23879)
