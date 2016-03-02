@@ -20,6 +20,8 @@
 
 -   **Test**: Test and results determine performance
 
+    -   [Travis CI](./travis.md): Test and Deploy.
+
 -   **Package**: Artifact repository *(a.k.a. binary repository manager)*, Application pre-deployment staging
 
     -   [Artifactory]()
