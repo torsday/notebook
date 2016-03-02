@@ -78,12 +78,47 @@ The payload is then Base64Url encoded to form the second part of the JSON Web To
 
 ### Signature
 
+To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
 
+For example if you want to use the HMAC SHA256 algorithm, the signature will be created in the following way.
 
+```js
+HMACSHA256(
+  base64UrlEncode(header) + "." +
+  base64UrlEncode(payload),
+  secret)
+```
 
+The signature is used to verify that the sender of the JWT is who it says it is and to ensure that the message was't changed in the way.
 
+### Putting all together
+
+The output is three Base64 strings separated by dots that can be easily passed in HTML and HTTP environments, while being more compact compared to XML-based standards such as SAML.
+
+The following shows a JWT that has the previous header and payload encoded, and it is signed with a secret.
+
+![color-coded text](https://cdn.auth0.com/content/jwt/encoded-jwt3.png)
+
+## How do JSON Web Tokens work?
+
+In authentication, when the user successfully logs in using his credentials, a JSON Web Token will be returned and must be saved locally (typically in local storage, but cookies can be also used), instead of the traditional approach of creating a session in the server and returning a cookie.
+
+Whenever the user wants to access a protected route or resource, it should send the JWT, typically in the Authorization header using the Bearer schema. Therefore the content of the header should look like the following.
+
+```js
+Authorization: Bearer <token>
+```
+
+This is a stateless authentication mechanism as the user state is never saved in the server memory. The server's protected routes will check for a valid JWT in the Authorization header, and if there is, the user will be allowed. As JWTs are self-contained, all the necessary information is there, reducing the need of going back and forward to the database.
+
+This allows to fully rely on data APIs that are stateless and even make requests to downstream services. It doesn't matter which domains are serving your APIs, as Cross-Origin Resource Sharing (CORS) won't be an issue as it doesn't use cookies.
+
+The following diagram shows this process:
+
+![diagram](https://cdn.auth0.com/content/jwt/jwt-diagram.png)
 
 ## References
 
--   [JWT.io](https://jwt.io)
+-   [Auth0: JWT](https://auth0.com/learn/json-web-tokens/)
+-   [JWT.io Site & Debugger](https://jwt.io)
 -   [SlideShare: JWT Authentication with AngularJS](http://www.slideshare.net/robertjd/jwt-authentication-with-angularjs)

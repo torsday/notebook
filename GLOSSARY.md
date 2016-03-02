@@ -36,6 +36,10 @@ An application-level package manager for the PHP programming language that provi
 
 The order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. The emphasis on explicit control flow distinguishes an imperative programming language from a declarative programming language.
 
+## CORS
+
+Cross-Origin Resource Sharing.
+
 ## CRUD
 
 Create. Read. Update. Destroy.
