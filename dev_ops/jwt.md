@@ -73,6 +73,7 @@ These are the custom claims created to share information between parties that ag
   "name": "John Doe",
   "admin": true
 }
+```
 
 The payload is then Base64Url encoded to form the second part of the JSON Web Token.
 
