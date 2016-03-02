@@ -94,6 +94,7 @@
     -   [Babel]()
     -   [Build & Release](./dev_ops/build_and_release.md)
     -   [Composer](./dev_ops/composer.md)
+    -   [Continuous Integration](./dev_ops/ci.md)
     -   [Docker](./dev_ops/docker.md)
     -   [Gearman](./dev_ops/gearman.md)
     -   [Grunt]()

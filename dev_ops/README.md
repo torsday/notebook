@@ -20,11 +20,13 @@
 
 -   **Test**: Test and results determine performance
 
+    -   [Jenkins](./jenkins.md)
     -   [Travis CI](./travis.md): Test and Deploy.
 
 -   **Package**: Artifact repository *(a.k.a. binary repository manager)*, Application pre-deployment staging
 
     -   [Artifactory]()
+    -   [Satis](./satis.md)
 
 -   **Release**: Change management, Release approvals, release automation
 
