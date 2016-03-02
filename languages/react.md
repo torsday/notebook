@@ -40,5 +40,6 @@
 -   [Docs](https://facebook.github.io/react/docs/getting-started.html)
 -   [GitHub](https://facebook.github.io/react)
 -   [HackerNews: Free React.js Fundamentals Course](https://news.ycombinator.com/item?id=11204481)
+-   [ReactForDesigners: React.js Introduction For People Who Know Just Enough jQuery To Get By](http://reactfordesigners.com/labs/reactjs-introduction-for-people-who-know-just-enough-jquery-to-get-by/)
 -   [ReactJSProgram: Fundamentals](http://courses.reactjsprogram.com/courses/reactjsfundamentals)
 -   <https://en.wikipedia.org/wiki/React_(JavaScript_library)>
