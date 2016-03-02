@@ -18,10 +18,10 @@
 
 -   [Domain Driven Design](./ddd.md)
 -   [Hexagonal](./hexagonal.md)
+-   [Master/Slave](./master_slave.md)
 -   [Onion](./onion.md)
 
 ## Design Patterns
-
 
 ## References
 
