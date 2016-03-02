@@ -22,6 +22,7 @@
         -   [Data Compression Algorithms]()
         -   [Dijkstra’s Algorithm](algorithms/dijkstras_algorithm.md)
         -   [Fourier Transform & Fast Fourier Transform]()
+        -   [HMAC](./algorithms/hmac.md)
         -   [Integer Factorization]()
         -   [Link Analysis]()
         -   [Proportional Integral Derivative Algorithm]()
