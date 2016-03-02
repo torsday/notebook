@@ -144,7 +144,7 @@
 
 ---
 
-## The Winner: [ldaptools][]
+## Winner: **[ldaptools][]**
 
 -   Actively developed
 -   Code itself is good (subjective)
