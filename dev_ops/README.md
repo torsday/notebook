@@ -1,8 +1,6 @@
 # DevOps
 
-*From: [Wikipedia](https://en.wikipedia.org/wiki/DevOps)*
-
-> A culture, movement or practice that emphasizes the collaboration and communication of both software developers and other information-technology (IT) professionals while automating the process of software delivery and infrastructure changes. It **aims at establishing a culture and environment where building, testing, and releasing software, can happen rapidly, frequently, and more reliably**.
+A melding of QA, Development, and Operations that **aims at establishing a culture and environment where building, testing, and releasing software, can happen rapidly, frequently, and more reliably**.
 
 ![DevOps Venn Diagram](https://upload.wikimedia.org/wikipedia/commons/b/b5/Devops.svg)
 
@@ -58,3 +56,4 @@
 ## References
 
 -   [Wikipedia: Comparison of continuous integration software](https://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software)
+-   [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
