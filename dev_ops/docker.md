@@ -87,7 +87,9 @@ docker ps -l
 
 COMMIT an image. As you work with a container and continue to perform actions on it (e.g. download and install software, configure files), to have it keep its state, commit:
 
-sudo docker commit [container ID][image name]
+```sh
+sudo docker commit [container ID] [image name]
+```
 
 ## Working with Docker Containers
 
