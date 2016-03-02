@@ -33,8 +33,8 @@ xxxxx.yyyyy.zzzzz
 
 The header typically consists of two parts:
 
-1. the type of the token, which is JWT
-2. the hashing algorithm such as HMAC SHA256 or RSA.
+1.  the type of the token, which is JWT
+2.  the hashing algorithm such as HMAC SHA256 or RSA.
 
 #### Example
 
