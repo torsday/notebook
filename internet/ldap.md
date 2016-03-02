@@ -470,6 +470,12 @@ if ($ds) {
 ?>
 ```
 
+## Security
+
+There are many security vulnerabilities among Ldap products, such as Microsoft Corp's Exchange servers. Possible vulnerable cases could be injection attacks, bad scripts, Denial of service and unauthorized privileged access, etc.
+
+So make sure we have input validation and authorized data access within Ldap. Also be careful do not leak sensitive information. The safety of these products not only rely on Ldap library itself, but also depends on the detail implementation.
+
 ## See Also
 
 -   Binary Protocol
