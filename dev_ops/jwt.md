@@ -36,7 +36,7 @@ The header typically consists of two parts:
 1. the type of the token, which is JWT
 2. the hashing algorithm such as HMAC SHA256 or RSA.
 
-For example:
+#### Example
 
 ```json
 {
@@ -49,7 +49,32 @@ Then, this JSON is Base64Url encoded to form the first part of the JWT.
 
 ### Payload
 
+The second part of the token is the payload, which contains the claims. Claims are statements about an entity (typically, the user) and additional metadata. There are three types of claims: reserved, public, and private claims.
 
+#### Reserved claims
+
+These are a set of predefined claims, which are not mandatory but recommended, thought to provide a set of useful, interoperable claims. Some of them are: iss (issuer), exp (expiration time), sub (subject), aud (audience), among others.
+
+Note: the claim names are only three characters long as JWT is meant to be compact.
+
+#### Public claims
+
+These can be defined at will by those using JWTs. But to avoid collisions they should be defined in the IANA JSON Web Token Registry or be defined as a URI that contains a collision resistant namespace.
+
+#### Private claims
+
+These are the custom claims created to share information between parties that agree on using them.
+
+#### Example
+
+```json
+{
+  "sub": "1234567890",
+  "name": "John Doe",
+  "admin": true
+}
+
+The payload is then Base64Url encoded to form the second part of the JSON Web Token.
 
 ### Signature
 
