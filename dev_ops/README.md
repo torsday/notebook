@@ -50,3 +50,7 @@
 -   [Okta]()
 -   [SAML]()
 -   [Vagrant]()
+
+## References
+
+-   [Wikipedia: Comparison of continuous integration software](https://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software)
