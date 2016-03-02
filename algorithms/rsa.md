@@ -1,4 +1,6 @@
-# RSA (cryptosystem)
+# Rivest-Shamir-Adleman (RSA) cryptosystem,
+
+A cryptosystem for public-key encryption (cryptosystem).
 
 *From: [Wikipedia]()*
 

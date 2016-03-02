@@ -200,6 +200,10 @@ The ability of a computer program to examine (see type introspection) and modify
 
 A Repository mediates between the domain and data mapping layers, acting like an in-memory domain object collection
 
+## RSA
+
+A cryptosystem for public-key encryption.
+
 ## SEIT
 
 Software Engineer in Test

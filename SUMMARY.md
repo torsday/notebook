@@ -27,8 +27,8 @@
         -   [Link Analysis]()
         -   [Proportional Integral Derivative Algorithm]()
         -   [Random Number Generation]()
-        -   [RSA Algorithm]()
-        -   [Secure Hash Algorithm]()
+        -   [RSA](./algorithms/rsa.md)
+        -   [Secure Hash]()
 
 -   [Articles](articles/README.md)
 
