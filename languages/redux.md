@@ -12,3 +12,4 @@
 ## References
 
 -   [Redux.js.org](http://redux.js.org/)
+-   [GitHub: reactjs/redux](https://github.com/reactjs/redux)
