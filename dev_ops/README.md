@@ -51,6 +51,7 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 -   [Okta]()
 -   [PhantomJS](): A headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG.
 -   [SAML]()
+-   [Selenium]()
 -   [Vagrant]()
 
 ## References
