@@ -11,10 +11,10 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 -   **Build**: Version control tools, code merging, Build status
 
     -   [Babel]()
-    -   [Gulp](dev_ops/gulp.md): A streaming build system.
+    -   [Gulp](./gulp.md): A streaming build system.
     -   [Grunt](): Automation, performing repetitive tasks like minification, compilation, unit testing and linting; a JavaScript Task Runner.
     -   [Jenkins](./jenkins.md)
-    -   [Phing](dev_ops/phing.md)
+    -   [Phing](./phing.md)
 
 -   **Test**: Test and results determine performance
 
@@ -39,15 +39,15 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 
 ## TODO: sort
 
--   [Build & Release](dev_ops/build_and_release.md)
--   [Composer](dev_ops/composer.md)
--   [Docker](dev_ops/docker.md)
--   [Gearman](dev_ops/gearman.md)
--   [JWT](dev_ops/jwt.md)
+-   [Build & Release](./build_and_release.md)
+-   [Composer](./composer.md)
+-   [Docker](./docker.md)
+-   [Gearman](./gearman.md)
+-   [JWT](./jwt.md)
 -   [Karma]()
 -   [Nginx]()
--   [NPM](dev_ops/npm.md)
--   [NVM](dev_ops/nvm.md)
+-   [NPM](./npm.md)
+-   [NVM](./nvm.md)
 -   [Okta]()
 -   [PhantomJS](): A headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG.
 -   [SAML]()
