@@ -27,7 +27,9 @@ JSON Web Tokens consist of three parts separated by dots (.), which are:
 
 Therefore, a JWT typically looks like the following.
 
+```js
 xxxxx.yyyyy.zzzzz
+```
 
 ### Header
 
