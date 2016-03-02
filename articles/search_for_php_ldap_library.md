@@ -144,7 +144,7 @@
 
 ---
 
-## My Choice: [ldaptools][]
+## The Winner: [ldaptools][]
 
 -   Actively developed.
 -   Good documentation
