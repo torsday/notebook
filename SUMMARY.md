@@ -193,7 +193,6 @@
 
     -   [Common Web Flaws](./security/common_web_./security_flaws.md)
     -   [Encryption](./security/encryption.md)
-    -   [RSA]()
     -   [SSH](./security/ssh.md)
 
 -   [Testing](./testing/README.md)
