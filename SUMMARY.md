@@ -149,6 +149,7 @@
     -   [PHP](./languages/php.md)
     -   [Rails](./languages/rails.md)
     -   [React](./languages/react.md)
+    -   [Redux](./languages/redux.md)
     -   [Ruby](./languages/ruby.md)
     -   [Scala](./languages/scala.md)
     -   [Swift](./languages/swift.md)
