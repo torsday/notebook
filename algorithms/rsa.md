@@ -12,4 +12,7 @@ A cryptosystem for public-key encryption (cryptosystem).
 
 ## References
 
+-   [YouTube: Art of the Problem: Gambling with Secrets: 8/8 (RSA Encryption)](https://www.youtube.com/watch?v=vgTtHV04xRI)
+-   [YouTube: CS50: RSA](https://www.youtube.com/watch?v=Kl9A64LJtUQ)
+-   [YouTube: Numberphile: Encryption and HUGE numbers](https://www.youtube.com/watch?v=M7kEpw1tn50)
 -   <https://en.wikipedia.org/wiki/RSA_(cryptosystem)>
