@@ -146,9 +146,10 @@
 
 ## The Winner: [ldaptools][]
 
--   Actively developed.
+-   Actively developed
+-   Code itself is good (subjective)
 -   Good documentation
--   Code itself seems good (subjective)
+-   Only one developer, but the other repos are as well if you look at the lions-share of work.
 
 [adldap2]: https://github.com/adldap2/adldap2           "AdLDAP2"
 [ldap-bundle]: https://github.com/BorisMorel/LdapBundle "LDAP Bundle"
