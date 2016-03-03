@@ -87,23 +87,26 @@ LDAP rarely defines any ordering: The server may return the values of an attribu
 
 ## Query
 
-Example Query
+```sh
+"CN=Dev-India,OU=Distribution Groups,DC=gp,DC=gl,DC=google,DC=com"
+```
 
-`"CN=Dev-India,OU=Distribution Groups,DC=gp,DC=gl,DC=google,DC=com"`
+-   These are all parts of the X.500 Directory Specification, which defines nodes in a LDAP directory.
 
-These are all parts of the X.500 Directory Specification, which defines nodes in a LDAP directory.
+-   You can also read up on LDAP data Interchange Format (LDIF), which is an alternate format.
 
-You can also read up on LDAP data Interchange Format (LDIF), which is an alternate format.
+-   You read it from right to left, the right-most component is the root of the tree, and the left most component is the node (or leaf) you want to reach.
 
-You read it from right to left, the right-most component is the root of the tree, and the left most component is the node (or leaf) you want to reach.
+-   Each `=` pair is a search criteria.
 
-Each `=` pair is a search criteria.
+-   In effect the example query is:
 
-In effect the example query is:
+    1.  From the `com` Domain Component
+    1.  find the `google` Domain Component, then inside it
+    1.  the `gl` Domain Component and then inside it
+    1.  the `gp` Domain Component
 
-From the `com` Domain Component, find the `google` Domain Component, and then inside it the `gl` Domain Component and then inside it the `gp` Domain Component.
-
-In the `gp` Domain Component, find the Organizational Unit called `Distribution Groups` and then find the the object that has a common name of `Dev-India`.
+-   In the `gp` Domain Component, find the Organizational Unit called `Distribution Groups` and then find the the object that has a common name of `Dev-India`.
 
 ## Operations
 
@@ -208,8 +211,6 @@ So, an entry with object class of `residentialPerson` must have `sn` (surname), 
 
 In most cases, you can get away with using the predefined standard object classes. If you need to construct entries with attributes not found in an existing object class, it is usually good form to locate the closest existing object class and build upon it, like `residentialPerson` builds upon person.
 
-## Setting up an LDAP Server
-
 ## LDAP Data Interchange Format *(LDIF)*
 
 A standard plain text data interchange format for representing LDAP directory CRUD requests.
@@ -217,21 +218,9 @@ A standard plain text data interchange format for representing LDAP directory CR
 1.  Conveys directory content as a set of records, one record for each object (or entry).
 1.  Represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
 
-## From the Command Line
-
-### `ldapadd`
-
-*[Man Page](http://linux.die.net/man/1/ldapadd)*
-
-### `ldapmodify`
-
-*[Man Page](http://linux.die.net/man/1/ldapmodify)*
-
-### `ldapsearch`
-
-*[Man Page](http://linux.die.net/man/1/ldapsearch)*
-
 ## Examples
+
+### LDIF
 
 Directory entry with several attributes, represented as a record.
 
@@ -405,26 +394,26 @@ So make sure we have input validation and authorized data access within Ldap. Al
 
 ## Vocabulary
 
-|                                   |                                                                                                                                                                                                                                                                    |
-|:---------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|             Attribute             | The data in an entry is contained in attribute-value pairs. Each attribute has a name and belongs to one or more `objectClass`(es).                                                                                                                                |
-|               Base                | The base/root/suffix entry describes the topmost entry in a DIT or naming-context.                                                                                                                                                                                 |
-|               bind                | The first operation when connecting to an LDAP server; then authentication step.                                                                                                                                                                                   |
-|            Common Name            | `cn` (`commonName`). One of the most commonly used attributes, widely used as the attribute to name some "thing" or real-world entity.                                                                                                                             |
-| Directory Information Tree (DIT)  | The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.                                                                                                                                         |
+|                                   |                                                                                                                                                                                                                                                                                                                  |
+|:---------------------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|             Attribute             | The data in an entry is contained in attribute-value pairs. Each attribute has a name and belongs to one or more `objectClass`(es).                                                                                                                                                                              |
+|               Base                | The base/root/suffix entry describes the topmost entry in a DIT or naming-context.                                                                                                                                                                                                                               |
+|               bind                | The first operation when connecting to an LDAP server; then authentication step.                                                                                                                                                                                                                                 |
+|            Common Name            | `cn` (`commonName`). One of the most commonly used attributes, widely used as the attribute to name some "thing" or real-world entity.                                                                                                                                                                           |
+| Directory Information Tree (DIT)  | The hierarchy of objects that make up the local directory structure. More than one DIT may be supported by an LDAP server.                                                                                                                                                                                       |
 |      Distinguished Name (DN)      | An entry's fully qualified name, unambiguously refers to an entry in the tree; neither an attribute nor a part of the entry. It's the concatenation of its `rdn` and its immediate superior's `dn`. e.g. `UID=nobody@example.com,DC=example,DC=com`, `CN=John Smith,OU=Sales,O=ACME Limited,L=Moab,ST=Utah,C=US` |
-|         Domain Component          | This refers to each component of the domain. For example `www.google.com` would be written as `DC=www,DC=google,DC=com`                                                                                                                                            |
-|   Directory System Agent (DSA)    | Any DAP or LDAP enabled directory service e.g. an LDAP server.                                                                                                                                                                                                     |
-|     DSA Specific Entry (DSE)      | A control entry in a local directory server.                                                                                                                                                                                                                       |
-|               LDIF                | LDAP Data Interchange Format. A plain text data interchange format for representing LDAP directory CRUD requests. *(see more below)*                                                                                                                               |
-|          Object Classes           | Collections of attributes. Each `objectClass` is uniquely identified by an OID                                                                                                                                                                                     |
-|      Object IDentifier (OID)      | A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition                                                                                                                                                    |
-|         Organization Unit         | a.k.a. user group. The group(s)/unit(s) that a user is part of e.g., `OU= Lawyer,OU= Judge`.                                                                                                                                                                       |
-| Relative Distinguished Name (RDN) | Attributes *unique at their level in the hierarchy*.                                                                                                                                                                                                               |
-|            search base            | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.                                                                                                                                                        |
-|           search scope            | defines how deep to search within the search base.                                                                                                                                                                                                                 |
-|             selection             | indicates what attributes to return from objects that match the filter criteria.                                                                                                                                                                                   |
-|              Subtree              | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.                                                                                                                                    |
+|         Domain Component          | This refers to each component of the domain. For example `www.google.com` would be written as `DC=www,DC=google,DC=com`                                                                                                                                                                                          |
+|   Directory System Agent (DSA)    | Any DAP or LDAP enabled directory service e.g. an LDAP server.                                                                                                                                                                                                                                                   |
+|     DSA Specific Entry (DSE)      | A control entry in a local directory server.                                                                                                                                                                                                                                                                     |
+|               LDIF                | LDAP Data Interchange Format. A plain text data interchange format for representing LDAP directory CRUD requests. *(see more below)*                                                                                                                                                                             |
+|          Object Classes           | Collections of attributes. Each `objectClass` is uniquely identified by an OID                                                                                                                                                                                                                                   |
+|      Object IDentifier (OID)      | A dot-separated valued e.g. `2.5.6.2` that uniquely defines an object and who is responsible for its definition                                                                                                                                                                                                  |
+|         Organization Unit         | a.k.a. user group. The group(s)/unit(s) that a user is part of e.g., `OU= Lawyer,OU= Judge`.                                                                                                                                                                                                                     |
+| Relative Distinguished Name (RDN) | Attributes *unique at their level in the hierarchy*.                                                                                                                                                                                                                                                             |
+|            search base            | (the DN of the search base object) defines the location in the directory from which the LDAP search begins.                                                                                                                                                                                                      |
+|           search scope            | defines how deep to search within the search base.                                                                                                                                                                                                                                                               |
+|             selection             | indicates what attributes to return from objects that match the filter criteria.                                                                                                                                                                                                                                 |
+|              Subtree              | indicates a search of the base object and the entire subtree of which the base object distinguished name is the topmost object.                                                                                                                                                                                  |
 
 ---
 
@@ -444,6 +433,9 @@ So make sure we have input validation and authorized data access within Ldap. Al
 -   [LDAP Guru: LDAP Programming Practices](https://web.archive.org/web/20130713161416/http://www.ldapguru.info/ldap/ldap-programming-practices.html)
 -   [LDAP Guru: Mastering LDAP Search Filters](http://web.archive.org/web/20130908232331/http://www.ldapguru.info/ldap/mastering-ldap-search-filters.html)
 -   [Linux.com: Managing LDAP from the Command Line on Linux](http://www.linux.com/learn/tutorials/376144-manage-ldap-from-the-command-line)
+-   [Man Page: `ldapadd`](http://linux.die.net/man/1/ldapadd)
+-   [Man Page: `ldapmodify`](http://linux.die.net/man/1/ldapmodify)
+-   [Man Page: `ldapsearch`](http://linux.die.net/man/1/ldapsearch)
 -   [Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/aa367008)
 -   [O'Reilly: LDAP Tutorial][oreilly-tutorial]
 -   [OpenLDAP Series][efytimes_openldap_series]
