@@ -150,7 +150,7 @@
     -   [Rails](./languages/rails.md)
     -   [React](./languages/react.md)
     -   [Redux](./languages/redux.md)
-    -   [Ruby](./languages/ruby.md)
+    -   [Ruby](./languages/ruby/README.md)
     -   [Scala](./languages/scala.md)
     -   [Swift](./languages/swift.md)
     -   [Symfony]()
@@ -213,13 +213,21 @@
 
 -   [Tools](./tools/README.md)
 
-    -   [Git](./tools/git.md)
-    -   [Git-flow](./tools/git_flow.md)
+    -   [Git](./tools/git/README.md)
+
+        -   [Git-flow](./tools/git/git_flow.md)
+
     -   [Homebrew](./tools/homebrew.md)
+
     -   [Linting]()
+
     -   [Linux](./tools/linux.md)
+
     -   [PSR Fixer](./tools/psr-fixer.md)
+
     -   [UML](./tools/uml.md)
+
     -   [Vim](./tools/vim.md)
+
 
 -   [References](references.md)
