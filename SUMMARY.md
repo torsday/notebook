@@ -138,23 +138,42 @@
 -   [Languages, Libraries, Frameworks, et. al.](./languages/README.md)
 
     -   [C](./languages/c.md)
+
     -   [CoffeeScript](./languages/coffeescript.md)
+
     -   [Javascript](./languages/javascript.md)
+
     -   [Laravel]()
+
     -   [Lo-Dash]()
+
     -   [Markdown](./languages/markdown.md)
+
     -   [Node]()
+
     -   [Objective-C](./languages/objective-c.md)
+
     -   [PHP the Right Way](./languages/php-the-right-way.md)
+
     -   [PHP](./languages/php.md)
-    -   [Rails](./languages/ruby/rails.md)
+
     -   [React](./languages/react.md)
+
     -   [Redux](./languages/redux.md)
+
     -   [Ruby](./languages/ruby/README.md)
+
+        -   [Bundler](./languages/ruby/bundler.md)
+        -   [Rails](./languages/ruby/rails.md)
+
     -   [Scala](./languages/scala.md)
+
     -   [Swift](./languages/swift.md)
+
     -   [Symfony]()
+
     -   [Zend Frameworks]()
+
 
 -   [Lifestyle](./lifestyle/README.md)
 
