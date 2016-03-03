@@ -2,18 +2,26 @@
 
 ```sh
 git flow init
+```
 
+```sh
 git flow feature start MYFEATURE
 git flow feature finish MYFEATURE
 git flow feature publish MYFEATURE
 git flow feature pull origin MYFEATURE
+```
 
+```sh
 git flow release start RELEASE
-git flow release publish RELgEASE
+git flow release publish RELEASE
 git flow release finish RELEASE
+```
 
+```sh
 git push --tags
+```
 
+```sh
 git flow hotfix start VERSION
 git flow hotfix finish VERSION
 ```
