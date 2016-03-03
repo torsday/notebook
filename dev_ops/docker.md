@@ -6,7 +6,7 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ## [Docker Machine](https://docs.docker.com/machine)
 
-*NOTE: Docker Machine deprecates Boot2Docker*
+*NOTE: [Docker Machine](https://docs.docker.com/machine) deprecates Boot2Docker*
 
 ---
 
@@ -60,7 +60,7 @@ Private or public stores for docker images. [Docker Hub][docker-hub] is a public
 
 BUILDING an image from a dockerfile:
 
-```bash
+```sh
 docker build -t [name for image] [directory where Dockerfile lives]
 ```
 
@@ -74,26 +74,26 @@ This generates a docker image. You create the container from the image with:
 
 ### SEARCH for images.
 
-```bash
+```sh
 docker search [image_name]
 docker pull [image_name]
 ```
 
 ### LIST all images on your system:
 
-```bash
+```sh
 docker images
 ```
 
 ### List all containers current running:
 
-```bash
+```sh
 docker ps
 ```
 
 ### List both running and non-running containers:
 
-```bash
+```sh
 docker ps -l
 ```
 
@@ -111,42 +111,42 @@ sudo docker commit [container ID] [image name]
 
 Either from an existing image or creating a new one:
 
-```bash
+```sh
 docker run [image name] [command to run]
 docker run my_image echo 'hello'
 ```
 
 ### RUNNING a container:
 
-```bash
+```sh
 docker run [container id]
 ```
 
-```bash
+```sh
 docker run [image name] [command to run]
 ```
 
 ### Start an interactive shell within your container:
 
-```bash
-docker run -it [image name] /bin/bash
+```sh
+docker run -it [image name] /bin/sh
 ```
 
 ### Forward a port on the host to a port on the container:
 
-```bash
+```sh
 docker run --publish 3000:3000 [image name] [command to run]
 ```
 
 ### STOPPING a container:
 
-```bash
+```sh
 docker stop [container id]
 ```
 
 ### DELETING a container:
 
-```bash
+```sh
 docker rm [container id]
 ```
 
@@ -154,7 +154,7 @@ docker rm [container id]
 
 i.e. your console will run commands within the container itself
 
-```bash
+```sh
 docker attach [container id]
 ```
 
