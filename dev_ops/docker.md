@@ -56,7 +56,11 @@ Private or public stores for docker images. [Docker Hub][docker-hub] is a public
 
 ---
 
-## Working with a Dockerfile
+## Commands
+
+![](https://docs.docker.com/tutimg/container_explainer.png)
+
+### Working with a Dockerfile
 
 ```sh
 docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
@@ -66,9 +70,7 @@ You create the container from the image with: TODO
 
 ---
 
-## Working with Docker Images
-
-![](https://docs.docker.com/tutimg/container_explainer.png)
+### Working with Docker Images
 
 ```sh
 # SEARCH for images
@@ -81,7 +83,7 @@ docker ps -l # List both running and non-running containers
 sudo docker commit [container ID] [image name] # COMMIT an image
 ```
 
-## Working with Docker Containers
+### Working with Docker Containers
 
 ```sh
 # CREATE a new container, either from an existing image or creating a new one:
