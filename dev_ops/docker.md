@@ -44,7 +44,7 @@ A Linux Container, (sort of) like a directory, it holds everything needed for an
 
 ### IMAGE:
 
-read-only template for a docker container.
+Read-only template for a docker container.
 
 -   Uses a union file system (UFS) to 'layer' file system branches on top of each other. Every time a change is made to a Docker image, a new layer is created.
 -   Docker images are built from a set a steps called instructions. These instructions can be built either by executing commands manually or automatically through Dockerfiles.
@@ -52,9 +52,7 @@ read-only template for a docker container.
 
 ### REGISTRY:
 
-private or public stores for docker images. [Docker Hub](https://hub.docker.com) is a public registry.
-
--   There are a bunch of free docker images for common services! <https://registry.hub.docker.com>
+Private or public stores for docker images. [Docker Hub](https://hub.docker.com) is a public registry.
 
 ---
 
@@ -74,32 +72,34 @@ This generates a docker image. You create the container from the image with:
 
 ![](https://docs.docker.com/tutimg/container_explainer.png)
 
-SEARCH for images. There are many freely available images shared across the docker image index:
+### SEARCH for images.
 
 ```bash
 docker search [image_name]
 docker pull [image_name]
 ```
 
-LIST all images on your system:
+### LIST all images on your system:
 
 ```bash
 docker images
 ```
 
-List all containers current running:
+### List all containers current running:
 
 ```bash
 docker ps
 ```
 
-List both running and non-running containers:
+### List both running and non-running containers:
 
 ```bash
 docker ps -l
 ```
 
-COMMIT an image. As you work with a container and continue to perform actions on it (e.g. download and install software, configure files), to have it keep its state, commit:
+### COMMIT an image
+
+As you work with a container and continue to perform actions on it (e.g. download and install software, configure files), to have it keep its state, commit:
 
 ```sh
 sudo docker commit [container ID] [image name]
@@ -107,7 +107,9 @@ sudo docker commit [container ID] [image name]
 
 ## Working with Docker Containers
 
-CREATE a new container (either from an existing image or creating a new one):
+### CREATE a new container
+
+Either from an existing image or creating a new one:
 
 ```bash
 docker run [image name] [command to run]
@@ -124,13 +126,13 @@ docker run [container id]
 docker run [image name] [command to run]
 ```
 
-If you want to start an interactive shell within your container:
+### Start an interactive shell within your container:
 
 ```bash
 docker run -it [image name] /bin/bash
 ```
 
-If you want to forward a port on the host to a port on the container:
+### Forward a port on the host to a port on the container:
 
 ```bash
 docker run --publish 3000:3000 [image name] [command to run]
@@ -156,7 +158,9 @@ i.e. your console will run commands within the container itself
 docker attach [container id]
 ```
 
-To 'detach' the current container, type ^+P followed by ^+Q
+### Detaching the current container
+
+type ^+P followed by ^+Q
 
 ## References
 
