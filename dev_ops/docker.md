@@ -162,6 +162,8 @@ docker attach [container id]
 
 type ^+P followed by ^+Q
 
+---
+
 ## References
 
 -   [Deploy Rails Application using Docker](http://steveltn.me/blog/2014/03/15/deploy-rails-applications-using-docker)
