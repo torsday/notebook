@@ -51,7 +51,6 @@
 
         -   > This component is currently marked as internal, as it still needs some work. **Breaking changes will be introduced in the next minor version** of Symfony.
 
-
 1.  The Shortlist:
 
     1.  [adldap2][]
