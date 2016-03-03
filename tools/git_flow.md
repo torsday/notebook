@@ -12,7 +12,7 @@ git flow release start RELEASE
 git flow release publish RELgEASE
 git flow release finish RELEASE
 
-withgit push --tags
+git push --tags
 
 git flow hotfix start VERSION
 git flow hotfix finish VERSION
