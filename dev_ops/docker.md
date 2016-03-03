@@ -159,3 +159,5 @@ To 'detach' the current container, type ^+P followed by ^+Q
 -   [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
 -   [hub.docker.com](https://hub.docker.com)
 -   [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)
+
+[toolbox]: "https://www.docker.com/products/docker-toolbox"
