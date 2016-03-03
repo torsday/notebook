@@ -36,19 +36,19 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 ---
 
-## Operations of a client request
+## Client Operations
 
-| Operation        | Description                                                                     |
-|------------------|---------------------------------------------------------------------------------|
-| Abandon          | Abort a previous request                                                        |
-| Add              |                                                                                 |
-| Bind             | Authenticate and specify LDAP protocol version                                  |
-| Search & Compare |                                                                                 |
-| Delete           |                                                                                 |
-| Modify           |                                                                                 |
-| Modify DN        | Move or rename an entry                                                         |
-| StartTLS         | Use the LDAPv3 Transport Layer Security (TLS) extension for a secure connection |
-| Unbind           | Close the connection (not the inverse of Bind)                                  |
+| Operation        | Description                                             |
+|------------------|---------------------------------------------------------|
+| Abandon          | Abort a previous request by a message ID                |
+| Add              | Inserts a new entry                                     |
+| Bind             | Authenticate and specify LDAP protocol version          |
+| Search & Compare | Used to both search for and read entries                |
+| Delete           | Delete an entry                                         |
+| Modify           | Modify an entry                                         |
+| Modify DN        | Renaming of entire directory subtrees                   |
+| StartTLS         | Use the LDAPv3 TLS extension for a secure connection    |
+| Unbind           | Abandons outstanding operations & closes the connection |
 
 ---
 
