@@ -26,6 +26,12 @@ Show what has been done.
     -   Stakeholders
     -   Team
 
+### Sprint Retro
+
+-   Those Present
+
+    -   Team
+
 -   Topics
 
     1.  Things we liked.
