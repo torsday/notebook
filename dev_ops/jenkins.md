@@ -52,6 +52,10 @@ You have a number of ways to go about this.
     jenkins # starts a server at localhost:8080
     ```
 
+## Process
+
+1. push code to source control
+
 ## References
 
 -   [Github: jenkinsci/jenkins](https://github.com/jenkinsci/jenkins)
