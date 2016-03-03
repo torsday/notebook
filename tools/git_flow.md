@@ -9,7 +9,7 @@ git flow feature publish MYFEATURE
 git flow feature pull origin MYFEATURE
 
 git flow release start RELEASE
-git flow release publish RELEASE
+git flow release publish RELgEASE
 git flow release finish RELEASE
 
 withgit push --tags

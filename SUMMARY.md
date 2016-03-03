@@ -215,6 +215,7 @@
 
     -   [Atom]()
     -   [Git](./tools/git.md)
+    -   [Git-flow](./tools/git_flow.md)
     -   [Homebrew](./tools/homebrew.md)
     -   [Linting]()
     -   [Linux](./tools/linux.md)
