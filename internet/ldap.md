@@ -219,6 +219,8 @@ So, an entry with object class of `residentialPerson` must have `sn` (surname), 
 
 In most cases, you can get away with using the predefined standard object classes. If you need to construct entries with attributes not found in an existing object class, it is usually good form to locate the closest existing object class and build upon it, like `residentialPerson` builds upon person.
 
+---
+
 ## LDAP Data Interchange Format *(LDIF)*
 
 A standard plain text data interchange format for representing LDAP directory CRUD requests.
@@ -226,11 +228,7 @@ A standard plain text data interchange format for representing LDAP directory CR
 1.  Conveys directory content as a set of records, one record for each object (or entry).
 1.  Represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
 
----
-
-## Examples
-
-### LDIF
+### Examples
 
 Directory entry with several attributes, represented as a record.
 
@@ -282,6 +280,10 @@ changetype: modify
 add: telephonenumber
 telephonenumber: +1 415 555 0002
 ```
+
+---
+
+## Examples
 
 ### Ruby
 
