@@ -1,5 +1,9 @@
 # Containerization
 
+## Containers vs VMs
+
+![](http://zdnet4.cbsistatic.com/hub/i/r/2014/10/02/1f130129-49e2-11e4-b6a0-d4ae52e95e57/resize/770xauto/2598bf8706f23f291a520c42165e6b1f/docker-vm-container.png)
+
 ---
 
 ## References

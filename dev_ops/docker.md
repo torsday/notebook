@@ -8,12 +8,16 @@ The Docker Engine uses Linux-specific kernel features, so to run it on OS X we n
 
 ## Docker Tools
 
-|Daemon | used to manage local docker containers.
-|CLI | used to command and communicate with the docker daemon.
-|Image Index | a repository (public or private) for docker images.
-|[Toolbox](https://www.docker.com/products/docker-toolbox) | an installer to quickly and easily install and setup a Docker environment on your computer.
+|                                                           |                                                                                             |
+|-----------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| Daemon                                                    | used to manage local docker containers.                                                     |
+| CLI                                                       | used to command and communicate with the docker daemon.                                     |
+| Image Index                                               | a repository (public or private) for docker images.                                         |
+| [Toolbox][toolbox] | an installer to quickly and easily install and setup a Docker environment on your computer. |
 
 ## Docker Elements
+
+![](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
 
 ### CONTAINER:
 
@@ -45,6 +49,8 @@ read-only template for a docker container.
 private or public stores for docker images. Docker Hub is a public registry.
 
 -   There are a bunch of free docker images for common services! <https://registry.hub.docker.com>
+
+---
 
 ## Working with a Dockerfile
 
