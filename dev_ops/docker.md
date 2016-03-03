@@ -4,11 +4,9 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ---
 
-## Boot2docker
+## [Docker Machine](https://docs.docker.com/machine)
 
-The Docker Engine uses Linux-specific kernel features, so to run it on OS X we need to use a lightweight virtual machine. To make this process easier, there is a helper application called [Boot2Docker](http://boot2docker.io/) that installs the virtual machine and runs the Docker daemon: <https://docs.docker.com/installation/mac>
-
-![](http://www.warski.org/blog/wp-content/uploads/2014/05/Docker-stack2.png)
+*NOTE: Docker Machine deprecates Boot2Docker*
 
 ---
 
