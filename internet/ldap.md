@@ -60,7 +60,7 @@ The protocol provides an interface with directories that follow the 1993 edition
 -   An attribute has a name (an attribute type or attribute description) and one or more values. The attributes are defined in a schema (see below).
 -   Each entry has a unique identifier: its Distinguished Name (`DN`). This consists of its Relative Distinguished Name (`RDN`), constructed from some attribute(s) in the entry, followed by the parent entry's `DN`. Think of the `DN` as the full file path and the RDN as its relative filename in its parent folder (e.g. if /foo/bar/myfile.txt were the `DN`, then `myfile.txt` would be the `RDN`).
 
-A DN may change over the lifetime of the entry, for instance, when entries are moved within a tree. To reliably and unambiguously identify entries, a `UUID` might be provided in the set of the entry's operational attributes.
+Note: Because a `DN` may change over the lifetime of the entry, for instance, when entries are moved within a tree. To reliably and unambiguously identify entries, a `UUID` might be provided in the set of the entry's operational attributes.
 
 ### LDIF
 
@@ -78,8 +78,6 @@ objectClass: organizationalPerson
 objectClass: person
 objectClass: top
 ```
-
--   `dn` is
 
 -   `cn=John Doe` is the entry's RDN (Relative Distinguished Name)
 
