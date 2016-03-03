@@ -19,4 +19,15 @@ The intent is to ensure that the backlog remains populated with items that are r
 
 ### Sprint Review
 
--   **Purpose:**
+Show what has been done.
+
+-   Those Present
+
+    -   Stakeholders
+    -   Team
+
+-   Topics
+
+    1.  Things we liked.
+    1.  Things we didn't like.
+    1.  Things we can do better.
