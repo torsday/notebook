@@ -30,7 +30,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
     -   If successful, the server **sets the authorization state of the connection to the state associated with the distinguished-name in the `BIND` request**.
     -   LDAPv3 allows a connection to change states any number of times, with the caveat that no requests be outstanding when the `BIND` request is received.
 
-1.  The client then sends an operation request to the server, and the server sends responses in return.
+1.  The client can now send operations and receive server responses.
 
     -   With some exceptions, the client does not need to wait for a response before sending the next request, and the server may send the responses in any order.
 
