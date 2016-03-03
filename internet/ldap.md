@@ -17,6 +17,8 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 -   Centralize and make available all sorts of infrastructure information.
 -   Industry standard for directory access.
 
+---
+
 ## Timeline
 
 1.  A client starts an LDAP session by connecting to an LDAP server, called a Directory System Agent (DSA).
@@ -38,6 +40,8 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 -   Abandon — abort a previous request
 -   Extended Operation — generic operation used to define other operations
 -   Unbind — close the connection (not the inverse of Bind)
+
+---
 
 ## Directory Structure
 
@@ -83,6 +87,8 @@ A server holds a subtree starting from a specific entry, e.g. `dc=example,dc=com
 
 LDAP rarely defines any ordering: The server may return the values of an attribute, the attributes in an entry, and the entries found by a search operation in any order. This follows from the formal definitions - an entry is defined as a set of attributes, and an attribute is a set of values, and sets need not be ordered.
 
+---
+
 ## Query
 
 ```sh
@@ -105,6 +111,8 @@ LDAP rarely defines any ordering: The server may return the values of an attribu
     1.  the `gp` Domain Component
 
 -   In the `gp` Domain Component, find the Organizational Unit called `Distribution Groups` and then find the the object that has a common name of `Dev-India`.
+
+---
 
 ## Operations
 
@@ -163,6 +171,8 @@ employeeNumber: 5
 
 ### Abandon
 
+---
+
 ## Schema
 
 A way to describe the format and attributes of data in the server. For example: a schema entered in an LDAP server might define a `groovyPerson` entry type, which has attributes of `instantMessageAddress`, and `coffeeRoastPreference`. The normal attributes of `name`, `email` `address`, etc., would be inherited from one of the standard schemas, which are rooted in X.500.
@@ -215,6 +225,8 @@ A standard plain text data interchange format for representing LDAP directory CR
 
 1.  Conveys directory content as a set of records, one record for each object (or entry).
 1.  Represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
+
+---
 
 ## Examples
 
@@ -367,6 +379,8 @@ if ($ds) {
 }
 ?>
 ```
+
+---
 
 ## Security
 
