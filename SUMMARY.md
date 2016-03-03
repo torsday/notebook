@@ -216,6 +216,7 @@
     -   [Git](./tools/git/README.md)
 
         -   [Git-flow](./tools/git/git_flow.md)
+        -   [Tags](./tools/git/tags.md)
 
     -   [Homebrew](./tools/homebrew.md)
 

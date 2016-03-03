@@ -118,7 +118,6 @@ alias gpk='git count-objects -vH && echo "" && git repack -a -d -f --depth=250 -
 > Date: Wed, 5 Dec 2007 22:09:12 -0800 (PST)
 > Subject: Re: Git and GCC
 
-
 > On Thu, 6 Dec 2007, Daniel Berlin wrote:
 > \>
 > \> Actually, it turns out that git-gc --aggressive does this dumb thing
@@ -179,9 +178,9 @@ alias gpk='git count-objects -vH && echo "" && git repack -a -d -f --depth=250 -
         4.  **Tag objects**: point to a commit object with some extra metadata.
         5.  **References**: pointers to any other object (usually commit or tag objects).
 
-    -  `.git/objects` contains all the objects, and `.git/refs` contains all the references.
+    -   `.git/objects` contains all the objects, and `.git/refs` contains all the references.
 
-    -  Git represents your project directory as a tree object, with files as blobs and directories as trees.
+    -   Git represents your project directory as a tree object, with files as blobs and directories as trees.
 
     -   A commit is just a pointer to a tree object that represents the state of your project at commit time.
 
