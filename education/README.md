@@ -18,6 +18,7 @@
 
 ### Misc
 
+-   [Bradfield Institute, "Practical Algorithms and Data Structures"](http://bradfield.institute/algos/)
 -   [exercism.io](http://exercism.io)
--   [Ruby Koans](http://rubykoans.com)
 -   [John Olmsted's Notes](https://github.com/qsymmachus/notes)
+-   [Ruby Koans](http://rubykoans.com)
