@@ -64,7 +64,7 @@
 
 ## TODO
 
--   [Bundler](./bundler.md)
+-   [Bundler](./ruby/bundler.md)
 
 ## Good to Know
 

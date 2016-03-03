@@ -147,7 +147,7 @@
     -   [Objective-C](./languages/objective-c.md)
     -   [PHP the Right Way](./languages/php-the-right-way.md)
     -   [PHP](./languages/php.md)
-    -   [Rails](./languages/rails.md)
+    -   [Rails](./languages/ruby/rails.md)
     -   [React](./languages/react.md)
     -   [Redux](./languages/redux.md)
     -   [Ruby](./languages/ruby/README.md)
