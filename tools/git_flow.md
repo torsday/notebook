@@ -22,4 +22,6 @@ git flow hotfix finish VERSION
 
 ## References
 
--   [Git-flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/)
+-   [Git-flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet)
+-   [GitFlow considered harmful](http://endoflineblog.com/gitflow-considered-harmful)
+-   [Using git-flow to automate your git branching workflow](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow)
