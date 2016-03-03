@@ -69,5 +69,4 @@ end
 ## References
 
 -   [Better Specs](http://betterspecs.org)
--   [Gem: Better Specs](https://github.com/lelylan/betterspecs)
 -   [Wikipedia: Rspec](https://en.wikipedia.org/wiki/RSpec)
