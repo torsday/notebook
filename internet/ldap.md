@@ -17,9 +17,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 -   Centralize and make available all sorts of infrastructure information.
 -   Industry standard for directory access.
 
-## Overview
-
-### Timeline
+## Timeline
 
 1.  A client starts an LDAP session by connecting to an LDAP server, called a Directory System Agent (DSA).
 
@@ -27,7 +25,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
     -   With some exceptions, the client does not need to wait for a response before sending the next request, and the server may send the responses in any order.
 
-#### The client may request the following operations:
+### The client may request the following operations:
 
 -   StartTLS — use the LDAPv3 Transport Layer Security (TLS) extension for a secure connection
 -   Bind — authenticate and specify LDAP protocol version
@@ -41,7 +39,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 -   Extended Operation — generic operation used to define other operations
 -   Unbind — close the connection (not the inverse of Bind)
 
-### Directory Structure
+## Directory Structure
 
 The protocol provides an interface with directories that follow the 1993 edition of the X.500 model:
 
@@ -51,7 +49,7 @@ The protocol provides an interface with directories that follow the 1993 edition
 
 A DN may change over the lifetime of the entry, for instance, when entries are moved within a tree. To reliably and unambiguously identify entries, a UUID might be provided in the set of the entry's operational attributes.
 
-#### Example of an entry when represented using LDIF
+### LDIF
 
 ```ruby
 dn: cn=John Doe,dc=example,dc=com
