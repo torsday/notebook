@@ -34,19 +34,21 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
     -   With some exceptions, the client does not need to wait for a response before sending the next request, and the server may send the responses in any order.
 
-### Operations of a client request
+---
 
--   StartTLS — use the LDAPv3 Transport Layer Security (TLS) extension for a secure connection
--   Bind — authenticate and specify LDAP protocol version
--   Search — search for and/or retrieve directory entries
--   Compare — test if a named entry contains a given attribute value
--   Add a new entry
--   Delete an entry
--   Modify an entry
--   Modify Distinguished Name (DN) — move or rename an entry
--   Abandon — abort a previous request
--   Extended Operation — generic operation used to define other operations
--   Unbind — close the connection (not the inverse of Bind)
+## Operations of a client request
+
+| Operation        | Description                                                                     |
+|------------------|---------------------------------------------------------------------------------|
+| Abandon          | Abort a previous request                                                        |
+| Add              |                                                                                 |
+| Bind             | Authenticate and specify LDAP protocol version                                  |
+| Search & Compare |                                                                                 |
+| Delete           |                                                                                 |
+| Modify           |                                                                                 |
+| Modify DN        | Move or rename an entry                                                         |
+| StartTLS         | Use the LDAPv3 Transport Layer Security (TLS) extension for a secure connection |
+| Unbind           | Close the connection (not the inverse of Bind)                                  |
 
 ---
 
