@@ -79,16 +79,9 @@ objectClass: person
 objectClass: top
 ```
 
--   `cn=John Doe` is the entry's RDN (Relative Distinguished Name)
-
--   `dc=example,dc=com` is the DN of the parent entry, where `dc` denotes 'Domain Component'.
-
--   The other lines show the attributes in the entry. Attribute names are typically mnemonic strings, like
-
-    -   `cn` for common name
-    -   `dc` for domain component
-    -   `mail` for e-mail address
-    -   `sn` for surname
+-   `cn=John Doe` is the entry's `RDN`
+-   `dc=example,dc=com` is the DN of the parent entry.
+-   The other lines show the attributes in the entry.
 
 A server holds a subtree starting from a specific entry, e.g. `dc=example,dc=com` and its children. Servers may also hold references to other servers, so an attempt to access `ou=department,dc=example,dc=com` could return a referral or continuation reference to a server that holds that part of the directory tree. The client can then contact the other server. Some servers also support chaining, which means the server contacts the other server and returns the results to the client.
 
