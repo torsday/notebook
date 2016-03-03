@@ -107,60 +107,23 @@ sudo docker commit [container ID] [image name]
 
 ## Working with Docker Containers
 
-### CREATE a new container
-
-Either from an existing image or creating a new one:
-
 ```sh
+# CREATE a new container, either from an existing image or creating a new one:
 docker run [image name] [command to run]
 docker run my_image echo 'hello'
-```
 
-### RUNNING a container:
-
-```sh
+# RUNNING a container
 docker run [container id]
-```
-
-```sh
 docker run [image name] [command to run]
+
+docker run -it [image name] /bin/sh # Start an interactive shell within your container
+docker run --publish 3000:3000 [image name] [command to run] # Forward a port on the host to a port on the container
+docker stop [container id] # STOPPING a container
+docker rm [container id] # DELETING a container
+docker attach [container id] # ATTACHING yourself to a container; your console will run commands within the container itself
 ```
 
-### Start an interactive shell within your container:
-
-```sh
-docker run -it [image name] /bin/sh
-```
-
-### Forward a port on the host to a port on the container:
-
-```sh
-docker run --publish 3000:3000 [image name] [command to run]
-```
-
-### STOPPING a container:
-
-```sh
-docker stop [container id]
-```
-
-### DELETING a container:
-
-```sh
-docker rm [container id]
-```
-
-### ATTACHING yourself to a container
-
-i.e. your console will run commands within the container itself
-
-```sh
-docker attach [container id]
-```
-
-### Detaching the current container
-
-type ^+P followed by ^+Q
+Detaching the current container: type ^+P followed by ^+Q
 
 ---
 
