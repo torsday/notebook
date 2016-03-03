@@ -213,7 +213,6 @@
 
 -   [Tools](./tools/README.md)
 
-    -   [Atom]()
     -   [Git](./tools/git.md)
     -   [Git-flow](./tools/git_flow.md)
     -   [Homebrew](./tools/homebrew.md)
