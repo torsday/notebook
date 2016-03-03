@@ -25,7 +25,7 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ![](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
 
-### CONTAINER:
+### Container
 
 A Linux Container, (sort of) like a directory, it holds everything needed for an app to run.
 
@@ -42,17 +42,13 @@ A Linux Container, (sort of) like a directory, it holds everything needed for an
 
 -   NB: docker depends on a single process to run. When that process stops, the container stops.
 
-### IMAGE:
+### Image
 
 Read-only template for a docker container.
 
 -   Uses a union file system (UFS) to 'layer' file system branches on top of each other. Every time a change is made to a Docker image, a new layer is created.
 -   Docker images are built from a set a steps called instructions. These instructions can be built either by executing commands manually or automatically through Dockerfiles.
 -   As more layers (tools, applications, etc.) are added on top of the base, new images can be formed by committing these changes – like a version control system!
-
-### REGISTRY:
-
-Private or public stores for docker images. [Docker Hub][docker-hub] is a public registry.
 
 ---
 
