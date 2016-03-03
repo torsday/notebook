@@ -30,7 +30,7 @@ end
 
 ---
 
-## Bites of Knowledge
+## Bits of Knowledge
 
 ### Disable a tree of specs
 
