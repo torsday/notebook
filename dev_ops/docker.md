@@ -33,10 +33,10 @@ A Linux Container, (sort of) like a directory, it holds everything needed for an
 
 -   Docker containers allow:
 
-    -   Application portability,
-    -   Isolating processes,
-    -   Preventing access beyond the container's own filesystem,
-    -   All while being more much lightweight than a virtual machine.
+    -   Application portability
+    -   Process isolation
+    -   Preventing access beyond the container's own filesystem
+    -   Lightweight, esp. relative to VMs
 
 -   When everything is self-contained and the risk of system-level changes are eliminated, the container becomes immune to external exposures which could put it out of order (i.e. 'dependency hell').
 
@@ -99,7 +99,7 @@ docker rm [container id] # DELETING a container
 docker attach [container id] # ATTACHING yourself to a container; your console will run commands within the container itself
 ```
 
-Detaching the current container: type ^+P followed by ^+Q
+Detach the current container: type ^+P followed by ^+Q
 
 ---
 
