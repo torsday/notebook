@@ -53,7 +53,7 @@ context 'login as user' do
 end
 ```
 
-## See Also
+## Relevant Gems
 
 -   [Factory Girl](https://github.com/thoughtbot/factory_girl)
 
