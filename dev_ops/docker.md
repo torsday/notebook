@@ -8,12 +8,12 @@ The Docker Engine uses Linux-specific kernel features, so to run it on OS X we n
 
 ## Docker Tools
 
-|                                                           |                                                                                             |
-|-----------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| Daemon                                                    | used to manage local docker containers.                                                     |
-| CLI                                                       | used to command and communicate with the docker daemon.                                     |
-| Image Index                                               | a repository (public or private) for docker images.                                         |
-| [Toolbox][toolbox] | an installer to quickly and easily install and setup a Docker environment on your computer. |
+|                    |                                                              |
+|--------------------|--------------------------------------------------------------|
+| Daemon             | used to manage local docker containers.                      |
+| CLI                | used to command and communicate with the docker daemon.      |
+| Image Index        | a repository (public or private) for docker images.          |
+| [Toolbox][toolbox] | an installer to setup a Docker environment on your computer. |
 
 ## Docker Elements
 
