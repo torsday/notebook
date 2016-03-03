@@ -10,12 +10,14 @@ git flow init
 git flow feature start MYFEATURE
 git flow feature finish MYFEATURE
 git flow feature publish MYFEATURE
+git flow feature track MYFEATURE
 git flow feature pull origin MYFEATURE
 ```
 
 ```sh
 git flow release start RELEASE
 git flow release publish RELEASE
+git flow release track MYFEATURE
 git flow release finish RELEASE
 ```
 
