@@ -2,18 +2,16 @@
 
 A tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic.
 
-[docs](https://docs.docker.com)
-
 ## Boot2docker
 
 The Docker Engine uses Linux-specific kernel features, so to run it on OS X we need to use a lightweight virtual machine. To make this process easier, there is a helper application called Boot2Docker that installs the virtual machine and runs the Docker daemon: <https://docs.docker.com/installation/mac>
 
 ## Docker Tools
 
--   Daemon: used to manage local docker containers.
--   CLI: used to command and communicate with the docker daemon.
--   Image Index: a repository (public or private) for docker images.
--   [Toolbox](https://www.docker.com/products/docker-toolbox): an installer to quickly and easily install and setup a Docker environment on your computer.
+|Daemon | used to manage local docker containers.
+|CLI | used to command and communicate with the docker daemon.
+|Image Index | a repository (public or private) for docker images.
+|[Toolbox](https://www.docker.com/products/docker-toolbox) | an installer to quickly and easily install and setup a Docker environment on your computer.
 
 ## Docker Elements
 
@@ -59,6 +57,8 @@ docker build -t [name for image] [directory where Dockerfile lives]
 This generates a docker image. You create the container from the image with:
 
 ## Working with Docker Images
+
+![](https://docs.docker.com/tutimg/container_explainer.png)
 
 SEARCH for images. There are many freely available images shared across the docker image index:
 
@@ -148,6 +148,7 @@ To 'detach' the current container, type ^+P followed by ^+Q
 
 -   [Deploy Rails Application using Docker](http://steveltn.me/blog/2014/03/15/deploy-rails-applications-using-docker)
 -   [Docker Explained: How To Containerize and Use Nginx as a Proxy](https://www.digitalocean.com/community/tutorials/docker-explained-how-to-containerize-and-use-nginx-as-a-proxy)
+-   [Docker: Docs](https://docs.docker.com)
 -   [Docker: Get Started with Docker for Mac OS X](https://docs.docker.com/mac/)
 -   [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
 -   [hub.docker.com](https://hub.docker.com)
