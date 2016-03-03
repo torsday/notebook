@@ -53,7 +53,9 @@ context 'login as user' do
   before do
     pending "Skipped until CKVM is updated with necessary Vault data for this functionality to work."
   end
-  # ...M
+
+  # ...
+  
 end
 ```
 
