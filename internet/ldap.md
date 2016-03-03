@@ -83,6 +83,10 @@ objectClass: top
 -   `dc=example,dc=com` is the DN of the parent entry.
 -   The other lines show the attributes in the entry.
 
+---
+
+### Interserver communication
+
 A server holds a subtree starting from a specific entry, e.g. `dc=example,dc=com` and its children. Servers may also hold references to other servers, so an attempt to access `ou=department,dc=example,dc=com` could return a referral or continuation reference to a server that holds that part of the directory tree. The client can then contact the other server. Some servers also support chaining, which means the server contacts the other server and returns the results to the client.
 
 LDAP rarely defines any ordering: The server may return the values of an attribute, the attributes in an entry, and the entries found by a search operation in any order. This follows from the formal definitions - an entry is defined as a set of attributes, and an attribute is a set of values, and sets need not be ordered.
