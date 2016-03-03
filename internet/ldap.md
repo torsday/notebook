@@ -118,7 +118,7 @@ LDAP rarely defines any ordering: The server may return the values of an attribu
 
 ### Add
 
-```sh
+```ruby
 dn: uid=user,ou=people,dc=example,dc=com
 changetype: add
 objectClass: top
@@ -145,7 +145,7 @@ Connecting with authentication is the usual first step in any LDAP client/server
 
 #### Adding
 
-```sh
+```ruby
 dn: dc=example,dc=com
 changetype: modify
 add: cn
@@ -155,7 +155,7 @@ cn: the-new-cn-value-to-be-added
 
 #### Modifying
 
-```sh
+```ruby
 dn: uid=user.0,ou=people,dc=example,dc=com
 changetype: modify
 increment: employeeNumber
@@ -209,7 +209,7 @@ residentialPerson
 
 This definition says that an entry of object class `residentialPerson` must have a `l` attribute (short for locality) and may have a whole other set of attributes (`registeredAddress`, `postOfficeBox`, etc.). The key part of the specification is the `SUP` person string. It says that the superior class (the one from which `residentialPerson` inherits its attributes) is the `person` object class. That class’s definition looks like this:
 
-```sh
+```ruby
 person
    ( 2.5.6.6 NAME 'person' SUP top STRUCTURAL MUST ( sn $ cn )
      MAY ( userPassword $ telephoneNumber $ seeAlso $ description ) )
@@ -232,7 +232,7 @@ A standard plain text data interchange format for representing LDAP directory CR
 
 Directory entry with several attributes, represented as a record.
 
-```sh
+```ruby
 dn: cn=The Postmaster,dc=example,dc=com
 objectClass: organizationalRole
 cn: The Postmaster
@@ -240,7 +240,7 @@ cn: The Postmaster
 
 Modify multiple single-valued attributes for two different directory entries.
 
-```sh
+```ruby
 dn: CN=John Smith,OU=Legal,DC=example,DC=com
 changetype: modify
 replace:employeeID
@@ -274,7 +274,7 @@ Note:
 
 Add a telephone number to an existing user.
 
-```sh
+```ruby
 dn: cn=Peter Michaels, ou=Artists, l=San Francisco, c=US
 changetype: modify
 add: telephonenumber
@@ -386,9 +386,9 @@ if ($ds) {
 
 ## Security
 
-There are many security vulnerabilities among Ldap products, such as Microsoft Corp's Exchange servers. Possible vulnerable cases could be injection attacks, bad scripts, Denial of service and unauthorized privileged access, etc.
+There are many security vulnerabilities among LDAP products, such as Microsoft Corp's Exchange servers. Possible vulnerable cases could be injection attacks, bad scripts, Denial of service and unauthorized privileged access, etc.
 
-So make sure we have input validation and authorized data access within Ldap. Also be careful do not leak sensitive information. The safety of these products not only rely on Ldap library itself, but also depends on the detail implementation.
+So make sure to have input validation and authorized data access within Ldap. Also be careful do not leak sensitive information. The safety of these products not only rely on Ldap library itself, but also depends on the detail implementation.
 
 ---
 
@@ -405,6 +405,8 @@ So make sure we have input validation and authorized data access within Ldap. Al
 |   `st`   | stateOrProvinceName    |
 |  `uid`   | userid                 |
 | `street` | streetAddress          |
+
+---
 
 ## Vocabulary
 
