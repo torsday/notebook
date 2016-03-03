@@ -1,5 +1,7 @@
 # Rspec
 
+---
+
 A behavior-driven development (BDD) framework for Ruby.
 
 -   Domain-specific language (DSL)
@@ -25,6 +27,8 @@ describe User do
   #...
 end
 ```
+
+---
 
 ## Bites of Knowledge
 
@@ -53,9 +57,13 @@ context 'login as user' do
 end
 ```
 
+---
+
 ## Relevant Gems
 
 -   [Factory Girl](https://github.com/thoughtbot/factory_girl)
+
+---
 
 ## References
 
