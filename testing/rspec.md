@@ -34,15 +34,19 @@ end
 
 ### Disable a tree of specs
 
-Rspec 3
+#### Rspec 3
 
 ```ruby
 before { skip }
-# or
+```
+
+or
+
+```ruby
 xdescribe
 ```
 
-Rspec 2
+#### Rspec 2
 
 ```ruby
 before { pending }
@@ -55,7 +59,7 @@ context 'login as user' do
   end
 
   # ...
-  
+
 end
 ```
 
