@@ -2,9 +2,13 @@
 
 A tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic.
 
+---
+
 ## Boot2docker
 
 The Docker Engine uses Linux-specific kernel features, so to run it on OS X we need to use a lightweight virtual machine. To make this process easier, there is a helper application called Boot2Docker that installs the virtual machine and runs the Docker daemon: <https://docs.docker.com/installation/mac>
+
+---
 
 ## Docker Tools
 
@@ -15,6 +19,8 @@ The Docker Engine uses Linux-specific kernel features, so to run it on OS X we n
 | Image Index        | a repository (public or private) for docker images.          |
 | [Toolbox][toolbox] | an installer to setup a Docker environment on your computer. |
 
+---
+
 ## Docker Elements
 
 ![](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
@@ -23,7 +29,7 @@ The Docker Engine uses Linux-specific kernel features, so to run it on OS X we n
 
 A Linux Container, (sort of) like a directory, it holds everything needed for an app to run.
 
--   Docker containers are essentially directories that can be packed (e.g. tar-archived), the shared and run on other hosts. The only dependency is having docker installed on the hosts.
+-   Docker containers are essentially directories that can be packed (e.g. tar-archived), then shared and run on other hosts. The only dependency is having docker installed on the hosts.
 
 -   Docker containers allow:
 
@@ -61,6 +67,8 @@ docker build -t [name for image] [directory where Dockerfile lives]
 ```
 
 This generates a docker image. You create the container from the image with:
+
+---
 
 ## Working with Docker Images
 
