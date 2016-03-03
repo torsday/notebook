@@ -97,9 +97,12 @@ LDAP rarely defines any ordering: The server may return the values of an attribu
 
 -   These are all parts of the X.500 Directory Specification, which defines nodes in a LDAP directory.
 
--   You can also read up on LDAP data Interchange Format (LDIF), which is an alternate format.
+-   You can also read up on LDIF, an alternate format.
 
--   You read it from right to left, the right-most component is the root of the tree, and the left most component is the node (or leaf) you want to reach.
+-   You read it from right to left
+
+    -   the right-most component is the root of the tree
+    -   the left most component is the node (or leaf) you want to reach
 
 -   Each `=` pair is a search criteria.
 
