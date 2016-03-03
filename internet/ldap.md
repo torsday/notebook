@@ -34,7 +34,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
     -   With some exceptions, the client does not need to wait for a response before sending the next request, and the server may send the responses in any order.
 
-### The client may request the following operations:
+### Operations of a client request
 
 -   StartTLS — use the LDAPv3 Transport Layer Security (TLS) extension for a secure connection
 -   Bind — authenticate and specify LDAP protocol version
@@ -56,9 +56,9 @@ The protocol provides an interface with directories that follow the 1993 edition
 
 -   An entry consists of a set of attributes.
 -   An attribute has a name (an attribute type or attribute description) and one or more values. The attributes are defined in a schema (see below).
--   Each entry has a unique identifier: its Distinguished Name (DN). This consists of its Relative Distinguished Name (RDN), constructed from some attribute(s) in the entry, followed by the parent entry's DN. Think of the DN as the full file path and the RDN as its relative filename in its parent folder (e.g. if /foo/bar/myfile.txt were the DN, then myfile.txt would be the RDN).
+-   Each entry has a unique identifier: its Distinguished Name (`DN`). This consists of its Relative Distinguished Name (`RDN`), constructed from some attribute(s) in the entry, followed by the parent entry's `DN`. Think of the `DN` as the full file path and the RDN as its relative filename in its parent folder (e.g. if /foo/bar/myfile.txt were the `DN`, then `myfile.txt` would be the `RDN`).
 
-A DN may change over the lifetime of the entry, for instance, when entries are moved within a tree. To reliably and unambiguously identify entries, a UUID might be provided in the set of the entry's operational attributes.
+A DN may change over the lifetime of the entry, for instance, when entries are moved within a tree. To reliably and unambiguously identify entries, a `UUID` might be provided in the set of the entry's operational attributes.
 
 ### LDIF
 
