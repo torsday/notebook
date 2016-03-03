@@ -18,6 +18,10 @@
 
 ![Sequence Diagram](https://upload.wikimedia.org/wikipedia/commons/9/9b/CheckEmail.svg)
 
+## Tools
+
+-   [Gliffy](https://www.gliffy.com/)
+
 ## References
 
 -   [IBM: UML basics: The class diagram](http://www.ibm.com/developerworks/rational/library/content/RationalEdge/sep04/bell)
