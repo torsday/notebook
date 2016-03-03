@@ -52,7 +52,7 @@ Read-only template for a docker container.
 
 ### REGISTRY:
 
-Private or public stores for docker images. [Docker Hub](https://hub.docker.com) is a public registry.
+Private or public stores for docker images. [Docker Hub][docker-hub] is a public registry.
 
 ---
 
@@ -168,10 +168,11 @@ type ^+P followed by ^+Q
 
 -   [Deploy Rails Application using Docker](http://steveltn.me/blog/2014/03/15/deploy-rails-applications-using-docker)
 -   [Docker Explained: How To Containerize and Use Nginx as a Proxy](https://www.digitalocean.com/community/tutorials/docker-explained-how-to-containerize-and-use-nginx-as-a-proxy)
+-   [Docker Hub][docker-hub]
 -   [Docker: Docs](https://docs.docker.com)
 -   [Docker: Get Started with Docker for Mac OS X](https://docs.docker.com/mac/)
 -   [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
--   [hub.docker.com](https://hub.docker.com)
 -   [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)
 
 [toolbox]: "https://www.docker.com/products/docker-toolbox"
+[docker-hub]: "https://hub.docker.com"
