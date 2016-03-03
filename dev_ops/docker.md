@@ -58,13 +58,11 @@ Private or public stores for docker images. [Docker Hub][docker-hub] is a public
 
 ## Working with a Dockerfile
 
-BUILDING an image from a dockerfile:
-
 ```sh
-docker build -t [name for image] [directory where Dockerfile lives]
+docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
 ```
 
-This generates a docker image. You create the container from the image with:
+You create the container from the image with: TODO
 
 ---
 
@@ -72,37 +70,15 @@ This generates a docker image. You create the container from the image with:
 
 ![](https://docs.docker.com/tutimg/container_explainer.png)
 
-### SEARCH for images.
-
 ```sh
+# SEARCH for images
 docker search [image_name]
 docker pull [image_name]
-```
 
-### LIST all images on your system:
-
-```sh
-docker images
-```
-
-### List all containers current running:
-
-```sh
-docker ps
-```
-
-### List both running and non-running containers:
-
-```sh
-docker ps -l
-```
-
-### COMMIT an image
-
-As you work with a container and continue to perform actions on it (e.g. download and install software, configure files), to have it keep its state, commit:
-
-```sh
-sudo docker commit [container ID] [image name]
+docker images # LIST all images on your system
+docker ps # List all containers current running
+docker ps -l # List both running and non-running containers
+sudo docker commit [container ID] [image name] # COMMIT an image
 ```
 
 ## Working with Docker Containers
