@@ -33,8 +33,9 @@ Show what has been done.
 
 -   Those Present
 
-    -   Stakeholders
+    -   **Stakeholders**
     -   Team
+    -   Manager
 
 ---
 
@@ -43,6 +44,7 @@ Show what has been done.
 -   Those Present
 
     -   Team
+    -   Manager
 
 -   Topics
 
