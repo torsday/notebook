@@ -21,7 +21,14 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 ## Timeline
 
-1.  A client starts an LDAP session by connecting to an LDAP server, called a Directory System Agent (DSA).
+1.  A client starts an LDAP session by connecting to an LDAP server, called a Directory System Agent (DSA). The server sets the authorization state of the connection to unauthenticated.
+
+1.  The client transmits a `BIND` request to a server in order to change the authorization state of the client connection.
+
+1.  When the server receives a `BIND` request, the server sets the authorization state of the connection to unauthenticated immediately.
+
+    -   If successful, the server **sets the authorization state of the connection to the state associated with the distinguished-name in the `BIND` request**.
+    -   LDAPv3 allows a connection to change states any number of times, with the caveat that no requests be outstanding when the `BIND` request is received.
 
 1.  The client then sends an operation request to the server, and the server sends responses in return.
 
@@ -119,7 +126,7 @@ LDAP rarely defines any ordering: The server may return the values of an attribu
 
 ## Operations
 
-### Add
+### Adding
 
 ```ruby
 dn: uid=user,ou=people,dc=example,dc=com
@@ -131,22 +138,6 @@ sn: last-name
 cn: common-name
 userPassword: password
 ```
-
-### Bind (authenticate)
-
-Connecting with authentication is the usual first step in any LDAP client/server transaction. In LDAP-speak this is known as “binding to the server.”
-
-*From: [SuperUser](http://superuser.com/questions/592650/what-does-binding-to-a-ldap-server-mean)*
-
-> An LDAP client transmits a `BIND` request to a server in order to change the authorization state of the client connection. When a client first connects to an LDAP directory server, the server sets the authorization state of the connection to unauthenticated. When the server receives a `BIND` request, the server sets the authorization state of the connection to unauthenticated immediately. Should the `BIND` request be successful, the server **sets the authorization state of the connection to the state associated with the distinguished-name in the `BIND` request**. LDAPv3 allows a connection to change states any number of times, with the caveat that no requests be outstanding when the `BIND` request is received.
-
-### Delete
-
-### Search and Compare
-
-### Modify
-
-#### Adding
 
 ```ruby
 dn: dc=example,dc=com
@@ -165,14 +156,6 @@ increment: employeeNumber
 employeeNumber: 5
 -
 ```
-
-### Modify DN
-
-### Extended operations
-
-### StartTLS
-
-### Abandon
 
 ---
 
@@ -463,6 +446,7 @@ So make sure to have input validation and authorized data access within Ldap. Al
 -   [RubyDocs: Net: LDAP][ruby_docs_net_ldap]
 -   [SitePoint: Essentials of LDAP with PHP](http://www.sitepoint.com/essentials-ldap-php)
 -   [StackOverflow: What are `CN`, `OU`, `DC` in an LDAP search?](http://stackoverflow.com/questions/18756688/what-are-cn-ou-dc-in-an-ldap-search)
+-   [SuperUser: What does binding to a ldap server mean](http://superuser.com/questions/592650/what-does-binding-to-a-ldap-server-mean)
 -   [TLDP: LDAP, How To](http://www.tldp.org/HOWTO/LDAP-HOWTO/index.html)
 -   [Wikipedia: LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 -   [Wikipedia: LDIF](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
