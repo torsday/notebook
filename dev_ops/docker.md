@@ -52,7 +52,7 @@ read-only template for a docker container.
 
 ### REGISTRY:
 
-private or public stores for docker images. Docker Hub is a public registry.
+private or public stores for docker images. [Docker Hub](https://hub.docker.com) is a public registry.
 
 -   There are a bunch of free docker images for common services! <https://registry.hub.docker.com>
 
