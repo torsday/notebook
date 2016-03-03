@@ -61,6 +61,7 @@ end
 
 ## Relevant Gems
 
+-   [Better Errors](https://github.com/charliesome/better_errors)
 -   [Factory Girl](https://github.com/thoughtbot/factory_girl)
 
 ---
