@@ -1,10 +1,16 @@
 # Agile
 
+---
+
 ## Meetings
+
+---
 
 ### Sprint Planning
 
 -   **Purpose:**
+
+---
 
 ### Backlog Grooming
 
@@ -19,6 +25,8 @@ The intent is to ensure that the backlog remains populated with items that are r
 -   correcting estimates in light of newly discovered information
 -   splitting user stories which are high priority but too coarse grained to fit in an upcoming iteration
 
+---
+
 ### Sprint Review
 
 Show what has been done.
@@ -27,6 +35,8 @@ Show what has been done.
 
     -   Stakeholders
     -   Team
+
+---
 
 ### Sprint Retro
 
