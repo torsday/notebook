@@ -10,6 +10,8 @@
 
 The intent is to ensure that the backlog remains populated with items that are relevant, detailed and estimated to a degree appropriate with their priority, and in keeping with current understanding of the project or product and its objectives.
 
+#### Tasks
+
 -   removing user stories that no longer appear relevant
 -   creating new user stories in response to newly discovered needs
 -   re-assessing the relative priority of stories
