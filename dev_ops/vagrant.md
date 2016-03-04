@@ -1,6 +1,8 @@
 # Vagrant
 
-A tool to create/configure lightweight, reproducible, and portable development environments
+A tool to create/configure lightweight, reproducible, and portable development environments.
+
+[Docker](./docker.md) can run on Vagrant.
 
 ---
 
