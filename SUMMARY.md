@@ -82,6 +82,7 @@
 
         -   [Active Record Pattern](./design/active_record_pattern.md)
         -   [CQRS](./design/cqrs.md)
+        -   [Immutability]()
         -   [Lazy Loading](./design/lazy_loading.md)
         -   [MVC](./design/mvc.md)
         -   [Object-Oriented Programming](./design/oop.md)

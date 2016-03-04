@@ -60,7 +60,7 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 
 ---
 
-## Docker vs Vagrant (different beasts)
+## Docker vs Vagrant *(different beasts)*
 
 **Vagrant abstracts the machine, Docker abstracts the application.**
 
