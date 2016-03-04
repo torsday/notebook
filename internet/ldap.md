@@ -38,7 +38,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 ## Client Operations
 
-| Operation        | Description                                             |
+|                  |                                                         |
 |------------------|---------------------------------------------------------|
 | Abandon          | Abort a previous request by a message ID                |
 | Add              | Inserts a new entry                                     |
