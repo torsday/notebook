@@ -8,7 +8,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 <!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
 
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [What](#what)
 - [Why](#why)
@@ -21,14 +21,11 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 - [Query](#query)
 - [Operations](#operations)
 	- [Adding](#adding)
-		- [Modifying](#modifying)
 - [Schema](#schema)
 	- [Comparison to spreadsheets](#comparison-to-spreadsheets)
 	- [Examples](#examples)
 - [Examples](#examples)
 	- [Ruby](#ruby)
-		- [User Auth](#user-auth)
-		- [Search](#search)
 	- [PHP](#php)
 - [Security](#security)
 - [Fields](#fields)
