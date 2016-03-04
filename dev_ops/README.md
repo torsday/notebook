@@ -56,7 +56,7 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 
 ## References
 
+-   [HackerNews: How to Deploy Software](https://news.ycombinator.com/item?id=11204736)
 -   [PhantomJS](http://phantomjs.org)
 -   [Wikipedia: Comparison of continuous integration software](https://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software)
 -   [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
--   [HackerNews: How to Deploy Software](https://news.ycombinator.com/item?id=11204736)
