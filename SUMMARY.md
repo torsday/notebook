@@ -149,8 +149,6 @@
 
     -   [Javascript](./languages/javascript.md)
 
-    -   [Laravel]()
-
     -   [Lo-Dash]()
 
     -   [Markdown](./languages/markdown.md)
@@ -159,9 +157,12 @@
 
     -   [Objective-C](./languages/objective-c.md)
 
-    -   [PHP the Right Way](./languages/php-the-right-way.md)
+    -   [PHP](./languages/php/README.md)
 
-    -   [PHP](./languages/php.md)
+        -   [Laravel]()
+        -   [PHP the Right Way](./languages/php/php-the-right-way.md)
+        -   [Symfony]()
+        -   [Zend Frameworks]()
 
     -   [React](./languages/react.md)
 
@@ -175,11 +176,6 @@
     -   [Scala](./languages/scala.md)
 
     -   [Swift](./languages/swift.md)
-
-    -   [Symfony]()
-
-    -   [Zend Frameworks]()
-
 
 -   [Lifestyle](./lifestyle/README.md)
 
