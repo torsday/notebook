@@ -63,8 +63,6 @@ Read-only template for a docker container.
 docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
 ```
 
-You create the container from the image with: TODO
-
 ---
 
 ### Working with Docker Images
