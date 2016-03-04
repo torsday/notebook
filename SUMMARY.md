@@ -190,14 +190,16 @@
 
 -   [Linux](./linux/README.md)
 
-    -   [Tree](./linux/tree.md)
     -   [Air Crack]()
     -   [Arp Scan]()
+    -   [CentOS]()
+    -   [CoreOS]()
     -   [Cron](./linux/cron.md)
     -   [du](./linux/du.md)
     -   [find]()
     -   [grep](./linux/grep.md)
     -   [rsync](./linux/rsync.md)
+    -   [Tree](./linux/tree.md)
 
 -   [Persistence](./persistence/README.md)
 
