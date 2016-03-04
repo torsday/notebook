@@ -16,8 +16,6 @@ A tool for deploying and running applications. Docker provides a way to run an a
 | Image Index                      | a repository (public or private) for docker images.                                        |
 | [Kitematic][kitematic]           | build and run containers through a GUI                                                     |
 
-### [Docker Machine](https://docs.docker.com/machine)
-
 *NOTE: [Docker Machine](https://docs.docker.com/machine) deprecates Boot2Docker*
 
 ---
