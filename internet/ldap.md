@@ -4,6 +4,44 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 ---
 
+**Table of Contents**
+
+<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [What](#what)
+- [Why](#why)
+- [Timeline](#timeline)
+- [Client Operations](#client-operations)
+- [Directory Structure](#directory-structure)
+- [LDAP Data Interchange Format *(LDIF)*](#ldap-data-interchange-format-ldif)
+	- [Examples](#examples)
+- [Interserver communication](#interserver-communication)
+- [Query](#query)
+- [Operations](#operations)
+	- [Adding](#adding)
+		- [Modifying](#modifying)
+- [Schema](#schema)
+	- [Comparison to spreadsheets](#comparison-to-spreadsheets)
+	- [Examples](#examples)
+- [Examples](#examples)
+	- [Ruby](#ruby)
+		- [User Auth](#user-auth)
+		- [Search](#search)
+	- [PHP](#php)
+- [Security](#security)
+- [Fields](#fields)
+- [Vocabulary](#vocabulary)
+- [See Also](#see-also)
+- [References](#references)
+
+<!-- /TOC -->
+
+<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+---
+
 ## What
 
 -   defines & describes:
