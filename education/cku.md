@@ -60,9 +60,7 @@ Traits vs. Behaviors
 
 ---
 
-## Karma Foundations
-
-*A-Ha's and Oh-Sh*t's*
+## Karma Foundations: *A-Ha's and Oh-Sh%t's*
 
 *2016-03-04*
 
@@ -73,8 +71,12 @@ Traits vs. Behaviors
     -   Email story by Helen
     -   Easy to have tunnel-vision on your own goals; better to pause and consider who else is impacted, who else can assist.
 
-2.  **Collaboration chagnes as we grow**
+2.  **Collaboration changes as we grow**
+
+    -   Mobile API Challenge by Matt Conrad
+    -   Sync-specific meetings between inter-connected teams
 
 3.  **Collaboration is everyone's responsibility**
+ 
+    -   Prophecy Rollout by Kyle
 
----
