@@ -11,3 +11,9 @@ Connects the application software to the hardware of a computer: managing i/o re
 > The kernel's interface is a low-level abstraction layer.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/8f/Kernel_Layout.svg)
+
+---
+
+## References
+
+-   <https://en.wikipedia.org/wiki/Kernel_(operating_system)>
