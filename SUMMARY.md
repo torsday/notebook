@@ -145,15 +145,15 @@
 
     -   [C](./languages/c.md)
 
-    -   [CoffeeScript](./languages/coffeescript.md)
+    -   [Javascript](./languages/javascript/README.md)
 
-    -   [Javascript](./languages/javascript.md)
-
-    -   [Lo-Dash]()
+        -   [CoffeeScript](./languages/javascript/coffeescript.md)
+        -   [Lo-Dash]()
+        -   [Node]()
+        -   [React](./languages/javascript/react.md)
+        -   [Redux](./languages/redux.md)
 
     -   [Markdown](./languages/markdown.md)
-
-    -   [Node]()
 
     -   [Objective-C](./languages/objective-c.md)
 
@@ -163,10 +163,6 @@
         -   [PHP the Right Way](./languages/php/php-the-right-way.md)
         -   [Symfony]()
         -   [Zend Frameworks]()
-
-    -   [React](./languages/react.md)
-
-    -   [Redux](./languages/redux.md)
 
     -   [Ruby](./languages/ruby/README.md)
 
