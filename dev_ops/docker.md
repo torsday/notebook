@@ -107,6 +107,7 @@ Detach the current container: type ^+P followed by ^+Q
 -   [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
 -   [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)
 -   [Quora: What is the difference between Docker and Vagrant? When should you use each one?](https://www.quora.com/What-is-the-difference-between-Docker-and-Vagrant-When-should-you-use-each-one)
+-   [GitHub: veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker): curated list of Docker resources and projects
 
 [docker engine]: "https://www.docker.com/products/docker-engine"
 [docker machine]: "https://docs.docker.com/machine"
