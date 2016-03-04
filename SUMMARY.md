@@ -126,6 +126,10 @@
         -   [Exercism](./education/exercism.md)
         -   [Feedback](./education/feedback.md)
 
+-   [Fundamentals](./fundamentals/README.md)
+
+    -   [Kernel](./fundamentals/kernel.md)
+
 -   [Internet](./internet/README.md)
 
     -   [HTTP](./internet/http.md)
