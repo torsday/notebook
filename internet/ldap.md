@@ -92,7 +92,6 @@ objectClass: top
 -   `dc=example,dc=com` is the DN of the parent entry.
 -   The other lines show the attributes in the entry.
 
-
 Directory entry with several attributes, represented as a record.
 
 ```ruby
