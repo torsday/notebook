@@ -82,6 +82,12 @@ if onSaleInferred {
 
 ---
 
+### Statements
+
+#### Guard
+
+---
+
 ## Topics
 
 ### Strong vs. Weak Reference
