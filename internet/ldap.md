@@ -62,7 +62,16 @@ The protocol provides an interface with directories that follow the 1993 edition
 
 Note: Because a `DN` may change over the lifetime of the entry, for instance, when entries are moved within a tree. To reliably and unambiguously identify entries, a `UUID` might be provided in the set of the entry's operational attributes.
 
-### LDIF
+---
+
+## LDAP Data Interchange Format *(LDIF)*
+
+A standard plain text data interchange format for representing LDAP directory CRUD requests.
+
+1.  Conveys directory content as a set of records, one record for each object (or entry).
+1.  Represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
+
+### Examples
 
 ```ruby
 dn: cn=John Doe,dc=example,dc=com
@@ -82,6 +91,58 @@ objectClass: top
 -   `cn=John Doe` is the entry's `RDN`
 -   `dc=example,dc=com` is the DN of the parent entry.
 -   The other lines show the attributes in the entry.
+
+
+Directory entry with several attributes, represented as a record.
+
+```ruby
+dn: cn=The Postmaster,dc=example,dc=com
+objectClass: organizationalRole
+cn: The Postmaster
+```
+
+Modify multiple single-valued attributes for two different directory entries.
+
+```ruby
+dn: CN=John Smith,OU=Legal,DC=example,DC=com
+changetype: modify
+replace:employeeID
+employeeID: 1234
+-
+replace:employeeNumber
+employeeNumber: 98722
+-
+replace: extensionAttribute6
+extensionAttribute6: JSmith98
+-
+
+dn: CN=Jane Smith,OU=Accounting,DC=example,DC=com
+changetype: modify
+replace:employeeID
+employeeID: 5678
+-
+replace:employeeNumber
+employeeNumber: 76543
+-
+replace: extensionAttribute6
+extensionAttribute6: JSmith14
+-
+```
+
+Note:
+
+-   the `-` character between each attribute change is required.
+-   each directory entry ends with a `-` followed by a blank line.
+-   The final `-` is required.
+
+Add a telephone number to an existing user.
+
+```ruby
+dn: cn=Peter Michaels, ou=Artists, l=San Francisco, c=US
+changetype: modify
+add: telephonenumber
+telephonenumber: +1 415 555 0002
+```
 
 ---
 
@@ -201,68 +262,6 @@ person
 So, an entry with object class of `residentialPerson` must have `sn` (surname), `cn` (common name), and `l` (locality) attributes and may have the other attributes listed in the `MAY` sections of these two RFC excerpts. We also know that person is the top of the object hierarchy for `residentialPerson`, since its superior class is the special abstract class top.
 
 In most cases, you can get away with using the predefined standard object classes. If you need to construct entries with attributes not found in an existing object class, it is usually good form to locate the closest existing object class and build upon it, like `residentialPerson` builds upon person.
-
----
-
-## LDAP Data Interchange Format *(LDIF)*
-
-A standard plain text data interchange format for representing LDAP directory CRUD requests.
-
-1.  Conveys directory content as a set of records, one record for each object (or entry).
-1.  Represents update requests, such as Add, Modify, Delete, and Rename, as a set of records, one record for each update request.
-
-### Examples
-
-Directory entry with several attributes, represented as a record.
-
-```ruby
-dn: cn=The Postmaster,dc=example,dc=com
-objectClass: organizationalRole
-cn: The Postmaster
-```
-
-Modify multiple single-valued attributes for two different directory entries.
-
-```ruby
-dn: CN=John Smith,OU=Legal,DC=example,DC=com
-changetype: modify
-replace:employeeID
-employeeID: 1234
--
-replace:employeeNumber
-employeeNumber: 98722
--
-replace: extensionAttribute6
-extensionAttribute6: JSmith98
--
-
-dn: CN=Jane Smith,OU=Accounting,DC=example,DC=com
-changetype: modify
-replace:employeeID
-employeeID: 5678
--
-replace:employeeNumber
-employeeNumber: 76543
--
-replace: extensionAttribute6
-extensionAttribute6: JSmith14
--
-```
-
-Note:
-
--   the `-` character between each attribute change is required.
--   each directory entry ends with a `-` followed by a blank line.
--   The final `-` is required.
-
-Add a telephone number to an existing user.
-
-```ruby
-dn: cn=Peter Michaels, ou=Artists, l=San Francisco, c=US
-changetype: modify
-add: telephonenumber
-telephonenumber: +1 415 555 0002
-```
 
 ---
 
