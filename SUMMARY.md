@@ -125,7 +125,6 @@
     -   [Other](./education/other.md)
 
         -   [Exercism](./education/exercism.md)
-        -   [Feedback](./education/feedback.md)
 
 -   [Fundamentals](./fundamentals/README.md)
 
