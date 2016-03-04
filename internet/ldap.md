@@ -4,7 +4,7 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
 
 ---
 
-## What & Why
+## What
 
 -   defines & describes:
 
@@ -13,6 +13,8 @@ A protocol for CRUD operations on a directory across the TCP/IP layer.
     -   How data is loaded (imported) into and saved (exported) from a directory service (using LDIF).
 
 *note: LDAP does not define how data is stored or manipulated.*
+
+## Why
 
 -   Centralize and make available all sorts of infrastructure information.
 -   Industry standard for directory access.
