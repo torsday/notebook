@@ -151,7 +151,7 @@
         -   [Lo-Dash]()
         -   [Node]()
         -   [React](./languages/javascript/react.md)
-        -   [Redux](./languages/redux.md)
+        -   [Redux](./languages/javascript/redux.md)
 
     -   [Markdown](./languages/markdown.md)
 
