@@ -82,6 +82,7 @@
 
         -   [Active Record Pattern](./design/active_record_pattern.md)
         -   [CQRS](./design/cqrs.md)
+        -   [Immutability](./design/immutability.md)
         -   [Lazy Loading](./design/lazy_loading.md)
         -   [MVC](./design/mvc.md)
         -   [Object-Oriented Programming](./design/oop.md)
@@ -95,6 +96,7 @@
     -   [Babel]()
     -   [Build & Release]()
     -   [Composer](./dev_ops/composer.md)
+    -   [Containerization](./dev_ops/containerization.md)
     -   [Continuous Integration](./dev_ops/ci.md)
     -   [Docker](./dev_ops/docker.md)
     -   [Gearman](./dev_ops/gearman.md)
@@ -125,6 +127,10 @@
         -   [Exercism](./education/exercism.md)
         -   [Feedback](./education/feedback.md)
 
+-   [Fundamentals](./fundamentals/README.md)
+
+    -   [Kernel](./fundamentals/kernel.md)
+
 -   [Internet](./internet/README.md)
 
     -   [HTTP](./internet/http.md)
@@ -138,23 +144,34 @@
 -   [Languages, Libraries, Frameworks, et. al.](./languages/README.md)
 
     -   [C](./languages/c.md)
-    -   [CoffeeScript](./languages/coffeescript.md)
-    -   [Javascript](./languages/javascript.md)
-    -   [Laravel]()
-    -   [Lo-Dash]()
+
+    -   [Javascript](./languages/javascript/README.md)
+
+        -   [CoffeeScript](./languages/javascript/coffeescript.md)
+        -   [Lo-Dash]()
+        -   [Node]()
+        -   [React](./languages/javascript/react.md)
+        -   [Redux](./languages/javascript/redux.md)
+
     -   [Markdown](./languages/markdown.md)
-    -   [Node]()
+
     -   [Objective-C](./languages/objective-c.md)
-    -   [PHP the Right Way](./languages/php-the-right-way.md)
-    -   [PHP](./languages/php.md)
-    -   [Rails](./languages/rails.md)
-    -   [React](./languages/react.md)
-    -   [Redux](./languages/redux.md)
-    -   [Ruby](./languages/ruby.md)
+
+    -   [PHP](./languages/php/README.md)
+
+        -   [Laravel]()
+        -   [PHP the Right Way](./languages/php/php-the-right-way.md)
+        -   [Symfony]()
+        -   [Zend Frameworks]()
+
+    -   [Ruby](./languages/ruby/README.md)
+
+        -   [Bundler](./languages/ruby/bundler.md)
+        -   [Rails](./languages/ruby/rails.md)
+
     -   [Scala](./languages/scala.md)
+
     -   [Swift](./languages/swift.md)
-    -   [Symfony]()
-    -   [Zend Frameworks]()
 
 -   [Lifestyle](./lifestyle/README.md)
 
@@ -166,14 +183,16 @@
 
 -   [Linux](./linux/README.md)
 
-    -   [Tree](./linux/tree.md)
     -   [Air Crack]()
     -   [Arp Scan]()
+    -   [CentOS]()
+    -   [CoreOS]()
     -   [Cron](./linux/cron.md)
     -   [du](./linux/du.md)
     -   [find]()
     -   [grep](./linux/grep.md)
     -   [rsync](./linux/rsync.md)
+    -   [Tree](./linux/tree.md)
 
 -   [Persistence](./persistence/README.md)
 
@@ -213,14 +232,22 @@
 
 -   [Tools](./tools/README.md)
 
-    -   [Atom]()
-    -   [Git](./tools/git.md)
-    -   [Git-flow](./tools/git_flow.md)
+    -   [Git](./tools/git/README.md)
+
+        -   [Git-flow](./tools/git/git_flow.md)
+        -   [Tags](./tools/git/tags.md)
+
     -   [Homebrew](./tools/homebrew.md)
+
     -   [Linting]()
+
     -   [Linux](./tools/linux.md)
+
     -   [PSR Fixer](./tools/psr-fixer.md)
+
     -   [UML](./tools/uml.md)
+
     -   [Vim](./tools/vim.md)
+
 
 -   [References](references.md)

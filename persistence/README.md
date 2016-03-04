@@ -1,6 +1,10 @@
 # Persistence
 
+---
+
 ## Genres
+
+---
 
 ### Relational
 
@@ -14,6 +18,8 @@ Because of the structured nature of relational databases, they make sense when t
 
 When your data is highly variable or deeply hierarchical, relational databases aren’t the best fit. Because you must specify a schema up front, data problems that exhibit a high degree of record-to-record variation will be problematic. Consider developing a database to describe all the creatures in nature. Creating a full list of all features to account for (hasHair, numLegs, laysEggs, and so on) would be intractable. In such a case, you’d want a database that makes less restrictions in advance on what you can put into it.
 
+---
+
 ### Key-value
 
 The key-value (KV) store was the simplest model we covered. KV maps simple keys to (possibly) more complex values like a huge hashtable. Because of their relative simplicity, this genre of database has the most flexibility of implementation. Hash lookups are fast, so in the case of Redis, speed was its primary concern. Hash lookups are also easily distributed, and so Riak took advantage of this fact for focusing on simple-to-manage clusters. Of course, its simplicity can be a downside for any data with complex modeling requirements.
@@ -25,6 +31,8 @@ With little or no need to maintain indexes, key-value stores are often designed 
 #### Not-So-Good For:
 
 Often lacking indexes and scanning capabilities, KV stores won’t help you if you need to be able to perform queries on your data, other than basic CRUD operations (Create, Read, Update, Delete).
+
+---
 
 ### Columnar
 
@@ -38,6 +46,8 @@ Columnar databases have been traditionally developed with horizontal scalability
 
 Different columnar databases have different features and therefore different drawbacks. But one thing they have in common is that it’s best to design your schema based on how you plan to query the data. This means you should have some idea in advance of how your data will be used, not just what it’ll consist of. If data usage patterns can’t be defined in advance—for example, fast ad hoc reporting—then a columnar database may not be the best fit.
 
+---
+
 ### Document
 
 Document databases allow for any number of fields per object and even allow objects to be nested to any depth as values of other fields. The common representation of these objects is as JavaScript Object Notation (JSON), adhered to by both MongoDB and CouchDB—though this is by no means a conceptual requirement. Since documents don’t relate to each other like relational databases, they are relatively easy to shard and replicate across several servers, making distributed implementations fairly common. MongoHQ tends to tackle availability by supporting the creation of datacenters that manage huge datasets for the Web. Meanwhile, CouchDB focuses on being simple and durable, where availability is achieved by master-master replication of fairly autonomous nodes. There is high overlap between these projects.
@@ -50,6 +60,8 @@ Document databases are suited to problems involving highly variable domains. Whe
 
 If you’re used to performing elaborate join queries on highly normalized relational database schemas, you’ll find the capabilities of document databases lacking. A document should generally contain most or all of the relevant information required for normal use. So while in a relational database you’d naturally normalize your data to reduce or eliminate copies that can get out of sync, with document databases, denormalized data is the norm.
 
+---
+
 ### Graph
 
 Graph databases are an emerging class of database that focuses more on the free interrelation of data than the actual values. Neo4j, as our open source example, is growing in popularity for many social network applications. Unlike other database styles that group collections of like objects into common buckets, graph databases are more free-form—queries consist of following edges shared by two nodes or, namely, traversing nodes. As more projects use them, graph databases are growing the straightforward social examples to occupy more nuanced use cases, such as recommendation engines, access control lists, and geographic data.
@@ -61,6 +73,8 @@ Graph databases seem to be tailor-made for networking applications. The prototyp
 #### Not-So-Good For:
 
 Because of the high degree of interconnectedness between nodes, graph databases are generally not suitable for network partitioning. Spidering the graph quickly means you can’t afford network hops to other database nodes, so graph databases don’t scale out well. It’s likely that if you use a graph database, it’ll be one piece of a larger system, with the bulk of the data stored elsewhere and only the relationships maintained in the graph.
+
+---
 
 ## Directory vs Database
 
@@ -75,6 +89,8 @@ A **directory** is similar to a database, but
 -   They may have the **ability to replicate information widely** in order to increase availability and reliability, while reducing response time.
 
     -   Temporary inconsistencies between the replicas may be OK, as long as they get in sync eventually.
+
+---
 
 ## References
 
