@@ -68,10 +68,6 @@ Directory Information Tree.
 
 An algorithm design paradigm based on multi-branched recursion. A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same (or related) type (divide), until these become simple enough to be solved directly (conquer). The solutions to the sub-problems are then combined to give a solution to the original problem.
 
-## Docker
-
-Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. <https://docs.docker.com>
-
 ## Domain-Specific Language
 
 A computer language specialized to a particular application domain.
