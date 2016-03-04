@@ -62,9 +62,19 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 
 ## Docker vs Vagrant (different beasts)
 
-Docker talks with the kernel of linux (and in a near future, windows) to create containers (think in a chroot that have its own network interfaces, users and process, isolated from the rest of the system ) to launch applications, in an opinionated way (the emphasis is in running single apps, declaring exposed network ports, and image based filesystems).
+**Vagrant abstracts the machine, Docker abstracts the application.**
 
-Vagrant talks with virtualization systems (VMware, virtualbox, aws, even docker) to mainly create full virtual machines with their own IPs, running any OS and of course, all the applications than implies booting that VM.
+### Docker
+
+-   Docker talks with the kernel to create containers to launch applications, in an opinionated way (the emphasis is in running single apps, declaring exposed network ports, and image based filesystems).
+-   Docker on the other hand uses kernel cgroup and namespacing via lxc. It means that you are using the same kernel as the host and the same file system. You can use Dockerfile with the docker build command in order to handle the provisioning and configuration of your container. You have example at docs.docker.com on how to make your Dockerfile, it is very intuitive.
+-   Use if you want isolation.
+
+### Vagrant
+
+-   Vagrant talks with virtualization systems (VMware, virtualbox, aws, even docker) to mainly create full VMs with their own IPs, running any OS and of course, all the applications than implies booting that VM.
+-   Vagrant is a virtual machine manager, it allows you to script the virtual machine configuration as well as the provisioning. However, it is still a virtual machine depending on Virtual Box (or others) with a huge overhead. It requires you to have a hard drive file that can be huge, it takes a lot of ram, and performance may be not very good.
+-   Use if you need to do BSD, Windows or other non-linux development on your ubuntu box.
 
 ---
 
@@ -72,5 +82,6 @@ Vagrant talks with virtualization systems (VMware, virtualbox, aws, even docker)
 
 -   [HackerNews: How to Deploy Software](https://news.ycombinator.com/item?id=11204736)
 -   [PhantomJS](http://phantomjs.org)
+-   [StackOverflow: Should I use Vagrant or Docker for creating an isolated environment?](http://stackoverflow.com/questions/16647069/should-i-use-vagrant-or-docker-for-creating-an-isolated-environment)
 -   [Wikipedia: Comparison of continuous integration software](https://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software)
 -   [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
