@@ -19,7 +19,7 @@ The key to this pattern is that it allows clients to ignore the difference betwe
 
 ## Example
 
-### Component (defines interface):
+### Component (defines interface)
 
 ```ruby
 class AbstractNode
@@ -41,7 +41,7 @@ class AbstractNode
 end
 ```
 
-### 'Leaf' (individual node):
+### 'Leaf' (individual node)
 
 ```ruby
 class Node < AbstractNode
@@ -66,7 +66,7 @@ class NodeError < StandardError
 end
 ```
 
-### Composite (group of nodes):
+### Composite (group of nodes)
 
 ```ruby
 class NodeCluster < AbstractNode
@@ -93,7 +93,7 @@ class NodeCluster < AbstractNode
 end
 ```
 
-### Implementation:
+### Implementation
 
 ```ruby
 root = NodeCluster.new
