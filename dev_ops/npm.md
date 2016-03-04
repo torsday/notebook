@@ -84,6 +84,21 @@ redux \
 
 ## Creating a module
 
+### publish
+
+*From: [NPM](https://docs.npmjs.com/cli/publish)*
+
+> Publishes a package to the registry so that it can be installed by name. All files in the package directory are included if no local .gitignore or .npmignore file exists. If both files exist and a file is ignored by .gitignore but not by .npmignore then it will be included. See npm-developers for full details on what's included in the published package, as well as details on how the package is built.
+
+> By default npm will publish to the public registry. This can be overridden by specifying a different default registry or using a npm-scope in the name (see package.json).
+
+```sh
+npm publish [<tarball>|<folder>] [--tag <tag>] [--access <public|restricted>]
+```
+
+-   Publishes `.` if no argument supplied
+-   Sets tag `latest` if no `--tag` specified
+
 ## Notable Packages
 
 ```sh
