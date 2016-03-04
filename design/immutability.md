@@ -13,4 +13,5 @@ Strings and other concrete objects are typically expressed as immutable objects 
 
 ## References
 
+-   [Realm.io: Embrace Immutability](https://realm.io/news/slug-keith-smiley-embrace-immutability/)
 -   [Wikipedia: Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
