@@ -73,7 +73,7 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 ### Vagrant
 
 -   Vagrant talks with virtualization systems (VMware, virtualbox, aws, even docker) to mainly create full VMs with their own IPs, running any OS and of course, all the applications than implies booting that VM.
--   Vagrant is a virtual machine manager, it allows you to script the virtual machine configuration as well as the provisioning. However, it is still a virtual machine depending on Virtual Box (or others) with a huge overhead. It requires you to have a hard drive file that can be huge, it takes a lot of ram, and performance may be not very good.
+-   Vagrant is a VM manager, it allows you to script the VM configuration as well as the provisioning. However, it is still a VM depending on Virtual Box (or others) with a huge overhead. It requires you to have a hard drive file that can be huge, it takes a lot of ram, and performance may be not very good.
 -   Use if you need to do BSD, Windows or other non-linux development on your ubuntu box.
 
 ---
