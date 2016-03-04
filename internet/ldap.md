@@ -145,7 +145,7 @@ telephonenumber: +1 415 555 0002
 
 ---
 
-### Interserver communication
+## Interserver communication
 
 A server holds a subtree starting from a specific entry, e.g. `dc=example,dc=com` and its children. Servers may also hold references to other servers, so an attempt to access `ou=department,dc=example,dc=com` could return a referral or continuation reference to a server that holds that part of the directory tree. The client can then contact the other server. Some servers also support chaining, which means the server contacts the other server and returns the results to the client.
 
