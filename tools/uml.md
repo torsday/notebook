@@ -21,6 +21,7 @@
 ## Tools
 
 -   [Gliffy](https://www.gliffy.com)
+-   [PlantUML](http://plantuml.com)
 -   [StarUML](http://staruml.io)
 
 ## References
