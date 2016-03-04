@@ -8,12 +8,9 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 |                                  |                                                                                            |
 |----------------------------------|--------------------------------------------------------------------------------------------|
-| CLI                              | used to command and communicate with the docker daemon.                                    |
-| Daemon                           | used to manage local docker containers.                                                    |
 | [Docker Engine][docker engine]   | runs on Linux to create the operating environment for your distributed applications.       |
 | [Docker Machine][docker machine] | automate Docker provisioning                                                               |
 | [Docker Toolbox][toolbox]        | an installer to quickly and easily install and setup a Docker environment on your computer |
-| Image Index                      | a repository (public or private) for docker images.                                        |
 | [Kitematic][kitematic]           | build and run containers through a GUI                                                     |
 
 *NOTE: [Docker Machine](https://docs.docker.com/machine) deprecates Boot2Docker*
