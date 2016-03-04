@@ -1,5 +1,7 @@
 # Docker
 
+A two part shell/management layer for building and running virtual linux containers, based on LXC.
+
 A tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic.
 
 ---
@@ -104,6 +106,7 @@ Detach the current container: type ^+P followed by ^+Q
 -   [Docker: Get Started with Docker for Mac OS X](https://docs.docker.com/mac/)
 -   [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
 -   [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)
+-   [Quora: What is the difference between Docker and Vagrant? When should you use each one?](https://www.quora.com/What-is-the-difference-between-Docker-and-Vagrant-When-should-you-use-each-one)
 
 [docker engine]: "https://www.docker.com/products/docker-engine"
 [docker machine]: "https://docs.docker.com/machine"

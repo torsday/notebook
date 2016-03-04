@@ -136,6 +136,10 @@ A directory service protocol that runs on a layer above the TCP/IP stack. It pro
 
 A standard plain text data interchange format for representing LDAP directory CRUD requests.
 
+## LXC
+
+An operating-system-level virtualization environment for running multiple isolated Linux systems (containers) on a single Linux control host.
+
 ## Ncurses
 
 A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.
