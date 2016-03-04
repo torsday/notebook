@@ -12,12 +12,15 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ## Docker Tools
 
-|                    |                                                              |
-|--------------------|--------------------------------------------------------------|
-| Daemon             | used to manage local docker containers.                      |
-| CLI                | used to command and communicate with the docker daemon.      |
-| Image Index        | a repository (public or private) for docker images.          |
-| [Toolbox][toolbox] | an installer to setup a Docker environment on your computer. |
+|                                  |                                                                                            |
+|----------------------------------|--------------------------------------------------------------------------------------------|
+| CLI                              | used to command and communicate with the docker daemon.                                    |
+| Daemon                           | used to manage local docker containers.                                                    |
+| [Docker Engine][docker engine]   | runs on Linux to create the operating environment for your distributed applications.       |
+| [Docker Machine][docker machine] | automate Docker provisioning                                                               |
+| [Docker Toolbox][toolbox]        | an installer to quickly and easily install and setup a Docker environment on your computer |
+| Image Index                      | a repository (public or private) for docker images.                                        |
+| [Kitematic][kitematic]           | build and run containers through a GUI                                                     |
 
 ---
 
@@ -111,5 +114,8 @@ Detach the current container: type ^+P followed by ^+Q
 -   [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
 -   [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)
 
-[toolbox]: "https://www.docker.com/products/docker-toolbox"
+[docker engine]: "https://www.docker.com/products/docker-engine"
+[docker machine]: "https://docs.docker.com/machine"
 [docker-hub]: "https://hub.docker.com"
+[kitematic]: "https://kitematic.com"
+[toolbox]: "https://www.docker.com/products/docker-toolbox"
