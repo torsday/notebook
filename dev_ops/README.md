@@ -4,6 +4,8 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 
 ![DevOps Venn Diagram](https://upload.wikimedia.org/wikipedia/commons/b/b5/Devops.svg)
 
+---
+
 ## Toolchain
 
 -   **Code**: Code Development and Review, continuous integration tools
@@ -37,6 +39,8 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
     -   [New Relic]()
     -   [Splunk]()
 
+---
+
 ## TODO: sort
 
 -   [Build & Release](./build_and_release.md)
@@ -53,6 +57,16 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 -   [SAML]()
 -   [Selenium]()
 -   [Vagrant]()
+
+---
+
+## Docker vs Vagrant (different beasts)
+
+Docker talks with the kernel of linux (and in a near future, windows) to create containers (think in a chroot that have its own network interfaces, users and process, isolated from the rest of the system ) to launch applications, in an opinionated way (the emphasis is in running single apps, declaring exposed network ports, and image based filesystems).
+
+Vagrant talks with virtualization systems (VMware, virtualbox, aws, even docker) to mainly create full virtual machines with their own IPs, running any OS and of course, all the applications than implies booting that VM.
+
+---
 
 ## References
 
