@@ -13,4 +13,4 @@ Strings and other concrete objects are typically expressed as immutable objects 
 
 ## References
 
--   [Wikipedia](https://en.wikipedia.org/wiki/Immutable_object)
+-   [Wikipedia: Immutable object](https://en.wikipedia.org/wiki/Immutable_object)
