@@ -73,7 +73,15 @@ Up to a point, increasing both `depth` and `window` can give you smaller packs. 
 
 ## Actions
 
-### `git rebase -i <hash>`
+### Rebase
+
+![](http://kentnguyen.com/wp-content/uploads/2012/01/git_rebase.png)
+
+#### Interactive Rebase
+
+```sh
+git rebase -i <hash>`
+````
 
 Rewrite history.
 
