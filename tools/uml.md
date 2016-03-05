@@ -60,6 +60,8 @@
 )
 ```
 
+---
+
 ![Alt text](http://g.gravizo.com/g?
 @startuml;
 actor User;
@@ -103,6 +105,8 @@ deactivate A;
 @enduml
 )
 ```
+
+---
 
 ## Tools
 
