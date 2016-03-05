@@ -7,6 +7,7 @@ git init
 git clone <repo_url>
 git checkout <pre-existing-branch-name>
 git checkout -b <new_branch_name>
+git branch -u upstream/branch # track existing branch
 ```
 
 ## Commands
