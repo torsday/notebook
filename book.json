@@ -6,7 +6,6 @@
     },
     "plugins": [
         "collapsible-menu",
-        "plantuml",
         "todo"
     ]
 }

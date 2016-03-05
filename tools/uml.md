@@ -18,7 +18,7 @@
 
 ![Sequence Diagram](https://upload.wikimedia.org/wikipedia/commons/9/9b/CheckEmail.svg)
 
-## TODO TEST [PlantUML](http://plantuml.com)
+## [PlantUML](http://plantuml.com) using [Gravizo](http://g.gravizo.com)
 
 ![Alt text](http://g.gravizo.com/g?
   digraph G {
@@ -38,27 +38,26 @@
   }
 )
 
-<https://github.com/lyhcode/gitbook-plugin-plantuml>
-
-```uml
-@startuml
-
-    Class Stage
-    Class Timeout {
-        +constructor:function(cfg)
-        +timeout:function(ctx)
-        +overdue:function(ctx)
-        +stage: Stage
-    }
-    Stage <|-- Timeout
-
-@enduml
-```
-
-```sh
-npm install -g gitbook-plugin-plantuml
-brew install graphviz
-```
+![Alt text](http://g.gravizo.com/g?
+  @startuml;
+    actor User;
+    participant "First Class" as A;
+    participant "Second Class" as B;
+    participant "Last Class" as C;
+    User -> A: DoWork;
+    activate A;
+    A -> B: Create Request;
+    activate B;
+    B -> C: DoWork;
+    activate C;
+    C --> B: WorkDone;
+    destroy C;
+    B --> A: Request Created;
+    deactivate B;
+    A --> User: Done;
+    deactivate A;
+  @enduml
+)
 
 ## Tools
 
