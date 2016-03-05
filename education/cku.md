@@ -77,6 +77,5 @@ Traits vs. Behaviors
     -   Sync-specific meetings between inter-connected teams
 
 3.  **Collaboration is everyone's responsibility**
- 
-    -   Prophecy Rollout by Kyle
 
+    -   Prophecy Rollout by Kyle
