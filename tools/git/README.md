@@ -216,3 +216,4 @@ alias gpk='git count-objects -vH && echo "" && git repack -a -d -f --depth=250 -
 ## References
 
 -   [Git Flow](https://github.com/nvie/gitflow)
+-   [StackOverflow: Make an existing Git branch track a remote branch?](https://stackoverflow.com/questions/520650/make-an-existing-git-branch-track-a-remote-branch)
