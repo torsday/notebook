@@ -60,7 +60,7 @@
 -   Law of Demeter
 -   [Exercism.IO](http://exercism.io/dashboard), a tool to learn languages.
 -   symbol in ruby: an immutable value that only uses one slot of memory.
--   [Intersection / `&` in ruby](./languages/ruby.md#arrays)
+-   [Intersection / `&` in ruby](./languages/ruby/README.md#arrays)
 
 2016-02-17
 

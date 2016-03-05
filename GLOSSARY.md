@@ -68,10 +68,6 @@ Directory Information Tree.
 
 An algorithm design paradigm based on multi-branched recursion. A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same (or related) type (divide), until these become simple enough to be solved directly (conquer). The solutions to the sub-problems are then combined to give a solution to the original problem.
 
-## Docker
-
-Docker, a tool for deploying and running applications. Docker provides a way to run an application securely isolated in a container in a way that is platform agnostic. <https://docs.docker.com>
-
 ## Domain-Specific Language
 
 A computer language specialized to a particular application domain.
@@ -112,6 +108,10 @@ Hash-based message authentication code.
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
 
+## Kernel
+
+Connects the application software to the hardware of a computer: managing i/o requests from software, and translates them into data processing instructions for the CPU and other hardware.
+
 ## Kitematic
 
 The Docker GUI, runs on Mac OS X and Windows operating systems. <https://docs.docker.com/kitematic>
@@ -135,6 +135,10 @@ A directory service protocol that runs on a layer above the TCP/IP stack. It pro
 ## LDIF
 
 A standard plain text data interchange format for representing LDAP directory CRUD requests.
+
+## LXC
+
+An operating-system-level virtualization environment for running multiple isolated Linux systems (containers) on a single Linux control host.
 
 ## Ncurses
 
@@ -239,6 +243,14 @@ A set of methods that are not inherited, but composed into classes.
 ## Type introspection
 
 The ability of a program to examine the type or properties of an object at runtime.
+
+## UFS
+
+Unionfs is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. As an example application of union mounting, consider the need to update the information contained on a CD-ROM or DVD. While a CD-ROM is not writable, one can overlay the CD's mount point with a writable directory in a union mount. Then, updating files in the union directory will cause them to end up in the writable directory, giving the illusion that the CD-ROM's contents have been updated.
+
+## Union mount
+
+A way of combining multiple directories into one that appears to contain their combined contents.
 
 ## UUID
 
