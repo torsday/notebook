@@ -1,5 +1,29 @@
 # Learning Log
 
+---
+
+-   git: show files updated/created in the past x days
+
+    ```sh
+    git log --pretty=format: --name-only --since="3 days ago" | sort | uniq
+    ```
+
+-   What I've worked on recently:
+
+    -   [cku](./education/cku.md)
+    -   [feedback](./education/feedback.md)
+    -   [raml](./languages/raml.md)
+    -   [throw_vs_raise](./languages/ruby/throw_vs_raise.md)
+    -   [swift](./languages/swift.md)
+    -   [buddhism](./lifestyle/buddhism.md)
+    -   [autoloader](./php/autoloader.md)
+    -   [git](./tools/git/README.md)
+    -   [uml](./tools/uml.md)
+
+2016-03-07
+
+---
+
 -   Run this JS at `read.amazon.com` to get copy/paste functionality *(from <https://gist.github.com/aaronshaf/1346968>)*
 
   ```js
