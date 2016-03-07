@@ -2,6 +2,12 @@
 
 ---
 
+-   UML diagram w/i PhpStorm:
+
+    1.  install plugin (it's the only UML one)
+    2.  select dir
+    3.  `⇧` + `⌥` + `⌘` + `u`
+
 -   git: show files updated/created in the past x days
 
     ```sh
