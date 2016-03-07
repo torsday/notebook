@@ -10,14 +10,12 @@
 
 -   What I've worked on recently:
 
-    -   [cku](./education/cku.md)
-    -   [feedback](./education/feedback.md)
-    -   [raml](./languages/raml.md)
-    -   [throw_vs_raise](./languages/ruby/throw_vs_raise.md)
-    -   [swift](./languages/swift.md)
     -   [buddhism](./lifestyle/buddhism.md)
-    -   [autoloader](./php/autoloader.md)
     -   [git](./tools/git/README.md)
+    -   [php autoloader](./php/autoloader.md)
+    -   [raml](./languages/raml.md)
+    -   [ruby throw_vs_raise](./languages/ruby/throw_vs_raise.md)
+    -   [swift](./languages/swift.md)
     -   [uml](./tools/uml.md)
 
 2016-03-07
