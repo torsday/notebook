@@ -2,10 +2,10 @@
 
 *From: [hasno.info](http://hasno.info/ruby-gotchas-and-caveats)*
 
-> catch/throw are not the same as raise/rescue. catch/throw allows you to quickly exit blocks back to a point where a catch is defined for a specific symbol, raise rescue is the real exception handling stuff involving the Exception object.
+> `catch`/`throw` are not the same as `raise`/`rescue`. `catch`/`throw` allows you to quickly exit blocks back to a point where a catch is defined for a specific symbol, raise rescue is the real exception handling stuff involving the Exception object.
 
--   `raise`, `fail`, `rescue`, and ensure handle errors, also known as exceptions
--   `throw` and `catch` are control flow
+-   `raise`, `fail`, `rescue`, and ensure handle **errors**, a.k.a. **exceptions**
+-   `throw` and `catch` are **control flow**
 
 *From: [Grimm, Avdi. "Throw, Catch, Raise, Rescue… I’m so Confused!"](http://rubylearning.com/blog/2011/07/12/throw-catch-raise-rescue-im-so-confused)*
 
