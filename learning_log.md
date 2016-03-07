@@ -12,7 +12,7 @@
 
     -   [Buddhism](./lifestyle/buddhism.md)
     -   [Git](./tools/git/README.md)
-    -   [Php autoloader](./php/autoloader.md)
+    -   [PHP Autoloader](./php/autoloader.md)
     -   [RAML](./languages/raml.md)
     -   [Ruby `throw` vs `raise`](./languages/ruby/throw_vs_raise.md)
     -   [Swift](./languages/swift.md)
