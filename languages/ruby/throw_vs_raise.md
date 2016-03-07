@@ -9,7 +9,7 @@
 
 > Unlike in other languages, Ruby’s throw and catch are not used for exceptions. Instead, they provide a way to terminate execution early when no further work is needed. (Grimm, 2011)
 
-Terminating a single level of control flow, like a `while` loop, can be done with a simple `return`. Terminating many levels of control flow, like a nested loop, can be done with `throw`.
+-   Terminating a single level of control flow, like a `while` loop, can be done with a simple `return`. Terminating many levels of control flow, like a nested loop, can be done with `throw`.
 
 *From: [Thomas, Dave, and Andrew Hunt. "Programming Ruby."](http://ruby-doc.com/docs/ProgrammingRuby/html/tut_exceptions.html)*
 
