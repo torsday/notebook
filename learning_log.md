@@ -10,13 +10,13 @@
 
 -   What I've worked on recently:
 
-    -   [buddhism](./lifestyle/buddhism.md)
-    -   [git](./tools/git/README.md)
-    -   [php autoloader](./php/autoloader.md)
-    -   [raml](./languages/raml.md)
-    -   [ruby throw_vs_raise](./languages/ruby/throw_vs_raise.md)
-    -   [swift](./languages/swift.md)
-    -   [uml](./tools/uml.md)
+    -   [Buddhism](./lifestyle/buddhism.md)
+    -   [Git](./tools/git/README.md)
+    -   [Php autoloader](./php/autoloader.md)
+    -   [RAML](./languages/raml.md)
+    -   [Ruby `throw` vs `raise`](./languages/ruby/throw_vs_raise.md)
+    -   [Swift](./languages/swift.md)
+    -   [UML](./tools/uml.md)
 
 2016-03-07
 
