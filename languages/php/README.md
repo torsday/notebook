@@ -1,6 +1,12 @@
 # PHP
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+---
+
+**Table of Contents**
+
+<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Hello World](#hello-world)
 - [Variables](#variables)
@@ -16,8 +22,15 @@
 - [Class Abstraction](#class-abstraction)
 - [Interfaces](#interfaces)
 - [Traits](#traits)
+- [References](#references)
 
 <!-- /TOC -->
+
+<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
+
+---
+
+---
 
 ## Hello World
 
@@ -31,11 +44,15 @@ print "This prints, too";
 // This is a comment
 ```
 
+---
+
 ## Variables
 
 ```php
 $myName = "Carleton John";
 ```
+
+---
 
 ## Strings
 
@@ -55,6 +72,8 @@ strtolower("HI")  # =>  "hi"
 strpos("John", "o")  # =>  1
 ```
 
+---
+
 ## Numbers
 
 ```php
@@ -65,6 +84,8 @@ rand()  # =>  prints random number between 0 and 32767
 rand(1, 10)  # =>  prints a random number between 0 and 10
 ```
 
+---
+
 ## Arrays
 
 ```php
@@ -72,7 +93,7 @@ $myArray = array(1, 2, 3, 4, 5);
 
 $associative = array('key' => 'value');
 
-unset($myArray[0])  =>  [ 2, 3, 4, 5]
+unset($myArray[0]) => [ 2, 3, 4, 5]
 
 array_push($myArray, 6);
 
@@ -82,6 +103,8 @@ sort($myArray);
 
 join(", ", $myArray);
 ```
+
+---
 
 ## Control Flow
 
@@ -124,6 +147,8 @@ switch(value) {
 }
 ```
 
+---
+
 ## Loops
 
 ```php
@@ -152,6 +177,8 @@ do {
 } while (condition)
 ```
 
+---
+
 ## Functions
 
 ```php
@@ -160,6 +187,8 @@ function name(parameters) {
   return something;
 }
 ```
+
+---
 
 ## Classes & Objects
 
@@ -192,11 +221,15 @@ $me = new Person("John", "Olmsted", 28);
 echo $me->firstName  =>  "John"
 ```
 
+---
+
 ## Method & Property Visibility
 
 -   **Public** – accessible everywhere.
 -   **Protected** – accessible within the class itself and subclasses.
 -   **Private** – accessible only within the class itself.
+
+---
 
 ## Inheritance
 
@@ -210,6 +243,8 @@ class Fireman extends Person {
 
 }
 ```
+
+---
 
 ## Class Abstraction
 
@@ -226,6 +261,8 @@ class Monkey extends Animal {
   }
 }
 ```
+
+---
 
 ## Interfaces
 
@@ -251,6 +288,8 @@ class Spaniard implements Speech {
 
 ```
 
+---
+
 ## Traits
 
 Sets of methods that are not inherited, but composed into classes.
@@ -275,6 +314,8 @@ class User {
   use neatBehaviors, badBehaviors, shenanagins;
 }
 ```
+
+---
 
 ## References
 
