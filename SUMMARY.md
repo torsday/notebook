@@ -170,6 +170,7 @@
 
         -   [Bundler](./languages/ruby/bundler.md)
         -   [Rails](./languages/ruby/rails.md)
+        -   [Throw vs. Raise]()
 
     -   [Scala](./languages/scala.md)
 
