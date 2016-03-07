@@ -22,7 +22,7 @@
 
 ---
 
--   Run this JS at `read.amazon.com` to get copy/paste functionality *(from <https://gist.github.com/aaronshaf/1346968>)*
+-   Run this JS at <read.amazon.com> to get copy/paste functionality *(from <https://gist.github.com/aaronshaf/1346968>)*
 
   ```js
   new_window=window.open();new_window.document.body.innerHTML = $('iframe').contents().find('iframe').contents().find('body').get(1).innerHTML;
