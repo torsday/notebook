@@ -205,8 +205,8 @@ class Person {
 
   public function __construct($firstName, $lastName, $age) {
     $this->firstName = $firstName;
-    $this->lastName = $lastName;
-    $this->age = $age;
+    $this->lastName  = $lastName;
+    $this->age       = $age;
   }
 
   // methods:
