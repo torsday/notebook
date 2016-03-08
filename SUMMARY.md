@@ -182,6 +182,7 @@
     -   [Books](./lifestyle/books.md)
     -   [Buddhism](./lifestyle/buddhism.md)
     -   [Campsite Wishlist](./lifestyle/campsite_wishlist.md)
+    -   [Coffee](./lifestyle/coffee.md)
     -   [Tracking](./lifestyle/tracking.md)
     -   [Zen](./lifestyle/zen.md)
 

@@ -18,3 +18,15 @@ http://www.imagemagick.org
 ```bash
 % brew switch imagemagick 6.8.9-9
 ```
+
+## Troubleshooting
+
+```sh
+brew doctor
+```
+
+### `/usr/local` is not writable.
+
+```sh
+sudo chown -R $USER:admin /usr/local/include
+```
