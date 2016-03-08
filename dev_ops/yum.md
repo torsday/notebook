@@ -1,6 +1,5 @@
 # Yum *(Yellowdog Updater, Modified)*
 
-
 *From: [Wikipedia](https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified)*
 
 > An open-source command-line package-management utility for Linux operating systems using the RPM Package Manager.
