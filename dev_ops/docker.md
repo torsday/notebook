@@ -83,7 +83,7 @@ docker rm [container id] # DELETING a container
 docker attach [container id] # ATTACHING yourself to a container; your console will run commands within the container itself
 ```
 
-Detach the current container: type ^+P followed by ^+Q
+Detach the current container: type `^` + `P` followed by `^` + `Q` 
 
 ---
 
