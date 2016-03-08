@@ -22,7 +22,7 @@ The two most commonly grown are the highly regarded **arabica**, and the less so
 
 -   Has more caffeine, consequently:
     -   Tastes more bitter
-    -   Easier to grow (caffeine kills pests)
+    -   Easier (and cheaper) to grow (caffeine kills pests)
 
 ---
 
