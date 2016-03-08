@@ -8,9 +8,7 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ## Docker Elements
 
-![](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
-
-![](https://docs.docker.com/tutimg/container_explainer.png)
+![command description](https://docs.docker.com/tutimg/container_explainer.png)
 
 ### Image
 
@@ -59,6 +57,8 @@ docker rmi -f IMAGE_ID
 ### Container
 
 A Linux Container, (sort of) like a directory, it holds everything needed for an app to run.
+
+![containers](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
 
 -   Docker containers are essentially directories that can be packed (e.g. tar-archived), then shared and run on other hosts. The only dependency is having docker installed on the hosts.
 
