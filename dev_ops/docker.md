@@ -6,19 +6,6 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ---
 
-## Docker Tools
-
-|                                  |                                                                                            |
-|----------------------------------|--------------------------------------------------------------------------------------------|
-| [Docker Engine][docker engine]   | runs on Linux to create the operating environment for your distributed applications.       |
-| [Docker Machine][docker machine] | automate Docker provisioning                                                               |
-| [Docker Toolbox][toolbox]        | an installer to quickly and easily install and setup a Docker environment on your computer |
-| [Kitematic][kitematic]           | build and run containers through a GUI                                                     |
-
-*NOTE: [Docker Machine](https://docs.docker.com/machine) deprecates Boot2Docker*
-
----
-
 ## Docker Elements
 
 ![](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
@@ -142,6 +129,19 @@ docker attach CONTAINER_ID
 ```
 
 Detach the current container: type `^` + `P` followed by `^` + `Q`
+
+---
+
+## Docker Tools
+
+|                                  |                                                                                            |
+|----------------------------------|--------------------------------------------------------------------------------------------|
+| [Docker Engine][docker engine]   | runs on Linux to create the operating environment for your distributed applications.       |
+| [Docker Machine][docker machine] | automate Docker provisioning                                                               |
+| [Docker Toolbox][toolbox]        | an installer to quickly and easily install and setup a Docker environment on your computer |
+| [Kitematic][kitematic]           | build and run containers through a GUI                                                     |
+
+*NOTE: [Docker Machine](https://docs.docker.com/machine) deprecates Boot2Docker*
 
 ---
 
