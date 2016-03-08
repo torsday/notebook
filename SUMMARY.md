@@ -180,10 +180,18 @@
 -   [Lifestyle](./lifestyle/README.md)
 
     -   [Books](./lifestyle/books.md)
+
     -   [Buddhism](./lifestyle/buddhism.md)
+
     -   [Campsite Wishlist](./lifestyle/campsite_wishlist.md)
-    -   [Coffee](./lifestyle/coffee.md)
+
+    -   [Food](./lifestyle/food.md)
+
+        -   [Coffee](./lifestyle/coffee.md)
+        -   [Tea](./lifestyle/tea.md)
+
     -   [Tracking](./lifestyle/tracking.md)
+
     -   [Zen](./lifestyle/zen.md)
 
 -   [Linux](./linux/README.md)
