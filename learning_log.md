@@ -1,6 +1,34 @@
 # Learning Log
 
--   Run this JS at `read.amazon.com` to get copy/paste functionality *(from <https://gist.github.com/aaronshaf/1346968>)*
+---
+
+-   UML diagram w/i PhpStorm:
+
+    1.  install plugin (it's the only UML one)
+    2.  select dir
+    3.  `⇧` + `⌥` + `⌘` + `u`
+
+-   git: show files updated/created in the past x days
+
+    ```sh
+    git log --pretty=format: --name-only --since="3 days ago" | sort | uniq
+    ```
+
+-   What I've worked on recently:
+
+    -   [Buddhism](./lifestyle/buddhism.md)
+    -   [Git](./tools/git/README.md)
+    -   [PHP Autoloader](./php/autoloader.md)
+    -   [RAML](./languages/raml.md)
+    -   [Ruby `throw` vs `raise`](./languages/ruby/throw_vs_raise.md)
+    -   [Swift](./languages/swift.md)
+    -   [UML](./tools/uml.md)
+
+2016-03-07
+
+---
+
+-   Run this JS at [read.amazon.com](https://read.amazon.com) to get copy/paste functionality *(from <https://gist.github.com/aaronshaf/1346968>)*
 
   ```js
   new_window=window.open();new_window.document.body.innerHTML = $('iframe').contents().find('iframe').contents().find('body').get(1).innerHTML;

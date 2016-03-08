@@ -113,6 +113,7 @@
     -   [Splunk]()
     -   [Travis CI](./dev_ops/travis.md)
     -   [Vagrant]()
+    -   [Yum]()
 
 -   [Education](./education/README.md)
 
@@ -170,6 +171,7 @@
 
         -   [Bundler](./languages/ruby/bundler.md)
         -   [Rails](./languages/ruby/rails.md)
+        -   [Throw vs. Raise](./languages/ruby/throw_vs_raise.md)
 
     -   [Scala](./languages/scala.md)
 
@@ -178,9 +180,18 @@
 -   [Lifestyle](./lifestyle/README.md)
 
     -   [Books](./lifestyle/books.md)
+
     -   [Buddhism](./lifestyle/buddhism.md)
+
     -   [Campsite Wishlist](./lifestyle/campsite_wishlist.md)
+
+    -   [Food](./lifestyle/food.md)
+
+        -   [Coffee](./lifestyle/coffee.md)
+        -   [Tea](./lifestyle/tea.md)
+
     -   [Tracking](./lifestyle/tracking.md)
+
     -   [Zen](./lifestyle/zen.md)
 
 -   [Linux](./linux/README.md)

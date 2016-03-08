@@ -200,6 +200,10 @@ The ability of a computer program to examine (see type introspection) and modify
 
 A Repository mediates between the domain and data mapping layers, acting like an in-memory domain object collection
 
+## RPM
+
+RPM Package Manager; originally Red Hat Package Manager.
+
 ## RSA
 
 A cryptosystem for public-key encryption.
