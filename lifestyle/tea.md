@@ -12,10 +12,11 @@
 
 ## Favorites
 
-| Type            | Location         | Where to Purchase |    Temp     | Steap Time | Rating |
-|-----------------|------------------|-------------------|:-----------:|------------|:------:|
-| Organic Hojicha | Shizouka, Japan. | Macha Tea Company | 195° - 208° | 3 min      |   3    |
-| BDH Black       | Lingcang, Junnan | Macha Tea Company |    208°     | 4 - 5 min  |        |
+| Type                 | Location         | Where to Purchase |    Temp     | Steep (min) | Rating |
+|----------------------|------------------|-------------------|:-----------:|:-----------:|:------:|
+| Organic Hojicha      | Shizouka, Japan. | Macha Tea Company | 195° - 208° |      3      |   3    |
+| BDH Black            | Lingcang, Junnan | Macha Tea Company |    208°     |    4 - 5    |        |
+| Herbal Restore Blend |                  | Macha Tea Company |    208°     |    4 - 5    |        |
 
 ---
 
