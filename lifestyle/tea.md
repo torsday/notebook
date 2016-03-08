@@ -10,9 +10,11 @@
 
 ---
 
-## TODO
+## Favorites
 
--   Organic Hojicha: Shizouka, Japan.
+| Type            | Location         | Where to Purchase |
+|-----------------|------------------|-------------------|
+| Organic Hojicha | Shizouka, Japan. | Macha Tea Company |
 
 ---
 
