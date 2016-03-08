@@ -97,6 +97,13 @@ Detach the current container: type ^+P followed by ^+Q
 
 ---
 
+## Vocabulary
+
+Docker Image |
+Docker Container | A running image; an instance of an image. You can have many running containers of the same image
+
+---
+
 ## References
 
 -   [Deploy Rails Application using Docker](http://steveltn.me/blog/2014/03/15/deploy-rails-applications-using-docker)
@@ -108,6 +115,7 @@ Detach the current container: type ^+P followed by ^+Q
 -   [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
 -   [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)
 -   [Quora: What is the difference between Docker and Vagrant? When should you use each one?](https://www.quora.com/What-is-the-difference-between-Docker-and-Vagrant-When-should-you-use-each-one)
+-   [StackOverflow: Docker image vs container](http://stackoverflow.com/questions/23735149/docker-image-vs-container)
 
 [docker engine]: "https://www.docker.com/products/docker-engine"
 [docker machine]: "https://docs.docker.com/machine"
