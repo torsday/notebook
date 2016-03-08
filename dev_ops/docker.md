@@ -23,6 +23,31 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ![](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
 
+### Image
+
+Read-only template for a docker container.
+
+-   Uses a union file system (UFS) to 'layer' file system branches on top of each other. Every time a change is made to a Docker image, a new layer is created.
+-   Docker images are built from a set a steps called instructions. These instructions can be built either by executing commands manually or automatically through Dockerfiles.
+-   As more layers (tools, applications, etc.) are added on top of the base, new images can be formed by committing these changes – like a version control system!
+-   an inert, immutable, file that's essentially a snapshot of a container. Images are created with the build command, and they'll produce a container when started with run.
+-   Images are stored in a Docker registry such as registry.hub.docker.com.
+-   Because they can become quite large, images are designed to be composed of layers of other images, allowing a miminal amount of data to be sent when transferring images over the network.
+-   Local images can be listed by running `docker images`
+
+```sh
+# SEARCH for images
+docker search [image_name]
+docker pull [image_name]
+
+docker images # LIST all images on your system
+docker ps # List all containers current running
+docker ps -l # List both running and non-running containers
+sudo docker commit [container ID] [image name] # COMMIT an image
+
+docker rmi -f IMAGE_ID # remove image
+```
+
 ### Container
 
 A Linux Container, (sort of) like a directory, it holds everything needed for an app to run.
@@ -40,42 +65,7 @@ A Linux Container, (sort of) like a directory, it holds everything needed for an
 
 -   NB: docker depends on a single process to run. When that process stops, the container stops.
 
-### Image
-
-Read-only template for a docker container.
-
--   Uses a union file system (UFS) to 'layer' file system branches on top of each other. Every time a change is made to a Docker image, a new layer is created.
--   Docker images are built from a set a steps called instructions. These instructions can be built either by executing commands manually or automatically through Dockerfiles.
--   As more layers (tools, applications, etc.) are added on top of the base, new images can be formed by committing these changes – like a version control system!
-
----
-
-## Commands
-
-![](https://docs.docker.com/tutimg/container_explainer.png)
-
-### Working with a Dockerfile
-
-```sh
-docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
-```
-
----
-
-### Working with Docker Images
-
-```sh
-# SEARCH for images
-docker search [image_name]
-docker pull [image_name]
-
-docker images # LIST all images on your system
-docker ps # List all containers current running
-docker ps -l # List both running and non-running containers
-sudo docker commit [container ID] [image name] # COMMIT an image
-```
-
-### Working with Docker Containers
+-   If an image is a class, then a container is an instance of a class.
 
 ```sh
 # CREATE a new container, either from an existing image or creating a new one:
@@ -94,6 +84,18 @@ docker attach [container id] # ATTACHING yourself to a container; your console w
 ```
 
 Detach the current container: type ^+P followed by ^+Q
+
+---
+
+## Commands
+
+![](https://docs.docker.com/tutimg/container_explainer.png)
+
+### Working with a Dockerfile
+
+```sh
+docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
+```
 
 ---
 
