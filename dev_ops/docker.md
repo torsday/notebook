@@ -23,6 +23,8 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ![](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
 
+![](https://docs.docker.com/tutimg/container_explainer.png)
+
 ### Image
 
 Read-only template for a docker container.
@@ -40,6 +42,9 @@ docker search [image_name]
 docker pull [image_name]
 
 docker images # List all images on your system
+
+docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
+
 sudo docker commit [container ID] [image name] # COMMIT an image
 
 docker rmi -f IMAGE_ID # remove image
@@ -83,19 +88,7 @@ docker rm [container id] # DELETING a container
 docker attach [container id] # ATTACHING yourself to a container; your console will run commands within the container itself
 ```
 
-Detach the current container: type `^` + `P` followed by `^` + `Q` 
-
----
-
-## Commands
-
-![](https://docs.docker.com/tutimg/container_explainer.png)
-
-### Working with a Dockerfile
-
-```sh
-docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
-```
+Detach the current container: type `^` + `P` followed by `^` + `Q`
 
 ---
 
