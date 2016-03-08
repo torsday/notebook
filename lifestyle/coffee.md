@@ -16,6 +16,14 @@ The earliest credible evidence of coffee-drinking appears in the middle of the 1
 
 The two most commonly grown are the highly regarded **arabica**, and the less sophisticated but stronger and more hardy **robusta**.
 
+### Arabica
+
+### Robusta
+
+-   Has more caffeine, consequently:
+    -   Tastes more bitter
+    -   Easier to grow (caffeine kills pests)
+
 ---
 
 ## Science
@@ -34,3 +42,4 @@ Clinical studies indicate that moderate coffee consumption is benign or mildly b
 ## References
 
 -   [Wikipedia: Coffee](https://en.wikipedia.org/wiki/Coffee)
+-   [Wikipedia: Coffee Roasting](https://en.wikipedia.org/wiki/Coffee_roasting)
