@@ -46,22 +46,22 @@ docker search [image_name]
 docker pull [image_name]
 ```
 
-Show
+List all images on your system
 
 ```sh
-docker images # List all images on your system
+docker images
 ```
 
 Build an image from a dockerfile
 
 ```sh
-docker build -t NAME_OF_IMAGE [directory where Dockerfile lives] NAME_OF_CONTAINER 
+docker build -t NAME_OF_IMAGE [directory where Dockerfile lives] NAME_OF_CONTAINER
 ```
 
-Commit
+Commit an image
 
 ```sh
-sudo docker commit [container ID] [image name] # COMMIT an image
+sudo docker commit [container ID] IMAGE_NAME
 ```
 
 Remove
@@ -91,57 +91,55 @@ A Linux Container, (sort of) like a directory, it holds everything needed for an
 
 #### Commands
 
-Show
+List
 
 ```sh
 docker ps     # List all containers current running
 docker ps -l  # List both running and non-running containers
 ```
 
-Create
+Create *(either from an existing image or creating a new one)*
 
 ```sh
-# CREATE a new container, either from an existing image or creating a new one:
-docker run [image name] [command to run]
+docker run IMAGE_NAME COMMAND_TO_RUN
 docker run my_image echo 'hello'
 ```
 
 Running
 
 ```sh
-# RUNNING a container
-docker run [container id]
-docker run [image name] [command to run]
+docker run CONTAINER_ID
+docker run IMAGE_NAME COMMAND_TO_RUN
 ```
 
-Interactie shell
+Start an interactive shell within your container
 
 ```sh
-docker run -it [image name] /bin/sh # Start an interactive shell within your container
+docker run -it IMAGE_NAME /bin/sh
 ```
 
-Forward port
+Forward port on the host to a port on the container
 
 ```sh
-docker run --publish 3000:3000 [image name] [command to run] # Forward a port on the host to a port on the container
+docker run --publish 3000:3000 IMAGE_NAME COMMAND_TO_RUN
 ```
 
-Stopping
+Stopping a container
 
 ```sh
-docker stop [container id] # STOPPING a container
+docker stop CONTAINER_ID
 ```
 
-Removing
+Removing a container
 
 ```sh
-docker rm [container id] # DELETING a container
+docker rm CONTAINER_ID
 ```
 
-Attaching
+Attaching yourself to a container *(your console will run commands within the container itself)*
 
 ```sh
-docker attach [container id] # ATTACHING yourself to a container; your console will run commands within the container itself
+docker attach CONTAINER_ID
 ```
 
 Detach the current container: type `^` + `P` followed by `^` + `Q`
