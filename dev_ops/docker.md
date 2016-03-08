@@ -145,15 +145,6 @@ Detach the current container: type `^` + `P` followed by `^` + `Q`
 
 ---
 
-## Vocabulary
-
-|                  |                                                                                                  |
-|------------------|--------------------------------------------------------------------------------------------------|
-| Docker Container | A running image; an instance of an image. You can have many running containers of the same image |
-| Docker Image     |                                                                                                  |
-
----
-
 ## References
 
 -   [Deploy Rails Application using Docker](http://steveltn.me/blog/2014/03/15/deploy-rails-applications-using-docker)
