@@ -94,8 +94,10 @@ Detach the current container: type `^` + `P` followed by `^` + `Q`
 
 ## Vocabulary
 
-Docker Image |
-Docker Container | A running image; an instance of an image. You can have many running containers of the same image
+|                  |                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------|
+| Docker Container | A running image; an instance of an image. You can have many running containers of the same image |
+| Docker Image     |                                                                                                  |
 
 ---
 
