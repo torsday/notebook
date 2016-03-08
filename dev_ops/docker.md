@@ -36,17 +36,37 @@ Read-only template for a docker container.
 -   Images are stored in a Docker registry such as registry.hub.docker.com.
 -   Because they can become quite large, images are designed to be composed of layers of other images, allowing a miminal amount of data to be sent when transferring images over the network.
 
+#### Commands
+
+Search
+
 ```sh
 # SEARCH for images
 docker search [image_name]
 docker pull [image_name]
+```
 
+Show
+
+```sh
 docker images # List all images on your system
+```
 
+Create
+
+```sh
 docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
+```
 
+Commit
+
+```sh
 sudo docker commit [container ID] [image name] # COMMIT an image
+```
 
+Remove
+
+```sh
 docker rmi -f IMAGE_ID # remove image
 ```
 
@@ -69,22 +89,58 @@ A Linux Container, (sort of) like a directory, it holds everything needed for an
 
 -   If an image is a class, then a container is an instance of a class.
 
+#### Commands
+
+Show
+
 ```sh
 docker ps     # List all containers current running
 docker ps -l  # List both running and non-running containers
+```
 
+Create
+
+```sh
 # CREATE a new container, either from an existing image or creating a new one:
 docker run [image name] [command to run]
 docker run my_image echo 'hello'
+```
 
+Running
+
+```sh
 # RUNNING a container
 docker run [container id]
 docker run [image name] [command to run]
+```
 
+Interactie shell
+
+```sh
 docker run -it [image name] /bin/sh # Start an interactive shell within your container
+```
+
+Forward port
+
+```sh
 docker run --publish 3000:3000 [image name] [command to run] # Forward a port on the host to a port on the container
+```
+
+Stopping
+
+```sh
 docker stop [container id] # STOPPING a container
+```
+
+Removing
+
+```sh
 docker rm [container id] # DELETING a container
+```
+
+Attaching
+
+```sh
 docker attach [container id] # ATTACHING yourself to a container; your console will run commands within the container itself
 ```
 
