@@ -19,6 +19,10 @@ Read-only template for a docker container.
 -   Images are stored in a Docker registry such as registry.hub.docker.com.
 -   Because they can become quite large, images are designed to be composed of layers of other images, allowing a miminal amount of data to be sent when transferring images over the network.
 
+### Layers
+
+![layers](https://nvisium.com/blog/2014/10/15/docker-cache-friend-or-foe/1QndWJyZ7y4Ke9tZw87-uU73nXdKYKuQjMD3XTv3M6PPSvEYL2mBvPHFEO49BLPdcclgFxhM7pDs1E5G39VmRo4vg189grZ-0lz3OkpxpEWjQcWQJ20ixTxu6PUyTo5RjQ)
+
 #### Commands
 
 ![command description](https://docs.docker.com/tutimg/container_explainer.png)
