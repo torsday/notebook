@@ -52,10 +52,10 @@ Show
 docker images # List all images on your system
 ```
 
-Create
+Build an image from a dockerfile
 
 ```sh
-docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
+docker build -t NAME_OF_IMAGE [directory where Dockerfile lives] NAME_OF_CONTAINER 
 ```
 
 Commit
