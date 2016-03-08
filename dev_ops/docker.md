@@ -8,8 +8,6 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ## Docker Elements
 
-![command description](https://docs.docker.com/tutimg/container_explainer.png)
-
 ### Image
 
 Read-only template for a docker container.
@@ -22,6 +20,8 @@ Read-only template for a docker container.
 -   Because they can become quite large, images are designed to be composed of layers of other images, allowing a miminal amount of data to be sent when transferring images over the network.
 
 #### Commands
+
+![command description](https://docs.docker.com/tutimg/container_explainer.png)
 
 Search
 
