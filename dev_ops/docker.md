@@ -138,6 +138,12 @@ Detach the current container: type `^` + `P` followed by `^` + `Q`
 
 ---
 
+## Helpful Visuals
+
+![docker build and run](https://s3.amazonaws.com/learningdocker/wordpress/developing-with-docker-containers/dockerfile-build%2Brun.png)
+
+---
+
 ## Docker Tools
 
 |                                  |                                                                                            |
