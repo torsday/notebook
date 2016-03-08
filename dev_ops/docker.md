@@ -41,7 +41,6 @@ Read-only template for a docker container.
 Search
 
 ```sh
-# SEARCH for images
 docker search [image_name]
 docker pull [image_name]
 ```
@@ -67,7 +66,7 @@ sudo docker commit [container ID] IMAGE_NAME
 Remove
 
 ```sh
-docker rmi -f IMAGE_ID # remove image
+docker rmi -f IMAGE_ID
 ```
 
 ### Container
@@ -94,8 +93,8 @@ A Linux Container, (sort of) like a directory, it holds everything needed for an
 List
 
 ```sh
-docker ps     # List all containers current running
-docker ps -l  # List both running and non-running containers
+docker ps     # those running
+docker ps -l  # both running & dormant
 ```
 
 Create *(either from an existing image or creating a new one)*
