@@ -45,7 +45,7 @@ docker images
 Build an image from a dockerfile
 
 ```sh
-docker build -t NAME_OF_IMAGE [directory where Dockerfile lives] NAME_OF_CONTAINER
+docker build -t NAME_OF_IMAGE [directory where Dockerfile lives]
 ```
 
 Commit an image
