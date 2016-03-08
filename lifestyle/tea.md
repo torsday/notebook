@@ -12,9 +12,9 @@
 
 ## Favorites
 
-| Type            | Location         | Where to Purchase | Rating |
-|-----------------|------------------|-------------------|:------:|
-| Organic Hojicha | Shizouka, Japan. | Macha Tea Company |   3    |
+| Type            | Location         | Where to Purchase |    Temp     | Steap Time | Rating |
+|-----------------|------------------|-------------------|:-----------:|------------|:------:|
+| Organic Hojicha | Shizouka, Japan. | Macha Tea Company | 195° - 208° | 3 min      |   3    |
 
 ---
 
