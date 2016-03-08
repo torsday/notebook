@@ -12,11 +12,12 @@
 
 ## Favorites
 
-| Type                 | Location         | Where to Purchase |    Temp     | Steep (min) | Rating |
-|----------------------|------------------|-------------------|:-----------:|:-----------:|:------:|
+| Type                 |     Location     | Where to Purchase |    Temp     | Steep (min) | Rating |
+|----------------------|:----------------:|:-----------------:|:-----------:|:-----------:|:------:|
 | Organic Hojicha      | Shizouka, Japan. | Macha Tea Company | 195° - 208° |      3      |   3    |
 | BDH Black            | Lingcang, Junnan | Macha Tea Company |    208°     |    4 - 5    |        |
 | Herbal Restore Blend |                  | Macha Tea Company |    208°     |    4 - 5    |        |
+| Organic Sencha       |                  |   Berkely Bowl    |             |             |   4    |
 
 ---
 
