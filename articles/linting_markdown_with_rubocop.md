@@ -1,0 +1,1 @@
+# Linting markdown w/ rubocop

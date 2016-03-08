@@ -113,6 +113,7 @@
     -   [Splunk]()
     -   [Travis CI](./dev_ops/travis.md)
     -   [Vagrant]()
+    -   [Yum]()
 
 -   [Education](./education/README.md)
 
