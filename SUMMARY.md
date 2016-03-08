@@ -111,6 +111,7 @@
     -   [Phing](./dev_ops/phing.md)
     -   [SAML]()
     -   [Splunk]()
+    -   [Terraform](./dev_ops/terraform.md)
     -   [Travis CI](./dev_ops/travis.md)
     -   [Vagrant]()
     -   [Yum]()
