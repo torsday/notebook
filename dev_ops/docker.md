@@ -40,8 +40,6 @@ docker search [image_name]
 docker pull [image_name]
 
 docker images # List all images on your system
-docker ps     # List all containers current running
-docker ps -l  # List both running and non-running containers
 sudo docker commit [container ID] [image name] # COMMIT an image
 
 docker rmi -f IMAGE_ID # remove image
@@ -67,6 +65,9 @@ A Linux Container, (sort of) like a directory, it holds everything needed for an
 -   If an image is a class, then a container is an instance of a class.
 
 ```sh
+docker ps     # List all containers current running
+docker ps -l  # List both running and non-running containers
+
 # CREATE a new container, either from an existing image or creating a new one:
 docker run [image name] [command to run]
 docker run my_image echo 'hello'
