@@ -215,6 +215,7 @@
         -   [Drugs](./medicine/pharmacology/drugs/README.md)
 
             -   [Sumatriptan](./medicine/pharmacology/drugs/sumatriptan.md)
+            -   [Symbicort](./medicine/pharmacology/drugs/symbicort.md)
 
 -   [Persistence](./persistence/README.md)
 

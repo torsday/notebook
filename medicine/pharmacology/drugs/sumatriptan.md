@@ -1,6 +1,6 @@
 # Sumatriptan
 
-A medication used for the treatment of migraine headaches; the earlier the better
+A medication used for the treatment of migraine headaches. Efficacty is increased with earlier administration.
 
 ---
 
