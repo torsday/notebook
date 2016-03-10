@@ -10,6 +10,16 @@ Trade Names:
 
 ---
 
+## Clinical Data
+
+|                    |                                                                          |
+|--------------------|--------------------------------------------------------------------------|
+| Trade names        | Imitrex, Imigran,Treximet                                                |
+| Pregnancy category | C                                                                        |
+| Routes             | tablet, subcutaneous injection, nasal spray, transdermal electrophoresis |
+
+---
+
 ## Mechanism of action
 
 Sumatriptan is structurally similar to serotonin (5HT), and is a 5-HT receptor (types 5-HT1D and 5-HT1B) agonist. The specific receptor subtypes it activates are present on the cranial arteries and veins. Acting as an agonist at these receptors, sumatriptan reduces the vascular inflammation associated with migraines.
