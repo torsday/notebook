@@ -38,4 +38,4 @@ The most common side-effects reported by at least 2% of patients in controlled t
 
 ## References
 
--   [Wikipedia](https://en.wikipedia.org/wiki/Sumatriptan)
+-   [Wikipedia: Sumatriptan](https://en.wikipedia.org/wiki/Sumatriptan)
