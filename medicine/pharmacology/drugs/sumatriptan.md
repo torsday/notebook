@@ -2,12 +2,6 @@
 
 A medication used for the treatment of migraine headaches; the earlier the better
 
-Trade Names:
-
--   Imitrex
--   Imigran
--   Treximet as a combination product with naproxen.
-
 ---
 
 ## Clinical Data
