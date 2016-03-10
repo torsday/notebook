@@ -6,26 +6,65 @@ A tool for deploying and running applications. Docker provides a way to run an a
 
 ---
 
-## Docker Tools
-
-|                                  |                                                                                            |
-|----------------------------------|--------------------------------------------------------------------------------------------|
-| [Docker Engine][docker engine]   | runs on Linux to create the operating environment for your distributed applications.       |
-| [Docker Machine][docker machine] | automate Docker provisioning                                                               |
-| [Docker Toolbox][toolbox]        | an installer to quickly and easily install and setup a Docker environment on your computer |
-| [Kitematic][kitematic]           | build and run containers through a GUI                                                     |
-
-*NOTE: [Docker Machine](https://docs.docker.com/machine) deprecates Boot2Docker*
-
----
-
 ## Docker Elements
 
-![](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
+### Image
+
+Read-only template for a docker container.
+
+-   An inert, immutable, file that's essentially a snapshot of a container. Images are created with the build command, and they'll produce a container when started with run.
+-   Uses a union file system (UFS) to 'layer' file system branches on top of each other. **Every time a change is made to a Docker image, a new layer is created.**
+-   Docker images are built from a set a steps called instructions. These instructions can be built either by executing commands manually or automatically through Dockerfiles.
+-   As more layers (tools, applications, etc.) are added on top of the base, new images can be formed by committing these changes – like a version control system!
+-   Images are stored in a Docker registry such as registry.hub.docker.com.
+-   Because they can become quite large, images are designed to be composed of layers of other images, allowing a miminal amount of data to be sent when transferring images over the network.
+
+### Layers
+
+![layers](https://nvisium.com/blog/2014/10/15/docker-cache-friend-or-foe/1QndWJyZ7y4Ke9tZw87-uU73nXdKYKuQjMD3XTv3M6PPSvEYL2mBvPHFEO49BLPdcclgFxhM7pDs1E5G39VmRo4vg189grZ-0lz3OkpxpEWjQcWQJ20ixTxu6PUyTo5RjQ)
+
+![layers](http://www.cevo.com.au/wp-content/uploads/2015/07/Container1.png)
+
+#### Commands
+
+![command description](https://docs.docker.com/tutimg/container_explainer.png)
+
+Search
+
+```sh
+docker search [image_name]
+docker pull [image_name]
+```
+
+List all images on your system
+
+```sh
+docker images
+```
+
+Build an image from a dockerfile
+
+```sh
+docker build -t NAME_OF_IMAGE [directory where Dockerfile lives]
+```
+
+Commit an image
+
+```sh
+sudo docker commit [container ID] IMAGE_NAME
+```
+
+Remove
+
+```sh
+docker rmi -f IMAGE_ID
+```
 
 ### Container
 
 A Linux Container, (sort of) like a directory, it holds everything needed for an app to run.
+
+![containers](https://m3xg3lob3p2dp7jl2yeyci13-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/DockerizeImage2.png)
 
 -   Docker containers are essentially directories that can be packed (e.g. tar-archived), then shared and run on other hosts. The only dependency is having docker installed on the hosts.
 
@@ -40,60 +79,168 @@ A Linux Container, (sort of) like a directory, it holds everything needed for an
 
 -   NB: docker depends on a single process to run. When that process stops, the container stops.
 
-### Image
+-   If an image is a class, then a container is an instance of a class.
 
-Read-only template for a docker container.
+#### Commands
 
--   Uses a union file system (UFS) to 'layer' file system branches on top of each other. Every time a change is made to a Docker image, a new layer is created.
--   Docker images are built from a set a steps called instructions. These instructions can be built either by executing commands manually or automatically through Dockerfiles.
--   As more layers (tools, applications, etc.) are added on top of the base, new images can be formed by committing these changes – like a version control system!
-
----
-
-## Commands
-
-![](https://docs.docker.com/tutimg/container_explainer.png)
-
-### Working with a Dockerfile
+List
 
 ```sh
-docker build -t [name for image] [directory where Dockerfile lives] # BUILDING an image from a dockerfile
+docker ps     # those running
+docker ps -l  # both running & dormant
 ```
 
----
-
-### Working with Docker Images
+Create *(either from an existing image or creating a new one)*
 
 ```sh
-# SEARCH for images
-docker search [image_name]
-docker pull [image_name]
-
-docker images # LIST all images on your system
-docker ps # List all containers current running
-docker ps -l # List both running and non-running containers
-sudo docker commit [container ID] [image name] # COMMIT an image
-```
-
-### Working with Docker Containers
-
-```sh
-# CREATE a new container, either from an existing image or creating a new one:
-docker run [image name] [command to run]
+docker run IMAGE_NAME COMMAND_TO_RUN
 docker run my_image echo 'hello'
-
-# RUNNING a container
-docker run [container id]
-docker run [image name] [command to run]
-
-docker run -it [image name] /bin/sh # Start an interactive shell within your container
-docker run --publish 3000:3000 [image name] [command to run] # Forward a port on the host to a port on the container
-docker stop [container id] # STOPPING a container
-docker rm [container id] # DELETING a container
-docker attach [container id] # ATTACHING yourself to a container; your console will run commands within the container itself
 ```
 
-Detach the current container: type ^+P followed by ^+Q
+Running
+
+```sh
+docker run CONTAINER_ID
+docker run IMAGE_NAME COMMAND_TO_RUN
+```
+
+Start an interactive shell within your container
+
+```sh
+docker run -it IMAGE_NAME /bin/sh
+```
+
+Forward port on the host to a port on the container
+
+```sh
+docker run --publish 3000:3000 IMAGE_NAME COMMAND_TO_RUN
+```
+
+Stopping a container
+
+```sh
+docker stop CONTAINER_ID
+```
+
+Removing a container
+
+```sh
+docker rm CONTAINER_ID
+```
+
+Attaching yourself to a container *(your console will run commands within the container itself)*
+
+```sh
+docker attach CONTAINER_ID
+```
+
+Detach the current container: type `^` + `P` followed by `^` + `Q`
+
+---
+
+## Mounting
+
+![mounting volume](https://s3.amazonaws.com/learningdocker/wordpress/developing-with-docker-containers/docker-volume-mount.png)
+
+---
+
+## Installations
+
+### CentOS
+
+<https://docs.docker.com/engine/installation/linux/centos/>
+
+Update Yum
+
+```sh
+sudo yum update
+```
+
+Add the yum repo
+
+```sh
+sudo tee /etc/yum.repos.d/docker.repo <<-'EOF'
+[dockerrepo]
+name=Docker Repository
+baseurl=https://yum.dockerproject.org/repo/main/centos/$releasever/
+enabled=1
+gpgcheck=1
+gpgkey=https://yum.dockerproject.org/gpg
+EOF
+```
+
+Install docker image
+
+```sh
+sudo yum install docker-engine
+```
+
+Start the daemon
+
+```sh
+sudo service docker start
+```
+
+Verify it worked
+
+```sh
+sudo docker run hello-world
+# Unable to find image 'hello-world:latest' locally
+#     latest: Pulling from hello-world
+#     a8219747be10: Pull complete
+#     91c95931e552: Already exists
+#     hello-world:latest: The image you are pulling has been verified. Important: image verification is a tech preview feature and should not be relied on to provide security.
+#     Digest: sha256:aa03e5d0d5553b4c3473e89c8619cf79df368babd1.7.1cf5daeb82aab55838d
+#     Status: Downloaded newer image for hello-world:latest
+#     Hello from Docker.
+#     This message shows that your installation appears to be working correctly.
+#
+#     To generate this message, Docker took the following steps:
+#      1. The Docker client contacted the Docker daemon.
+#      2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+#             (Assuming it was not already locally available.)
+#      3. The Docker daemon created a new container from that image which runs the
+#             executable that produces the output you are currently reading.
+#      4. The Docker daemon streamed that output to the Docker client, which sent it
+#             to your terminal.
+#
+#     To try something more ambitious, you can run an Ubuntu container with:
+#      $ docker run -it ubuntu bash
+#
+#     For more examples and ideas, visit:
+#      http://docs.docker.com/userguide/
+```
+
+Create docker group and add your user
+
+```sh
+sudo usermod -aG docker your_username
+```
+
+Start docker daemon at boot
+
+```sh
+sudo chkconfig docker on
+```
+
+---
+
+## Helpful Visuals
+
+![docker build and run](https://s3.amazonaws.com/learningdocker/wordpress/developing-with-docker-containers/dockerfile-build%2Brun.png)
+
+---
+
+## Docker Tools
+
+|                                  |                                                                                            |
+|----------------------------------|--------------------------------------------------------------------------------------------|
+| [Docker Engine][docker engine]   | runs on Linux to create the operating environment for your distributed applications.       |
+| [Docker Machine][docker machine] | automate Docker provisioning                                                               |
+| [Docker Toolbox][toolbox]        | an installer to quickly and easily install and setup a Docker environment on your computer |
+| [Kitematic][kitematic]           | build and run containers through a GUI                                                     |
+
+*NOTE: [Docker Machine](https://docs.docker.com/machine) deprecates Boot2Docker*
 
 ---
 
@@ -104,10 +251,12 @@ Detach the current container: type ^+P followed by ^+Q
 -   [Docker Hub][docker-hub]
 -   [Docker: Docs](https://docs.docker.com)
 -   [Docker: Get Started with Docker for Mac OS X](https://docs.docker.com/mac/)
--   **[GitHub: veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker): curated list of Docker resources and projects**
 -   [How To Install and Use Docker: Getting Started](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-getting-started)
 -   [Intro to Docker](http://jdlm.info/ds-docker-demo/#15)
+-   [LearningDocker.com: Developing with Docker Containers](http://learningdocker.com/developing-with-docker-containers)
 -   [Quora: What is the difference between Docker and Vagrant? When should you use each one?](https://www.quora.com/What-is-the-difference-between-Docker-and-Vagrant-When-should-you-use-each-one)
+-   [StackOverflow: Docker image vs container](http://stackoverflow.com/questions/23735149/docker-image-vs-container)
+-   **[GitHub: veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker): curated list of Docker resources and projects**
 
 [docker engine]: "https://www.docker.com/products/docker-engine"
 [docker machine]: "https://docs.docker.com/machine"

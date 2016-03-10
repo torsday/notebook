@@ -8,6 +8,20 @@
 
 > The phrase herbal tea usually refers to infusions of fruit or herbs made without the tea plant, such as steeps of rosehip, chamomile, or rooibos. These are also known as tisanes or herbal infusions to distinguish them from "tea" as it is commonly construed.
 
+---
+
+## Favorites
+
+| Type                 |        Location        | Where to Purchase |    Temp     | Steep (min) | Rating |
+|----------------------|:----------------------:|:-----------------:|:-----------:|:-----------:|:------:|
+| Organic Hojicha      |    Shizouka, Japan     | Macha Tea Company | 195° - 208° |      3      |   3    |
+| BDH Black            | Lincang, Yunnan, China | Macha Tea Company |    208°     |    4 - 5    |        |
+| Herbal Restore Blend |                        | Macha Tea Company |    208°     |    4 - 5    |        |
+| Organic Sencha       |                        |   Berkely Bowl    |             |             |   4    |
+
+---
+
 ## References
 
+-   [Macha Tea Company](http://www.machateacompany.com)
 -   [Wikipedia: Tea](https://en.wikipedia.org/wiki/Tea)

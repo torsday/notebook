@@ -99,6 +99,7 @@
     -   [Containerization](./dev_ops/containerization.md)
     -   [Continuous Integration](./dev_ops/ci.md)
     -   [Docker](./dev_ops/docker.md)
+    -   [Foreman](./dev_ops/foreman.md)
     -   [Gearman](./dev_ops/gearman.md)
     -   [Grunt]()
     -   [Gulp](./dev_ops/gulp.md)
@@ -111,6 +112,7 @@
     -   [Phing](./dev_ops/phing.md)
     -   [SAML]()
     -   [Splunk]()
+    -   [Terraform](./dev_ops/terraform.md)
     -   [Travis CI](./dev_ops/travis.md)
     -   [Vagrant]()
     -   [Yum]()
@@ -206,6 +208,15 @@
     -   [grep](./linux/grep.md)
     -   [rsync](./linux/rsync.md)
     -   [Tree](./linux/tree.md)
+
+-   [Medicine](./medicine/README.md)
+
+    -   [Pharmacology](./medicine/pharmacology/README.md)
+
+        -   [Drugs](./medicine/pharmacology/drugs/README.md)
+
+            -   [Sumatriptan](./medicine/pharmacology/drugs/sumatriptan.md)
+            -   [Symbicort](./medicine/pharmacology/drugs/symbicort.md)
 
 -   [Persistence](./persistence/README.md)
 
