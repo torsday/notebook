@@ -208,6 +208,12 @@
     -   [rsync](./linux/rsync.md)
     -   [Tree](./linux/tree.md)
 
+-   [Medicine](./medicine/README.md)
+
+    -   [Pharmacology](./medicine/pharmacology/README.md)
+
+        -   [Sumatriptan](./medicine/pharmacology/sumatriptan.md)
+
 -   [Persistence](./persistence/README.md)
 
     -   [CouchDB]()
