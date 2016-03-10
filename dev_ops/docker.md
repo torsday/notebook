@@ -175,6 +175,12 @@ Install docker image
 sudo yum install docker-engine
 ```
 
+Start the daemon
+
+```sh
+sudo service docker start
+```
+
 Verify it worked
 
 ```sh
@@ -203,6 +209,18 @@ sudo docker run hello-world
 #
 #     For more examples and ideas, visit:
 #      http://docs.docker.com/userguide/
+```
+
+Create docker group and add your user
+
+```sh
+sudo usermod -aG docker your_username
+```
+
+Start docker daemon at boot
+
+```sh
+sudo chkconfig docker on
 ```
 
 ---
