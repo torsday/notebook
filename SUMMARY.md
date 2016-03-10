@@ -212,7 +212,9 @@
 
     -   [Pharmacology](./medicine/pharmacology/README.md)
 
-        -   [Sumatriptan](./medicine/pharmacology/sumatriptan.md)
+        -   [Drugs](./medicine/pharmacology/drugs/README.md)
+
+            -   [Sumatriptan](./medicine/pharmacology/drugs/sumatriptan.md)
 
 -   [Persistence](./persistence/README.md)
 
