@@ -99,6 +99,7 @@
     -   [Containerization](./dev_ops/containerization.md)
     -   [Continuous Integration](./dev_ops/ci.md)
     -   [Docker](./dev_ops/docker.md)
+    -   [Foreman](./dev_ops/foreman.md)
     -   [Gearman](./dev_ops/gearman.md)
     -   [Grunt]()
     -   [Gulp](./dev_ops/gulp.md)
