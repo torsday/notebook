@@ -283,3 +283,4 @@ class EmailHistoryService
 
 -   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services)
 -   [Wikipedia: Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
+-   [YouTube: Domain Driven Design Through Onion Architecture](https://www.youtube.com/watch?v=pL9XeNjy_z4)
