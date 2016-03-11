@@ -283,6 +283,7 @@ class EmailHistoryService
 
 -   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services)
 -   [Fideloper: Hexagonal Architecture](http://fideloper.com/hexagonal-architecture)
+-   [incredible-web.com: Onion-izing your multi tier architecture](http://www.incredible-web.com/blog/the-onion-architecture)
 -   [Infoq: Domain-Driven Design with Onion Architecture](http://www.infoq.com/news/2014/10/ddd-onion-architecture)
 -   [kristopherwilson: Implementing the Onion Architecture in PHP](http://kristopherwilson.com/2013/07/04/implementing-the-onion-architecture-in-php)
 -   [Seemann: Is Layering Worth the Mapping?](http://blog.ploeh.dk/2012/02/09/IsLayeringWorththeMapping)
