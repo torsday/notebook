@@ -1,10 +1,10 @@
 # Terraform
 
-Infrastructure as Code
+Infrastructure as Code; a tool for building, changing, and versioning infrastructure safely and efficiently.
 
 ---
 
 ## References
 
--   [Github: Terraform](https://github.com/hashicorp/terraform)
+-   [GitHub: Terraform](https://github.com/hashicorp/terraform)
 -   [Terraform.io](https://www.terraform.io)

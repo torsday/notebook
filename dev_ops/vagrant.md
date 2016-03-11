@@ -8,5 +8,5 @@ A tool to create/configure lightweight, reproducible, and portable development e
 
 ## References
 
--   [Github: mitchellh/vagrant](https://github.com/mitchellh/vagrant)
+-   [GitHub: mitchellh/vagrant](https://github.com/mitchellh/vagrant)
 -   [Vagrant Homepage](https://www.vagrantup.com)

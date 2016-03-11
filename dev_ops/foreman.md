@@ -10,5 +10,5 @@
 
 ## References
 
--   [Github: theforeman/theforeman.org](https://github.com/theforeman/theforeman.org)
+-   [GitHub: theforeman/theforeman.org](https://github.com/theforeman/theforeman.org)
 -   [TheForeman.org](http://www.theforeman.org)
