@@ -111,6 +111,7 @@ deactivate A;
 ## Tools
 
 -   [Gliffy](https://www.gliffy.com)
+-   [Plant Text](http://www.planttext.com/planttext)
 -   [PlantUML](http://plantuml.com)
 -   [StarUML](http://staruml.io)
 
