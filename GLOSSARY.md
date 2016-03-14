@@ -176,6 +176,10 @@ An object-relational database management system (ORDBMS) with an emphasis on ext
 
 A closure or a "saved block”. Kind of like a method, but it can be used like a block and passed to methods that take blocks as parameters. & is used to convert a proc into a block.
 
+## Profiling
+
+A measure of the relative performance of your application at the code-level. Profiling will capture things like CPU usage, memory usage, time and number of calls per function, as well as capturing a call graph. The act of profiling will impact performance. This differs from benchmarking, as benchmarking is performed externally and will measure the actual performance: what your end-users will see.
+
 ## Protected
 
 Accessible within the class itself and subclasses.

@@ -2,6 +2,8 @@
 
 ---
 
+-   Change mode to be executable: `chmod +x <file>`; nothing new here, but I thinking of it as chmod, not change mode. I think the latter will be easier to remember.
+
 -   paste this into your browser console to beautify formatting
 
     ```js
