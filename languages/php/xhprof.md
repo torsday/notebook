@@ -18,8 +18,8 @@
 
 ## Links
 
--   [Source](https://github.com/phacility/xhprof)
 -   [Docs](https://pecl.php.net/package/xhprof)
+-   [Source](https://github.com/phacility/xhprof)
 
 ---
 
