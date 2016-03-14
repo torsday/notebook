@@ -47,6 +47,8 @@ Execute script
 
 ```sh
 ./my_script.php
+./my_script.php sayHelloTo
+./my_script.php help sayHelloTo
 ```
 
 ---
