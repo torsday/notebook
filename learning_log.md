@@ -2,6 +2,18 @@
 
 ---
 
+-   paste this into your browser console to beautify formatting
+
+    ```js
+    var sheet = document.createElement('style');
+    sheet.innerHTML = "body{margin: 40px auto;max-width: 650px;line-height: 1.5;font-size: 18px;color: #3a3a3a;padding: 0 10px;}";
+    document.body.appendChild(sheet);
+    ```
+
+2016-03-14
+
+---
+
 -   UML diagram w/i PhpStorm:
 
     1.  install plugin (it's the only UML one)

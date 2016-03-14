@@ -204,6 +204,7 @@
     -   [CentOS]()
     -   [CoreOS]()
     -   [Cron](./linux/cron.md)
+    -   [Curl](./linux/curl.md)
     -   [du](./linux/du.md)
     -   [find]()
     -   [grep](./linux/grep.md)
