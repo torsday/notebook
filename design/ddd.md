@@ -282,4 +282,7 @@ class EmailHistoryService
 ### References
 
 -   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services)
+-   [Fideloper: Hexagonal Architecture](http://fideloper.com/hexagonal-architecture)
+-   [Seemann: Is Layering Worth the Mapping?](http://blog.ploeh.dk/2012/02/09/IsLayeringWorththeMapping)
 -   [Wikipedia: Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
+-   [YouTube: Domain Driven Design Through Onion Architecture](https://www.youtube.com/watch?v=pL9XeNjy_z4)

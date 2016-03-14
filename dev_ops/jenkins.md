@@ -58,7 +58,7 @@ You have a number of ways to go about this.
 
 ## References
 
--   [Github: jenkinsci/jenkins](https://github.com/jenkinsci/jenkins)
+-   [GitHub: jenkinsci/jenkins](https://github.com/jenkinsci/jenkins)
 -   [Jenkins-CI.org/](https://jenkins-ci.org)
 -   [Jenkins: Installing Jenkins with Docker](https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+with+Docker)
 -   [TutsPlus: Introduction to Jenkins](http://code.tutsplus.com/tutorials/introduction-to-jenkins-an-open-source-continuous-integration-server--cms-23879)
