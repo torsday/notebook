@@ -22,19 +22,21 @@ Create php script
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Input\InputArgument;
 
 require 'vendor/autoload.php';
 
 $app = new Application();
 
 $app->register('sayHelloTo')
-    ->addArgument('name')
+    ->addArgument('name', InputArgument::OPTIONAL, 'Your name') // or REQUIRED
     ->setCode(function(InputInterface $input, OutputInterface $output)
     {
       $output->writeln('Hello World');
     });
 
 $app->run();
+
 ```
 
 Change mode of script to executable
