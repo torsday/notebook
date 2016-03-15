@@ -2,6 +2,27 @@
 
 ---
 
+-   What I've worked on recently:
+
+    -   [Curl](./linux/curl.md)
+    -   [Docker](./dev_ops/docker.md)
+    -   [Domain Driven Development](./design/ddd.md)
+    -   [Foreman](./dev_ops/foreman.md)
+    -   [Functional Programming](./design/functional.md)
+    -   [Jenkins](./dev_ops/jenkins.md)
+    -   [Medicine](./medicine/README.md)
+    -   [Onion Architecture](./design/onion.md)
+    -   [Sumatriptan](./medicine/pharmacology/drugs/sumatriptan.md)
+    -   [Symbicort](./medicine/pharmacology/drugs/symbicort.md)
+    -   [Terraform](./dev_ops/terraform.md)
+    -   [UML](./tools/uml.md)
+    -   [Vagrant](./dev_ops/vagrant.md)
+    -   [XHProf](./languages/php/xhprof.md)
+
+2016-03-15
+
+---
+
 -   Change mode to be executable: `chmod +x <file>`; nothing new here, but I thinking of it as chmod, not change mode. I think the latter will be easier to remember.
 
 -   paste this into your browser console to beautify formatting
