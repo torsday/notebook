@@ -259,6 +259,8 @@
 
 -   [Tools](./tools/README.md)
 
+    -   [Big Query]()
+
     -   [Git](./tools/git/README.md)
 
         -   [Git-flow](./tools/git/git_flow.md)
@@ -273,6 +275,8 @@
     -   [PSR Fixer](./tools/psr-fixer.md)
 
     -   [UML](./tools/uml.md)
+
+    -   [Vertica](./tools/vertica.md)
 
     -   [Vim](./tools/vim.md)
 
