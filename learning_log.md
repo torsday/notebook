@@ -10,7 +10,6 @@
     -   [Foreman](./dev_ops/foreman.md)
     -   [Functional Programming](./design/functional.md)
     -   [Jenkins](./dev_ops/jenkins.md)
-    -   [Medicine](./medicine/README.md)
     -   [Onion Architecture](./design/onion.md)
     -   [Sumatriptan](./medicine/pharmacology/drugs/sumatriptan.md)
     -   [Symbicort](./medicine/pharmacology/drugs/symbicort.md)
