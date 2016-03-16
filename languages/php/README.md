@@ -86,26 +86,6 @@ rand(1, 10)  # =>  prints a random number between 0 and 10
 
 ---
 
-## Arrays
-
-```php
-$myArray = array(1, 2, 3, 4, 5);
-
-$associative = array('key' => 'value');
-
-unset($myArray[0]) => [ 2, 3, 4, 5]
-
-array_push($myArray, 6);
-
-count($myArray);
-
-sort($myArray);
-
-join(", ", $myArray);
-```
-
----
-
 ## Control Flow
 
 ```php

@@ -163,10 +163,18 @@
 
     -   [PHP](./languages/php/README.md)
 
+        -   [Basics](./languages/php/basics/README.md)
+
+            -   [Arrays](./languages/php/basics/php_arrays.md)
+
         -   [Laravel]()
+
         -   [PHP the Right Way](./languages/php/php-the-right-way.md)
+
         -   [Symfony]()
+
         -   [XHProf](./languages/php/xhprof.md)
+
         -   [Zend Frameworks]()
 
     -   [RAML]()
