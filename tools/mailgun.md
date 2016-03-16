@@ -48,6 +48,7 @@ $result = $mgClient->sendMessage("$domain",
         'subject' => 'Hello',
         'text'    => 'Testing some Mailgun awesomeness!'));
 ```
+
 ---
 
 ## References
