@@ -8,6 +8,25 @@
 $csv = array_map('str_getcsv', file('data.csv'));
 ```
 
+```php
+array(1319) {
+  [0] =>
+  array(1) {
+    [0] =>
+    string(9) "my_header"
+  }
+  [1] =>
+  array(1) {
+    [0] =>
+    string(19) "row_1_09830459803495"
+  }
+  [2] =>
+  array(1) {
+    [0] =>
+    string(19) "row_2_ 09830459875839"
+  }
+```
+
 ---
 
 ## Grabbing command line arguments from a PHP script
