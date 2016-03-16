@@ -130,11 +130,15 @@ switch(value) {
 
 ## Loops
 
+### `for`
+
 ```php
 for ($i=0; $i < 10; $i++) {
   echo $i;
 }
 ```
+
+### `foreach`
 
 ```php
 $fruits = array("apple", "banana", "orange");
@@ -144,11 +148,15 @@ foreach ($fruits as $fruit) {
 }
 ```
 
+### `while`
+
 ```php
 while (condition) {
   // do some stuff
 }
 ```
+
+### `do`
 
 ```php
 do {
