@@ -12,7 +12,6 @@
 - [Variables](#variables)
 - [Strings](#strings)
 - [Numbers](#numbers)
-- [Arrays](#arrays)
 - [Control Flow](#control-flow)
 - [Loops](#loops)
 - [Functions](#functions)
