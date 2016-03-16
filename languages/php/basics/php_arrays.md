@@ -3,8 +3,6 @@
 ```php
 $myArray = array(1, 2, 3, 4, 5);
 
-$associative = array('key' => 'value');
-
 unset($myArray[0]) => [ 2, 3, 4, 5]
 
 array_push($myArray, 6);
@@ -19,6 +17,10 @@ join(", ", $myArray);
 ---
 
 ## Associative Arrays
+
+```php
+$associative = array('key' => 'value');
+```
 
 In PHP, associative arrays are implemented as hashtables, with a bit of extra functionality.
 
