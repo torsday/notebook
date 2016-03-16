@@ -171,6 +171,8 @@
 
         -   [PHP the Right Way](./languages/php/php-the-right-way.md)
 
+        -   [Snippets](./languages/php/php_snippets.md)
+
         -   [Symfony]()
 
         -   [XHProf](./languages/php/xhprof.md)
