@@ -120,6 +120,8 @@
 
 -   [Education](./education/README.md)
 
+    -   [Books](./education/books/README.md)
+
     -   [Courses](./education/courses.md)
 
         -   [Harvard CS50](./education/harvard_cs50.md)
@@ -192,8 +194,6 @@
     -   [Swift](./languages/swift.md)
 
 -   [Lifestyle](./lifestyle/README.md)
-
-    -   [Books](./lifestyle/books.md)
 
     -   [Buddhism](./lifestyle/buddhism.md)
 

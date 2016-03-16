@@ -96,6 +96,13 @@ A computer language that is broadly applicable across application domains, and l
 
 A tool which controls the generation of executables and other non-source files of a program from the program's source files.
 
+## Hash table
+
+A data structure used to implement an associative array, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
+
+## Hash tables
+
+See Hash Table
 ## Headless
 
 A headless browser is a web browser without a graphical user interface.

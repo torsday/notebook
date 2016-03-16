@@ -22,7 +22,7 @@ join(", ", $myArray);
 $associative = array('key' => 'value');
 ```
 
-In PHP, associative arrays are implemented as hashtables, with a bit of extra functionality.
+In PHP, associative arrays are implemented as hash tables, with a bit of extra functionality.
 
 However technically speaking, an associative array is not identical to a hashtable - it's simply _implemented_ in part with a hashtable behind-the-scenes. Because most of its implementation is a hashtable, it can do everything a hashtable can - but it can do more, too.
 
