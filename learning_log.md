@@ -2,6 +2,12 @@
 
 ---
 
+-   Parse a csv file in PHP (from [php.net](http://php.net/manual/en/function.str-getcsv.php))
+
+    ```php
+    $csv = array_map('str_getcsv', file('data.csv'));
+    ```
+
 -   What I've worked on recently:
 
     -   [Curl](./linux/curl.md)
