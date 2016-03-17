@@ -2,6 +2,12 @@
 
 ---
 
+-   In PHP, `array_key_exists` will tell you if a key exists in an array, `isset()` will only return `true` if the key/variable exists and is not null.
+
+2016-03-17
+
+---
+
 -   Grabbing command line arguments from a PHP script
 
     -   `getopt` *([php.net](http://php.net/manual/en/function.getopt.php))*
