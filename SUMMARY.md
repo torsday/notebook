@@ -170,11 +170,11 @@
 
             -   [Arrays](./languages/php/basics/php_arrays.md)
 
-        -   [Laravel]()
-
         -   [Functions](./languages/php/functions.md)
 
             -   [exec()](./languages/php/exec.md)
+
+        -   [Laravel]()
 
         -   [PHP the Right Way](./languages/php/php-the-right-way.md)
 
