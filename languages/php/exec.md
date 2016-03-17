@@ -1,16 +1,18 @@
 # `exec()`
 
+Executes an external program.
+
 ```php
 string exec ( string $command [, array &$output [, int &$return_var ]] )
 ```
 
 ## Parameters
 
-|              |                                                                                                                                                                                                                                                                                                                                                                                                            |
-|:------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  `command`   | The command that will be executed.                                                                                                                                                                                                                                                                                                                                                                         |
-|   `output`   | If the output argument is present, then the specified array will be filled with every line of output from the command. Trailing whitespace, such as \n, is not included in this array. Note that if the array already contains some elements, `exec()` will append to the end of the array. If you do not want the function to append elements, call `unset()` on the array before passing it to `exec()`. |
-| `return_var` | If the `return_var` argument is present along with the output argument, then the return status of the executed command will be written to this variable.                                                                                                                                                                                                                                                   |
+|              |                                                                                                                                                                                                                                                                                                                                                                                                              |
+|:------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  `command`   | The command that will be executed.                                                                                                                                                                                                                                                                                                                                                                           |
+|   `output`   | If the output argument is present, then the specified array will be filled with every line of output from the command. Trailing whitespace, such as `\n`, is not included in this array. Note that if the array already contains some elements, `exec()` will append to the end of the array. If you do not want the function to append elements, call `unset()` on the array before passing it to `exec()`. |
+| `return_var` | If the `return_var` argument is present along with the output argument, then the return status of the executed command will be written to this variable.                                                                                                                                                                                                                                                     |
 
 ## Return Values
 
