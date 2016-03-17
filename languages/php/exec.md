@@ -4,13 +4,6 @@
 string exec ( string $command [, array &$output [, int &$return_var ]] )
 ```
 
-```php
-$deactivationScript = $root . "my_script.php";
-$scriptOptions      = "-l lorem -o ipsum -dolor sunt";
-$cmd                = "php $deactivationScript $scriptOptions";
-exec($cmd, $output, $return);
-```
-
 ## Parameters
 
 ### `command`
@@ -30,6 +23,17 @@ If the `return_var` argument is present along with the output argument, then the
 The last line from the result of the command. If you need to execute a command and have all the data from the command passed directly back without any interference, use the `passthru()` function.
 
 To get the output of the executed command, be sure to set and use the output parameter.
+
+---
+
+## Examples
+
+```php
+$deactivationScript = $root . "my_script.php";
+$scriptOptions      = "-l lorem -o ipsum -dolor sunt";
+$cmd                = "php $deactivationScript $scriptOptions";
+exec($cmd, $output, $return);
+```
 
 ---
 
