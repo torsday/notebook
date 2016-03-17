@@ -172,6 +172,10 @@
 
         -   [Laravel]()
 
+        -   [Other]()
+
+            -   [exec()](./languages/php/exec.md)
+
         -   [PHP the Right Way](./languages/php/php-the-right-way.md)
 
         -   [Snippets](./languages/php/php_snippets.md)
