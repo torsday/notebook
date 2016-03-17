@@ -172,7 +172,7 @@
 
         -   [Laravel]()
 
-        -   [Other]()
+        -   [Other](./languages/php/other/README.md)
 
             -   [exec()](./languages/php/exec.md)
 
