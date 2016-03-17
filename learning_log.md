@@ -2,7 +2,28 @@
 
 ---
 
--   In PHP, `array_key_exists` will tell you if a key exists in an array, `isset()` will only return `true` if the key/variable exists and is not null.
+-   In PHP, using the `final` keyword with a class or method prevents child classes from overriding it, whether with a new method declaration or a class extesion. *([PHP.net](http://php.net/manual/en/language.oop5.final.php))*
+
+    ```php
+    <?php
+    final class BaseClass {
+       public function test() {
+           echo "BaseClass::test() called\n";
+       }
+
+       // Here it doesn't matter if you specify the function as final or not
+       final public function moreTesting() {
+           echo "BaseClass::moreTesting() called\n";
+       }
+    }
+
+    class ChildClass extends BaseClass {
+    }
+    // Results in Fatal error: Class ChildClass may not inherit from final class (BaseClass)
+    ?>
+    ```
+
+-   In PHP, [`array_key_exists()`](http://php.net/manual/en/function.array-key-exists.php) will tell you if a key exists in an array, [`isset()`](http://php.net/manual/en/function.isset.php) will only return `true` if the key/variable exists and is not `null`.
 
 2016-03-17
 
