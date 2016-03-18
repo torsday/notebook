@@ -1,33 +1,28 @@
 # PHP Basics
 
----
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-**Table of Contents**
-
-<!--lint disable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
-
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Hello World](#hello-world)
-- [Variables](#variables)
-- [Strings](#strings)
-- [Numbers](#numbers)
-- [Control Flow](#control-flow)
-- [Loops](#loops)
-- [Functions](#functions)
-- [Classes & Objects](#classes-objects)
-- [Method & Property Visibility](#method-property-visibility)
-- [Inheritance](#inheritance)
-- [Class Abstraction](#class-abstraction)
-- [Interfaces](#interfaces)
-- [Traits](#traits)
-- [References](#references)
+- [PHP Basics](#php-basics)
+	- [Hello World](#hello-world)
+	- [Variables](#variables)
+	- [Strings](#strings)
+	- [Numbers](#numbers)
+	- [Control Flow](#control-flow)
+	- [Loops](#loops)
+		- [`for`](#for)
+		- [`foreach`](#foreach)
+		- [`while`](#while)
+		- [`do`](#do)
+	- [Functions](#functions)
+	- [Classes & Objects](#classes-objects)
+	- [Method & Property Visibility](#method-property-visibility)
+	- [Inheritance](#inheritance)
+	- [Class Abstraction](#class-abstraction)
+	- [Interfaces](#interfaces)
+	- [Traits](#traits)
+	- [References](#references)
 
 <!-- /TOC -->
-
-<!--lint enable list-item-indent list-item-spacing no-missing-blank-lines no-tabs-->
-
----
 
 ---
 
