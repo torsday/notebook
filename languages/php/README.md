@@ -15,3 +15,4 @@
 ## References
 
 -   [codeguy/php-the-right-way](https://github.com/codeguy/php-the-right-way)
+-   [Eevee, "PHP: a fractal of bad design"](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design)
