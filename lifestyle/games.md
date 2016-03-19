@@ -7,7 +7,7 @@ When I was a paramedic, I shared a lot of time with people in the last 20 years 
 ## Favorites
 
 -   Counter Strike
--   Factorio
--   Kerbal Space Program
--   Minecraft
--   Planetary Annihalation
+-   [Factorio](https://www.factorio.com)
+-   [Kerbal Space Program](https://kerbalspaceprogram.com/en)
+-   [Minecraft](https://minecraft.net)
+-   [Planetary Annihalation](http://www.uberent.com/pa)
