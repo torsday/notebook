@@ -2,6 +2,117 @@
 
 ---
 
+-   In PHP, using the `final` keyword with a class or method prevents child classes from overriding it, whether with a new method declaration or a class extesion. *([PHP.net](http://php.net/manual/en/language.oop5.final.php))*
+
+    ```php
+    <?php
+    final class BaseClass {
+       public function test() {
+           echo "BaseClass::test() called\n";
+       }
+
+       // Here it doesn't matter if you specify the function as final or not
+       final public function moreTesting() {
+           echo "BaseClass::moreTesting() called\n";
+       }
+    }
+
+    class ChildClass extends BaseClass {
+    }
+    // Results in Fatal error: Class ChildClass may not inherit from final class (BaseClass)
+    ?>
+    ```
+
+-   In PHP, [`array_key_exists()`](http://php.net/manual/en/function.array-key-exists.php) will tell you if a key exists in an array, [`isset()`](http://php.net/manual/en/function.isset.php) will only return `true` if the key/variable exists and is not `null`.
+
+2016-03-17
+
+---
+
+-   Grabbing command line arguments from a PHP script
+
+    -   `getopt` *([php.net](http://php.net/manual/en/function.getopt.php))*
+
+    ```php
+    $shortopts  = "";
+    $shortopts .= "f:";  // Required value
+    $shortopts .= "v::"; // Optional value
+    $shortopts .= "abc"; // These options do not accept values
+
+    $longopts  = array(
+        "required:",     // Required value
+        "optional::",    // Optional value
+        "option",        // No value
+        "opt",           // No value
+    );
+    $options = getopt($shortopts, $longopts);
+    ```
+
+    ```sh
+    php example.php -f "value for f" -v -a --required value --optional="optional value" --option
+    ```
+
+    ```php
+    array(6) {
+      ["f"]=>
+      string(11) "value for f"
+      ["v"]=>
+      bool(false)
+      ["a"]=>
+      bool(false)
+      ["required"]=>
+      string(5) "value"
+      ["optional"]=>
+      string(14) "optional value"
+      ["option"]=>
+      bool(false)
+    }
+    ```
+
+2016-03-16
+
+---
+
+-   Parse a csv file in PHP (from [php.net](http://php.net/manual/en/function.str-getcsv.php))
+
+    ```php
+    $csv = array_map('str_getcsv', file('data.csv'));
+    ```
+
+-   What I've worked on recently:
+
+    -   [Curl](./linux/curl.md)
+    -   [Docker](./dev_ops/docker.md)
+    -   [Domain Driven Development](./design/ddd.md)
+    -   [Foreman](./dev_ops/foreman.md)
+    -   [Functional Programming](./design/functional.md)
+    -   [Jenkins](./dev_ops/jenkins.md)
+    -   [Onion Architecture](./design/onion.md)
+    -   [Sumatriptan](./medicine/pharmacology/drugs/sumatriptan.md)
+    -   [Symbicort](./medicine/pharmacology/drugs/symbicort.md)
+    -   [Terraform](./dev_ops/terraform.md)
+    -   [UML](./tools/uml.md)
+    -   [Vagrant](./dev_ops/vagrant.md)
+    -   [XHProf](./languages/php/xhprof.md)
+
+2016-03-15
+
+---
+
+-   Change mode to be executable: `chmod +x <file>`; nothing new here, but I thinking of it as chmod, not change mode. I think the latter will be easier to remember.
+
+-   paste this into your browser console to beautify formatting
+
+    ```js
+    var sheet = document.createElement('style');
+    sheet.innerHTML = "body{margin: 40px auto;max-width: 650px;line-height: 1.5;font-size: 18px;color: #3a3a3a;padding: 0 10px;}";
+    document.body.appendChild(sheet);
+    ```
+
+2016-03-14
+
+---
+
 -   UML diagram w/i PhpStorm:
 
     1.  install plugin (it's the only UML one)

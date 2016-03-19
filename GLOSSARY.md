@@ -96,6 +96,13 @@ A computer language that is broadly applicable across application domains, and l
 
 A tool which controls the generation of executables and other non-source files of a program from the program's source files.
 
+## Hash table
+
+A data structure used to implement an associative array, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
+
+## Hash tables
+
+See Hash Table
 ## Headless
 
 A headless browser is a web browser without a graphical user interface.
@@ -175,6 +182,10 @@ An object-relational database management system (ORDBMS) with an emphasis on ext
 ## Proc
 
 A closure or a "saved block”. Kind of like a method, but it can be used like a block and passed to methods that take blocks as parameters. & is used to convert a proc into a block.
+
+## Profiling
+
+A measure of the relative performance of your application at the code-level. Profiling will capture things like CPU usage, memory usage, time and number of calls per function, as well as capturing a call graph. The act of profiling will impact performance. This differs from benchmarking, as benchmarking is performed externally and will measure the actual performance: what your end-users will see.
 
 ## Protected
 

@@ -22,6 +22,7 @@
         -   [Data Compression Algorithms]()
         -   [Dijkstra’s Algorithm](algorithms/dijkstras_algorithm.md)
         -   [Fourier Transform & Fast Fourier Transform]()
+        -   [Hash Table](./algorithms/hash_table.md)
         -   [HMAC](./algorithms/hmac.md)
         -   [Integer Factorization]()
         -   [Link Analysis]()
@@ -120,6 +121,8 @@
 
 -   [Education](./education/README.md)
 
+    -   [Books](./education/books/README.md)
+
     -   [Courses](./education/courses.md)
 
         -   [Harvard CS50](./education/harvard_cs50.md)
@@ -163,9 +166,24 @@
 
     -   [PHP](./languages/php/README.md)
 
+        -   [Basics](./languages/php/basics/README.md)
+
+            -   [Arrays](./languages/php/basics/php_arrays.md)
+
+        -   [Functions](./languages/php/functions.md)
+
+            -   [exec()](./languages/php/exec.md)
+
         -   [Laravel]()
+
         -   [PHP the Right Way](./languages/php/php-the-right-way.md)
+
+        -   [Snippets](./languages/php/php_snippets.md)
+
         -   [Symfony]()
+
+        -   [XHProf](./languages/php/xhprof.md)
+
         -   [Zend Frameworks]()
 
     -   [RAML]()
@@ -181,8 +199,6 @@
     -   [Swift](./languages/swift.md)
 
 -   [Lifestyle](./lifestyle/README.md)
-
-    -   [Books](./lifestyle/books.md)
 
     -   [Buddhism](./lifestyle/buddhism.md)
 
@@ -204,6 +220,7 @@
     -   [CentOS]()
     -   [CoreOS]()
     -   [Cron](./linux/cron.md)
+    -   [Curl](./linux/curl.md)
     -   [du](./linux/du.md)
     -   [find]()
     -   [grep](./linux/grep.md)
@@ -257,6 +274,8 @@
 
 -   [Tools](./tools/README.md)
 
+    -   [Big Query]()
+
     -   [Git](./tools/git/README.md)
 
         -   [Git-flow](./tools/git/git_flow.md)
@@ -270,7 +289,11 @@
 
     -   [PSR Fixer](./tools/psr-fixer.md)
 
+    -   [MailGun](./tools/mailgun.md)
+
     -   [UML](./tools/uml.md)
+
+    -   [Vertica](./tools/vertica.md)
 
     -   [Vim](./tools/vim.md)
 
