@@ -209,7 +209,7 @@
         -   [Coffee](./lifestyle/coffee.md)
         -   [Tea](./lifestyle/tea.md)
 
-   -    [Games](./lifestyle/games.md)
+    -   [Games](./lifestyle/games.md)
 
     -   [Tracking](./lifestyle/tracking.md)
 
