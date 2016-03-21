@@ -115,6 +115,10 @@ Hash-based message authentication code.
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
 
+## Kaizen
+
+Kaizen (Continuous Improvement) is a strategy where employees at all levels of a company work together proactively to achieve regular, incremental improvements to the manufacturing process. In a sense, it combines the collective talents within a company to create a powerful engine for improvement.
+
 ## Kernel
 
 Connects the application software to the hardware of a computer: managing i/o requests from software, and translates them into data processing instructions for the CPU and other hardware.

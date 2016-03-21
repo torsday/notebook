@@ -2,6 +2,13 @@
 
 ---
 
+-   > **Kaizen** (Continuous Improvement) is a strategy where employees at all levels of a company work together proactively to achieve regular, incremental improvements to the manufacturing process. In a sense, it combines the collective talents within a company to create a powerful engine for improvement.
+    > <http://www.leanproduction.com/kaizen.html>
+
+2016-03-21
+
+---
+
 -   In PHP, using the `final` keyword with a class or method prevents child classes from overriding it, whether with a new method declaration or a class extesion. *([PHP.net](http://php.net/manual/en/language.oop5.final.php))*
 
     ```php
