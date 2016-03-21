@@ -220,6 +220,7 @@
     -   [Air Crack]()
     -   [Arp Scan]()
     -   [CentOS]()
+    -   [chmod](./linux/chmod.md)
     -   [CoreOS]()
     -   [Cron](./linux/cron.md)
     -   [Curl](./linux/curl.md)
