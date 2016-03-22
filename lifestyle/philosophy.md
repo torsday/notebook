@@ -2,7 +2,7 @@
 
 ---
 
-## Misc
+## Kintsugi
 
 *From: [Wikipedia](https://en.wikipedia.org/wiki/Kintsugi)*
 
@@ -19,8 +19,8 @@
 
 ---
 
-## Work place
+## Kaizen
 
 *From: [LeanProduction](http://www.leanproduction.com/kaizen.html)*
 
-> **Kaizen** (Continuous Improvement) is a strategy where employees at all levels of a company work together proactively to achieve regular, incremental improvements to the manufacturing process. In a sense, it combines the collective talents within a company to create a powerful engine for improvement.
+> **Kaizen** (Continuous Improvement) is a strategy where employees at all levels of a company work together proactively to achieve **regular, incremental improvements** to the manufacturing process. In a sense, it combines the collective talents within a company to create a powerful engine for improvement.
