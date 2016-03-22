@@ -2,6 +2,20 @@
 
 ---
 
+-   Namespace leaks with a foreach() loop in PHP
+
+    ```php
+    $testVar = ['yo', 'mario'];
+
+    foreach($testVar as $t) {}
+
+    echo $t;
+    ```
+
+    ```php
+    mario
+    ```
+
 -   > **Kintsugi** (金継ぎ?) (Japanese: golden joinery) or Kintsukuroi (金繕い?) (Japanese: golden repair) is the Japanese art of repairing broken pottery with lacquer dusted or mixed with powdered gold, silver, or platinum, a method similar to the maki-e technique. As a philosophy **it treats breakage and repair as part of the history of an object, rather than something to disguise**.
     > <https://en.wikipedia.org/wiki/Kintsugi>
 

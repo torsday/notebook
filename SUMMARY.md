@@ -211,6 +211,8 @@
 
     -   [Games](./lifestyle/games.md)
 
+    -   [Philosophy](./lifestyle/philosophy.md)
+
     -   [Tracking](./lifestyle/tracking.md)
 
     -   [Zen](./lifestyle/zen.md)
