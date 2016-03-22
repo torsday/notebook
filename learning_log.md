@@ -2,7 +2,7 @@
 
 ---
 
--   Namespace leaks with a foreach() loop in PHP
+-   Namespace leaks with a `foreach()` loop in PHP
 
     ```php
     $testVar = ['yo', 'mario'];
