@@ -2,6 +2,16 @@
 
 ---
 
+-   `foreach()` in PHP is destructive; clone the enumerable prior to use:
+
+    ```php
+    foreach(clone $myStuff as $thing) {...};
+    ```
+
+2016-03-22
+
+---
+
 -   Namespace leaks with a `foreach()` loop in PHP
 
     ```php
