@@ -103,6 +103,7 @@ A data structure used to implement an associative array, a structure that can ma
 ## Hash tables
 
 See Hash Table
+
 ## Headless
 
 A headless browser is a web browser without a graphical user interface.
@@ -238,6 +239,10 @@ An interaction diagram that shows how processes operate with one another and in 
 ## Service
 
 A Service in Domain Driven Design is simply a stateless object that performs an action.
+
+## Single source of truth
+
+The practice of structuring information models and associated schemata such that every data element is stored exactly once, thereby providing data that is authentic, relevant, and referable.
 
 ## Sorting Algorithm
 
