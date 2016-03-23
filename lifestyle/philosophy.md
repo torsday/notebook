@@ -6,7 +6,7 @@
 
 *From: [Wikipedia](https://en.wikipedia.org/wiki/Kintsugi)*
 
-> **Kintsugi** (金継ぎ?) (Japanese: golden joinery) or Kintsukuroi (金繕い?) (Japanese: golden repair) is the Japanese art of repairing broken pottery with lacquer dusted or mixed with powdered gold, silver, or platinum, a method similar to the maki-e technique. As a philosophy **it treats breakage and repair as part of the history of an object, rather than something to disguise**.
+> **Kintsugi** (金継ぎ?) (Japanese: golden joinery) or Kintsukuroi (金繕い?) (Japanese: golden repair) is the Japanese art of repairing broken pottery with lacquer dusted or mixed with powdered gold, silver, or platinum.. As a philosophy it **treats breakage and repair as part of the history of an object, rather than something to disguise**.
 
 ![Kintsugi Bowl](https://diotesterie.files.wordpress.com/2016/02/kintsugi.jpg)
 
