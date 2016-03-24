@@ -42,7 +42,7 @@ Software design refers to an engineer’s ability to conceptualize higher level 
 
 -   Design Patterns
 -   Domain-driven Design
--   SOLID Principles
+-   [SOLID Principles](../design/solid.md)
 
 ### Soft Skills
 
@@ -73,8 +73,6 @@ are highlighted.
 
 ### Checklist
 
-<!--lint disable list-item-indent-->
-
 |   |                                                                                                                                                                                                                              |
 |:-:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   | **Build and Release processes**                                                                                                                                                                                              |
@@ -86,25 +84,19 @@ are highlighted.
 | ✓ | **[OOP](../design/oop.md):** [Encapsulation](../design/oop.md#encapsulation), [Inheritance](../design/oop.md#inheritance), [Objects/Classes](../design/oop.md#objectsclasses), [Polymorphism](../design/oop.md#polymorphism) |
 | ✓ | **[REST](../design/rest.md):** RESTful API’s, knowledgeable of common practices and concerns                                                                                                                                 |
 
-<!--lint enable list-item-indent-->
-
 ---
 
 ## [SOLID Principles](../design/solid.md)
 
--   Objectives: Solid, working knowledge of SOLID Principles
+-   Objectives: Solid, working knowledge of [SOLID Principles](../design/solid.md)
 
 ### Key Results:
-
-<!--lint disable list-item-indent-->
 
 |   |       |                                                                  |
 |:--|:-----:|------------------------------------------------------------------|
 | ✓ |  See  | Pair with someone doing this                                     |
-| ✓ |  Do   | Build with SOLID Design                                          |
+| ✓ |  Do   | Build with [SOLID Design](../design/solid.md)                    |
 |   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
-
-<!--lint enable list-item-indent-->
 
 ---
 
@@ -114,15 +106,11 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent-->
-
 |   |       |                                                                  |
 |:--|:-----:|------------------------------------------------------------------|
 | ✓ |  See  | Pair with someone doing this                                     |
 | ✓ |  Do   | Build with DDD Design                                            |
 |   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
-
-<!--lint enable list-item-indent-->
 
 ---
 
@@ -132,8 +120,6 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent-->
-
 |   |       |                                                                                                     |
 |:--|:-----:|-----------------------------------------------------------------------------------------------------|
 |   |  See  | Pair with someone doing this                                                                        |
@@ -142,8 +128,6 @@ are highlighted.
 | ✓ |  Do   | Tweak configuration for purposes of debugging                                                       |
 |   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_                                    |
 
-<!--lint enable list-item-indent-->
-
 ---
 
 ## Strong Testing Practices
@@ -151,8 +135,6 @@ are highlighted.
 -   Objective: Build solid working knowledge of testing practices
 
 ### Key Results:
-
-<!--lint disable list-item-indent-->
 
 |   |       |                                           |
 |:--|:-----:|-------------------------------------------|
@@ -165,8 +147,6 @@ are highlighted.
 | ✓ |  Do   | Build Functional Tests                    |
 |   | Teach | Taught testing to another                 |
 
-<!--lint enable list-item-indent-->
-
 ---
 
 ## Misc Ops
@@ -175,15 +155,11 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent-->
-
 |   |       |     |
 |:--|:-----:|-----|
 |   |  See  | --- |
 |   |  Do   | --- |
 |   | Teach | --- |
-
-<!--lint enable list-item-indent-->
 
 ---
 
@@ -193,15 +169,11 @@ are highlighted.
 
 ### Key Results:
 
-<!--lint disable list-item-indent-->
-
 |   |       |                             |
 |:--|:-----:|-----------------------------|
 |   |  See  | ---                         |
 |   |  Do   | ---                         |
 |   | Teach | Taught `_______` to another |
-
-<!--lint enable list-item-indent-->
 
 ### Candidates
 
