@@ -170,9 +170,10 @@
 
             -   [Arrays](./languages/php/basics/php_arrays.md)
 
-        -   [Functions](./languages/php/functions.md)
+        -   [Functions](./languages/php/functions/README.md)
 
-            -   [exec()](./languages/php/exec.md)
+            -   [array_filter()](./languages/php/functions/array_filter.md)
+            -   [exec()](./languages/php/functions/exec.md)
 
         -   [Laravel]()
 

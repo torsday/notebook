@@ -2,6 +2,12 @@
 
 ---
 
+-   `array_filter()`
+
+2016-03-25
+
+---
+
 -   `foreach()` in PHP is destructive; clone the enumerable prior to use:
 
     ```php
