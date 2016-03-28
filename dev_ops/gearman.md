@@ -8,7 +8,9 @@
 
 > Gearman is an open source application framework designed to distribute appropriate computer tasks to multiple computers, so large tasks can be done more quickly. In some cases, load balancing rather than raw speed may be the main goal; a Web server, for instance, could use Gearman to send tasks for which it is not optimized to another computer (which may be running on a different architecture, using another operating system, or loaded with a computer language better suited to a particular operation).
 
-> How it works:
+---
+
+## How it works:
 
 > Gearman assigns each involved computer a role as client, job server, or worker. A worker machine can be assigned multiple instances of the worker role, which allows more powerful computers to complete more portions of a given task. Tasks originate on a client, are transmitted from the client to the job server, and performed on one or more workers. The completed task's output is then returned, again by way of the job server, to the client where the task originated. Gearman is conceptually related to MapReduce; Gearman handles MapReduce by allowing worker nodes to map out work to other workers, with the original worker acting as the reducer.
 
@@ -27,3 +29,4 @@
 ## References
 
 -   [Jay Paroline: How Grooveshark Uses Gearman](http://wanderr.com/jay/how-grooveshark-uses-gearman/2011/03/27)
+-   [Wikipedia: MapReduce](https://en.wikipedia.org/wiki/MapReduce)

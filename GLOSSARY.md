@@ -152,6 +152,10 @@ A standard plain text data interchange format for representing LDAP directory CR
 
 An operating-system-level virtualization environment for running multiple isolated Linux systems (containers) on a single Linux control host.
 
+## MapReduce
+
+A programming model & implementation for processing and generating large data sets with a parallel, distributed algorithm on a cluster. Composed of a Map() method that performs filtering and sorting (such as sorting students by first name into queues, one queue for each name) and a Reduce() method that performs a summary operation (such as counting the number of students in each queue, yielding name frequencies). The "MapReduce System" orchestrates the processing by marshalling the distributed servers, running the various tasks in parallel, managing all communications and data transfers between the various parts of the system, and providing for redundancy and fault tolerance.
+
 ## Ncurses
 
 A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.
