@@ -32,6 +32,8 @@ Gearman performs coalescence on the work sent by a client. If two or more client
 
 ## References
 
+-   [codeascraft.com: What Hardware Powers Etsy.com?](https://codeascraft.com/2012/08/31/what-hardware-powers-etsy-com/)
 -   [Jay Paroline: How Grooveshark Uses Gearman](http://wanderr.com/jay/how-grooveshark-uses-gearman/2011/03/27)
+-   [slideshare.net: Gearman - Job Queue](http://www.slideshare.net/DiegoLewin/gearman-job-queue)
 -   [Wikipedia: Gearman](https://en.wikipedia.org/wiki/Gearman)
 -   [Wikipedia: MapReduce](https://en.wikipedia.org/wiki/MapReduce)
