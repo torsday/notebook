@@ -1,6 +1,6 @@
 # Gearman
 
-An open source application framework designed to distribute appropriate computer tasks to multiple computers, so large tasks can be done more quickly and/or load balanced.
+An open source application framework designed to distribute appropriate computer tasks to multiple computers, so large tasks can be done more quickly and/or with a balanced load.
 
 *From: [GearmanHQ](http://gearmanhq.com/help/getting-started)*
 
