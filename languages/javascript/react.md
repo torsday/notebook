@@ -35,6 +35,15 @@
 |  `/reducers`  | These are Redux reducers - they're the logic that handles all of the application state                                                                                                                                                                                                       |
 |  `/services`  | We use basic ES6 modules for services, with methods like "fetchUser(id)" which use the new JS Fetch API behind the scenes. We then have redux-thunk and redux-promise middleware so we can easily offload state manipulation to these services without actually putting state logic in them. |
 
+---
+
+## Unsorted
+
+-   refs: <https://facebook.github.io/react/docs/more-about-refs.html>
+-   findDOMNode: <https://facebook.github.io/react/docs/top-level-api.html#reactdom.finddomnode>
+
+---
+
 ## References
 
 -   [Docs](https://facebook.github.io/react/docs/getting-started.html)
