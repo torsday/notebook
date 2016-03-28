@@ -38,12 +38,12 @@ Gearman performs coalescence on the work sent by a client. If two or more client
 
 ## Features
 
-- Open source
-- Simple/Fast
-- Multi-language
-- Flexible application design
-- Load balancing
-- No single point of failure
+-   Open source
+-   Simple/Fast
+-   Multi-language
+-   Flexible application design
+-   Load balancing
+-   No single point of failure
 
 ---
 
