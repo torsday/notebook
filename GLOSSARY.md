@@ -112,6 +112,14 @@ A headless browser is a web browser without a graphical user interface.
 
 Hash-based message authentication code.
 
+## IANA
+
+Internet Assigned Numbers Authority.
+
+## ICANN
+
+Internet Corporation for Assigned Names & Numbers. A nonprofit private American corporation that oversees global IP address allocation, autonomous system number allocation, root zone management in the Domain Name System (DNS), media types, and other Internet Protocol-related symbols and numbers.
+
 ## Interface
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
