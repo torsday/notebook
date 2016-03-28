@@ -14,6 +14,8 @@
 
 > React projects also typically include new tech like ES2015, webpack, hot code reloading, and Redux with its time-traveling debugger. You can build your own stack that uses a virtual DOM library, embedded HTML, ES2015, and so on, but it's helpful to start with a common stack that many people understand. That's why React is interesting.
 
+---
+
 ## Structures
 
 ### Basic
