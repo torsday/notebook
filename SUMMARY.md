@@ -102,7 +102,6 @@
     -   [Continuous Integration](./dev_ops/ci.md)
     -   [Docker](./dev_ops/docker.md)
     -   [Foreman](./dev_ops/foreman.md)
-    -   [Gearman](./dev_ops/gearman.md)
     -   [Grunt]()
     -   [Gulp](./dev_ops/gulp.md)
     -   [Jenkins]()
@@ -150,6 +149,8 @@
 -   [Languages, Libraries, Frameworks, et. al.](./languages/README.md)
 
     -   [C](./languages/c.md)
+
+    -   [Gearman](./languages/gearman.md)
 
     -   [Javascript](./languages/javascript/README.md)
 

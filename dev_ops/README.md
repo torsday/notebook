@@ -46,7 +46,6 @@ A melding of QA, Development, and Operations that **aims at establishing a cultu
 -   [Build & Release](./build_and_release.md)
 -   [Composer](./composer.md)
 -   [Docker](./docker.md)
--   [Gearman](./gearman.md)
 -   [JWT](./jwt.md)
 -   [Karma]()
 -   [Nginx]()
