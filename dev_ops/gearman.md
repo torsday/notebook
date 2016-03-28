@@ -1,14 +1,12 @@
 # Gearman
 
-An anagram for *Manager*, "since it dispatches jobs to be done, but does not do anything useful itself."
+An open source application framework designed to distribute appropriate computer tasks to multiple computers, so large tasks can be done more quickly and/or load balanced.
 
 *From: [GearmanHQ](http://gearmanhq.com/help/getting-started)*
 
 > A generic application framework for doing work in the background, spanning different machines, networks, and workers, each suited to preforming a specific job or set of jobs. Gearman itself acts as the central nervous system: jobs can come in from a variety of source, and workers can be on several machines and running in several different langauges.
 
-*From: [Wikipedia](https://en.wikipedia.org/wiki/Gearman)*
-
-> Gearman is an open source application framework designed to distribute appropriate computer tasks to multiple computers, so large tasks can be done more quickly. In some cases, load balancing rather than raw speed may be the main goal; a Web server, for instance, could use Gearman to send tasks for which it is not optimized to another computer (which may be running on a different architecture, using another operating system, or loaded with a computer language better suited to a particular operation).
+An anagram for *Manager*, "since it dispatches jobs to be done, but does not do anything useful itself."
 
 ---
 
@@ -35,4 +33,5 @@ Gearman performs coalescence on the work sent by a client. If two or more client
 ## References
 
 -   [Jay Paroline: How Grooveshark Uses Gearman](http://wanderr.com/jay/how-grooveshark-uses-gearman/2011/03/27)
+-   [Wikipedia: Gearman](https://en.wikipedia.org/wiki/Gearman)*
 -   [Wikipedia: MapReduce](https://en.wikipedia.org/wiki/MapReduce)
