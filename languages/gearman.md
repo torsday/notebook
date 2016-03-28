@@ -18,6 +18,12 @@ Conceptually related to MapReduce; Gearman handles MapReduce by allowing worker 
 
 Gearman performs coalescence on the work sent by a client. If two or more clients ask for work to be completed on the same body of work, either by seeing that the same blocks are being sent or by using the unique value sent by the client, it will coalesce the work so that only one worker is used. It does this specifically to avoid thundering herd problems which are common to cache hit failures.
 
+|            |                                               |
+|:----------:|-----------------------------------------------|
+|   Client   | Creates jobs and sends to job server          |
+|   Worker   | Runs job given by the job server              |
+| Job Server | Handles the job queue from clients to workers |
+
 ### Worker
 
 -   A worker machine can be assigned multiple instances of the worker role, which allows more powerful computers to complete more portions of a given task.
@@ -27,6 +33,37 @@ Gearman performs coalescence on the work sent by a client. If two or more client
 -   To mitigate the damage that would be done if a job server (or its network connection) were to fail, clients can be configured with more than one assigned job server; if the first assigned job server fails, another can be transparently substituted.
 
 ![Gearman Flowchart](https://upload.wikimedia.org/wikipedia/en/c/c5/Gearman_Stack.png)
+
+---
+
+## Features
+
+- Open source
+- Simple/Fast
+- Multi-language
+- Flexible application design
+- Load balancing
+- No single point of failure
+
+---
+
+## Queue Options
+
+-   Memory
+-   Memcached
+-   MySQL/Drizzle
+-   PostgreSQL
+-   SQLite
+-   Tokio Cabinet
+
+---
+
+## Strategies
+
+-   Scatter / Gather
+-   Map / Reduce
+-   Asynchronous Queues
+-   Pipeline Processing
 
 ---
 
