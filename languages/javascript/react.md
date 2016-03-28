@@ -41,8 +41,8 @@
 
 ## Unsorted
 
--   refs: <https://facebook.github.io/react/docs/more-about-refs.html>
--   findDOMNode: <https://facebook.github.io/react/docs/top-level-api.html#reactdom.finddomnode>
+-   `refs`: <https://facebook.github.io/react/docs/more-about-refs.html>
+-   `findDOMNode`: <https://facebook.github.io/react/docs/top-level-api.html#reactdom.finddomnode>
 
 ---
 
