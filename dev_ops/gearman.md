@@ -33,5 +33,5 @@ Gearman performs coalescence on the work sent by a client. If two or more client
 ## References
 
 -   [Jay Paroline: How Grooveshark Uses Gearman](http://wanderr.com/jay/how-grooveshark-uses-gearman/2011/03/27)
--   [Wikipedia: Gearman](https://en.wikipedia.org/wiki/Gearman)*
+-   [Wikipedia: Gearman](https://en.wikipedia.org/wiki/Gearman)
 -   [Wikipedia: MapReduce](https://en.wikipedia.org/wiki/MapReduce)
