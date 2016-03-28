@@ -2,10 +2,6 @@
 
 An open source application framework designed to distribute computer tasks to multiple computers, in the interest of speed and/or load balancing.
 
-*From: [GearmanHQ](http://gearmanhq.com/help/getting-started)*
-
-> A generic application framework for doing work in the background, spanning different machines, networks, and workers, each suited to preforming a specific job or set of jobs. Gearman itself acts as the CNS: jobs can come in from a variety of source, and workers can be on several machines and running in several different langauges.
-
 An anagram for *Manager*, "since it dispatches jobs to be done, but does not do anything useful itself."
 
 ---
