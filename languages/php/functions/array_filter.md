@@ -13,7 +13,6 @@ Iterates over each value in the `array` passing them to the `callback` function.
 ## Example
 
 ```php
-<?php
 function odd($var)
 {
     // returns whether the input integer is odd
@@ -33,7 +32,6 @@ echo "Odd :\n";
 print_r(array_filter($array1, "odd"));
 echo "Even:\n";
 print_r(array_filter($array2, "even"));
-?>
 ```
 
 ```txt
