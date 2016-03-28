@@ -1,6 +1,6 @@
 # Gearman
 
-"Gearman," an anagram for "Manager", "since it dispatches jobs to be done, but does not do anything useful itself."
+An anagram for *Manager*, "since it dispatches jobs to be done, but does not do anything useful itself."
 
 *From: [GearmanHQ](http://gearmanhq.com/help/getting-started)*
 
