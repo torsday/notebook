@@ -288,13 +288,17 @@ The ability of a program to examine the type or properties of an object at runti
 
 Unionfs is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. As an example application of union mounting, consider the need to update the information contained on a CD-ROM or DVD. While a CD-ROM is not writable, one can overlay the CD's mount point with a writable directory in a union mount. Then, updating files in the union directory will cause them to end up in the writable directory, giving the illusion that the CD-ROM's contents have been updated.
 
+## UMT
+
+User multivariate testing, a technique for testing a hypothesis in which multiple variables are modified. The goal of multivariate testing is to determine which combination of variations performs the best out of all of the possible combinations. Websites and mobile apps are made of combinations of changeable elements.
+
 ## Union mount
 
 A way of combining multiple directories into one that appears to contain their combined contents.
 
 ## UUID
 
-A universally unique identifier (UUID) is an identifier standard used in software construction. A UUID is simply a 128-bit value.
+Universally unique identifier, an identifier standard used in software construction. A UUID is simply a 128-bit value.
 
 ## WebSockets
 

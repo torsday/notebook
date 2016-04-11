@@ -2,6 +2,18 @@
 
 ---
 
+
+
+2016-04-11
+
+---
+
+-   `chmod 755 <script_name>` making a ruby script executable
+
+2016-03-29
+
+---
+
 -   `array_filter()`
 
 2016-03-25
