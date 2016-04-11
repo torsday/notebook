@@ -2,7 +2,12 @@
 
 ---
 
+-   CAN-SPAM Act of 2003
 
+    -   > The CAN-SPAM Act of 2003, signed into law by President George W. Bush on December 16, 2003, establishes the United States' first national standards for the sending of commercial e-mail and requires the Federal Trade Commission (FTC) to enforce its provisions.
+    -   Why emails need an unsubscribe link in emails.
+
+    -   [Wikipedia Link](https://en.wikipedia.org/wiki/CAN-SPAM_Act_of_2003)
 
 2016-04-11
 
