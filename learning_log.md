@@ -4,7 +4,7 @@
 
 -   [Akka](http://akka.io)
 
--   spray routes? <http://spray.io/documentation/1.1.2/spray-routing/>
+-   spray routes: <http://spray.io/documentation/1.1.2/spray-routing/>
 
 -   [ScalaTest](http://www.scalatest.org)
 
