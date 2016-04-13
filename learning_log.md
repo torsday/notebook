@@ -2,6 +2,22 @@
 
 ---
 
+-   [Akka](http://akka.io)
+
+-   spray routes? <http://spray.io/documentation/1.1.2/spray-routing/>
+
+-   [ScalaTest](http://www.scalatest.org)
+
+-   *From: [Akka: actor system](http://doc.akka.io/api/akka/2.0/akka/actor/ActorSystem.html)*
+
+    > An actor system is a hierarchical group of actors which share common configuration, e.g. dispatchers, deployments, remote capabilities and addresses. It is also the entry point for creating or looking up actors.
+
+2016-04-13
+
+---
+
+-   Gitbook, within `SUMMARY`
+
 -   CAN-SPAM Act of 2003
 
     -   > The CAN-SPAM Act of 2003, signed into law by President George W. Bush on December 16, 2003, establishes the United States' first national standards for the sending of commercial e-mail and requires the Federal Trade Commission (FTC) to enforce its provisions.
