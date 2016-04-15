@@ -2,6 +2,16 @@
 
 ---
 
+Experimenting with Emacs because I'm interested in org-mode.
+
+[StackOverflow: What is the difference between Aquamacs and other Mac versions of Emacs?](http://emacs.stackexchange.com/questions/271/what-is-the-difference-between-aquamacs-and-other-mac-versions-of-emacs)
+
+```sh
+brew install emacs --HEAD --use-git-head --with-cocoa --with-gnutls --with-rsvg --with-imagemagick
+```
+
+---
+
 -   [Akka](http://akka.io)
 
 -   spray routes: <http://spray.io/documentation/1.1.2/spray-routing/>
