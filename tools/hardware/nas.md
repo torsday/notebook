@@ -30,10 +30,17 @@ efficient
 
 use SHR to appreciate all space
 
+### XPEnology
+
+<http://xpenology.com/forum>
+
 ---
 
 ## References
 
--   [Raid Calculator](https://www.synology.com/en-us/support/RAID_calculator)
+-   [Reddit: My (Quiet) Apartment Homelab](https://www.reddit.com/r/homelab/comments/3kwa35/my_quiet_apartment_homelab/)
+-   [Reddit: My apartment sized home lab](https://www.reddit.com/r/homelab/comments/37hwkk/my_apartment_sized_home_lab)
+-   [Reddit: Synology 1815+ NAS - should I wait to buy?](https://www.reddit.com/r/homelab/comments/4d1p1p/synology_1815_nas_should_i_wait_to_buy)
+-   [Synology Raid Calculator](https://www.synology.com/en-us/support/RAID_calculator)
 -   [Synology Supported Hardware](https://www.synology.com/en-us/compatibility)
 -   [Western Digital WD HDD Colors Difference](http://blog.usro.net/wd-hdd-colors-difference)
