@@ -2,6 +2,18 @@
 
 ---
 
+2016-04-18
+
+---
+
+Create symlinks for appropriate brew apps
+
+```sh
+brew linkapps <app_name_or_blank>
+```
+
+---
+
 Experimenting with Emacs because I'm interested in org-mode.
 
 [StackOverflow: What is the difference between Aquamacs and other Mac versions of Emacs?](http://emacs.stackexchange.com/questions/271/what-is-the-difference-between-aquamacs-and-other-mac-versions-of-emacs)
