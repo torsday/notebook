@@ -116,6 +116,10 @@ A headless browser is a web browser without a graphical user interface.
 
 Hash-based message authentication code.
 
+## HSTS
+
+HTTP Strict Transport Security, a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should only interact with it using secure HTTPS connections, and never via the insecure HTTP protocol. The HSTS Policy is communicated by the server to the user agent via an HTTP response header field named "Strict-Transport-Security". HSTS Policy specifies a period of time during which the user agent should only access the server in a secure fashion.
+
 ## IANA
 
 Internet Assigned Numbers Authority.
