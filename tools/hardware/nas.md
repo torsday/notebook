@@ -22,6 +22,15 @@ efficient
 
 ---
 
+### ITX vs ATX
+
+#### Contenders
+
+NZXT Manta
+s340
+
+---
+
 ## Solutions
 
 ### Synology DS1515+
@@ -44,3 +53,4 @@ use SHR to appreciate all space
 -   [Synology Raid Calculator](https://www.synology.com/en-us/support/RAID_calculator)
 -   [Synology Supported Hardware](https://www.synology.com/en-us/compatibility)
 -   [Western Digital WD HDD Colors Difference](http://blog.usro.net/wd-hdd-colors-difference)
+-   [YouTube: Top Cases of 2015](https://www.youtube.com/watch?v=bA5D6KqA8w8)
