@@ -2,7 +2,7 @@
 
 ---
 
-HSTS
+Created a HSTS entry. [Wikipedia article](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
 
 ---
 
