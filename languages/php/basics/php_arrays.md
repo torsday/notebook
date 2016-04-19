@@ -18,8 +18,14 @@ join(", ", $myArray);
 
 ## CRUD
 
+### Push
+
 ```php
 $myArray[] = $var;
+```
+
+```php
+array_push($stack, "apple", "raspberry");
 ```
 
 ---
