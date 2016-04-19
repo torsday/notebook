@@ -16,6 +16,14 @@ join(", ", $myArray);
 
 ---
 
+## CRUD
+
+```php
+$myArray[] = $var;
+```
+
+---
+
 ## Associative Arrays
 
 ```php
