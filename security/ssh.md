@@ -47,3 +47,4 @@ ssh-add ~/.ssh/id_rsa
 ## References
 
 -   [GitHub: Generating an SSH key](https://help.github.com/articles/generating-an-ssh-key)
+-   [ServerFault: OpenSSH : Key-based authorization, maximum key length](http://serverfault.com/questions/160268/openssh-key-based-authorization-maximum-key-length)
