@@ -39,8 +39,8 @@ ssh-add ~/.ssh/id_rsa
 
 -   There is no max bit-size defined by the protocol, but server's may kick you if you take too long
 
-    -   2048 used to be safe, now is not
-    -   4096 is the best-practice
+    -   `2048` used to be safe, now is not
+    -   `4096` is the best-practice
 
 ---
 
