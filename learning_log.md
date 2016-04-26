@@ -2,6 +2,20 @@
 
 ---
 
+speed up `git status` by not showing untracked files:
+
+```sh
+git status --untracked-files=no
+```
+
+Which is the same as:
+
+```sh
+git status -uno
+```
+
+---
+
 green fielding: creating new code
 
 ---
