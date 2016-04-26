@@ -14,6 +14,10 @@ Which is the same as:
 git status -uno
 ```
 
+Useful with *very* large projects.
+
+*<http://stackoverflow.com/questions/594757/how-do-i-do-a-git-status-so-it-doesnt-display-untracked-files-without-using>*
+
 ---
 
 green fielding: creating new code
