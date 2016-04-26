@@ -164,6 +164,10 @@ A directory service protocol that runs on a layer above the TCP/IP stack. It pro
 
 A standard plain text data interchange format for representing LDAP directory CRUD requests.
 
+## LIFO
+
+Last in first out.
+
 ## LXC
 
 An operating-system-level virtualization environment for running multiple isolated Linux systems (containers) on a single Linux control host.
@@ -275,6 +279,10 @@ An algorithm that puts elements of a list in a certain order.
 ## Stable Sort
 
 The implementation preserves the input order of equal elements in the sorted output.
+
+## Stack trace
+
+A report of the active stack frames at a certain point in time during the execution of a program.
 
 ## Trait
 
