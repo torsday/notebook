@@ -2,6 +2,20 @@
 
 ---
 
+With the [gitbook youtube plugin](https://plugins.gitbook.com/plugin/youtube), embed videos using:
+
+```markdown
+take a look at this video:
+
+{% youtube %}https://www.youtube.com/watch?v=9bZkp7q19f0{% endyoutube %}
+```
+
+Test:
+
+{% youtube %}https://www.youtube.com/watch?v=Kl9A64LJtUQ{% endyoutube %}
+
+---
+
 ```sh
 git fetch --tags --prune
 ```
