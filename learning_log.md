@@ -2,6 +2,28 @@
 
 ---
 
+```sh
+git fetch --tags --prune
+```
+
+---
+
+to ad the *[Todo](https://plugins.gitbook.com/plugin/todo)* plugin to gitbook
+
+```sh
+npm install --save gitbook-plugin-todo
+```
+
+Then add this to your `book.json`
+
+```json
+{
+    "plugins": ["todo"]
+}
+```
+
+---
+
 speed up `git status` by not showing untracked files:
 
 ```sh
