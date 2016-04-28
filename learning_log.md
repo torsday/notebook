@@ -2,6 +2,14 @@
 
 ---
 
+`.php` and `.phtml` are synonymous, interpreted exactly the same.
+
+*From: [StackOverflow](http://stackoverflow.com/questions/11859015/what-is-phtml-and-when-should-i-use-a-phtml-extension-rather-than-php)*
+
+> `.phtml` was the standard file extension for PHP 2 programs. `.php3` took over for PHP 3. When PHP 4 came out they switched to a straight `.php`.
+
+---
+
 With the [gitbook youtube plugin](https://plugins.gitbook.com/plugin/youtube), embed videos using:
 
 ```markdown
