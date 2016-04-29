@@ -2,7 +2,9 @@
 
 ---
 
-TODO: Futures, Promises
+- [ ] TODO: Futures
+- [ ] TODO: Promises
+- [ ] TODO: BitMask
 
 ---
 
