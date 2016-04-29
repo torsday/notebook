@@ -2,6 +2,10 @@
 
 ---
 
+TODO: Futures, Promises
+
+---
+
 ## Intro to...
 
 ### Webpack, ES6, Babel, React, Redux, & React-Redux
