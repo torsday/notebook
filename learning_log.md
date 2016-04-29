@@ -2,6 +2,14 @@
 
 ---
 
+## Intro to...
+
+### Webpack, ES6, Babel, React, Redux, & React-Redux
+
+{% youtube %}https://www.youtube.com/watch?v=DfRibIkjhew{% endyoutube %}
+
+---
+
 `.php` and `.phtml` are synonymous, interpreted exactly the same.
 
 *From: [StackOverflow](http://stackoverflow.com/questions/11859015/what-is-phtml-and-when-should-i-use-a-phtml-extension-rather-than-php)*
