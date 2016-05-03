@@ -2,10 +2,10 @@
 
 ---
 
--   Decorator Pattern + Chain of Command
--   [Specification Pattern](./design/specification_pattern.md)
 -   Builder Pattern (<https://sourcemaking.com/design_patterns/builder>): Separates object construction from its representation
+-   Decorator Pattern + Chain of Command
 -   Inheritence Hierarchy
+-   Specification Pattern
 -   Traits vs. Interface w/i scala
 
 ---

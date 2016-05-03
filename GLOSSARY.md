@@ -276,6 +276,10 @@ The practice of structuring information models and associated schemata such that
 
 An algorithm that puts elements of a list in a certain order.
 
+## Specification Pattern
+
+ Business rules can be recombined by chaining the business rules together using boolean logic.
+
 ## SQLite
 
  A software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.
