@@ -6,7 +6,7 @@
 -   Decorator Pattern + Chain of Command
 -   Inheritence Hierarchy
 -   Specification Pattern
--   Traits vs. Interface w/i scala
+-   Traits vs. Interface w/i Scala
 
 ---
 
