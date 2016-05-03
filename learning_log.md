@@ -2,9 +2,9 @@
 
 ---
 
--   [Specification Pattern](./design/specification_pattern.md)
--   Builder Pattern
 -   [Decorator Pattern](./design/decorator.md) + Chain of Command
+-   [Specification Pattern](./design/specification_pattern.md)
+-   Builder Pattern (<https://sourcemaking.com/design_patterns/builder>)
 -   Inheritence Hierarchy
 
 ---
@@ -32,7 +32,7 @@
 
 ---
 
-With the [gitbook youtube plugin](https://plugins.gitbook.com/plugin/youtube), embed videos using:
+With the [GitBook YouTube plugin](https://plugins.gitbook.com/plugin/youtube), embed videos using:
 
 ```markdown
 {% youtube %}https://www.youtube.com/watch?v=9bZkp7q19f0{% endyoutube %}
