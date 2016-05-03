@@ -2,10 +2,10 @@
 
 ---
 
--   Builder Pattern
 -   [Specification Pattern](./design/specification_pattern.md)
+-   Builder Pattern
+-   [Decorator Pattern](./design/decorator.md) + Chain of Command
 -   Inheritence Hierarchy
--   Decorator Pattern + Chain of Command
 
 ---
 
