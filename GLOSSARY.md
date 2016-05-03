@@ -256,6 +256,10 @@ A cryptosystem for public-key encryption.
 
 Security Assertion Markup Language Tokens.
 
+## Scala
+
+A general purpose programming language, with full support for functional programming and a very strong static type system.
+
 ## SEIT
 
 Software Engineer in Test
