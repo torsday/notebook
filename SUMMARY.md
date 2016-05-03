@@ -48,6 +48,7 @@
         -   [Creational](./design/creational.md)
 
             -   [Abstract Factory](./design/abstract_factory.md)
+            -   [Builder]()
             -   [Factory Method](./design/factory_method.md)
             -   [Singleton](./design/singleton.md)
 
