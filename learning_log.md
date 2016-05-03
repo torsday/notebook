@@ -2,6 +2,17 @@
 
 ---
 
+[HTML Input maxlength Attribute](http://www.w3schools.com/tags/att_input_maxlength.asp)
+
+```html
+<form action="demo_form.asp">
+  Username: <input type="text" name="usrname" maxlength="10"><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+---
+
 *From: [SourceMaking](https://sourcemaking.com/design_patterns/builder)*
 
 > Builder Pattern: Separates object construction from its
