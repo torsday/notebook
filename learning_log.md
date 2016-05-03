@@ -2,7 +2,12 @@
 
 ---
 
--   Builder Pattern (<https://sourcemaking.com/design_patterns/builder>): Separates object construction from its representation
+*From: [SourceMaking](https://sourcemaking.com/design_patterns/builder)*
+
+> Builder Pattern: Separates object construction from its
+
+---
+
 -   Decorator Pattern + Chain of Command
 -   Inheritence Hierarchy
 -   Specification Pattern
