@@ -2,6 +2,13 @@
 
 ---
 
+-   Builder Pattern
+-   [Specification Pattern](./design/specification_pattern.md)
+-   Inheritence Hierarchy
+-   Decorator Pattern + Chain of Command
+
+---
+
 - [ ] TODO: Futures
 - [ ] TODO: Promises
 - [ ] TODO: BitMask
