@@ -7,6 +7,7 @@
 -   Inheritence Hierarchy
 -   Specification Pattern
 -   Traits vs. Interface w/i Scala
+-   Dependency fetching vs injection
 
 ---
 
