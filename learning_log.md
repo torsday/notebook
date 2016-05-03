@@ -4,6 +4,14 @@
 
 [HTML Input maxlength Attribute](http://www.w3schools.com/tags/att_input_maxlength.asp)
 
+The maximum number of characters allowed in the <input> element. Default value is 524288.
+
+```html
+<input maxlength="number">
+```
+
+example:
+
 ```html
 <form action="demo_form.asp">
   Username: <input type="text" name="usrname" maxlength="10"><br>
