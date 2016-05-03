@@ -4,7 +4,7 @@
 
 -   [Decorator Pattern](./design/decorator.md) + Chain of Command
 -   [Specification Pattern](./design/specification_pattern.md)
--   Builder Pattern (<https://sourcemaking.com/design_patterns/builder>)
+-   Builder Pattern (<https://sourcemaking.com/design_patterns/builder>): Separates object construction from its representation
 -   Inheritence Hierarchy
 
 ---
