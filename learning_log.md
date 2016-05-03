@@ -6,13 +6,14 @@
 -   [Specification Pattern](./design/specification_pattern.md)
 -   Builder Pattern (<https://sourcemaking.com/design_patterns/builder>): Separates object construction from its representation
 -   Inheritence Hierarchy
+-   Traits vs. Interface w/i scala
 
 ---
 
-- [ ] TODO: Futures
-- [ ] TODO: Promises
-- [ ] TODO: BitMask
-- [ ] React Router
+- BitMask
+- Futures
+- Promises
+- React Router
 
 ---
 
