@@ -6,7 +6,7 @@
 -   Decorator Pattern + Chain of Command
 -   Inheritence Hierarchy
 -   Specification Pattern
--   Traits vs. Interface w/i Scala
+-   Traits vs. Interface within Scala
 -   Dependency fetching vs injection
 
 ---
