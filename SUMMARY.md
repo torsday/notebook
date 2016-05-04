@@ -155,10 +155,12 @@
 
     -   [Javascript](./languages/javascript/README.md)
 
+        -   [Angular](./languages/javascript/angular.md)
+        -   [Backbone](./languages/javascript/backbone.md)
         -   [CoffeeScript](./languages/javascript/coffeescript.md)
         -   [D3]()
         -   [Lo-Dash]()
-        -   [Node]()
+        -   [Node](./languages/javascript/node.md)
         -   [React](./languages/javascript/react.md)
         -   [Redux](./languages/javascript/redux.md)
 
