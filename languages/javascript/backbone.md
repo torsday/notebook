@@ -16,6 +16,7 @@
 
     -   Difficult to test
     -   SEO is a pain in the butt
+    -   Security issues (clients have your code)
 
 ---
 

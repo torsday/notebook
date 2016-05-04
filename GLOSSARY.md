@@ -284,6 +284,10 @@ The practice of structuring information models and associated schemata such that
 
 An algorithm that puts elements of a list in a certain order.
 
+## SPA
+
+Single page application.
+
 ## Specification Pattern
 
  Business rules can be recombined by chaining the business rules together using boolean logic.
