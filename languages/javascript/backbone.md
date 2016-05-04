@@ -21,6 +21,7 @@
 -   Dependencies:
 
     -   Underscore.js
+    -   jQuery or Zepto
 
 ---
 
