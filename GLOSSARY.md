@@ -140,6 +140,10 @@ Internet Corporation for Assigned Names & Numbers. A nonprofit private American 
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
 
+## jQuery
+
+A cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
+
 ## Kaizen
 
 Kaizen (Continuous Improvement) is a strategy where employees at all levels of a company work together proactively to achieve regular, incremental improvements to the manufacturing process. In a sense, it combines the collective talents within a company to create a powerful engine for improvement.
@@ -347,3 +351,7 @@ Extensible Markup Language.
 ## XMPP
 
 Extensible Messaging & Presence Protocol.
+
+## Zepto
+
+A minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.

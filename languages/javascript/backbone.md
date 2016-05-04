@@ -14,13 +14,13 @@
 
 -   Cons:
 
-    -   Difficult to test
-    -   SEO is a pain in the butt
+    -   Difficult to test (source of truth lives in the DOM)
+    -   SEO is a pain in the butt (there is no static content to be indexed)
     -   Security issues (clients have your code)
 
 -   Dependencies:
 
-    -   Underscore.js
+    -   Underscore.js (albeit inferior to lodash)
     -   jQuery or Zepto
 
 ---
