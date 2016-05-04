@@ -4,6 +4,10 @@
 
 Apple Push Notification service.
 
+## Backbone
+
+A JavaScript framework with a RESTful JSON interface and is based on the model–view–presenter (MVP) application design paradigm; known for being lightweight.
+
 ## Behavior-Driven Development
 
 A software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.
