@@ -12,16 +12,16 @@
 
 ## Approaches
 
--   Decision tree learning
--   Association rule learning
 -   Artificial neural networks
--   Deep Learning
--   Inductive logic programming
--   Support vector machines
--   Clustering
+-   Association rule learning
 -   Bayesian networks
+-   Clustering
+-   Decision tree learning
+-   Deep Learning
+-   Genetic algorithms
+-   Inductive logic programming
 -   Reinforcement learning
 -   Representation learning
 -   Similarity and metric learning
 -   Sparse dictionary learning
--   Genetic algorithms
+-   Support vector machines
