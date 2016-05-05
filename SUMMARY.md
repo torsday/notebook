@@ -237,6 +237,11 @@
     -   [rsync](./linux/rsync.md)
     -   [Tree](./linux/tree.md)
 
+-   [Machine Learning](./machine_learning.md)
+
+    -   [Deep Learning](./deep_learning.md)
+    -   [Neural Networks](./neural_networks.md)
+
 -   [Medicine](./medicine/README.md)
 
     -   [Pharmacology](./medicine/pharmacology/README.md)
