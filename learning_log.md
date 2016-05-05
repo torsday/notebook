@@ -2,6 +2,12 @@
 
 ---
 
+-   Machine Learning
+-   Neural Networks
+-   Deep Learning
+
+---
+
 Backbone.js
 
 ---
