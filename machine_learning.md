@@ -25,3 +25,11 @@
 -   Similarity and metric learning
 -   Sparse dictionary learning
 -   Support vector machines
+
+---
+
+## References
+
+-   [Machine Learning for Developers](http://xyclade.github.io/MachineLearning)
+-   [A Tour of Machine Learning Algorith](http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms)
+-   [Machine-Learning Maestro Michael Jordan on the Delusions of Big Data and Other Huge Engineering Efforts](http://spectrum.ieee.org/robotics/artificial-intelligence/machinelearning-maestro-michael-jordan-on-the-delusions-of-big-data-and-other-huge-engineering-efforts)
