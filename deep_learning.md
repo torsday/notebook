@@ -17,3 +17,4 @@
 ## References
 
 -   [Udacity: Deep Learning](https://www.udacity.com/course/deep-learning--ud730)
+-   [Deep Learning (book)](http://www.deeplearningbook.org)
