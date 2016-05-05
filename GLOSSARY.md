@@ -64,6 +64,10 @@ The process of transforming a function that takes multiple arguments into a func
 
 Add responsibilities to objects dynamically; a structural design pattern.
 
+## Deep learning
+
+A branch of machine learning based on a set of algorithms that attempt to model high-level abstractions in data by using multiple processing layers, with complex structures or otherwise, composed of multiple non-linear transformations.
+
 ## Delta Compression
 
 See: Delta Encoding.
@@ -195,6 +199,10 @@ A programming model & implementation for processing and generating large data se
 ## Ncurses
 
 A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.
+
+## Neural Networks
+
+Artificial neural networks are generally presented as systems of interconnected "neurons" which exchange messages between each other. The connections have numeric weights that can be tuned based on experience, making neural nets adaptive to inputs and capable of learning.
 
 ## OID
 
