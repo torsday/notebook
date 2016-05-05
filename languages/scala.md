@@ -146,6 +146,16 @@ object Point {
 }
 ```
 
+---
+
+## Testing
+
+### Unit
+
+-   ScalaTest
+
+---
+
 ## References
 
 -   [scala-lang.org](http://www.scala-lang.org)
