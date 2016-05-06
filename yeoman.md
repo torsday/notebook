@@ -8,6 +8,10 @@
 
 ---
 
+see available generators with `npm search yeoman-generator` and then install them with `npm install [name]`.
+
+---
+
 ## References
 
 -   [PluralSight: Yeoman Fundamentals](https://app.pluralsight.com/library/courses/yeoman-fundamentals/table-of-contents)
