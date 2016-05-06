@@ -10,6 +10,8 @@
 
 see available generators with `npm search yeoman-generator` and then install them with `npm install [name]`.
 
+see interesting generators here: <http://yeoman.io/generators/>
+
 ---
 
 ## References
