@@ -117,6 +117,7 @@
     -   [Terraform](./dev_ops/terraform.md)
     -   [Travis CI](./dev_ops/travis.md)
     -   [Vagrant]()
+    -   [Yeoman](./yeoman.md)
     -   [Yum]()
 
 -   [Education](./education/README.md)
