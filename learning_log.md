@@ -2,6 +2,16 @@
 
 ---
 
+duplicate a directory, preserving rights, symlinks...
+
+```sh
+cp -a src target
+
+# -a, --archive, same as -dR --preserve=all
+```
+
+---
+
 -   yeoman
 
 ---
