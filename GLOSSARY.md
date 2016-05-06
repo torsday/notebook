@@ -364,6 +364,10 @@ Extensible Markup Language.
 
 Extensible Messaging & Presence Protocol.
 
+## Yeoman
+
+An open source client-side development stack, consisting of tools and frameworks intended to help developers quickly build high quality web applications.
+
 ## Zepto
 
 A minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.
