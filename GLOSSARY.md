@@ -328,6 +328,10 @@ A set of methods that are not inherited, but composed into classes.
 
 *see Trait*
 
+## Thunk
+
+A subroutine that is created, often automatically, to assist a call to another subroutine. Thunks are primarily used to represent an additional calculation that a subroutine needs to execute, or to call a routine that does not support the usual calling mechanism.
+
 ## Type introspection
 
 The ability of a program to examine the type or properties of an object at runtime.
