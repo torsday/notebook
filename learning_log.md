@@ -17,12 +17,16 @@ Security Hackers Club Meeting ( 2016-05-09 )
 -   cap-drop
 
 -   Home network security
+
     -   [Eero](https://www.eero.com)
     - dd-wrt, openwrt, tomato
+
 -   pfsense
 -   use VMs to test things you don't really trust
+
     -   esxi
     -   arch linux, solely for containers
+
 -   [snort](https://www.snort.org). IDS
 -   Visualize with database and elastic search
 -   [Elk Stack](https://www.elastic.co/webinars/introduction-elk-stack): visualize it
