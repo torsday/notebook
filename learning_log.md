@@ -2,6 +2,10 @@
 
 ---
 
+Avoid inheritance hierarchies when possible since they're more limiting than reusable
+
+---
+
 Security Hackers Club Meeting ( 2016-05-09 )
 
 -   Fandation & Swift Hack
