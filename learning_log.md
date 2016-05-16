@@ -6,6 +6,10 @@ Looking into **Auto-Complete** Tools
 
 -   [Twitter's Typeahead](https://github.com/twitter/typeahead.js/)
 -   [React Auto-suggest](https://github.com/moroshko/react-autosuggest)
+
+    -    More active development
+    -    Tailored for React
+
 -   [Rolling your own](https://gist.github.com/andyl/b3e5ca4d87ad6ad1728d)
 
 ---
