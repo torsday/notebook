@@ -17,3 +17,18 @@
 
     –   'let-it-crash' philosophy
     –   Systems are self-healing
+
+---
+
+## Inbox
+
+- Kafka, metamorphosis
+- Amplitude
+- akka actors
+- prophecy. a network service
+
+---
+
+## References
+
+-   <https://en.wikipedia.org/wiki/Akka_(toolkit)>
