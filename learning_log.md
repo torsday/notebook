@@ -2,7 +2,9 @@
 
 ---
 
-Javascript Spread Operator (`...`) splat
+Javascript Spread Operator (`...`)
+
+a.k.a. *splat*
 
 *From: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)*
 
