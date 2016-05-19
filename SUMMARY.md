@@ -316,3 +316,4 @@
 -   [Appendix](./appendix.md)
 
     -   [Finagle](./finagle.md)
+    -   [Thrift](./thrift.md)
