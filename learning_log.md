@@ -2,19 +2,10 @@
 
 ---
 
+-   [Javascript Spread Operator](./languages/javascript/spread_operator.md)
 -   Type Theory
 -   [Finagle](./finagle.md)
 -   [Thrift](./thrift.md)
-
----
-
-Javascript Spread Operator (`...`)
-
-a.k.a. *splat*
-
-*From: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)*
-
-> The spread operator allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) or multiple variables  (for destructuring assignment) are expected.
 
 ---
 

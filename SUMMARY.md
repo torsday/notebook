@@ -164,6 +164,7 @@
         -   [Node](./languages/javascript/node.md)
         -   [React](./languages/javascript/react.md)
         -   [Redux](./languages/javascript/redux.md)
+        -   [Spread Operator](./languages/javascript/spread_operator.md)
 
     -   [Markdown](./languages/markdown.md)
 
