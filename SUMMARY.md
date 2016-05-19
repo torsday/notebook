@@ -313,5 +313,8 @@
 
     -   [Vim](./tools/vim.md)
 
+-   [Appendix](./appendix.md)
+
+    -   [Finagle](./finagle.md)
 
 -   [References](references.md)

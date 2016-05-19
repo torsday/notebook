@@ -2,6 +2,11 @@
 
 ---
 
+-   Type Theory
+-   [Finagle](./finagle.md)
+
+---
+
 Javascript Spread Operator (`...`)
 
 a.k.a. *splat*
