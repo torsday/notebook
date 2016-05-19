@@ -2,10 +2,24 @@
 
 ---
 
+-   Page Object Model & Selenium #bestPractice
+-   Ruby inheritence vs extends
+-   page object gem
+-   `text_field()` create methods you can call on the class
+
+```ruby
+page = LoginPage.new
+# ...same as
+visit LoginPage do |page| ...
+```
+
+---
+
 -   [Javascript Spread Operator](./languages/javascript/spread_operator.md)
 -   Type Theory
 -   [Finagle](./finagle.md)
 -   [Thrift](./thrift.md)
+-   XPath & selectors
 
 ---
 
