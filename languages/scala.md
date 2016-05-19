@@ -160,3 +160,6 @@ object Point {
 
 -   [scala-lang.org](http://www.scala-lang.org)
 -   <https://en.wikipedia.org/wiki/Scala_(programming_language)>
+-   <http://docs.scala-lang.org/style>
+-   <https://twitter.github.io/scala_school>
+-   <http://danielwestheide.com/scala/neophytes.html>
