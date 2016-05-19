@@ -14,6 +14,7 @@
 
 ## References
 
--   <http://twitter.github.io/finagle>
 -   <http://philcalcado.com/2015/09/08/how_we_ended_up_with_microservices.html>
+-   <http://twitter.github.io/finagle>
 -   <http://twitter.github.io/twitter-server>
+-   <https://github.com/twitter/finagle>
