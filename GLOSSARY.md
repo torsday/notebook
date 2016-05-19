@@ -264,6 +264,10 @@ The ability of a computer program to examine (see type introspection) and modify
 
 A Repository mediates between the domain and data mapping layers, acting like an in-memory domain object collection
 
+## RPC
+
+Remote Procedure Call, a protocol that one program can use to request a service from a program located in another computer in a network without having to understand network details. (A procedure call is also sometimes known as a function call or a subroutine call.) RPC uses the client/server model.
+
 ## RPM
 
 RPM Package Manager; originally Red Hat Package Manager.
