@@ -6,8 +6,6 @@
 
 > Finagle is written in Scala, but provides both Scala and Java idiomatic APIs.
 
-
-
 -   protocol agnostic
 
 ---
