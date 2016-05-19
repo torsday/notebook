@@ -148,6 +148,10 @@ Specifies what methods a class must implement (an interface). An interface is sl
 
 A cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
 
+## JVM
+
+Java virtual machine, an abstract computing machine that enables a computer to run a Java program. There are three notions of the JVM: specification, implementation, and instance. The specification is a document that formally describes what is required of a JVM implementation.
+
 ## Kaizen
 
 Kaizen (Continuous Improvement) is a strategy where employees at all levels of a company work together proactively to achieve regular, incremental improvements to the manufacturing process. In a sense, it combines the collective talents within a company to create a powerful engine for improvement.
