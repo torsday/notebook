@@ -4,6 +4,7 @@
 
 -   Type Theory
 -   [Finagle](./finagle.md)
+-   [Thrift](./thrift.md)
 
 ---
 
