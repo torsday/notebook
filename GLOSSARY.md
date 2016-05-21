@@ -136,6 +136,10 @@ HTTP Strict Transport Security, a web security policy mechanism which helps to p
 
 Internet Assigned Numbers Authority.
 
+## IaaS
+
+Infrastructure as a Service.
+
 ## ICANN
 
 Internet Corporation for Assigned Names & Numbers. A nonprofit private American corporation that oversees global IP address allocation, autonomous system number allocation, root zone management in the Domain Name System (DNS), media types, and other Internet Protocol-related symbols and numbers.

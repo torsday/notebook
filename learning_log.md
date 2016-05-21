@@ -2,6 +2,8 @@
 
 ---
 
+## Selenium
+
 -   Page Object Model & Selenium #bestPractice
 -   Ruby inheritence vs extends
 -   page object gem
@@ -12,6 +14,13 @@ page = LoginPage.new
 # ...same as
 visit LoginPage do |page| ...
 ```
+
+`sleep` is bad. Use `expect {}.to change {} ... expect().to eq ...`
+
+Why `runner`, rathre than `rspec` directly?
+
+    -   deletes webapp logs
+    -   runs in parallel
 
 ---
 
