@@ -2,11 +2,24 @@
 
 ---
 
+Various ways to discard changes in git:
+
+```sh
+git checkout . # Removes Unstaged Tracked files ONLY [Type 2]
+git clean -f # Removes Unstaged UnTracked files ONLY [Type 3]
+git reset --hard # Removes Staged Tracked and UnStaged Tracked files ONLY[Type 1, Type 2]
+git stash -u # Removes all changes [Type 1, Type 2, Type 3]
+```
+
+*<http://stackoverflow.com/questions/22620393/various-ways-to-remove-local-git-changes>*
+
+---
+
 Why does JSON require double quotes?
 
 -   [StackOverflow: is-there-any-practical-reason-to-use-quoted-strings-for-json-keys](http://stackoverflow.com/questions/4201441/is-there-any-practical-reason-to-use-quoted-strings-for-json-keys)
 -   [StackOverflow: son-spec-does-the-key-have-to-be-surrounded-with-quotes](http://stackoverflow.com/questions/949449/json-spec-does-the-key-have-to-be-surrounded-with-quotes)
--   [StackOverflow: in-json-why-is-each-name-quoted](http://stackoverflow.com: in-json-why-is-each-name-quoted)
+-   [StackOverflow: in-json-why-is-each-name-quoted](http://stackoverflow.com/questions/2067974/in-json-why-is-each-name-quoted)
 
 ---
 
