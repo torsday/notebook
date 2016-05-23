@@ -4,9 +4,9 @@
 
 Why does JSON require double quotes?
 
--   <http://stackoverflow.com/questions/4201441/is-there-any-practical-reason-to-use-quoted-strings-for-json-keys>
--   <http://stackoverflow.com/questions/949449/json-spec-does-the-key-have-to-be-surrounded-with-quotes>
--   <http://stackoverflow.com/questions/2067974/in-json-why-is-each-name-quoted>-
+-   [StackOverflow: is-there-any-practical-reason-to-use-quoted-strings-for-json-keys](http://stackoverflow.com/questions/4201441/is-there-any-practical-reason-to-use-quoted-strings-for-json-keys)
+-   [StackOverflow: son-spec-does-the-key-have-to-be-surrounded-with-quotes](http://stackoverflow.com/questions/949449/json-spec-does-the-key-have-to-be-surrounded-with-quotes)
+-   [StackOverflow: in-json-why-is-each-name-quoted](http://stackoverflow.com: in-json-why-is-each-name-quoted)
 
 ---
 
