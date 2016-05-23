@@ -175,6 +175,7 @@
         -   [Basics](./languages/php/basics/README.md)
 
             -   [Arrays](./languages/php/basics/php_arrays.md)
+            -   [Namespacing](./php_namespacing.md)
 
         -   [Functions](./languages/php/functions/README.md)
 
