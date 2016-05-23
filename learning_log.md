@@ -2,6 +2,14 @@
 
 ---
 
+save composer requirement
+
+```sh
+composer require "touchlab/thunderdome-php=dev-stable"
+```
+
+---
+
 ## Selenium
 
 -   Page Object Model & Selenium #bestPractice
