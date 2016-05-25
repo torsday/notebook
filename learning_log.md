@@ -2,6 +2,37 @@
 
 ---
 
+Calling a parent's contructor in php
+
+```php
+parent::__construct();
+```
+
+```php
+/**
+ * @param MyClass $myInstance
+ */
+public function __construct(MyClass $myInstance = null)
+{
+    parent::__construct();
+    if (!$myInstance instanceof MyClass) {
+        $myInstance = new UserCollection();
+    }
+
+    $this->myInstance = $myInstance;
+}
+```
+
+---
+
+> Mock **repositories** will be needed to make sure the **services** can be provided to the **controllers**.
+
+---
+
+-   added to [composer](./dev_ops/composer.md)
+
+---
+
 Various ways to discard changes in git:
 
 ```sh
