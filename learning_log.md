@@ -2,6 +2,8 @@
 
 ---
 
+*error: missing parent constructor call*
+
 Calling a parent's contructor in php
 
 ```php
@@ -22,6 +24,8 @@ public function __construct(MyClass $myInstance = null)
     $this->myInstance = $myInstance;
 }
 ```
+
+-   <http://stackoverflow.com/questions/15063890/why-do-we-still-need-parent-constructor-when-controller-class-extends-a-parent-c>
 
 ---
 
