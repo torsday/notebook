@@ -27,13 +27,6 @@ Visitors are required to self-register and pay appropriate fees
 
 ---
 
-## People
-
--   Makely Lyon
--   Chris Torstenson
-
----
-
 ![map](http://www.mobilemaplets.com/thumbnails/9665_thumbnail-1024.jpg)
 
 ---
