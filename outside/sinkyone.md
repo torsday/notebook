@@ -6,6 +6,16 @@
 
 ---
 
+## Questions
+
+- [ ] Expectation of campsites to fill
+- [ ] Expectation of parking spaces to fill at TH
+- [ ] Trail surface (ie, best footwear)
+- [ ] Camping conditions/facilities/surfaces/etc
+- [ ] Any trail closures on the section we are looking at (e.g., erosion / clif hazard)?
+
+---
+
 ## Trailheads
 
 -   Usal Beach Campground (drive in camping, 4.5hr drive)
@@ -38,20 +48,18 @@
 
 ## Gear List
 
--   Solar Panels
--   UV Water Purifier + Iodine Backup
--   Tent
--   Sleeping Bag + mat
--   Rain gear
--   Hat
--   Sunscreen
--   Boots? Sandals? Shoes?
+- [ ] Solar Panels
+- [ ] UV Water Purifier + Iodine Backup
+- [ ] Tent
+- [ ] Sleeping Bag + mat
+- [ ] Rain gear
+- [ ] Hat
+- [ ] Sunscreen
+- [ ] Boots? Sandals? Shoes?
 
 ---
 
 ## Food
-
-
 
 ---
 
