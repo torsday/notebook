@@ -54,6 +54,12 @@ Visitors are required to self-register and pay appropriate fees
 
 ---
 
+## Food
+
+
+
+---
+
 ## References
 
 -   <http://www.blm.gov/ca/st/en/fo/arcata/kingrange/sinkyone_wilderness.html>
