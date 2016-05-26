@@ -17,13 +17,10 @@ Distance: 17 miles one-way
 
 ## Camping
 
-Trail camps for backpackers are located on the Lost Coast Trail between Bear Harbor and Usal Beach
-
-available on a first-come, first-served basis
-
-Self-registration facilities are located at Usal Beach and Needle Rock
-
-Visitors are required to self-register and pay appropriate fees
+-   Trail camps for backpackers are located on the Lost Coast Trail between Bear Harbor and Usal Beach
+-   available on a first-come, first-served basis
+-   Self-registration facilities are located at Usal Beach and Needle Rock
+-   Visitors are required to self-register and pay appropriate fees
 
 ---
 
