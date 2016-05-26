@@ -43,14 +43,14 @@ Visitors are required to self-register and pay appropriate fees
 
 ## Gear List
 
-- Solar Panels
-- UV Water Purifier + Iodine Backup
-- Tent
-- Sleeping Bag + mat
-- Rain gear
-- Hat
-- Sunscreen
-- Boots? Sandals? Shoes?
+-   Solar Panels
+-   UV Water Purifier + Iodine Backup
+-   Tent
+-   Sleeping Bag + mat
+-   Rain gear
+-   Hat
+-   Sunscreen
+-   Boots? Sandals? Shoes?
 
 ---
 
