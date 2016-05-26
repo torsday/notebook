@@ -60,6 +60,7 @@
 - [ ] Hat
 - [ ] Sunscreen
 - [ ] Boots? Sandals? Shoes?
+- [ ] First Aid Kit + meds
 
 ---
 
