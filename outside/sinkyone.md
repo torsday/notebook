@@ -33,10 +33,11 @@ Visitors are required to self-register and pay appropriate fees
 
 ## Itinerary
 
-1.  Drive up Friday or Saturday to Usal TH
-2.  Saturday: camp at Wheeler Camp
-3.  Sunday: Hide/leave camp, hike north, out and back. Grab gear, head south, camping at Little Jackass Creek or Anderson.
-4.  Monday: Hike out, return to the bay area safe and sound.
+|          |                                                                                                                |
+|:--------:|----------------------------------------------------------------------------------------------------------------|
+| Saturday | Drive up Saturday to Usal TH, camp at Wheeler Camp.                                                            |
+|  Sunday  | Hide/leave camp, hike north, out and back. Grab gear, head south, camping at Little Jackass Creek or Anderson. |
+|  Monday  | Hike out, return to the bay area safe and sound.                                                               |
 
 ---
 
@@ -44,3 +45,4 @@ Visitors are required to self-register and pay appropriate fees
 
 -   <http://www.blm.gov/ca/st/en/fo/arcata/kingrange/sinkyone_wilderness.html>
 -   <http://www.parks.ca.gov/?page_id=429>
+-   <http://www.redwoodhikes.com/Sinkyone/Wheeler.html>
