@@ -2,7 +2,11 @@
 
 -   Backpacking the southern section of The Lost Coast.
 -   Memorial Day Weekend 2016
--   Distance: 17 miles one-way
+-   Distance:
+
+    -   17 miles one-way
+    -   34 out-and-back
+    -   +8 with possible road closure
 
 ---
 
