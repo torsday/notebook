@@ -1,10 +1,8 @@
 # Sinkyone Wilderness State Park
 
-Backpacking the southern section of The Lost Coast.
-
-Memorial Day Weekend 2016
-
-Distance: 17 miles one-way
+-   Backpacking the southern section of The Lost Coast.
+-   Memorial Day Weekend 2016
+-   Distance: 17 miles one-way
 
 ---
 
