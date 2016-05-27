@@ -2,7 +2,23 @@
 
 ---
 
-*error: missing parent constructor call*
+<https://wiki.theory.org/YourLanguageSucks>
+
+---
+
+## `urlencode`
+
+This function is convenient when encoding a string to be used in a query part of a URL, as a convenient way to pass variables to the next page.
+
+```php
+string urlencode ( string $str )
+```
+
+<http://php.net/manual/en/function.urlencode.php>
+
+---
+
+## *error: missing parent constructor call*
 
 Calling a parent's contructor in php
 
