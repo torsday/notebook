@@ -41,7 +41,6 @@ mid forties temps at night.
 camping along trail
 hang food.
 
-
 ---
 
 ```sh
