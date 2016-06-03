@@ -2,6 +2,23 @@
 
 ---
 
+## Delete all git tags
+
+```sh
+#Delete local tags.
+git tag -l | xargs git tag -d
+#Fetch remote tags.
+git fetch
+#Delete remote tags.
+git tag -l | xargs -n 1 git push --delete origin
+#Delete local tags.
+git tag -l | xargs git tag -d
+```
+
+*from <https://gist.github.com/okunishinishi/9424779>*
+
+---
+
 ## Stopping by Woods on a Snowy Evening
 
 *By Robert Frost*
