@@ -2,6 +2,10 @@
 
 ---
 
+[php.net: `sprintf`](http://php.net/manual/en/function.sprintf.php)
+
+---
+
 ## Delete all git tags
 
 ```sh
