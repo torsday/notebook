@@ -2,6 +2,9 @@
 
 ---
 
+[php.net: `iteratoraggregate`](http://php.net/manual/en/class.iteratoraggregate.php)
+---
+
 [php.net: `sprintf()`](http://php.net/manual/en/function.sprintf.php)
 
 ---
