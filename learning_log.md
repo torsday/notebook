@@ -2,7 +2,7 @@
 
 ---
 
-[php.net: `sprintf`](http://php.net/manual/en/function.sprintf.php)
+[php.net: `sprintf()`](http://php.net/manual/en/function.sprintf.php)
 
 ---
 
