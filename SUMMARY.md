@@ -221,6 +221,8 @@
 
     -   [Philosophy](./lifestyle/philosophy.md)
 
+    -   [Poetry](./lifestyle/poetry.md)
+
     -   [Tracking](./lifestyle/tracking.md)
 
     -   [Zen](./lifestyle/zen.md)
