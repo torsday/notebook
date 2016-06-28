@@ -214,6 +214,16 @@ alias gpk='git count-objects -vH && echo "" && git repack -a -d -f --depth=250 -
 
 ---
 
+## Branch
+
+### Search branches for commit
+
+```sh
+git branch --contains <HASH>
+```
+
+---
+
 ## References
 
 -   [Git Flow](https://github.com/nvie/gitflow)
