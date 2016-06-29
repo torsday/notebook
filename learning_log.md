@@ -1,5 +1,7 @@
 # Learning Log
 
+*January 26, 2016* to *present*
+
 ---
 
 [php.net: `iteratoraggregate`](http://php.net/manual/en/class.iteratoraggregate.php)
@@ -24,23 +26,6 @@ git tag -l | xargs git tag -d
 ```
 
 *from <https://gist.github.com/okunishinishi/9424779>*
-
----
-
-http://fs.usda.gov/stnf forest recommendation reports  trinity... Go north coffee creek road, 7 THs, free campground, gold field is first, big%20flat%20is%20last
-
-north of hw 3 above weaverville
-at coffeecreak take turn to west 104 (coffee creek road)
-
-union lake (foster lake, conway lake). Leaving a map with envelope
-weavervill, by smokey bear, on back side with envelope with map, union lake map and permits.
-
-bear lake (straight shot, not preferable)
-permits outside of the station.
-california campfire/stove permit if using backpacking stove.
-mid forties temps at night.
-camping along trail
-hang food.
 
 ---
 
@@ -173,33 +158,6 @@ Looking into **Auto-Complete** Tools
 ---
 
 Avoid inheritance hierarchies when possible since they're more limiting than reusable
-
----
-
-Security Hackers Club Meeting ( 2016-05-09 )
-
--   Fandation & Swift Hack
-
-    -   no firewall + $10 router
-
--   nmap
--   control groups in docker: limit how much a process or container can do
--   cap-drop
-
--   Home network security
-
-    -   [Eero](https://www.eero.com)
-    - dd-wrt, openwrt, tomato
-
--   pfsense
--   use VMs to test things you don't really trust
-
-    -   esxi
-    -   arch linux, solely for containers
-
--   [snort](https://www.snort.org). IDS
--   Visualize with database and elastic search
--   [Elk Stack](https://www.elastic.co/webinars/introduction-elk-stack): visualize it
 
 ---
 
