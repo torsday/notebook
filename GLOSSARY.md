@@ -4,6 +4,10 @@
 
 Apple Push Notification service.
 
+## Arity
+
+The number of arguments or operands that the function takes. The arity of a relation (or predicate) is the dimension of the domain in the corresponding Cartesian product.
+
 ## Backbone
 
 A JavaScript framework with a RESTful JSON interface and is based on the model–view–presenter (MVP) application design paradigm; known for being lightweight.
