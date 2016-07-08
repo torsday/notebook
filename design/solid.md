@@ -36,4 +36,5 @@ A mnemonic acronym for principles of OOP.
 
 ## References
 
+-   <http://code.tutsplus.com/series/the-solid-principles--cms-634>
 -   <https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>
