@@ -2,19 +2,23 @@
 
 A mnemonic acronym for principles of OOP.
 
--   **S**ingle Responsibility
--   **O**pen/closed
--   **L**iskov Substitution
--   **I**nterface Segregation
--   **D**ependency Inversion
+|   |                           |
+|---|---------------------------|
+| S | **S**ingle Responsibility |
+| O | **O**pen/closed           |
+| L | **L**iskov Substitution   |
+| I | **I**nterface Segregation |
+| D | **D**ependency Inversion  |
+
+
 
 ## Single Responsibility Principle
 
 > A class should have only a single responsibility.
 
-## Open/closed Principle
+## Open/closed Principle (OCP)
 
-> Software entities should be open for extension, but closed for modification.
+> Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification..
 
 ## Liskov Substitution Principle
 
