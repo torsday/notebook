@@ -10,8 +10,6 @@ A mnemonic acronym for principles of OOP.
 | I | **I**nterface Segregation |
 | D | **D**ependency Inversion  |
 
-
-
 ## Single Responsibility Principle
 
 > A class should have only a single responsibility.
