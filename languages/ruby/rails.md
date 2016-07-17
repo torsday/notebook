@@ -8,12 +8,10 @@
 
 ## Setup
 
-using ```postgres``` instead of ```sqlite``` without tests
-
 ```bash
 rails new <app_name> -d postgresql -T
 
-# -d sets the type of database
+# -d sets the type of database. sqlite by default
 # -T prevents default test install
 ```
 
@@ -23,9 +21,19 @@ create database
 rake db:create
 ```
 
-add rspec
+### Install `rspec`
 
-```bash
+Update `Gemfile`
+
+```rb
+group :development, :test do
+  gem 'rspec-rails'
+end
+```
+
+Generate
+
+```sh
 rails generate rspec:install
 ```
 
