@@ -208,6 +208,10 @@ Field of study that gives computers the ability to learn without being explicitl
 
 A programming model & implementation for processing and generating large data sets with a parallel, distributed algorithm on a cluster. Composed of a Map() method that performs filtering and sorting (such as sorting students by first name into queues, one queue for each name) and a Reduce() method that performs a summary operation (such as counting the number of students in each queue, yielding name frequencies). The "MapReduce System" orchestrates the processing by marshalling the distributed servers, running the various tasks in parallel, managing all communications and data transfers between the various parts of the system, and providing for redundancy and fault tolerance.
 
+## MIT License
+
+Permits reuse within proprietary software provided all copies of the licensed software include a copy of the MIT License terms and the copyright notice.
+
 ## Ncurses
 
 A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.

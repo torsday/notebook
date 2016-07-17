@@ -8,6 +8,8 @@
 
 ## Setup
 
+### Full App
+
 ```bash
 rails new <app_name> -d postgresql -T
 
@@ -15,7 +17,13 @@ rails new <app_name> -d postgresql -T
 # -T prevents default test install
 ```
 
-create database
+### API App
+
+```sh
+rails new <app_name) --api
+```
+
+### database
 
 ```bash
 rake db:create
