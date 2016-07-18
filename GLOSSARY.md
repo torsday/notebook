@@ -88,6 +88,10 @@ DSA Specific Entry.
 
 A way to write computer code that doesn't demand that you know what types you are writing about. If it does what you thought it would do, it is good enough. The reason this is called "duck typing" is the duck test: "When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck."
 
+## ETL
+
+ETL (Extract, Transform and Load) is a process in data warehousing responsible for pulling data out of the source systems and placing it into a data warehouse.
+
 ## Functional Tests
 
 Functional tests check a particular feature for correctness by comparing the results for a given input against the specification. Functional tests don't concern themselves with intermediate results or side-effects, just the result (they don't care that after doing x, object y has state z). They are written to test part of the specification such as, "calling function Square(x) with the argument of 2 returns 4".
