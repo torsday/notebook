@@ -297,5 +297,8 @@
 
     -   [Vim](./tools/vim.md)
 
+-   [Appendix](appendix.md)
+
+    -   [ETL](etl.md)
 
 -   [References](references.md)
