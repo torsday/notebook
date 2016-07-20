@@ -100,13 +100,22 @@ top_regions AS (
   WHERE total_sales > (SELECT SUM(total_sales)/10 FROM regional_sales)
 )
 /* display sales figures per product in top regions only */
-SELECT region,
-       product,
-       SUM(quantity) AS product_units,
-       SUM(amount) AS product_sales
-FROM orders
-WHERE region IN (SELECT region FROM top_regions)
-GROUP BY region, product;
+SELECT
+  region,
+  product,
+  SUM(quantity) AS product_units,
+  SUM(amount) AS product_sales
+FROM
+  orders
+WHERE
+  region IN (
+  SELECT
+    region
+  FROM
+    top_regions)
+GROUP BY
+  region,
+  product;
 ```
 
 
