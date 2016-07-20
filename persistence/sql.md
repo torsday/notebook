@@ -236,30 +236,87 @@ FROM world
 * Lab
 
 ```sql
-SELECT state, is_male, avg(weight_pounds) as avg_weight,
-FROM [publicdata:samples.natality]
-WHERE is_male= false AND plurality = 1 AND state = 'CA' AND mother_age > father_age
-GROUP BY state, is_male
+SELECT
+  state,
+  is_male,
+  AVG(weight_pounds) AS avg_weight,
+FROM
+  [publicdata:samples.natality]
+WHERE
+  is_male= FALSE
+  AND plurality = 1
+  AND state = 'CA'
+  AND mother_age > father_age
+GROUP BY
+  state,
+  is_male
 ```
 
 Same as
 
 ```sql
-SELECT state, is_male, avg(weight_pounds) as avg_weight,
-FROM [publicdata:samples.natality]
-WHERE is_male= false AND plurality = 1 AND state = 'CA' AND mother_age > father_age
-GROUP BY 1,2
+SELECT
+  state,
+  is_male,
+  AVG(weight_pounds) AS avg_weight,
+FROM
+  [publicdata:samples.natality]
+WHERE
+  is_male= FALSE
+  AND plurality = 1
+  AND state = 'CA'
+  AND mother_age > father_age
+GROUP BY
+  1,
+  2
 ```
 
 ---
 
 ```sql
-SELECT year, is_male, avg(weight_pounds) as avg_weight,
-FROM [publicdata:samples.natality]
-WHERE plurality = 1
-GROUP BY 1,2
-ORDER BY year, is_male
+SELECT
+  year,
+  is_male,
+  AVG(weight_pounds) AS avg_weight,
+FROM
+  [publicdata:samples.natality]
+WHERE
+  plurality = 1
+GROUP BY
+  1,
+  2
+ORDER BY
+  year,
+  is_male
 ```
 
 * `WHERE` only effects each row
 * `HAVING` only effects each group
+
+```sql
+SELECT
+  CASE WHEN weight_pounds > 8 THEN 'Heave' ELSE 'Light' END AS weight_group,
+  COUNT(*) AS cnt
+FROM
+  [publicdata:samples.natality]
+WHERE
+  plurality = 1
+GROUP BY
+  1
+```
+
+* Filtering goes faster than joining. perhaps one day we'll just have one giant table.
+
+```sql
+SELECT
+  *
+FROM
+  [publicdata:samples.shakespeare]
+WHERE
+  word_count > 100
+  AND corpus_date > 1600
+  AND SUBSTR(word,1,2) = 'wi'
+  AND LENGTH(word) = 4
+ORDER BY
+  word_count DESC
+```
