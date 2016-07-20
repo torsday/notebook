@@ -222,3 +222,44 @@ SELECT name, population,
   END
 FROM world
 ```
+
+---
+
+## CKU: SQL & BigQuery
+
+* <https://bigquery.cloud.google.com/table/publicdata:samples.shakespeare?pli=1>
+
+### Outline
+
+* Syntax, concepts
+* Access to CK Data
+* Lab
+
+```sql
+SELECT state, is_male, avg(weight_pounds) as avg_weight,
+FROM [publicdata:samples.natality]
+WHERE is_male= false AND plurality = 1 AND state = 'CA' AND mother_age > father_age
+GROUP BY state, is_male
+```
+
+Same as
+
+```sql
+SELECT state, is_male, avg(weight_pounds) as avg_weight,
+FROM [publicdata:samples.natality]
+WHERE is_male= false AND plurality = 1 AND state = 'CA' AND mother_age > father_age
+GROUP BY 1,2
+```
+
+---
+
+```sql
+SELECT year, is_male, avg(weight_pounds) as avg_weight,
+FROM [publicdata:samples.natality]
+WHERE plurality = 1
+GROUP BY 1,2
+ORDER BY year, is_male
+```
+
+* `WHERE` only effects each row
+* `HAVING` only effects each group
