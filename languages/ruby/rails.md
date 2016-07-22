@@ -27,6 +27,8 @@ rails new <app_name) --api
 
 ```bash
 rake db:create
+rake db:migrate
+rake -T
 ```
 
 ### Install `rspec`
