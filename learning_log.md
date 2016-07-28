@@ -2,6 +2,12 @@
 
 ---
 
+## [gatling.io](http://gatling.io)
+
+Load testing framework written in Scala
+
+---
+
 -   In PHP, using the `final` keyword with a class or method prevents child classes from overriding it, whether with a new method declaration or a class extesion. *([PHP.net](http://php.net/manual/en/language.oop5.final.php))*
 
     ```php
