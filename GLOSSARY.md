@@ -267,6 +267,10 @@ Software Engineer in Test
 
 An interaction diagram that shows how processes operate with one another and in what order.
 
+## Serialization
+
+Serialization is the process of turning an object in memory into a stream of bytes so you can do stuff like store it on disk or send it over the network. Deserialization is the reverse process: turning a stream of bytes into an object in memory.
+
 ## Service
 
 A Service in Domain Driven Design is simply a stateless object that performs an action.
@@ -302,6 +306,10 @@ Unionfs is a filesystem service for Linux, FreeBSD and NetBSD which implements a
 ## Union mount
 
 A way of combining multiple directories into one that appears to contain their combined contents.
+
+## Unix Socket
+
+A Unix domain socket or IPC socket (inter-process communication socket) is a data communications endpoint for exchanging data between processes executing on the same host operating system. Like named pipes, Unix domain sockets support transmission of a reliable stream of bytes (SOCK_STREAM, compare to TCP).
 
 ## UUID
 
