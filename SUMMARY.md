@@ -299,6 +299,8 @@
 
 -   [Appendix](appendix.md)
 
+    -   [Bytestream](./bytestream.md)
+
     -   [ETL](etl.md)
 
 -   [References](references.md)

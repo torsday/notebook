@@ -2,6 +2,16 @@
 
 ---
 
+Changing the author of the last commit
+
+```sh
+git commit --amend --author="John Doe <email-address@example.com>"
+```
+
+_<http://stackoverflow.com/questions/3042437/change-commit-author-at-one-specific-commit>_
+
+---
+
 ## [gatling.io](http://gatling.io)
 
 Load testing framework written in Scala

@@ -20,6 +20,10 @@ In Ruby, blocks are closures (anonymous functions) that can be passed to many me
 
 Concise and exact use of words in writing or speech.
 
+## Bytestream
+
+A sequence of bytes. Typically, each byte is from a range of 256 distinct values (octets), and so the term octet stream is sometimes used to refer to the same thing.
+
 ## Callbacks
 
 Functions that are executed asynchronously.
