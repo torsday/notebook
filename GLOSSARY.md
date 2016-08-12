@@ -227,6 +227,10 @@ Accessible within the class itself and subclasses.
 
 A defined language machines talk in. Doesn't matter how their brains created or listen to the thoughts, just that the language is agreed upon.
 
+## Queue
+
+A particular kind of abstract data type or collection in which the entities in the collection are kept in order and the principal (or only) operations on the collection are the addition of entities to the rear terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue.
+
 ## RDN
 
 Relative Distinguished Name.
