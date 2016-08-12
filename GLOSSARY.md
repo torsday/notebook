@@ -16,6 +16,10 @@ A protocol which is intended or expected to be read by a machine rather than a h
 
 In Ruby, blocks are closures (anonymous functions) that can be passed to many methods.
 
+## Bounded Queue
+
+A queue limited to a fixed number of items. There are several efficient implementations of FIFO queues. An efficient implementation is one that can perform the operations—enqueuing and dequeuing—in O(1) time.
+
 ## Brevity
 
 Concise and exact use of words in writing or speech.
@@ -27,6 +31,10 @@ A sequence of bytes. Typically, each byte is from a range of 256 distinct values
 ## Callbacks
 
 Functions that are executed asynchronously.
+
+## Circular Buffer
+
+A memory allocation scheme where memory is reused (reclaimed) when an index, incremented modulo the buffer size, writes over a previously used location. A circular buffer makes a bounded queue when separate indices are used for inserting and removing data.
 
 ## Comparison Sort
 
