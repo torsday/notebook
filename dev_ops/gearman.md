@@ -8,6 +8,19 @@
 
 ---
 
+## Definitions
+
+### Worker
+
+### Client
+
+### Workload
+
+
+
+---
+
 ## References
 
+-   <http://gearman.org/getting-started/>
 -   [Jay Paroline: How Grooveshark Uses Gearman](http://wanderr.com/jay/how-grooveshark-uses-gearman/2011/03/27)
