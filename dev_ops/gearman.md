@@ -65,6 +65,69 @@ puts "Waiting for a response..."
 taskset.wait(86400)
 ```
 
+### worker
+
+```ruby
+require 'rubygems'
+require 'gearman'
+
+servers = ['localhost:4730']
+
+# Connect to our list of servers (only one for now)
+w = Gearman::Worker.new(servers)
+
+# The Worker class has a method, add_abilitywhich takes
+# two arguments, the queue to register and a block that
+# is the code to execute for each job taken
+w.add_ability('reverse_string') do |data, job|
+      puts "Got work!"
+      # Dump out what we got
+      puts "Job: #{job.inspect} Data: #{data.inspect}"
+      # Reverse the data portion
+      result = data.reverse
+      puts "Reverse: #{result} "
+      # The return value of the block is what gets sent back
+      # to the manager as the response data for this job
+      result
+end
+
+# Execute only one unit of work
+w.work
+```
+
+### Running it
+
+```bash
+[user@host]% ruby client.rb
+Submitting job...
+Waiting for a response...
+```
+
+```ruby
+[user@host]% ruby worker.rb
+Got work!
+Job: #<Gearman::Worker::Job:0x0000010112f820 @socket=#<TCPSocket:fd 5>, @handle="e518b247-e7a5-4470-a9ff-0940356dab51"> Data: "reverse this string"
+Reverse: gnirts siht esrever
+```
+
+#### Backgrounding
+
+```ruby
+require 'rubygems'
+require 'gearman'
+
+servers = ['localhost:4730']
+# Connect our client
+client = Gearman::Client.new(servers)
+
+# Generate a task with the background property being set
+task = Gearman::Task.new({'background_job', 'data',
+:background => true })
+
+# Submit a job via the client
+client.do_task(task)
+```
+
 ---
 
 ## References
