@@ -132,6 +132,10 @@ A way to write computer code that doesn't demand that you know what types you ar
 
 ETL (Extract, Transform and Load) is a process in data warehousing responsible for pulling data out of the source systems and placing it into a data warehouse.
 
+## Fault Tolerance
+
+The property that enables a system to continue operating properly in the event of the failure of (or one or more faults within) some of its components.
+
 ## Functional Tests
 
 Functional tests check a particular feature for correctness by comparing the results for a given input against the specification. Functional tests don't concern themselves with intermediate results or side-effects, just the result (they don't care that after doing x, object y has state z). They are written to test part of the specification such as, "calling function Square(x) with the argument of 2 returns 4".
@@ -143,6 +147,10 @@ A computer language that is broadly applicable across application domains, and l
 ## GNU Make
 
 A tool which controls the generation of executables and other non-source files of a program from the program's source files.
+
+## Graceful Degradation
+
+The ability of a computer, machine, electronic system or network to maintain limited functionality even when a large portion of it has been destroyed or rendered inoperative. The purpose of graceful degradation is to prevent catastrophic failure.
 
 ## Hash table
 
