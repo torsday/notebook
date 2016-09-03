@@ -321,13 +321,11 @@
 
 -   [Appendix](appendix.md)
 
-    -   [Bytestream](./bytestream.md)
-
-    -   [ETL](etl.md)
-
-    -   [Serialization](./serialization.md)
-
     -   [Actor Model](./actor_model.md)
+    -   [Akka](./akka.md)
     -   [BigQuery](./big_query.md)
+    -   [Bytestream](./bytestream.md)
+    -   [ETL](etl.md)
     -   [Finagle](./finagle.md)
+    -   [Serialization](./serialization.md)
     -   [Thrift](./thrift.md)
