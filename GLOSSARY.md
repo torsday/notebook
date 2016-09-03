@@ -1,5 +1,9 @@
 # Glossary
 
+## Actor Model
+
+A mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation.
+
 ## APNs
 
 Apple Push Notification service.
