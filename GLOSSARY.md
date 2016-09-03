@@ -84,11 +84,10 @@ See: Currying.
 
 The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
 
-<<<<<<< HEAD
 ## Database normalization
 
 Database normalization, or simply normalization, is the process of organizing the columns (attributes) and tables (relations) of a relational database to minimize data redundancy. Normalization involves decomposing a table into less redundant (and smaller) tables without losing information, and then linking the data back together by defining foreign keys in the old table referencing the primary keys of the new ones. The objective is to isolate data so that additions, deletions, and modifications of an attribute can be made in just one table and then propagated through the rest of the database using the defined foreign keys.
-=======
+
 ## Decorator Pattern
 
 Add responsibilities to objects dynamically; a structural design pattern.
@@ -96,7 +95,6 @@ Add responsibilities to objects dynamically; a structural design pattern.
 ## Deep learning
 
 A branch of machine learning based on a set of algorithms that attempt to model high-level abstractions in data by using multiple processing layers, with complex structures or otherwise, composed of multiple non-linear transformations.
->>>>>>> develop
 
 ## Delta Compression
 
@@ -182,11 +180,10 @@ Internet Corporation for Assigned Names & Numbers. A nonprofit private American 
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
 
-<<<<<<< HEAD
 ## Kafka streams
 
 A Java library for building distributed stream processing apps using Apache Kafka.
-=======
+
 ## Java
 
 A general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere."
@@ -218,7 +215,6 @@ Java virtual machine, an abstract computing machine that enables a computer to r
 ## Kaizen
 
 Kaizen (Continuous Improvement) is a strategy where employees at all levels of a company work together proactively to achieve regular, incremental improvements to the manufacturing process. In a sense, it combines the collective talents within a company to create a powerful engine for improvement.
->>>>>>> develop
 
 ## Kernel
 
@@ -272,7 +268,6 @@ Permits reuse within proprietary software provided all copies of the licensed so
 
 A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.
 
-<<<<<<< HEAD
 ## Normalization
 
 see: Database normalization.
@@ -280,11 +275,10 @@ see: Database normalization.
 ## OCP
 
 Open/closed Principle.
-=======
+
 ## Neural Networks
 
 Artificial neural networks are generally presented as systems of interconnected "neurons" which exchange messages between each other. The connections have numeric weights that can be tuned based on experience, making neural nets adaptive to inputs and capable of learning.
->>>>>>> develop
 
 ## OID
 

@@ -6,17 +6,17 @@
 
 –   Akka provides:
 
-    1.  Actors
+  1.  Actors
 
-    –   Asynchronous, non-blocking, message-driven model
-    –   Actors form hierarchies, with parent actors (supervisors) delegating some tasks to child actors.
-    –   "The quintessential feature of actor systems is that tasks are split up and delegated until they
-      become small enough to be handled in one piece."
+  –   Asynchronous, non-blocking, message-driven model
+  –   Actors form hierarchies, with parent actors (supervisors) delegating some tasks to child actors.
+  –   "The quintessential feature of actor systems is that tasks are split up and delegated until they
+    become small enough to be handled in one piece."
 
-    2.  Fault Tolerance
+  2.  Fault Tolerance
 
-    –   'let-it-crash' philosophy
-    –   Systems are self-healing
+  –   'let-it-crash' philosophy
+  –   Systems are self-healing
 
 ---
 
