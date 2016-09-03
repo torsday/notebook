@@ -323,6 +323,7 @@
 
 -   [Appendix](./appendix.md)
 
+    -   [Actor Model](./actor_model.md)
     -   [BigQuery](./big_query.md)
     -   [Finagle](./finagle.md)
     -   [Thrift](./thrift.md)
