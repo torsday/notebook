@@ -364,6 +364,10 @@ RPM Package Manager; originally Red Hat Package Manager.
 
 A cryptosystem for public-key encryption.
 
+## Runtime
+
+May refer to: Run time (program lifecycle phase), the period during which a computer program is executing. Runtime system, software designed to support the execution of computer programs. Runtime library, a program library designed to implement functions built into a programming language.
+
 ## SAML
 
 Security Assertion Markup Language Tokens.

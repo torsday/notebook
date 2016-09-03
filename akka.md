@@ -2,8 +2,6 @@
 
 –   a toolkit and runtime for developing concurrent, distributed, message-based applications.
 
-  –   _not_ a framework, more properly a library.
-
 ---
 
 ## Akka provides:
@@ -16,8 +14,8 @@
 
 ###  Fault Tolerance
 
-* 'let-it-crash' philosophy
-* Systems are self-healing
+* _let-it-crash_ philosophy
+* Systems are _self-healing_
 
 ---
 
