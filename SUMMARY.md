@@ -154,6 +154,10 @@
 
     -   [Gearman](./languages/gearman.md)
 
+    -   [Java](./java.md)
+
+        -   [JVM](./jvm.md)
+
     -   [Javascript](./languages/javascript/README.md)
 
         -   [Angular](./languages/javascript/angular.md)

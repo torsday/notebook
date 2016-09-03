@@ -32,6 +32,10 @@ Concise and exact use of words in writing or speech.
 
 Functions that are executed asynchronously.
 
+## Classpath
+
+A parameter in the JVM or the Java compiler that specifies the location of user-defined classes and packages. The parameter may be set either on the command-line, or through an environment variable.
+
 ## CNS
 
 Central Nervous System.
@@ -151,6 +155,26 @@ Internet Corporation for Assigned Names & Numbers. A nonprofit private American 
 ## Interface
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
+
+## Java
+
+A general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere."
+
+## Java EE
+
+Java Enterprise Edition. It adds libraries to Java SE which provide functionality to deploy fault-tolerant, distributed, multi-tier Java software, based largely on modular components running on an application server.
+
+## Java SE
+
+Java Standard Edition.  This is the core Java programming platform.  It contains all of the libraries and APIs that any Java programmer should learn (java.lang, java.io, java.math, java.net, java.util, etc...).
+
+## Java Virtual Machine
+
+An abstract computing machine that enables a computer to run a Java program.
+
+## JVM
+
+see Java Virtual Machine.
 
 ## jQuery
 
@@ -375,6 +399,10 @@ Universally unique identifier, an identifier standard used in software construct
 ## WebSockets
 
 An advanced technology that makes it possible to open an interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+
+## WORA
+
+Write Once, Run Anywhere.
 
 ## X.500
 
