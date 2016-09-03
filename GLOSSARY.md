@@ -368,6 +368,15 @@ The implementation preserves the input order of equal elements in the sorted out
 
 A report of the active stack frames at a certain point in time during the execution of a program.
 
+## Thread Safe
+
+A piece of code is thread-safe if it manipulates shared data structures only in a manner that guarantees safe execution by multiple threads at the same time.
+
+
+## Thunk
+
+A subroutine that is created, often automatically, to assist a call to another subroutine. Thunks are primarily used to represent an additional calculation that a subroutine needs to execute, or to call a routine that does not support the usual calling mechanism.
+
 ## Trait
 
 A set of methods that are not inherited, but composed into classes.
@@ -375,10 +384,6 @@ A set of methods that are not inherited, but composed into classes.
 ## Traits
 
 *see Trait*
-
-## Thunk
-
-A subroutine that is created, often automatically, to assist a call to another subroutine. Thunks are primarily used to represent an additional calculation that a subroutine needs to execute, or to call a routine that does not support the usual calling mechanism.
 
 ## Type introspection
 
