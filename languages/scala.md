@@ -146,7 +146,27 @@ object Point {
 }
 ```
 
+---
+
+## Testing
+
+### Unit
+
+-   ScalaTest
+
+---
+
+## See Also
+
+* [Actor Model](./../actor_model.md)
+
+---
+
 ## References
 
 -   [scala-lang.org](http://www.scala-lang.org)
+-   <http://danielwestheide.com/scala/neophytes.html>
+-   <http://docs.scala-lang.org/style>
+-   <http://overwatering.org/blog/2013/12/scala-1-star-would-not-program-again>
 -   <https://en.wikipedia.org/wiki/Scala_(programming_language)>
+-   <https://twitter.github.io/scala_school>

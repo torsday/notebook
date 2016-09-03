@@ -114,6 +114,7 @@ deactivate A;
 -   [Plant Text](http://www.planttext.com/planttext)
 -   [PlantUML](http://plantuml.com)
 -   [StarUML](http://staruml.io)
+-   [Web Sequence Diagrams](https://www.websequencediagrams.com)
 
 ## References
 

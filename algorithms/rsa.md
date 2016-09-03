@@ -10,10 +10,25 @@ A cryptosystem for public-key encryption (cryptosystem).
 
 > RSA is a relatively slow algorithm, and because of this it is less commonly used to directly encrypt user data. More often, RSA passes encrypted shared keys for symmetric key cryptography which in turn can perform bulk encryption-decryption operations at much higher speed.
 
+---
+
+## YouTube
+
+### Art of the Problem: Gambling with Secrets: 8/8 (RSA Encryption)
+
+{% youtube %}https://www.youtube.com/watch?v=vgTtHV04xRI{% endyoutube %}
+
+### CS50: RSA
+
+{% youtube %}https://www.youtube.com/watch?v=Kl9A64LJtUQ{% endyoutube %}
+
+### Numberphile: Encryption and HUGE numbers
+
+{% youtube %}https://www.youtube.com/watch?v=M7kEpw1tn50{% endyoutube %}
+
+---
+
 ## References
 
--   [YouTube: Art of the Problem: Gambling with Secrets: 8/8 (RSA Encryption)](https://www.youtube.com/watch?v=vgTtHV04xRI)
--   [YouTube: CS50: RSA](https://www.youtube.com/watch?v=Kl9A64LJtUQ)
--   [YouTube: Numberphile: Encryption and HUGE numbers](https://www.youtube.com/watch?v=M7kEpw1tn50)
 -   <https://en.wikipedia.org/wiki/RSA_(cryptosystem)>
 -   [Virginia.edu: RSA Crypto](http://www.cs.virginia.edu/~kam6zx/)

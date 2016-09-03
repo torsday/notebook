@@ -35,7 +35,17 @@ Add your SSH key to the ssh-agent:
 ssh-add ~/.ssh/id_rsa
 ```
 
+---
+
+-   There is no max bit-size defined by the protocol, but server's may kick you if you take too long
+
+    -   `2048` used to be safe, now is not
+    -   `4096` is the best-practice
+
+---
 
 ## References
 
-* [GitHub: Generating an SSH key](https://help.github.com/articles/generating-an-ssh-key)
+-   [GitHub: Generating an SSH key](https://help.github.com/articles/generating-an-ssh-key)
+-   [Google: NSA Diffie-Hellman](https://www.google.com/#q=nsa+Diffie-Hellman)
+-   [ServerFault: OpenSSH : Key-based authorization, maximum key length](http://serverfault.com/questions/160268/openssh-key-based-authorization-maximum-key-length)

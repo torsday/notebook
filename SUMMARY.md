@@ -48,6 +48,7 @@
         -   [Creational](./design/creational.md)
 
             -   [Abstract Factory](./design/abstract_factory.md)
+            -   [Builder]()
             -   [Factory Method](./design/factory_method.md)
             -   [Singleton](./design/singleton.md)
 
@@ -102,7 +103,6 @@
     -   [Continuous Integration](./dev_ops/ci.md)
     -   [Docker](./dev_ops/docker.md)
     -   [Foreman](./dev_ops/foreman.md)
-    -   [Gearman](./dev_ops/gearman.md)
     -   [Grunt]()
     -   [Gulp](./dev_ops/gulp.md)
     -   [Jenkins]()
@@ -117,6 +117,7 @@
     -   [Terraform](./dev_ops/terraform.md)
     -   [Travis CI](./dev_ops/travis.md)
     -   [Vagrant]()
+    -   [Yeoman](./yeoman.md)
     -   [Yum]()
 
 -   [Education](./education/README.md)
@@ -151,14 +152,23 @@
 
     -   [C](./languages/c.md)
 
+    -   [Gearman](./languages/gearman.md)
+
+    -   [Java](./java.md)
+
+        -   [JVM](./jvm.md)
+
     -   [Javascript](./languages/javascript/README.md)
 
+        -   [Angular](./languages/javascript/angular.md)
+        -   [Backbone](./languages/javascript/backbone.md)
         -   [CoffeeScript](./languages/javascript/coffeescript.md)
         -   [D3]()
         -   [Lo-Dash]()
-        -   [Node]()
+        -   [Node](./languages/javascript/node.md)
         -   [React](./languages/javascript/react.md)
         -   [Redux](./languages/javascript/redux.md)
+        -   [Spread Operator](./languages/javascript/spread_operator.md)
 
     -   [Markdown](./languages/markdown.md)
 
@@ -169,10 +179,12 @@
         -   [Basics](./languages/php/basics/README.md)
 
             -   [Arrays](./languages/php/basics/php_arrays.md)
+            -   [Namespacing](./php_namespacing.md)
 
-        -   [Functions](./languages/php/functions.md)
+        -   [Functions](./languages/php/functions/README.md)
 
-            -   [exec()](./languages/php/exec.md)
+            -   [array_filter()](./languages/php/functions/array_filter.md)
+            -   [exec()](./languages/php/functions/exec.md)
 
         -   [Laravel]()
 
@@ -209,6 +221,12 @@
         -   [Coffee](./lifestyle/coffee.md)
         -   [Tea](./lifestyle/tea.md)
 
+    -   [Games](./lifestyle/games.md)
+
+    -   [Philosophy](./lifestyle/philosophy.md)
+
+    -   [Poetry](./lifestyle/poetry.md)
+
     -   [Tracking](./lifestyle/tracking.md)
 
     -   [Zen](./lifestyle/zen.md)
@@ -218,6 +236,7 @@
     -   [Air Crack]()
     -   [Arp Scan]()
     -   [CentOS]()
+    -   [chmod](./linux/chmod.md)
     -   [CoreOS]()
     -   [Cron](./linux/cron.md)
     -   [Curl](./linux/curl.md)
@@ -226,6 +245,11 @@
     -   [grep](./linux/grep.md)
     -   [rsync](./linux/rsync.md)
     -   [Tree](./linux/tree.md)
+
+-   [Machine Learning](./machine_learning.md)
+
+    -   [Deep Learning](./deep_learning.md)
+    -   [Neural Networks](./neural_networks.md)
 
 -   [Medicine](./medicine/README.md)
 
@@ -305,4 +329,7 @@
 
     -   [Serialization](./serialization.md)
 
--   [References](references.md)
+    -   [Actor Model](./actor_model.md)
+    -   [BigQuery](./big_query.md)
+    -   [Finagle](./finagle.md)
+    -   [Thrift](./thrift.md)

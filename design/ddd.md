@@ -8,7 +8,7 @@ Premise:
 -   Basing complex designs on a model of the domain.
 -   Initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.
 
-> Domain Driven Design places development focus primarily on the unique *business rules* which an application unique. This means codifying business rules in Domain Entities, Value Objects and Services, in a layer that is separate from other focuses such as infrastructure and persistence requirements. The structure of the Reach PHP package can serve as a good example of how to organize your code.
+> Domain Driven Design places development focus primarily on the unique *business rules* which an application unique. This means codifying business rules in Domain Entities, Value Objects and Services, in a layer that is separate from other focuses such as infrastructure and persistence requirements.
 
 > ~ Robert Van Dell
 
@@ -279,10 +279,19 @@ class EmailHistoryService
 }
 ```
 
+---
+
+## YouTube
+
+### Domain Driven Design Through Onion Architecture
+
+{% youtube %}https://www.youtube.com/watch?v=pL9XeNjy_z4{% endyoutube %}
+
+---
+
 ### References
 
 -   [Creating Domain Services](http://culttt.com/2014/09/29/creating-domain-services)
 -   [Fideloper: Hexagonal Architecture](http://fideloper.com/hexagonal-architecture)
 -   [Seemann: Is Layering Worth the Mapping?](http://blog.ploeh.dk/2012/02/09/IsLayeringWorththeMapping)
 -   [Wikipedia: Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
--   [YouTube: Domain Driven Design Through Onion Architecture](https://www.youtube.com/watch?v=pL9XeNjy_z4)

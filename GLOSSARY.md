@@ -1,8 +1,20 @@
 # Glossary
 
+## Actor Model
+
+A mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation.
+
 ## APNs
 
 Apple Push Notification service.
+
+## Arity
+
+The number of arguments or operands that the function takes. The arity of a relation (or predicate) is the dimension of the domain in the corresponding Cartesian product.
+
+## Backbone
+
+A JavaScript framework with a RESTful JSON interface and is based on the model–view–presenter (MVP) application design paradigm; known for being lightweight.
 
 ## Behavior-Driven Development
 
@@ -36,6 +48,14 @@ Functions that are executed asynchronously.
 
 A memory allocation scheme where memory is reused (reclaimed) when an index, incremented modulo the buffer size, writes over a previously used location. A circular buffer makes a bounded queue when separate indices are used for inserting and removing data.
 
+## Classpath
+
+A parameter in the JVM or the Java compiler that specifies the location of user-defined classes and packages. The parameter may be set either on the command-line, or through an environment variable.
+
+## CNS
+
+Central Nervous System.
+
 ## Comparison Sort
 
 A type of sorting algorithm that only reads the list elements through a single abstract comparison operation (often a "less than or equal to" operator or a three-way comparison) that determines which of two elements should occur first in the final sorted list.
@@ -64,9 +84,19 @@ See: Currying.
 
 The process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
 
+<<<<<<< HEAD
 ## Database normalization
 
 Database normalization, or simply normalization, is the process of organizing the columns (attributes) and tables (relations) of a relational database to minimize data redundancy. Normalization involves decomposing a table into less redundant (and smaller) tables without losing information, and then linking the data back together by defining foreign keys in the old table referencing the primary keys of the new ones. The objective is to isolate data so that additions, deletions, and modifications of an attribute can be made in just one table and then propagated through the rest of the database using the defined foreign keys.
+=======
+## Decorator Pattern
+
+Add responsibilities to objects dynamically; a structural design pattern.
+
+## Deep learning
+
+A branch of machine learning based on a set of algorithms that attempt to model high-level abstractions in data by using multiple processing layers, with complex structures or otherwise, composed of multiple non-linear transformations.
+>>>>>>> develop
 
 ## Delta Compression
 
@@ -123,6 +153,7 @@ A data structure used to implement an associative array, a structure that can ma
 ## Hash tables
 
 See Hash Table
+
 ## Headless
 
 A headless browser is a web browser without a graphical user interface.
@@ -131,13 +162,63 @@ A headless browser is a web browser without a graphical user interface.
 
 Hash-based message authentication code.
 
+## HSTS
+
+HTTP Strict Transport Security, a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should only interact with it using secure HTTPS connections, and never via the insecure HTTP protocol. The HSTS Policy is communicated by the server to the user agent via an HTTP response header field named "Strict-Transport-Security". HSTS Policy specifies a period of time during which the user agent should only access the server in a secure fashion.
+
+## IANA
+
+Internet Assigned Numbers Authority.
+
+## IaaS
+
+Infrastructure as a Service.
+
+## ICANN
+
+Internet Corporation for Assigned Names & Numbers. A nonprofit private American corporation that oversees global IP address allocation, autonomous system number allocation, root zone management in the Domain Name System (DNS), media types, and other Internet Protocol-related symbols and numbers.
+
 ## Interface
 
 Specifies what methods a class must implement (an interface). An interface is slightly more abstract than an abstract class, because it does not imply an 'is a' relationship with classes that inherit it.
 
+<<<<<<< HEAD
 ## Kafka streams
 
 A Java library for building distributed stream processing apps using Apache Kafka.
+=======
+## Java
+
+A general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere."
+
+## Java EE
+
+Java Enterprise Edition. It adds libraries to Java SE which provide functionality to deploy fault-tolerant, distributed, multi-tier Java software, based largely on modular components running on an application server.
+
+## Java SE
+
+Java Standard Edition.  This is the core Java programming platform.  It contains all of the libraries and APIs that any Java programmer should learn (java.lang, java.io, java.math, java.net, java.util, etc...).
+
+## Java Virtual Machine
+
+An abstract computing machine that enables a computer to run a Java program.
+
+## JVM
+
+see Java Virtual Machine.
+
+## jQuery
+
+A cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
+
+## JVM
+
+Java virtual machine, an abstract computing machine that enables a computer to run a Java program. There are three notions of the JVM: specification, implementation, and instance. The specification is a document that formally describes what is required of a JVM implementation.
+
+## Kaizen
+
+Kaizen (Continuous Improvement) is a strategy where employees at all levels of a company work together proactively to achieve regular, incremental improvements to the manufacturing process. In a sense, it combines the collective talents within a company to create a powerful engine for improvement.
+>>>>>>> develop
 
 ## Kernel
 
@@ -167,14 +248,31 @@ A directory service protocol that runs on a layer above the TCP/IP stack. It pro
 
 A standard plain text data interchange format for representing LDAP directory CRUD requests.
 
+## LIFO
+
+Last in first out.
+
 ## LXC
 
 An operating-system-level virtualization environment for running multiple isolated Linux systems (containers) on a single Linux control host.
+
+## Machine Learning
+
+Field of study that gives computers the ability to learn without being explicitly programmed.
+
+## MapReduce
+
+A programming model & implementation for processing and generating large data sets with a parallel, distributed algorithm on a cluster. Composed of a Map() method that performs filtering and sorting (such as sorting students by first name into queues, one queue for each name) and a Reduce() method that performs a summary operation (such as counting the number of students in each queue, yielding name frequencies). The "MapReduce System" orchestrates the processing by marshalling the distributed servers, running the various tasks in parallel, managing all communications and data transfers between the various parts of the system, and providing for redundancy and fault tolerance.
+
+## MIT License
+
+Permits reuse within proprietary software provided all copies of the licensed software include a copy of the MIT License terms and the copyright notice.
 
 ## Ncurses
 
 A programming library providing an API that allows the programmer to write text-based user interfaces in a terminal-independent manner. It is a toolkit for developing "GUI-like" application software that runs under a terminal emulator.
 
+<<<<<<< HEAD
 ## Normalization
 
 see: Database normalization.
@@ -182,6 +280,11 @@ see: Database normalization.
 ## OCP
 
 Open/closed Principle.
+=======
+## Neural Networks
+
+Artificial neural networks are generally presented as systems of interconnected "neurons" which exchange messages between each other. The connections have numeric weights that can be tuned based on experience, making neural nets adaptive to inputs and capable of learning.
+>>>>>>> develop
 
 ## OID
 
@@ -247,6 +350,10 @@ The ability of a computer program to examine (see type introspection) and modify
 
 A Repository mediates between the domain and data mapping layers, acting like an in-memory domain object collection
 
+## RPC
+
+Remote Procedure Call, a protocol that one program can use to request a service from a program located in another computer in a network without having to understand network details. (A procedure call is also sometimes known as a function call or a subroutine call.) RPC uses the client/server model.
+
 ## RPM
 
 RPM Package Manager; originally Red Hat Package Manager.
@@ -258,6 +365,10 @@ A cryptosystem for public-key encryption.
 ## SAML
 
 Security Assertion Markup Language Tokens.
+
+## Scala
+
+A general purpose programming language, with full support for functional programming and a very strong static type system.
 
 ## SEIT
 
@@ -275,9 +386,21 @@ Serialization is the process of turning an object in memory into a stream of byt
 
 A Service in Domain Driven Design is simply a stateless object that performs an action.
 
+## Single source of truth
+
+The practice of structuring information models and associated schemata such that every data element is stored exactly once, thereby providing data that is authentic, relevant, and referable.
+
 ## Sorting Algorithm
 
 An algorithm that puts elements of a list in a certain order.
+
+## SPA
+
+Single page application.
+
+## Specification Pattern
+
+ Business rules can be recombined by chaining the business rules together using boolean logic.
 
 ## SQLite
 
@@ -286,6 +409,19 @@ An algorithm that puts elements of a list in a certain order.
 ## Stable Sort
 
 The implementation preserves the input order of equal elements in the sorted output.
+
+## Stack trace
+
+A report of the active stack frames at a certain point in time during the execution of a program.
+
+## Thread-safe
+
+A piece of code is thread-safe if it manipulates shared data structures only in a manner that guarantees safe execution by multiple threads at the same time.
+
+
+## Thunk
+
+A subroutine that is created, often automatically, to assist a call to another subroutine. Thunks are primarily used to represent an additional calculation that a subroutine needs to execute, or to call a routine that does not support the usual calling mechanism.
 
 ## Trait
 
@@ -303,6 +439,10 @@ The ability of a program to examine the type or properties of an object at runti
 
 Unionfs is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. As an example application of union mounting, consider the need to update the information contained on a CD-ROM or DVD. While a CD-ROM is not writable, one can overlay the CD's mount point with a writable directory in a union mount. Then, updating files in the union directory will cause them to end up in the writable directory, giving the illusion that the CD-ROM's contents have been updated.
 
+## UMT
+
+User multivariate testing, a technique for testing a hypothesis in which multiple variables are modified. The goal of multivariate testing is to determine which combination of variations performs the best out of all of the possible combinations. Websites and mobile apps are made of combinations of changeable elements.
+
 ## Union mount
 
 A way of combining multiple directories into one that appears to contain their combined contents.
@@ -313,11 +453,15 @@ A Unix domain socket or IPC socket (inter-process communication socket) is a dat
 
 ## UUID
 
-A universally unique identifier (UUID) is an identifier standard used in software construction. A UUID is simply a 128-bit value.
+Universally unique identifier, an identifier standard used in software construction. A UUID is simply a 128-bit value.
 
 ## WebSockets
 
 An advanced technology that makes it possible to open an interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+
+## WORA
+
+Write Once, Run Anywhere.
 
 ## X.500
 
@@ -330,3 +474,11 @@ Extensible Markup Language.
 ## XMPP
 
 Extensible Messaging & Presence Protocol.
+
+## Yeoman
+
+An open source client-side development stack, consisting of tools and frameworks intended to help developers quickly build high quality web applications.
+
+## Zepto
+
+A minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.

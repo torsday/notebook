@@ -16,6 +16,22 @@ join(", ", $myArray);
 
 ---
 
+## CRUD
+
+### Push
+
+```php
+$myArray[] = $var;
+```
+
+```php
+array_push($stack, "apple", "raspberry");
+```
+
+<http://php.net/manual/en/function.array-push.php>
+
+---
+
 ## Associative Arrays
 
 ```php

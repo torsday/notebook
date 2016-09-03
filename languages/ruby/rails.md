@@ -1,27 +1,53 @@
 # Rails
 
+*From: [Wikipedia](https://en.wikipedia.org/wiki/Ruby_on_Rails)*
+
+> Ruby on Rails, or simply Rails, is a web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, providing default structures for a database, a web service, and web pages.
+
+---
+
 ## Setup
 
-using ```postgres``` instead of ```sqlite``` without tests
+### Full App
 
 ```bash
 rails new <app_name> -d postgresql -T
 
-# -d sets the type of database
+# -d sets the type of database. sqlite by default
 # -T prevents default test install
 ```
 
-create database
+### API App
+
+```sh
+rails new <app_name) --api
+```
+
+### database
 
 ```bash
 rake db:create
+rake db:migrate
+rake -T
 ```
 
-add rspec
+### Install `rspec`
 
-```bash
+Update `Gemfile`
+
+```rb
+group :development, :test do
+  gem 'rspec-rails'
+end
+```
+
+Generate
+
+```sh
 rails generate rspec:install
 ```
+
+---
 
 ## Notable Gems
 

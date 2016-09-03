@@ -1,5 +1,404 @@
 # Learning Log
 
+*January 26, 2016* to *present*
+
+---
+
+[php.net: `iteratoraggregate`](http://php.net/manual/en/class.iteratoraggregate.php)
+
+---
+
+[php.net: `sprintf()`](http://php.net/manual/en/function.sprintf.php)
+
+---
+
+## Delete all git tags
+
+```sh
+#Delete local tags.
+git tag -l | xargs git tag -d
+#Fetch remote tags.
+git fetch
+#Delete remote tags.
+git tag -l | xargs -n 1 git push --delete origin
+#Delete local tags.
+git tag -l | xargs git tag -d
+```
+
+*from <https://gist.github.com/okunishinishi/9424779>*
+
+---
+
+```sh
+phing psr-fix
+```
+
+---
+
+[wiki.theory.org/YourLanguageSucks](https://wiki.theory.org/YourLanguageSucks)
+
+---
+
+## `urlencode`
+
+This function is convenient when encoding a string to be used in a query part of a URL, as a convenient way to pass variables to the next page.
+
+```php
+string urlencode ( string $str )
+```
+
+[php.net/manual/en/function.urlencode.php](http://php.net/manual/en/function.urlencode.php)
+
+---
+
+## *error: missing parent constructor call*
+
+Calling a parent's contructor in php
+
+```php
+parent::__construct();
+```
+
+```php
+/**
+ * @param MyClass $myInstance
+ */
+public function __construct(MyClass $myInstance = null)
+{
+    parent::__construct();
+    if (!$myInstance instanceof MyClass) {
+        $myInstance = new UserCollection();
+    }
+
+    $this->myInstance = $myInstance;
+}
+```
+
+-   <http://stackoverflow.com/questions/15063890/why-do-we-still-need-parent-constructor-when-controller-class-extends-a-parent-c>
+
+---
+
+> Mock **repositories** will be needed to make sure the **services** can be provided to the **controllers**.
+
+---
+
+-   added to [composer](./dev_ops/composer.md)
+
+---
+
+Various ways to discard changes in git:
+
+```sh
+git checkout . # Removes Unstaged Tracked files ONLY [Type 2]
+git clean -f # Removes Unstaged UnTracked files ONLY [Type 3]
+git reset --hard # Removes Staged Tracked and UnStaged Tracked files ONLY[Type 1, Type 2]
+git stash -u # Removes all changes [Type 1, Type 2, Type 3]
+```
+
+*<http://stackoverflow.com/questions/22620393/various-ways-to-remove-local-git-changes>*
+
+---
+
+Why does JSON require double quotes?
+
+-   [StackOverflow: is-there-any-practical-reason-to-use-quoted-strings-for-json-keys](http://stackoverflow.com/questions/4201441/is-there-any-practical-reason-to-use-quoted-strings-for-json-keys)
+-   [StackOverflow: son-spec-does-the-key-have-to-be-surrounded-with-quotes](http://stackoverflow.com/questions/949449/json-spec-does-the-key-have-to-be-surrounded-with-quotes)
+-   [StackOverflow: in-json-why-is-each-name-quoted](http://stackoverflow.com/questions/2067974/in-json-why-is-each-name-quoted)
+
+---
+
+save composer requirement
+
+```sh
+composer require "touchlab/thunderdome-php=dev-stable"
+```
+
+---
+
+## Selenium
+
+-   Page Object Model & Selenium #bestPractice
+-   Ruby inheritence vs extends
+-   page object gem
+-   `text_field()` create methods you can call on the class
+
+```ruby
+page = LoginPage.new
+# ...same as
+visit LoginPage do |page| ...
+```
+
+`sleep` is bad. Use `expect {}.to change {} ... expect().to eq ...`
+
+Why `runner`, rathre than `rspec` directly?
+
+-   deletes webapp logs
+-   runs in parallel
+
+---
+
+-   [Javascript Spread Operator](./languages/javascript/spread_operator.md)
+-   Type Theory
+-   [Finagle](./finagle.md)
+-   [Thrift](./thrift.md)
+-   XPath & selectors
+
+---
+
+Looking into **Auto-Complete** Tools
+
+-   [Twitter's Typeahead](https://github.com/twitter/typeahead.js/)
+-   [React Auto-suggest](https://github.com/moroshko/react-autosuggest)
+
+    -    More active development
+    -    Tailored for React
+
+-   [Rolling your own](https://gist.github.com/andyl/b3e5ca4d87ad6ad1728d)
+
+---
+
+Avoid inheritance hierarchies when possible since they're more limiting than reusable
+
+---
+
+duplicate a directory, preserving rights, symlinks...
+
+```sh
+cp -a src target
+
+# -a, --archive, same as -dR --preserve=all
+```
+
+---
+
+-   yeoman
+
+---
+
+-   Machine Learning
+-   Neural Networks
+-   Deep Learning
+
+---
+
+Backbone.js
+
+---
+
+## [HTML: `maxlength`](http://www.w3schools.com/tags/att_input_maxlength.asp)
+
+The maximum number of characters allowed in the `<input>` element. Default value is `524288`.
+
+```html
+<input maxlength="number">
+```
+
+example:
+
+```html
+<form action="demo_form.asp">
+  Username: <input type="text" name="usrname" maxlength="10"><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+---
+
+*From: [SourceMaking](https://sourcemaking.com/design_patterns/builder)*
+
+> Builder Pattern: Separates object construction from its
+
+---
+
+-   Decorator Pattern + Chain of Command
+-   Inheritence Hierarchy
+-   Specification Pattern
+-   Traits vs. Interface within Scala
+-   Dependency fetching vs injection
+
+---
+
+- BitMask
+- Futures
+- Promises
+- React Router
+
+---
+
+## Intro to...
+
+### Webpack, ES6, Babel, React, Redux, & React-Redux
+
+{% youtube %}https://www.youtube.com/watch?v=DfRibIkjhew{% endyoutube %}
+
+---
+
+`.php` and `.phtml` are synonymous, interpreted exactly the same.
+
+*From: [StackOverflow](http://stackoverflow.com/questions/11859015/what-is-phtml-and-when-should-i-use-a-phtml-extension-rather-than-php)*
+
+> `.phtml` was the standard file extension for PHP 2 programs. `.php3` took over for PHP 3. When PHP 4 came out they switched to a straight `.php`.
+
+---
+
+With the [GitBook YouTube plugin](https://plugins.gitbook.com/plugin/youtube), embed videos using:
+
+```markdown
+{% youtube %}https://www.youtube.com/watch?v=9bZkp7q19f0{% endyoutube %}
+```
+
+---
+
+```sh
+git fetch --tags --prune
+```
+
+---
+
+to ad the *[Todo](https://plugins.gitbook.com/plugin/todo)* plugin to gitbook
+
+```sh
+npm install --save gitbook-plugin-todo
+```
+
+Then add this to your `book.json`
+
+```json
+{
+    "plugins": ["todo"]
+}
+```
+
+---
+
+speed up `git status` by not showing untracked files:
+
+```sh
+git status --untracked-files=no
+```
+
+Which is the same as:
+
+```sh
+git status -uno
+```
+
+Useful with *very* large projects.
+
+*<http://stackoverflow.com/questions/594757/how-do-i-do-a-git-status-so-it-doesnt-display-untracked-files-without-using>*
+
+---
+
+green fielding: creating new code
+
+---
+
+setting a specific port with `gitbook serve`:
+
+```sh
+gitbook --port 3000 serve
+```
+
+---
+
+Created a HSTS entry. [Wikipedia article](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+
+---
+
+2016-04-18
+
+---
+
+Create symlinks for appropriate brew apps
+
+```sh
+brew linkapps <app_name_or_blank>
+```
+
+---
+
+Experimenting with Emacs because I'm interested in org-mode.
+
+[StackOverflow: What is the difference between Aquamacs and other Mac versions of Emacs?](http://emacs.stackexchange.com/questions/271/what-is-the-difference-between-aquamacs-and-other-mac-versions-of-emacs)
+
+```sh
+brew install emacs --HEAD --use-git-head --with-cocoa --with-gnutls --with-rsvg --with-imagemagick
+```
+
+---
+
+-   [Akka](http://akka.io)
+
+-   spray routes: <http://spray.io/documentation/1.1.2/spray-routing/>
+
+-   [ScalaTest](http://www.scalatest.org)
+
+-   *From: [Akka: actor system](http://doc.akka.io/api/akka/2.0/akka/actor/ActorSystem.html)*
+
+    > An actor system is a hierarchical group of actors which share common configuration, e.g. dispatchers, deployments, remote capabilities and addresses. It is also the entry point for creating or looking up actors.
+
+2016-04-13
+
+---
+
+-   Gitbook, within `SUMMARY`
+
+-   CAN-SPAM Act of 2003
+
+    -   > The CAN-SPAM Act of 2003, signed into law by President George W. Bush on December 16, 2003, establishes the United States' first national standards for the sending of commercial e-mail and requires the Federal Trade Commission (FTC) to enforce its provisions.
+    -   Why emails need an unsubscribe link in emails.
+    -   [Wikipedia Link](https://en.wikipedia.org/wiki/CAN-SPAM_Act_of_2003)
+
+2016-04-11
+
+---
+
+-   `chmod 755 <script_name>` making a ruby script executable
+
+2016-03-29
+
+---
+
+-   `array_filter()`
+
+2016-03-25
+
+---
+
+-   `foreach()` in PHP is destructive; clone the enumerable prior to use:
+
+    ```php
+    foreach(clone $myStuff as $thing) {...};
+    ```
+
+2016-03-22
+
+---
+
+-   Namespace leaks with a `foreach()` loop in PHP
+
+    ```php
+    $testVar = ['yo', 'mario'];
+
+    foreach($testVar as $t) {}
+
+    echo $t;
+    ```
+
+    ```php
+    mario
+    ```
+
+-   > **Kintsugi** (金継ぎ?) (Japanese: golden joinery) or Kintsukuroi (金繕い?) (Japanese: golden repair) is the Japanese art of repairing broken pottery with lacquer dusted or mixed with powdered gold, silver, or platinum, a method similar to the maki-e technique. As a philosophy it **treats breakage and repair as part of the history of an object, rather than something to disguise**.
+    > <https://en.wikipedia.org/wiki/Kintsugi>
+
+    ![Kintsugi Bowl](https://diotesterie.files.wordpress.com/2016/02/kintsugi.jpg)
+
+-   > **Kaizen** (Continuous Improvement) is a strategy where employees at all levels of a company work together proactively to achieve regular, incremental improvements to the manufacturing process. In a sense, it combines the collective talents within a company to create a powerful engine for improvement.
+    > <http://www.leanproduction.com/kaizen.html>
+
+2016-03-21
+
 ---
 
 Changing the author of the last commit

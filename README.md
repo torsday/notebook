@@ -4,7 +4,7 @@ A living document of my notes; largely engineering, but lifestyle as well. As a 
 
 -   Download the ePub here: <https://www.gitbook.com/download/epub/book/torsday/notebook>
 
-![GitHub Avatar](https://avatars2.githubusercontent.com/u/281985?v=3&s=460)
+![Kintsugi Bowl](https://diotesterie.files.wordpress.com/2016/02/kintsugi.jpg)
 
 -   [GitHub Link](https://github.com/torsday)
 -   [ChrisTorstenson.com](http://www.christorstenson.com)
