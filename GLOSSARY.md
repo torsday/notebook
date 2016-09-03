@@ -368,7 +368,7 @@ The implementation preserves the input order of equal elements in the sorted out
 
 A report of the active stack frames at a certain point in time during the execution of a program.
 
-## Thread Safe
+## Thread-safe
 
 A piece of code is thread-safe if it manipulates shared data structures only in a manner that guarantees safe execution by multiple threads at the same time.
 
