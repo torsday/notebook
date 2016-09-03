@@ -307,8 +307,6 @@
 
     -   [Homebrew](./tools/homebrew.md)
 
-    -   [Linting]()
-
     -   [Linux](./tools/linux.md)
 
     -   [PSR Fixer](./tools/psr-fixer.md)
