@@ -1,5 +1,20 @@
 # Git
 
+---
+
+## Terms
+
+### Index
+
+**Where you place files you want committed to the git repository.**
+
+* a.k.a. Cache, Directory cache, Current directory cache, Staging area, Staged files.
+* Before you “commit” (checkin) files to the git repository, you need to first place the files in the git “index”.
+
+* <http://stackoverflow.com/questions/3689838/difference-between-head-working-tree-index-in-git>
+
+---
+
 ## Basics
 
 ```sh
@@ -9,6 +24,8 @@ git checkout <pre-existing-branch-name>
 git checkout -b <new_branch_name>
 git branch -u upstream/branch # track existing branch
 ```
+
+---
 
 ## Commands
 
@@ -72,6 +89,8 @@ Up to a point, increasing both `depth` and `window` can give you smaller packs. 
 
 -   [StackOverflow: How to use `git repack -a -d --depth=250 --window=250`](https://stackoverflow.com/questions/14842127/how-to-use-git-repack-a-d-depth-250-window-250)
 
+---
+
 ## Actions
 
 ### Rebase
@@ -110,6 +129,8 @@ for branch in `git branch -r --merged | grep -v HEAD`; do echo -e `git show --fo
 for branch in `git branch -r --no-merged | grep -v HEAD`; do echo -e `git show --format="%ci %cr %an" $branch | head -n 1` \\t$branch; done | sort -r
 ```
 
+---
+
 ## Aliases
 
 ### ```gpk```
@@ -117,6 +138,8 @@ for branch in `git branch -r --no-merged | grep -v HEAD`; do echo -e `git show -
 ```bash
 alias gpk='git count-objects -vH && echo "" && git repack -a -d -f --depth=250 --window=250 && echo "" && git count-objects -vH'
 ```
+
+---
 
 ## Topics
 
