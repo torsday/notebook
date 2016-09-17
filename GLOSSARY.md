@@ -68,6 +68,10 @@ An application-level package manager for the PHP programming language that provi
 
 The order in which individual statements, instructions or function calls of an imperative program are executed or evaluated. The emphasis on explicit control flow distinguishes an imperative programming language from a declarative programming language.
 
+## Controller View
+
+A react component that has child components.
+
 ## CORS
 
 Cross-Origin Resource Sharing.
@@ -279,6 +283,10 @@ A programming library providing an API that allows the programmer to write text-
 ## Normalization
 
 see: Database normalization.
+
+## Object literal
+
+A comma-separated list of name-value pairs wrapped in curly braces. Object literals encapsulate data, enclosing it in a tidy package. This minimizes the use of global variables which can cause problems when combining code.
 
 ## OCP
 

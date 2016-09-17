@@ -13,6 +13,8 @@
 
 * <http://stackoverflow.com/questions/3689838/difference-between-head-working-tree-index-in-git>
 
+![Git data transport commands](http://i.stack.imgur.com/caci5.png)
+
 ---
 
 ## Basics
