@@ -70,7 +70,7 @@ The order in which individual statements, instructions or function calls of an i
 
 ## Controller View
 
-A react component that has child components.
+A react component that has child components. The top-level component on a page. Best practice is to avoid nesting controller views.
 
 ## CORS
 
@@ -107,6 +107,10 @@ See: Delta Encoding.
 ## Delta Encoding
 
 A way of storing or transmitting data in the form of differences (deltas) between sequential data rather than complete files; more generally this is known as data differencing.
+
+## Dispatch
+
+A function that allows your to fire off your actions. (see: redux)
 
 ## DIT
 
@@ -435,7 +439,7 @@ A piece of code is thread-safe if it manipulates shared data structures only in 
 
 ## Thunk
 
-A subroutine that is created, often automatically, to assist a call to another subroutine. Thunks are primarily used to represent an additional calculation that a subroutine needs to execute, or to call a routine that does not support the usual calling mechanism.
+A function, that wraps an expression, in order to delay its evaluation.
 
 ## Trait
 
