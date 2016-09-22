@@ -493,6 +493,10 @@ Extensible Markup Language.
 
 Extensible Messaging & Presence Protocol.
 
+## YAGNI
+
+"You aren't gonna need it." A principle of extreme programming (XP) that states a programmer should not add functionality until deemed necessary. XP co-founder Ron Jeffries has written: "Always implement things when you actually need them, never when you just foresee that you need them."
+
 ## Yeoman
 
 An open source client-side development stack, consisting of tools and frameworks intended to help developers quickly build high quality web applications.
