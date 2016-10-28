@@ -388,6 +388,10 @@ Security Assertion Markup Language Tokens.
 
 A general purpose programming language, with full support for functional programming and a very strong static type system.
 
+## Scalar
+
+A scalar variable, or scalar field, is a variable that holds one value at a time. It is a single component that assumes a range of number or string values. A scalar value is associated with every point in a space.
+
 ## SEIT
 
 Software Engineer in Test
