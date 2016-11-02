@@ -72,6 +72,10 @@ The order in which individual statements, instructions or function calls of an i
 
 A react component that has child components. The top-level component on a page. Best practice is to avoid nesting controller views.
 
+## Convention over configuration
+
+A software design paradigm used by software frameworks that attempt to decrease the number of decisions that a developer using the framework is required to make without necessarily losing flexibility. a.k.a. Coding by convention.
+
 ## CORS
 
 Cross-Origin Resource Sharing.
