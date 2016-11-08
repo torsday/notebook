@@ -140,6 +140,10 @@ DSA Specific Entry.
 
 A way to write computer code that doesn't demand that you know what types you are writing about. If it does what you thought it would do, it is good enough. The reason this is called "duck typing" is the duck test: "When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck."
 
+## Enumeration
+
+A complete, ordered listing of all the items in a collection. The term is commonly used in mathematics and computer science to refer to a listing of all of the elements of a set.
+
 ## ETL
 
 ETL (Extract, Transform and Load) is a process in data warehousing responsible for pulling data out of the source systems and placing it into a data warehouse.
