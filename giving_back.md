@@ -1,6 +1,6 @@
 # Giving Back
 
-Social, environmental, technology stewardship.
+Social, environmental, technological stewardship.
 
 ---
 
@@ -34,10 +34,13 @@ The ACLU for the modern age.
 
 ## Companies
 
-### Apple
+### To Support
 
-* privacy rights, encryption
+* Apple: privacy rights, encryption.
+* Tesla / SpaceX: innovation, look to the stars.
 
-### Tesla / SpaceX
+### To avoid/boycott
 
-* innovation
+* Trump
+* Koch Brothers
+* Nestle
