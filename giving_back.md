@@ -1,5 +1,7 @@
 # Giving Back
 
+Social, environmental, technology stewardship.
+
 ---
 
 ## Environment
@@ -27,3 +29,15 @@ The ACLU for the modern age.
 ## For consideration
 
 * [Union of Concerned Scientists](http://www.ucsusa.org/)
+
+---
+
+## Companies
+
+### Apple
+
+* privacy rights, encryption
+
+### Tesla / SpaceX
+
+* innovation
