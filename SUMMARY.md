@@ -229,6 +229,10 @@
 
     -   [Tracking](./lifestyle/tracking.md)
 
+    -   [Travels](./lifestyle/travels/README.md)
+
+        -   [Indonesia](./lifestyle/travels/indonesia/README.md)
+
     -   [Zen](./lifestyle/zen.md)
 
 -   [Linux](./linux/README.md)
