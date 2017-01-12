@@ -1,5 +1,19 @@
 # Learning Log
 
+---
+2017-01-12-13-39-37
+
+## Yield in PHP
+
+Yield is a keyword that returns data from a generator function.
+
+*<https://stackoverflow.com/questions/17483806/what-does-yield-mean-in-php>*
+
+If normal iteration requires an entire array to be in memory, a generator function only requires the data at hand to be in memory. e.g. UPS vs Ping pong.
+
+
+---
+
 *January 26, 2016* to *present*
 
 ---
