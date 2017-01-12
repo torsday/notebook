@@ -14,12 +14,12 @@ Thrift is a cross-language remote procedure call (RPC) framework. To meet this g
 The Thrift IDLs can be used to auto-generate code for interacting with these services and resources.
 
 
-1. Thrift Protocol
-==================
+## 1. Thrift Protocol
+
 
 At a high level We can model Thrift's architecture like this:
 
-```
+```md
       CLIENT                                SERVER
 ------------------                    ------------------
 | Your Code      |                    | Your Code      |
@@ -51,8 +51,7 @@ Moving further down the stack we reach the transport layer. `TTransport` options
   * TMemoryTransport – uses memory for transport.
   * TSocket          – uses a blocking socket for transport.
 
-2. Thrift IDL
-=============
+## 2. Thrift IDL
 
 When most people think of Thrift, they think of the Thrift IDL. The Thrift IDL allows you to define services
 and resources that are exposed over RPC. IDL files can then be used to auto-generate code for these services
@@ -79,7 +78,7 @@ and resources in a wide range of languages.
 Very similar to a C `struct`. Allows you to structure data within a defined type. Note that while
 structs are similar to classes, they cannot be subtyped/extended.
 
-```
+```java
 struct Email {
     1: required list<string> sentTo;
     2: required string sentFrom;
@@ -94,7 +93,8 @@ struct Email {
 
 Enums allow you to define a type that may only have certain set values. These are just mapped to
 integers (starting with 1), but you can also explicity assign an integer or hex value.
-```
+
+```java
 enum Encoding {
    UTF-8,
    UTF-16,
@@ -114,7 +114,8 @@ struct Email {
 One of the strengths of Thrift is that it allows you to auto-generate RPC-based services. You
 can think of a Service as an interface – the interface will be auto-generated, but it's up to
 you to write a working implementation in your own code.
-```
+
+```java
 service EmailService {
   void send(1:Email email);
   void reply(1:Email original, 2:Email reply);
@@ -124,7 +125,7 @@ service EmailService {
 
 ### Constants
 
-```
+```java
 const i32 MAGIC_NUMBER = 7;
 // Complex types can be specified using JSON notation.
 const list<string> EMAILS = ["foo@example.com", "bar@example.com"];
@@ -133,7 +134,8 @@ const list<string> EMAILS = ["foo@example.com", "bar@example.com"];
 ### Typedefs
 
 Typedefs allow you to create simple type aliases.
-```
+
+```java
 typedef string EmailAddress
 ```
 
@@ -141,7 +143,8 @@ typedef string EmailAddress
 
 Thrift IDL files can be namespaced for easier organization. You can customize the namespacing on
 a per-language basis.
-```
+
+```java
 namespace scala com.example.email
 namespace php example.email
 ```
@@ -149,15 +152,15 @@ namespace php example.email
 ### Includes
 
 You can split your IDLs into multiple files. To include another Thrift file, you just need to supply a filepath.
-```
+
+```java
 include "images.thrift"
 struct ImageAttachments {
     1: list<image.Jpeg> files; // included types are prefixed with the file name.
 }
 ```
 
-What Thrift is not
-==================
+## What Thrift is not
 
 Since Thrift gives allows us to auto-generate a bunch of code for free, it's tempting to build new
 RPC services with Thrift IDLs as a starting point. Some people even build services that rely almost
@@ -169,8 +172,9 @@ makes it difficult to define your own domain-specific behaviors.
 When creating a new service, start with the domain and work outward. Define your models and services in isolation
 of the implementation details of your RPC system. Once the domain is fleshed out, only then should you start
 writing Thrift IDLs and mapping the generated resources and services to your domain code.
-Resources
-=========
+
+## Resources
+
 * [Thrift the Missing Guide](ihttps://diwakergupta.github.io/thrift-missing-guide/)
 * [Apache Thrift](https://thrift.apache.org/)
 * [Wikipedia on Thrift](https://en.wikipedia.org/wiki/Apache_Thrift)
