@@ -57,8 +57,9 @@ Moving further down the stack we reach the transport layer. `TTransport` options
 When most people think of Thrift, they think of the Thrift IDL. The Thrift IDL allows you to define services
 and resources that are exposed over RPC. IDL files can then be used to auto-generate code for these services
 and resources in a wide range of languages.
-Base Types
-----------
+
+### Base Types
+
 * `bool`
 * `byte`
 * `i16`    – 16-bit signed integer
@@ -66,15 +67,18 @@ Base Types
 * `i64`    – 64-bit signed integer
 * `double` – 64-bit floating point number
 * `string` – encoding agnostic string
-Collections
------------
+
+### Collections
+
 * `list<A>`  – an ordered list of elements of type A
 * `set<A>    – an unordered set of elements of type A
 * `map<A, B> – a map of unique keys of type A mapped to values of type B.
-Structs
--------
+
+### Structs
+
 Very similar to a C `struct`. Allows you to structure data within a defined type. Note that while
 structs are similar to classes, they cannot be subtyped/extended.
+
 ```
 struct Email {
     1: required list<string> sentTo;
@@ -84,8 +88,10 @@ struct Email {
     5: optional string encoding = "UTF-8";
 }
 ```
-Enums
------
+
+
+### Enums
+
 Enums allow you to define a type that may only have certain set values. These are just mapped to
 integers (starting with 1), but you can also explicity assign an integer or hex value.
 ```
@@ -102,8 +108,9 @@ struct Email {
     5: optional string encoding = Encoding.UTF-8; // Neat check it out
 }
 ```
-Services
---------
+
+### Services
+
 One of the strengths of Thrift is that it allows you to auto-generate RPC-based services. You
 can think of a Service as an interface – the interface will be auto-generated, but it's up to
 you to write a working implementation in your own code.
@@ -114,29 +121,33 @@ service EmailService {
   list<Email> get(1:string addressee);
 }
 ```
-Constants
----------
+
+### Constants
+
 ```
 const i32 MAGIC_NUMBER = 7;
 // Complex types can be specified using JSON notation.
 const list<string> EMAILS = ["foo@example.com", "bar@example.com"];
 ```
-Typedefs
---------
+
+### Typedefs
+
 Typedefs allow you to create simple type aliases.
 ```
 typedef string EmailAddress
 ```
-Namespaces
-----------
+
+### Namespaces
+
 Thrift IDL files can be namespaced for easier organization. You can customize the namespacing on
 a per-language basis.
 ```
 namespace scala com.example.email
 namespace php example.email
 ```
-Includes
---------
+
+### Includes
+
 You can split your IDLs into multiple files. To include another Thrift file, you just need to supply a filepath.
 ```
 include "images.thrift"
