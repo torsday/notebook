@@ -1,0 +1,62 @@
+ArtifactType:                 11758000EnhancedAlert
+TotalBalanceofAllCollections: 11758000000000210
+WatchAlertId:                 1175800010687451
+AlertId:                      117580009301583
+
+ArtifactType:  81421000EnhancedAlert
+VantageScore3: 81421000692
+WatchAlertId:  8142100010687467
+AlertId:       814210009301595
+
+ArtifactType:                            61755000EnhancedAlert
+CreditLongName:                          61755000CITIZENS BANK NA
+CreditAddress1:                          617550001000 LAFAYETTE BLVD
+CreditAddress2:                          61755000Array
+CreditCity:                              61755000BRIDGEPORT
+CreditState:                             61755000CT
+CreditZip:                               6175500006604
+CreditPhone:                             617550002035513548
+CreditLimitofMostRecentlyPaidTradeLine:  61755000000003800
+CountofPaidTradeLine:                    61755000010
+DatePaidofMostRecentlyPaidTradeLine:     6175500020160318
+DateReportedofMostRecentlyPaidTradeLine: 6175500020160818
+WatchAlertId:                            6175500010687475
+AlertId:                                 617550009301601
+
+ArtifactType:                       16911000EnhancedAlert
+CreditAddress1:                     16911000PO BOX 965024
+CreditAddress2:                     16911000Array
+CreditCity:                         16911000EL PASO
+CreditState:                        16911000TX
+CreditZip:                          1691100079998
+CreditPhone:                        169110008772947880
+CountofRetailCardOverLimit:         16911000002
+DateVerifiedofMostRecentRetailCard: 1691100020160916
+BalanceofMostRecentRetailCard:      16911000000000366
+CreditLimitofMostRecentRetailCard:  16911000000000200
+CreditLongName:                     16911000SYNCB/WAL-MART
+WatchAlertId:                       1691100010687471
+AlertId:                            169110009301597
+
+# Common
+
+ArtifactType:  81420000EnhancedAlert
+WatchAlertId:  8142000010680000
+AlertId:       814200009300000
+
+# Cleaned of prepended ID
+
+ArtifactType:                       EnhancedAlert
+CreditAddress1:                     PO BOX 965024
+CreditAddress2:                     Array
+CreditCity:                         EL PASO
+CreditState:                        TX
+CreditZip:                          79998
+CreditPhone:                        8775557880
+CountofRetailCardOverLimit:         002
+DateVerifiedofMostRecentRetailCard: 20160916
+BalanceofMostRecentRetailCard:      000000366
+CreditLimitofMostRecentRetailCard:  000000200
+CreditLongName:                     SYNCB/WAL-MART
+WatchAlertId:                       10687471
+AlertId:                            9301597

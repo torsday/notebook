@@ -75,12 +75,12 @@ are highlighted.
 
 |   |                                                                                                                                                                                                                              |
 |:-:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   | **Build and Release processes**                                                                                                                                                                                              |
-|   | **[DDD principles](../design/ddd.md)**                                                                                                                                                                                       |
-|   | **[Design Patterns](../design/design_patterns.md):** Gang-of-Four. Common patterns & their ideal usage.                                                                                                                      |
-|   | **[HTTP](../internet/http.md):** Sequence diagram                                                                                                                                                                            |
-|   | **[SOLID Principles](../design/solid.md)**                                                                                                                                                                                   |
-|   | **[TESTING](../testing/README.md):** [Unit Testing](../testing/README.md#unit-testing), [Integration Testing](../testing/README.md#integration-testing), Client Testing                                                      |
+| ✓ | **Build and Release processes**                                                                                                                                                                                              |
+| ✓ | **[DDD principles](../design/ddd.md)**                                                                                                                                                                                       |
+| ✓ | **[Design Patterns](../design/design_patterns.md):** Gang-of-Four. Common patterns & their ideal usage.                                                                                                                      |
+| ✓ | **[HTTP](../internet/http.md):** Sequence diagram                                                                                                                                                                            |
+| ✓ | **[SOLID Principles](../design/solid.md)**                                                                                                                                                                                   |
+| ✓ | **[TESTING](../testing/README.md):** [Unit Testing](../testing/README.md#unit-testing), [Integration Testing](../testing/README.md#integration-testing), Client Testing                                                      |
 | ✓ | **[OOP](../design/oop.md):** [Encapsulation](../design/oop.md#encapsulation), [Inheritance](../design/oop.md#inheritance), [Objects/Classes](../design/oop.md#objectsclasses), [Polymorphism](../design/oop.md#polymorphism) |
 | ✓ | **[REST](../design/rest.md):** RESTful API’s, knowledgeable of common practices and concerns                                                                                                                                 |
 
@@ -96,7 +96,7 @@ are highlighted.
 |:--|:-----:|------------------------------------------------------------------|
 | ✓ |  See  | Pair with someone doing this                                     |
 | ✓ |  Do   | Build with [SOLID Design](../design/solid.md)                    |
-|   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
+| ✓  | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
 
 ---
 
@@ -110,7 +110,7 @@ are highlighted.
 |:--|:-----:|------------------------------------------------------------------|
 | ✓ |  See  | Pair with someone doing this                                     |
 | ✓ |  Do   | Build with DDD Design                                            |
-|   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
+| ✓ | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_ |
 
 ---
 
@@ -122,11 +122,11 @@ are highlighted.
 
 |   |       |                                                                                                     |
 |:--|:-----:|-----------------------------------------------------------------------------------------------------|
-|   |  See  | Pair with someone doing this                                                                        |
-|   |  Do   | Responsible for config of repositories, Jenkins, & test automation for build-release of new service |
-|   |  Do   | New service successfully deployed to production                                                     |
+| ✓ |  See  | Pair with someone doing this                                                                        |
+| ✓ |  Do   | Responsible for config of repositories, Jenkins, & test automation for build-release of new service |
+| ✓ |  Do   | New service successfully deployed to production                                                     |
 | ✓ |  Do   | Tweak configuration for purposes of debugging                                                       |
-|   | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_                                    |
+| ✓ | Teach | Taught said principles to another _(e.g. 1:1, lecture, article)_                                    |
 
 ---
 
@@ -145,7 +145,7 @@ are highlighted.
 | ✓ |  Do   | Build Unit Tests                          |
 | ✓ |  Do   | Build Integration Tests                   |
 | ✓ |  Do   | Build Functional Tests                    |
-|   | Teach | Taught testing to another                 |
+| ✓ | Teach | Taught testing to another                 |
 
 ---
 
@@ -157,15 +157,19 @@ are highlighted.
 
 |   |       |     |
 |:--|:-----:|-----|
-|   |  See  | --- |
-|   |  Do   | --- |
-|   | Teach | --- |
+|  ✓  |  See  | --- |
+|  ✓  |  Do   | --- |
+|  ✓  | Teach | --- |
 
 ---
 
 ## Ownership of `_______`
 
 -   Objective: Own a context, product, or `_______`
+    - Hermes
+    - Reach Canada
+    - `/tax` and waitlist/early-access list
+    - enhanced credit alerts
 
 ### Key Results:
 
