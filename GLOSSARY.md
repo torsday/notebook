@@ -4,6 +4,10 @@
 
 A mathematical model of concurrent computation that treats "actors" as the universal primitives of concurrent computation.
 
+## ALGOL
+
+Algorithmic Language, a family of imperative computer programming languages.
+
 ## APNs
 
 Apple Push Notification service.
@@ -219,6 +223,18 @@ A directory service protocol that runs on a layer above the TCP/IP stack. It pro
 ## LDIF
 
 A standard plain text data interchange format for representing LDAP directory CRUD requests.
+
+## Lexical
+
+Of or relating to the words or vocabulary of a language. e.g. "Lexicon"
+
+## Lexical scope
+
+see: Lexical scoping
+
+## Lexical scoping
+
+With lexical scope, a name always refers to its (more or less) local lexical environment. This is a property of the program text and is made independent of the runtime call stack by the language implementation. Because this matching only requires analysis of the static program text, this type of scoping is also called static scoping. Lexical scoping is standard in all ALGOL-based languages such as Pascal, Modula2 and Ada as well as in modern functional languages such as ML and Haskell. It is also used in the C language and its syntactic and semantic relatives, although with different kinds of limitations. Static scoping allows the programmer to reason about object references such as parameters, variables, constants, types, functions, etc. as simple name substitutions. This makes it much easier to make modular code and reason about it, since the local naming structure can be understood in isolation. In contrast, dynamic scope forces the programmer to anticipate all possible dynamic contexts in which the module's code may be invoked.
 
 ## LIFO
 
